@@ -1,0 +1,459 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Aarav Packaging Pvt Ltd",
+   "word_ids": [
+    "w3",
+    "w4",
+    "w5",
+    "w6"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 224, Business Park, New Delhi, Delhi",
+   "word_ids": [
+    "w10",
+    "w11",
+    "w12",
+    "w13",
+    "w14",
+    "w15",
+    "w16"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "07TBLCA0418Q3ZR",
+   "word_ids": [
+    "w21"
+   ]
+  },
+  "recipient_name": {
+   "text": "Sahyadri Hardware Traders",
+   "word_ids": [
+    "w35",
+    "w36",
+    "w37"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 180, MIDC Road, New Delhi, Delhi",
+   "word_ids": [
+    "w38",
+    "w39",
+    "w40",
+    "w41",
+    "w42",
+    "w43",
+    "w44"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "07UWKCS4128U1ZP",
+   "word_ids": [
+    "w46"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0025",
+   "word_ids": [
+    "w9"
+   ]
+  },
+  "invoice_date": {
+   "text": "21/06/2026",
+   "word_ids": [
+    "w19"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Deihi (07)",
+   "word_ids": [
+    "w25",
+    "w26"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "1.18,703.44",
+   "word_ids": [
+    "w131"
+   ]
+  },
+  "cgst_total": {
+   "text": "5,299.13",
+   "word_ids": [
+    "w133"
+   ]
+  },
+  "sgst_total": {
+   "text": "5.299.13",
+   "word_ids": [
+    "w135"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w137"
+   ]
+  },
+  "round_off": {
+   "text": "0.30",
+   "word_ids": [
+    "w140"
+   ]
+  },
+  "grand_total": {
+   "text": "1,29,302.00",
+   "word_ids": [
+    "w143"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w60",
+      "w61",
+      "w62",
+      "w63"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "unit_price": {
+     "text": "19.922.26",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "taxable_value": {
+     "text": "19.922.26",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "cgst": {
+     "text": "1,793.00",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "sgst": {
+     "text": "1.793.00",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w72"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w74",
+      "w75",
+      "w76",
+      "w77",
+      "w78",
+      "w79",
+      "w80"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "qty": {
+     "text": "25",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "unit_price": {
+     "text": "3.313.34",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "taxable_value": {
+     "text": "82,833.50",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "cgst": {
+     "text": "2,070.84",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "sgst": {
+     "text": "2.070.84",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w89"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w91",
+      "w92",
+      "w93",
+      "w94"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "qty": {
+     "text": "5",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "unit_price": {
+     "text": "87.98",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "taxable_value": {
+     "text": "439.90",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "cgst": {
+     "text": "39.59",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "sgst": {
+     "text": "39.59",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w103"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w104",
+      "w105",
+      "w106"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "unit_price": {
+     "text": "8.596.02",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "taxable_value": {
+     "text": "8.596.02",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "cgst": {
+     "text": "773.64",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "sgst": {
+     "text": "773.64",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w115"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w116",
+      "w117",
+      "w118",
+      "w119"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w120"
+     ]
+    },
+    "qty": {
+     "text": "12",
+     "word_ids": [
+      "w121"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w122"
+     ]
+    },
+    "unit_price": {
+     "text": "575.98",
+     "word_ids": [
+      "w123"
+     ]
+    },
+    "taxable_value": {
+     "text": "6.911.76",
+     "word_ids": [
+      "w124"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "cgst": {
+     "text": "622.06",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "sgst": {
+     "text": "622.06",
+     "word_ids": [
+      "w127"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w128"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 8.64,
+  "prompt_tokens": 2058,
+  "completion_tokens": 1904,
+  "cache_key": "dc7a9dcedab55a6caa12e4ef5850c6959bf233095295d9673c0d3fa0f0ebbbd2"
+ }
+}

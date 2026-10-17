@@ -1,0 +1,332 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Trikon Electricals LLP",
+   "word_ids": [
+    "w25",
+    "w26",
+    "w27"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 191, MIDC Road, Kolkata, West Bengal",
+   "word_ids": [
+    "w31",
+    "w32",
+    "w33",
+    "w34",
+    "w35",
+    "w36",
+    "w37"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "19JFZCT9690B2ZV",
+   "word_ids": [
+    "w42"
+   ]
+  },
+  "recipient_name": {
+   "text": "Vistar Electricals LLP",
+   "word_ids": [
+    "w58",
+    "w59",
+    "w60"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 231, MIDC Road, Chennai, Tamil Nadu",
+   "word_ids": [
+    "w61",
+    "w62",
+    "w63",
+    "w64",
+    "w65",
+    "w66",
+    "w67"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "33JVPCV1741U2Z1",
+   "word_ids": [
+    "w69"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0001",
+   "word_ids": [
+    "w30"
+   ]
+  },
+  "invoice_date": {
+   "text": "02/04/2026",
+   "word_ids": [
+    "w40"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Tamil Nadu (33)",
+   "word_ids": [
+    "w46",
+    "w47",
+    "w48"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w55"
+   ]
+  },
+  "irn": {
+   "text": "b656dab90e4b116de5de36984c4223098bcae0375892f76526f6f16850383178",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "20,287.90",
+   "word_ids": [
+    "w130"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w132"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w134"
+   ]
+  },
+  "igst_total": {
+   "text": "1,044.97",
+   "word_ids": [
+    "w136"
+   ]
+  },
+  "round_off": {
+   "text": "0.13",
+   "word_ids": [
+    "w139"
+   ]
+  },
+  "grand_total": {
+   "text": "21,333.00",
+   "word_ids": [
+    "w142"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w84",
+      "w85",
+      "w86"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "qty": {
+     "text": "5",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "unit_price": {
+     "text": "47.03",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "taxable_value": {
+     "text": "235.15",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "igst": {
+     "text": "42.33",
+     "word_ids": [
+      "w95"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Stretch wrap film 23 micron",
+     "word_ids": [
+      "w97",
+      "w98",
+      "w99",
+      "w100",
+      "w101"
+     ]
+    },
+    "hsn": {
+     "text": "39201012",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "qty": {
+     "text": "25",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "unit_price": {
+     "text": "159.13",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "taxable_value": {
+     "text": "3,978.25",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "igst": {
+     "text": "198.91",
+     "word_ids": [
+      "w110"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w112",
+      "w113",
+      "w114",
+      "w115",
+      "w116",
+      "w117",
+      "w118"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w119"
+     ]
+    },
+    "qty": {
+     "text": "5",
+     "word_ids": [
+      "w120"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w121"
+     ]
+    },
+    "unit_price": {
+     "text": "3,214.90",
+     "word_ids": [
+      "w122"
+     ]
+    },
+    "taxable_value": {
+     "text": "16,074.50",
+     "word_ids": [
+      "w123"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w124"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "igst": {
+     "text": "803.73",
+     "word_ids": [
+      "w127"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 13.83,
+  "prompt_tokens": 2036,
+  "completion_tokens": 1445,
+  "cache_key": "26e95dfb04daabe165bb22c2b43ef5c876b89069ea2c91d04677880871e792ab"
+ }
+}

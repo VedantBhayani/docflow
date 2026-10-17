@@ -1,0 +1,391 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Pragati Fabrication Enterprises",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 182, Business Park, New Delhi. Delhi",
+   "word_ids": [
+    "w4",
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "07AGZCP5607P2Z1",
+   "word_ids": [
+    "w12"
+   ]
+  },
+  "recipient_name": {
+   "text": "Sahyadri Polymers Traders",
+   "word_ids": [
+    "w19",
+    "w20",
+    "w21"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 234, Industrial Estate, Nagpur. Maharashtra",
+   "word_ids": [
+    "w27",
+    "w28",
+    "w29",
+    "w30",
+    "w31",
+    "w32"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "27QXNCS1693J3ZY",
+   "word_ids": [
+    "w39"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0054",
+   "word_ids": [
+    "w18"
+   ]
+  },
+  "invoice_date": {
+   "text": "03 Jun 2026",
+   "word_ids": [
+    "w24",
+    "w25",
+    "w26"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Maharashtra (27)",
+   "word_ids": [
+    "w36",
+    "w37"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w42"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "89.020.01",
+   "word_ids": [
+    "w115"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w117"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w119"
+   ]
+  },
+  "igst_total": {
+   "text": "14,786.92",
+   "word_ids": [
+    "w121"
+   ]
+  },
+  "round_off": {
+   "text": "0.07",
+   "word_ids": [
+    "w123"
+   ]
+  },
+  "grand_total": {
+   "text": "1,03,807.00",
+   "word_ids": [
+    "w125"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w57"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w59"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w60"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w61"
+     ]
+    },
+    "unit_price": {
+     "text": "2,636.46",
+     "word_ids": [
+      "w62"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,636.46",
+     "word_ids": [
+      "w63"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "igst": {
+     "text": "131.82",
+     "word_ids": [
+      "w67"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w69",
+      "w70",
+      "w71",
+      "w72",
+      "w73",
+      "w74"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w76"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w77"
+     ]
+    },
+    "unit_price": {
+     "text": "275.06",
+     "word_ids": [
+      "w78"
+     ]
+    },
+    "taxable_value": {
+     "text": "6.876.50",
+     "word_ids": [
+      "w79"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "igst": {
+     "text": "343.83",
+     "word_ids": [
+      "w83"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w86",
+      "w87",
+      "w88"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "qty": {
+     "text": "10.00",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "unit_price": {
+     "text": "7.586.88",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "taxable_value": {
+     "text": "75.868.80",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "igst": {
+     "text": "13.656.38",
+     "word_ids": [
+      "w97"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Stretch wrap film 23 micron",
+     "word_ids": [
+      "w99",
+      "w100",
+      "w101",
+      "w102",
+      "w103"
+     ]
+    },
+    "hsn": {
+     "text": "39201012",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "unit_price": {
+     "text": "145.53",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "taxable_value": {
+     "text": "3.638.25",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "igst": {
+     "text": "654.89",
+     "word_ids": [
+      "w112"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 6.98,
+  "prompt_tokens": 1842,
+  "completion_tokens": 1602,
+  "cache_key": "dc6fa659160826bf75538404547f0c647842b9a365cf65d7abb8082c391075ca"
+ }
+}

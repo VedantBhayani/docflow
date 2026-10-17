@@ -1,0 +1,461 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Trikon Hardware LLP",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 98, Business Park, Hyderabad, Telangana",
+   "word_ids": [
+    "w4",
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "36QJDCT3041J1ZG",
+   "word_ids": [
+    "w11"
+   ]
+  },
+  "recipient_name": {
+   "text": "Anvay IT Services LLP",
+   "word_ids": [
+    "w18",
+    "w19",
+    "w20",
+    "w21"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 90, Industrial Estate, Hyderabad, Telangana",
+   "word_ids": [
+    "w28",
+    "w29",
+    "w30",
+    "w31",
+    "w32",
+    "w33"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "36NZUCA0090X3ZS",
+   "word_ids": [
+    "w41"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0047",
+   "word_ids": [
+    "w17"
+   ]
+  },
+  "invoice_date": {
+   "text": "24 Aug 2026",
+   "word_ids": [
+    "w25",
+    "w26",
+    "w27"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Telangana (36)",
+   "word_ids": [
+    "w38",
+    "w39"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w45"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "77,468.18",
+   "word_ids": [
+    "w137"
+   ]
+  },
+  "cgst_total": {
+   "text": "5,109.76",
+   "word_ids": [
+    "w139"
+   ]
+  },
+  "sgst_total": {
+   "text": "5,109.76",
+   "word_ids": [
+    "w141"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w143"
+   ]
+  },
+  "round_off": {
+   "text": "0.30",
+   "word_ids": [
+    "w145"
+   ]
+  },
+  "grand_total": {
+   "text": "87,688.00",
+   "word_ids": [
+    "w147"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w62",
+      "w63",
+      "w64",
+      "w65",
+      "w66",
+      "w67",
+      "w68"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "qty": {
+     "text": "3.00",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "unit_price": {
+     "text": "3,353.58",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "taxable_value": {
+     "text": "10,060.74",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "cgst": {
+     "text": "251.52",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "sgst": {
+     "text": "251.52",
+     "word_ids": [
+      "w76"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w77"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w79",
+      "w80",
+      "w81",
+      "w82"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "qty": {
+     "text": "40.00",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "unit_price": {
+     "text": "633.98",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "taxable_value": {
+     "text": "25,359.20",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "cgst": {
+     "text": "2,282.33",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "sgst": {
+     "text": "2,282.33",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w91"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w93",
+      "w94",
+      "w95",
+      "w96"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "unit_price": {
+     "text": "17,638.19",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "taxable_value": {
+     "text": "17,638.19",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "cgst": {
+     "text": "440.95",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "sgst": {
+     "text": "440.95",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w105"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w107",
+      "w108",
+      "w109"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "qty": {
+     "text": "5.00",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "unit_price": {
+     "text": "4,691.42",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "taxable_value": {
+     "text": "23,457.10",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "cgst": {
+     "text": "2,111.14",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "sgst": {
+     "text": "2,111.14",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w118"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w120",
+      "w121",
+      "w122",
+      "w123",
+      "w124",
+      "w125"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "qty": {
+     "text": "3.00",
+     "word_ids": [
+      "w127"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w128"
+     ]
+    },
+    "unit_price": {
+     "text": "317.65",
+     "word_ids": [
+      "w129"
+     ]
+    },
+    "taxable_value": {
+     "text": "952.95",
+     "word_ids": [
+      "w130"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w131"
+     ]
+    },
+    "cgst": {
+     "text": "23.82",
+     "word_ids": [
+      "w132"
+     ]
+    },
+    "sgst": {
+     "text": "23.82",
+     "word_ids": [
+      "w133"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w134"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 7.62,
+  "prompt_tokens": 2058,
+  "completion_tokens": 1925,
+  "cache_key": "be647ec7c0c4319e862810a1eef47776bb50fa75e9e0546b119b91dca34cdef4"
+ }
+}

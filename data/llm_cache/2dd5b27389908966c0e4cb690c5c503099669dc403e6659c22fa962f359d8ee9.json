@@ -1,0 +1,328 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Kaveri Fabrication Industries Pvt Ltd",
+   "word_ids": [
+    "w25",
+    "w26",
+    "w27",
+    "w28",
+    "w29"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 82, Business Park, Lucknow, Uttar Pradesh",
+   "word_ids": [
+    "w33",
+    "w34",
+    "w35",
+    "w36",
+    "w37",
+    "w38",
+    "w39"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "09YHECK1005O3ZE",
+   "word_ids": [
+    "w44"
+   ]
+  },
+  "recipient_name": {
+   "text": "Kaveri Stationers Traders",
+   "word_ids": [
+    "w59",
+    "w60",
+    "w61"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 190, Industrial Estate, New Delhi, Delhi",
+   "word_ids": [
+    "w62",
+    "w63",
+    "w64",
+    "w65",
+    "w66",
+    "w67",
+    "w68"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "07YXUCK4175E2Z6",
+   "word_ids": [
+    "w70"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0016",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "30/04/2026",
+   "word_ids": [
+    "w42"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Delhi (07)",
+   "word_ids": [
+    "w48",
+    "w49"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w56"
+   ]
+  },
+  "irn": {
+   "text": "ed4d5eb8770037d1ab5bcc3be14a60fa7d6bc6e4a6a08e724d0a6962765cde49",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "25,945.91",
+   "word_ids": [
+    "w127"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w129"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w131"
+   ]
+  },
+  "igst_total": {
+   "text": "2,101.62",
+   "word_ids": [
+    "w133"
+   ]
+  },
+  "round_off": {
+   "text": "0.47",
+   "word_ids": [
+    "w136"
+   ]
+  },
+  "grand_total": {
+   "text": "28,048.00",
+   "word_ids": [
+    "w139"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w85",
+      "w86"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "unit_price": {
+     "text": "2,443.82",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,443.82",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "igst": {
+     "text": "439.89",
+     "word_ids": [
+      "w95"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w97",
+      "w98",
+      "w99"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "unit_price": {
+     "text": "19,758.84",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "taxable_value": {
+     "text": "19,758.84",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "igst": {
+     "text": "987.94",
+     "word_ids": [
+      "w109"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Stretch wrap film 23 micron",
+     "word_ids": [
+      "w111",
+      "w112",
+      "w113",
+      "w114",
+      "w115"
+     ]
+    },
+    "hsn": {
+     "text": "39201012",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "qty": {
+     "text": "25",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w118"
+     ]
+    },
+    "unit_price": {
+     "text": "149.73",
+     "word_ids": [
+      "w119"
+     ]
+    },
+    "taxable_value": {
+     "text": "3,743.25",
+     "word_ids": [
+      "w120"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w121"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w122"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w123"
+     ]
+    },
+    "igst": {
+     "text": "673.79",
+     "word_ids": [
+      "w124"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 6.95,
+  "prompt_tokens": 2019,
+  "completion_tokens": 1405,
+  "cache_key": "2dd5b27389908966c0e4cb690c5c503099669dc403e6659c22fa962f359d8ee9"
+ }
+}

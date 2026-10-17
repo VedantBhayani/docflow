@@ -1,0 +1,331 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Meghdoot Electricals Pvt Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 199, Trade Centre, Lucknow, Uttar Pradesh",
+   "word_ids": [
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "09PNOCM2599Z1ZL",
+   "word_ids": [
+    "w13"
+   ]
+  },
+  "recipient_name": {
+   "text": "Anvay Textiles Industries Pvt Ltd",
+   "word_ids": [
+    "w21",
+    "w22",
+    "w23",
+    "w24",
+    "w25"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 17, Industrial Estate, Noida, Uttar Pradesh",
+   "word_ids": [
+    "w32",
+    "w33",
+    "w34",
+    "w35",
+    "w36",
+    "w37",
+    "w38"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "09YDPCA0885G1ZI",
+   "word_ids": [
+    "w47"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0032",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "invoice_date": {
+   "text": "04 Sep 2026",
+   "word_ids": [
+    "w29",
+    "w30",
+    "w31"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Uttar Pradesh (09)",
+   "word_ids": [
+    "w43",
+    "w44",
+    "w45"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w51"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "29,674.13",
+   "word_ids": [
+    "w110"
+   ]
+  },
+  "cgst_total": {
+   "text": "1,381.26",
+   "word_ids": [
+    "w112"
+   ]
+  },
+  "sgst_total": {
+   "text": "1,381.26",
+   "word_ids": [
+    "w114"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w116"
+   ]
+  },
+  "round_off": {
+   "text": "0.35",
+   "word_ids": [
+    "w118"
+   ]
+  },
+  "grand_total": {
+   "text": "32,437.00",
+   "word_ids": [
+    "w120"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w68",
+      "w69",
+      "w70"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "qty": {
+     "text": "10.00",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "unit_price": {
+     "text": "49.64",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "taxable_value": {
+     "text": "496.40",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w76"
+     ]
+    },
+    "cgst": {
+     "text": "12.41",
+     "word_ids": [
+      "w77"
+     ]
+    },
+    "sgst": {
+     "text": "12.41",
+     "word_ids": [
+      "w78"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w79"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w81",
+      "w82",
+      "w83",
+      "w84"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "qty": {
+     "text": "100.00",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "unit_price": {
+     "text": "98.37",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "taxable_value": {
+     "text": "9,837.00",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "cgst": {
+     "text": "885.33",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "sgst": {
+     "text": "885.33",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w93"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w95",
+      "w96",
+      "w97",
+      "w98"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "unit_price": {
+     "text": "19,340.73",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "taxable_value": {
+     "text": "19,340.73",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "cgst": {
+     "text": "483.52",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "sgst": {
+     "text": "483.52",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w107"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 5.71,
+  "prompt_tokens": 1758,
+  "completion_tokens": 1371,
+  "cache_key": "9bb66bf86cce6e3283cbf874638a0a29a2c124e1dd547961428592d3bf717ace"
+ }
+}

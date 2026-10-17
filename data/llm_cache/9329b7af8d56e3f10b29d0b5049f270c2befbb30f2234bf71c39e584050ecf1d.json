@@ -1,0 +1,461 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Kaveri Polymers Traders",
+   "word_ids": [
+    "w3",
+    "w4",
+    "w5"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 125, Trade Centre, Coimbatore, Tamil Nadu",
+   "word_ids": [
+    "w9",
+    "w10",
+    "w11",
+    "w12",
+    "w13",
+    "w14",
+    "w15"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "33YJFCK7380I2Z7",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "recipient_name": {
+   "text": "Anvay IT Services Industries Pvt Ltd",
+   "word_ids": [
+    "w36",
+    "w37",
+    "w38",
+    "w39",
+    "w40",
+    "w41"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 217, Industrial Estate, Coimbatore, Tamil Nadu",
+   "word_ids": [
+    "w42",
+    "w43",
+    "w44",
+    "w45",
+    "w46",
+    "w47",
+    "w48"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "33WZFCA4396B2ZX",
+   "word_ids": [
+    "w50"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0010",
+   "word_ids": [
+    "w8"
+   ]
+  },
+  "invoice_date": {
+   "text": "27/07/2026",
+   "word_ids": [
+    "w18"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Tamil Nadu (33)",
+   "word_ids": [
+    "w24",
+    "w25",
+    "w26"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w33"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "1,12,999.52",
+   "word_ids": [
+    "w137"
+   ]
+  },
+  "cgst_total": {
+   "text": "5,384.49",
+   "word_ids": [
+    "w139"
+   ]
+  },
+  "sgst_total": {
+   "text": "5,384.49",
+   "word_ids": [
+    "w141"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w143"
+   ]
+  },
+  "round_off": {
+   "text": "0.50",
+   "word_ids": [
+    "w146"
+   ]
+  },
+  "grand_total": {
+   "text": "1,23,769.00",
+   "word_ids": [
+    "w149"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w65",
+      "w66",
+      "w67"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "qty": {
+     "text": "3",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "unit_price": {
+     "text": "43.48",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "taxable_value": {
+     "text": "130.44",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "cgst": {
+     "text": "11.74",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "sgst": {
+     "text": "11.74",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w76"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Stretch wrap film 23 micron",
+     "word_ids": [
+      "w78",
+      "w79",
+      "w80",
+      "w81",
+      "w82"
+     ]
+    },
+    "hsn": {
+     "text": "39201012",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "qty": {
+     "text": "100",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "unit_price": {
+     "text": "191.40",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "taxable_value": {
+     "text": "19,140.00",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "cgst": {
+     "text": "1,722.60",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "sgst": {
+     "text": "1,722.60",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w91"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w93",
+      "w94",
+      "w95",
+      "w96"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "unit_price": {
+     "text": "20,106.48",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "taxable_value": {
+     "text": "20,106.48",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "cgst": {
+     "text": "1,809.58",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "sgst": {
+     "text": "1,809.58",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w105"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w107",
+      "w108"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "unit_price": {
+     "text": "2,659.10",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,659.10",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "cgst": {
+     "text": "66.48",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "sgst": {
+     "text": "66.48",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w117"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w119",
+      "w120",
+      "w121",
+      "w122",
+      "w123",
+      "w124",
+      "w125"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "qty": {
+     "text": "25",
+     "word_ids": [
+      "w127"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w128"
+     ]
+    },
+    "unit_price": {
+     "text": "2,838.54",
+     "word_ids": [
+      "w129"
+     ]
+    },
+    "taxable_value": {
+     "text": "70,963.50",
+     "word_ids": [
+      "w130"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w131"
+     ]
+    },
+    "cgst": {
+     "text": "1,774.09",
+     "word_ids": [
+      "w132"
+     ]
+    },
+    "sgst": {
+     "text": "1,774.09",
+     "word_ids": [
+      "w133"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w134"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 7.9,
+  "prompt_tokens": 2107,
+  "completion_tokens": 1925,
+  "cache_key": "9329b7af8d56e3f10b29d0b5049f270c2befbb30f2234bf71c39e584050ecf1d"
+ }
+}

@@ -1,0 +1,263 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Sahyadri Fabrication Pvt Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 231, MIDC Road, Noida, Uttar Pradesh",
+   "word_ids": [
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "09NABCS3230C2ZH",
+   "word_ids": [
+    "w13"
+   ]
+  },
+  "recipient_name": {
+   "text": "Nimbus Office Supplies Pvt Ltd",
+   "word_ids": [
+    "w21",
+    "w22",
+    "w23",
+    "w24",
+    "w25"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 160, Business Park, Nagpur, Maharashtra",
+   "word_ids": [
+    "w32",
+    "w33",
+    "w34",
+    "w35",
+    "w36",
+    "w37"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "27FNGCN8637D2ZD",
+   "word_ids": [
+    "w45"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0043",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "invoice_date": {
+   "text": "01 Apr 2026",
+   "word_ids": [
+    "w29",
+    "w30",
+    "w31"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Maharashtra (27)",
+   "word_ids": [
+    "w42",
+    "w43"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w49"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "5,121.35",
+   "word_ids": [
+    "w93"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w95"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w97"
+   ]
+  },
+  "igst_total": {
+   "text": "921.84",
+   "word_ids": [
+    "w99"
+   ]
+  },
+  "round_off": {
+   "text": "-0.19",
+   "word_ids": [
+    "w101"
+   ]
+  },
+  "grand_total": {
+   "text": "6,043.00",
+   "word_ids": [
+    "w103"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w66",
+      "w67"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "unit_price": {
+     "text": "2,393.85",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,393.85",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "igst": {
+     "text": "430.89",
+     "word_ids": [
+      "w76"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w78",
+      "w79",
+      "w80",
+      "w81"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "unit_price": {
+     "text": "109.10",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,727.50",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "igst": {
+     "text": "490.95",
+     "word_ids": [
+      "w90"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 4.91,
+  "prompt_tokens": 1576,
+  "completion_tokens": 1122,
+  "cache_key": "150745527309ddfd88c5b5f9afa95b350321aae79bfa07e3bb052b2276701630"
+ }
+}

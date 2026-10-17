@@ -1,0 +1,402 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Nimbus Logistics Industries Pvt Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4",
+    "w5"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 40, Business Park, Kolkata, West Bengal",
+   "word_ids": [
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11",
+    "w12"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "19IVDCN4043N1ZQ",
+   "word_ids": [
+    "w13",
+    "w14"
+   ]
+  },
+  "recipient_name": {
+   "text": "Sahyadri Office Supplies LLP",
+   "word_ids": [
+    "w22",
+    "w23",
+    "w24",
+    "w25"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 203, Trade Centre, Kolkata, West Bengal",
+   "word_ids": [
+    "w32",
+    "w33",
+    "w34",
+    "w35",
+    "w36",
+    "w37",
+    "w38"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "19OBFCS8325G3ZM",
+   "word_ids": [
+    "w46",
+    "w47"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0042",
+   "word_ids": [
+    "w21"
+   ]
+  },
+  "invoice_date": {
+   "text": "25 Jul 2026",
+   "word_ids": [
+    "w29",
+    "w30",
+    "w31"
+   ]
+  },
+  "place_of_supply": {
+   "text": "West Bengal (19)",
+   "word_ids": [
+    "w43",
+    "w44",
+    "w45"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w51"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "40,862.01",
+   "word_ids": [
+    "w128"
+   ]
+  },
+  "cgst_total": {
+   "text": "2,873.40",
+   "word_ids": [
+    "w130"
+   ]
+  },
+  "sgst_total": {
+   "text": "2,873.40",
+   "word_ids": [
+    "w132"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w134"
+   ]
+  },
+  "round_off": {
+   "text": "0.19",
+   "word_ids": [
+    "w136"
+   ]
+  },
+  "grand_total": {
+   "text": "46,609.00",
+   "word_ids": [
+    "w138"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w68",
+      "w69",
+      "w70",
+      "w71",
+      "w72",
+      "w73",
+      "w74"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "qty": {
+     "text": "3.00",
+     "word_ids": [
+      "w76"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w77"
+     ]
+    },
+    "unit_price": {
+     "text": "3,178.06",
+     "word_ids": [
+      "w78"
+     ]
+    },
+    "taxable_value": {
+     "text": "9,534.18",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "cgst": {
+     "text": "238.35",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "sgst": {
+     "text": "238.35",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w84"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w85",
+      "w86",
+      "w87",
+      "w88"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "qty": {
+     "text": "10.00",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "unit_price": {
+     "text": "656.88",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "taxable_value": {
+     "text": "6,568.80",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "cgst": {
+     "text": "591.19",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "sgst": {
+     "text": "591.19",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w98"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w99",
+      "w100",
+      "w101",
+      "w102"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "unit_price": {
+     "text": "21,921.28",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "taxable_value": {
+     "text": "21,921.28",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "cgst": {
+     "text": "1,972.92",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "sgst": {
+     "text": "1,972.92",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w112"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w113",
+      "w114",
+      "w115",
+      "w116"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w118"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w119"
+     ]
+    },
+    "unit_price": {
+     "text": "113.51",
+     "word_ids": [
+      "w120"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,837.75",
+     "word_ids": [
+      "w122"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w123"
+     ]
+    },
+    "cgst": {
+     "text": "70.94",
+     "word_ids": [
+      "w124"
+     ]
+    },
+    "sgst": {
+     "text": "70.94",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w126"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 7.72,
+  "prompt_tokens": 1941,
+  "completion_tokens": 1684,
+  "cache_key": "dfba9ca3e54cf7fc00c698c123727a85214e30efcc060645c7eb01821098470b"
+ }
+}

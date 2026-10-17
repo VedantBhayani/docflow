@@ -1,0 +1,196 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Kaveri Office Supplies LLP",
+   "word_ids": [
+    "w3",
+    "w4",
+    "w5",
+    "w6"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 1, Trade Centre, Gandhinagar, Gujarat",
+   "word_ids": [
+    "w10",
+    "w11",
+    "w12",
+    "w13",
+    "w14",
+    "w15"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "24LFTCK8634X2ZI",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "recipient_name": {
+   "text": "Aarav Hardware LLP",
+   "word_ids": [
+    "w35",
+    "w36",
+    "w37"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 220, Trade Centre, Chennai, Tamil Nadu",
+   "word_ids": [
+    "w38",
+    "w39",
+    "w40",
+    "w41",
+    "w42",
+    "w43",
+    "w44"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "33JMJCA9778X1ZC",
+   "word_ids": [
+    "w46"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0002",
+   "word_ids": [
+    "w9"
+   ]
+  },
+  "invoice_date": {
+   "text": "08/10/2026",
+   "word_ids": [
+    "w18"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Tamil Nadu (33)",
+   "word_ids": [
+    "w24",
+    "w25",
+    "w26"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "5,777.65",
+   "word_ids": [
+    "w75"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w77"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w79"
+   ]
+  },
+  "igst_total": {
+   "text": "288.88",
+   "word_ids": [
+    "w81"
+   ]
+  },
+  "round_off": {
+   "text": "0.47",
+   "word_ids": [
+    "w84"
+   ]
+  },
+  "grand_total": {
+   "text": "6,067.00",
+   "word_ids": [
+    "w87"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w61",
+      "w62",
+      "w63"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "unit_price": {
+     "text": "5,777.65",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "taxable_value": {
+     "text": "5,777.65",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "igst": {
+     "text": "288.88",
+     "word_ids": [
+      "w72"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 3.66,
+  "prompt_tokens": 1451,
+  "completion_tokens": 802,
+  "cache_key": "64e534424bccd31a7803ff425d152631d4193c0c4c1ba3c350e13763bab27349"
+ }
+}

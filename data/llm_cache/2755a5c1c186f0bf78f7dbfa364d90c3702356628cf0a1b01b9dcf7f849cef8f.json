@@ -1,0 +1,196 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Sarthi Electricals Enterprises",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 13, Trade Centre, Mysuru, Karnataka",
+   "word_ids": [
+    "w4",
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "29ZTPCS6519J3ZS",
+   "word_ids": [
+    "w11"
+   ]
+  },
+  "recipient_name": {
+   "text": "Kaveri IT Services Enterprises",
+   "word_ids": [
+    "w18",
+    "w19",
+    "w20",
+    "w21"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 74, Business Park, Bengaluru, Karnataka",
+   "word_ids": [
+    "w28",
+    "w29",
+    "w30",
+    "w31",
+    "w32",
+    "w33"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "29CSJCK5558X3ZY",
+   "word_ids": [
+    "w41"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0049",
+   "word_ids": [
+    "w17"
+   ]
+  },
+  "invoice_date": {
+   "text": "02 Apr 2026",
+   "word_ids": [
+    "w25",
+    "w26",
+    "w27"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Karnataka (29)",
+   "word_ids": [
+    "w38",
+    "w39"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w45"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "413.80",
+   "word_ids": [
+    "w76"
+   ]
+  },
+  "cgst_total": {
+   "text": "10.35",
+   "word_ids": [
+    "w78"
+   ]
+  },
+  "sgst_total": {
+   "text": "10.35",
+   "word_ids": [
+    "w80"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w82"
+   ]
+  },
+  "round_off": {
+   "text": "0.50",
+   "word_ids": [
+    "w84"
+   ]
+  },
+  "grand_total": {
+   "text": "435.00",
+   "word_ids": [
+    "w86"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w61",
+      "w62",
+      "w63"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "qty": {
+     "text": "5.00",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "unit_price": {
+     "text": "82.76",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "taxable_value": {
+     "text": "413.80",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "cgst": {
+     "text": "10.35",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "sgst": {
+     "text": "10.35",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w73"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 3.69,
+  "prompt_tokens": 1397,
+  "completion_tokens": 792,
+  "cache_key": "2755a5c1c186f0bf78f7dbfa364d90c3702356628cf0a1b01b9dcf7f849cef8f"
+ }
+}

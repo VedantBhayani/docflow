@@ -1,0 +1,196 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Meghdoot Hardware Pvt Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 17, Business Park, New Delhi, Delhi",
+   "word_ids": [
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "07QHWCM8731S2ZC",
+   "word_ids": [
+    "w13"
+   ]
+  },
+  "recipient_name": {
+   "text": "Aarav Hardware Industries Pvt Ltd",
+   "word_ids": [
+    "w21",
+    "w22",
+    "w23",
+    "w24",
+    "w25"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 59, Business Park, Pune, Maharashtra",
+   "word_ids": [
+    "w32",
+    "w33",
+    "w34",
+    "w35",
+    "w36",
+    "w37"
+   ]
+  },
+  "recipient_gstin": {
+   "text": null,
+   "word_ids": []
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0034",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "invoice_date": {
+   "text": "14 Aug 2026",
+   "word_ids": [
+    "w29",
+    "w30",
+    "w31"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Maharashtra (27)",
+   "word_ids": [
+    "w42",
+    "w43"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w47"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "2,419.92",
+   "word_ids": [
+    "w77"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w79"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w81"
+   ]
+  },
+  "igst_total": {
+   "text": "435.59",
+   "word_ids": [
+    "w83"
+   ]
+  },
+  "round_off": {
+   "text": "0.49",
+   "word_ids": [
+    "w85"
+   ]
+  },
+  "grand_total": {
+   "text": "2,856.00",
+   "word_ids": [
+    "w87"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w64",
+      "w65"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "unit_price": {
+     "text": "2,419.92",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,419.92",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "igst": {
+     "text": "435.59",
+     "word_ids": [
+      "w74"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 4.32,
+  "prompt_tokens": 1393,
+  "completion_tokens": 789,
+  "cache_key": "24667c584a4f33ae22a05785393c6b3f9d581ec8d6f3194aec5d8c3e6ceafddc"
+ }
+}

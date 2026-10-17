@@ -1,0 +1,328 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Meghdoot Packaging LLP",
+   "word_ids": [
+    "w3",
+    "w4",
+    "w5"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 37, MIDC Road. Kolkata, West Bengal",
+   "word_ids": [
+    "w9",
+    "w10",
+    "w11",
+    "w12",
+    "w13",
+    "w14",
+    "w15"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "19GLACM0674U1ZX",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "recipient_name": {
+   "text": "Sahyadri Stationers Enterprises",
+   "word_ids": [
+    "w36",
+    "w37",
+    "w38"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 88, Industrial Estate, Kolkata, West Bengal",
+   "word_ids": [
+    "w39",
+    "w40",
+    "w41",
+    "w42",
+    "w43",
+    "w44",
+    "w45"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "19CLZCS2165D2Z6",
+   "word_ids": [
+    "w47"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0027",
+   "word_ids": [
+    "w8"
+   ]
+  },
+  "invoice_date": {
+   "text": "01/10/2026",
+   "word_ids": [
+    "w18"
+   ]
+  },
+  "place_of_supply": {
+   "text": "West Bengal (19)",
+   "word_ids": [
+    "w24",
+    "w25",
+    "w26"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w33"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "1.10,433.04",
+   "word_ids": [
+    "w105"
+   ]
+  },
+  "cgst_total": {
+   "text": "4,814.89",
+   "word_ids": [
+    "w107"
+   ]
+  },
+  "sgst_total": {
+   "text": "4.814.89",
+   "word_ids": [
+    "w109"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w111"
+   ]
+  },
+  "round_off": {
+   "text": "0.18",
+   "word_ids": [
+    "w114"
+   ]
+  },
+  "grand_total": {
+   "text": "1,20,063.00",
+   "word_ids": [
+    "w117"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w61",
+      "w62",
+      "w63"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "qty": {
+     "text": "NOS",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "uqc": {
+     "text": "6.326.04",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "unit_price": {
+     "text": "6.326.04",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "taxable_value": {
+     "text": "158.15",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "cgst": {
+     "text": "158.15",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w71"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w73",
+      "w74",
+      "w75",
+      "w76",
+      "w77",
+      "w78"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w79"
+     ]
+    },
+    "qty": {
+     "text": "100",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "unit_price": {
+     "text": "316.01",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "taxable_value": {
+     "text": "31,601.00",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "cgst": {
+     "text": "2.844.09",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "sgst": {
+     "text": "2.844.09",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w87"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w90",
+      "w91",
+      "w92",
+      "w93"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "qty": {
+     "text": "100",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "unit_price": {
+     "text": "725.06",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "taxable_value": {
+     "text": "72.506.00",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "cgst": {
+     "text": "1,812.65",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "sgst": {
+     "text": "1,812.65",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w102"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 7.34,
+  "prompt_tokens": 1781,
+  "completion_tokens": 1365,
+  "cache_key": "9b0f08c62aea5db91f8310074a44c22276e8a2871019287070a3bb143bbea689"
+ }
+}

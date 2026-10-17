@@ -1,0 +1,262 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Shakti Packaging Enterprises",
+   "word_ids": [
+    "w3",
+    "w4",
+    "w5"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 210, Business Park, Hyderabad, Telangana",
+   "word_ids": [
+    "w9",
+    "w10",
+    "w11",
+    "w12",
+    "w13",
+    "w14"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "36IPKCS4316Z1Z6",
+   "word_ids": [
+    "w19"
+   ]
+  },
+  "recipient_name": {
+   "text": "Aarav Textiles LLP",
+   "word_ids": [
+    "w33",
+    "w34",
+    "w35"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 86, Trade Centre, Hyderabad, Telangana",
+   "word_ids": [
+    "w36",
+    "w37",
+    "w38",
+    "w39",
+    "w40",
+    "w41"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "36QLVCA8500G3ZC",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0019",
+   "word_ids": [
+    "w8"
+   ]
+  },
+  "invoice_date": {
+   "text": "02/07/2026",
+   "word_ids": [
+    "w17"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Telangana (36)",
+   "word_ids": [
+    "w23",
+    "w24"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w30"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "5,519.34",
+   "word_ids": [
+    "w89",
+    "w88"
+   ]
+  },
+  "cgst_total": {
+   "text": "137.99",
+   "word_ids": [
+    "w91"
+   ]
+  },
+  "sgst_total": {
+   "text": "137.99",
+   "word_ids": [
+    "w93"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w95"
+   ]
+  },
+  "round_off": {
+   "text": "-0.32",
+   "word_ids": [
+    "w98"
+   ]
+  },
+  "grand_total": {
+   "text": "5,795.00",
+   "word_ids": [
+    "w101"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w58",
+      "w59",
+      "w60",
+      "w61",
+      "w62",
+      "w63",
+      "w64"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "qty": {
+     "text": "2",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "unit_price": {
+     "text": "2,738.94",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "taxable_value": {
+     "text": "5,477.88",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "cgst": {
+     "text": "136.95",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "sgst": {
+     "text": "136.95",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w73"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w75",
+      "w76",
+      "w77"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w78"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w79"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "unit_price": {
+     "text": "41.46",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "taxable_value": {
+     "text": "41.46",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "cgst": {
+     "text": "1.04",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "sgst": {
+     "text": "1.04",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w86"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 5.05,
+  "prompt_tokens": 1588,
+  "completion_tokens": 1117,
+  "cache_key": "e50599a361fe45b4bd568051fe2778ea156eca7e91aca7808a0d3c9dd55ef4c6"
+ }
+}

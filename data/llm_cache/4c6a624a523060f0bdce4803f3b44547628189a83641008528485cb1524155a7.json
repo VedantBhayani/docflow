@@ -1,0 +1,389 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "NimbusStationers LLP",
+   "word_ids": [
+    "w1",
+    "w2"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 234, Business Park, Noida, Uttar Pradesh",
+   "word_ids": [
+    "w3",
+    "w4",
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "09AIICN3413G2Z2",
+   "word_ids": [
+    "w11"
+   ]
+  },
+  "recipient_name": {
+   "text": "Trikon Hardware Pvt Ltd",
+   "word_ids": [
+    "w18",
+    "w19",
+    "w20",
+    "w21"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 67, Industrial Estate, Noida, Uttar Pradesh",
+   "word_ids": [
+    "w28",
+    "w29",
+    "w30",
+    "w31",
+    "w32",
+    "w33",
+    "w34"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "09HLYCT9091Z3ZD",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0052",
+   "word_ids": [
+    "w17"
+   ]
+  },
+  "invoice_date": {
+   "text": "23 May 2026",
+   "word_ids": [
+    "w25",
+    "w26",
+    "w27"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Uttar Pradesh (09)",
+   "word_ids": [
+    "w39",
+    "w40",
+    "w41"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w47"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "20,272.40",
+   "word_ids": [
+    "w118"
+   ]
+  },
+  "cgst_total": {
+   "text": "506.81",
+   "word_ids": [
+    "w120"
+   ]
+  },
+  "sgst_total": {
+   "text": "506.81",
+   "word_ids": [
+    "w122"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w124"
+   ]
+  },
+  "round_off": {
+   "text": "-0.02",
+   "word_ids": [
+    "w126"
+   ]
+  },
+  "grand_total": {
+   "text": "21,286.00",
+   "word_ids": [
+    "w128"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w64",
+      "w65",
+      "w66"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "qty": {
+     "text": "2.00",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "unit_price": {
+     "text": "37.63",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "taxable_value": {
+     "text": "75.26",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "cgst": {
+     "text": "1.88",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "sgst": {
+     "text": "1.88",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w75"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w77",
+      "w78",
+      "w79"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "qty": {
+     "text": "10.00",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "unit_price": {
+     "text": "85.96",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "taxable_value": {
+     "text": "859.60",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "cgst": {
+     "text": "21.49",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "sgst": {
+     "text": "21.49",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w89"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w91",
+      "w92",
+      "w93"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "unit_price": {
+     "text": "16,687.58",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "taxable_value": {
+     "text": "16,687.58",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "cgst": {
+     "text": "417.19",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "sgst": {
+     "text": "417.19",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w103"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w105",
+      "w106"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "unit_price": {
+     "text": "2,649.96",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,649.96",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "cgst": {
+     "text": "66.25",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "sgst": {
+     "text": "66.25",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w115"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 8.09,
+  "prompt_tokens": 1844,
+  "completion_tokens": 1576,
+  "cache_key": "4c6a624a523060f0bdce4803f3b44547628189a83641008528485cb1524155a7"
+ }
+}

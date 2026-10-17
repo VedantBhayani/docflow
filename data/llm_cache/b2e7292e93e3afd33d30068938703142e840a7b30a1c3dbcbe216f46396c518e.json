@@ -1,0 +1,201 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Aarav Stationers Enterprises",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 10, MIDC Road, Hyderabad, Telangana",
+   "word_ids": [
+    "w4",
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "36HRLCA3317R1Z1",
+   "word_ids": [
+    "w11"
+   ]
+  },
+  "recipient_name": {
+   "text": "Anvay Logistics Enterprises",
+   "word_ids": [
+    "w18",
+    "w19",
+    "w20"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 86, Industrial Estate, Kolkata, West Bengal",
+   "word_ids": [
+    "w27",
+    "w28",
+    "w29",
+    "w30",
+    "w31",
+    "w32",
+    "w33"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "19WVMCA3415O3ZE",
+   "word_ids": [
+    "w42"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0048",
+   "word_ids": [
+    "w17"
+   ]
+  },
+  "invoice_date": {
+   "text": "07 Oct 2026",
+   "word_ids": [
+    "w24",
+    "w25",
+    "w26"
+   ]
+  },
+  "place_of_supply": {
+   "text": "West Bengal (19)",
+   "word_ids": [
+    "w38",
+    "w39",
+    "w40"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w46"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "2,548.57",
+   "word_ids": [
+    "w75"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w76",
+    "w77"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w78",
+    "w79"
+   ]
+  },
+  "igst_total": {
+   "text": "458.74",
+   "word_ids": [
+    "w80",
+    "w81"
+   ]
+  },
+  "round_off": {
+   "text": "-0.31",
+   "word_ids": [
+    "w82",
+    "w83"
+   ]
+  },
+  "grand_total": {
+   "text": "3,007.00",
+   "word_ids": [
+    "w84",
+    "w85"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w62",
+      "w63"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "unit_price": {
+     "text": "2,548.57",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,548.57",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "igst": {
+     "text": "458.74",
+     "word_ids": [
+      "w72"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 3.78,
+  "prompt_tokens": 1396,
+  "completion_tokens": 817,
+  "cache_key": "b2e7292e93e3afd33d30068938703142e840a7b30a1c3dbcbe216f46396c518e"
+ }
+}

@@ -1,0 +1,262 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Sarthi Packaging LLP",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 134, MIDC Road, New Delhi, Delhi",
+   "word_ids": [
+    "w4",
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "07NOFCS6139G3Z1",
+   "word_ids": [
+    "w12"
+   ]
+  },
+  "recipient_name": {
+   "text": "Aarav Textiles Traders",
+   "word_ids": [
+    "w30",
+    "w31",
+    "w32"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 71, MIDC Road, New Delhi, Delhi",
+   "word_ids": [
+    "w33",
+    "w34",
+    "w35",
+    "w36",
+    "w37",
+    "w38",
+    "w39"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "07HSMCA1318O2Z7",
+   "word_ids": [
+    "w41"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0064",
+   "word_ids": [
+    "w17"
+   ]
+  },
+  "invoice_date": {
+   "text": "06-08-2026",
+   "word_ids": [
+    "w19"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Delhi (07)",
+   "word_ids": [
+    "w23",
+    "w24"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w28"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "10,398.00",
+   "word_ids": [
+    "w88"
+   ]
+  },
+  "cgst_total": {
+   "text": "866.53",
+   "word_ids": [
+    "w92"
+   ]
+  },
+  "sgst_total": {
+   "text": "866.53",
+   "word_ids": [
+    "w96"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w100"
+   ]
+  },
+  "round_off": {
+   "text": "-0.06",
+   "word_ids": [
+    "w104"
+   ]
+  },
+  "grand_total": {
+   "text": "12,131.00",
+   "word_ids": [
+    "w108"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w56",
+      "w57",
+      "w58"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w59"
+     ]
+    },
+    "qty": {
+     "text": "25",
+     "word_ids": [
+      "w60"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w61"
+     ]
+    },
+    "unit_price": {
+     "text": "42.64",
+     "word_ids": [
+      "w62"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,066.00",
+     "word_ids": [
+      "w63"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w64",
+      "w65"
+     ]
+    },
+    "cgst": {
+     "text": "26.65",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "sgst": {
+     "text": "26.65",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w68"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w70",
+      "w71",
+      "w72",
+      "w73"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "qty": {
+     "text": "100",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w76"
+     ]
+    },
+    "unit_price": {
+     "text": "93.32",
+     "word_ids": [
+      "w77"
+     ]
+    },
+    "taxable_value": {
+     "text": "9,332.00",
+     "word_ids": [
+      "w78"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w79",
+      "w80"
+     ]
+    },
+    "cgst": {
+     "text": "839.88",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "sgst": {
+     "text": "839.88",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w83"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 4.81,
+  "prompt_tokens": 1673,
+  "completion_tokens": 1121,
+  "cache_key": "1904217271e5b28d0c34d160a02b14702a8fc84fe49ba082e4e1236278c1cb77"
+ }
+}

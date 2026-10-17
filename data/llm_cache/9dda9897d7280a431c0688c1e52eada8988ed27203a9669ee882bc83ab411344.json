@@ -1,0 +1,206 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Shakti Office Supplies Pvt Ltd",
+   "word_ids": [
+    "w23",
+    "w24",
+    "w25",
+    "w26",
+    "w27"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 54, Trade Centre, Chennai, Tamil Nadu",
+   "word_ids": [
+    "w28",
+    "w29",
+    "w30",
+    "w31",
+    "w32",
+    "w33",
+    "w34"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "33FCZCS3490J1ZE",
+   "word_ids": [
+    "w35",
+    "w36"
+   ]
+  },
+  "recipient_name": {
+   "text": "Trikon Electricals Pvt Ltd",
+   "word_ids": [
+    "w43",
+    "w44",
+    "w45",
+    "w46"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 169, Business Park, Nagpur, Maharashtra",
+   "word_ids": [
+    "w53",
+    "w54",
+    "w55",
+    "w56",
+    "w57",
+    "w58"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "27XMACT9762W3ZP",
+   "word_ids": [
+    "w65",
+    "w66"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0046",
+   "word_ids": [
+    "w41",
+    "w42"
+   ]
+  },
+  "invoice_date": {
+   "text": "29 May 2026",
+   "word_ids": [
+    "w49",
+    "w50",
+    "w51",
+    "w52"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Maharashtra (27)",
+   "word_ids": [
+    "w63",
+    "w64"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w70"
+   ]
+  },
+  "irn": {
+   "text": "e4a756497b72dbac04bd4a15f149be14519d9a12244b843c99c0bbf7bc638da5",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "17,815.12",
+   "word_ids": [
+    "w101"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w103"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w105"
+   ]
+  },
+  "igst_total": {
+   "text": "3,206.72",
+   "word_ids": [
+    "w107"
+   ]
+  },
+  "round_off": {
+   "text": "0.16",
+   "word_ids": [
+    "w109"
+   ]
+  },
+  "grand_total": {
+   "text": "21,022.00",
+   "word_ids": [
+    "w111"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w86",
+      "w87",
+      "w88",
+      "w89"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "unit_price": {
+     "text": "17,815.12",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "taxable_value": {
+     "text": "17,815.12",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "igst": {
+     "text": "3,206.72",
+     "word_ids": [
+      "w98"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 3.98,
+  "prompt_tokens": 1681,
+  "completion_tokens": 922,
+  "cache_key": "9dda9897d7280a431c0688c1e52eada8988ed27203a9669ee882bc83ab411344"
+ }
+}

@@ -1,0 +1,200 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Sahyadri Packaging Industries Pvt Ltd",
+   "word_ids": [
+    "w3",
+    "w4",
+    "w5",
+    "w6",
+    "w7"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 177, Trade Centre, Noida, Uttar Pradesh",
+   "word_ids": [
+    "w11",
+    "w12",
+    "w13",
+    "w14",
+    "w15",
+    "w16",
+    "w17"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "09WVFCS6853C3ZD",
+   "word_ids": [
+    "w22"
+   ]
+  },
+  "recipient_name": {
+   "text": "Trikon Hardware Industries Pvt Ltd",
+   "word_ids": [
+    "w38",
+    "w39",
+    "w40",
+    "w41",
+    "w42"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 92, MIDC Road, Lucknow, Uttar Pradesh",
+   "word_ids": [
+    "w43",
+    "w44",
+    "w45",
+    "w46",
+    "w47",
+    "w48",
+    "w49"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "09WJMCT3518E2Z2",
+   "word_ids": [
+    "w51"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0028",
+   "word_ids": [
+    "w10"
+   ]
+  },
+  "invoice_date": {
+   "text": "01/06/2026",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Uttar Pradesh (09)",
+   "word_ids": [
+    "w26",
+    "w27",
+    "w28"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "2,18,472.00",
+   "word_ids": [
+    "w79"
+   ]
+  },
+  "cgst_total": {
+   "text": "19.662.48",
+   "word_ids": [
+    "w81"
+   ]
+  },
+  "sgst_total": {
+   "text": "19,662.48",
+   "word_ids": [
+    "w83"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w85"
+   ]
+  },
+  "round_off": {
+   "text": "0.04",
+   "word_ids": [
+    "w88"
+   ]
+  },
+  "grand_total": {
+   "text": "2,57,797.00",
+   "word_ids": [
+    "w91"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w65",
+      "w66",
+      "w67"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "qty": {
+     "text": "40",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "unit_price": {
+     "text": "5,461.80",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,18,472.00",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "cgst": {
+     "text": "19.662.48",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "sgst": {
+     "text": "19.662.48",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w76"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 5.38,
+  "prompt_tokens": 1528,
+  "completion_tokens": 859,
+  "cache_key": "1eabeaf82ef3a19597c4e8a99571b477b18b2f7e0a4de8a307f0933c1038910a"
+ }
+}

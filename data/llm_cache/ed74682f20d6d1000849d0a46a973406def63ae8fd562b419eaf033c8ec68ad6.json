@@ -1,0 +1,460 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Aarav Textiles Traders",
+   "word_ids": [
+    "w25",
+    "w26",
+    "w27"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 34, MIDC Road, Kolkata, West Bengal",
+   "word_ids": [
+    "w31",
+    "w32",
+    "w33",
+    "w34",
+    "w35",
+    "w36",
+    "w37"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "19SHYCA4501X2ZL",
+   "word_ids": [
+    "w42"
+   ]
+  },
+  "recipient_name": {
+   "text": "Nimbus Stationers industries Pvt Ltd",
+   "word_ids": [
+    "w57",
+    "w58",
+    "w59",
+    "w60",
+    "w61"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 87, Trade Centre, Hyderabad, Telangana",
+   "word_ids": [
+    "w62",
+    "w63",
+    "w64",
+    "w65",
+    "w66",
+    "w67"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "36HLBCN0522L3ZR",
+   "word_ids": [
+    "w69"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0026",
+   "word_ids": [
+    "w30"
+   ]
+  },
+  "invoice_date": {
+   "text": "11/09/2026",
+   "word_ids": [
+    "w40"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Telangana (36)",
+   "word_ids": [
+    "w46",
+    "w47"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w54"
+   ]
+  },
+  "irn": {
+   "text": "509e61172b34tc0b230d3fdbccbe",
+   "word_ids": [
+    "w2",
+    "w3",
+    "w5"
+   ]
+  },
+  "taxable_total": {
+   "text": "18,850.07",
+   "word_ids": [
+    "w151"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w153"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w155"
+   ]
+  },
+  "igst_total": {
+   "text": "1.255.72",
+   "word_ids": [
+    "w157"
+   ]
+  },
+  "round_off": {
+   "text": "0.21",
+   "word_ids": [
+    "w160"
+   ]
+  },
+  "grand_total": {
+   "text": "20,106.00",
+   "word_ids": [
+    "w163"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w83",
+      "w84",
+      "w85"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "qty": {
+     "text": "12",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "unit_price": {
+     "text": "39.62",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "taxable_value": {
+     "text": "475.44",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "igst": {
+     "text": "23.77",
+     "word_ids": [
+      "w94"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Stretch wrap film 23 micron",
+     "word_ids": [
+      "w95",
+      "w96",
+      "w97",
+      "w98",
+      "w99",
+      "w100"
+     ]
+    },
+    "hsn": {
+     "text": "39201012",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "unit_price": {
+     "text": "151.87",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "taxable_value": {
+     "text": "151.87",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "igst": {
+     "text": "27.34",
+     "word_ids": [
+      "w109"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w111",
+      "w112",
+      "w113",
+      "w114"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "qty": {
+     "text": "25",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "unit_price": {
+     "text": "524.84",
+     "word_ids": [
+      "w118"
+     ]
+    },
+    "taxable_value": {
+     "text": "13.121.00",
+     "word_ids": [
+      "w119"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w120"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w121"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w122"
+     ]
+    },
+    "igst": {
+     "text": "656.05",
+     "word_ids": [
+      "w123"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w124",
+      "w125",
+      "w126",
+      "w127"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w128"
+     ]
+    },
+    "qty": {
+     "text": "25",
+     "word_ids": [
+      "w129"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w130"
+     ]
+    },
+    "unit_price": {
+     "text": "90.30",
+     "word_ids": [
+      "w131"
+     ]
+    },
+    "taxable_value": {
+     "text": "2.257.50",
+     "word_ids": [
+      "w132"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w133"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w134"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w135"
+     ]
+    },
+    "igst": {
+     "text": "406.35",
+     "word_ids": [
+      "w136"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w138",
+      "w139"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w140"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w141"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w142"
+     ]
+    },
+    "unit_price": {
+     "text": "2.844.26",
+     "word_ids": [
+      "w143"
+     ]
+    },
+    "taxable_value": {
+     "text": "2.844.26",
+     "word_ids": [
+      "w144"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w145"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w146"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w147"
+     ]
+    },
+    "igst": {
+     "text": "142.21",
+     "word_ids": [
+      "w148"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 8.42,
+  "prompt_tokens": 2223,
+  "completion_tokens": 1909,
+  "cache_key": "ed74682f20d6d1000849d0a46a973406def63ae8fd562b419eaf033c8ec68ad6"
+ }
+}

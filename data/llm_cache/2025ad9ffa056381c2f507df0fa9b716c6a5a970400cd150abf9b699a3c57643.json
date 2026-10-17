@@ -1,0 +1,327 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Pragati Stationers Industries Pvt Ltd",
+   "word_ids": [
+    "w23",
+    "w24",
+    "w25",
+    "w26",
+    "w27"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 8, Industrial Estate, Mumbai, Maharashtra",
+   "word_ids": [
+    "w28",
+    "w29",
+    "w30",
+    "w31",
+    "w32",
+    "w33"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "27KMUCP5410D1ZE",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "recipient_name": {
+   "text": "Nimbus Office Supplies Enterprises",
+   "word_ids": [
+    "w42",
+    "w43",
+    "w44",
+    "w45"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 88, Trade Centre, Mumbai, Maharashtra",
+   "word_ids": [
+    "w52",
+    "w53",
+    "w54",
+    "w55",
+    "w56",
+    "w57"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "27ACCCN7235Q1ZR",
+   "word_ids": [
+    "w65"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0051",
+   "word_ids": [
+    "w41"
+   ]
+  },
+  "invoice_date": {
+   "text": "25 Sep 2026",
+   "word_ids": [
+    "w49",
+    "w50",
+    "w51"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Maharashtra (27)",
+   "word_ids": [
+    "w62",
+    "w63"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w69"
+   ]
+  },
+  "irn": {
+   "text": "44a47e63189b8c6b94692fd5ccd6b4114e8ca6af332f1c6808630df97c3e99f1",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "17,313.40",
+   "word_ids": [
+    "w125"
+   ]
+  },
+  "cgst_total": {
+   "text": "1,521.18",
+   "word_ids": [
+    "w127"
+   ]
+  },
+  "sgst_total": {
+   "text": "1,521.18",
+   "word_ids": [
+    "w129"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w131"
+   ]
+  },
+  "round_off": {
+   "text": "0.24",
+   "word_ids": [
+    "w133"
+   ]
+  },
+  "grand_total": {
+   "text": "20,356.00",
+   "word_ids": [
+    "w135"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w86",
+      "w87"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "unit_price": {
+     "text": "2,764.32",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,764.32",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "cgst": {
+     "text": "248.79",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "sgst": {
+     "text": "248.79",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w96"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w98",
+      "w99",
+      "w100"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "qty": {
+     "text": "2.00",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "unit_price": {
+     "text": "6,989.72",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "taxable_value": {
+     "text": "13,979.44",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "cgst": {
+     "text": "1,258.15",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "sgst": {
+     "text": "1,258.15",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w109"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w111",
+      "w112",
+      "w113"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "qty": {
+     "text": "12.00",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "unit_price": {
+     "text": "47.47",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "taxable_value": {
+     "text": "569.64",
+     "word_ids": [
+      "w118"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w119"
+     ]
+    },
+    "cgst": {
+     "text": "14.24",
+     "word_ids": [
+      "w120"
+     ]
+    },
+    "sgst": {
+     "text": "14.24",
+     "word_ids": [
+      "w121"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w122"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 7.46,
+  "prompt_tokens": 1958,
+  "completion_tokens": 1413,
+  "cache_key": "2025ad9ffa056381c2f507df0fa9b716c6a5a970400cd150abf9b699a3c57643"
+ }
+}

@@ -1,0 +1,457 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Shakti Logistics Enterprises",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 202. Trade Centre, Surat, Gujarat",
+   "word_ids": [
+    "w4",
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "24PFRCS8153U1ZH",
+   "word_ids": [
+    "w11"
+   ]
+  },
+  "recipient_name": {
+   "text": "Trikon Textiles LLP",
+   "word_ids": [
+    "w18",
+    "w19",
+    "w20"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 220, Business Park, Lucknow, Uttar Pradesh",
+   "word_ids": [
+    "w26",
+    "w27",
+    "w28",
+    "w29",
+    "w30",
+    "w31",
+    "w32"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "09POBCT2803H1ZB",
+   "word_ids": [
+    "w40"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0055",
+   "word_ids": [
+    "w17"
+   ]
+  },
+  "invoice_date": {
+   "text": "03 May 2026",
+   "word_ids": [
+    "w23",
+    "w24",
+    "w25"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Uttar Pradesh (09)",
+   "word_ids": [
+    "w36",
+    "w37",
+    "w38"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "50,838.57",
+   "word_ids": [
+    "w130"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w132"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w134"
+   ]
+  },
+  "igst_total": {
+   "text": "6,057.26",
+   "word_ids": [
+    "w136"
+   ]
+  },
+  "round_off": {
+   "text": "0.17",
+   "word_ids": [
+    "w138"
+   ]
+  },
+  "grand_total": {
+   "text": "56,896.00",
+   "word_ids": [
+    "w140"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w59",
+      "w60",
+      "w61"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w63"
+     ]
+    },
+    "qty": {
+     "text": "12.00",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "uqc": {
+     "text": "BT",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "unit_price": {
+     "text": "103:15",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "taxable_value": {
+     "text": "1.237.80",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "igst": {
+     "text": "61.89",
+     "word_ids": [
+      "w71"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w73",
+      "w74"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w76"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w77"
+     ]
+    },
+    "unit_price": {
+     "text": "2.805.72",
+     "word_ids": [
+      "w78"
+     ]
+    },
+    "taxable_value": {
+     "text": "2.805.72",
+     "word_ids": [
+      "w79"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "igst": {
+     "text": "140.29",
+     "word_ids": [
+      "w83"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w85",
+      "w86",
+      "w87"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "unit_price": {
+     "text": "532.05",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "taxable_value": {
+     "text": "532:05",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "igst": {
+     "text": "26.60",
+     "word_ids": [
+      "w97"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Stretch wrap film 23 micron",
+     "word_ids": [
+      "w98",
+      "w99",
+      "w100",
+      "w101",
+      "w102"
+     ]
+    },
+    "hsn": {
+     "text": "39201012",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "qty": {
+     "text": "100.00",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "unit_price": {
+     "text": "192.22",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "taxable_value": {
+     "text": "19.222.00",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "igst": {
+     "text": "961.10",
+     "word_ids": [
+      "w111"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w113",
+      "w114",
+      "w115",
+      "w116",
+      "w117",
+      "w118"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w119"
+     ]
+    },
+    "qty": {
+     "text": "100.00",
+     "word_ids": [
+      "w120"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w121"
+     ]
+    },
+    "unit_price": {
+     "text": "270.41",
+     "word_ids": [
+      "w122"
+     ]
+    },
+    "taxable_value": {
+     "text": "27.041.00",
+     "word_ids": [
+      "w123"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w124"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "igst": {
+     "text": "4.867.38",
+     "word_ids": [
+      "w127"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 8.35,
+  "prompt_tokens": 1988,
+  "completion_tokens": 1872,
+  "cache_key": "6e24095c9704ac4885f4fff0be9d46aee0ed63d4af6acb49edd73ae684657123"
+ }
+}

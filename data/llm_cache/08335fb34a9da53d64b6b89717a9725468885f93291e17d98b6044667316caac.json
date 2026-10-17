@@ -1,0 +1,332 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Sahyadri Textiles Pvt Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 107, Trade Centre, Kolkata, West Bengal",
+   "word_ids": [
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "19FFZCS0905S2ZT",
+   "word_ids": [
+    "w13"
+   ]
+  },
+  "recipient_name": {
+   "text": "Aarav Packaging Enterprises",
+   "word_ids": [
+    "w21",
+    "w22",
+    "w23"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 182, MIDC Road, Kolkata, West Bengal",
+   "word_ids": [
+    "w30",
+    "w31",
+    "w32",
+    "w33",
+    "w34",
+    "w35",
+    "w36"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "19ZNWCA9309S2ZX",
+   "word_ids": [
+    "w45"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0038",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "invoice_date": {
+   "text": "10 Apr 2026",
+   "word_ids": [
+    "w27",
+    "w28",
+    "w29"
+   ]
+  },
+  "place_of_supply": {
+   "text": "West Bengal (19)",
+   "word_ids": [
+    "w41",
+    "w42",
+    "w43"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w49"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "18,581.02",
+   "word_ids": [
+    "w111"
+   ]
+  },
+  "cgst_total": {
+   "text": "1,672.29",
+   "word_ids": [
+    "w113"
+   ]
+  },
+  "sgst_total": {
+   "text": "1,672.29",
+   "word_ids": [
+    "w115"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w117"
+   ]
+  },
+  "round_off": {
+   "text": "0.40",
+   "word_ids": [
+    "w119"
+   ]
+  },
+  "grand_total": {
+   "text": "21,926.00",
+   "word_ids": [
+    "w121"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w66",
+      "w67",
+      "w68",
+      "w69"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "unit_price": {
+     "text": "658.03",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "taxable_value": {
+     "text": "16,450.75",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "cgst": {
+     "text": "1,480.57",
+     "word_ids": [
+      "w76"
+     ]
+    },
+    "sgst": {
+     "text": "1,480.57",
+     "word_ids": [
+      "w77"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w78"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w80",
+      "w81",
+      "w82",
+      "w83",
+      "w84",
+      "w85"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "qty": {
+     "text": "3.00",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "unit_price": {
+     "text": "267.57",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "taxable_value": {
+     "text": "802.71",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "cgst": {
+     "text": "72.24",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "sgst": {
+     "text": "72.24",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w94"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w96",
+      "w97",
+      "w98",
+      "w99"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "qty": {
+     "text": "12.00",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "unit_price": {
+     "text": "110.63",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,327.56",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "cgst": {
+     "text": "119.48",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "sgst": {
+     "text": "119.48",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w108"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 6.02,
+  "prompt_tokens": 1772,
+  "completion_tokens": 1383,
+  "cache_key": "08335fb34a9da53d64b6b89717a9725468885f93291e17d98b6044667316caac"
+ }
+}

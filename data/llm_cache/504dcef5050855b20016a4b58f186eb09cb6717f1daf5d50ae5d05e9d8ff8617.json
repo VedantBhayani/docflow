@@ -1,0 +1,459 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Aarav IT Services Enterprises",
+   "word_ids": [
+    "w25",
+    "w26",
+    "w27"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 126, Business Park, New Delhi, Delhi",
+   "word_ids": [
+    "w32",
+    "w33",
+    "w34",
+    "w35",
+    "w36",
+    "w37",
+    "w38"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "07XQOCA0592B2ZA",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "recipient_name": {
+   "text": "Aarav IT Services Traders",
+   "word_ids": [
+    "w57",
+    "w58",
+    "w59",
+    "w60"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 55, MIDC Road, Pune, Maharashtra",
+   "word_ids": [
+    "w61",
+    "w62",
+    "w63",
+    "w64",
+    "w65",
+    "w66"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "27LQRCA5697C2ZZ",
+   "word_ids": [
+    "w68"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0021",
+   "word_ids": [
+    "w31"
+   ]
+  },
+  "invoice_date": {
+   "text": "27/08/2026",
+   "word_ids": [
+    "w41"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Maharashtra (27)",
+   "word_ids": [
+    "w47",
+    "w48"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w54"
+   ]
+  },
+  "irn": {
+   "text": "8e30b87f69530984be3d87a38da2e2c434f5315077668416e1c297fb39d9e92c",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "2,95,077.00",
+   "word_ids": [
+    "w154",
+    "w153"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w156"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w158"
+   ]
+  },
+  "igst_total": {
+   "text": "45,586.99",
+   "word_ids": [
+    "w160"
+   ]
+  },
+  "round_off": {
+   "text": "0.01",
+   "word_ids": [
+    "w163"
+   ]
+  },
+  "grand_total": {
+   "text": "3,40,664.00",
+   "word_ids": [
+    "w166"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w83",
+      "w84",
+      "w85"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "qty": {
+     "text": "25",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "unit_price": {
+     "text": "8,850.39",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,21,259.75",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "igst": {
+     "text": "39,826.76",
+     "word_ids": [
+      "w94"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w96",
+      "w97",
+      "w98"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "qty": {
+     "text": "10",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "unit_price": {
+     "text": "5,440.46",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "taxable_value": {
+     "text": "54,404.60",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "igst": {
+     "text": "2,720.23",
+     "word_ids": [
+      "w107"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w109",
+      "w110",
+      "w111",
+      "w112",
+      "w113",
+      "w114",
+      "w115"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w118"
+     ]
+    },
+    "unit_price": {
+     "text": "3,494.51",
+     "word_ids": [
+      "w119"
+     ]
+    },
+    "taxable_value": {
+     "text": "3,494.51",
+     "word_ids": [
+      "w120"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w121"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w122"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w123"
+     ]
+    },
+    "igst": {
+     "text": "174.73",
+     "word_ids": [
+      "w124"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w126",
+      "w127",
+      "w128",
+      "w129"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w130"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w131"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w132"
+     ]
+    },
+    "unit_price": {
+     "text": "15,775.31",
+     "word_ids": [
+      "w133"
+     ]
+    },
+    "taxable_value": {
+     "text": "15,775.31",
+     "word_ids": [
+      "w134"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w135"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w136"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w137"
+     ]
+    },
+    "igst": {
+     "text": "2,839.56",
+     "word_ids": [
+      "w138"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w140",
+      "w141",
+      "w142"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w143"
+     ]
+    },
+    "qty": {
+     "text": "3",
+     "word_ids": [
+      "w144"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w145"
+     ]
+    },
+    "unit_price": {
+     "text": "47.61",
+     "word_ids": [
+      "w146"
+     ]
+    },
+    "taxable_value": {
+     "text": "142.83",
+     "word_ids": [
+      "w147"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w148"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w149"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w150"
+     ]
+    },
+    "igst": {
+     "text": "25.71",
+     "word_ids": [
+      "w151"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 8.72,
+  "prompt_tokens": 2307,
+  "completion_tokens": 1968,
+  "cache_key": "504dcef5050855b20016a4b58f186eb09cb6717f1daf5d50ae5d05e9d8ff8617"
+ }
+}

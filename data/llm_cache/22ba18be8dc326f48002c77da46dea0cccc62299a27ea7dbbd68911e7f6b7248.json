@@ -1,0 +1,394 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Kaveri Stationers LLP",
+   "word_ids": [
+    "w3",
+    "w4",
+    "w5"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 114, Industrial Estate, Hyderabad, Telangana",
+   "word_ids": [
+    "w9",
+    "w10",
+    "w11",
+    "w12",
+    "w13",
+    "w14"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "36BULCK9332K3ZS",
+   "word_ids": [
+    "w19"
+   ]
+  },
+  "recipient_name": {
+   "text": "Meghdoot Fabrication Industries Pvt Ltd",
+   "word_ids": [
+    "w34",
+    "w35",
+    "w36",
+    "w37",
+    "w38"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 83, Industrial Estate, Noida, Uttar Pradesh",
+   "word_ids": [
+    "w39",
+    "w40",
+    "w41",
+    "w42",
+    "w43",
+    "w44",
+    "w45"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "09WHJCM3275R1ZL",
+   "word_ids": [
+    "w47"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0013",
+   "word_ids": [
+    "w8"
+   ]
+  },
+  "invoice_date": {
+   "text": "29/04/2026",
+   "word_ids": [
+    "w17"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Uttar Pradesh (09)",
+   "word_ids": [
+    "w23",
+    "w24",
+    "w25"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w31"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "61,711.62",
+   "word_ids": [
+    "w120"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w122"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w124"
+   ]
+  },
+  "igst_total": {
+   "text": "10,850.47",
+   "word_ids": [
+    "w126"
+   ]
+  },
+  "round_off": {
+   "text": "-0.09",
+   "word_ids": [
+    "w129"
+   ]
+  },
+  "grand_total": {
+   "text": "72,562.00",
+   "word_ids": [
+    "w132"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Stretch wrap film 23 micron",
+     "word_ids": [
+      "w62",
+      "w63",
+      "w64",
+      "w65",
+      "w66"
+     ]
+    },
+    "hsn": {
+     "text": "39201012",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "qty": {
+     "text": "2",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "unit_price": {
+     "text": "173.97",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "taxable_value": {
+     "text": "347.94",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "igst": {
+     "text": "17.40",
+     "word_ids": [
+      "w75"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w77",
+      "w78",
+      "w79"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "qty": {
+     "text": "12",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "unit_price": {
+     "text": "40.48",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "taxable_value": {
+     "text": "485.76",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "igst": {
+     "text": "87.44",
+     "word_ids": [
+      "w88"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w90",
+      "w91",
+      "w92"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "qty": {
+     "text": "12",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "unit_price": {
+     "text": "4,937.01",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "taxable_value": {
+     "text": "59,244.12",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "igst": {
+     "text": "10,663.94",
+     "word_ids": [
+      "w101"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w103",
+      "w104",
+      "w105",
+      "w106",
+      "w107",
+      "w108"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "qty": {
+     "text": "5",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "unit_price": {
+     "text": "326.76",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,633.80",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "igst": {
+     "text": "81.69",
+     "word_ids": [
+      "w117"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 7.9,
+  "prompt_tokens": 1912,
+  "completion_tokens": 1692,
+  "cache_key": "22ba18be8dc326f48002c77da46dea0cccc62299a27ea7dbbd68911e7f6b7248"
+ }
+}

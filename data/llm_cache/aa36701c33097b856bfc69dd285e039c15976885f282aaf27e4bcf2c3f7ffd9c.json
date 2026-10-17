@@ -1,0 +1,264 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Sahyadri Polymers Traders",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 9, Trade Centre, Ahmedabad, Gujarat",
+   "word_ids": [
+    "w4",
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "24HLKCS9135F3ZC",
+   "word_ids": [
+    "w11"
+   ]
+  },
+  "recipient_name": {
+   "text": "Meghdoot Stationers LLP",
+   "word_ids": [
+    "w19",
+    "w20",
+    "w21"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 156, Trade Centre, Gandhinagar, Gujarat",
+   "word_ids": [
+    "w28",
+    "w29",
+    "w30",
+    "w31",
+    "w32",
+    "w33"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "24PDTCM0608V2Z2",
+   "word_ids": [
+    "w41"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0044",
+   "word_ids": [
+    "w18"
+   ]
+  },
+  "invoice_date": {
+   "text": "19 May 2026",
+   "word_ids": [
+    "w25",
+    "w26",
+    "w27"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Gujarat (24)",
+   "word_ids": [
+    "w38",
+    "w39"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w45"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "21,939.94",
+   "word_ids": [
+    "w94"
+   ]
+  },
+  "cgst_total": {
+   "text": "548.50",
+   "word_ids": [
+    "w96"
+   ]
+  },
+  "sgst_total": {
+   "text": "548.50",
+   "word_ids": [
+    "w98"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w100"
+   ]
+  },
+  "round_off": {
+   "text": "0.06",
+   "word_ids": [
+    "w102"
+   ]
+  },
+  "grand_total": {
+   "text": "23,037.00",
+   "word_ids": [
+    "w104"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w62",
+      "w63",
+      "w64",
+      "w65"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "unit_price": {
+     "text": "18,749.55",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "taxable_value": {
+     "text": "18,749.55",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "cgst": {
+     "text": "468.74",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "sgst": {
+     "text": "468.74",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w74"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w76",
+      "w77",
+      "w78",
+      "w79",
+      "w80",
+      "w81",
+      "w82"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "unit_price": {
+     "text": "3,190.39",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "taxable_value": {
+     "text": "3,190.39",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "cgst": {
+     "text": "79.76",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "sgst": {
+     "text": "79.76",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w91"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 4.86,
+  "prompt_tokens": 1588,
+  "completion_tokens": 1087,
+  "cache_key": "aa36701c33097b856bfc69dd285e039c15976885f282aaf27e4bcf2c3f7ffd9c"
+ }
+}

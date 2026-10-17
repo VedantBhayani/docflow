@@ -1,0 +1,206 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Meghdoot Logistics Pvt Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4",
+    "w5"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 180, Trade Centre, Lucknow, Uttar Pradesh",
+   "word_ids": [
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11",
+    "w12"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "09IWTCM5933I3Z9",
+   "word_ids": [
+    "w13",
+    "w14"
+   ]
+  },
+  "recipient_name": {
+   "text": "Sahyadri IT Services LLP",
+   "word_ids": [
+    "w22",
+    "w23",
+    "w24",
+    "w25"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 135, MIDC Road, Lucknow, Uttar Pradesh",
+   "word_ids": [
+    "w32",
+    "w33",
+    "w34",
+    "w35",
+    "w36",
+    "w37",
+    "w38"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "09RMSCS3883T2ZP",
+   "word_ids": [
+    "w46",
+    "w47"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0037",
+   "word_ids": [
+    "w21"
+   ]
+  },
+  "invoice_date": {
+   "text": "18 May 2026",
+   "word_ids": [
+    "w29",
+    "w30",
+    "w31"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Uttar Pradesh (09)",
+   "word_ids": [
+    "w43",
+    "w44",
+    "w45",
+    "w43",
+    "w44"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w51"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "19,905.99",
+   "word_ids": [
+    "w83"
+   ]
+  },
+  "cgst_total": {
+   "text": "1,791.54",
+   "word_ids": [
+    "w85"
+   ]
+  },
+  "sgst_total": {
+   "text": "1,791.54",
+   "word_ids": [
+    "w87"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w89"
+   ]
+  },
+  "round_off": {
+   "text": "-0.07",
+   "word_ids": [
+    "w91"
+   ]
+  },
+  "grand_total": {
+   "text": "23,489.00",
+   "word_ids": [
+    "w93"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w68",
+      "w69",
+      "w70",
+      "w71"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "unit_price": {
+     "text": "19,905.99",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "taxable_value": {
+     "text": "19,905.99",
+     "word_ids": [
+      "w76"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w77"
+     ]
+    },
+    "cgst": {
+     "text": "1,791.54",
+     "word_ids": [
+      "w78"
+     ]
+    },
+    "sgst": {
+     "text": "1,791.54",
+     "word_ids": [
+      "w79"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w80"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 3.97,
+  "prompt_tokens": 1473,
+  "completion_tokens": 873,
+  "cache_key": "198ac7d26d9b91fa989419626529952e4f596b1d36f373685712732d0aa9af01"
+ }
+}

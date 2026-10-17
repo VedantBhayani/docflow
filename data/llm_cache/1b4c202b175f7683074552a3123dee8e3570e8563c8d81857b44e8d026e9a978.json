@@ -1,0 +1,393 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Kaveri IT Services Pvt Ltd",
+   "word_ids": [
+    "w3",
+    "w4",
+    "w5",
+    "w6",
+    "w7"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 226, Industrial Estate, Chennai, Tamil Nadu",
+   "word_ids": [
+    "w11",
+    "w12",
+    "w13",
+    "w14",
+    "w15",
+    "w16",
+    "w17"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "33NECCK9055D3Z3",
+   "word_ids": [
+    "w22"
+   ]
+  },
+  "recipient_name": {
+   "text": "Vistar Polymers Pvt Ltd",
+   "word_ids": [
+    "w38",
+    "w39",
+    "w40",
+    "w41"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 129, MIDC Road, Coimbatore, Tamil Nadu",
+   "word_ids": [
+    "w42",
+    "w43",
+    "w44",
+    "w45",
+    "w46",
+    "w47",
+    "w48"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "33RAYCV9127L1ZY",
+   "word_ids": [
+    "w50"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0018",
+   "word_ids": [
+    "w10"
+   ]
+  },
+  "invoice_date": {
+   "text": "02/06/2026",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Tamil Nadu (33)",
+   "word_ids": [
+    "w26",
+    "w27",
+    "w28"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "14,444.00",
+   "word_ids": [
+    "w120"
+   ]
+  },
+  "cgst_total": {
+   "text": "613.37",
+   "word_ids": [
+    "w122"
+   ]
+  },
+  "sgst_total": {
+   "text": "613.37",
+   "word_ids": [
+    "w124"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w126"
+   ]
+  },
+  "round_off": {
+   "text": "0.26",
+   "word_ids": [
+    "w129"
+   ]
+  },
+  "grand_total": {
+   "text": "15,671.00",
+   "word_ids": [
+    "w132"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w65",
+      "w66"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "unit_price": {
+     "text": "2,879.80",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,879.80",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "cgst": {
+     "text": "259.18",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "sgst": {
+     "text": "259.18",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w75"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Stretch wrap film 23 micron",
+     "word_ids": [
+      "w77",
+      "w78",
+      "w79",
+      "w80",
+      "w81"
+     ]
+    },
+    "hsn": {
+     "text": "39201012",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "qty": {
+     "text": "5",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "unit_price": {
+     "text": "162.53",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "taxable_value": {
+     "text": "812.65",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "cgst": {
+     "text": "73.14",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "sgst": {
+     "text": "73.14",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w90"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w92",
+      "w93",
+      "w94",
+      "w95"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "qty": {
+     "text": "100",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "unit_price": {
+     "text": "105.63",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "taxable_value": {
+     "text": "10,563.00",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "cgst": {
+     "text": "264.08",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "sgst": {
+     "text": "264.08",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w104"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w106",
+      "w107",
+      "w108"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "qty": {
+     "text": "5",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "unit_price": {
+     "text": "37.71",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "taxable_value": {
+     "text": "188.55",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "cgst": {
+     "text": "16.97",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "sgst": {
+     "text": "16.97",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w117"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 7.62,
+  "prompt_tokens": 1923,
+  "completion_tokens": 1605,
+  "cache_key": "1b4c202b175f7683074552a3123dee8e3570e8563c8d81857b44e8d026e9a978"
+ }
+}

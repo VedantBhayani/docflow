@@ -1,0 +1,199 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Trikon Fabrication Traders",
+   "word_ids": [
+    "w25",
+    "w26",
+    "w27"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 169, Industrial Estate, Kolkata, West Bengal",
+   "word_ids": [
+    "w31",
+    "w32",
+    "w33",
+    "w34",
+    "w35",
+    "w36",
+    "w37"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "19NKRCT8832B1ZZ",
+   "word_ids": [
+    "w42"
+   ]
+  },
+  "recipient_name": {
+   "text": "Sarthi Polymers Pvt Ltd",
+   "word_ids": [
+    "w57",
+    "w58",
+    "w59",
+    "w60"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 161, MIDC Road, Nagpur, Maharashtra",
+   "word_ids": [
+    "w61",
+    "w62",
+    "w63",
+    "w64",
+    "w65",
+    "w66"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "27FMSCS5356R1ZC",
+   "word_ids": [
+    "w68"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0006",
+   "word_ids": [
+    "w30"
+   ]
+  },
+  "invoice_date": {
+   "text": "14/04/2026",
+   "word_ids": [
+    "w40"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Maharashtra (27)",
+   "word_ids": [
+    "w46",
+    "w47"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w54"
+   ]
+  },
+  "irn": {
+   "text": "4c1ed315d2b9301b2ff57cbe8683d2475efb2f1b8b5c9aaa2fad2c798239ef2a",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "490.98",
+   "word_ids": [
+    "w99"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w101"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w103"
+   ]
+  },
+  "igst_total": {
+   "text": "58.92",
+   "word_ids": [
+    "w105"
+   ]
+  },
+  "round_off": {
+   "text": "0.10",
+   "word_ids": [
+    "w108"
+   ]
+  },
+  "grand_total": {
+   "text": "550.00",
+   "word_ids": [
+    "w111"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Stretch wrap film 23 micron",
+     "word_ids": [
+      "w83",
+      "w84",
+      "w85",
+      "w86",
+      "w87"
+     ]
+    },
+    "hsn": {
+     "text": "39201012",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "qty": {
+     "text": "3",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "unit_price": {
+     "text": "163.66",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "taxable_value": {
+     "text": "490.98",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "gst_rate": {
+     "text": "12%",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "igst": {
+     "text": "58.92",
+     "word_ids": [
+      "w96"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 3.76,
+  "prompt_tokens": 1705,
+  "completion_tokens": 871,
+  "cache_key": "c0b887f91075b2cb51f9bf0aad66e40a8c3730cc5f581db05389436f85dbc971"
+ }
+}

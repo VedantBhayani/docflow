@@ -1,0 +1,268 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Sahyadri Electricals Pvt Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 99, Industrial Estate,Ahmedabad, Gujarat",
+   "word_ids": [
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "24TWTCS9605Q3ZJ",
+   "word_ids": [
+    "w11"
+   ]
+  },
+  "recipient_name": {
+   "text": "Shakti Stationers Pvt Ltd",
+   "word_ids": [
+    "w18",
+    "w19",
+    "w20",
+    "w21"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 46, Industrial Estate, New Delhi, Delhi",
+   "word_ids": [
+    "w27",
+    "w28",
+    "w29",
+    "w30",
+    "w31",
+    "w32",
+    "w33"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "07TQYCS6477F2Z2",
+   "word_ids": [
+    "w40"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0058",
+   "word_ids": [
+    "w17"
+   ]
+  },
+  "invoice_date": {
+   "text": "09 Aug 2026",
+   "word_ids": [
+    "w24",
+    "w25",
+    "w26"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Delhi (07)",
+   "word_ids": [
+    "w37",
+    "w38"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "9,300.23",
+   "word_ids": [
+    "w94"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w96"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w98"
+   ]
+  },
+  "igst_total": {
+   "text": "465.01",
+   "word_ids": [
+    "w100"
+   ]
+  },
+  "round_off": {
+   "text": "-0.24",
+   "word_ids": [
+    "w102"
+   ]
+  },
+  "grand_total": {
+   "text": "9,765.00",
+   "word_ids": [
+    "w104"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w59",
+      "w60",
+      "w61",
+      "w62",
+      "w63",
+      "w64"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "unit_price": {
+     "text": "328.82",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "taxable_value": {
+     "text": "328.82",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "igst": {
+     "text": "16.44",
+     "word_ids": [
+      "w73"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w76",
+      "w77",
+      "w78",
+      "w79",
+      "w80",
+      "w81",
+      "w82"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "qty": {
+     "text": "3.00",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "unit_price": {
+     "text": "2.990.47",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "taxable_value": {
+     "text": "8.971.41",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "igst": {
+     "text": "448.57",
+     "word_ids": [
+      "w91"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 4.78,
+  "prompt_tokens": 1589,
+  "completion_tokens": 1105,
+  "cache_key": "8b7bbab97258f7fc158cf71abcb1f311279f064ba7bfe3d7fb3d84587d8f105e"
+ }
+}

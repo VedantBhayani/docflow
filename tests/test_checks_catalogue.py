@@ -173,4 +173,4 @@ def test_catalogue_lists_every_check_with_source_and_renders_markdown():
     assert implemented <= {c.id for c in CATALOGUE}
     assert all(c.source and c.description for c in CATALOGUE)
     md = catalogue_markdown()
-    assert md.startswith("| ID |") and "| C7 |" in md
+    assert md.startswith("## Invoices") and "| C7 |" in md and "| S1 |" in md

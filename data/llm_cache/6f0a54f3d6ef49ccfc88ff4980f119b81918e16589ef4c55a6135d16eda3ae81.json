@@ -1,0 +1,199 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Meghdoot IT Services Industries Pvt Ltd",
+   "word_ids": [
+    "w3",
+    "w4",
+    "w5",
+    "w6",
+    "w7",
+    "w8"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 200, Industrial Estate, Noida, Uttar Pradesh",
+   "word_ids": [
+    "w12",
+    "w13",
+    "w14",
+    "w15",
+    "w16",
+    "w17",
+    "w18"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "09UVACM0843E3Z0",
+   "word_ids": [
+    "w23"
+   ]
+  },
+  "recipient_name": {
+   "text": "Shakti Packaging Traders",
+   "word_ids": [
+    "w39",
+    "w40",
+    "w41"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 229, Trade Centre, Coimbatore, Tamil Nadu",
+   "word_ids": [
+    "w42",
+    "w43",
+    "w44",
+    "w45",
+    "w46",
+    "w47",
+    "w48"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "33ZALCS2908J3ZH",
+   "word_ids": [
+    "w50"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0005",
+   "word_ids": [
+    "w11"
+   ]
+  },
+  "invoice_date": {
+   "text": "09/05/2026",
+   "word_ids": [
+    "w21"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Tamil Nadu (33)",
+   "word_ids": [
+    "w27",
+    "w28",
+    "w29"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w36"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "557.88",
+   "word_ids": [
+    "w79"
+   ]
+  },
+  "cgst_total": {
+   "text": "50.21",
+   "word_ids": [
+    "w81"
+   ]
+  },
+  "sgst_total": {
+   "text": "50.21",
+   "word_ids": [
+    "w83"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w85"
+   ]
+  },
+  "round_off": {
+   "text": "-0.30",
+   "word_ids": [
+    "w88"
+   ]
+  },
+  "grand_total": {
+   "text": "658.00",
+   "word_ids": [
+    "w91"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w65",
+      "w66",
+      "w67"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "qty": {
+     "text": "12",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "unit_price": {
+     "text": "46.49",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "taxable_value": {
+     "text": "557.88",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "cgst": {
+     "text": "50.21",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "sgst": {
+     "text": "50.21",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w76"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 4.44,
+  "prompt_tokens": 1497,
+  "completion_tokens": 820,
+  "cache_key": "6f0a54f3d6ef49ccfc88ff4980f119b81918e16589ef4c55a6135d16eda3ae81"
+ }
+}

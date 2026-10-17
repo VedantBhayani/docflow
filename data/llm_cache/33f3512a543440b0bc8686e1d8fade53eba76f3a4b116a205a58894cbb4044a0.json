@@ -1,0 +1,198 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Anvay Hardware Pvt Ltd",
+   "word_ids": [
+    "w3",
+    "w4",
+    "w5",
+    "w6"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 44, Trade Centre, Noida, Uttar Pradesh",
+   "word_ids": [
+    "w10",
+    "w11",
+    "w12",
+    "w13",
+    "w14",
+    "w15",
+    "w16"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "09LUBCA7464Z1Z2",
+   "word_ids": [
+    "w21"
+   ]
+  },
+  "recipient_name": {
+   "text": "Anvay Textiles LLP",
+   "word_ids": [
+    "w37",
+    "w38",
+    "w39"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 112, Trade Centre, Lucknow, Uttar Pradesh",
+   "word_ids": [
+    "w40",
+    "w41",
+    "w42",
+    "w43",
+    "w44",
+    "w45",
+    "w46"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "09BUVCA7056O2ZH",
+   "word_ids": [
+    "w48"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0022",
+   "word_ids": [
+    "w9"
+   ]
+  },
+  "invoice_date": {
+   "text": "22/07/2026",
+   "word_ids": [
+    "w19"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Uttar Pradesh (09)",
+   "word_ids": [
+    "w25",
+    "w26",
+    "w27"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w34"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "7,593.84",
+   "word_ids": [
+    "w78"
+   ]
+  },
+  "cgst_total": {
+   "text": "189.85",
+   "word_ids": [
+    "w80"
+   ]
+  },
+  "sgst_total": {
+   "text": "189.85",
+   "word_ids": [
+    "w82"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w84"
+   ]
+  },
+  "round_off": {
+   "text": "0.46",
+   "word_ids": [
+    "w87"
+   ]
+  },
+  "grand_total": {
+   "text": "7,974.00",
+   "word_ids": [
+    "w90"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w63",
+      "w64",
+      "w65",
+      "w66"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "qty": {
+     "text": "12",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "unit_price": {
+     "text": "632.82",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "taxable_value": {
+     "text": "7,593.84",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "cgst": {
+     "text": "189.85",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "sgst": {
+     "text": "189.85",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w75"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 3.77,
+  "prompt_tokens": 1475,
+  "completion_tokens": 820,
+  "cache_key": "33f3512a543440b0bc8686e1d8fade53eba76f3a4b116a205a58894cbb4044a0"
+ }
+}

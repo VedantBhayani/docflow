@@ -6,3 +6,6 @@ __pycache__/
 data/cache/
 data/synthetic/invoices/_digital_sources/
 data/synthetic/statements/_digital_sources/
+
+# n8n runtime folders (documents and registers never committed)
+n8n/work/

@@ -1,0 +1,180 @@
+{
+  "name": "DocFlow intake",
+  "nodes": [
+    {
+      "parameters": {
+        "triggerOn": "folder",
+        "path": "={{ $env.DOCFLOW_WORK }}/inbox",
+        "events": ["add"],
+        "options": { "awaitWriteFinish": true, "depth": 1 }
+      },
+      "id": "a1f0c001-0000-4000-8000-000000000001",
+      "name": "New file in inbox",
+      "type": "n8n-nodes-base.localFileTrigger",
+      "typeVersion": 1,
+      "position": [0, 300],
+      "notes": "inbox/invoices/ or inbox/statements/: the folder decides the document kind"
+    },
+    {
+      "parameters": {
+        "fileSelector": "={{ $json.path }}",
+        "options": {}
+      },
+      "id": "a1f0c001-0000-4000-8000-000000000002",
+      "name": "Read file",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [220, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/extract",
+        "sendBody": true,
+        "contentType": "multipart-form-data",
+        "bodyParameters": {
+          "parameters": [
+            { "parameterType": "formBinaryData", "name": "file", "inputDataFieldName": "data" },
+            { "name": "kind", "value": "={{ $('New file in inbox').item.json.path.includes('statements') ? 'statement' : 'invoice' }}" }
+          ]
+        },
+        "options": { "timeout": 300000 }
+      },
+      "id": "a1f0c001-0000-4000-8000-000000000003",
+      "name": "DocFlow /extract",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [440, 300],
+      "onError": "continueErrorOutput",
+      "notes": "Extract, ground and check. Errors (API down, non-PDF, unreadable PDF) go to the error output."
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "loose", "version": 2 },
+          "conditions": [
+            {
+              "id": "c0000000-0000-4000-8000-000000000001",
+              "leftValue": "={{ $json.blocking.length }}",
+              "rightValue": 0,
+              "operator": { "type": "number", "operation": "gt" }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "a1f0c001-0000-4000-8000-000000000004",
+      "name": "Any blocking flag?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [680, 200]
+    },
+    {
+      "parameters": {
+        "assignments": { "assignments": [ { "id": "s1", "name": "route", "value": "NEEDS REVIEW", "type": "string" } ] },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "id": "a1f0c001-0000-4000-8000-000000000005",
+      "name": "Mark: needs review",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [920, 100]
+    },
+    {
+      "parameters": {
+        "assignments": { "assignments": [ { "id": "s2", "name": "route", "value": "CLEAN", "type": "string" } ] },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "id": "a1f0c001-0000-4000-8000-000000000006",
+      "name": "Mark: clean",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [920, 300]
+    },
+    {
+      "parameters": {
+        "assignments": { "assignments": [ { "id": "s3", "name": "route", "value": "FAILED", "type": "string" } ] },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "id": "a1f0c001-0000-4000-8000-000000000007",
+      "name": "Mark: failed",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [920, 500]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Move the PDF to processed/, review/ or failed/ and append one row to out/register.jsonl.\nconst fs = require('fs');\nconst path = require('path');\nconst src = $('New file in inbox').item.json.path;\nconst work = $env.DOCFLOW_WORK;\nconst r = $json;\nconst status = r.route;\nconst folder = { 'CLEAN': 'processed', 'NEEDS REVIEW': 'review', 'FAILED': 'failed' }[status];\nconst dest = path.join(work, folder, path.basename(src));\nfs.renameSync(src, dest);\nconst f = (k) => (r.fields && r.fields[k] && r.fields[k].text) || '';\nconst err = r.error ? (r.error.message || JSON.stringify(r.error)) : '';\nconst row = {\n  received_at: new Date().toISOString(),\n  file: path.basename(src),\n  kind: src.includes('statements') ? 'statement' : 'invoice',\n  status,\n  blocking_checks: (r.blocking || []).join(', '),\n  why: err || (r.flags || []).filter((x) => x.severity === 'BLOCKING').map((x) => x.check_id + ': ' + x.message).join(' | '),\n  supplier_gstin: f('supplier_gstin'),\n  invoice_no: f('invoice_no'),\n  invoice_date: f('invoice_date'),\n  grand_total: f('grand_total'),\n  account_number: f('account_number'),\n  closing_balance: f('closing_balance'),\n  qr: (r.qr && r.qr.status) || '',\n  moved_to: folder + '/' + path.basename(src),\n};\nfs.mkdirSync(path.join(work, 'out'), { recursive: true });\nfs.appendFileSync(path.join(work, 'out', 'register.jsonl'), JSON.stringify(row) + '\\n');\nreturn { json: row };"
+      },
+      "id": "a1f0c001-0000-4000-8000-000000000008",
+      "name": "Route and register",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1160, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// The register is append-only JSON lines; rebuild the Excel view from all of it.\nconst fs = require('fs');\nconst path = require('path');\nconst file = path.join($env.DOCFLOW_WORK, 'out', 'register.jsonl');\nreturn fs.readFileSync(file, 'utf8').split('\\n').filter(Boolean).map((l) => ({ json: JSON.parse(l) }));"
+      },
+      "id": "a1f0c001-0000-4000-8000-000000000009",
+      "name": "Load register",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1380, 300]
+    },
+    {
+      "parameters": {
+        "operation": "xlsx",
+        "options": { "fileName": "register.xlsx", "headerRow": true, "sheetName": "Register" }
+      },
+      "id": "a1f0c001-0000-4000-8000-000000000010",
+      "name": "To Excel",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [1600, 300]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "={{ $env.DOCFLOW_WORK }}/out/register.xlsx",
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "id": "a1f0c001-0000-4000-8000-000000000011",
+      "name": "Write register.xlsx",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [1820, 300]
+    }
+  ],
+  "connections": {
+    "New file in inbox": { "main": [[{ "node": "Read file", "type": "main", "index": 0 }]] },
+    "Read file": { "main": [[{ "node": "DocFlow /extract", "type": "main", "index": 0 }]] },
+    "DocFlow /extract": {
+      "main": [
+        [{ "node": "Any blocking flag?", "type": "main", "index": 0 }],
+        [{ "node": "Mark: failed", "type": "main", "index": 0 }]
+      ]
+    },
+    "Any blocking flag?": {
+      "main": [
+        [{ "node": "Mark: needs review", "type": "main", "index": 0 }],
+        [{ "node": "Mark: clean", "type": "main", "index": 0 }]
+      ]
+    },
+    "Mark: needs review": { "main": [[{ "node": "Route and register", "type": "main", "index": 0 }]] },
+    "Mark: clean": { "main": [[{ "node": "Route and register", "type": "main", "index": 0 }]] },
+    "Mark: failed": { "main": [[{ "node": "Route and register", "type": "main", "index": 0 }]] },
+    "Route and register": { "main": [[{ "node": "Load register", "type": "main", "index": 0 }]] },
+    "Load register": { "main": [[{ "node": "To Excel", "type": "main", "index": 0 }]] },
+    "To Excel": { "main": [[{ "node": "Write register.xlsx", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "pinData": {},
+  "active": false
+}

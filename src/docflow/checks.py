@@ -329,6 +329,11 @@ def check_duplicates(batch: dict[str, dict[str, Field]]) -> dict[str, list[Flag]
 
 
 def catalogue_markdown() -> str:
-    rows = ["| ID | Severity | Check | Source |", "|---|---|---|---|"]
-    rows += [f"| {c.id} | {c.severity.title()} | {c.description} | {c.source} |" for c in CATALOGUE]
-    return "\n".join(rows)
+    from docflow.checks_statement import STATEMENT_CATALOGUE
+
+    out = []
+    for title, catalogue in (("Invoices", CATALOGUE), ("Bank statements", STATEMENT_CATALOGUE)):
+        out += [f"## {title}", "", "| ID | Severity | Check | Source |", "|---|---|---|---|"]
+        out += [f"| {c.id} | {c.severity.title()} | {c.description} | {c.source} |" for c in catalogue]
+        out.append("")
+    return "\n".join(out)

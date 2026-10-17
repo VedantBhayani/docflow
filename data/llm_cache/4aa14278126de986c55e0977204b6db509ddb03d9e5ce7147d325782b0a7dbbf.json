@@ -1,0 +1,396 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Nimbus Office Supplies Enterprises",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 81, MIDC Road, Chennai, Tamil Nadu",
+   "word_ids": [
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "33GRHCN0964Q2ZT",
+   "word_ids": [
+    "w13"
+   ]
+  },
+  "recipient_name": {
+   "text": "Meghdoot Fabrication LLP",
+   "word_ids": [
+    "w20",
+    "w21",
+    "w22"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 216, Industrial Estate, Coimbatore, Tamil Nadu",
+   "word_ids": [
+    "w28",
+    "w29",
+    "w30",
+    "w31",
+    "w32",
+    "w33",
+    "w34"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "33CNMCM3417U3ZY",
+   "word_ids": [
+    "w42"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0057",
+   "word_ids": [
+    "w19"
+   ]
+  },
+  "invoice_date": {
+   "text": "22 Apr 2026",
+   "word_ids": [
+    "w25",
+    "w26",
+    "w27"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Tamil Nadu (33)",
+   "word_ids": [
+    "w38",
+    "w39",
+    "w40"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w45"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "40,028.62",
+   "word_ids": [
+    "w118"
+   ]
+  },
+  "cgst_total": {
+   "text": "2,671.56",
+   "word_ids": [
+    "w120"
+   ]
+  },
+  "sgst_total": {
+   "text": "2,671.56",
+   "word_ids": [
+    "w122"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w124"
+   ]
+  },
+  "round_off": {
+   "text": "0.26",
+   "word_ids": [
+    "w126"
+   ]
+  },
+  "grand_total": {
+   "text": "45,372.00",
+   "word_ids": [
+    "w128"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w61",
+      "w62",
+      "w63",
+      "w64"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "qty": {
+     "text": "3.00",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "unit_price": {
+     "text": "627.59",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,882.77",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "cgst": {
+     "text": "47.07",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "sgst": {
+     "text": "47.07",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w73"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w75",
+      "w76",
+      "w77",
+      "w78"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w79"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "unit_price": {
+     "text": "90.60",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,265.00",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "cgst": {
+     "text": "56.63",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "sgst": {
+     "text": "56.63.",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w87"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w89",
+      "w90",
+      "w91",
+      "w92",
+      "w93",
+      "w94"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "qty": {
+     "text": "40.00",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "unit_price": {
+     "text": "254.39",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "taxable_value": {
+     "text": "10,175.60",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "cgst": {
+     "text": "254.39",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "sgst": {
+     "text": "254.39",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w103"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w104",
+      "w105",
+      "w106"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "qty": {
+     "text": "5.00",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "unit_price": {
+     "text": "5,141.05",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "taxable_value": {
+     "text": "25,705.25",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "cgst": {
+     "text": "2,313.47",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "sgst": {
+     "text": "2.313.47",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w115"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 6.83,
+  "prompt_tokens": 1872,
+  "completion_tokens": 1641,
+  "cache_key": "4aa14278126de986c55e0977204b6db509ddb03d9e5ce7147d325782b0a7dbbf"
+ }
+}

@@ -1,0 +1,465 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Meghdoot IT Services Industries Pvt Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4",
+    "w5",
+    "w6"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 196, Business Park, Pune, Maharashtra",
+   "word_ids": [
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11",
+    "w12"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "27TZLCM8529D3Z7",
+   "word_ids": [
+    "w14"
+   ]
+  },
+  "recipient_name": {
+   "text": "Trikon Electricals LLP",
+   "word_ids": [
+    "w19",
+    "w21",
+    "w22",
+    "w23"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 36, MIDC Road, Kolkata, West Bengal",
+   "word_ids": [
+    "w29",
+    "w30",
+    "w31",
+    "w32",
+    "w33",
+    "w34",
+    "w35"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "19JNLCT5596V1ZR",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0059",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "invoice_date": {
+   "text": "20 Jun 2026",
+   "word_ids": [
+    "w26",
+    "w27",
+    "w28"
+   ]
+  },
+  "place_of_supply": {
+   "text": "West Bengal (19)",
+   "word_ids": [
+    "w39",
+    "w40",
+    "w41"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w46"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "1,15,535.90",
+   "word_ids": [
+    "w131"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w133"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w135"
+   ]
+  },
+  "igst_total": {
+   "text": "6,527.31",
+   "word_ids": [
+    "w137"
+   ]
+  },
+  "round_off": {
+   "text": "-0.21",
+   "word_ids": [
+    "w139"
+   ]
+  },
+  "grand_total": {
+   "text": "1,22,063.00",
+   "word_ids": [
+    "w141"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w61",
+      "w62",
+      "w63",
+      "w64",
+      "w65",
+      "w66"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "qty": {
+     "text": "10.00",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "unit_price": {
+     "text": "320.84",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "taxable_value": {
+     "text": "3.208.40",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "igst": {
+     "text": "577.51",
+     "word_ids": [
+      "w75"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "2 Steef shelving unit",
+     "word_ids": [
+      "w76",
+      "w77",
+      "w78",
+      "w79"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "qty": {
+     "text": "12.00",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "unit_price": {
+     "text": "4.597.03",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "taxable_value": {
+     "text": "55.164.36",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "igst": {
+     "text": "2.758.22",
+     "word_ids": [
+      "w88"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w89",
+      "w90",
+      "w91",
+      "w92"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "unit_price": {
+     "text": "20.259.17",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "taxable_value": {
+     "text": "20.259.17",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "igst": {
+     "text": "1.012.96",
+     "word_ids": [
+      "w101"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Copper cabie 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w102",
+      "w103",
+      "w104",
+      "w105",
+      "w106",
+      "w107",
+      "w108"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "qty": {
+     "text": "10.00",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "unit_price": {
+     "text": "3,433.92",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "taxable_value": {
+     "text": "34.339.20",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "igst": {
+     "text": "1.716.96",
+     "word_ids": [
+      "w117"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w118",
+      "w119"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w120"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w121"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w122"
+     ]
+    },
+    "unit_price": {
+     "text": "2.564.77",
+     "word_ids": [
+      "w123"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,564.77",
+     "word_ids": [
+      "w124"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w127"
+     ]
+    },
+    "igst": {
+     "text": "461.66",
+     "word_ids": [
+      "w128"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 7.83,
+  "prompt_tokens": 2015,
+  "completion_tokens": 1935,
+  "cache_key": "0da61e8bd3c17654d156fb3684104b014f7ce14b67e8c04e7defc815dba75a15"
+ }
+}

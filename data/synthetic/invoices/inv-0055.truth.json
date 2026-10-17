@@ -1,0 +1,101 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Shakti Logistics Enterprises",
+    "supplier_address": "Unit 202, Trade Centre, Surat, Gujarat",
+    "supplier_gstin": "24PFRCS8153U1ZH",
+    "recipient_name": "Trikon Textiles LLP",
+    "recipient_address": "Unit 220, Business Park, Lucknow, Uttar Pradesh",
+    "recipient_gstin": "09POBCT2803H1ZB",
+    "invoice_no": "DFTEST-2627-0055",
+    "invoice_date": "03 May 2026",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "reverse_charge": "No",
+    "taxable_total": "50,838.57",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "6,057.26",
+    "round_off": "0.17",
+    "grand_total": "56,896.00"
+  },
+  "lines": [
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "12.00",
+      "uqc": "BTL",
+      "unit_price": "103.15",
+      "taxable_value": "1,237.80",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "61.89"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "2,805.72",
+      "taxable_value": "2,805.72",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "140.29"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "1.00",
+      "uqc": "NOS",
+      "unit_price": "532.05",
+      "taxable_value": "532.05",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "26.60"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "100.00",
+      "uqc": "KGS",
+      "unit_price": "192.22",
+      "taxable_value": "19,222.00",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "961.10"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "100.00",
+      "uqc": "PAC",
+      "unit_price": "270.41",
+      "taxable_value": "27,041.00",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "4,867.38"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0055",
+  "scan": "heavy",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 1471123396,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      2.64
+    ]
+  }
+}

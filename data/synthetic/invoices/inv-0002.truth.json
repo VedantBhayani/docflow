@@ -1,0 +1,44 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Kaveri Office Supplies LLP",
+    "supplier_address": "Unit 1, Trade Centre, Gandhinagar, Gujarat",
+    "supplier_gstin": "24LFTCK8634X2ZI",
+    "recipient_name": "Aarav Hardware LLP",
+    "recipient_address": "Unit 220, Trade Centre, Chennai, Tamil Nadu",
+    "recipient_gstin": "33JMJCA9778X1ZC",
+    "invoice_no": "DFTEST-2627-0002",
+    "invoice_date": "08/10/2026",
+    "place_of_supply": "Tamil Nadu (33)",
+    "reverse_charge": "No",
+    "taxable_total": "5,777.65",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "288.88",
+    "round_off": "0.47",
+    "grand_total": "6,067.00"
+  },
+  "lines": [
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "1",
+      "uqc": "NOS",
+      "unit_price": "5,777.65",
+      "taxable_value": "5,777.65",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "288.88"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0002",
+  "scan": "digital",
+  "defect": null,
+  "split": "heldout"
+}

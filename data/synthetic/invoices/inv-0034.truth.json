@@ -1,0 +1,47 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Meghdoot Hardware Pvt Ltd",
+    "supplier_address": "Unit 17, Business Park, New Delhi, Delhi",
+    "supplier_gstin": "07QHWCM8731S2ZC",
+    "recipient_name": "Aarav Hardware Industries Pvt Ltd",
+    "recipient_address": "Unit 59, Business Park, Pune, Maharashtra",
+    "recipient_gstin": null,
+    "invoice_no": "DFTEST-2627-0034",
+    "invoice_date": "14 Aug 2026",
+    "place_of_supply": "Maharashtra (27)",
+    "reverse_charge": "No",
+    "taxable_total": "2,419.92",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "435.59",
+    "round_off": "0.49",
+    "grand_total": "2,856.00"
+  },
+  "lines": [
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "2,419.92",
+      "taxable_value": "2,419.92",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "435.59"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [
+    "A5",
+    "E2"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0034",
+  "scan": "digital",
+  "defect": "missing_recipient_gstin",
+  "split": "heldout"
+}

@@ -1,0 +1,64 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Shakti Electricals LLP",
+    "supplier_address": "Unit 61, Trade Centre, Kolkata, West Bengal",
+    "supplier_gstin": "19UBOCS8910N2ZU",
+    "recipient_name": "Nimbus Fabrication LLP",
+    "recipient_address": "Unit 163, Industrial Estate, Kolkata, West Bengal",
+    "recipient_gstin": "19FRYCN8947N2ZU",
+    "invoice_no": "DFTEST-2627-0101",
+    "invoice_date": "23/08/2026",
+    "place_of_supply": "West Bengal (19)",
+    "reverse_charge": "No",
+    "taxable_total": "90,090.75",
+    "cgst_total": "8,108.17",
+    "sgst_total": "8,108.17",
+    "igst_total": "0.00",
+    "round_off": "-0.09",
+    "grand_total": "1,06,307.00",
+    "irn": "f7fe53ab7074cc0f4c7a86eccd0c5c34e62b62e3f64fd87b57451019540a8dc9"
+  },
+  "lines": [
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "25.00",
+      "uqc": "ROL",
+      "unit_price": "3,603.63",
+      "taxable_value": "90,090.75",
+      "gst_rate": "18%",
+      "cgst": "8,108.17",
+      "sgst": "8,108.17",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMTlVQk9DUzg5MTBOMlpVXCIsXCJCdXllckdzdGluXCI6XCIxOUZSWUNOODk0N04yWlVcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMTAxXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjIzLzA4LzIwMjZcIixcIlRvdEludlZhbFwiOjEwNjMwNy4wLFwiSXRlbUNudFwiOjEsXCJNYWluSHNuQ29kZVwiOlwiODU0NDQ5OTlcIixcIklyblwiOlwiZjdmZTUzYWI3MDc0Y2MwZjRjN2E4NmVjY2QwYzVjMzRlNjJiNjJlM2Y2NGZkODdiNTc0NTEwMTk1NDBhOGRjOVwiLFwiSXJuRHRcIjpcIjIwMjYtMDgtMjQgMTY6NDg6MDBcIn0ifQ.AGo4bjEPIAsLvJLy95KL1sBR1CbD_pGxYDnjRWmD6to-E0OgryzT0z4w8U5QmmSjY73fgv1pURI_rYCBDnCQXaUqtG7Fe4kaRFX4ZKAqOipPrYhxIwmbl3e8ZauEuwKJYKfoNk2Br1_5YMKRjaFYhsEhNU8Vm1gWSqVVIZNcpUpvwyl1ipASOv15mRl84kGiFBTxNFrMtzU4YbiH5iE9Mg5PfGMfR8BkHbX3bxFyuRRT5_C9StHTh6vwP4fBDgHsKZyxnQRAZxdGdOnvoChEW0EaaQJmAS9tm0PEU8qT9qSaltxmRKLP9NvAcNij3wBMIncGe2X-gTPzmMyPg8ovTw",
+    "payload": {
+      "SellerGstin": "19UBOCS8910N2ZU",
+      "BuyerGstin": "19FRYCN8947N2ZU",
+      "DocNo": "DFTEST-2627-0101",
+      "DocTyp": "INV",
+      "DocDt": "23/08/2026",
+      "TotInvVal": 106307.0,
+      "ItemCnt": 1,
+      "MainHsnCode": "85444999",
+      "Irn": "f7fe53ab7074cc0f4c7a86eccd0c5c34e62b62e3f64fd87b57451019540a8dc9",
+      "IrnDt": "2026-08-24 16:48:00"
+    },
+    "irn_printed": "f7fe53ab7074cc0f4c7a86eccd0c5c34e62b62e3f64fd87b57451019540a8dc9",
+    "ack_no": "111285884344583",
+    "ack_date": "2026-08-24"
+  },
+  "expected_flags": [
+    "Q1"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0101",
+  "scan": "digital",
+  "defect": "qr_bad_signature",
+  "split": "heldout"
+}

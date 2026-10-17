@@ -1,0 +1,101 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Trikon Hardware LLP",
+    "supplier_address": "Unit 98, Business Park, Hyderabad, Telangana",
+    "supplier_gstin": "36QJDCT3041J1ZG",
+    "recipient_name": "Anvay IT Services LLP",
+    "recipient_address": "Unit 90, Industrial Estate, Hyderabad, Telangana",
+    "recipient_gstin": "36NZUCA0090X3ZS",
+    "invoice_no": "DFTEST-2627-0047",
+    "invoice_date": "24 Aug 2026",
+    "place_of_supply": "Telangana (36)",
+    "reverse_charge": "No",
+    "taxable_total": "77,468.18",
+    "cgst_total": "5,109.76",
+    "sgst_total": "5,109.76",
+    "igst_total": "0.00",
+    "round_off": "0.30",
+    "grand_total": "87,688.00"
+  },
+  "lines": [
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "3.00",
+      "uqc": "ROL",
+      "unit_price": "3,353.58",
+      "taxable_value": "10,060.74",
+      "gst_rate": "5%",
+      "cgst": "251.52",
+      "sgst": "251.52",
+      "igst": "0.00"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "40.00",
+      "uqc": "NOS",
+      "unit_price": "633.98",
+      "taxable_value": "25,359.20",
+      "gst_rate": "18%",
+      "cgst": "2,282.33",
+      "sgst": "2,282.33",
+      "igst": "0.00"
+    },
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "17,638.19",
+      "taxable_value": "17,638.19",
+      "gst_rate": "5%",
+      "cgst": "440.95",
+      "sgst": "440.95",
+      "igst": "0.00"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "5.00",
+      "uqc": "NOS",
+      "unit_price": "4,691.42",
+      "taxable_value": "23,457.10",
+      "gst_rate": "18%",
+      "cgst": "2,111.14",
+      "sgst": "2,111.14",
+      "igst": "0.00"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "3.00",
+      "uqc": "PAC",
+      "unit_price": "317.65",
+      "taxable_value": "952.95",
+      "gst_rate": "5%",
+      "cgst": "23.82",
+      "sgst": "23.82",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0047",
+  "scan": "light",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "light",
+    "seed": 1292404957,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -0.28
+    ]
+  }
+}

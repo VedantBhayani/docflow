@@ -1,0 +1,56 @@
+{
+  "kind": "invoice",
+  "template": "word",
+  "fields": {
+    "supplier_name": "Sarthi Packaging LLP",
+    "supplier_address": "Unit 134, MIDC Road, New Delhi, Delhi",
+    "supplier_gstin": "07NOFCS6139G3Z1",
+    "recipient_name": "Aarav Textiles Traders",
+    "recipient_address": "Unit 71, MIDC Road, New Delhi, Delhi",
+    "recipient_gstin": "07HSMCA1318O2Z7",
+    "invoice_no": "DFTEST-2627-0064",
+    "invoice_date": "06-08-2026",
+    "place_of_supply": "Delhi (07)",
+    "reverse_charge": "No",
+    "taxable_total": "10,398.00",
+    "cgst_total": "866.53",
+    "sgst_total": "866.53",
+    "igst_total": "0.00",
+    "round_off": "-0.06",
+    "grand_total": "12,131.00"
+  },
+  "lines": [
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "25",
+      "uqc": "NOS",
+      "unit_price": "42.64",
+      "taxable_value": "1,066.00",
+      "gst_rate": "5 %",
+      "cgst": "26.65",
+      "sgst": "26.65",
+      "igst": "0.00"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "100",
+      "uqc": "BTL",
+      "unit_price": "93.32",
+      "taxable_value": "9,332.00",
+      "gst_rate": "18 %",
+      "cgst": "839.88",
+      "sgst": "839.88",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0064",
+  "scan": "digital",
+  "defect": null,
+  "split": "heldout"
+}

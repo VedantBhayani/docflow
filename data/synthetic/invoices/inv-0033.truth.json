@@ -1,0 +1,80 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Kaveri Office Supplies Industries Pvt Ltd",
+    "supplier_address": "Unit 170, Industrial Estate, Mysuru, Karnataka",
+    "supplier_gstin": "29QEFCK2202J3ZY",
+    "recipient_name": "Anvay Stationers Traders",
+    "recipient_address": "Unit 15, MIDC Road, Hyderabad, Telangana",
+    "recipient_gstin": "36GGRCA8605E3ZZ",
+    "invoice_no": "DFTEST-2627-0033",
+    "invoice_date": "28 Aug 2026",
+    "place_of_supply": "Telangana (36)",
+    "reverse_charge": "No",
+    "taxable_total": "57,419.61",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "4,930.54",
+    "round_off": "-0.15",
+    "grand_total": "62,350.00"
+  },
+  "lines": [
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "2,872.87",
+      "taxable_value": "2,872.87",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "143.64"
+    },
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "21,349.71",
+      "taxable_value": "21,349.71",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "1,067.49"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "3.00",
+      "uqc": "NOS",
+      "unit_price": "5,784.76",
+      "taxable_value": "17,354.28",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "867.71"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "25.00",
+      "uqc": "NOS",
+      "unit_price": "633.71",
+      "taxable_value": "15,842.75",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "2,851.70"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0033",
+  "scan": "digital",
+  "defect": null,
+  "split": "dev"
+}

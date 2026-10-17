@@ -1,0 +1,119 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Aarav Packaging Pvt Ltd",
+    "supplier_address": "Unit 67, MIDC Road, Coimbatore, Tamil Nadu",
+    "supplier_gstin": "33YPSCA3475C3Z5",
+    "recipient_name": "Shakti Office Supplies LLP",
+    "recipient_address": "Unit 240, Industrial Estate, Coimbatore, Tamil Nadu",
+    "recipient_gstin": "33ETBCS4044Z2ZF",
+    "invoice_no": "DFTEST-2627-0108",
+    "invoice_date": "03/10/2026",
+    "place_of_supply": "Tamil Nadu (33)",
+    "reverse_charge": "No",
+    "taxable_total": "4,20,414.22",
+    "cgst_total": "10,510.35",
+    "sgst_total": "10,510.35",
+    "igst_total": "0.00",
+    "round_off": "0.08",
+    "grand_total": "4,41,435.00",
+    "irn": "9ab6387e6c2545f379c422af70093af41883267fca10140cfc619c0a166130b4"
+  },
+  "lines": [
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "12.00",
+      "uqc": "NOS",
+      "unit_price": "4,783.21",
+      "taxable_value": "57,398.52",
+      "gst_rate": "5%",
+      "cgst": "1,434.96",
+      "sgst": "1,434.96",
+      "igst": "0.00"
+    },
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "16,135.02",
+      "taxable_value": "16,135.02",
+      "gst_rate": "5%",
+      "cgst": "403.38",
+      "sgst": "403.38",
+      "igst": "0.00"
+    },
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "40.00",
+      "uqc": "NOS",
+      "unit_price": "8,646.70",
+      "taxable_value": "3,45,868.00",
+      "gst_rate": "5%",
+      "cgst": "8,646.70",
+      "sgst": "8,646.70",
+      "igst": "0.00"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "1.00",
+      "uqc": "NOS",
+      "unit_price": "709.34",
+      "taxable_value": "709.34",
+      "gst_rate": "5%",
+      "cgst": "17.73",
+      "sgst": "17.73",
+      "igst": "0.00"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "2.00",
+      "uqc": "KGS",
+      "unit_price": "151.67",
+      "taxable_value": "303.34",
+      "gst_rate": "5%",
+      "cgst": "7.58",
+      "sgst": "7.58",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMzNZUFNDQTM0NzVDM1o1XCIsXCJCdXllckdzdGluXCI6XCIzM0VUQkNTNDA0NFoyWkZcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMTA4XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjAzLzEwLzIwMjZcIixcIlRvdEludlZhbFwiOjQ0MTQzNS4wLFwiSXRlbUNudFwiOjUsXCJNYWluSHNuQ29kZVwiOlwiOTQwMTMwMDBcIixcIklyblwiOlwiOWFiNjM4N2U2YzI1NDVmMzc5YzQyMmFmNzAwOTNhZjQxODgzMjY3ZmNhMTAxNDBjZmM2MTljMGExNjYxMzBiNFwiLFwiSXJuRHRcIjpcIjIwMjYtMTAtMDMgMTY6Mzk6MDBcIn0ifQ.U7rGWY0EtAicS9NIJ5CBBMd8j_GUssvk2YipVSrllOLwT5RnIXpYHbecXBExeVwVg6n62HTiUfcw0Qz81_SiGNcZLiHrrxezx0SMn4DeemtcGCavgH24sUfJiIMvnnX75dgVYHyECMsN_a_aS600wJkW2Wbq06bZhJr1z5EhtbJhw2UULO6op0h_k_9-6K3HKW8Hdm3o8LHlA1tIiAvbiqMCxLN0cWqqrxWLNqXPojToX8iVWnd0WvWCZ227-gcWFrXNCms08pcLeDj3uze23OxdtqhXuiT6Dcn85rjlbRscm0RqiN3BqpUvL1gs7RtBxHmsfK6Ozxhju9XpnI9SgA",
+    "payload": {
+      "SellerGstin": "33YPSCA3475C3Z5",
+      "BuyerGstin": "33ETBCS4044Z2ZF",
+      "DocNo": "DFTEST-2627-0108",
+      "DocTyp": "INV",
+      "DocDt": "03/10/2026",
+      "TotInvVal": 441435.0,
+      "ItemCnt": 5,
+      "MainHsnCode": "94013000",
+      "Irn": "9ab6387e6c2545f379c422af70093af41883267fca10140cfc619c0a166130b4",
+      "IrnDt": "2026-10-03 16:39:00"
+    },
+    "irn_printed": "9ab6387e6c2545f379c422af70093af41883267fca10140cfc619c0a166130b4",
+    "ack_no": "113498616741029",
+    "ack_date": "2026-10-03"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0108",
+  "scan": "light",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "light",
+    "seed": 1465488299,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      0.2
+    ]
+  }
+}

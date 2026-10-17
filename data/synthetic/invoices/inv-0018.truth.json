@@ -1,0 +1,89 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Kaveri IT Services Pvt Ltd",
+    "supplier_address": "Unit 226, Industrial Estate, Chennai, Tamil Nadu",
+    "supplier_gstin": "33NECCK9055D3Z3",
+    "recipient_name": "Vistar Polymers Pvt Ltd",
+    "recipient_address": "Unit 129, MIDC Road, Coimbatore, Tamil Nadu",
+    "recipient_gstin": "33RAYCV9127L1ZY",
+    "invoice_no": "DFTEST-2627-0018",
+    "invoice_date": "02/06/2026",
+    "place_of_supply": "Tamil Nadu (33)",
+    "reverse_charge": "No",
+    "taxable_total": "14,444.00",
+    "cgst_total": "613.37",
+    "sgst_total": "613.37",
+    "igst_total": "0.00",
+    "round_off": "0.26",
+    "grand_total": "15,671.00"
+  },
+  "lines": [
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "2,879.80",
+      "taxable_value": "2,879.80",
+      "gst_rate": "18%",
+      "cgst": "259.18",
+      "sgst": "259.18",
+      "igst": "0.00"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "5",
+      "uqc": "KGS",
+      "unit_price": "162.53",
+      "taxable_value": "812.65",
+      "gst_rate": "18%",
+      "cgst": "73.14",
+      "sgst": "73.14",
+      "igst": "0.00"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "100",
+      "uqc": "BTL",
+      "unit_price": "105.63",
+      "taxable_value": "10,563.00",
+      "gst_rate": "5%",
+      "cgst": "264.08",
+      "sgst": "264.08",
+      "igst": "0.00"
+    },
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "5",
+      "uqc": "NOS",
+      "unit_price": "37.71",
+      "taxable_value": "188.55",
+      "gst_rate": "18%",
+      "cgst": "16.97",
+      "sgst": "16.97",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0018",
+  "scan": "light",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "light",
+    "seed": 875379322,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      0.33
+    ]
+  }
+}

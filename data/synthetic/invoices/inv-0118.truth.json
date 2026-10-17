@@ -1,0 +1,119 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Trikon Stationers Industries Pvt Ltd",
+    "supplier_address": "Unit 4, Industrial Estate, Hyderabad, Telangana",
+    "supplier_gstin": "36PXQCT2870K3ZX",
+    "recipient_name": "Shakti Fabrication LLP",
+    "recipient_address": "Unit 75, Business Park, Lucknow, Uttar Pradesh",
+    "recipient_gstin": "09MNKCS6738Y2ZQ",
+    "invoice_no": "DFTEST-2627-0118",
+    "invoice_date": "08/10/2026",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "reverse_charge": "No",
+    "taxable_total": "29,211.45",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "4,536.07",
+    "round_off": "0.48",
+    "grand_total": "33,748.00",
+    "irn": "bce824853b7eedc3db6323f48a1c667dcd43547c87e971769e7f92000be9603b"
+  },
+  "lines": [
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "5.00",
+      "uqc": "KGS",
+      "unit_price": "181.40",
+      "taxable_value": "907.00",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "163.26"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "12.00",
+      "uqc": "PAC",
+      "unit_price": "330.85",
+      "taxable_value": "3,970.20",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "198.51"
+    },
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "40.00",
+      "uqc": "NOS",
+      "unit_price": "39.59",
+      "taxable_value": "1,583.60",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "79.18"
+    },
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "16,709.39",
+      "taxable_value": "16,709.39",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "3,007.69"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "2.00",
+      "uqc": "ROL",
+      "unit_price": "3,020.63",
+      "taxable_value": "6,041.26",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "1,087.43"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMzZQWFFDVDI4NzBLM1pYXCIsXCJCdXllckdzdGluXCI6XCIwOU1OS0NTNjczOFkyWlFcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMTE4XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjA4LzEwLzIwMjZcIixcIlRvdEludlZhbFwiOjMzNzQ4LjAsXCJJdGVtQ250XCI6NSxcIk1haW5Ic25Db2RlXCI6XCI5OTg3MTNcIixcIklyblwiOlwiYmNlODI0ODUzYjdlZWRjM2RiNjMyM2Y0OGExYzY2N2RjZDQzNTQ3Yzg3ZTk3MTc2OWU3ZjkyMDAwYmU5NjAzYlwiLFwiSXJuRHRcIjpcIjIwMjYtMTAtMDggMTQ6NDI6MDBcIn0ifQ.cBOhgPQv5iUdhyn0709zKUtoLo1ZRA2l9NUP1EoarXoXDxr6CMV61JLumGAJI0QUunaUyXgrtd6ixpPCvgyae86OpujE0MVaATIVnezHGwsSGER0s4hRF1mDyT5Tfreh5sm4yh3M7voZnvQajD7ao1yJGHvocA4upcOroWgxObAZgQkVGlXqLKjSAg7742vJcMEZza9yLaKowXqELGyt7jl9Zm1ofdvEHgGhtYfJO7w8c5jyqh0eigBPL-CrDbWH0H9TMZiQPB-MgzZVhjWvKB70K38YKoF6GHodkdHnn70FTgAkTdJeDpt2DmF6oq-BxPDDEIVKcpLh6KN0FDekGg",
+    "payload": {
+      "SellerGstin": "36PXQCT2870K3ZX",
+      "BuyerGstin": "09MNKCS6738Y2ZQ",
+      "DocNo": "DFTEST-2627-0118",
+      "DocTyp": "INV",
+      "DocDt": "08/10/2026",
+      "TotInvVal": 33748.0,
+      "ItemCnt": 5,
+      "MainHsnCode": "998713",
+      "Irn": "bce824853b7eedc3db6323f48a1c667dcd43547c87e971769e7f92000be9603b",
+      "IrnDt": "2026-10-08 14:42:00"
+    },
+    "irn_printed": "bce824853b7eedc3db6323f48a1c667dcd43547c87e971769e7f92000be9603b",
+    "ack_no": "115110509667653",
+    "ack_date": "2026-10-08"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0118",
+  "scan": "heavy",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 310204447,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -1.55
+    ]
+  }
+}

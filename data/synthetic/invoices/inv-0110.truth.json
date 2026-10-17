@@ -1,0 +1,107 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Kaveri Packaging Enterprises",
+    "supplier_address": "Unit 93, Business Park, Kolkata, West Bengal",
+    "supplier_gstin": "19KFTCK4906K2Z9",
+    "recipient_name": "Anvay IT Services LLP",
+    "recipient_address": "Unit 62, Trade Centre, Mysuru, Karnataka",
+    "recipient_gstin": "29WDDCA7212K2ZT",
+    "invoice_no": "DFTEST-2627-0110",
+    "invoice_date": "05/07/2026",
+    "place_of_supply": "Karnataka (29)",
+    "reverse_charge": "No",
+    "taxable_total": "1,60,980.38",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "17,131.43",
+    "round_off": "0.19",
+    "grand_total": "1,78,112.00",
+    "irn": "b21b34754837c46fd4c65354e61c293d95ea5080856572927defcd6866e02797"
+  },
+  "lines": [
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "25.00",
+      "uqc": "ROL",
+      "unit_price": "2,961.19",
+      "taxable_value": "74,029.75",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "3,701.49"
+    },
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "5.00",
+      "uqc": "NOS",
+      "unit_price": "40.73",
+      "taxable_value": "203.65",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "36.66"
+    },
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "2.00",
+      "uqc": "NOS",
+      "unit_price": "8,542.99",
+      "taxable_value": "17,085.98",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "854.30"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "100.00",
+      "uqc": "NOS",
+      "unit_price": "696.61",
+      "taxable_value": "69,661.00",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "12,538.98"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMTlLRlRDSzQ5MDZLMlo5XCIsXCJCdXllckdzdGluXCI6XCIyOVdERENBNzIxMksyWlRcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMTEwXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjA1LzA3LzIwMjZcIixcIlRvdEludlZhbFwiOjE3ODExMi4wLFwiSXRlbUNudFwiOjQsXCJNYWluSHNuQ29kZVwiOlwiODU0NDQ5OTlcIixcIklyblwiOlwiYjIxYjM0NzU0ODM3YzQ2ZmQ0YzY1MzU0ZTYxYzI5M2Q5NWVhNTA4MDg1NjU3MjkyN2RlZmNkNjg2NmUwMjc5N1wiLFwiSXJuRHRcIjpcIjIwMjYtMDctMDcgMTg6NTI6MDBcIn0ifQ.ExhvbihzOQHYz5y0ZMOPfVbfYqUumUghrqFI7-uhHVvHlNItsdLbBuCDvBjMjNu7JGHKQja3eznJr9aYhowtzP6LrHfQnkGj01xK8RSWzUcRuR1Ec3SlJffZWjiXxpMc2thRaK0xLUTHLFRuPvvHynxBVHwEC6Vz7SyEEktFtS9RzK2TNFklVEoAyC88JCPTed3Yn9DFcUxT7wvpsPc7ZiOeERhQV1cVGO10EW3O8mcqOHIW6fqPlUQofZmiyZQf5mnm4YBCkhWt7Z-0fw1rHj1XhSEKcFW4VOQAbkpUcO_GfXa3F8dHgOXxG5mcdobaONTzZ4vaF5_xEWSv9bUi4w",
+    "payload": {
+      "SellerGstin": "19KFTCK4906K2Z9",
+      "BuyerGstin": "29WDDCA7212K2ZT",
+      "DocNo": "DFTEST-2627-0110",
+      "DocTyp": "INV",
+      "DocDt": "05/07/2026",
+      "TotInvVal": 178112.0,
+      "ItemCnt": 4,
+      "MainHsnCode": "85444999",
+      "Irn": "b21b34754837c46fd4c65354e61c293d95ea5080856572927defcd6866e02797",
+      "IrnDt": "2026-07-07 18:52:00"
+    },
+    "irn_printed": "b21b34754837c46fd4c65354e61c293d95ea5080856572927defcd6866e02797",
+    "ack_no": "119484012597510",
+    "ack_date": "2026-07-07"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0110",
+  "scan": "light",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "light",
+    "seed": 108425286,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      0.87
+    ]
+  }
+}

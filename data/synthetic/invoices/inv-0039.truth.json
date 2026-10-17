@@ -1,0 +1,56 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Shakti Fabrication Enterprises",
+    "supplier_address": "Unit 125, Business Park, Mumbai, Maharashtra",
+    "supplier_gstin": "27MSRCS8242N2Z2",
+    "recipient_name": "Sahyadri Polymers Enterprises",
+    "recipient_address": "Unit 25, Business Park, Pune, Maharashtra",
+    "recipient_gstin": "27IQVCS5408X1ZT",
+    "invoice_no": "DFTEST-2627-0039",
+    "invoice_date": "10 May 2026",
+    "place_of_supply": "Maharashtra (27)",
+    "reverse_charge": "No",
+    "taxable_total": "4,954.20",
+    "cgst_total": "342.85",
+    "sgst_total": "342.85",
+    "igst_total": "0.00",
+    "round_off": "0.10",
+    "grand_total": "5,640.00"
+  },
+  "lines": [
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "10.00",
+      "uqc": "PAC",
+      "unit_price": "336.91",
+      "taxable_value": "3,369.10",
+      "gst_rate": "18%",
+      "cgst": "303.22",
+      "sgst": "303.22",
+      "igst": "0.00"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "10.00",
+      "uqc": "KGS",
+      "unit_price": "158.51",
+      "taxable_value": "1,585.10",
+      "gst_rate": "5%",
+      "cgst": "39.63",
+      "sgst": "39.63",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0039",
+  "scan": "digital",
+  "defect": null,
+  "split": "heldout"
+}

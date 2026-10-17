@@ -1,0 +1,119 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Vistar Hardware Enterprises",
+    "supplier_address": "Unit 84, Industrial Estate, Bengaluru, Karnataka",
+    "supplier_gstin": "29CTCCV5433L3ZQ",
+    "recipient_name": "Meghdoot Fabrication Enterprises",
+    "recipient_address": "Unit 33, MIDC Road, Vadodara, Gujarat",
+    "recipient_gstin": "24TYLCM9525I2Z7",
+    "invoice_no": "DFTEST-2627-0111",
+    "invoice_date": "05/04/2026",
+    "place_of_supply": "Gujarat (24)",
+    "reverse_charge": "No",
+    "taxable_total": "1,59,490.49",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "26,676.36",
+    "round_off": "0.15",
+    "grand_total": "1,86,167.00",
+    "irn": "0f6d7abd6d9d2318edbff659ae8476c45cf9784c88d16e01abb3bf54fb7fa4ea"
+  },
+  "lines": [
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "5.00",
+      "uqc": "NOS",
+      "unit_price": "713.16",
+      "taxable_value": "3,565.80",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "178.29"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "25.00",
+      "uqc": "BTL",
+      "unit_price": "87.24",
+      "taxable_value": "2,181.00",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "109.05"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "25.00",
+      "uqc": "PAC",
+      "unit_price": "294.28",
+      "taxable_value": "7,357.00",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "367.85"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "25.00",
+      "uqc": "NOS",
+      "unit_price": "5,754.41",
+      "taxable_value": "1,43,860.25",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "25,894.85"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "2,526.44",
+      "taxable_value": "2,526.44",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "126.32"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjlDVENDVjU0MzNMM1pRXCIsXCJCdXllckdzdGluXCI6XCIyNFRZTENNOTUyNUkyWjdcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMTExXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjA1LzA0LzIwMjZcIixcIlRvdEludlZhbFwiOjE4NjE2Ny4wLFwiSXRlbUNudFwiOjUsXCJNYWluSHNuQ29kZVwiOlwiOTQwMzIwOTBcIixcIklyblwiOlwiMGY2ZDdhYmQ2ZDlkMjMxOGVkYmZmNjU5YWU4NDc2YzQ1Y2Y5Nzg0Yzg4ZDE2ZTAxYWJiM2JmNTRmYjdmYTRlYVwiLFwiSXJuRHRcIjpcIjIwMjYtMDQtMDcgMTY6MDI6MDBcIn0ifQ.SSa8LXbPTD-DKIHz6ULoq72B78CofncWLt-UYqxqR_lArs0ANwLoK2zKVcbiqBzX1ZL5aTXwHKUgftM_gOOMtczAscJqNwHfv1xzwYZiA992yKVamjJ96Lc7aLJvKaLWd35KxRrwXTV2qK2-FWG4eUZODHoG_D_6XiP2z7H52Aac-BpzQQot8EDDjS5be5J6T6B9RaGTbmpjGJqUnLqxvmk1Tsouv3mL1HEhCuwaBFNDpZig3CykO6QXa_o7JuRjwuBqsRcNjSTOIt9abVeJxVbC6jXOOnQemfsNed-DuI_qH4du4yq0JzO6mClJlHNMzTXRyajuXzR1-BFdvkhOOw",
+    "payload": {
+      "SellerGstin": "29CTCCV5433L3ZQ",
+      "BuyerGstin": "24TYLCM9525I2Z7",
+      "DocNo": "DFTEST-2627-0111",
+      "DocTyp": "INV",
+      "DocDt": "05/04/2026",
+      "TotInvVal": 186167.0,
+      "ItemCnt": 5,
+      "MainHsnCode": "94032090",
+      "Irn": "0f6d7abd6d9d2318edbff659ae8476c45cf9784c88d16e01abb3bf54fb7fa4ea",
+      "IrnDt": "2026-04-07 16:02:00"
+    },
+    "irn_printed": "0f6d7abd6d9d2318edbff659ae8476c45cf9784c88d16e01abb3bf54fb7fa4ea",
+    "ack_no": "114599297744750",
+    "ack_date": "2026-04-07"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0111",
+  "scan": "light",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "light",
+    "seed": 1676309400,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -0.11
+    ]
+  }
+}

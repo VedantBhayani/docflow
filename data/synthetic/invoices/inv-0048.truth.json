@@ -1,0 +1,53 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Aarav Stationers Enterprises",
+    "supplier_address": "Unit 10, MIDC Road, Hyderabad, Telangana",
+    "supplier_gstin": "36HRLCA3317R1Z1",
+    "recipient_name": "Anvay Logistics Enterprises",
+    "recipient_address": "Unit 86, Industrial Estate, Kolkata, West Bengal",
+    "recipient_gstin": "19WVMCA3415O3ZE",
+    "invoice_no": "DFTEST-2627-0048",
+    "invoice_date": "07 Oct 2026",
+    "place_of_supply": "West Bengal (19)",
+    "reverse_charge": "No",
+    "taxable_total": "2,548.57",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "458.74",
+    "round_off": "-0.31",
+    "grand_total": "3,007.00"
+  },
+  "lines": [
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "2,548.57",
+      "taxable_value": "2,548.57",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "458.74"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0048",
+  "scan": "light",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "light",
+    "seed": 2096408641,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -0.57
+    ]
+  }
+}

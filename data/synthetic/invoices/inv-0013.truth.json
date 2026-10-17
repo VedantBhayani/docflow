@@ -1,0 +1,80 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Kaveri Stationers LLP",
+    "supplier_address": "Unit 114, Industrial Estate, Hyderabad, Telangana",
+    "supplier_gstin": "36BULCK9332K3ZS",
+    "recipient_name": "Meghdoot Fabrication Industries Pvt Ltd",
+    "recipient_address": "Unit 83, Industrial Estate, Noida, Uttar Pradesh",
+    "recipient_gstin": "09WHJCM3275R1ZL",
+    "invoice_no": "DFTEST-2627-0013",
+    "invoice_date": "29/04/2026",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "reverse_charge": "No",
+    "taxable_total": "61,711.62",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "10,850.47",
+    "round_off": "-0.09",
+    "grand_total": "72,562.00"
+  },
+  "lines": [
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "2",
+      "uqc": "KGS",
+      "unit_price": "173.97",
+      "taxable_value": "347.94",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "17.40"
+    },
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "12",
+      "uqc": "NOS",
+      "unit_price": "40.48",
+      "taxable_value": "485.76",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "87.44"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "12",
+      "uqc": "NOS",
+      "unit_price": "4,937.01",
+      "taxable_value": "59,244.12",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "10,663.94"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "5",
+      "uqc": "PAC",
+      "unit_price": "326.76",
+      "taxable_value": "1,633.80",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "81.69"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0013",
+  "scan": "digital",
+  "defect": null,
+  "split": "heldout"
+}

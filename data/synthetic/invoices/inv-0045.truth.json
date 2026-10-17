@@ -1,0 +1,46 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Udaan Logistics Traders",
+    "supplier_address": "Unit 47, Business Park, Pune, Maharashtra",
+    "supplier_gstin": "27NFACU7878B3ZF",
+    "recipient_name": "Anvay IT Services LLP",
+    "recipient_address": "Unit 205, Trade Centre, Bengaluru, Karnataka",
+    "recipient_gstin": "29RJKCA8873S1ZE",
+    "invoice_no": "DFTEST-2627-0045",
+    "invoice_date": "01 Jul 2026",
+    "place_of_supply": "Karnataka (29)",
+    "reverse_charge": "No",
+    "taxable_total": "2,117.64",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "254.12",
+    "round_off": "0.24",
+    "grand_total": "2,372.00"
+  },
+  "lines": [
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "12.00",
+      "uqc": "KGS",
+      "unit_price": "176.47",
+      "taxable_value": "2,117.64",
+      "gst_rate": "12%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "254.12"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [
+    "C7"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0045",
+  "scan": "digital",
+  "defect": "invalid_slab",
+  "split": "dev"
+}

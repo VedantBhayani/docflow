@@ -1,0 +1,71 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Pragati Textiles Industries Pvt Ltd",
+    "supplier_address": "Unit 42, MIDC Road, Lucknow, Uttar Pradesh",
+    "supplier_gstin": "09SPJCP3428J1ZQ",
+    "recipient_name": "Meghdoot Packaging Pvt Ltd",
+    "recipient_address": "Unit 137, Industrial Estate, Mysuru, Karnataka",
+    "recipient_gstin": "29BEDCM6550L2ZR",
+    "invoice_no": "DFTEST-2627-0107",
+    "invoice_date": "25/05/2026",
+    "place_of_supply": "Karnataka (29)",
+    "reverse_charge": "No",
+    "taxable_total": "1,047.50",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "188.55",
+    "round_off": "-0.05",
+    "grand_total": "1,236.00",
+    "irn": "e161923942c5b7d9cdf6ed8b76664aebc734a18183056ae04f0002fb62b8cf4a"
+  },
+  "lines": [
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "25.00",
+      "uqc": "NOS",
+      "unit_price": "41.90",
+      "taxable_value": "1,047.50",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "188.55"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMDlTUEpDUDM0MjhKMVpRXCIsXCJCdXllckdzdGluXCI6XCIyOUJFRENNNjU1MEwyWlJcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMTA3XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjI1LzA1LzIwMjZcIixcIlRvdEludlZhbFwiOjEyMzYuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjQ4MTkxMDEwXCIsXCJJcm5cIjpcImUxNjE5MjM5NDJjNWI3ZDljZGY2ZWQ4Yjc2NjY0YWViYzczNGExODE4MzA1NmFlMDRmMDAwMmZiNjJiOGNmNGFcIixcIklybkR0XCI6XCIyMDI2LTA1LTI2IDExOjM5OjAwXCJ9In0.oCmdlTtNe8wqBlCoQy0IJ83hLk_Cj1MQwKa1IKqNOLkmaVwLjoklzwY-5FIJKm2NcYTTEZlAsvX5DzMJB9vyxXR-h06917KTz8m6qpEhsOnQTiof7QnEEg92UJnseG3uYaHCMnQ-4YdgBUGcLHg71vLL9ZrgSM2ylP8c6-N4AL_D342MLzW32VMkuyfWnnlRNMnqsN3c7_sn0a-jo793fE4RvCm6LFkGtABixSK4iwIHlm0BLFUbqqEn0u_sQh3g2nQQ4uC0-SUsyYYQ7bPBcaqLSxJrYK3_v_8tz6CAX9OMgMml0Nt7UX36WX56PncNRfZ7PZsmpcd6KISHFU1MJg",
+    "payload": {
+      "SellerGstin": "09SPJCP3428J1ZQ",
+      "BuyerGstin": "29BEDCM6550L2ZR",
+      "DocNo": "DFTEST-2627-0107",
+      "DocTyp": "INV",
+      "DocDt": "25/05/2026",
+      "TotInvVal": 1236.0,
+      "ItemCnt": 1,
+      "MainHsnCode": "48191010",
+      "Irn": "e161923942c5b7d9cdf6ed8b76664aebc734a18183056ae04f0002fb62b8cf4a",
+      "IrnDt": "2026-05-26 11:39:00"
+    },
+    "irn_printed": "e161923942c5b7d9cdf6ed8b76664aebc734a18183056ae04f0002fb62b8cf4a",
+    "ack_no": "115640103536535",
+    "ack_date": "2026-05-26"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0107",
+  "scan": "light",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "light",
+    "seed": 513029355,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -0.59
+    ]
+  }
+}

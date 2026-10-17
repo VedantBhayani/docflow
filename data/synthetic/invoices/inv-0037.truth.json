@@ -1,0 +1,44 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Meghdoot Logistics Industries Pvt Ltd",
+    "supplier_address": "Unit 180, Trade Centre, Lucknow, Uttar Pradesh",
+    "supplier_gstin": "09IWTCM5933I3Z9",
+    "recipient_name": "Sahyadri IT Services LLP",
+    "recipient_address": "Unit 135, MIDC Road, Lucknow, Uttar Pradesh",
+    "recipient_gstin": "09RMSCS3883T2ZP",
+    "invoice_no": "DFTEST-2627-0037",
+    "invoice_date": "18 May 2026",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "reverse_charge": "No",
+    "taxable_total": "19,905.99",
+    "cgst_total": "1,791.54",
+    "sgst_total": "1,791.54",
+    "igst_total": "0.00",
+    "round_off": "-0.07",
+    "grand_total": "23,489.00"
+  },
+  "lines": [
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "19,905.99",
+      "taxable_value": "19,905.99",
+      "gst_rate": "18%",
+      "cgst": "1,791.54",
+      "sgst": "1,791.54",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0037",
+  "scan": "digital",
+  "defect": null,
+  "split": "heldout"
+}

@@ -1,0 +1,95 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Sahyadri Hardware Pvt Ltd",
+    "supplier_address": "Unit 143, Trade Centre, Hyderabad, Telangana",
+    "supplier_gstin": "36PCXCS8785U3ZW",
+    "recipient_name": "Sahyadri Logistics LLP",
+    "recipient_address": "Unit 228, Business Park, Hyderabad, Telangana",
+    "recipient_gstin": null,
+    "invoice_no": "DFTEST-2627-0003",
+    "invoice_date": "14/05/2026",
+    "place_of_supply": "Telangana (36)",
+    "reverse_charge": "No",
+    "taxable_total": "1,69,619.42",
+    "cgst_total": "14,589.17",
+    "sgst_total": "14,589.17",
+    "igst_total": "0.00",
+    "round_off": "0.24",
+    "grand_total": "1,98,798.00"
+  },
+  "lines": [
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "5",
+      "uqc": "NOS",
+      "unit_price": "37.59",
+      "taxable_value": "187.95",
+      "gst_rate": "18%",
+      "cgst": "16.92",
+      "sgst": "16.92",
+      "igst": "0.00"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "40",
+      "uqc": "ROL",
+      "unit_price": "2,855.54",
+      "taxable_value": "1,14,221.60",
+      "gst_rate": "18%",
+      "cgst": "10,279.94",
+      "sgst": "10,279.94",
+      "igst": "0.00"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "100",
+      "uqc": "BTL",
+      "unit_price": "104.09",
+      "taxable_value": "10,409.00",
+      "gst_rate": "5%",
+      "cgst": "260.23",
+      "sgst": "260.23",
+      "igst": "0.00"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "1",
+      "uqc": "KGS",
+      "unit_price": "190.92",
+      "taxable_value": "190.92",
+      "gst_rate": "18%",
+      "cgst": "17.18",
+      "sgst": "17.18",
+      "igst": "0.00"
+    },
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "5",
+      "uqc": "NOS",
+      "unit_price": "8,921.99",
+      "taxable_value": "44,609.95",
+      "gst_rate": "18%",
+      "cgst": "4,014.90",
+      "sgst": "4,014.90",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [
+    "A5",
+    "E2"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0003",
+  "scan": "digital",
+  "defect": "missing_recipient_gstin",
+  "split": "dev"
+}

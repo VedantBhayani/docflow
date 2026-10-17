@@ -1,0 +1,89 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Meghdoot Hardware LLP",
+    "supplier_address": "Unit 201, Trade Centre, Hyderabad, Telangana",
+    "supplier_gstin": "36VFACM4190U3ZU",
+    "recipient_name": "Nimbus Polymers Industries Pvt Ltd",
+    "recipient_address": "Unit 182, MIDC Road, Mysuru, Karnataka",
+    "recipient_gstin": "29JBACN1417C3ZL",
+    "invoice_no": "DFTEST-2627-0029",
+    "invoice_date": "26/06/2026",
+    "place_of_supply": "Karnataka (29)",
+    "reverse_charge": "No",
+    "taxable_total": "37,132.20",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "4,432.26",
+    "round_off": "-0.46",
+    "grand_total": "41,564.00"
+  },
+  "lines": [
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "3",
+      "uqc": "NOS",
+      "unit_price": "4,671.32",
+      "taxable_value": "14,013.96",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "700.70"
+    },
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "19,812.74",
+      "taxable_value": "19,812.74",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "3,566.29"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "2,540.85",
+      "taxable_value": "2,540.85",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "127.04"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "5",
+      "uqc": "KGS",
+      "unit_price": "152.93",
+      "taxable_value": "764.65",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "38.23"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0029",
+  "scan": "heavy",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 1897259008,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -2.72
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Shakti Packaging Enterprises",
+    "supplier_address": "Unit 22, MIDC Road, Bengaluru, Karnataka",
+    "supplier_gstin": "29ZVQCS8733V2ZW",
+    "recipient_name": "Anvay Stationers Pvt Ltd",
+    "recipient_address": "Unit 142, MIDC Road, Bengaluru, Karnataka",
+    "recipient_gstin": "29JKOCA8073R2ZP",
+    "invoice_no": "DFTEST-2627-0103",
+    "invoice_date": "16/05/2026",
+    "place_of_supply": "Karnataka (29)",
+    "reverse_charge": "No",
+    "taxable_total": "1,19,292.82",
+    "cgst_total": "3,015.48",
+    "sgst_total": "3,015.48",
+    "igst_total": "0.00",
+    "round_off": "0.22",
+    "grand_total": "1,25,324.00",
+    "irn": "a4a62949796028c94453d48c99fe492936240fb5fc9f1e99ea2a41d5259003de"
+  },
+  "lines": [
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "3.00",
+      "uqc": "KGS",
+      "unit_price": "170.09",
+      "taxable_value": "510.27",
+      "gst_rate": "18%",
+      "cgst": "45.92",
+      "sgst": "45.92",
+      "igst": "0.00"
+    },
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "21,602.05",
+      "taxable_value": "21,602.05",
+      "gst_rate": "5%",
+      "cgst": "540.05",
+      "sgst": "540.05",
+      "igst": "0.00"
+    },
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "12.00",
+      "uqc": "NOS",
+      "unit_price": "7,980.10",
+      "taxable_value": "95,761.20",
+      "gst_rate": "5%",
+      "cgst": "2,394.03",
+      "sgst": "2,394.03",
+      "igst": "0.00"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "5.00",
+      "uqc": "PAC",
+      "unit_price": "283.86",
+      "taxable_value": "1,419.30",
+      "gst_rate": "5%",
+      "cgst": "35.48",
+      "sgst": "35.48",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjlaVlFDUzg3MzNWMlpXXCIsXCJCdXllckdzdGluXCI6XCIyOUpLT0NBODA3M1IyWlBcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMTAzXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjE2LzA1LzIwMjZcIixcIlRvdEludlZhbFwiOjEyNTMyNC4wLFwiSXRlbUNudFwiOjQsXCJNYWluSHNuQ29kZVwiOlwiOTQwMTMwMDBcIixcIklyblwiOlwiYTRhNjI5NDk3OTYwMjhjOTQ0NTNkNDhjOTlmZTQ5MjkzNjI0MGZiNWZjOWYxZTk5ZWEyYTQxZDUyNTkwMDNkZVwiLFwiSXJuRHRcIjpcIjIwMjYtMDUtMTYgMTQ6MTY6MDBcIn0ifQ.kthAtAF82oHQEghnIacb-9XJ0OLaWKGOSFtXRsE1NjN8Lqxl8Ow_ryG6l_XwQyAitEr0aXZRIL2Bf2V5rTSYs7HZUJINQLT1tCTnhW8u2QiNI8ojz41OhIHOe2mFz-c5hG-tsn80ZDRjdLmXCD2eAjw1iR2P1UX3ceaQ1D0qNzRppHFqghNQeqQlu-L4M_SbPcMwZbvd6MSNv2ceU70Up8zvisPN4BfrqtKleUZmDrfBZuUIAzBj3QhydaBw-6dAab4oYjq2HzWkxnUeH_uAnRHBYU7QpFuE4TzO7HH4KK61L5QDCk8ZXpI6xRN7CYwaomLN9aIpsN7T3UUMkSL2IQ",
+    "payload": {
+      "SellerGstin": "29ZVQCS8733V2ZW",
+      "BuyerGstin": "29JKOCA8073R2ZP",
+      "DocNo": "DFTEST-2627-0103",
+      "DocTyp": "INV",
+      "DocDt": "16/05/2026",
+      "TotInvVal": 125324.0,
+      "ItemCnt": 4,
+      "MainHsnCode": "94013000",
+      "Irn": "a4a62949796028c94453d48c99fe492936240fb5fc9f1e99ea2a41d5259003de",
+      "IrnDt": "2026-05-16 14:16:00"
+    },
+    "irn_printed": "a4a62949796028c94453d48c99fe492936240fb5fc9f1e99ea2a41d5259003de",
+    "ack_no": "116460206886910",
+    "ack_date": "2026-05-16"
+  },
+  "expected_flags": [
+    "Q1"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0103",
+  "scan": "digital",
+  "defect": "qr_bad_signature",
+  "split": "dev"
+}

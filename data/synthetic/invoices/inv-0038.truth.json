@@ -1,0 +1,68 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Sahyadri Textiles Pvt Ltd",
+    "supplier_address": "Unit 107, Trade Centre, Kolkata, West Bengal",
+    "supplier_gstin": "19FFZCS0905S2ZT",
+    "recipient_name": "Aarav Packaging Enterprises",
+    "recipient_address": "Unit 182, MIDC Road, Kolkata, West Bengal",
+    "recipient_gstin": "19ZNWCA9309S2ZX",
+    "invoice_no": "DFTEST-2627-0038",
+    "invoice_date": "10 Apr 2026",
+    "place_of_supply": "West Bengal (19)",
+    "reverse_charge": "No",
+    "taxable_total": "18,581.02",
+    "cgst_total": "1,672.29",
+    "sgst_total": "1,672.29",
+    "igst_total": "0.00",
+    "round_off": "0.40",
+    "grand_total": "21,926.00"
+  },
+  "lines": [
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "25.00",
+      "uqc": "NOS",
+      "unit_price": "658.03",
+      "taxable_value": "16,450.75",
+      "gst_rate": "18%",
+      "cgst": "1,480.57",
+      "sgst": "1,480.57",
+      "igst": "0.00"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "3.00",
+      "uqc": "PAC",
+      "unit_price": "267.57",
+      "taxable_value": "802.71",
+      "gst_rate": "18%",
+      "cgst": "72.24",
+      "sgst": "72.24",
+      "igst": "0.00"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "12.00",
+      "uqc": "BTL",
+      "unit_price": "110.63",
+      "taxable_value": "1,327.56",
+      "gst_rate": "18%",
+      "cgst": "119.48",
+      "sgst": "119.48",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0038",
+  "scan": "digital",
+  "defect": null,
+  "split": "heldout"
+}

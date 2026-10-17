@@ -1,0 +1,119 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Aarav Textiles Traders",
+    "supplier_address": "Unit 34, MIDC Road, Kolkata, West Bengal",
+    "supplier_gstin": "19SHYCA4501X2ZL",
+    "recipient_name": "Nimbus Stationers Industries Pvt Ltd",
+    "recipient_address": "Unit 87, Trade Centre, Hyderabad, Telangana",
+    "recipient_gstin": "36HLBCN0522L3ZR",
+    "invoice_no": "DFTEST-2627-0026",
+    "invoice_date": "11/09/2026",
+    "place_of_supply": "Telangana (36)",
+    "reverse_charge": "No",
+    "taxable_total": "18,850.07",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "1,255.72",
+    "round_off": "0.21",
+    "grand_total": "20,106.00",
+    "irn": "509e6f172b34fc0bf30d3fdbccbec156d5aeeb980d28dd6684b2822ca0a0f951"
+  },
+  "lines": [
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "12",
+      "uqc": "NOS",
+      "unit_price": "39.62",
+      "taxable_value": "475.44",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "23.77"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "1",
+      "uqc": "KGS",
+      "unit_price": "151.87",
+      "taxable_value": "151.87",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "27.34"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "25",
+      "uqc": "NOS",
+      "unit_price": "524.84",
+      "taxable_value": "13,121.00",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "656.05"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "25",
+      "uqc": "BTL",
+      "unit_price": "90.30",
+      "taxable_value": "2,257.50",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "406.35"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "2,844.26",
+      "taxable_value": "2,844.26",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "142.21"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMTlTSFlDQTQ1MDFYMlpMXCIsXCJCdXllckdzdGluXCI6XCIzNkhMQkNOMDUyMkwzWlJcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDI2XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjExLzA5LzIwMjZcIixcIlRvdEludlZhbFwiOjIwMTA2LjAsXCJJdGVtQ250XCI6NSxcIk1haW5Ic25Db2RlXCI6XCI5NDA1MTkwMFwiLFwiSXJuXCI6XCI1MDllNmYxNzJiMzRmYzBiZjMwZDNmZGJjY2JlYzE1NmQ1YWVlYjk4MGQyOGRkNjY4NGIyODIyY2EwYTBmOTUxXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0xMyAxNjowMzowMFwifSJ9.qJ1oolzgFy9u2nt8ZNlOBbpCDOQeO4JiP8Ur4vDwBe9orknbQvNJUJW9tviiRbvdnnUYxZEOzcUKZF3KX5ykmD54YTHPv-Ww-wrQ4euypPhXzSxxMQmJR2Zj_koLyPHx54-cNGI8xomlXPMPQLOL3ZJ8Dh_jZEsqjNK7SlAAItre5xzhoKx8vFPly6Bvx2YECM73dJtoxBmwiUGdZD3Bbxp72pu3S1dnu0iloSGl3FKCdhptyP7HutQKinjCYPcUcd0c8l0njY1McvFIDjUU6N_qqlmk7LywEjlLIcZexGNzwMqUtxudY9wJS8QVspDMFvLa4HN0arWY9rPhgmB_ug",
+    "payload": {
+      "SellerGstin": "19SHYCA4501X2ZL",
+      "BuyerGstin": "36HLBCN0522L3ZR",
+      "DocNo": "DFTEST-2627-0026",
+      "DocTyp": "INV",
+      "DocDt": "11/09/2026",
+      "TotInvVal": 20106.0,
+      "ItemCnt": 5,
+      "MainHsnCode": "94051900",
+      "Irn": "509e6f172b34fc0bf30d3fdbccbec156d5aeeb980d28dd6684b2822ca0a0f951",
+      "IrnDt": "2026-09-13 16:03:00"
+    },
+    "irn_printed": "509e6f172b34fc0bf30d3fdbccbec156d5aeeb980d28dd6684b2822ca0a0f951",
+    "ack_no": "113952371927015",
+    "ack_date": "2026-09-13"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0026",
+  "scan": "heavy",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 345068885,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -0.84
+    ]
+  }
+}

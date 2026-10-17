@@ -1,0 +1,107 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Aarav Textiles LLP",
+    "supplier_address": "Unit 149, MIDC Road, Hyderabad, Telangana",
+    "supplier_gstin": "36IQVCA6554K3ZR",
+    "recipient_name": "Vistar Electricals Traders",
+    "recipient_address": "Unit 39, Trade Centre, Pune, Maharashtra",
+    "recipient_gstin": "27WVRCV2076P1ZK",
+    "invoice_no": "DFTEST-2627-0109",
+    "invoice_date": "07/05/2026",
+    "place_of_supply": "Maharashtra (27)",
+    "reverse_charge": "No",
+    "taxable_total": "74,056.40",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "8,101.95",
+    "round_off": "-0.35",
+    "grand_total": "82,158.00",
+    "irn": "ef5a075b80b06525ffe1b4f8c142a7083938f9094070ca65f27ed1dc840dba65"
+  },
+  "lines": [
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "5.00",
+      "uqc": "PAC",
+      "unit_price": "283.96",
+      "taxable_value": "1,419.80",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "255.56"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "12.00",
+      "uqc": "ROL",
+      "unit_price": "3,351.41",
+      "taxable_value": "40,216.92",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "2,010.85"
+    },
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "3.00",
+      "uqc": "NOS",
+      "unit_price": "7,808.56",
+      "taxable_value": "23,425.68",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "4,216.62"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "100.00",
+      "uqc": "BTL",
+      "unit_price": "89.94",
+      "taxable_value": "8,994.00",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "1,618.92"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMzZJUVZDQTY1NTRLM1pSXCIsXCJCdXllckdzdGluXCI6XCIyN1dWUkNWMjA3NlAxWktcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMTA5XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjA3LzA1LzIwMjZcIixcIlRvdEludlZhbFwiOjgyMTU4LjAsXCJJdGVtQ250XCI6NCxcIk1haW5Ic25Db2RlXCI6XCI4NTQ0NDk5OVwiLFwiSXJuXCI6XCJlZjVhMDc1YjgwYjA2NTI1ZmZlMWI0ZjhjMTQyYTcwODM5MzhmOTA5NDA3MGNhNjVmMjdlZDFkYzg0MGRiYTY1XCIsXCJJcm5EdFwiOlwiMjAyNi0wNS0wNyAxNjo0NTowMFwifSJ9.OKj4A2J40toGcudSp9Qy-ayJccDwMMzYwvlbkjUhJjb0iKB8lnxrxQjf_gYhFuOPNVJrIvl9QScPxjSfzI8806gw_tBcky_XA_lZJ0faZaGxLKwhleZUovEM-Hfzg5bpwb28ZidcaTMdZyYb1bqOSOznMTvt6jbRRIWDdudTEA2uPqZ-b8gmclx-Zs3ioKvth2001-pan9mTRidK-I2gVvRt-CE903THgyLw7-gHM349NVbA41LzHID_v66Qt4wUAwwNslLfrv_4E19dignYsa-7grV3jRB6cGQQwhTzG3KIEdL7Eatc_WH4VkI-0KX_BXOJXI4wYhnfE2uFgomByA",
+    "payload": {
+      "SellerGstin": "36IQVCA6554K3ZR",
+      "BuyerGstin": "27WVRCV2076P1ZK",
+      "DocNo": "DFTEST-2627-0109",
+      "DocTyp": "INV",
+      "DocDt": "07/05/2026",
+      "TotInvVal": 82158.0,
+      "ItemCnt": 4,
+      "MainHsnCode": "85444999",
+      "Irn": "ef5a075b80b06525ffe1b4f8c142a7083938f9094070ca65f27ed1dc840dba65",
+      "IrnDt": "2026-05-07 16:45:00"
+    },
+    "irn_printed": "ef5a075b80b06525ffe1b4f8c142a7083938f9094070ca65f27ed1dc840dba65",
+    "ack_no": "114959981423266",
+    "ack_date": "2026-05-07"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0109",
+  "scan": "light",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "light",
+    "seed": 1721653672,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -0.81
+    ]
+  }
+}

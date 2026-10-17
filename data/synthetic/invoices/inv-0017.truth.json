@@ -1,0 +1,77 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Aarav Fabrication Pvt Ltd",
+    "supplier_address": "Unit 197, Trade Centre, New Delhi, Delhi",
+    "supplier_gstin": "07BVVCA2241E2ZJ",
+    "recipient_name": "Trikon Textiles Pvt Ltd",
+    "recipient_address": "Unit 213, Industrial Estate, New Delhi, Delhi",
+    "recipient_gstin": "07RADCT5913R3Z8",
+    "invoice_no": "DFTEST-2627-0017",
+    "invoice_date": "12/06/2026",
+    "place_of_supply": "Delhi (07)",
+    "reverse_charge": "No",
+    "taxable_total": "1,32,827.94",
+    "cgst_total": "11,954.52",
+    "sgst_total": "11,954.52",
+    "igst_total": "0.00",
+    "round_off": "0.02",
+    "grand_total": "1,56,737.00"
+  },
+  "lines": [
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "12",
+      "uqc": "NOS",
+      "unit_price": "7,893.02",
+      "taxable_value": "94,716.24",
+      "gst_rate": "18%",
+      "cgst": "8,524.46",
+      "sgst": "8,524.46",
+      "igst": "0.00"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "10",
+      "uqc": "NOS",
+      "unit_price": "647.22",
+      "taxable_value": "6,472.20",
+      "gst_rate": "18%",
+      "cgst": "582.50",
+      "sgst": "582.50",
+      "igst": "0.00"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "5",
+      "uqc": "NOS",
+      "unit_price": "6,327.90",
+      "taxable_value": "31,639.50",
+      "gst_rate": "18%",
+      "cgst": "2,847.56",
+      "sgst": "2,847.56",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0017",
+  "scan": "light",
+  "defect": null,
+  "split": "dev",
+  "scan_meta": {
+    "level": "light",
+    "seed": 160760194,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -0.66
+    ]
+  }
+}

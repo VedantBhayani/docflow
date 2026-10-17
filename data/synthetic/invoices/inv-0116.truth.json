@@ -1,0 +1,83 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Pragati Office Supplies Industries Pvt Ltd",
+    "supplier_address": "Unit 78, Trade Centre, Gandhinagar, Gujarat",
+    "supplier_gstin": "24MNECP0596Z1ZA",
+    "recipient_name": "Aarav IT Services LLP",
+    "recipient_address": "Unit 109, MIDC Road, Ahmedabad, Gujarat",
+    "recipient_gstin": "24FMWCA9178Y3Z4",
+    "invoice_no": "DFTEST-2627-0116",
+    "invoice_date": "22/04/2026",
+    "place_of_supply": "Gujarat (24)",
+    "reverse_charge": "No",
+    "taxable_total": "10,918.35",
+    "cgst_total": "977.00",
+    "sgst_total": "977.00",
+    "igst_total": "0.00",
+    "round_off": "-0.35",
+    "grand_total": "12,872.00",
+    "irn": "c79cc8156dcede3bd409bbcc39199bf3fbba65ce5372e5add5ba7f0385783eb1"
+  },
+  "lines": [
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "2.00",
+      "uqc": "NOS",
+      "unit_price": "43.44",
+      "taxable_value": "86.88",
+      "gst_rate": "5%",
+      "cgst": "2.17",
+      "sgst": "2.17",
+      "igst": "0.00"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "3.00",
+      "uqc": "ROL",
+      "unit_price": "3,610.49",
+      "taxable_value": "10,831.47",
+      "gst_rate": "18%",
+      "cgst": "974.83",
+      "sgst": "974.83",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjRNTkVDUDA1OTZaMVpBXCIsXCJCdXllckdzdGluXCI6XCIyNEZNV0NBOTE3OFkzWjRcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMTE2XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjIyLzA0LzIwMjZcIixcIlRvdEludlZhbFwiOjEyODcyLjAsXCJJdGVtQ250XCI6MixcIk1haW5Ic25Db2RlXCI6XCI4NTQ0NDk5OVwiLFwiSXJuXCI6XCJjNzljYzgxNTZkY2VkZTNiZDQwOWJiY2MzOTE5OWJmM2ZiYmE2NWNlNTM3MmU1YWRkNWJhN2YwMzg1NzgzZWIxXCIsXCJJcm5EdFwiOlwiMjAyNi0wNC0yMiAxNjoxMjowMFwifSJ9.YjmE0H4wGY888QE3hCFYPdCtqGdIIcPhIdozFnQJ-Ss0R1K1gfDLPlmUqpdgYEJvkcLPFeIxqa_uWX2jUYinvt3qpozBmPChPCE7P_WpnKIh74aJYpBbrDjplsswiGn_wjcQ7ofMFrQ2dXJktz2l53h9thvmdWfxmMOeC3fBJjndcNWmWtPy4i14dLmQswAjmv45eVz9bZGMw4BT4-zJnGKT3QZO92HcdEff78OfO5ZpD4AZo3M3Q6dbENhzQ7S3r26pH67T11N0-8Dr91YYEFv44a6RCbyzCdPhuxH-3c-VdHae9eqiFZYtMo0NuDURlEkt521PKFdEzsnHUwA0Gw",
+    "payload": {
+      "SellerGstin": "24MNECP0596Z1ZA",
+      "BuyerGstin": "24FMWCA9178Y3Z4",
+      "DocNo": "DFTEST-2627-0116",
+      "DocTyp": "INV",
+      "DocDt": "22/04/2026",
+      "TotInvVal": 12872.0,
+      "ItemCnt": 2,
+      "MainHsnCode": "85444999",
+      "Irn": "c79cc8156dcede3bd409bbcc39199bf3fbba65ce5372e5add5ba7f0385783eb1",
+      "IrnDt": "2026-04-22 16:12:00"
+    },
+    "irn_printed": "c79cc8156dcede3bd409bbcc39199bf3fbba65ce5372e5add5ba7f0385783eb1",
+    "ack_no": "114907378641227",
+    "ack_date": "2026-04-22"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0116",
+  "scan": "heavy",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 1072390154,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -2.22
+    ]
+  }
+}

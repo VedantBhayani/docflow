@@ -1,0 +1,95 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Nimbus Packaging Industries Pvt Ltd",
+    "supplier_address": "Unit 108, Trade Centre, Surat, Gujarat",
+    "supplier_gstin": "24JFTCN7609P1Z1",
+    "recipient_name": "Nimbus IT Services LLP",
+    "recipient_address": "Unit 221, Trade Centre, Gandhinagar, Gujarat",
+    "recipient_gstin": "24XSNCN8714G2ZK",
+    "invoice_no": "DFTEST-2627-0115",
+    "invoice_date": "19/08/2026",
+    "place_of_supply": "Gujarat (24)",
+    "reverse_charge": "No",
+    "taxable_total": "13,946.22",
+    "cgst_total": "778.87",
+    "sgst_total": "778.87",
+    "igst_total": "0.00",
+    "round_off": "0.04",
+    "grand_total": "15,504.00",
+    "irn": "d523b9d1c5dbf79843563ef4db8813f04cb018c97d8e8e0462d487428c229039"
+  },
+  "lines": [
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "12.00",
+      "uqc": "NOS",
+      "unit_price": "594.52",
+      "taxable_value": "7,134.24",
+      "gst_rate": "5%",
+      "cgst": "178.36",
+      "sgst": "178.36",
+      "igst": "0.00"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "2.00",
+      "uqc": "BTL",
+      "unit_price": "96.67",
+      "taxable_value": "193.34",
+      "gst_rate": "5%",
+      "cgst": "4.83",
+      "sgst": "4.83",
+      "igst": "0.00"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "2.00",
+      "uqc": "ROL",
+      "unit_price": "3,309.32",
+      "taxable_value": "6,618.64",
+      "gst_rate": "18%",
+      "cgst": "595.68",
+      "sgst": "595.68",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjRKRlRDTjc2MDlQMVoxXCIsXCJCdXllckdzdGluXCI6XCIyNFhTTkNOODcxNEcyWktcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMTE1XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjE5LzA4LzIwMjZcIixcIlRvdEludlZhbFwiOjE1NTA0LjAsXCJJdGVtQ250XCI6MyxcIk1haW5Ic25Db2RlXCI6XCI5NDA1MTkwMFwiLFwiSXJuXCI6XCJkNTIzYjlkMWM1ZGJmNzk4NDM1NjNlZjRkYjg4MTNmMDRjYjAxOGM5N2Q4ZThlMDQ2MmQ0ODc0MjhjMjI5MDM5XCIsXCJJcm5EdFwiOlwiMjAyNi0wOC0yMCAxOTowMTowMFwifSJ9.McvEYlTnZNiX0Ls_-FT3e7mSF7-uuaqLpqo4jv0NmDkHGd0sDJSxqsvA31OPhTeI2Wup9zr6SlZwgMbSaMbtGoioMv8FBwCkPxhcDf8I64aZwOx9K3mTZcmPJctzNxmrP9LS5kN9Pz8kwCD0zkLDqERq6_Z7I3BFMQVHSx8CuowEzeWUv0CaKFv83mGLwV48mLRUOmrqGsPRDCGe5rDuuR0RkOwKWNzX0bmkUuX4ybKgnjkEdqcbCJiNFFetkBxyvHkK-xvni41Fu5570HNbIIWt9d6ME0Oa_a5_18nX9TTev56mM8cpEODen7Q2T5ROxM6xCNcKbY6HvCY5pPCNYQ",
+    "payload": {
+      "SellerGstin": "24JFTCN7609P1Z1",
+      "BuyerGstin": "24XSNCN8714G2ZK",
+      "DocNo": "DFTEST-2627-0115",
+      "DocTyp": "INV",
+      "DocDt": "19/08/2026",
+      "TotInvVal": 15504.0,
+      "ItemCnt": 3,
+      "MainHsnCode": "94051900",
+      "Irn": "d523b9d1c5dbf79843563ef4db8813f04cb018c97d8e8e0462d487428c229039",
+      "IrnDt": "2026-08-20 19:01:00"
+    },
+    "irn_printed": "d523b9d1c5dbf79843563ef4db8813f04cb018c97d8e8e0462d487428c229039",
+    "ack_no": "111809499470847",
+    "ack_date": "2026-08-20"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0115",
+  "scan": "heavy",
+  "defect": null,
+  "split": "dev",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 1007863420,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      2.16
+    ]
+  }
+}

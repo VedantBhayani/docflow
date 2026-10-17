@@ -1,0 +1,94 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Kaveri Polymers Traders",
+    "supplier_address": "Unit 125, Trade Centre, Coimbatore, Tamil Nadu",
+    "supplier_gstin": "33YJFCK7380I2Z7",
+    "recipient_name": "Anvay IT Services Industries Pvt Ltd",
+    "recipient_address": "Unit 217, Industrial Estate, Coimbatore, Tamil Nadu",
+    "recipient_gstin": "33WZFCA4396B2ZX",
+    "invoice_no": "DFTEST-2627-0010",
+    "invoice_date": "27/07/2026",
+    "place_of_supply": "Tamil Nadu (33)",
+    "reverse_charge": "No",
+    "taxable_total": "1,12,999.52",
+    "cgst_total": "5,384.49",
+    "sgst_total": "5,384.49",
+    "igst_total": "0.00",
+    "round_off": "0.50",
+    "grand_total": "1,23,769.00"
+  },
+  "lines": [
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "3",
+      "uqc": "NOS",
+      "unit_price": "43.48",
+      "taxable_value": "130.44",
+      "gst_rate": "18%",
+      "cgst": "11.74",
+      "sgst": "11.74",
+      "igst": "0.00"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "100",
+      "uqc": "KGS",
+      "unit_price": "191.40",
+      "taxable_value": "19,140.00",
+      "gst_rate": "18%",
+      "cgst": "1,722.60",
+      "sgst": "1,722.60",
+      "igst": "0.00"
+    },
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "20,106.48",
+      "taxable_value": "20,106.48",
+      "gst_rate": "18%",
+      "cgst": "1,809.58",
+      "sgst": "1,809.58",
+      "igst": "0.00"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "2,659.10",
+      "taxable_value": "2,659.10",
+      "gst_rate": "5%",
+      "cgst": "66.48",
+      "sgst": "66.48",
+      "igst": "0.00"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "25",
+      "uqc": "ROL",
+      "unit_price": "2,838.54",
+      "taxable_value": "70,963.50",
+      "gst_rate": "5%",
+      "cgst": "1,774.09",
+      "sgst": "1,774.09",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [
+    "G5"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0010",
+  "scan": "digital",
+  "defect": "bad_gstin_checksum",
+  "split": "heldout"
+}

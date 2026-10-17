@@ -1,0 +1,110 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Meghdoot Polymers Enterprises",
+    "supplier_address": "Unit 140, Trade Centre, Hyderabad, Telangana",
+    "supplier_gstin": "36KPCCM1145U3ZT",
+    "recipient_name": "Sarthi Stationers Industries Pvt Ltd",
+    "recipient_address": "Unit 45, MIDC Road, Chennai, Tamil Nadu",
+    "recipient_gstin": "33WOMCS4463T1Z2",
+    "invoice_no": "DFTEST-2627-0095",
+    "invoice_date": "03/07/2026",
+    "place_of_supply": "Tamil Nadu (33)",
+    "reverse_charge": "No",
+    "taxable_total": "74,831.25",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "6,299.51",
+    "round_off": "0.24",
+    "grand_total": "81,131.00",
+    "irn": "49949f5ae968fe0dd1c3f3925efdcc0359ca447ef25342322c7dab92d64157b3"
+  },
+  "lines": [
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "1.00",
+      "uqc": "NOS",
+      "unit_price": "668.85",
+      "taxable_value": "668.85",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "120.39"
+    },
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "19,007.63",
+      "taxable_value": "19,007.63",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "3,421.37"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "2.00",
+      "uqc": "ROL",
+      "unit_price": "2,782.66",
+      "taxable_value": "5,565.32",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "278.27"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "10.00",
+      "uqc": "NOS",
+      "unit_price": "4,865.75",
+      "taxable_value": "48,657.50",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "2,432.88"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "5.00",
+      "uqc": "KGS",
+      "unit_price": "186.39",
+      "taxable_value": "931.95",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "46.60"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMzZLUENDTTExNDVVM1pUXCIsXCJCdXllckdzdGluXCI6XCIzM1dPTUNTNDQ2M1QxWjJcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDk1XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjAzLzA3LzIwMjZcIixcIlRvdEludlZhbFwiOjgxMTMxLjAsXCJJdGVtQ250XCI6NSxcIk1haW5Ic25Db2RlXCI6XCI5NDAzMjA5MFwiLFwiSXJuXCI6XCI0OTk0OWY1YWU5NjhmZTBkZDFjM2YzOTI1ZWZkY2MwMzU5Y2E0NDdlZjI1MzQyMzIyYzdkYWI5MmQ2NDE1N2IzXCIsXCJJcm5EdFwiOlwiMjAyNi0wNy0wNCAxNDowMzowMFwifSJ9.Ypz3U5wwN0a47auU2scC2HI0mq61-n9Lv8h45UBOyssTDnGBOnVdp25-3wSeqTj5a4Z5XP1jGPidwLTL-gIhJ2jANPe_ZMQiStzcRClMkiRlGsg_DltCYMP1dKAZjzGcoFVYl_1Og8ILJZfV5pPWEub7rz3cIyz4UgcQ4leqwxhIiMgDh4QoF-pXHWyjMNJr2aBO7S0XXaWkbENGKlXL4lxf2u16hC2c32RzllNyGKXw-oAJ1LDOe1g7jw4GDaJxxcu0UWAtOh_zaaLsNPn0xm8-LvDJtezVfh5g5ecODEZDcSO76Mt8Af5r_a7gqp0axdwJGgKtxf3uOcBFzQ8xHQ",
+    "payload": {
+      "SellerGstin": "36KPCCM1145U3ZT",
+      "BuyerGstin": "33WOMCS4463T1Z2",
+      "DocNo": "DFTEST-2627-0095",
+      "DocTyp": "INV",
+      "DocDt": "03/07/2026",
+      "TotInvVal": 81131.0,
+      "ItemCnt": 5,
+      "MainHsnCode": "94032090",
+      "Irn": "49949f5ae968fe0dd1c3f3925efdcc0359ca447ef25342322c7dab92d64157b3",
+      "IrnDt": "2026-07-04 14:03:00"
+    },
+    "irn_printed": "49949f5ae968fe0dd1c3f3925efdcc0359ca447ef25342322c7dab92d64157b3",
+    "ack_no": "111829935520256",
+    "ack_date": "2026-07-04"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0095",
+  "scan": "digital",
+  "defect": null,
+  "split": "dev"
+}

@@ -1,0 +1,89 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Nimbus Office Supplies Enterprises",
+    "supplier_address": "Unit 81, MIDC Road, Chennai, Tamil Nadu",
+    "supplier_gstin": "33GRHCN0964Q2ZT",
+    "recipient_name": "Meghdoot Fabrication LLP",
+    "recipient_address": "Unit 216, Industrial Estate, Coimbatore, Tamil Nadu",
+    "recipient_gstin": "33CNMCM3417U3ZY",
+    "invoice_no": "DFTEST-2627-0057",
+    "invoice_date": "22 Apr 2026",
+    "place_of_supply": "Tamil Nadu (33)",
+    "reverse_charge": "No",
+    "taxable_total": "40,028.62",
+    "cgst_total": "2,671.56",
+    "sgst_total": "2,671.56",
+    "igst_total": "0.00",
+    "round_off": "0.26",
+    "grand_total": "45,372.00"
+  },
+  "lines": [
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "3.00",
+      "uqc": "NOS",
+      "unit_price": "627.59",
+      "taxable_value": "1,882.77",
+      "gst_rate": "5%",
+      "cgst": "47.07",
+      "sgst": "47.07",
+      "igst": "0.00"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "25.00",
+      "uqc": "BTL",
+      "unit_price": "90.60",
+      "taxable_value": "2,265.00",
+      "gst_rate": "5%",
+      "cgst": "56.63",
+      "sgst": "56.63",
+      "igst": "0.00"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "40.00",
+      "uqc": "PAC",
+      "unit_price": "254.39",
+      "taxable_value": "10,175.60",
+      "gst_rate": "5%",
+      "cgst": "254.39",
+      "sgst": "254.39",
+      "igst": "0.00"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "5.00",
+      "uqc": "NOS",
+      "unit_price": "5,141.05",
+      "taxable_value": "25,705.25",
+      "gst_rate": "18%",
+      "cgst": "2,313.47",
+      "sgst": "2,313.47",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0057",
+  "scan": "heavy",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 1889787374,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -0.49
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Anvay IT Services Industries Pvt Ltd",
+    "supplier_address": "Unit 121, MIDC Road, Bengaluru, Karnataka",
+    "supplier_gstin": "29PXQCA1630T1Z7",
+    "recipient_name": "Sarthi Logistics LLP",
+    "recipient_address": "Unit 113, Business Park, Lucknow, Uttar Pradesh",
+    "recipient_gstin": "09FQFCS7641B3ZA",
+    "invoice_no": "DFTEST-2627-0050",
+    "invoice_date": "23 Jun 2026",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "reverse_charge": "No",
+    "taxable_total": "1,19,798.81",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "6,301.10",
+    "round_off": "0.09",
+    "grand_total": "1,26,100.00"
+  },
+  "lines": [
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "25.00",
+      "uqc": "NOS",
+      "unit_price": "42.20",
+      "taxable_value": "1,055.00",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "52.75"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "2,393.56",
+      "taxable_value": "2,393.56",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "430.84"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "25.00",
+      "uqc": "NOS",
+      "unit_price": "4,654.01",
+      "taxable_value": "1,16,350.25",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "5,817.51"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0050",
+  "scan": "light",
+  "defect": null,
+  "split": "dev",
+  "scan_meta": {
+    "level": "light",
+    "seed": 316224462,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      0.12
+    ]
+  }
+}

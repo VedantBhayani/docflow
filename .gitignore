@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 .cache/
 data/cache/
+data/synthetic/invoices/_digital_sources/

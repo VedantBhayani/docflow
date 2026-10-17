@@ -1,0 +1,86 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Sahyadri Hardware Pvt Ltd",
+    "supplier_address": "Unit 84, Business Park, Lucknow, Uttar Pradesh",
+    "supplier_gstin": "09YIQCS4303A3ZD",
+    "recipient_name": "Anvay Electricals Industries Pvt Ltd",
+    "recipient_address": "Unit 128, MIDC Road, Bengaluru, Karnataka",
+    "recipient_gstin": "29DAICA9421P3ZV",
+    "invoice_no": "DFTEST-2627-0092",
+    "invoice_date": "03/08/2026",
+    "place_of_supply": "Karnataka (29)",
+    "reverse_charge": "No",
+    "taxable_total": "21,581.91",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "1,079.10",
+    "round_off": "-0.01",
+    "grand_total": "22,661.00",
+    "irn": "4a9416ffb6ee7ff20f2f918211b88473297518655ba3477dbb7344cc097dd9a1"
+  },
+  "lines": [
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "3.00",
+      "uqc": "NOS",
+      "unit_price": "650.87",
+      "taxable_value": "1,952.61",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "97.63"
+    },
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "17,596.98",
+      "taxable_value": "17,596.98",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "879.85"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "12.00",
+      "uqc": "KGS",
+      "unit_price": "169.36",
+      "taxable_value": "2,032.32",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "101.62"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMDlZSVFDUzQzMDNBM1pEXCIsXCJCdXllckdzdGluXCI6XCIyOURBSUNBOTQyMVAzWlZcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDkyXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjAzLzA4LzIwMjZcIixcIlRvdEludlZhbFwiOjIyNjYxLjAsXCJJdGVtQ250XCI6MyxcIk1haW5Ic25Db2RlXCI6XCI5OTg3MTNcIixcIklyblwiOlwiNGE5NDE2ZmZiNmVlN2ZmMjBmMmY5MTgyMTFiODg0NzMyOTc1MTg2NTViYTM0NzdkYmI3MzQ0Y2MwOTdkZDlhMVwiLFwiSXJuRHRcIjpcIjIwMjYtMDgtMDQgMTc6NTI6MDBcIn0ifQ.qGU5JHnFJAAcyVjT5PxqRVhP2cMEDVjJml2HMYMKDL2qd_fdRWDmax9f1V0ixARUbWhcdt_9I_iLXy6sGzGsmzr3Y8cPWEYDhWHlBCZllHAMKjRo65_0Vt1PJ1xAOhh2xnhaPJlaImZ3ccxIoCklfzYHRk1XEHDIHQ6UulVgwdwXwGj05uwd7GTh9CJxCFTcLyn-VfpJL5FfB_2I_VF5YbTGQXOtScr1j8NsrZZPUB7oS-JE03wTNEKpEjYBYvjZnuDw5HuyY-SfbTPsuuEpnz0IaxIbnqwH8LpxaOdWeIJGt0Xk_u59mzROWRhUhEaFlo3lFPcDrGV836u4tWD_4A",
+    "payload": {
+      "SellerGstin": "09YIQCS4303A3ZD",
+      "BuyerGstin": "29DAICA9421P3ZV",
+      "DocNo": "DFTEST-2627-0092",
+      "DocTyp": "INV",
+      "DocDt": "03/08/2026",
+      "TotInvVal": 22661.0,
+      "ItemCnt": 3,
+      "MainHsnCode": "998713",
+      "Irn": "4a9416ffb6ee7ff20f2f918211b88473297518655ba3477dbb7344cc097dd9a1",
+      "IrnDt": "2026-08-04 17:52:00"
+    },
+    "irn_printed": "4a9416ffb6ee7ff20f2f918211b88473297518655ba3477dbb7344cc097dd9a1",
+    "ack_no": "114484101373087",
+    "ack_date": "2026-08-04"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0092",
+  "scan": "digital",
+  "defect": null,
+  "split": "heldout"
+}

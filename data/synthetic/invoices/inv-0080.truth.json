@@ -1,0 +1,89 @@
+{
+  "kind": "invoice",
+  "template": "word",
+  "fields": {
+    "supplier_name": "Nimbus Packaging Industries Pvt Ltd",
+    "supplier_address": "Unit 127, Trade Centre, New Delhi, Delhi",
+    "supplier_gstin": "07QZPCN3432M2Z5",
+    "recipient_name": "Udaan Packaging Enterprises",
+    "recipient_address": "Unit 111, Industrial Estate, Noida, Uttar Pradesh",
+    "recipient_gstin": "09YTRCU3000S2ZW",
+    "invoice_no": "DFTEST-2627-0080",
+    "invoice_date": "29-09-2026",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "reverse_charge": "No",
+    "taxable_total": "25,544.39",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "1,711.22",
+    "round_off": "0.39",
+    "grand_total": "27,256.00"
+  },
+  "lines": [
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "25",
+      "uqc": "KGS",
+      "unit_price": "163.58",
+      "taxable_value": "4,089.50",
+      "gst_rate": "5 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "204.48"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "3",
+      "uqc": "PAC",
+      "unit_price": "284.67",
+      "taxable_value": "854.01",
+      "gst_rate": "18 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "153.72"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "2,484.38",
+      "taxable_value": "2,484.38",
+      "gst_rate": "18 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "447.19"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "25",
+      "uqc": "NOS",
+      "unit_price": "724.66",
+      "taxable_value": "18,116.50",
+      "gst_rate": "5 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "905.83"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0080",
+  "scan": "light",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "light",
+    "seed": 1520199240,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      0.17
+    ]
+  }
+}

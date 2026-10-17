@@ -1,0 +1,101 @@
+{
+  "kind": "invoice",
+  "template": "word",
+  "fields": {
+    "supplier_name": "Aarav Logistics Enterprises",
+    "supplier_address": "Unit 102, Business Park, Kolkata, West Bengal",
+    "supplier_gstin": "19LTNCA1536B3ZH",
+    "recipient_name": "Anvay Hardware Enterprises",
+    "recipient_address": "Unit 198, Industrial Estate, Kolkata, West Bengal",
+    "recipient_gstin": "19OPQCA9108Q1ZI",
+    "invoice_no": "DFTEST-2627-0089",
+    "invoice_date": "05-05-2026",
+    "place_of_supply": "West Bengal (19)",
+    "reverse_charge": "No",
+    "taxable_total": "1,02,264.20",
+    "cgst_total": "3,992.95",
+    "sgst_total": "3,992.95",
+    "igst_total": "0.00",
+    "round_off": "-0.10",
+    "grand_total": "1,10,250.00"
+  },
+  "lines": [
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "12",
+      "uqc": "NOS",
+      "unit_price": "42.62",
+      "taxable_value": "511.44",
+      "gst_rate": "5 %",
+      "cgst": "12.79",
+      "sgst": "12.79",
+      "igst": "0.00"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "1",
+      "uqc": "BTL",
+      "unit_price": "83.12",
+      "taxable_value": "83.12",
+      "gst_rate": "18 %",
+      "cgst": "7.48",
+      "sgst": "7.48",
+      "igst": "0.00"
+    },
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "10",
+      "uqc": "NOS",
+      "unit_price": "7,763.43",
+      "taxable_value": "77,634.30",
+      "gst_rate": "5 %",
+      "cgst": "1,940.86",
+      "sgst": "1,940.86",
+      "igst": "0.00"
+    },
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "22,014.48",
+      "taxable_value": "22,014.48",
+      "gst_rate": "18 %",
+      "cgst": "1,981.30",
+      "sgst": "1,981.30",
+      "igst": "0.00"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "3",
+      "uqc": "NOS",
+      "unit_price": "673.62",
+      "taxable_value": "2,020.86",
+      "gst_rate": "5 %",
+      "cgst": "50.52",
+      "sgst": "50.52",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0089",
+  "scan": "heavy",
+  "defect": null,
+  "split": "dev",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 2041427794,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -0.64
+    ]
+  }
+}

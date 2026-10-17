@@ -1,0 +1,89 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Pragati Fabrication Enterprises",
+    "supplier_address": "Unit 182, Business Park, New Delhi, Delhi",
+    "supplier_gstin": "07AGZCP5607P2Z1",
+    "recipient_name": "Sahyadri Polymers Traders",
+    "recipient_address": "Unit 234, Industrial Estate, Nagpur, Maharashtra",
+    "recipient_gstin": "27QXNCS1693J3ZY",
+    "invoice_no": "DFTEST-2627-0054",
+    "invoice_date": "03 Jun 2026",
+    "place_of_supply": "Maharashtra (27)",
+    "reverse_charge": "No",
+    "taxable_total": "89,020.01",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "14,786.92",
+    "round_off": "0.07",
+    "grand_total": "1,03,807.00"
+  },
+  "lines": [
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "2,636.46",
+      "taxable_value": "2,636.46",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "131.82"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "25.00",
+      "uqc": "PAC",
+      "unit_price": "275.06",
+      "taxable_value": "6,876.50",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "343.83"
+    },
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "10.00",
+      "uqc": "NOS",
+      "unit_price": "7,586.88",
+      "taxable_value": "75,868.80",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "13,656.38"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "25.00",
+      "uqc": "KGS",
+      "unit_price": "145.53",
+      "taxable_value": "3,638.25",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "654.89"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0054",
+  "scan": "heavy",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 1320434684,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -0.83
+    ]
+  }
+}

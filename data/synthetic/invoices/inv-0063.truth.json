@@ -1,0 +1,92 @@
+{
+  "kind": "invoice",
+  "template": "word",
+  "fields": {
+    "supplier_name": "Sarthi Packaging Enterprises",
+    "supplier_address": "Unit 20, MIDC Road, Pune, Maharashtra",
+    "supplier_gstin": "27DFLCS9712V3ZQ",
+    "recipient_name": "Vistar Packaging Traders",
+    "recipient_address": "Unit 223, Trade Centre, Kolkata, West Bengal",
+    "recipient_gstin": "19DXSCV0103K2ZO",
+    "invoice_no": "DFTEST-2627-0063",
+    "invoice_date": "31-05-2026",
+    "place_of_supply": "West Bengal (19)",
+    "reverse_charge": "No",
+    "taxable_total": "10,98,643.72",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "90,166.61",
+    "round_off": "-0.33",
+    "grand_total": "11,88,810.00"
+  },
+  "lines": [
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "100",
+      "uqc": "NOS",
+      "unit_price": "8,079.68",
+      "taxable_value": "8,07,968.00",
+      "gst_rate": "5 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "40,398.40"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "3",
+      "uqc": "NOS",
+      "unit_price": "5,273.84",
+      "taxable_value": "15,821.52",
+      "gst_rate": "5 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "791.08"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "2,851.05",
+      "taxable_value": "2,851.05",
+      "gst_rate": "5 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "142.55"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "100",
+      "uqc": "ROL",
+      "unit_price": "2,710.34",
+      "taxable_value": "2,71,034.00",
+      "gst_rate": "18 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "48,786.12"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "5",
+      "uqc": "KGS",
+      "unit_price": "193.83",
+      "taxable_value": "969.15",
+      "gst_rate": "5 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "48.46"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0063",
+  "scan": "digital",
+  "defect": null,
+  "split": "heldout"
+}

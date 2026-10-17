@@ -1,0 +1,86 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Meghdoot Hardware Traders",
+    "supplier_address": "Unit 19, Trade Centre, Hyderabad, Telangana",
+    "supplier_gstin": "36HVNCM6707T3Z1",
+    "recipient_name": "Udaan Fabrication Pvt Ltd",
+    "recipient_address": "Unit 218, Industrial Estate, Hyderabad, Telangana",
+    "recipient_gstin": "36MTGCU9541Z1ZJ",
+    "invoice_no": "DFTEST-2627-0096",
+    "invoice_date": "04/05/2026",
+    "place_of_supply": "Telangana (36)",
+    "reverse_charge": "No",
+    "taxable_total": "18,067.93",
+    "cgst_total": "1,377.02",
+    "sgst_total": "1,377.02",
+    "igst_total": "0.00",
+    "round_off": "0.03",
+    "grand_total": "20,822.00",
+    "irn": "e049b4703985cbc518b379158e7d045081c8416bbb692e0291924e92f570152d"
+  },
+  "lines": [
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "2,083.57",
+      "taxable_value": "2,083.57",
+      "gst_rate": "5%",
+      "cgst": "52.09",
+      "sgst": "52.09",
+      "igst": "0.00"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "12.00",
+      "uqc": "KGS",
+      "unit_price": "145.72",
+      "taxable_value": "1,748.64",
+      "gst_rate": "5%",
+      "cgst": "43.72",
+      "sgst": "43.72",
+      "igst": "0.00"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "3.00",
+      "uqc": "NOS",
+      "unit_price": "4,745.24",
+      "taxable_value": "14,235.72",
+      "gst_rate": "18%",
+      "cgst": "1,281.21",
+      "sgst": "1,281.21",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMzZIVk5DTTY3MDdUM1oxXCIsXCJCdXllckdzdGluXCI6XCIzNk1UR0NVOTU0MVoxWkpcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDk2XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjA0LzA1LzIwMjZcIixcIlRvdEludlZhbFwiOjIwODIyLjAsXCJJdGVtQ250XCI6MyxcIk1haW5Ic25Db2RlXCI6XCI5NDAzMjA5MFwiLFwiSXJuXCI6XCJlMDQ5YjQ3MDM5ODVjYmM1MThiMzc5MTU4ZTdkMDQ1MDgxYzg0MTZiYmI2OTJlMDI5MTkyNGU5MmY1NzAxNTJkXCIsXCJJcm5EdFwiOlwiMjAyNi0wNS0wNiAxMTo0ODowMFwifSJ9.iPj78C3YZQq2saOx6XFc71spZzbj9rENoZKFEC3e-DKX1pbJjBuppOJVdfinHT7vlVgVn5vwzWgF_Uhqu094l1ehh6EAAInrERp5ui4L4Alz0U_MIT7xj71F3eG7ayZK2rvWDgMkSu5aJqnVGTCz3Bn7iPAUilAkLE_s0NjtQgVLsQYCmUcenD87OFsBtS4dYzEH45LCfkl6BUA3qvobvt3y-9RHfQ6Vn-WkplSyyFst6jksZp4GZaexKQvJgv8OpeWGmyBRPU4_5i1bAaYZUByGQ_AaMtfujGsij_VxCqTI28StPvqkjw7xORvQ4BvmpiJLcSrY3e5jR4MGeojxSg",
+    "payload": {
+      "SellerGstin": "36HVNCM6707T3Z1",
+      "BuyerGstin": "36MTGCU9541Z1ZJ",
+      "DocNo": "DFTEST-2627-0096",
+      "DocTyp": "INV",
+      "DocDt": "04/05/2026",
+      "TotInvVal": 20822.0,
+      "ItemCnt": 3,
+      "MainHsnCode": "94032090",
+      "Irn": "e049b4703985cbc518b379158e7d045081c8416bbb692e0291924e92f570152d",
+      "IrnDt": "2026-05-06 11:48:00"
+    },
+    "irn_printed": "e049b4703985cbc518b379158e7d045081c8416bbb692e0291924e92f570152d",
+    "ack_no": "113852967819614",
+    "ack_date": "2026-05-06"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0096",
+  "scan": "digital",
+  "defect": null,
+  "split": "heldout"
+}

@@ -1,0 +1,101 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Meghdoot IT Services Industries Pvt Ltd",
+    "supplier_address": "Unit 196, Business Park, Pune, Maharashtra",
+    "supplier_gstin": "27TZLCM8529D3Z7",
+    "recipient_name": "Trikon Electricals LLP",
+    "recipient_address": "Unit 36, MIDC Road, Kolkata, West Bengal",
+    "recipient_gstin": "19JNLCT5596V1ZR",
+    "invoice_no": "DFTEST-2627-0059",
+    "invoice_date": "20 Jun 2026",
+    "place_of_supply": "West Bengal (19)",
+    "reverse_charge": "No",
+    "taxable_total": "1,15,535.90",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "6,527.31",
+    "round_off": "-0.21",
+    "grand_total": "1,22,063.00"
+  },
+  "lines": [
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "10.00",
+      "uqc": "PAC",
+      "unit_price": "320.84",
+      "taxable_value": "3,208.40",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "577.51"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "12.00",
+      "uqc": "NOS",
+      "unit_price": "4,597.03",
+      "taxable_value": "55,164.36",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "2,758.22"
+    },
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "20,259.17",
+      "taxable_value": "20,259.17",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "1,012.96"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "10.00",
+      "uqc": "ROL",
+      "unit_price": "3,433.92",
+      "taxable_value": "34,339.20",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "1,716.96"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "2,564.77",
+      "taxable_value": "2,564.77",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "461.66"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0059",
+  "scan": "heavy",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 1451854483,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      0.51
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Kaveri Fabrication Industries Pvt Ltd",
+    "supplier_address": "Unit 82, Business Park, Lucknow, Uttar Pradesh",
+    "supplier_gstin": "09YHECK1005O3ZE",
+    "recipient_name": "Kaveri Stationers Traders",
+    "recipient_address": "Unit 190, Industrial Estate, New Delhi, Delhi",
+    "recipient_gstin": "07YXUCK4175E2Z6",
+    "invoice_no": "DFTEST-2627-0016",
+    "invoice_date": "30/04/2026",
+    "place_of_supply": "Delhi (07)",
+    "reverse_charge": "No",
+    "taxable_total": "25,945.91",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "2,101.62",
+    "round_off": "0.47",
+    "grand_total": "28,048.00",
+    "irn": "ed4d5eb8770037d1ab5bcc3be14a60fa7d6bc6e4a6a08e724d0a6962765cde49"
+  },
+  "lines": [
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "2,443.82",
+      "taxable_value": "2,443.82",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "439.89"
+    },
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "19,758.84",
+      "taxable_value": "19,758.84",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "987.94"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "25",
+      "uqc": "KGS",
+      "unit_price": "149.73",
+      "taxable_value": "3,743.25",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "673.79"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMDlZSEVDSzEwMDVPM1pFXCIsXCJCdXllckdzdGluXCI6XCIwN1lYVUNLNDE3NUUyWjZcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDE2XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjMwLzA0LzIwMjZcIixcIlRvdEludlZhbFwiOjI4MDQ4LjAsXCJJdGVtQ250XCI6MyxcIk1haW5Ic25Db2RlXCI6XCI5OTg3MTNcIixcIklyblwiOlwiZWQ0ZDVlYjg3NzAwMzdkMWFiNWJjYzNiZTE0YTYwZmE3ZDZiYzZlNGE2YTA4ZTcyNGQwYTY5NjI3NjVjZGU0OVwiLFwiSXJuRHRcIjpcIjIwMjYtMDUtMDEgMTA6MDk6MDBcIn0ifQ.F80iCGJ1VjChGSvaHoYqtlsuRs9sa3mdjYMN0Z87Z9k81RL-mO4SjpyK6BEY2y3hznqKyg4U5efBB-_aEmubZOtG40s1G4RpYGxusXIKv69oecnjAslUQxXXg46C-N-ZI9e_u85IZK82skSayKSEv_ahkeUXrnqQ0TfXiKLUDNuVoje9fJ4qeCoymArRZrfL53lLJyuax_kR8TcfLT2AFRIQTzaySbjHt5u5hDHdhrry9hQXbaUxjsNEIcr8t57GM_Z3VEqa_R9oKH4d4GdiLVtqvoDBT7skSUK_7TtVNfTRZiJ_MkOyhXLSsXCJGx_cKoZcJjhF9O7MLrr8NKOfDw",
+    "payload": {
+      "SellerGstin": "09YHECK1005O3ZE",
+      "BuyerGstin": "07YXUCK4175E2Z6",
+      "DocNo": "DFTEST-2627-0016",
+      "DocTyp": "INV",
+      "DocDt": "30/04/2026",
+      "TotInvVal": 28048.0,
+      "ItemCnt": 3,
+      "MainHsnCode": "998713",
+      "Irn": "ed4d5eb8770037d1ab5bcc3be14a60fa7d6bc6e4a6a08e724d0a6962765cde49",
+      "IrnDt": "2026-05-01 10:09:00"
+    },
+    "irn_printed": "ed4d5eb8770037d1ab5bcc3be14a60fa7d6bc6e4a6a08e724d0a6962765cde49",
+    "ack_no": "113020887706654",
+    "ack_date": "2026-05-01"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0016",
+  "scan": "light",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "light",
+    "seed": 46487670,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      0.12
+    ]
+  }
+}

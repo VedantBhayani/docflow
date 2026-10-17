@@ -1,0 +1,101 @@
+{
+  "kind": "invoice",
+  "template": "word",
+  "fields": {
+    "supplier_name": "Udaan Hardware Pvt Ltd",
+    "supplier_address": "Unit 5, Business Park, Kolkata, West Bengal",
+    "supplier_gstin": "19JJTCU6927L1ZH",
+    "recipient_name": "Anvay Stationers Enterprises",
+    "recipient_address": "Unit 175, Industrial Estate, Chennai, Tamil Nadu",
+    "recipient_gstin": "33MNDCA6809C2Z1",
+    "invoice_no": "DFTEST-2627-0082",
+    "invoice_date": "16-06-2026",
+    "place_of_supply": "Tamil Nadu (33)",
+    "reverse_charge": "No",
+    "taxable_total": "36,809.89",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "3,542.26",
+    "round_off": "-0.15",
+    "grand_total": "40,352.00"
+  },
+  "lines": [
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "20,620.62",
+      "taxable_value": "20,620.62",
+      "gst_rate": "5 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "1,031.03"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "12",
+      "uqc": "PAC",
+      "unit_price": "254.39",
+      "taxable_value": "3,052.68",
+      "gst_rate": "18 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "549.48"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "40",
+      "uqc": "KGS",
+      "unit_price": "188.12",
+      "taxable_value": "7,524.80",
+      "gst_rate": "18 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "1,354.46"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "1",
+      "uqc": "ROL",
+      "unit_price": "3,098.68",
+      "taxable_value": "3,098.68",
+      "gst_rate": "5 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "154.93"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "2,513.11",
+      "taxable_value": "2,513.11",
+      "gst_rate": "18 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "452.36"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0082",
+  "scan": "light",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "light",
+    "seed": 967481855,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      0.13
+    ]
+  }
+}

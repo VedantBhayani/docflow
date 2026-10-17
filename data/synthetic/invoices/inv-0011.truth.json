@@ -1,0 +1,76 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Kaveri Textiles Industries Pvt Ltd",
+    "supplier_address": "Unit 204, MIDC Road, Hyderabad, Telangana",
+    "supplier_gstin": "36NCTCK4883D1ZK",
+    "recipient_name": "Vistar Fabrication Pvt Ltd",
+    "recipient_address": "Unit 19, MIDC Road, Hyderabad, Telangana",
+    "recipient_gstin": "36RWICV8862H1Z0",
+    "invoice_no": "DFTEST-2627-0008",
+    "invoice_date": "20/07/2026",
+    "place_of_supply": "Telangana (36)",
+    "reverse_charge": "No",
+    "taxable_total": "8,427.15",
+    "cgst_total": "210.68",
+    "sgst_total": "210.68",
+    "igst_total": "0.00",
+    "round_off": "0.49",
+    "grand_total": "8,849.00",
+    "irn": "ecea441653e04d95f7f4033f9a42b65b4ba5d433f4c156a05368ccd76c00ea3b"
+  },
+  "lines": [
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "25",
+      "uqc": "BTL",
+      "unit_price": "107.19",
+      "taxable_value": "2,679.75",
+      "gst_rate": "5%",
+      "cgst": "66.99",
+      "sgst": "66.99",
+      "igst": "0.00"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "10",
+      "uqc": "NOS",
+      "unit_price": "574.74",
+      "taxable_value": "5,747.40",
+      "gst_rate": "5%",
+      "cgst": "143.69",
+      "sgst": "143.69",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMzZOQ1RDSzQ4ODNEMVpLXCIsXCJCdXllckdzdGluXCI6XCIzNlJXSUNWODg2MkgxWjBcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDA4XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjIwLzA3LzIwMjZcIixcIlRvdEludlZhbFwiOjg4NDkuMCxcIkl0ZW1DbnRcIjoyLFwiTWFpbkhzbkNvZGVcIjpcIjk0MDUxOTAwXCIsXCJJcm5cIjpcImVjZWE0NDE2NTNlMDRkOTVmN2Y0MDMzZjlhNDJiNjViNGJhNWQ0MzNmNGMxNTZhMDUzNjhjY2Q3NmMwMGVhM2JcIixcIklybkR0XCI6XCIyMDI2LTA3LTIyIDExOjU1OjAwXCJ9In0.gHs76S-Ap-ombUSPn9gsqiPeTKgXlcPRGEf4ZtXjyPlukxi2WtwpIvKPuYmAAsrXmIag5HP0lBrtOKCxAwIXIthAMuaPrsjWpbiapFbZ8eYGwwHcWYJkkCmb42xyrfa1v2TsyuTCzl4EYfnxTXoJNogJQbh_ZXnCBgVUvTeQSNG0rijehqBjBNT25zqLcR--65EKby_mSv4MAhrCv5Fl8nfOnt9QwpwNIILagKN5BQEDLqg3JT4cni3OaysX0rzx2zmOJFoMDAcF45BJZlnQRVK0EMNYDg-09ua2HHcexowf9feLQUp7z3cjgV1YXyQrYRMmVyENcJToQ5vc_DR6fQ",
+    "payload": {
+      "SellerGstin": "36NCTCK4883D1ZK",
+      "BuyerGstin": "36RWICV8862H1Z0",
+      "DocNo": "DFTEST-2627-0008",
+      "DocTyp": "INV",
+      "DocDt": "20/07/2026",
+      "TotInvVal": 8849.0,
+      "ItemCnt": 2,
+      "MainHsnCode": "94051900",
+      "Irn": "ecea441653e04d95f7f4033f9a42b65b4ba5d433f4c156a05368ccd76c00ea3b",
+      "IrnDt": "2026-07-22 11:55:00"
+    },
+    "irn_printed": "ecea441653e04d95f7f4033f9a42b65b4ba5d433f4c156a05368ccd76c00ea3b",
+    "ack_no": "115528554999513",
+    "ack_date": "2026-07-22"
+  },
+  "expected_flags": [
+    "A3"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0011",
+  "scan": "digital",
+  "defect": "duplicate_invoice_no",
+  "split": "dev"
+}

@@ -1,0 +1,74 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Meghdoot Packaging Industries Pvt Ltd",
+    "supplier_address": "Unit 11, MIDC Road, Hyderabad, Telangana",
+    "supplier_gstin": "36WPDCM9082U2ZX",
+    "recipient_name": "Anvay Hardware Traders",
+    "recipient_address": "Unit 30, Business Park, Hyderabad, Telangana",
+    "recipient_gstin": "36EMPCA1482R1Z4",
+    "invoice_no": "DFTEST-2627-0098",
+    "invoice_date": "01/09/2026",
+    "place_of_supply": "Telangana (36)",
+    "reverse_charge": "No",
+    "taxable_total": "2,640.12",
+    "cgst_total": "232.02",
+    "sgst_total": "232.02",
+    "igst_total": "0.00",
+    "round_off": "-0.16",
+    "grand_total": "3,104.00",
+    "irn": "557f3d5f0dd199ebb4543732c582454f1ecb534822b51bf43b47c3679f33bcd8"
+  },
+  "lines": [
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "1.00",
+      "uqc": "BTL",
+      "unit_price": "85.96",
+      "taxable_value": "85.96",
+      "gst_rate": "5%",
+      "cgst": "2.15",
+      "sgst": "2.15",
+      "igst": "0.00"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "2,554.16",
+      "taxable_value": "2,554.16",
+      "gst_rate": "18%",
+      "cgst": "229.87",
+      "sgst": "229.87",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMzZXUERDTTkwODJVMlpYXCIsXCJCdXllckdzdGluXCI6XCIzNkVNUENBMTQ4MlIxWjRcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDk4XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjAxLzA5LzIwMjZcIixcIlRvdEludlZhbFwiOjMxMDQuMCxcIkl0ZW1DbnRcIjoyLFwiTWFpbkhzbkNvZGVcIjpcIjk5NjUxMVwiLFwiSXJuXCI6XCI1NTdmM2Q1ZjBkZDE5OWViYjQ1NDM3MzJjNTgyNDU0ZjFlY2I1MzQ4MjJiNTFiZjQzYjQ3YzM2NzlmMzNiY2Q4XCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0wMSAxMTo1NzowMFwifSJ9.QuKzMtLCwqqlw5ladn3Zu962vfUVYIy_ausp5ATk5GSeT10wchTfQjRXpWSxhFb74HJJSF1qN9HAxkbhv_sO7N-SpZDTYJZevEBSVJ1ws6D4cIoyz6_LYxDODV15FmHOMnsRjIJ5upOzEiFL8W8mdQQ0kNc5IZEV73tQAcEq91mv9v_uXGttkurpctHl8xfPMG7JPXLw1_wYRoEDatryCyN64Rh46sowWHgKuuNUptepySzfVK2Qmp5-ms2cpDot-uy3Sfojh7FyVnCzUBrJiyDxig5ljaHjkQxQPemgbcz9k4vFs8CEXqoFRM3O2aE0-53ojmVgaZFcudv2qqIVyg",
+    "payload": {
+      "SellerGstin": "36WPDCM9082U2ZX",
+      "BuyerGstin": "36EMPCA1482R1Z4",
+      "DocNo": "DFTEST-2627-0098",
+      "DocTyp": "INV",
+      "DocDt": "01/09/2026",
+      "TotInvVal": 3104.0,
+      "ItemCnt": 2,
+      "MainHsnCode": "996511",
+      "Irn": "557f3d5f0dd199ebb4543732c582454f1ecb534822b51bf43b47c3679f33bcd8",
+      "IrnDt": "2026-09-01 11:57:00"
+    },
+    "irn_printed": "557f3d5f0dd199ebb4543732c582454f1ecb534822b51bf43b47c3679f33bcd8",
+    "ack_no": "113409798435965",
+    "ack_date": "2026-09-01"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0098",
+  "scan": "digital",
+  "defect": null,
+  "split": "dev"
+}

@@ -1,0 +1,56 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Sahyadri Fabrication Pvt Ltd",
+    "supplier_address": "Unit 231, MIDC Road, Noida, Uttar Pradesh",
+    "supplier_gstin": "09NABCS3230C2ZH",
+    "recipient_name": "Nimbus Office Supplies Pvt Ltd",
+    "recipient_address": "Unit 160, Business Park, Nagpur, Maharashtra",
+    "recipient_gstin": "27FNGCN8637D2ZD",
+    "invoice_no": "DFTEST-2627-0043",
+    "invoice_date": "01 Apr 2026",
+    "place_of_supply": "Maharashtra (27)",
+    "reverse_charge": "No",
+    "taxable_total": "5,121.35",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "921.84",
+    "round_off": "-0.19",
+    "grand_total": "6,043.00"
+  },
+  "lines": [
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "2,393.85",
+      "taxable_value": "2,393.85",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "430.89"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "25.00",
+      "uqc": "BTL",
+      "unit_price": "109.10",
+      "taxable_value": "2,727.50",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "490.95"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0043",
+  "scan": "digital",
+  "defect": null,
+  "split": "heldout"
+}

@@ -1,0 +1,80 @@
+{
+  "kind": "invoice",
+  "template": "word",
+  "fields": {
+    "supplier_name": "Nimbus IT Services Traders",
+    "supplier_address": "Unit 157, Trade Centre, Lucknow, Uttar Pradesh",
+    "supplier_gstin": "09LOUCN9481C1ZO",
+    "recipient_name": "Kaveri Electricals Enterprises",
+    "recipient_address": "Unit 118, MIDC Road, New Delhi, Delhi",
+    "recipient_gstin": "07WZICK3673J1Z5",
+    "invoice_no": "DFTEST-2627-0074",
+    "invoice_date": "17-08-2026",
+    "place_of_supply": "Delhi (07)",
+    "reverse_charge": "No",
+    "taxable_total": "26,512.77",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "1,325.64",
+    "round_off": "-0.41",
+    "grand_total": "27,838.00"
+  },
+  "lines": [
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "2",
+      "uqc": "NOS",
+      "unit_price": "5,974.78",
+      "taxable_value": "11,949.56",
+      "gst_rate": "5 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "597.48"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "10",
+      "uqc": "PAC",
+      "unit_price": "281.80",
+      "taxable_value": "2,818.00",
+      "gst_rate": "5 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "140.90"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "3",
+      "uqc": "ROL",
+      "unit_price": "3,296.67",
+      "taxable_value": "9,890.01",
+      "gst_rate": "5 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "494.50"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "12",
+      "uqc": "KGS",
+      "unit_price": "154.60",
+      "taxable_value": "1,855.20",
+      "gst_rate": "5 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "92.76"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0074",
+  "scan": "digital",
+  "defect": null,
+  "split": "heldout"
+}

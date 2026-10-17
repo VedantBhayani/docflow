@@ -1,0 +1,86 @@
+{
+  "kind": "invoice",
+  "template": "word",
+  "fields": {
+    "supplier_name": "Meghdoot Stationers Enterprises",
+    "supplier_address": "Unit 228, MIDC Road, Pune, Maharashtra",
+    "supplier_gstin": "27ZHGCM1831J3ZB",
+    "recipient_name": "Vistar Logistics LLP",
+    "recipient_address": "Unit 205, Business Park, New Delhi, Delhi",
+    "recipient_gstin": "07JKPCV1186J1ZY",
+    "invoice_no": "DFTEST-2627-0071",
+    "invoice_date": "03-05-2026",
+    "place_of_supply": "Delhi (07)",
+    "reverse_charge": "No",
+    "taxable_total": "2,39,795.22",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "37,878.07",
+    "round_off": "-0.29",
+    "grand_total": "2,77,673.00",
+    "irn": "dbd6f90729942d36a10e65fc6159dfe1861cfeae58ae7ae63ab7e6bdb3adb8b3"
+  },
+  "lines": [
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "12",
+      "uqc": "ROL",
+      "unit_price": "3,286.16",
+      "taxable_value": "39,433.92",
+      "gst_rate": "5 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "1,971.70"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "40",
+      "uqc": "NOS",
+      "unit_price": "4,978.52",
+      "taxable_value": "1,99,140.80",
+      "gst_rate": "18 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "35,845.34"
+    },
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "25",
+      "uqc": "NOS",
+      "unit_price": "48.82",
+      "taxable_value": "1,220.50",
+      "gst_rate": "5 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "61.03"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdaSEdDTTE4MzFKM1pCXCIsXCJCdXllckdzdGluXCI6XCIwN0pLUENWMTE4NkoxWllcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDcxXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjAzLzA1LzIwMjZcIixcIlRvdEludlZhbFwiOjI3NzY3My4wLFwiSXRlbUNudFwiOjMsXCJNYWluSHNuQ29kZVwiOlwiOTQwMzIwOTBcIixcIklyblwiOlwiZGJkNmY5MDcyOTk0MmQzNmExMGU2NWZjNjE1OWRmZTE4NjFjZmVhZTU4YWU3YWU2M2FiN2U2YmRiM2FkYjhiM1wiLFwiSXJuRHRcIjpcIjIwMjYtMDUtMDQgMTE6MTY6MDBcIn0ifQ.p3dhD26ual6jySPrO78oY1AB2HsI-foFvE67bhlRslzNuVNKMhBv2NDK0n17GTlyOh_YE2SLGukAIUK03AuSCuhvYApY2Yse7z2yH_nSfUQFO7MdVMpkJ_Q9ZBizswgTXqH-YL6DgWijcHLpEwTZZXwl68BA9RO9bM1P7Ubj0SgLCNuaU9VjL1Yieqe2ZD5BuBpqMKXhBV4fGr2DQKqx-LZyAWa8XSg2rQyquJVSfbLjjjRfLmFIwoxbyfaeqAkKk8nZ-K_Qrds8TjnHjJlVc1Tj39nD6f3b5-oukaqvzDeKK45sVgIQ94rZs5HB--tah_PAwAlaNV-2L1SpPz17zg",
+    "payload": {
+      "SellerGstin": "27ZHGCM1831J3ZB",
+      "BuyerGstin": "07JKPCV1186J1ZY",
+      "DocNo": "DFTEST-2627-0071",
+      "DocTyp": "INV",
+      "DocDt": "03/05/2026",
+      "TotInvVal": 277673.0,
+      "ItemCnt": 3,
+      "MainHsnCode": "94032090",
+      "Irn": "dbd6f90729942d36a10e65fc6159dfe1861cfeae58ae7ae63ab7e6bdb3adb8b3",
+      "IrnDt": "2026-05-04 11:16:00"
+    },
+    "irn_printed": "dbd6f90729942d36a10e65fc6159dfe1861cfeae58ae7ae63ab7e6bdb3adb8b3",
+    "ack_no": "112661214938634",
+    "ack_date": "2026-05-04"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0071",
+  "scan": "digital",
+  "defect": null,
+  "split": "dev"
+}

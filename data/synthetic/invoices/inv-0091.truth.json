@@ -1,0 +1,76 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Vistar Hardware Traders",
+    "supplier_address": "Unit 77, Industrial Estate, Noida, Uttar Pradesh",
+    "supplier_gstin": "09CMQCV6622M3ZP",
+    "recipient_name": "Pragati Electricals Traders",
+    "recipient_address": "Unit 95, Industrial Estate, Lucknow, Uttar Pradesh",
+    "recipient_gstin": "09KDBCP9186G1ZJ",
+    "invoice_no": "DFTEST-2627-0091",
+    "invoice_date": "27/04/2026",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "reverse_charge": "No",
+    "taxable_total": "3,264.80",
+    "cgst_total": "279.58",
+    "sgst_total": "279.58",
+    "igst_total": "0.00",
+    "round_off": "0.04",
+    "grand_total": "3,824.00",
+    "irn": "fa5de507c13bc468d9a70b62cb28a11ecd3768db8512b82eaea14c6af98a5b52"
+  },
+  "lines": [
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "5.00",
+      "uqc": "BTL",
+      "unit_price": "95.00",
+      "taxable_value": "475.00",
+      "gst_rate": "12%",
+      "cgst": "28.50",
+      "sgst": "28.50",
+      "igst": "0.00"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "10.00",
+      "uqc": "PAC",
+      "unit_price": "278.98",
+      "taxable_value": "2,789.80",
+      "gst_rate": "18%",
+      "cgst": "251.08",
+      "sgst": "251.08",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMDlDTVFDVjY2MjJNM1pQXCIsXCJCdXllckdzdGluXCI6XCIwOUtEQkNQOTE4NkcxWkpcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDkxXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjI3LzA0LzIwMjZcIixcIlRvdEludlZhbFwiOjM4MjQuMCxcIkl0ZW1DbnRcIjoyLFwiTWFpbkhzbkNvZGVcIjpcIjQ4MDI1NjkwXCIsXCJJcm5cIjpcImZhNWRlNTA3YzEzYmM0NjhkOWE3MGI2MmNiMjhhMTFlY2QzNzY4ZGI4NTEyYjgyZWFlYTE0YzZhZjk4YTViNTJcIixcIklybkR0XCI6XCIyMDI2LTA0LTI4IDA5OjAyOjAwXCJ9In0.ciJDAJnFa-Mfw3iba_Bvve2YkS_Ofy28p-NRHvTQAuPYAXM5-mhk1NCvpa4I5MnlIk4AOUnaDl89Htr3hFpV-wuXqmS-MMKxwyYqsjFZ06Eun1_HBCzDVNsU6bngbnm-5Q7HJ9zVeBLObonKav1kXYfgYlrAj6dQt39CmmO7KouLlbql5NylCpC0Yu1RLI_l3f7PBF5rT87SQHLq7SoSFdmhJ66kBmRIvM6xUjxOjukugVvfg_nhugfjiFLxEzKc1BYgg_CywtSB4tFsUa4pft5mjkD3usCcTB_oYXcWQcGIFnhKOIEekqwK4pzovKYr67xSWw91yVU69VH2-B1McQ",
+    "payload": {
+      "SellerGstin": "09CMQCV6622M3ZP",
+      "BuyerGstin": "09KDBCP9186G1ZJ",
+      "DocNo": "DFTEST-2627-0091",
+      "DocTyp": "INV",
+      "DocDt": "27/04/2026",
+      "TotInvVal": 3824.0,
+      "ItemCnt": 2,
+      "MainHsnCode": "48025690",
+      "Irn": "fa5de507c13bc468d9a70b62cb28a11ecd3768db8512b82eaea14c6af98a5b52",
+      "IrnDt": "2026-04-28 09:02:00"
+    },
+    "irn_printed": "fa5de507c13bc468d9a70b62cb28a11ecd3768db8512b82eaea14c6af98a5b52",
+    "ack_no": "116111101558758",
+    "ack_date": "2026-04-28"
+  },
+  "expected_flags": [
+    "C7"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0091",
+  "scan": "digital",
+  "defect": "invalid_slab",
+  "split": "heldout"
+}

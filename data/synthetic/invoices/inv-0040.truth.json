@@ -1,0 +1,92 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Shakti Electricals Industries Pvt Ltd",
+    "supplier_address": "Unit 173, Business Park, Nagpur, Maharashtra",
+    "supplier_gstin": "27FPRCS5906T3Z5",
+    "recipient_name": "Nimbus Packaging LLP",
+    "recipient_address": "Unit 22, Industrial Estate, Mumbai, Maharashtra",
+    "recipient_gstin": "27LYFCN7491Z1ZC",
+    "invoice_no": "DFTEST-2627-0040",
+    "invoice_date": "29 Sep 2026",
+    "place_of_supply": "Maharashtra (27)",
+    "reverse_charge": "No",
+    "taxable_total": "3,68,627.33",
+    "cgst_total": "33,176.47",
+    "sgst_total": "33,176.47",
+    "igst_total": "0.00",
+    "round_off": "-0.27",
+    "grand_total": "4,34,980.00"
+  },
+  "lines": [
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "12.00",
+      "uqc": "NOS",
+      "unit_price": "607.49",
+      "taxable_value": "7,289.88",
+      "gst_rate": "18%",
+      "cgst": "656.09",
+      "sgst": "656.09",
+      "igst": "0.00"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "12.00",
+      "uqc": "KGS",
+      "unit_price": "163.35",
+      "taxable_value": "1,960.20",
+      "gst_rate": "18%",
+      "cgst": "176.42",
+      "sgst": "176.42",
+      "igst": "0.00"
+    },
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "25.00",
+      "uqc": "NOS",
+      "unit_price": "8,666.59",
+      "taxable_value": "2,16,664.75",
+      "gst_rate": "18%",
+      "cgst": "19,499.83",
+      "sgst": "19,499.83",
+      "igst": "0.00"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "25.00",
+      "uqc": "NOS",
+      "unit_price": "5,689.60",
+      "taxable_value": "1,42,240.00",
+      "gst_rate": "18%",
+      "cgst": "12,801.60",
+      "sgst": "12,801.60",
+      "igst": "0.00"
+    },
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "10.00",
+      "uqc": "NOS",
+      "unit_price": "47.25",
+      "taxable_value": "472.50",
+      "gst_rate": "18%",
+      "cgst": "42.53",
+      "sgst": "42.53",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0040",
+  "scan": "digital",
+  "defect": null,
+  "split": "dev"
+}

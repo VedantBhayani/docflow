@@ -1,0 +1,82 @@
+{
+  "kind": "invoice",
+  "template": "word",
+  "fields": {
+    "supplier_name": "Sarthi Office Supplies Traders",
+    "supplier_address": "Unit 167, Trade Centre, New Delhi, Delhi",
+    "supplier_gstin": "07PSDCS6374Z3ZL",
+    "recipient_name": "Sarthi Office Supplies Pvt Ltd",
+    "recipient_address": "Unit 134, Industrial Estate, New Delhi, Delhi",
+    "recipient_gstin": "07YRDCS6496U2ZI",
+    "invoice_no": "DFTEST-2627-0070",
+    "invoice_date": "16-04-2026",
+    "place_of_supply": "Delhi (07)",
+    "reverse_charge": "No",
+    "taxable_total": "10,62,191.83",
+    "cgst_total": "95,599.62",
+    "sgst_total": "95,599.62",
+    "igst_total": "0.00",
+    "round_off": "-0.07",
+    "grand_total": "12,53,391.00"
+  },
+  "lines": [
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "1",
+      "uqc": "KGS",
+      "unit_price": "156.03",
+      "taxable_value": "156.03",
+      "gst_rate": "5 %",
+      "cgst": "16.40",
+      "sgst": "16.40",
+      "igst": "0.00"
+    },
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "100",
+      "uqc": "NOS",
+      "unit_price": "8,232.61",
+      "taxable_value": "8,23,261.00",
+      "gst_rate": "18 %",
+      "cgst": "74,093.49",
+      "sgst": "74,093.49",
+      "igst": "0.00"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "40",
+      "uqc": "NOS",
+      "unit_price": "625.10",
+      "taxable_value": "25,004.00",
+      "gst_rate": "18 %",
+      "cgst": "2,250.36",
+      "sgst": "2,250.36",
+      "igst": "0.00"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "40",
+      "uqc": "NOS",
+      "unit_price": "5,344.27",
+      "taxable_value": "2,13,770.80",
+      "gst_rate": "18 %",
+      "cgst": "19,239.37",
+      "sgst": "19,239.37",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [
+    "C6"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0070",
+  "scan": "digital",
+  "defect": "line_math",
+  "split": "dev"
+}

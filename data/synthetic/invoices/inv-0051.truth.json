@@ -1,0 +1,95 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Pragati Stationers Industries Pvt Ltd",
+    "supplier_address": "Unit 8, Industrial Estate, Mumbai, Maharashtra",
+    "supplier_gstin": "27KMUCP5410D1ZE",
+    "recipient_name": "Nimbus Office Supplies Enterprises",
+    "recipient_address": "Unit 88, Trade Centre, Mumbai, Maharashtra",
+    "recipient_gstin": "27ACCCN7235Q1ZR",
+    "invoice_no": "DFTEST-2627-0051",
+    "invoice_date": "25 Sep 2026",
+    "place_of_supply": "Maharashtra (27)",
+    "reverse_charge": "No",
+    "taxable_total": "17,313.40",
+    "cgst_total": "1,521.18",
+    "sgst_total": "1,521.18",
+    "igst_total": "0.00",
+    "round_off": "0.24",
+    "grand_total": "20,356.00",
+    "irn": "44a47e63189b8c6b94692fd5ccd6b4114e8ca6af332f1c6808630df97c3e99f1"
+  },
+  "lines": [
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "2,764.32",
+      "taxable_value": "2,764.32",
+      "gst_rate": "18%",
+      "cgst": "248.79",
+      "sgst": "248.79",
+      "igst": "0.00"
+    },
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "2.00",
+      "uqc": "NOS",
+      "unit_price": "6,989.72",
+      "taxable_value": "13,979.44",
+      "gst_rate": "18%",
+      "cgst": "1,258.15",
+      "sgst": "1,258.15",
+      "igst": "0.00"
+    },
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "12.00",
+      "uqc": "NOS",
+      "unit_price": "47.47",
+      "taxable_value": "569.64",
+      "gst_rate": "5%",
+      "cgst": "14.24",
+      "sgst": "14.24",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdLTVVDUDU0MTBEMVpFXCIsXCJCdXllckdzdGluXCI6XCIyN0FDQ0NONzIzNVExWlJcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDUxXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjI1LzA5LzIwMjZcIixcIlRvdEludlZhbFwiOjIwMzU2LjAsXCJJdGVtQ250XCI6MyxcIk1haW5Ic25Db2RlXCI6XCI5NDAxMzAwMFwiLFwiSXJuXCI6XCI0NGE0N2U2MzE4OWI4YzZiOTQ2OTJmZDVjY2Q2YjQxMTRlOGNhNmFmMzMyZjFjNjgwODYzMGRmOTdjM2U5OWYxXCIsXCJJcm5EdFwiOlwiMjAyNi0wOS0yNyAxMTo0NjowMFwifSJ9.hC0XwEKMb-uASjmUWSOVc4yn7sfMC-AEH14tIOBRbRyJOE5fFbujh16k6wYAQguFykCZE2vUvKBJ_fXPZZd6UHAz5tsZCWMQ6lg9pinSLqHHpwZ8tIDbRqGRA_Nve9-y1zHTvcMvEcFvkoS0kMoYslvKzPM41yS8AKK-61JkPOci9SwjVwkkxU6eowHNdJ9nRcAW0rOJE9Mf8poMrfS9MaPXlEo-eW1JBXaa_RtJytmnyqV4nmqW8VxJzWTJJ4cvTW2jU_Wpf79JiHfAp-m7pf7l_HVNn9Q2Q4-26r8I1VKOtxXxOTVlACoXW_3eTlFc43vNexu2bRklMCXJhdrQuQ",
+    "payload": {
+      "SellerGstin": "27KMUCP5410D1ZE",
+      "BuyerGstin": "27ACCCN7235Q1ZR",
+      "DocNo": "DFTEST-2627-0051",
+      "DocTyp": "INV",
+      "DocDt": "25/09/2026",
+      "TotInvVal": 20356.0,
+      "ItemCnt": 3,
+      "MainHsnCode": "94013000",
+      "Irn": "44a47e63189b8c6b94692fd5ccd6b4114e8ca6af332f1c6808630df97c3e99f1",
+      "IrnDt": "2026-09-27 11:46:00"
+    },
+    "irn_printed": "44a47e63189b8c6b94692fd5ccd6b4114e8ca6af332f1c6808630df97c3e99f1",
+    "ack_no": "115054902814220",
+    "ack_date": "2026-09-27"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0051",
+  "scan": "light",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "light",
+    "seed": 400093900,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -0.45
+    ]
+  }
+}

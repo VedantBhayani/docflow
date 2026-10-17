@@ -1,0 +1,44 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Pragati IT Services Enterprises",
+    "supplier_address": "Unit 138, Trade Centre, New Delhi, Delhi",
+    "supplier_gstin": "07ZVXCP2247U3ZA",
+    "recipient_name": "Vistar Logistics Traders",
+    "recipient_address": "Unit 8, MIDC Road, New Delhi, Delhi",
+    "recipient_gstin": "07VBGCV9388J1ZU",
+    "invoice_no": "DFTEST-2627-0035",
+    "invoice_date": "14 May 2026",
+    "place_of_supply": "Delhi (07)",
+    "reverse_charge": "No",
+    "taxable_total": "45.64",
+    "cgst_total": "1.14",
+    "sgst_total": "1.14",
+    "igst_total": "0.00",
+    "round_off": "0.08",
+    "grand_total": "48.00"
+  },
+  "lines": [
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "1.00",
+      "uqc": "NOS",
+      "unit_price": "45.64",
+      "taxable_value": "45.64",
+      "gst_rate": "5%",
+      "cgst": "1.14",
+      "sgst": "1.14",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0035",
+  "scan": "digital",
+  "defect": null,
+  "split": "dev"
+}

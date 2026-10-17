@@ -1,0 +1,95 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Vistar IT Services Enterprises",
+    "supplier_address": "Unit 116, Industrial Estate, Hyderabad, Telangana",
+    "supplier_gstin": "36IWBCV7494Z3ZB",
+    "recipient_name": "Udaan Polymers Pvt Ltd",
+    "recipient_address": "Unit 206, MIDC Road, New Delhi, Delhi",
+    "recipient_gstin": "07WBFCU7406T1ZW",
+    "invoice_no": "DFTEST-2627-0112",
+    "invoice_date": "14/07/2026",
+    "place_of_supply": "Delhi (07)",
+    "reverse_charge": "No",
+    "taxable_total": "3,39,129.39",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "60,798.79",
+    "round_off": "-0.18",
+    "grand_total": "3,99,928.00",
+    "irn": "5a4564e9fd5bac50871c79528796d87d41ce73e29a0454c602222759c93c2595"
+  },
+  "lines": [
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "1.00",
+      "uqc": "NOS",
+      "unit_price": "612.59",
+      "taxable_value": "612.59",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "110.27"
+    },
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "40.00",
+      "uqc": "NOS",
+      "unit_price": "47.02",
+      "taxable_value": "1,880.80",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "94.04"
+    },
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "40.00",
+      "uqc": "NOS",
+      "unit_price": "8,415.90",
+      "taxable_value": "3,36,636.00",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "60,594.48"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMzZJV0JDVjc0OTRaM1pCXCIsXCJCdXllckdzdGluXCI6XCIwN1dCRkNVNzQwNlQxWldcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMTEyXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjE0LzA3LzIwMjZcIixcIlRvdEludlZhbFwiOjM5OTkyOC4wLFwiSXRlbUNudFwiOjMsXCJNYWluSHNuQ29kZVwiOlwiOTQwMTMwMDBcIixcIklyblwiOlwiNWE0NTY0ZTlmZDViYWM1MDg3MWM3OTUyODc5NmQ4N2Q0MWNlNzNlMjlhMDQ1NGM2MDIyMjI3NTljOTNjMjU5NVwiLFwiSXJuRHRcIjpcIjIwMjYtMDctMTQgMTU6MDI6MDBcIn0ifQ.ZDSq3NHn0fZv6_E3q2zupKAxNUfQmUxCCygzz1qNpemUrF_rC9XWPEnSjqSZS-34xWwf4qUOWf02qsZ0Kw5PjzdG0tPViBDXwBPFxUateqfhwzVydHiPNUBUxtnz43J4EetRXFArztFk0UTzYJVnJJUti0ghGi5Leh-Hf0o7cOkYK1iz2RxxKrGZJrNJIXJo4wd4J5g1wAfUZHyF-M31ICpQqr1e_vQvvURJF1RJqMGt6QTIRDoobKJLt-_TkRBeQKwRiai00nrl7tIYmn2JvbWwSnWDUoc7bL1sZRTS91wXePVnvQyrs2XDDxeT150x0xPjO5eQfXacQ64-KYM_ZQ",
+    "payload": {
+      "SellerGstin": "36IWBCV7494Z3ZB",
+      "BuyerGstin": "07WBFCU7406T1ZW",
+      "DocNo": "DFTEST-2627-0112",
+      "DocTyp": "INV",
+      "DocDt": "14/07/2026",
+      "TotInvVal": 399928.0,
+      "ItemCnt": 3,
+      "MainHsnCode": "94013000",
+      "Irn": "5a4564e9fd5bac50871c79528796d87d41ce73e29a0454c602222759c93c2595",
+      "IrnDt": "2026-07-14 15:02:00"
+    },
+    "irn_printed": "5a4564e9fd5bac50871c79528796d87d41ce73e29a0454c602222759c93c2595",
+    "ack_no": "114360652467152",
+    "ack_date": "2026-07-14"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0112",
+  "scan": "light",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "light",
+    "seed": 984662369,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      0.72
+    ]
+  }
+}

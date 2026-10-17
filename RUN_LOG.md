@@ -27,3 +27,23 @@ What was run, on what, and what came out. This includes the things that failed o
 - INR/USD rate for ₹-per-document reporting (it's set when cost is first computed, with the date and source).
 - The C7 rate-slab list against Notification 9/2025-CTR (build ticket 03).
 - The NIC production key files (build ticket 06).
+
+## 2026-10-17: Synthetic invoice set (build ticket 04)
+
+**Command:** `uv run python -m docflow.synth invoices --seed 7` writes 120 invoices to `data/synthetic/invoices/` (26 MB) plus `manifest.json`.
+
+**Composition:**
+- 4 templates × 30.
+- 60 digital, 32 light scans, 28 heavy scans.
+- 48 with a QR code (40%), signed with the DocFlow TEST key.
+- 31 defect documents across 10 types: GSTIN check digit, wrong tax type, line arithmetic, invalid slab, missing recipient GSTIN, prompt injection, QR total mismatch, QR bad signature (rogue key under the test key's ID), rotated page, and 2 duplicate pairs.
+- Split: 37 dev / 83 held-out. Every defect type appears in both splits, and duplicate pairs stay together.
+
+**Label integrity:** proved by `tests/test_synth_dataset.py`, 9 tests.
+- Every truth value is printed on its digital page.
+- The Check engine run on truth values gives exactly each document's expected blocking flags.
+- QR codes decode from the page and verify; the rogue key fails.
+- Scans have no text layer.
+- The same seed reproduces byte-identical PDFs and truth files.
+
+**Deviation from spec:** scan degradation is DocFlow's own seeded OpenCV code, not augraphy. This avoided a heavy dependency on Windows and keeps every effect explicit. Light = ±1° skew, blur 0.6, noise 6, JPEG 75. Heavy = ±3° skew, 0.7× resample, blur 1.1, noise 14, contrast 0.75, speckle, JPEG 45. I checked page renders by eye: the heavy scans are degraded but still legible to a human.

@@ -1,0 +1,46 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Meghdoot IT Services Industries Pvt Ltd",
+    "supplier_address": "Unit 200, Industrial Estate, Noida, Uttar Pradesh",
+    "supplier_gstin": "09UVACM0843E3Z0",
+    "recipient_name": "Shakti Packaging Traders",
+    "recipient_address": "Unit 229, Trade Centre, Coimbatore, Tamil Nadu",
+    "recipient_gstin": "33ZALCS2908J3ZH",
+    "invoice_no": "DFTEST-2627-0005",
+    "invoice_date": "09/05/2026",
+    "place_of_supply": "Tamil Nadu (33)",
+    "reverse_charge": "No",
+    "taxable_total": "557.88",
+    "cgst_total": "50.21",
+    "sgst_total": "50.21",
+    "igst_total": "0.00",
+    "round_off": "-0.30",
+    "grand_total": "658.00"
+  },
+  "lines": [
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "12",
+      "uqc": "NOS",
+      "unit_price": "46.49",
+      "taxable_value": "557.88",
+      "gst_rate": "18%",
+      "cgst": "50.21",
+      "sgst": "50.21",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [
+    "C3"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0005",
+  "scan": "digital",
+  "defect": "wrong_tax_type",
+  "split": "heldout"
+}

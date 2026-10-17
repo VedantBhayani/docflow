@@ -1,0 +1,1264 @@
+{
+  "seed": 7,
+  "documents": [
+    {
+      "id": "inv-0001",
+      "template": "tally",
+      "scan": "digital",
+      "defect": "qr_bad_signature",
+      "split": "heldout",
+      "expected_flags": [
+        "Q1"
+      ],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0002",
+      "template": "tally",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0003",
+      "template": "tally",
+      "scan": "digital",
+      "defect": "missing_recipient_gstin",
+      "split": "dev",
+      "expected_flags": [
+        "A5",
+        "E2"
+      ],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0004",
+      "template": "tally",
+      "scan": "digital",
+      "defect": "wrong_tax_type",
+      "split": "dev",
+      "expected_flags": [
+        "C3"
+      ],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0005",
+      "template": "tally",
+      "scan": "digital",
+      "defect": "wrong_tax_type",
+      "split": "heldout",
+      "expected_flags": [
+        "C3"
+      ],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0006",
+      "template": "tally",
+      "scan": "digital",
+      "defect": "invalid_slab",
+      "split": "heldout",
+      "expected_flags": [
+        "C7"
+      ],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0007",
+      "template": "tally",
+      "scan": "digital",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0008",
+      "template": "tally",
+      "scan": "digital",
+      "defect": "duplicate_invoice_no",
+      "split": "dev",
+      "expected_flags": [
+        "A3"
+      ],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0009",
+      "template": "tally",
+      "scan": "digital",
+      "defect": "line_math",
+      "split": "heldout",
+      "expected_flags": [
+        "C6"
+      ],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0010",
+      "template": "tally",
+      "scan": "digital",
+      "defect": "bad_gstin_checksum",
+      "split": "heldout",
+      "expected_flags": [
+        "G5"
+      ],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0011",
+      "template": "tally",
+      "scan": "digital",
+      "defect": "duplicate_invoice_no",
+      "split": "dev",
+      "expected_flags": [
+        "A3"
+      ],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0012",
+      "template": "tally",
+      "scan": "digital",
+      "defect": "prompt_injection",
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0013",
+      "template": "tally",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0014",
+      "template": "tally",
+      "scan": "digital",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0015",
+      "template": "tally",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0016",
+      "template": "tally",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0017",
+      "template": "tally",
+      "scan": "light",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0018",
+      "template": "tally",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0019",
+      "template": "tally",
+      "scan": "light",
+      "defect": "rotated_page",
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [
+        "P1"
+      ],
+      "qr": false
+    },
+    {
+      "id": "inv-0020",
+      "template": "tally",
+      "scan": "light",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0021",
+      "template": "tally",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0022",
+      "template": "tally",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0023",
+      "template": "tally",
+      "scan": "light",
+      "defect": "rotated_page",
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [
+        "P1"
+      ],
+      "qr": false
+    },
+    {
+      "id": "inv-0024",
+      "template": "tally",
+      "scan": "heavy",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0025",
+      "template": "tally",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0026",
+      "template": "tally",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0027",
+      "template": "tally",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0028",
+      "template": "tally",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0029",
+      "template": "tally",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0030",
+      "template": "tally",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0031",
+      "template": "zoho",
+      "scan": "digital",
+      "defect": "qr_total_mismatch",
+      "split": "dev",
+      "expected_flags": [
+        "Q2"
+      ],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0032",
+      "template": "zoho",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0033",
+      "template": "zoho",
+      "scan": "digital",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0034",
+      "template": "zoho",
+      "scan": "digital",
+      "defect": "missing_recipient_gstin",
+      "split": "heldout",
+      "expected_flags": [
+        "A5",
+        "E2"
+      ],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0035",
+      "template": "zoho",
+      "scan": "digital",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0036",
+      "template": "zoho",
+      "scan": "digital",
+      "defect": "bad_gstin_checksum",
+      "split": "heldout",
+      "expected_flags": [
+        "G5"
+      ],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0037",
+      "template": "zoho",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0038",
+      "template": "zoho",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0039",
+      "template": "zoho",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0040",
+      "template": "zoho",
+      "scan": "digital",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0041",
+      "template": "zoho",
+      "scan": "digital",
+      "defect": "bad_gstin_checksum",
+      "split": "dev",
+      "expected_flags": [
+        "G5"
+      ],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0042",
+      "template": "zoho",
+      "scan": "digital",
+      "defect": "duplicate_invoice_no",
+      "split": "heldout",
+      "expected_flags": [
+        "A3"
+      ],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0043",
+      "template": "zoho",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0044",
+      "template": "zoho",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0045",
+      "template": "zoho",
+      "scan": "digital",
+      "defect": "invalid_slab",
+      "split": "dev",
+      "expected_flags": [
+        "C7"
+      ],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0046",
+      "template": "zoho",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0047",
+      "template": "zoho",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0048",
+      "template": "zoho",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0049",
+      "template": "zoho",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0050",
+      "template": "zoho",
+      "scan": "light",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0051",
+      "template": "zoho",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0052",
+      "template": "zoho",
+      "scan": "light",
+      "defect": "rotated_page",
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [
+        "P1"
+      ],
+      "qr": false
+    },
+    {
+      "id": "inv-0053",
+      "template": "zoho",
+      "scan": "light",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0054",
+      "template": "zoho",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0055",
+      "template": "zoho",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0056",
+      "template": "zoho",
+      "scan": "heavy",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0057",
+      "template": "zoho",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0058",
+      "template": "zoho",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0059",
+      "template": "zoho",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0060",
+      "template": "zoho",
+      "scan": "heavy",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0061",
+      "template": "word",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0062",
+      "template": "word",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0063",
+      "template": "word",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0064",
+      "template": "word",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0065",
+      "template": "word",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0066",
+      "template": "word",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0067",
+      "template": "word",
+      "scan": "digital",
+      "defect": "prompt_injection",
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0068",
+      "template": "word",
+      "scan": "digital",
+      "defect": "prompt_injection",
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0069",
+      "template": "word",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0070",
+      "template": "word",
+      "scan": "digital",
+      "defect": "line_math",
+      "split": "dev",
+      "expected_flags": [
+        "C6"
+      ],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0071",
+      "template": "word",
+      "scan": "digital",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0072",
+      "template": "word",
+      "scan": "digital",
+      "defect": "missing_recipient_gstin",
+      "split": "heldout",
+      "expected_flags": [
+        "A5",
+        "E2"
+      ],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0073",
+      "template": "word",
+      "scan": "digital",
+      "defect": "duplicate_invoice_no",
+      "split": "heldout",
+      "expected_flags": [
+        "A3"
+      ],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0074",
+      "template": "word",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0075",
+      "template": "word",
+      "scan": "digital",
+      "defect": "wrong_tax_type",
+      "split": "heldout",
+      "expected_flags": [
+        "C2"
+      ],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0076",
+      "template": "word",
+      "scan": "light",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0077",
+      "template": "word",
+      "scan": "light",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0078",
+      "template": "word",
+      "scan": "light",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0079",
+      "template": "word",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0080",
+      "template": "word",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0081",
+      "template": "word",
+      "scan": "light",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0082",
+      "template": "word",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0083",
+      "template": "word",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0084",
+      "template": "word",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0085",
+      "template": "word",
+      "scan": "heavy",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0086",
+      "template": "word",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0087",
+      "template": "word",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0088",
+      "template": "word",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0089",
+      "template": "word",
+      "scan": "heavy",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0090",
+      "template": "word",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false
+    },
+    {
+      "id": "inv-0091",
+      "template": "einvoice",
+      "scan": "digital",
+      "defect": "invalid_slab",
+      "split": "heldout",
+      "expected_flags": [
+        "C7"
+      ],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0092",
+      "template": "einvoice",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0093",
+      "template": "einvoice",
+      "scan": "digital",
+      "defect": "qr_total_mismatch",
+      "split": "heldout",
+      "expected_flags": [
+        "Q2"
+      ],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0094",
+      "template": "einvoice",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0095",
+      "template": "einvoice",
+      "scan": "digital",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0096",
+      "template": "einvoice",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0097",
+      "template": "einvoice",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0098",
+      "template": "einvoice",
+      "scan": "digital",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0099",
+      "template": "einvoice",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0100",
+      "template": "einvoice",
+      "scan": "digital",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0101",
+      "template": "einvoice",
+      "scan": "digital",
+      "defect": "qr_bad_signature",
+      "split": "heldout",
+      "expected_flags": [
+        "Q1"
+      ],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0102",
+      "template": "einvoice",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0103",
+      "template": "einvoice",
+      "scan": "digital",
+      "defect": "qr_bad_signature",
+      "split": "dev",
+      "expected_flags": [
+        "Q1"
+      ],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0104",
+      "template": "einvoice",
+      "scan": "digital",
+      "defect": "line_math",
+      "split": "heldout",
+      "expected_flags": [
+        "C6"
+      ],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0105",
+      "template": "einvoice",
+      "scan": "digital",
+      "defect": "qr_total_mismatch",
+      "split": "heldout",
+      "expected_flags": [
+        "Q2"
+      ],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0106",
+      "template": "einvoice",
+      "scan": "light",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0107",
+      "template": "einvoice",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0108",
+      "template": "einvoice",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0109",
+      "template": "einvoice",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0110",
+      "template": "einvoice",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0111",
+      "template": "einvoice",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0112",
+      "template": "einvoice",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0113",
+      "template": "einvoice",
+      "scan": "light",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0114",
+      "template": "einvoice",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0115",
+      "template": "einvoice",
+      "scan": "heavy",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0116",
+      "template": "einvoice",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0117",
+      "template": "einvoice",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0118",
+      "template": "einvoice",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0119",
+      "template": "einvoice",
+      "scan": "heavy",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    },
+    {
+      "id": "inv-0120",
+      "template": "einvoice",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": true
+    }
+  ]
+}

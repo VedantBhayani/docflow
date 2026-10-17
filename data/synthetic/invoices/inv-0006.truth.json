@@ -1,0 +1,64 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Trikon Fabrication Traders",
+    "supplier_address": "Unit 169, Industrial Estate, Kolkata, West Bengal",
+    "supplier_gstin": "19NKRCT8832B1ZZ",
+    "recipient_name": "Sarthi Polymers Pvt Ltd",
+    "recipient_address": "Unit 161, MIDC Road, Nagpur, Maharashtra",
+    "recipient_gstin": "27FMSCS5356R1ZC",
+    "invoice_no": "DFTEST-2627-0006",
+    "invoice_date": "14/04/2026",
+    "place_of_supply": "Maharashtra (27)",
+    "reverse_charge": "No",
+    "taxable_total": "490.98",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "58.92",
+    "round_off": "0.10",
+    "grand_total": "550.00",
+    "irn": "4c1ed315d2b9301b2ff57cbe8683d2475efb2f1b8b5c9aaa2fad2c798239ef2a"
+  },
+  "lines": [
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "3",
+      "uqc": "KGS",
+      "unit_price": "163.66",
+      "taxable_value": "490.98",
+      "gst_rate": "12%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "58.92"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMTlOS1JDVDg4MzJCMVpaXCIsXCJCdXllckdzdGluXCI6XCIyN0ZNU0NTNTM1NlIxWkNcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDA2XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjE0LzA0LzIwMjZcIixcIlRvdEludlZhbFwiOjU1MC4wLFwiSXRlbUNudFwiOjEsXCJNYWluSHNuQ29kZVwiOlwiMzkyMDEwMTJcIixcIklyblwiOlwiNGMxZWQzMTVkMmI5MzAxYjJmZjU3Y2JlODY4M2QyNDc1ZWZiMmYxYjhiNWM5YWFhMmZhZDJjNzk4MjM5ZWYyYVwiLFwiSXJuRHRcIjpcIjIwMjYtMDQtMTQgMTg6MTY6MDBcIn0ifQ.A3LulmrKQhlSYoiWBdjsDi8FIEIh3ZW4jqxbiH7d77Pt_gHT3EHbPsjrY7jGbdElmHK-DY_PxoMkdnQvJuPkhGA-aSNfRcHwchIv45-p-FY8uDwbuxHSbQCVHiWQZwcxr5o0czIP3F-pdevMHxV4DW7I6a9zG1dRXDcfbl5z64JhHRzxaqy7jtSjMKvAOXMs3MolGYALN25N8MBtUgTGUuhk_pPCENqgxTq1Kp6nMAGDhBR80I55oIKb9OGHD0ScJzGDCGdb-WUEZmxv900MYLruZZ7-5iXnKIHEq2D6xgi6xkjb-wh3bwMyvZaUsDr9OKmVti0E-jz-TVuaQ9heUg",
+    "payload": {
+      "SellerGstin": "19NKRCT8832B1ZZ",
+      "BuyerGstin": "27FMSCS5356R1ZC",
+      "DocNo": "DFTEST-2627-0006",
+      "DocTyp": "INV",
+      "DocDt": "14/04/2026",
+      "TotInvVal": 550.0,
+      "ItemCnt": 1,
+      "MainHsnCode": "39201012",
+      "Irn": "4c1ed315d2b9301b2ff57cbe8683d2475efb2f1b8b5c9aaa2fad2c798239ef2a",
+      "IrnDt": "2026-04-14 18:16:00"
+    },
+    "irn_printed": "4c1ed315d2b9301b2ff57cbe8683d2475efb2f1b8b5c9aaa2fad2c798239ef2a",
+    "ack_no": "113509442086065",
+    "ack_date": "2026-04-14"
+  },
+  "expected_flags": [
+    "C7"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0006",
+  "scan": "digital",
+  "defect": "invalid_slab",
+  "split": "heldout"
+}

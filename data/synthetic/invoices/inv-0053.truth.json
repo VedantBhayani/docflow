@@ -1,0 +1,53 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Kaveri Electricals Industries Pvt Ltd",
+    "supplier_address": "Unit 105, Business Park, Lucknow, Uttar Pradesh",
+    "supplier_gstin": "09DJJCK5869D1ZI",
+    "recipient_name": "Nimbus Hardware Pvt Ltd",
+    "recipient_address": "Unit 102, Trade Centre, Noida, Uttar Pradesh",
+    "recipient_gstin": "09IOECN8978Z3ZM",
+    "invoice_no": "DFTEST-2627-0053",
+    "invoice_date": "03 Jul 2026",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "reverse_charge": "No",
+    "taxable_total": "60,045.12",
+    "cgst_total": "5,404.06",
+    "sgst_total": "5,404.06",
+    "igst_total": "0.00",
+    "round_off": "-0.24",
+    "grand_total": "70,853.00"
+  },
+  "lines": [
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "12.00",
+      "uqc": "NOS",
+      "unit_price": "5,003.76",
+      "taxable_value": "60,045.12",
+      "gst_rate": "18%",
+      "cgst": "5,404.06",
+      "sgst": "5,404.06",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0053",
+  "scan": "light",
+  "defect": null,
+  "split": "dev",
+  "scan_meta": {
+    "level": "light",
+    "seed": 960675333,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      0.69
+    ]
+  }
+}

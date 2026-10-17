@@ -1,0 +1,70 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Nimbus IT Services Enterprises",
+    "supplier_address": "Unit 225, MIDC Road, New Delhi, Delhi",
+    "supplier_gstin": "07STUCN4274R2ZQ",
+    "recipient_name": "Sahyadri Logistics Traders",
+    "recipient_address": "Unit 18, Trade Centre, Ahmedabad, Gujarat",
+    "recipient_gstin": "24EVJCS4696L1ZD",
+    "invoice_no": "DFTEST-2627-0009",
+    "invoice_date": "06/08/2026",
+    "place_of_supply": "Gujarat (24)",
+    "reverse_charge": "No",
+    "taxable_total": "36,125.16",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "6,015.68",
+    "round_off": "0.16",
+    "grand_total": "42,141.00"
+  },
+  "lines": [
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "12",
+      "uqc": "PAC",
+      "unit_price": "312.47",
+      "taxable_value": "3,749.64",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "212.48"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "2",
+      "uqc": "BTL",
+      "unit_price": "93.81",
+      "taxable_value": "187.62",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "9.38"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "10",
+      "uqc": "ROL",
+      "unit_price": "3,218.79",
+      "taxable_value": "32,187.90",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "5,793.82"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [
+    "C6"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0009",
+  "scan": "digital",
+  "defect": "line_math",
+  "split": "heldout"
+}

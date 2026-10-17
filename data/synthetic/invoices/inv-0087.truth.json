@@ -1,0 +1,53 @@
+{
+  "kind": "invoice",
+  "template": "word",
+  "fields": {
+    "supplier_name": "Shakti Stationers Enterprises",
+    "supplier_address": "Unit 81, Trade Centre, Kolkata, West Bengal",
+    "supplier_gstin": "19FDACS3733U1ZB",
+    "recipient_name": "Trikon Fabrication Enterprises",
+    "recipient_address": "Unit 57, Industrial Estate, Vadodara, Gujarat",
+    "recipient_gstin": "24PVNCT2199E3ZG",
+    "invoice_no": "DFTEST-2627-0087",
+    "invoice_date": "15-06-2026",
+    "place_of_supply": "Gujarat (24)",
+    "reverse_charge": "No",
+    "taxable_total": "43,483.45",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "7,827.02",
+    "round_off": "-0.47",
+    "grand_total": "51,310.00"
+  },
+  "lines": [
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "5",
+      "uqc": "NOS",
+      "unit_price": "8,696.69",
+      "taxable_value": "43,483.45",
+      "gst_rate": "18 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "7,827.02"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0087",
+  "scan": "heavy",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 262899407,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -2.37
+    ]
+  }
+}

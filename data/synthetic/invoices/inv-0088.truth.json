@@ -1,0 +1,89 @@
+{
+  "kind": "invoice",
+  "template": "word",
+  "fields": {
+    "supplier_name": "Udaan Polymers Enterprises",
+    "supplier_address": "Unit 103, MIDC Road, Kolkata, West Bengal",
+    "supplier_gstin": "19UHDCU2519M1Z1",
+    "recipient_name": "Sarthi Stationers LLP",
+    "recipient_address": "Unit 131, Industrial Estate, Kolkata, West Bengal",
+    "recipient_gstin": "19FFOCS6251U2ZP",
+    "invoice_no": "DFTEST-2627-0088",
+    "invoice_date": "20-05-2026",
+    "place_of_supply": "West Bengal (19)",
+    "reverse_charge": "No",
+    "taxable_total": "77,946.66",
+    "cgst_total": "2,052.39",
+    "sgst_total": "2,052.39",
+    "igst_total": "0.00",
+    "round_off": "-0.44",
+    "grand_total": "82,051.00"
+  },
+  "lines": [
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "10",
+      "uqc": "NOS",
+      "unit_price": "40.98",
+      "taxable_value": "409.80",
+      "gst_rate": "5 %",
+      "cgst": "10.25",
+      "sgst": "10.25",
+      "igst": "0.00"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "3",
+      "uqc": "ROL",
+      "unit_price": "2,910.72",
+      "taxable_value": "8,732.16",
+      "gst_rate": "5 %",
+      "cgst": "218.30",
+      "sgst": "218.30",
+      "igst": "0.00"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "10",
+      "uqc": "KGS",
+      "unit_price": "159.57",
+      "taxable_value": "1,595.70",
+      "gst_rate": "18 %",
+      "cgst": "143.61",
+      "sgst": "143.61",
+      "igst": "0.00"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "100",
+      "uqc": "NOS",
+      "unit_price": "672.09",
+      "taxable_value": "67,209.00",
+      "gst_rate": "5 %",
+      "cgst": "1,680.23",
+      "sgst": "1,680.23",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0088",
+  "scan": "heavy",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 1670322120,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      2.42
+    ]
+  }
+}

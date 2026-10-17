@@ -1,0 +1,76 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Meghdoot Polymers Industries Pvt Ltd",
+    "supplier_address": "Unit 129, MIDC Road, Lucknow, Uttar Pradesh",
+    "supplier_gstin": "09IRHCM8901N3ZN",
+    "recipient_name": "Meghdoot Fabrication Pvt Ltd",
+    "recipient_address": "Unit 95, MIDC Road, Hyderabad, Telangana",
+    "recipient_gstin": "36LNFCM0167U3ZP",
+    "invoice_no": "DFTEST-2627-0105",
+    "invoice_date": "21/09/2026",
+    "place_of_supply": "Telangana (36)",
+    "reverse_charge": "No",
+    "taxable_total": "27,763.20",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "3,920.19",
+    "round_off": "-0.39",
+    "grand_total": "31,683.00",
+    "irn": "22246f6567347ab0ae3d3a9b446b5a2b9169f38139d5855df20360a2571905ef"
+  },
+  "lines": [
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "19,477.14",
+      "taxable_value": "19,477.14",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "3,505.89"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "3.00",
+      "uqc": "ROL",
+      "unit_price": "2,762.02",
+      "taxable_value": "8,286.06",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "414.30"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMDlJUkhDTTg5MDFOM1pOXCIsXCJCdXllckdzdGluXCI6XCIzNkxORkNNMDE2N1UzWlBcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMTA1XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjIxLzA5LzIwMjZcIixcIlRvdEludlZhbFwiOjMyNjgzLjAsXCJJdGVtQ250XCI6MixcIk1haW5Ic25Db2RlXCI6XCI5OTg3MTNcIixcIklyblwiOlwiMjIyNDZmNjU2NzM0N2FiMGFlM2QzYTliNDQ2YjVhMmI5MTY5ZjM4MTM5ZDU4NTVkZjIwMzYwYTI1NzE5MDVlZlwiLFwiSXJuRHRcIjpcIjIwMjYtMDktMjIgMTE6MDU6MDBcIn0ifQ.QyUxfvLcFM6EJ1uUP2XdHV82D4JLy-v4emtq3IgeA3DCC-tzGbxwGIch8KP8QOiJu8TyNEdYWMlP96L1zSGZCWfsOn3F6R1xGjcWPd83BjBYW-oKTfoQxvQuHLOhqx4JFnNXAvT_4zIU3YzJ2v_w0liaDZSmgShC6_vrh-IWa2hA_Fg3JHZnVG7uA6EmRdy7gGYnnssPPD_CmWGcdLPSY_oEf5w_Wm2-UymhEfYRWeinFu38Ukb8UyQLExKnAf49X6yjSbslNCJkx7Jp18wy--8Dl_kgaCfIxuCjBUqun2Hz8PHRsVHl8zhWvZFDlZ4El3aW2yb9znfF4KmvSw9GCA",
+    "payload": {
+      "SellerGstin": "09IRHCM8901N3ZN",
+      "BuyerGstin": "36LNFCM0167U3ZP",
+      "DocNo": "DFTEST-2627-0105",
+      "DocTyp": "INV",
+      "DocDt": "21/09/2026",
+      "TotInvVal": 32683.0,
+      "ItemCnt": 2,
+      "MainHsnCode": "998713",
+      "Irn": "22246f6567347ab0ae3d3a9b446b5a2b9169f38139d5855df20360a2571905ef",
+      "IrnDt": "2026-09-22 11:05:00"
+    },
+    "irn_printed": "22246f6567347ab0ae3d3a9b446b5a2b9169f38139d5855df20360a2571905ef",
+    "ack_no": "114151852079067",
+    "ack_date": "2026-09-22"
+  },
+  "expected_flags": [
+    "Q2"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0105",
+  "scan": "digital",
+  "defect": "qr_total_mismatch",
+  "split": "heldout"
+}

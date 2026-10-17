@@ -1,0 +1,119 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Aarav IT Services Enterprises",
+    "supplier_address": "Unit 126, Business Park, New Delhi, Delhi",
+    "supplier_gstin": "07XQOCA0592B2ZA",
+    "recipient_name": "Aarav IT Services Traders",
+    "recipient_address": "Unit 55, MIDC Road, Pune, Maharashtra",
+    "recipient_gstin": "27LQRCA5697C2ZZ",
+    "invoice_no": "DFTEST-2627-0021",
+    "invoice_date": "27/08/2026",
+    "place_of_supply": "Maharashtra (27)",
+    "reverse_charge": "No",
+    "taxable_total": "2,95,077.00",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "45,586.99",
+    "round_off": "0.01",
+    "grand_total": "3,40,664.00",
+    "irn": "8e30b87f69530984be3d87a38da2e2c434f5315077668416e1c297fb39d9e92c"
+  },
+  "lines": [
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "25",
+      "uqc": "NOS",
+      "unit_price": "8,850.39",
+      "taxable_value": "2,21,259.75",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "39,826.76"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "10",
+      "uqc": "NOS",
+      "unit_price": "5,440.46",
+      "taxable_value": "54,404.60",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "2,720.23"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "1",
+      "uqc": "ROL",
+      "unit_price": "3,494.51",
+      "taxable_value": "3,494.51",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "174.73"
+    },
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "15,775.31",
+      "taxable_value": "15,775.31",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "2,839.56"
+    },
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "3",
+      "uqc": "NOS",
+      "unit_price": "47.61",
+      "taxable_value": "142.83",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "25.71"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMDdYUU9DQTA1OTJCMlpBXCIsXCJCdXllckdzdGluXCI6XCIyN0xRUkNBNTY5N0MyWlpcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDIxXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjI3LzA4LzIwMjZcIixcIlRvdEludlZhbFwiOjM0MDY2NC4wLFwiSXRlbUNudFwiOjUsXCJNYWluSHNuQ29kZVwiOlwiOTQwMTMwMDBcIixcIklyblwiOlwiOGUzMGI4N2Y2OTUzMDk4NGJlM2Q4N2EzOGRhMmUyYzQzNGY1MzE1MDc3NjY4NDE2ZTFjMjk3ZmIzOWQ5ZTkyY1wiLFwiSXJuRHRcIjpcIjIwMjYtMDgtMjcgMTc6MDA6MDBcIn0ifQ.iztnqaQg2stWf0wRK50Znnr4FUvRotyFRg24YwmdZPYTiR4hbGq7YfVIpy8JHYExGIlIpP6hO-doZkEGv3tFG3GfkntlikkkvJUA0Sz1xLPqN3FInTaczI9d-e8cPhZernagale-i2u30JGfHtI3iAPvku_3YxtV5xmD-yGqz2uRVEbXAj48d56OAuhd3-rDMEN6nGktPmtfEnX-Aru0kqGLn_MniLM9n4b3WGC1xxehqd-zdVU0ZG9iSSXRjqo95gqXSxMb_RcSHw9IHzdcFiXhBwAU3tMNso2X4s0Ef3TTBFi12q4GQrSaNnNb_9eyY3eJ9fehg-BhiPjdBRP6ZQ",
+    "payload": {
+      "SellerGstin": "07XQOCA0592B2ZA",
+      "BuyerGstin": "27LQRCA5697C2ZZ",
+      "DocNo": "DFTEST-2627-0021",
+      "DocTyp": "INV",
+      "DocDt": "27/08/2026",
+      "TotInvVal": 340664.0,
+      "ItemCnt": 5,
+      "MainHsnCode": "94013000",
+      "Irn": "8e30b87f69530984be3d87a38da2e2c434f5315077668416e1c297fb39d9e92c",
+      "IrnDt": "2026-08-27 17:00:00"
+    },
+    "irn_printed": "8e30b87f69530984be3d87a38da2e2c434f5315077668416e1c297fb39d9e92c",
+    "ack_no": "115402774429501",
+    "ack_date": "2026-08-27"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0021",
+  "scan": "light",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "light",
+    "seed": 288850604,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -0.99
+    ]
+  }
+}

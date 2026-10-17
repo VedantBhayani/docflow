@@ -1,0 +1,112 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Vistar IT Services Pvt Ltd",
+    "supplier_address": "Unit 179, Trade Centre, Bengaluru, Karnataka",
+    "supplier_gstin": "29YRQCV4299K1Z7",
+    "recipient_name": "Pragati IT Services Traders",
+    "recipient_address": "Unit 56, Business Park, Mysuru, Karnataka",
+    "recipient_gstin": "29IPSCP5516B2Z4",
+    "invoice_no": "DFTEST-2627-0036",
+    "invoice_date": "12 May 2026",
+    "place_of_supply": "Karnataka (29)",
+    "reverse_charge": "No",
+    "taxable_total": "2,81,126.20",
+    "cgst_total": "25,079.01",
+    "sgst_total": "25,079.01",
+    "igst_total": "0.00",
+    "round_off": "-0.22",
+    "grand_total": "3,31,284.00",
+    "irn": "a923de75b969851680b8e831262e4494a4ee5ea8fd52b34b6a32ebde26633874"
+  },
+  "lines": [
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "40.00",
+      "uqc": "NOS",
+      "unit_price": "5,791.65",
+      "taxable_value": "2,31,666.00",
+      "gst_rate": "18%",
+      "cgst": "20,849.94",
+      "sgst": "20,849.94",
+      "igst": "0.00"
+    },
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "10.00",
+      "uqc": "NOS",
+      "unit_price": "49.67",
+      "taxable_value": "496.70",
+      "gst_rate": "5%",
+      "cgst": "12.42",
+      "sgst": "12.42",
+      "igst": "0.00"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "10.00",
+      "uqc": "PAC",
+      "unit_price": "292.41",
+      "taxable_value": "2,924.10",
+      "gst_rate": "5%",
+      "cgst": "73.10",
+      "sgst": "73.10",
+      "igst": "0.00"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "40.00",
+      "uqc": "NOS",
+      "unit_price": "727.76",
+      "taxable_value": "29,110.40",
+      "gst_rate": "18%",
+      "cgst": "2,619.94",
+      "sgst": "2,619.94",
+      "igst": "0.00"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "100.00",
+      "uqc": "KGS",
+      "unit_price": "169.29",
+      "taxable_value": "16,929.00",
+      "gst_rate": "18%",
+      "cgst": "1,523.61",
+      "sgst": "1,523.61",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjlZUlFDVjQyOTlLMVpLXCIsXCJCdXllckdzdGluXCI6XCIyOUlQU0NQNTUxNkIyWjRcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDM2XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjEyLzA1LzIwMjZcIixcIlRvdEludlZhbFwiOjMzMTI4NC4wLFwiSXRlbUNudFwiOjUsXCJNYWluSHNuQ29kZVwiOlwiOTQwMzIwOTBcIixcIklyblwiOlwiYTkyM2RlNzViOTY5ODUxNjgwYjhlODMxMjYyZTQ0OTRhNGVlNWVhOGZkNTJiMzRiNmEzMmViZGUyNjYzMzg3NFwiLFwiSXJuRHRcIjpcIjIwMjYtMDUtMTQgMTk6MDI6MDBcIn0ifQ.EWjErlMgo1tZ6RFrQy8dzYh9eMfJJiNlqa20jNUIrNNLlJY_s_Z_XJklf8nhmvUQmGBo0ox76xqEUBcOI-6U2V1bc-MzP8KvN6atKZfMYfKTAgF9T2t6ioK2ciIFsouNFSeY-ohz4USR7teiyQOM0hRhAb7Plc-8DQUHUffofRKYzNnczwwcRpg0bO29Gn3mK64uxcpQElfCDEvioSLfzQUnjRjLdrb5VKeoIxIQR07Z-qRS0RfPwp9qhL_IEeS3leuTlLX3qVOd1oY2itElSjhnr6ug86yKnKLpTgB2O_9bLUVXBTIfNqVCWpzTMnx8p8DDETzqsx0Vswel02vn0g",
+    "payload": {
+      "SellerGstin": "29YRQCV4299K1ZK",
+      "BuyerGstin": "29IPSCP5516B2Z4",
+      "DocNo": "DFTEST-2627-0036",
+      "DocTyp": "INV",
+      "DocDt": "12/05/2026",
+      "TotInvVal": 331284.0,
+      "ItemCnt": 5,
+      "MainHsnCode": "94032090",
+      "Irn": "a923de75b969851680b8e831262e4494a4ee5ea8fd52b34b6a32ebde26633874",
+      "IrnDt": "2026-05-14 19:02:00"
+    },
+    "irn_printed": "a923de75b969851680b8e831262e4494a4ee5ea8fd52b34b6a32ebde26633874",
+    "ack_no": "115050937191655",
+    "ack_date": "2026-05-14"
+  },
+  "expected_flags": [
+    "G5"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0036",
+  "scan": "digital",
+  "defect": "bad_gstin_checksum",
+  "split": "heldout"
+}

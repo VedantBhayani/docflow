@@ -1,0 +1,53 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Sahyadri Packaging Industries Pvt Ltd",
+    "supplier_address": "Unit 177, Trade Centre, Noida, Uttar Pradesh",
+    "supplier_gstin": "09WVFCS6853C3ZD",
+    "recipient_name": "Trikon Hardware Industries Pvt Ltd",
+    "recipient_address": "Unit 92, MIDC Road, Lucknow, Uttar Pradesh",
+    "recipient_gstin": "09WJMCT3518E2Z2",
+    "invoice_no": "DFTEST-2627-0028",
+    "invoice_date": "01/06/2026",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "reverse_charge": "No",
+    "taxable_total": "2,18,472.00",
+    "cgst_total": "19,662.48",
+    "sgst_total": "19,662.48",
+    "igst_total": "0.00",
+    "round_off": "0.04",
+    "grand_total": "2,57,797.00"
+  },
+  "lines": [
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "40",
+      "uqc": "NOS",
+      "unit_price": "5,461.80",
+      "taxable_value": "2,18,472.00",
+      "gst_rate": "18%",
+      "cgst": "19,662.48",
+      "sgst": "19,662.48",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0028",
+  "scan": "heavy",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 48612851,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      1.47
+    ]
+  }
+}

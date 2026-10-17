@@ -1,0 +1,86 @@
+{
+  "kind": "invoice",
+  "template": "word",
+  "fields": {
+    "supplier_name": "Nimbus Hardware Enterprises",
+    "supplier_address": "Unit 219, Business Park, Noida, Uttar Pradesh",
+    "supplier_gstin": "09BLOCN6687E2Z3",
+    "recipient_name": "Anvay Polymers Enterprises",
+    "recipient_address": "Unit 59, Business Park, Mumbai, Maharashtra",
+    "recipient_gstin": "27URJCA0008Z2ZI",
+    "invoice_no": "DFTEST-2627-0061",
+    "invoice_date": "21-04-2026",
+    "place_of_supply": "Maharashtra (27)",
+    "reverse_charge": "No",
+    "taxable_total": "10,889.00",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "1,960.02",
+    "round_off": "-0.02",
+    "grand_total": "12,849.00",
+    "irn": "003b91d1a511c2c9f32abbdc7df8a293a97e1bbc5ee5ddbd1654ba23677c9261"
+  },
+  "lines": [
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "25",
+      "uqc": "NOS",
+      "unit_price": "41.72",
+      "taxable_value": "1,043.00",
+      "gst_rate": "18 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "187.74"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "40",
+      "uqc": "BTL",
+      "unit_price": "89.86",
+      "taxable_value": "3,594.40",
+      "gst_rate": "18 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "646.99"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "40",
+      "uqc": "KGS",
+      "unit_price": "156.29",
+      "taxable_value": "6,251.60",
+      "gst_rate": "18 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "1,125.29"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMDlCTE9DTjY2ODdFMlozXCIsXCJCdXllckdzdGluXCI6XCIyN1VSSkNBMDAwOFoyWklcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDYxXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjIxLzA0LzIwMjZcIixcIlRvdEludlZhbFwiOjEyODQ5LjAsXCJJdGVtQ250XCI6MyxcIk1haW5Ic25Db2RlXCI6XCIzOTIwMTAxMlwiLFwiSXJuXCI6XCIwMDNiOTFkMWE1MTFjMmM5ZjMyYWJiZGM3ZGY4YTI5M2E5N2UxYmJjNWVlNWRkYmQxNjU0YmEyMzY3N2M5MjYxXCIsXCJJcm5EdFwiOlwiMjAyNi0wNC0yMyAxODozMTowMFwifSJ9.iVcr-5GUuiM0Ntdw-gNQiSWxw2ETs_nvZlVI8nraThNo8LH9eTJrsB7wDQKHhJWXIRV9kfbDPxQ0FNFigoYUItPi7DhoMHOxtJilPFEUArz75_dyO4ktf3hA0YmRHLO6JuH7JYI4fj7U0wpNaTQtPLaa3mBDlY1bRjYqPXJkjhlOesi9in-CFRLpZpzjk5nV6RtvVpXda8Wl_ySyz4XuwmPUX07kydvUZlLbyigKVBavpbgm8aEp0ZYoZp7M8XDwyQYPidWWH9TlFkAfkvw94JODHUPgHowzAOhpbQZdMHM2pp7v9wzd9bJ3MBT7ZUPFsUC19GXz5PecvsfmnBZEmA",
+    "payload": {
+      "SellerGstin": "09BLOCN6687E2Z3",
+      "BuyerGstin": "27URJCA0008Z2ZI",
+      "DocNo": "DFTEST-2627-0061",
+      "DocTyp": "INV",
+      "DocDt": "21/04/2026",
+      "TotInvVal": 12849.0,
+      "ItemCnt": 3,
+      "MainHsnCode": "39201012",
+      "Irn": "003b91d1a511c2c9f32abbdc7df8a293a97e1bbc5ee5ddbd1654ba23677c9261",
+      "IrnDt": "2026-04-23 18:31:00"
+    },
+    "irn_printed": "003b91d1a511c2c9f32abbdc7df8a293a97e1bbc5ee5ddbd1654ba23677c9261",
+    "ack_no": "119838884011957",
+    "ack_date": "2026-04-23"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0061",
+  "scan": "digital",
+  "defect": null,
+  "split": "heldout"
+}

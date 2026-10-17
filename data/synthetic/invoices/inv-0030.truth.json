@@ -1,0 +1,77 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Pragati Stationers Pvt Ltd",
+    "supplier_address": "Unit 55, Trade Centre, Vadodara, Gujarat",
+    "supplier_gstin": "24XIUCP8779O2ZX",
+    "recipient_name": "Pragati Electricals Pvt Ltd",
+    "recipient_address": "Unit 225, MIDC Road, Lucknow, Uttar Pradesh",
+    "recipient_gstin": "09MMMCP1562X3Z6",
+    "invoice_no": "DFTEST-2627-0030",
+    "invoice_date": "28/07/2026",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "reverse_charge": "No",
+    "taxable_total": "9,232.83",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "461.64",
+    "round_off": "-0.47",
+    "grand_total": "9,694.00"
+  },
+  "lines": [
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "3",
+      "uqc": "KGS",
+      "unit_price": "170.41",
+      "taxable_value": "511.23",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "25.56"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "10",
+      "uqc": "PAC",
+      "unit_price": "286.52",
+      "taxable_value": "2,865.20",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "143.26"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "10",
+      "uqc": "NOS",
+      "unit_price": "585.64",
+      "taxable_value": "5,856.40",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "292.82"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0030",
+  "scan": "heavy",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 274357409,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      0.34
+    ]
+  }
+}

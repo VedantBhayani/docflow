@@ -1,0 +1,53 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Sarthi Electricals Enterprises",
+    "supplier_address": "Unit 13, Trade Centre, Mysuru, Karnataka",
+    "supplier_gstin": "29ZTPCS6519J3ZS",
+    "recipient_name": "Kaveri IT Services Enterprises",
+    "recipient_address": "Unit 74, Business Park, Bengaluru, Karnataka",
+    "recipient_gstin": "29CSJCK5558X3ZY",
+    "invoice_no": "DFTEST-2627-0049",
+    "invoice_date": "02 Apr 2026",
+    "place_of_supply": "Karnataka (29)",
+    "reverse_charge": "No",
+    "taxable_total": "413.80",
+    "cgst_total": "10.35",
+    "sgst_total": "10.35",
+    "igst_total": "0.00",
+    "round_off": "0.50",
+    "grand_total": "435.00"
+  },
+  "lines": [
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "5.00",
+      "uqc": "BTL",
+      "unit_price": "82.76",
+      "taxable_value": "413.80",
+      "gst_rate": "5%",
+      "cgst": "10.35",
+      "sgst": "10.35",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0049",
+  "scan": "light",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "light",
+    "seed": 1509931496,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -0.85
+    ]
+  }
+}

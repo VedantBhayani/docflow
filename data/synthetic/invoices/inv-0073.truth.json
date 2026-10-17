@@ -1,0 +1,82 @@
+{
+  "kind": "invoice",
+  "template": "word",
+  "fields": {
+    "supplier_name": "Nimbus Logistics Industries Pvt Ltd",
+    "supplier_address": "Unit 40, Business Park, Kolkata, West Bengal",
+    "supplier_gstin": "19IVDCN4043N1ZQ",
+    "recipient_name": "Kaveri Logistics LLP",
+    "recipient_address": "Unit 160, Trade Centre, Kolkata, West Bengal",
+    "recipient_gstin": "19JPOCK5862I3ZO",
+    "invoice_no": "DFTEST-2627-0042",
+    "invoice_date": "26-07-2026",
+    "place_of_supply": "West Bengal (19)",
+    "reverse_charge": "No",
+    "taxable_total": "10,692.60",
+    "cgst_total": "433.35",
+    "sgst_total": "433.35",
+    "igst_total": "0.00",
+    "round_off": "-0.30",
+    "grand_total": "11,559.00"
+  },
+  "lines": [
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "1",
+      "uqc": "NOS",
+      "unit_price": "7,640.66",
+      "taxable_value": "7,640.66",
+      "gst_rate": "5 %",
+      "cgst": "191.02",
+      "sgst": "191.02",
+      "igst": "0.00"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "1",
+      "uqc": "PAC",
+      "unit_price": "325.12",
+      "taxable_value": "325.12",
+      "gst_rate": "18 %",
+      "cgst": "29.26",
+      "sgst": "29.26",
+      "igst": "0.00"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "5",
+      "uqc": "BTL",
+      "unit_price": "99.51",
+      "taxable_value": "497.55",
+      "gst_rate": "5 %",
+      "cgst": "12.44",
+      "sgst": "12.44",
+      "igst": "0.00"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "2,229.27",
+      "taxable_value": "2,229.27",
+      "gst_rate": "18 %",
+      "cgst": "200.63",
+      "sgst": "200.63",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [
+    "A3"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0073",
+  "scan": "digital",
+  "defect": "duplicate_invoice_no",
+  "split": "heldout"
+}

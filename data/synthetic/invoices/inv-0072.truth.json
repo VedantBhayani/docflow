@@ -1,0 +1,83 @@
+{
+  "kind": "invoice",
+  "template": "word",
+  "fields": {
+    "supplier_name": "Shakti Office Supplies Industries Pvt Ltd",
+    "supplier_address": "Unit 35, Industrial Estate, Kolkata, West Bengal",
+    "supplier_gstin": "19TBHCS4706F2ZP",
+    "recipient_name": "Udaan Packaging Traders",
+    "recipient_address": "Unit 133, MIDC Road, Bengaluru, Karnataka",
+    "recipient_gstin": null,
+    "invoice_no": "DFTEST-2627-0072",
+    "invoice_date": "24-05-2026",
+    "place_of_supply": "Karnataka (29)",
+    "reverse_charge": "No",
+    "taxable_total": "40,268.54",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "2,382.93",
+    "round_off": "-0.47",
+    "grand_total": "42,651.00"
+  },
+  "lines": [
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "2,397.64",
+      "taxable_value": "2,397.64",
+      "gst_rate": "18 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "431.58"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "10",
+      "uqc": "ROL",
+      "unit_price": "3,438.30",
+      "taxable_value": "34,383.00",
+      "gst_rate": "5 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "1,719.15"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "5",
+      "uqc": "BTL",
+      "unit_price": "88.93",
+      "taxable_value": "444.65",
+      "gst_rate": "18 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "80.04"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "5",
+      "uqc": "NOS",
+      "unit_price": "608.65",
+      "taxable_value": "3,043.25",
+      "gst_rate": "5 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "152.16"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [
+    "A5",
+    "E2"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0072",
+  "scan": "digital",
+  "defect": "missing_recipient_gstin",
+  "split": "heldout"
+}

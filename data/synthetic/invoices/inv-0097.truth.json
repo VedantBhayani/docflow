@@ -1,0 +1,62 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Trikon IT Services Pvt Ltd",
+    "supplier_address": "Unit 167, Industrial Estate, Hyderabad, Telangana",
+    "supplier_gstin": "36BDNCT0975F1ZU",
+    "recipient_name": "Sarthi Polymers LLP",
+    "recipient_address": "Unit 9, Trade Centre, Chennai, Tamil Nadu",
+    "recipient_gstin": "33JTJCS4856V3ZX",
+    "invoice_no": "DFTEST-2627-0097",
+    "invoice_date": "03/09/2026",
+    "place_of_supply": "Tamil Nadu (33)",
+    "reverse_charge": "No",
+    "taxable_total": "1,179.50",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "58.98",
+    "round_off": "-0.48",
+    "grand_total": "1,238.00",
+    "irn": "22130e231fd4b5f1d18c86f2c9469a018580e0f04e527c824516f288db5fd93f"
+  },
+  "lines": [
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "25.00",
+      "uqc": "NOS",
+      "unit_price": "47.18",
+      "taxable_value": "1,179.50",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "58.98"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMzZCRE5DVDA5NzVGMVpVXCIsXCJCdXllckdzdGluXCI6XCIzM0pUSkNTNDg1NlYzWlhcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDk3XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjAzLzA5LzIwMjZcIixcIlRvdEludlZhbFwiOjEyMzguMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjQ4MTkxMDEwXCIsXCJJcm5cIjpcIjIyMTMwZTIzMWZkNGI1ZjFkMThjODZmMmM5NDY5YTAxODU4MGUwZjA0ZTUyN2M4MjQ1MTZmMjg4ZGI1ZmQ5M2ZcIixcIklybkR0XCI6XCIyMDI2LTA5LTA1IDEwOjQ4OjAwXCJ9In0.PkdZnW2iF9tLuWVOwHo-iJnQ_Cp9szgthVjxttuToTTv99Fz1Cg4E-cmuSzXehzg5ZHl2qqNK5Ft1Nt_wl426gr5fl5c1harWdGJ7gfddwBhBdaXeW5XiZuABb_KzhQfV7MKrjGUnQiwlGEWvsRudbdOq6ND0mPpdwgxXBB8vTHWaYO8OJ8zun0yGTzlVMCJuGx93Hx7wPhHKmZnllHbCyHMPrnnyo_FrXHEQdZWDplRd9b1gwqbDHmo31OStzIflcJqO-q0lw3fKan5yg67Jxm5E1Z9DugVcpZQdcThapDqymduL_t7uy_TcJ95-0cif8YHQabvYTQ5QkjbjfgQvA",
+    "payload": {
+      "SellerGstin": "36BDNCT0975F1ZU",
+      "BuyerGstin": "33JTJCS4856V3ZX",
+      "DocNo": "DFTEST-2627-0097",
+      "DocTyp": "INV",
+      "DocDt": "03/09/2026",
+      "TotInvVal": 1238.0,
+      "ItemCnt": 1,
+      "MainHsnCode": "48191010",
+      "Irn": "22130e231fd4b5f1d18c86f2c9469a018580e0f04e527c824516f288db5fd93f",
+      "IrnDt": "2026-09-05 10:48:00"
+    },
+    "irn_printed": "22130e231fd4b5f1d18c86f2c9469a018580e0f04e527c824516f288db5fd93f",
+    "ack_no": "114283840789260",
+    "ack_date": "2026-09-05"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0097",
+  "scan": "digital",
+  "defect": null,
+  "split": "heldout"
+}

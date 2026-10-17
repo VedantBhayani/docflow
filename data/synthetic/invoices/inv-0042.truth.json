@@ -1,0 +1,82 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Nimbus Logistics Industries Pvt Ltd",
+    "supplier_address": "Unit 40, Business Park, Kolkata, West Bengal",
+    "supplier_gstin": "19IVDCN4043N1ZQ",
+    "recipient_name": "Sahyadri Office Supplies LLP",
+    "recipient_address": "Unit 203, Trade Centre, Kolkata, West Bengal",
+    "recipient_gstin": "19OBFCS8325G3ZM",
+    "invoice_no": "DFTEST-2627-0042",
+    "invoice_date": "25 Jul 2026",
+    "place_of_supply": "West Bengal (19)",
+    "reverse_charge": "No",
+    "taxable_total": "40,862.01",
+    "cgst_total": "2,873.40",
+    "sgst_total": "2,873.40",
+    "igst_total": "0.00",
+    "round_off": "0.19",
+    "grand_total": "46,609.00"
+  },
+  "lines": [
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "3.00",
+      "uqc": "ROL",
+      "unit_price": "3,178.06",
+      "taxable_value": "9,534.18",
+      "gst_rate": "5%",
+      "cgst": "238.35",
+      "sgst": "238.35",
+      "igst": "0.00"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "10.00",
+      "uqc": "NOS",
+      "unit_price": "656.88",
+      "taxable_value": "6,568.80",
+      "gst_rate": "18%",
+      "cgst": "591.19",
+      "sgst": "591.19",
+      "igst": "0.00"
+    },
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "21,921.28",
+      "taxable_value": "21,921.28",
+      "gst_rate": "18%",
+      "cgst": "1,972.92",
+      "sgst": "1,972.92",
+      "igst": "0.00"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "25.00",
+      "uqc": "BTL",
+      "unit_price": "113.51",
+      "taxable_value": "2,837.75",
+      "gst_rate": "5%",
+      "cgst": "70.94",
+      "sgst": "70.94",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [
+    "A3"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0042",
+  "scan": "digital",
+  "defect": "duplicate_invoice_no",
+  "split": "heldout"
+}

@@ -1,0 +1,89 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Nimbus Fabrication Traders",
+    "supplier_address": "Unit 126, Business Park, Chennai, Tamil Nadu",
+    "supplier_gstin": "33LDWCN5287F1ZG",
+    "recipient_name": "Aarav IT Services LLP",
+    "recipient_address": "Unit 198, Trade Centre, Coimbatore, Tamil Nadu",
+    "recipient_gstin": "33IVYCA7696S3ZR",
+    "invoice_no": "DFTEST-2627-0024",
+    "invoice_date": "11/07/2026",
+    "place_of_supply": "Tamil Nadu (33)",
+    "reverse_charge": "No",
+    "taxable_total": "57,472.23",
+    "cgst_total": "1,477.02",
+    "sgst_total": "1,477.02",
+    "igst_total": "0.00",
+    "round_off": "-0.27",
+    "grand_total": "60,426.00"
+  },
+  "lines": [
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "10",
+      "uqc": "NOS",
+      "unit_price": "4,951.03",
+      "taxable_value": "49,510.30",
+      "gst_rate": "5%",
+      "cgst": "1,237.76",
+      "sgst": "1,237.76",
+      "igst": "0.00"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "1",
+      "uqc": "NOS",
+      "unit_price": "618.69",
+      "taxable_value": "618.69",
+      "gst_rate": "18%",
+      "cgst": "55.68",
+      "sgst": "55.68",
+      "igst": "0.00"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "3",
+      "uqc": "KGS",
+      "unit_price": "201.33",
+      "taxable_value": "603.99",
+      "gst_rate": "5%",
+      "cgst": "15.10",
+      "sgst": "15.10",
+      "igst": "0.00"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "25",
+      "uqc": "PAC",
+      "unit_price": "269.57",
+      "taxable_value": "6,739.25",
+      "gst_rate": "5%",
+      "cgst": "168.48",
+      "sgst": "168.48",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0024",
+  "scan": "heavy",
+  "defect": null,
+  "split": "dev",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 461637122,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      1.15
+    ]
+  }
+}

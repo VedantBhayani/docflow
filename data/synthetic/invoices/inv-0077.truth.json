@@ -1,0 +1,89 @@
+{
+  "kind": "invoice",
+  "template": "word",
+  "fields": {
+    "supplier_name": "Udaan Textiles LLP",
+    "supplier_address": "Unit 161, Business Park, Kolkata, West Bengal",
+    "supplier_gstin": "19MTMCU9380G2Z6",
+    "recipient_name": "Sarthi Logistics Industries Pvt Ltd",
+    "recipient_address": "Unit 33, Business Park, Kolkata, West Bengal",
+    "recipient_gstin": "19BUOCS5832J1ZK",
+    "invoice_no": "DFTEST-2627-0077",
+    "invoice_date": "27-04-2026",
+    "place_of_supply": "West Bengal (19)",
+    "reverse_charge": "No",
+    "taxable_total": "29,471.57",
+    "cgst_total": "806.54",
+    "sgst_total": "806.54",
+    "igst_total": "0.00",
+    "round_off": "0.35",
+    "grand_total": "31,085.00"
+  },
+  "lines": [
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "2",
+      "uqc": "NOS",
+      "unit_price": "536.55",
+      "taxable_value": "1,073.10",
+      "gst_rate": "18 %",
+      "cgst": "96.58",
+      "sgst": "96.58",
+      "igst": "0.00"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "5",
+      "uqc": "NOS",
+      "unit_price": "5,148.35",
+      "taxable_value": "25,741.75",
+      "gst_rate": "5 %",
+      "cgst": "643.54",
+      "sgst": "643.54",
+      "igst": "0.00"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "2,499.04",
+      "taxable_value": "2,499.04",
+      "gst_rate": "5 %",
+      "cgst": "62.48",
+      "sgst": "62.48",
+      "igst": "0.00"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "1",
+      "uqc": "KGS",
+      "unit_price": "157.68",
+      "taxable_value": "157.68",
+      "gst_rate": "5 %",
+      "cgst": "3.94",
+      "sgst": "3.94",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0077",
+  "scan": "light",
+  "defect": null,
+  "split": "dev",
+  "scan_meta": {
+    "level": "light",
+    "seed": 739269122,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -0.7
+    ]
+  }
+}

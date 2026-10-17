@@ -1,0 +1,65 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Sahyadri Electricals Pvt Ltd",
+    "supplier_address": "Unit 99, Industrial Estate, Ahmedabad, Gujarat",
+    "supplier_gstin": "24TWTCS9605Q3ZJ",
+    "recipient_name": "Shakti Stationers Pvt Ltd",
+    "recipient_address": "Unit 46, Industrial Estate, New Delhi, Delhi",
+    "recipient_gstin": "07TQYCS6477F2Z2",
+    "invoice_no": "DFTEST-2627-0058",
+    "invoice_date": "09 Aug 2026",
+    "place_of_supply": "Delhi (07)",
+    "reverse_charge": "No",
+    "taxable_total": "9,300.23",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "465.01",
+    "round_off": "-0.24",
+    "grand_total": "9,765.00"
+  },
+  "lines": [
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "1.00",
+      "uqc": "PAC",
+      "unit_price": "328.82",
+      "taxable_value": "328.82",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "16.44"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "3.00",
+      "uqc": "ROL",
+      "unit_price": "2,990.47",
+      "taxable_value": "8,971.41",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "448.57"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0058",
+  "scan": "heavy",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 1438563254,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -1.71
+    ]
+  }
+}

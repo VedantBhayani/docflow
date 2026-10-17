@@ -1,0 +1,64 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Vistar Logistics LLP",
+    "supplier_address": "Unit 228, Business Park, Ahmedabad, Gujarat",
+    "supplier_gstin": "24SAYCV9531A1ZJ",
+    "recipient_name": "Meghdoot Polymers Traders",
+    "recipient_address": "Unit 95, MIDC Road, Ahmedabad, Gujarat",
+    "recipient_gstin": "24CNZCM9473P3ZA",
+    "invoice_no": "DFTEST-2627-0104",
+    "invoice_date": "22/08/2026",
+    "place_of_supply": "Gujarat (24)",
+    "reverse_charge": "No",
+    "taxable_total": "32,377.80",
+    "cgst_total": "3,001.42",
+    "sgst_total": "3,001.42",
+    "igst_total": "0.00",
+    "round_off": "0.36",
+    "grand_total": "38,381.00",
+    "irn": "64188952f2f92a73f22ae3e25ae33c04fd82f0531c15b6adc352f9663f7f8f6f"
+  },
+  "lines": [
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "10.00",
+      "uqc": "ROL",
+      "unit_price": "3,237.78",
+      "taxable_value": "32,377.80",
+      "gst_rate": "18%",
+      "cgst": "3,001.42",
+      "sgst": "3,001.42",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjRTQVlDVjk1MzFBMVpKXCIsXCJCdXllckdzdGluXCI6XCIyNENOWkNNOTQ3M1AzWkFcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMTA0XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjIyLzA4LzIwMjZcIixcIlRvdEludlZhbFwiOjM4MzgxLjAsXCJJdGVtQ250XCI6MSxcIk1haW5Ic25Db2RlXCI6XCI4NTQ0NDk5OVwiLFwiSXJuXCI6XCI2NDE4ODk1MmYyZjkyYTczZjIyYWUzZTI1YWUzM2MwNGZkODJmMDUzMWMxNWI2YWRjMzUyZjk2NjNmN2Y4ZjZmXCIsXCJJcm5EdFwiOlwiMjAyNi0wOC0yMyAxNjo0OTowMFwifSJ9.m5x7_iowwcmDvBOzs6eGtN-lTK2OSxxkZzZYZg96HP92-Ea-b6mRFKPXDCdOTJ3nFv0S7x0ohNuSgHvHzJRTAk53y9vNWf9nGczLYSxzDFj4CQZZgZkA1Dat0m4CD7PbwCOVneYiRKfAMZQo8j7_8TdxtC347IDTSedQSYzRdLql_rflfAeUVy07crY1ySeZv9mnjmcclGm3JrLFqDaL8M2mfsew_rwdz76v58co5iGbJ3xN2Fjob12z7XA98DQF4CLvU4Tqu4b-5sTnzas_bM-qKmB7IZFrsB-DR0FkIOTXSCuYzLBTzgg3luoZQUibVl7dOLpyFjdzjNfbrX7_iw",
+    "payload": {
+      "SellerGstin": "24SAYCV9531A1ZJ",
+      "BuyerGstin": "24CNZCM9473P3ZA",
+      "DocNo": "DFTEST-2627-0104",
+      "DocTyp": "INV",
+      "DocDt": "22/08/2026",
+      "TotInvVal": 38381.0,
+      "ItemCnt": 1,
+      "MainHsnCode": "85444999",
+      "Irn": "64188952f2f92a73f22ae3e25ae33c04fd82f0531c15b6adc352f9663f7f8f6f",
+      "IrnDt": "2026-08-23 16:49:00"
+    },
+    "irn_printed": "64188952f2f92a73f22ae3e25ae33c04fd82f0531c15b6adc352f9663f7f8f6f",
+    "ack_no": "117860382447484",
+    "ack_date": "2026-08-23"
+  },
+  "expected_flags": [
+    "C6"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0104",
+  "scan": "digital",
+  "defect": "line_math",
+  "split": "heldout"
+}

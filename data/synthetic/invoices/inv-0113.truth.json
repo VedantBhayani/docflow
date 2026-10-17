@@ -1,0 +1,107 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Kaveri Polymers Pvt Ltd",
+    "supplier_address": "Unit 203, Business Park, Mumbai, Maharashtra",
+    "supplier_gstin": "27BDVCK9645I1ZE",
+    "recipient_name": "Vistar Logistics Enterprises",
+    "recipient_address": "Unit 202, Business Park, Kolkata, West Bengal",
+    "recipient_gstin": "19QVZCV3122G1Z9",
+    "invoice_no": "DFTEST-2627-0113",
+    "invoice_date": "21/06/2026",
+    "place_of_supply": "West Bengal (19)",
+    "reverse_charge": "No",
+    "taxable_total": "24,547.68",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "4,003.30",
+    "round_off": "0.02",
+    "grand_total": "28,551.00",
+    "irn": "7adea569d9e4b34c12bf57aa2bc28aa01127842254f90770aea7b79378376928"
+  },
+  "lines": [
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "2,054.45",
+      "taxable_value": "2,054.45",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "369.80"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "5.00",
+      "uqc": "NOS",
+      "unit_price": "545.39",
+      "taxable_value": "2,726.95",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "136.35"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "3.00",
+      "uqc": "KGS",
+      "unit_price": "155.86",
+      "taxable_value": "467.58",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "23.38"
+    },
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "19,298.70",
+      "taxable_value": "19,298.70",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "3,473.77"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdCRFZDSzk2NDVJMVpFXCIsXCJCdXllckdzdGluXCI6XCIxOVFWWkNWMzEyMkcxWjlcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMTEzXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjIxLzA2LzIwMjZcIixcIlRvdEludlZhbFwiOjI4NTUxLjAsXCJJdGVtQ250XCI6NCxcIk1haW5Ic25Db2RlXCI6XCI5OTg3MTNcIixcIklyblwiOlwiN2FkZWE1NjlkOWU0YjM0YzEyYmY1N2FhMmJjMjhhYTAxMTI3ODQyMjU0ZjkwNzcwYWVhN2I3OTM3ODM3NjkyOFwiLFwiSXJuRHRcIjpcIjIwMjYtMDYtMjEgMDk6MTc6MDBcIn0ifQ.YjmX7xmZVVn7gCHOmQ4RrhQ9_QAx5iyT7oWSFYz7Z6DRxxj7Cz6XzyS5Zj19kkezmSPcDVyyecBGj4QhSuTsWiox1_J5AMgMZVu5RwzR63PtxyjFvPbrQYs0qEb5kbXIK1Y8mys3P1nOREDRsgGFqf0fnVVc9yw2U4r8-wMXNpnDdZ55Nm6KSX8sf8llS21i96enkXbhFaCBgjYVNSaZUPoZsmoMekVcFNCO6TcC6hGesTONVXHiPErWLQbIhehXuanSGNMxZv6-vowGQbygOPLOMKPwcDOlrD4U_K9GZN02dH8NMK8xzrMAkU6-G5MeRWTFCqNvEWJjxMBmnbsoAQ",
+    "payload": {
+      "SellerGstin": "27BDVCK9645I1ZE",
+      "BuyerGstin": "19QVZCV3122G1Z9",
+      "DocNo": "DFTEST-2627-0113",
+      "DocTyp": "INV",
+      "DocDt": "21/06/2026",
+      "TotInvVal": 28551.0,
+      "ItemCnt": 4,
+      "MainHsnCode": "998713",
+      "Irn": "7adea569d9e4b34c12bf57aa2bc28aa01127842254f90770aea7b79378376928",
+      "IrnDt": "2026-06-21 09:17:00"
+    },
+    "irn_printed": "7adea569d9e4b34c12bf57aa2bc28aa01127842254f90770aea7b79378376928",
+    "ack_no": "111655896370350",
+    "ack_date": "2026-06-21"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0113",
+  "scan": "light",
+  "defect": null,
+  "split": "dev",
+  "scan_meta": {
+    "level": "light",
+    "seed": 681718583,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      0.06
+    ]
+  }
+}

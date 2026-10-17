@@ -1,0 +1,86 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Sahyadri Hardware Pvt Ltd",
+    "supplier_address": "Unit 68, Industrial Estate, Hyderabad, Telangana",
+    "supplier_gstin": "36QSCCS5977E2ZL",
+    "recipient_name": "Pragati Office Supplies LLP",
+    "recipient_address": "Unit 214, Trade Centre, Nagpur, Maharashtra",
+    "recipient_gstin": "27CNYCP8924Y3ZQ",
+    "invoice_no": "DFTEST-2627-0102",
+    "invoice_date": "23/05/2026",
+    "place_of_supply": "Maharashtra (27)",
+    "reverse_charge": "No",
+    "taxable_total": "2,44,608.86",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "44,008.16",
+    "round_off": "-0.02",
+    "grand_total": "2,88,617.00",
+    "irn": "c501bb76bb87136c1824811118772e3f30c6ebaaf1d88e618d2d9cfd965af63e"
+  },
+  "lines": [
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "2.00",
+      "uqc": "BTL",
+      "unit_price": "82.45",
+      "taxable_value": "164.90",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "8.25"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "40.00",
+      "uqc": "NOS",
+      "unit_price": "6,108.84",
+      "taxable_value": "2,44,353.60",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "43,983.65"
+    },
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "2.00",
+      "uqc": "NOS",
+      "unit_price": "45.18",
+      "taxable_value": "90.36",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "16.26"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMzZRU0NDUzU5NzdFMlpMXCIsXCJCdXllckdzdGluXCI6XCIyN0NOWUNQODkyNFkzWlFcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMTAyXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjIzLzA1LzIwMjZcIixcIlRvdEludlZhbFwiOjI4ODYxNy4wLFwiSXRlbUNudFwiOjMsXCJNYWluSHNuQ29kZVwiOlwiOTQwMzIwOTBcIixcIklyblwiOlwiYzUwMWJiNzZiYjg3MTM2YzE4MjQ4MTExMTg3NzJlM2YzMGM2ZWJhYWYxZDg4ZTYxOGQyZDljZmQ5NjVhZjYzZVwiLFwiSXJuRHRcIjpcIjIwMjYtMDUtMjUgMTY6Mjc6MDBcIn0ifQ.PrdAgBObWiqSCn86LirNLRJvGZt7ese51yuqxX15P065uGMuZgcxQGREgqjSc_BlAK54dxUfoKv2oLZd3ZiLb7Obj0JfzAERTwaTjxrxGqqn6g_PPviXEH0EucixVJIbkGsQd5HME8L-oQKkdFykGmhm85Ve3rfAQfzf6uRnGfe0bpCy24xc7-a5vu_FlCPj4qYgyISzt31lmbSu5cE-eSQm_e5l57lmCEJuG5PWM1oCGNlOHITB0ZiNsFSEjNQuSkSxQGcEKpCv6jm0GA9BlYsinw1MhgnhTP8lQfEMfu_l3hk7AQpQBxIXf4tsl3-GK2xFzp4rw5jhyCNAebfydA",
+    "payload": {
+      "SellerGstin": "36QSCCS5977E2ZL",
+      "BuyerGstin": "27CNYCP8924Y3ZQ",
+      "DocNo": "DFTEST-2627-0102",
+      "DocTyp": "INV",
+      "DocDt": "23/05/2026",
+      "TotInvVal": 288617.0,
+      "ItemCnt": 3,
+      "MainHsnCode": "94032090",
+      "Irn": "c501bb76bb87136c1824811118772e3f30c6ebaaf1d88e618d2d9cfd965af63e",
+      "IrnDt": "2026-05-25 16:27:00"
+    },
+    "irn_printed": "c501bb76bb87136c1824811118772e3f30c6ebaaf1d88e618d2d9cfd965af63e",
+    "ack_no": "115946245280285",
+    "ack_date": "2026-05-25"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0102",
+  "scan": "digital",
+  "defect": null,
+  "split": "heldout"
+}

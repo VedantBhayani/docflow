@@ -1,0 +1,80 @@
+{
+  "kind": "invoice",
+  "template": "word",
+  "fields": {
+    "supplier_name": "Kaveri Electricals Traders",
+    "supplier_address": "Unit 166, Business Park, Kolkata, West Bengal",
+    "supplier_gstin": "19PAKCK2978D1ZR",
+    "recipient_name": "Shakti Office Supplies LLP",
+    "recipient_address": "Unit 150, Industrial Estate, Kolkata, West Bengal",
+    "recipient_gstin": "19TYDCS0495Q3ZO",
+    "invoice_no": "DFTEST-2627-0065",
+    "invoice_date": "05-06-2026",
+    "place_of_supply": "West Bengal (19)",
+    "reverse_charge": "No",
+    "taxable_total": "25,944.72",
+    "cgst_total": "2,264.68",
+    "sgst_total": "2,264.68",
+    "igst_total": "0.00",
+    "round_off": "-0.08",
+    "grand_total": "30,474.00"
+  },
+  "lines": [
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "10",
+      "uqc": "BTL",
+      "unit_price": "108.21",
+      "taxable_value": "1,082.10",
+      "gst_rate": "5 %",
+      "cgst": "27.05",
+      "sgst": "27.05",
+      "igst": "0.00"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "10",
+      "uqc": "NOS",
+      "unit_price": "617.67",
+      "taxable_value": "6,176.70",
+      "gst_rate": "18 %",
+      "cgst": "555.90",
+      "sgst": "555.90",
+      "igst": "0.00"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "100",
+      "uqc": "KGS",
+      "unit_price": "186.50",
+      "taxable_value": "18,650.00",
+      "gst_rate": "18 %",
+      "cgst": "1,678.50",
+      "sgst": "1,678.50",
+      "igst": "0.00"
+    },
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "1",
+      "uqc": "NOS",
+      "unit_price": "35.92",
+      "taxable_value": "35.92",
+      "gst_rate": "18 %",
+      "cgst": "3.23",
+      "sgst": "3.23",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0065",
+  "scan": "digital",
+  "defect": null,
+  "split": "heldout"
+}

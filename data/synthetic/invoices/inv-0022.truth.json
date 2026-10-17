@@ -1,0 +1,53 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Anvay Hardware Pvt Ltd",
+    "supplier_address": "Unit 44, Trade Centre, Noida, Uttar Pradesh",
+    "supplier_gstin": "09LUBCA7464Z1Z2",
+    "recipient_name": "Anvay Textiles LLP",
+    "recipient_address": "Unit 112, Trade Centre, Lucknow, Uttar Pradesh",
+    "recipient_gstin": "09BUVCA7056O2ZH",
+    "invoice_no": "DFTEST-2627-0022",
+    "invoice_date": "22/07/2026",
+    "place_of_supply": "Uttar Pradesh (09)",
+    "reverse_charge": "No",
+    "taxable_total": "7,593.84",
+    "cgst_total": "189.85",
+    "sgst_total": "189.85",
+    "igst_total": "0.00",
+    "round_off": "0.46",
+    "grand_total": "7,974.00"
+  },
+  "lines": [
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "12",
+      "uqc": "NOS",
+      "unit_price": "632.82",
+      "taxable_value": "7,593.84",
+      "gst_rate": "5%",
+      "cgst": "189.85",
+      "sgst": "189.85",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0022",
+  "scan": "light",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "light",
+    "seed": 1708852287,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -0.37
+    ]
+  }
+}

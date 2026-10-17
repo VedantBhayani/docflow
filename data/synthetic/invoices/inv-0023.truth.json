@@ -1,0 +1,103 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Nimbus Polymers Traders",
+    "supplier_address": "Unit 44, Business Park, New Delhi, Delhi",
+    "supplier_gstin": "07OGUCN7630L3ZY",
+    "recipient_name": "Aarav Logistics Enterprises",
+    "recipient_address": "Unit 27, Trade Centre, Chennai, Tamil Nadu",
+    "recipient_gstin": "33WVBCA1457X3ZB",
+    "invoice_no": "DFTEST-2627-0023",
+    "invoice_date": "27/06/2026",
+    "place_of_supply": "Tamil Nadu (33)",
+    "reverse_charge": "No",
+    "taxable_total": "8,52,255.74",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "53,875.85",
+    "round_off": "0.41",
+    "grand_total": "9,06,132.00"
+  },
+  "lines": [
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "100",
+      "uqc": "NOS",
+      "unit_price": "7,637.66",
+      "taxable_value": "7,63,766.00",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "38,188.30"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "3",
+      "uqc": "NOS",
+      "unit_price": "619.22",
+      "taxable_value": "1,857.66",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "334.38"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "5",
+      "uqc": "PAC",
+      "unit_price": "253.55",
+      "taxable_value": "1,267.75",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "63.39"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "3",
+      "uqc": "KGS",
+      "unit_price": "194.36",
+      "taxable_value": "583.08",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "29.15"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "25",
+      "uqc": "ROL",
+      "unit_price": "3,391.25",
+      "taxable_value": "84,781.25",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "15,260.63"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [
+    "P1"
+  ],
+  "id": "inv-0023",
+  "scan": "light",
+  "defect": "rotated_page",
+  "split": "dev",
+  "scan_meta": {
+    "level": "light",
+    "seed": 2015003283,
+    "rotate90": true,
+    "dpi": 200,
+    "skew_deg": [
+      0.21
+    ]
+  }
+}

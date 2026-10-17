@@ -1,0 +1,92 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Pragati Polymers Enterprises",
+    "supplier_address": "Unit 33, Business Park, Coimbatore, Tamil Nadu",
+    "supplier_gstin": "33PZLCP9829A1ZI",
+    "recipient_name": "Vistar Hardware LLP",
+    "recipient_address": "Unit 237, MIDC Road, Coimbatore, Tamil Nadu",
+    "recipient_gstin": "33ECRCV5558F2ZN",
+    "invoice_no": "DFTEST-2627-0015",
+    "invoice_date": "06/08/2026",
+    "place_of_supply": "Tamil Nadu (33)",
+    "reverse_charge": "No",
+    "taxable_total": "43,716.47",
+    "cgst_total": "1,546.51",
+    "sgst_total": "1,546.51",
+    "igst_total": "0.00",
+    "round_off": "-0.49",
+    "grand_total": "46,809.00"
+  },
+  "lines": [
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "5",
+      "uqc": "NOS",
+      "unit_price": "46.24",
+      "taxable_value": "231.20",
+      "gst_rate": "5%",
+      "cgst": "5.78",
+      "sgst": "5.78",
+      "igst": "0.00"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "3",
+      "uqc": "NOS",
+      "unit_price": "4,530.89",
+      "taxable_value": "13,592.67",
+      "gst_rate": "5%",
+      "cgst": "339.82",
+      "sgst": "339.82",
+      "igst": "0.00"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "40",
+      "uqc": "KGS",
+      "unit_price": "174.46",
+      "taxable_value": "6,978.40",
+      "gst_rate": "18%",
+      "cgst": "628.06",
+      "sgst": "628.06",
+      "igst": "0.00"
+    },
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "20,854.19",
+      "taxable_value": "20,854.19",
+      "gst_rate": "5%",
+      "cgst": "521.35",
+      "sgst": "521.35",
+      "igst": "0.00"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "2,060.01",
+      "taxable_value": "2,060.01",
+      "gst_rate": "5%",
+      "cgst": "51.50",
+      "sgst": "51.50",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0015",
+  "scan": "digital",
+  "defect": null,
+  "split": "heldout"
+}

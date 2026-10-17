@@ -1,0 +1,95 @@
+{
+  "kind": "invoice",
+  "template": "word",
+  "fields": {
+    "supplier_name": "Vistar IT Services LLP",
+    "supplier_address": "Unit 165, MIDC Road, Mysuru, Karnataka",
+    "supplier_gstin": "29XHACV3941I2Z2",
+    "recipient_name": "Pragati Stationers LLP",
+    "recipient_address": "Unit 61, Industrial Estate, Bengaluru, Karnataka",
+    "recipient_gstin": "29LGXCP3094A1ZD",
+    "invoice_no": "DFTEST-2627-0076",
+    "invoice_date": "20-04-2026",
+    "place_of_supply": "Karnataka (29)",
+    "reverse_charge": "No",
+    "taxable_total": "25,194.66",
+    "cgst_total": "886.93",
+    "sgst_total": "886.93",
+    "igst_total": "0.00",
+    "round_off": "0.48",
+    "grand_total": "26,969.00",
+    "irn": "229bad6e3b826672b07867df79aeb0709f7d043e6324e2e9024673a8efc7f32d"
+  },
+  "lines": [
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "2,543.62",
+      "taxable_value": "2,543.62",
+      "gst_rate": "5 %",
+      "cgst": "63.59",
+      "sgst": "63.59",
+      "igst": "0.00"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "40",
+      "uqc": "BTL",
+      "unit_price": "98.87",
+      "taxable_value": "3,954.80",
+      "gst_rate": "18 %",
+      "cgst": "355.93",
+      "sgst": "355.93",
+      "igst": "0.00"
+    },
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "18,696.24",
+      "taxable_value": "18,696.24",
+      "gst_rate": "5 %",
+      "cgst": "467.41",
+      "sgst": "467.41",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjlYSEFDVjM5NDFJMloyXCIsXCJCdXllckdzdGluXCI6XCIyOUxHWENQMzA5NEExWkRcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDc2XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjIwLzA0LzIwMjZcIixcIlRvdEludlZhbFwiOjI2OTY5LjAsXCJJdGVtQ250XCI6MyxcIk1haW5Ic25Db2RlXCI6XCI5OTg3MTNcIixcIklyblwiOlwiMjI5YmFkNmUzYjgyNjY3MmIwNzg2N2RmNzlhZWIwNzA5ZjdkMDQzZTYzMjRlMmU5MDI0NjczYThlZmM3ZjMyZFwiLFwiSXJuRHRcIjpcIjIwMjYtMDQtMjEgMTU6MjU6MDBcIn0ifQ.RV4PaQBGPPxj-TCiU4UKchI5y1pzVTuANr_dnc0VG_papD-A6PdIB-4-cSZqrnN3yi8hYJ29M-umVkuus6XaQ-7w8X7QzgE7BE89UOF36OiBfBsxlhQyNUs_jpa8vYPAtiYBbMUm1y6RB3Yxp1A_1PRrLm3hohXNkQaeMyy54MWDuWo2i8Kakh9RpcyFLcouiwGDpaJEy95F54Jr144kv57Ft3zzd0BuyZRkRep5xzsxncuI3JWm4athtYg_4Va2hBhjGXSHMHn19jcjgcQkQb1amR-CubUw3NhlP9SOPjUroAqiZrynFkMy3pGcRxZUYCgZCZdDYaO7pi0gZhnvqQ",
+    "payload": {
+      "SellerGstin": "29XHACV3941I2Z2",
+      "BuyerGstin": "29LGXCP3094A1ZD",
+      "DocNo": "DFTEST-2627-0076",
+      "DocTyp": "INV",
+      "DocDt": "20/04/2026",
+      "TotInvVal": 26969.0,
+      "ItemCnt": 3,
+      "MainHsnCode": "998713",
+      "Irn": "229bad6e3b826672b07867df79aeb0709f7d043e6324e2e9024673a8efc7f32d",
+      "IrnDt": "2026-04-21 15:25:00"
+    },
+    "irn_printed": "229bad6e3b826672b07867df79aeb0709f7d043e6324e2e9024673a8efc7f32d",
+    "ack_no": "115797768219905",
+    "ack_date": "2026-04-21"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0076",
+  "scan": "light",
+  "defect": null,
+  "split": "dev",
+  "scan_meta": {
+    "level": "light",
+    "seed": 1179014152,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      0.94
+    ]
+  }
+}

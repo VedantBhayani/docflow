@@ -1,0 +1,62 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Pragati Fabrication Industries Pvt Ltd",
+    "supplier_address": "Unit 26, Business Park, Coimbatore, Tamil Nadu",
+    "supplier_gstin": "33ZLDCP0351E3ZN",
+    "recipient_name": "Aarav Electricals Enterprises",
+    "recipient_address": "Unit 72, Business Park, Chennai, Tamil Nadu",
+    "recipient_gstin": "33EFOCA5577S3ZA",
+    "invoice_no": "DFTEST-2627-0100",
+    "invoice_date": "31/05/2026",
+    "place_of_supply": "Tamil Nadu (33)",
+    "reverse_charge": "No",
+    "taxable_total": "1,638.65",
+    "cgst_total": "147.48",
+    "sgst_total": "147.48",
+    "igst_total": "0.00",
+    "round_off": "0.39",
+    "grand_total": "1,934.00",
+    "irn": "691abe9894bfdc7f2389affd1935a4f1e1e2d1313f6e454d69182409a61f26ce"
+  },
+  "lines": [
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "5.00",
+      "uqc": "PAC",
+      "unit_price": "327.73",
+      "taxable_value": "1,638.65",
+      "gst_rate": "18%",
+      "cgst": "147.48",
+      "sgst": "147.48",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMzNaTERDUDAzNTFFM1pOXCIsXCJCdXllckdzdGluXCI6XCIzM0VGT0NBNTU3N1MzWkFcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMTAwXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjMxLzA1LzIwMjZcIixcIlRvdEludlZhbFwiOjE5MzQuMCxcIkl0ZW1DbnRcIjoxLFwiTWFpbkhzbkNvZGVcIjpcIjQ4MDI1NjkwXCIsXCJJcm5cIjpcIjY5MWFiZTk4OTRiZmRjN2YyMzg5YWZmZDE5MzVhNGYxZTFlMmQxMzEzZjZlNDU0ZDY5MTgyNDA5YTYxZjI2Y2VcIixcIklybkR0XCI6XCIyMDI2LTA1LTMxIDE5OjE0OjAwXCJ9In0.bk10iiPRdj-9VJoUM8_fpIFvmXJUgq-qZJEqo-mBeIUQ9umq7ioW8GO8QzWHzVYKlXdSqeDJfBUeZfZUI0SD7QfBXpNQ1ZdvAkqNcrGDYQUsz6ODQRnMz30wgJ2x3vmqsoRJVPE2KX5uWQ5623Ra04vAMsdJsWX8YlwVvkWlTKUo3YO5_YryUiehv8PmsB2m1RQD3uRUibX1W4JKr8l4q_HoWeT5oBcCXjuJRm1U5x5Ikr81Gei0z7RMda2unfxZcpHE_WL--xZvCRpmvB8-0wDOA4zOAd45w7SFcMlvfM6qlgXhWGn31KUzIt4NLnzjxQwgUrxVok47lveeoaoeWw",
+    "payload": {
+      "SellerGstin": "33ZLDCP0351E3ZN",
+      "BuyerGstin": "33EFOCA5577S3ZA",
+      "DocNo": "DFTEST-2627-0100",
+      "DocTyp": "INV",
+      "DocDt": "31/05/2026",
+      "TotInvVal": 1934.0,
+      "ItemCnt": 1,
+      "MainHsnCode": "48025690",
+      "Irn": "691abe9894bfdc7f2389affd1935a4f1e1e2d1313f6e454d69182409a61f26ce",
+      "IrnDt": "2026-05-31 19:14:00"
+    },
+    "irn_printed": "691abe9894bfdc7f2389affd1935a4f1e1e2d1313f6e454d69182409a61f26ce",
+    "ack_no": "118453436403103",
+    "ack_date": "2026-05-31"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0100",
+  "scan": "digital",
+  "defect": null,
+  "split": "dev"
+}

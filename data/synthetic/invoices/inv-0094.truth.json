@@ -1,0 +1,110 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Udaan Textiles Industries Pvt Ltd",
+    "supplier_address": "Unit 178, MIDC Road, Noida, Uttar Pradesh",
+    "supplier_gstin": "09LNFCU8773O2Z7",
+    "recipient_name": "Aarav Fabrication Industries Pvt Ltd",
+    "recipient_address": "Unit 62, Business Park, Mysuru, Karnataka",
+    "recipient_gstin": "29RVGCA7767Z1ZH",
+    "invoice_no": "DFTEST-2627-0094",
+    "invoice_date": "12/04/2026",
+    "place_of_supply": "Karnataka (29)",
+    "reverse_charge": "No",
+    "taxable_total": "3,44,781.76",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "61,694.08",
+    "round_off": "0.16",
+    "grand_total": "4,06,476.00",
+    "irn": "98a10f7bbf9342027aa47621447005da4016d5b80c650f0cff545082e5f528ae"
+  },
+  "lines": [
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "5.00",
+      "uqc": "NOS",
+      "unit_price": "5,158.01",
+      "taxable_value": "25,790.05",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "4,642.21"
+    },
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "5.00",
+      "uqc": "NOS",
+      "unit_price": "41.45",
+      "taxable_value": "207.25",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "10.36"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "2,612.98",
+      "taxable_value": "2,612.98",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "130.65"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "12.00",
+      "uqc": "BTL",
+      "unit_price": "85.39",
+      "taxable_value": "1,024.68",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "184.44"
+    },
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "40.00",
+      "uqc": "NOS",
+      "unit_price": "7,878.67",
+      "taxable_value": "3,15,146.80",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "56,726.42"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMDlMTkZDVTg3NzNPMlo3XCIsXCJCdXllckdzdGluXCI6XCIyOVJWR0NBNzc2N1oxWkhcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDk0XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjEyLzA0LzIwMjZcIixcIlRvdEludlZhbFwiOjQwNjQ3Ni4wLFwiSXRlbUNudFwiOjUsXCJNYWluSHNuQ29kZVwiOlwiOTQwMTMwMDBcIixcIklyblwiOlwiOThhMTBmN2JiZjkzNDIwMjdhYTQ3NjIxNDQ3MDA1ZGE0MDE2ZDViODBjNjUwZjBjZmY1NDUwODJlNWY1MjhhZVwiLFwiSXJuRHRcIjpcIjIwMjYtMDQtMTIgMTM6MzU6MDBcIn0ifQ.CZ6p6F1ZnTWv38uHveoUucaieKB-SnsrMAq_uot5BSZg0RVuQXBfa2NQsqKsnZj3D5m1kK_1grsaruS65OjSal1UGIowg2a88jptvWTYBnNmfYI5XTIOK1vzT0ITUKBRd3a2mgKrIAIfHGq7xvW96vIfW-8mBfgoIF7wNonz9GGAkTCSslOlUVQtvbqtM4IApRzPC4ZHjdwqkAD_7KUi753CxAITCmPFCcg1tsz8NMW0M6uWBW-obn-Q0YImSTpYID_UtTL_H7Prdb4KN2U0jXVdbOt0WMHcpYEnkgc6kRUB11_s5ke2jnKH7XgTHqp3Ly_WdpfoSHIk293M7LB3gw",
+    "payload": {
+      "SellerGstin": "09LNFCU8773O2Z7",
+      "BuyerGstin": "29RVGCA7767Z1ZH",
+      "DocNo": "DFTEST-2627-0094",
+      "DocTyp": "INV",
+      "DocDt": "12/04/2026",
+      "TotInvVal": 406476.0,
+      "ItemCnt": 5,
+      "MainHsnCode": "94013000",
+      "Irn": "98a10f7bbf9342027aa47621447005da4016d5b80c650f0cff545082e5f528ae",
+      "IrnDt": "2026-04-12 13:35:00"
+    },
+    "irn_printed": "98a10f7bbf9342027aa47621447005da4016d5b80c650f0cff545082e5f528ae",
+    "ack_no": "118163543401146",
+    "ack_date": "2026-04-12"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0094",
+  "scan": "digital",
+  "defect": null,
+  "split": "heldout"
+}

@@ -1,0 +1,77 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Meghdoot Packaging LLP",
+    "supplier_address": "Unit 37, MIDC Road, Kolkata, West Bengal",
+    "supplier_gstin": "19GLACM0674U1ZX",
+    "recipient_name": "Sahyadri Stationers Enterprises",
+    "recipient_address": "Unit 88, Industrial Estate, Kolkata, West Bengal",
+    "recipient_gstin": "19CLZCS2165D2Z6",
+    "invoice_no": "DFTEST-2627-0027",
+    "invoice_date": "01/10/2026",
+    "place_of_supply": "West Bengal (19)",
+    "reverse_charge": "No",
+    "taxable_total": "1,10,433.04",
+    "cgst_total": "4,814.89",
+    "sgst_total": "4,814.89",
+    "igst_total": "0.00",
+    "round_off": "0.18",
+    "grand_total": "1,20,063.00"
+  },
+  "lines": [
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "1",
+      "uqc": "NOS",
+      "unit_price": "6,326.04",
+      "taxable_value": "6,326.04",
+      "gst_rate": "5%",
+      "cgst": "158.15",
+      "sgst": "158.15",
+      "igst": "0.00"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "100",
+      "uqc": "PAC",
+      "unit_price": "316.01",
+      "taxable_value": "31,601.00",
+      "gst_rate": "18%",
+      "cgst": "2,844.09",
+      "sgst": "2,844.09",
+      "igst": "0.00"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "100",
+      "uqc": "NOS",
+      "unit_price": "725.06",
+      "taxable_value": "72,506.00",
+      "gst_rate": "5%",
+      "cgst": "1,812.65",
+      "sgst": "1,812.65",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0027",
+  "scan": "heavy",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 978522660,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -0.63
+    ]
+  }
+}

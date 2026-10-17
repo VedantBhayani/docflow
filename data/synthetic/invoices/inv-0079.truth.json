@@ -1,0 +1,89 @@
+{
+  "kind": "invoice",
+  "template": "word",
+  "fields": {
+    "supplier_name": "Vistar Logistics LLP",
+    "supplier_address": "Unit 25, Trade Centre, Nagpur, Maharashtra",
+    "supplier_gstin": "27GNMCV3080H2Z3",
+    "recipient_name": "Sarthi Office Supplies Industries Pvt Ltd",
+    "recipient_address": "Unit 55, Industrial Estate, Mumbai, Maharashtra",
+    "recipient_gstin": "27RISCS2081S2ZD",
+    "invoice_no": "DFTEST-2627-0079",
+    "invoice_date": "01-08-2026",
+    "place_of_supply": "Maharashtra (27)",
+    "reverse_charge": "No",
+    "taxable_total": "8,13,732.46",
+    "cgst_total": "73,235.93",
+    "sgst_total": "73,235.93",
+    "igst_total": "0.00",
+    "round_off": "-0.32",
+    "grand_total": "9,60,204.00"
+  },
+  "lines": [
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "100",
+      "uqc": "NOS",
+      "unit_price": "4,797.80",
+      "taxable_value": "4,79,780.00",
+      "gst_rate": "18 %",
+      "cgst": "43,180.20",
+      "sgst": "43,180.20",
+      "igst": "0.00"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "2,658.97",
+      "taxable_value": "2,658.97",
+      "gst_rate": "18 %",
+      "cgst": "239.31",
+      "sgst": "239.31",
+      "igst": "0.00"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "3",
+      "uqc": "BTL",
+      "unit_price": "105.43",
+      "taxable_value": "316.29",
+      "gst_rate": "18 %",
+      "cgst": "28.47",
+      "sgst": "28.47",
+      "igst": "0.00"
+    },
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "40",
+      "uqc": "NOS",
+      "unit_price": "8,274.43",
+      "taxable_value": "3,30,977.20",
+      "gst_rate": "18 %",
+      "cgst": "29,787.95",
+      "sgst": "29,787.95",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0079",
+  "scan": "light",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "light",
+    "seed": 500506206,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      0.68
+    ]
+  }
+}

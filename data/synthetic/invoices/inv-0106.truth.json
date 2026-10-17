@@ -1,0 +1,95 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Shakti Electricals Industries Pvt Ltd",
+    "supplier_address": "Unit 10, Business Park, Hyderabad, Telangana",
+    "supplier_gstin": "36XEHCS3689P3ZH",
+    "recipient_name": "Pragati Stationers Traders",
+    "recipient_address": "Unit 215, MIDC Road, Hyderabad, Telangana",
+    "recipient_gstin": "36KQWCP8918W2ZI",
+    "invoice_no": "DFTEST-2627-0106",
+    "invoice_date": "18/09/2026",
+    "place_of_supply": "Telangana (36)",
+    "reverse_charge": "No",
+    "taxable_total": "6,44,888.20",
+    "cgst_total": "58,039.94",
+    "sgst_total": "58,039.94",
+    "igst_total": "0.00",
+    "round_off": "-0.08",
+    "grand_total": "7,60,968.00",
+    "irn": "d4997405ab561b0b7383b3d2fcd1259b10ddb8f9579b13c2a2725db9bdaaaeaa"
+  },
+  "lines": [
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "5.00",
+      "uqc": "ROL",
+      "unit_price": "2,969.34",
+      "taxable_value": "14,846.70",
+      "gst_rate": "18%",
+      "cgst": "1,336.20",
+      "sgst": "1,336.20",
+      "igst": "0.00"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "25.00",
+      "uqc": "PAC",
+      "unit_price": "336.06",
+      "taxable_value": "8,401.50",
+      "gst_rate": "18%",
+      "cgst": "756.14",
+      "sgst": "756.14",
+      "igst": "0.00"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "100.00",
+      "uqc": "NOS",
+      "unit_price": "6,216.40",
+      "taxable_value": "6,21,640.00",
+      "gst_rate": "18%",
+      "cgst": "55,947.60",
+      "sgst": "55,947.60",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMzZYRUhDUzM2ODlQM1pIXCIsXCJCdXllckdzdGluXCI6XCIzNktRV0NQODkxOFcyWklcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMTA2XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjE4LzA5LzIwMjZcIixcIlRvdEludlZhbFwiOjc2MDk2OC4wLFwiSXRlbUNudFwiOjMsXCJNYWluSHNuQ29kZVwiOlwiOTQwMzIwOTBcIixcIklyblwiOlwiZDQ5OTc0MDVhYjU2MWIwYjczODNiM2QyZmNkMTI1OWIxMGRkYjhmOTU3OWIxM2MyYTI3MjVkYjliZGFhYWVhYVwiLFwiSXJuRHRcIjpcIjIwMjYtMDktMTkgMTY6NTM6MDBcIn0ifQ.jrKMMGyREmh-0t6u5DYAIwn_jwrCGi59kqOmpvB9umnE2kZ1gwcUDQwsHHMYbXa_nwAWODAgcNQPo3miYq-yV22wY6RWWnP99sYWHgzGB0MOu4X_yu7cm9ygkVzTQbK9PWMJEPqfE8NuPoN1YiGjbEUuAWu-pSUBokMm6A5ZumGqrn-RVL2gkTxG9Au2izdGacaBk1Y4a2o0HCUaXbZ-FdlKa6-_roC2Wb3Ie6Vw8KV311-QcgBCyPJh7XqgZlsHJW3sc_UJe4OPalXqXqxHZyZ2IjQYhAVFTMQSE6foHytHE7eH_Q7lcvrQcfDXhEM5xHSn7AtYy9IAwK8F4yDE4w",
+    "payload": {
+      "SellerGstin": "36XEHCS3689P3ZH",
+      "BuyerGstin": "36KQWCP8918W2ZI",
+      "DocNo": "DFTEST-2627-0106",
+      "DocTyp": "INV",
+      "DocDt": "18/09/2026",
+      "TotInvVal": 760968.0,
+      "ItemCnt": 3,
+      "MainHsnCode": "94032090",
+      "Irn": "d4997405ab561b0b7383b3d2fcd1259b10ddb8f9579b13c2a2725db9bdaaaeaa",
+      "IrnDt": "2026-09-19 16:53:00"
+    },
+    "irn_printed": "d4997405ab561b0b7383b3d2fcd1259b10ddb8f9579b13c2a2725db9bdaaaeaa",
+    "ack_no": "118605676494265",
+    "ack_date": "2026-09-19"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0106",
+  "scan": "light",
+  "defect": null,
+  "split": "dev",
+  "scan_meta": {
+    "level": "light",
+    "seed": 873602681,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      0.31
+    ]
+  }
+}

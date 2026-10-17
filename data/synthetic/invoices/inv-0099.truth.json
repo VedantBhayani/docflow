@@ -1,0 +1,86 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Aarav Logistics Pvt Ltd",
+    "supplier_address": "Unit 182, Business Park, Coimbatore, Tamil Nadu",
+    "supplier_gstin": "33KGGCA9608M2ZR",
+    "recipient_name": "Pragati Office Supplies Enterprises",
+    "recipient_address": "Unit 200, Trade Centre, Coimbatore, Tamil Nadu",
+    "recipient_gstin": "33VHUCP2304D1ZQ",
+    "invoice_no": "DFTEST-2627-0099",
+    "invoice_date": "27/06/2026",
+    "place_of_supply": "Tamil Nadu (33)",
+    "reverse_charge": "No",
+    "taxable_total": "2,09,042.40",
+    "cgst_total": "18,326.07",
+    "sgst_total": "18,326.07",
+    "igst_total": "0.00",
+    "round_off": "0.46",
+    "grand_total": "2,45,695.00",
+    "irn": "5428189dca476ad792939caa7a7d2b46f9ad6a9362961ca4887a3a4a7ff0202b"
+  },
+  "lines": [
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "25.00",
+      "uqc": "NOS",
+      "unit_price": "7,192.08",
+      "taxable_value": "1,79,802.00",
+      "gst_rate": "18%",
+      "cgst": "16,182.18",
+      "sgst": "16,182.18",
+      "igst": "0.00"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "25.00",
+      "uqc": "PAC",
+      "unit_price": "300.15",
+      "taxable_value": "7,503.75",
+      "gst_rate": "5%",
+      "cgst": "187.59",
+      "sgst": "187.59",
+      "igst": "0.00"
+    },
+    {
+      "description": "Annual IT support services",
+      "hsn": "998713",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "21,736.65",
+      "taxable_value": "21,736.65",
+      "gst_rate": "18%",
+      "cgst": "1,956.30",
+      "sgst": "1,956.30",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMzNLR0dDQTk2MDhNMlpSXCIsXCJCdXllckdzdGluXCI6XCIzM1ZIVUNQMjMwNEQxWlFcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDk5XCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjI3LzA2LzIwMjZcIixcIlRvdEludlZhbFwiOjI0NTY5NS4wLFwiSXRlbUNudFwiOjMsXCJNYWluSHNuQ29kZVwiOlwiOTQwMTMwMDBcIixcIklyblwiOlwiNTQyODE4OWRjYTQ3NmFkNzkyOTM5Y2FhN2E3ZDJiNDZmOWFkNmE5MzYyOTYxY2E0ODg3YTNhNGE3ZmYwMjAyYlwiLFwiSXJuRHRcIjpcIjIwMjYtMDYtMjggMTE6MjU6MDBcIn0ifQ.YUmcywM4gGrl0j73SaX-p6RGwkc6YJ7k4wqaw_YotezAfn3bVWSQMM7a_4eFlTSF2TW0qtP3MoyJ2oualaslpz_p8MYHL4yV5_Te7McYcMuq3rvLujCjX3K7twS9KIQWPTP9dAORCTCYMDb-u9QB2UPgE7OoXN2b35SX022zHrDXo3QQ2OttHztZ3FEBs_5TE3QlNhifqI7IuvnizYaFWLk59d4hEScZ56lkliSo3Um6OpUsxW5Mfp_rdJ6Tot6I_L8rV5CMWcfYJXuO-9eFi3O9MVyjhoHOy-xHaxD2fCBV6ehm4VCpLmzOPk_IHDtAn-PpqlRHMSvv28uLf-hyBg",
+    "payload": {
+      "SellerGstin": "33KGGCA9608M2ZR",
+      "BuyerGstin": "33VHUCP2304D1ZQ",
+      "DocNo": "DFTEST-2627-0099",
+      "DocTyp": "INV",
+      "DocDt": "27/06/2026",
+      "TotInvVal": 245695.0,
+      "ItemCnt": 3,
+      "MainHsnCode": "94013000",
+      "Irn": "5428189dca476ad792939caa7a7d2b46f9ad6a9362961ca4887a3a4a7ff0202b",
+      "IrnDt": "2026-06-28 11:25:00"
+    },
+    "irn_printed": "5428189dca476ad792939caa7a7d2b46f9ad6a9362961ca4887a3a4a7ff0202b",
+    "ack_no": "115615442543382",
+    "ack_date": "2026-06-28"
+  },
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0099",
+  "scan": "digital",
+  "defect": null,
+  "split": "heldout"
+}

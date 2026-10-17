@@ -1,0 +1,77 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Anvay Stationers LLP",
+    "supplier_address": "Unit 64, Industrial Estate, New Delhi, Delhi",
+    "supplier_gstin": "07WKRCA1275Q1ZS",
+    "recipient_name": "Anvay Fabrication LLP",
+    "recipient_address": "Unit 4, MIDC Road, New Delhi, Delhi",
+    "recipient_gstin": "07LVTCA0626Y3Z4",
+    "invoice_no": "DFTEST-2627-0020",
+    "invoice_date": "15/06/2026",
+    "place_of_supply": "Delhi (07)",
+    "reverse_charge": "No",
+    "taxable_total": "19,201.38",
+    "cgst_total": "769.97",
+    "sgst_total": "769.97",
+    "igst_total": "0.00",
+    "round_off": "-0.32",
+    "grand_total": "20,741.00"
+  },
+  "lines": [
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "5",
+      "uqc": "ROL",
+      "unit_price": "2,948.18",
+      "taxable_value": "14,740.90",
+      "gst_rate": "5%",
+      "cgst": "368.52",
+      "sgst": "368.52",
+      "igst": "0.00"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "10",
+      "uqc": "PAC",
+      "unit_price": "320.45",
+      "taxable_value": "3,204.50",
+      "gst_rate": "18%",
+      "cgst": "288.41",
+      "sgst": "288.41",
+      "igst": "0.00"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "2",
+      "uqc": "NOS",
+      "unit_price": "627.99",
+      "taxable_value": "1,255.98",
+      "gst_rate": "18%",
+      "cgst": "113.04",
+      "sgst": "113.04",
+      "igst": "0.00"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0020",
+  "scan": "light",
+  "defect": null,
+  "split": "dev",
+  "scan_meta": {
+    "level": "light",
+    "seed": 2108724353,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -0.99
+    ]
+  }
+}

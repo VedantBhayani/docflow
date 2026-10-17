@@ -1,0 +1,77 @@
+{
+  "kind": "invoice",
+  "template": "word",
+  "fields": {
+    "supplier_name": "Sarthi Stationers Industries Pvt Ltd",
+    "supplier_address": "Unit 207, Trade Centre, Coimbatore, Tamil Nadu",
+    "supplier_gstin": "33JWKCS7405Z2ZS",
+    "recipient_name": "Pragati Stationers LLP",
+    "recipient_address": "Unit 95, MIDC Road, Hyderabad, Telangana",
+    "recipient_gstin": "36YNYCP4922V2ZM",
+    "invoice_no": "DFTEST-2627-0084",
+    "invoice_date": "28-09-2026",
+    "place_of_supply": "Telangana (36)",
+    "reverse_charge": "No",
+    "taxable_total": "10,346.66",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "1,750.26",
+    "round_off": "0.08",
+    "grand_total": "12,097.00"
+  },
+  "lines": [
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "100",
+      "uqc": "NOS",
+      "unit_price": "41.63",
+      "taxable_value": "4,163.00",
+      "gst_rate": "18 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "749.34"
+    },
+    {
+      "description": "Copper cable 2.5 sq mm (90 m)",
+      "hsn": "85444999",
+      "qty": "2",
+      "uqc": "ROL",
+      "unit_price": "2,660.53",
+      "taxable_value": "5,321.06",
+      "gst_rate": "18 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "957.79"
+    },
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "10",
+      "uqc": "BTL",
+      "unit_price": "86.26",
+      "taxable_value": "862.60",
+      "gst_rate": "5 %",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "43.13"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "inv-0084",
+  "scan": "heavy",
+  "defect": null,
+  "split": "heldout",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 81930166,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      2.12
+    ]
+  }
+}

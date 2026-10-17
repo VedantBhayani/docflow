@@ -1,0 +1,94 @@
+{
+  "kind": "invoice",
+  "template": "tally",
+  "fields": {
+    "supplier_name": "Kaveri Textiles Industries Pvt Ltd",
+    "supplier_address": "Unit 204, MIDC Road, Hyderabad, Telangana",
+    "supplier_gstin": "36NCTCK4883D1ZK",
+    "recipient_name": "Trikon Hardware LLP",
+    "recipient_address": "Unit 81, Business Park, Chennai, Tamil Nadu",
+    "recipient_gstin": "33QFACT2998J3Z8",
+    "invoice_no": "DFTEST-2627-0008",
+    "invoice_date": "09/07/2026",
+    "place_of_supply": "Tamil Nadu (33)",
+    "reverse_charge": "No",
+    "taxable_total": "3,39,370.60",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "27,783.18",
+    "round_off": "0.22",
+    "grand_total": "3,67,154.00"
+  },
+  "lines": [
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "12",
+      "uqc": "NOS",
+      "unit_price": "6,771.00",
+      "taxable_value": "81,252.00",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "14,625.36"
+    },
+    {
+      "description": "Corrugated cartons 5-ply",
+      "hsn": "48191010",
+      "qty": "40",
+      "uqc": "NOS",
+      "unit_price": "48.44",
+      "taxable_value": "1,937.60",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "348.77"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1",
+      "uqc": "OTH",
+      "unit_price": "2,741.20",
+      "taxable_value": "2,741.20",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "137.06"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "100",
+      "uqc": "NOS",
+      "unit_price": "677.43",
+      "taxable_value": "67,743.00",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "3,387.15"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "40",
+      "uqc": "NOS",
+      "unit_price": "4,642.42",
+      "taxable_value": "1,85,696.80",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "9,284.84"
+    }
+  ],
+  "notes": null,
+  "qr": null,
+  "expected_flags": [
+    "A3"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0008",
+  "scan": "digital",
+  "defect": "duplicate_invoice_no",
+  "split": "dev"
+}

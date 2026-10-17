@@ -1,0 +1,112 @@
+{
+  "kind": "invoice",
+  "template": "einvoice",
+  "fields": {
+    "supplier_name": "Vistar Textiles Pvt Ltd",
+    "supplier_address": "Unit 108, Trade Centre, Hyderabad, Telangana",
+    "supplier_gstin": "36DCACV6734B3ZA",
+    "recipient_name": "Meghdoot Fabrication Pvt Ltd",
+    "recipient_address": "Unit 28, MIDC Road, Coimbatore, Tamil Nadu",
+    "recipient_gstin": "33VWTCM4133T2ZU",
+    "invoice_no": "DFTEST-2627-0093",
+    "invoice_date": "24/06/2026",
+    "place_of_supply": "Tamil Nadu (33)",
+    "reverse_charge": "No",
+    "taxable_total": "36,714.80",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "6,159.16",
+    "round_off": "0.04",
+    "grand_total": "42,874.00",
+    "irn": "675d435a5f8b6c6e3d1380ec18115f9a6a31a2262ba4859c38620a753cd3d372"
+  },
+  "lines": [
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "12.00",
+      "uqc": "BTL",
+      "unit_price": "107.60",
+      "taxable_value": "1,291.20",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "232.42"
+    },
+    {
+      "description": "Ergonomic office chair",
+      "hsn": "94013000",
+      "qty": "2.00",
+      "uqc": "NOS",
+      "unit_price": "8,133.08",
+      "taxable_value": "16,266.16",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "2,927.91"
+    },
+    {
+      "description": "A4 copier paper 75 GSM (ream)",
+      "hsn": "48025690",
+      "qty": "2.00",
+      "uqc": "PAC",
+      "unit_price": "296.29",
+      "taxable_value": "592.58",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "29.63"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "3.00",
+      "uqc": "NOS",
+      "unit_price": "5,233.23",
+      "taxable_value": "15,699.69",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "2,825.94"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "2,865.17",
+      "taxable_value": "2,865.17",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "143.26"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMzZEQ0FDVjY3MzRCM1pBXCIsXCJCdXllckdzdGluXCI6XCIzM1ZXVENNNDEzM1QyWlVcIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDkzXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjI0LzA2LzIwMjZcIixcIlRvdEludlZhbFwiOjQzODc0LjAsXCJJdGVtQ250XCI6NSxcIk1haW5Ic25Db2RlXCI6XCI5NDAxMzAwMFwiLFwiSXJuXCI6XCI2NzVkNDM1YTVmOGI2YzZlM2QxMzgwZWMxODExNWY5YTZhMzFhMjI2MmJhNDg1OWMzODYyMGE3NTNjZDNkMzcyXCIsXCJJcm5EdFwiOlwiMjAyNi0wNi0yNiAxNjoyMjowMFwifSJ9.oeE51S_T9IAiH-MF9CGDPO68VY0258YBw7dL89dVOEvGj7vaJ5JQ9KLlWpQfC6OQ5fcmjBmHhhNeR1_hxsXxlbFA-w2TN-XrNOw6nWyJR8LnNrl5GcnKRNoL5f09gykezarhb8e1ZWUVu0OHzX4JBUpCEEfSPFu4Hr4LpQEEbw-kOrQwLfvfEF0S-gTA40A4rAw6RJg__U5AzCP-jvG177lSyoxz9tkGCJIb-S4lJ5cnkAPIPKCSs0ypZaxnLfZqEWMAYFkpQunmavIoiJvEWUxSgEnKRK_l7xCgMgcVq1eu8o7otYWglCBuuEdqoC2N3WHeA8g-606_r--vaalQAQ",
+    "payload": {
+      "SellerGstin": "36DCACV6734B3ZA",
+      "BuyerGstin": "33VWTCM4133T2ZU",
+      "DocNo": "DFTEST-2627-0093",
+      "DocTyp": "INV",
+      "DocDt": "24/06/2026",
+      "TotInvVal": 43874.0,
+      "ItemCnt": 5,
+      "MainHsnCode": "94013000",
+      "Irn": "675d435a5f8b6c6e3d1380ec18115f9a6a31a2262ba4859c38620a753cd3d372",
+      "IrnDt": "2026-06-26 16:22:00"
+    },
+    "irn_printed": "675d435a5f8b6c6e3d1380ec18115f9a6a31a2262ba4859c38620a753cd3d372",
+    "ack_no": "115550177952124",
+    "ack_date": "2026-06-26"
+  },
+  "expected_flags": [
+    "Q2"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0093",
+  "scan": "digital",
+  "defect": "qr_total_mismatch",
+  "split": "heldout"
+}

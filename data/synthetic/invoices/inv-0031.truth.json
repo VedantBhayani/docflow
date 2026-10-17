@@ -1,0 +1,112 @@
+{
+  "kind": "invoice",
+  "template": "zoho",
+  "fields": {
+    "supplier_name": "Anvay Textiles Enterprises",
+    "supplier_address": "Unit 45, Industrial Estate, Nagpur, Maharashtra",
+    "supplier_gstin": "27RJYCA4601O3Z0",
+    "recipient_name": "Nimbus Fabrication Industries Pvt Ltd",
+    "recipient_address": "Unit 15, Business Park, Bengaluru, Karnataka",
+    "recipient_gstin": "29HDICN7287D2ZM",
+    "invoice_no": "DFTEST-2627-0031",
+    "invoice_date": "03 Jun 2026",
+    "place_of_supply": "Karnataka (29)",
+    "reverse_charge": "No",
+    "taxable_total": "34,954.94",
+    "cgst_total": "0.00",
+    "sgst_total": "0.00",
+    "igst_total": "5,743.70",
+    "round_off": "0.36",
+    "grand_total": "40,699.00",
+    "irn": "588def2f0bcf36f24101ed5953e1fd2dd364891c8fe684e2bd6267bb4252fd5c"
+  },
+  "lines": [
+    {
+      "description": "Hand sanitiser 500 ml",
+      "hsn": "38089400",
+      "qty": "1.00",
+      "uqc": "BTL",
+      "unit_price": "92.65",
+      "taxable_value": "92.65",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "4.63"
+    },
+    {
+      "description": "Stretch wrap film 23 micron",
+      "hsn": "39201012",
+      "qty": "1.00",
+      "uqc": "KGS",
+      "unit_price": "157.58",
+      "taxable_value": "157.58",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "28.36"
+    },
+    {
+      "description": "LED panel light 18W",
+      "hsn": "94051900",
+      "qty": "2.00",
+      "uqc": "NOS",
+      "unit_price": "723.38",
+      "taxable_value": "1,446.76",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "72.34"
+    },
+    {
+      "description": "Steel shelving unit",
+      "hsn": "94032090",
+      "qty": "5.00",
+      "uqc": "NOS",
+      "unit_price": "6,116.11",
+      "taxable_value": "30,580.55",
+      "gst_rate": "18%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "5,504.50"
+    },
+    {
+      "description": "Freight charges",
+      "hsn": "996511",
+      "qty": "1.00",
+      "uqc": "OTH",
+      "unit_price": "2,677.40",
+      "taxable_value": "2,677.40",
+      "gst_rate": "5%",
+      "cgst": "0.00",
+      "sgst": "0.00",
+      "igst": "133.87"
+    }
+  ],
+  "notes": null,
+  "qr": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMEVGRTAyMTAwMDhERkE2OTMwRTc0QTMwQTFDOTA4ODZBRTNGQTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI4QTctQWhBQWpmcHBNT2RLTUtISkNJYXVQNmcifQ.eyJpc3MiOiJET0NGTE9XLVRFU1QtTk9ULU5JQyIsImRhdGEiOiJ7XCJTZWxsZXJHc3RpblwiOlwiMjdSSllDQTQ2MDFPM1owXCIsXCJCdXllckdzdGluXCI6XCIyOUhESUNONzI4N0QyWk1cIixcIkRvY05vXCI6XCJERlRFU1QtMjYyNy0wMDMxXCIsXCJEb2NUeXBcIjpcIklOVlwiLFwiRG9jRHRcIjpcIjAzLzA2LzIwMjZcIixcIlRvdEludlZhbFwiOjQxNjk5LjAsXCJJdGVtQ250XCI6NSxcIk1haW5Ic25Db2RlXCI6XCI5NDAzMjA5MFwiLFwiSXJuXCI6XCI1ODhkZWYyZjBiY2YzNmYyNDEwMWVkNTk1M2UxZmQyZGQzNjQ4OTFjOGZlNjg0ZTJiZDYyNjdiYjQyNTJmZDVjXCIsXCJJcm5EdFwiOlwiMjAyNi0wNi0wNSAxOToxODowMFwifSJ9.dKI7F6W_t5XNCZsvXhoWBQzmML3DAxYjWHWsYir8PedEYCgaKtz0E-Z86n_Smovk0YfxJKfF6l07xWs3DUQOUU9AiSzI4gq_Fp5bVT0I9yFa4EWJ3GtDptpCUQQkW1fCgGFOia_72mQDEChEkVgkgZEBwZksTPFFJ1L0vKPnm9mH-XqfcASYmHcu438lZOs-0Xk3vBWUMaE7SZn3cWv-wvjiYF0rDfuc_0oyQv-nbq_F4Goxmkawi81ix4_Jv9QXqk1KsXeArsfTHrl-wDuvMqQLeD-ypSZMOe2lUa0cm3F_3jbw21NISmMFirdrgDPVi50cqB_PXYU-p8Ng615jww",
+    "payload": {
+      "SellerGstin": "27RJYCA4601O3Z0",
+      "BuyerGstin": "29HDICN7287D2ZM",
+      "DocNo": "DFTEST-2627-0031",
+      "DocTyp": "INV",
+      "DocDt": "03/06/2026",
+      "TotInvVal": 41699.0,
+      "ItemCnt": 5,
+      "MainHsnCode": "94032090",
+      "Irn": "588def2f0bcf36f24101ed5953e1fd2dd364891c8fe684e2bd6267bb4252fd5c",
+      "IrnDt": "2026-06-05 19:18:00"
+    },
+    "irn_printed": "588def2f0bcf36f24101ed5953e1fd2dd364891c8fe684e2bd6267bb4252fd5c",
+    "ack_no": "113271387334538",
+    "ack_date": "2026-06-05"
+  },
+  "expected_flags": [
+    "Q2"
+  ],
+  "acceptable_flags": [],
+  "id": "inv-0031",
+  "scan": "digital",
+  "defect": "qr_total_mismatch",
+  "split": "dev"
+}

@@ -1,8 +1,10 @@
 # DocFlow
 
+[![Open the demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://docflow-p5rqb7gkd3uy74bxw2arhq.streamlit.app/)
+
 **Reads GST invoices and bank statements, proves where every value is printed, and runs the checks an auditor would.** It is built for audit vouching: instead of typing every invoice into a worksheet and eyeballing the GST maths, the auditor looks only at the documents DocFlow flags, and every flag says which value is wrong and where it is printed.
 
-- **Live demo:** _Streamlit link goes here after deploy_ (cached results, no login, no API key)
+- **Live demo:** https://docflow-p5rqb7gkd3uy74bxw2arhq.streamlit.app/ (cached results, no login, no API key)
 - **Held-out results:** invoice fields 99.1% correct, 16/16 planted defects caught; bank-statement lines 90.3% correct, 8/8 defects caught. Misses are stated below.
 - **Automation:** an n8n workflow watches a folder, calls DocFlow's API, files each document as clean, needs review or failed, and keeps an Excel register.
 

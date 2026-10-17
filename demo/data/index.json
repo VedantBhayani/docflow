@@ -1,0 +1,44 @@
+[
+ {
+  "id": "inv-0095",
+  "kind": "invoice",
+  "title": "Clean e-invoice, QR signature verified",
+  "status": "CLEAN"
+ },
+ {
+  "id": "inv-0031",
+  "kind": "invoice",
+  "title": "Tampered e-invoice: printed total differs from the signed QR",
+  "status": "FLAGGED"
+ },
+ {
+  "id": "inv-0070",
+  "kind": "invoice",
+  "title": "Line arithmetic error",
+  "status": "FLAGGED"
+ },
+ {
+  "id": "inv-0068",
+  "kind": "invoice",
+  "title": "Invoice containing a hidden instruction to the AI",
+  "status": "CLEAN"
+ },
+ {
+  "id": "inv-0115",
+  "kind": "invoice",
+  "title": "Heavily degraded scan",
+  "status": "CLEAN"
+ },
+ {
+  "id": "stmt-0002",
+  "kind": "statement",
+  "title": "Bank statement with a broken balance chain",
+  "status": "FLAGGED"
+ },
+ {
+  "id": "stmt-0028",
+  "kind": "statement",
+  "title": "Scanned overdraft (cash-credit) statement",
+  "status": "CLEAN"
+ }
+]

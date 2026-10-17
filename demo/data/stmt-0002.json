@@ -1,0 +1,8753 @@
+{
+ "path": "stmt-0002.pdf",
+ "sha256": "bb2e17f5525a96f373cf65aaa662f0ac5cc41341fd56ad87defe8e10e95d7bd0",
+ "kind": "statement",
+ "status": "FLAGGED",
+ "fields": {
+  "bank_name": {
+   "name": "bank_name",
+   "text": "Zenith Co-operative Bank Ltd",
+   "status": "GROUNDED",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.04703703836616342,
+     0.03226075526613145,
+     0.3281706798783348,
+     0.051888025770358
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm"
+   ],
+   "conflicts": {}
+  },
+  "account_number": {
+   "name": "account_number",
+   "text": "12679932228384",
+   "status": "GROUNDED",
+   "word_ids": [
+    "w8"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.12397618628944237,
+     0.05630190933106135,
+     0.22858652649775787,
+     0.06935824657400771
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm"
+   ],
+   "conflicts": {}
+  },
+  "account_holder": {
+   "name": "account_holder",
+   "text": "Kaveri IT Services Pvt Ltd",
+   "status": "GROUNDED",
+   "word_ids": [
+    "w15",
+    "w16",
+    "w17",
+    "w18",
+    "w19"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.1463792532447725,
+     0.07055555680412878,
+     0.30098326206462733,
+     0.08361189404707514
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm"
+   ],
+   "conflicts": {}
+  },
+  "period_from": {
+   "name": "period_from",
+   "text": "01/06/2026",
+   "status": "GROUNDED",
+   "word_ids": [
+    "w23"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.15459058986495944,
+     0.08480920427719621,
+     0.2218400860453635,
+     0.09786554152014257
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm"
+   ],
+   "conflicts": {}
+  },
+  "period_to": {
+   "name": "period_to",
+   "text": "30/06/2026",
+   "status": "GROUNDED",
+   "word_ids": [
+    "w26"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.25246790857577595,
+     0.08480920427719621,
+     0.31971740475618005,
+     0.09786554152014257
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm"
+   ],
+   "conflicts": {}
+  },
+  "opening_balance": {
+   "name": "opening_balance",
+   "text": "7,23,998.18",
+   "status": "VERIFIED",
+   "word_ids": [
+    "w598"
+   ],
+   "evidence": {
+    "page": 2,
+    "bbox": [
+     0.04703703836616342,
+     0.3063791829236942,
+     0.11358607022765828,
+     0.31861949399145484
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm",
+    "rules"
+   ],
+   "conflicts": {}
+  },
+  "closing_balance": {
+   "name": "closing_balance",
+   "text": "5,31,014.71",
+   "status": "VERIFIED",
+   "word_ids": [
+    "w601"
+   ],
+   "evidence": {
+    "page": 2,
+    "bbox": [
+     0.7021957870377253,
+     0.3063791829236942,
+     0.7687449342484026,
+     0.31861949399145484
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm",
+    "rules"
+   ],
+   "conflicts": {}
+  }
+ },
+ "lines": [
+  {
+   "txn_date": {
+    "name": "lines.0.txn_date",
+    "text": "01/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w38"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.13173339630008926,
+      0.09354862275639432,
+      0.14250487475207566
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.0.value_date",
+    "text": "01/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w43"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.13173339630008926,
+      0.6479135896204191,
+      0.14250487475207566
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.0.narration",
+    "text": "UPI-MEGHDOOT IT SERVIC-meghdoot@okzz-ZZBK0006827- 692319053382-PURCHASE",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w39",
+     "w40",
+     "w41",
+     "w46"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.13173339630008926,
+      0.4282810305962425,
+      0.15319511941910122
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.0.ref_col",
+    "text": "692319053382",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w42"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.44685186447855246,
+      0.13173339630008926,
+      0.520826064198741,
+      0.14250487475207566
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.0.debit",
+    "text": "6,00,516.21",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w44"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7108284173220636,
+      0.13173339630008926,
+      0.7693914023333346,
+      0.14250487475207566
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.0.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.0.balance",
+    "text": "1,23,481.97",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w45"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9124157246056211,
+      0.13173339630008926,
+      0.9709789659484087,
+      0.14250487475207566
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.1.txn_date",
+    "text": "01/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w47"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.15786508333404622,
+      0.09354862275639432,
+      0.16863657084825762
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.1.value_date",
+    "text": "01/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w52"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.15786508333404622,
+      0.6479135896204191,
+      0.16863657084825762
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.1.narration",
+    "text": "UPI-VISTAR TEXTILES TR-vistar@okzz-ZZBK0001576- 633530393216-PURCHASE",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w48",
+     "w49",
+     "w50",
+     "w55"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.15786508333404622,
+      0.39623866822447873,
+      0.17932680645305818
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.1.ref_col",
+    "text": "633530393216",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w51"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.44685186447855246,
+      0.15786508333404622,
+      0.520826064198741,
+      0.16863657084825762
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.1.debit",
+    "text": "44,971.11",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w53"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7200752179202389,
+      0.15786508333404622,
+      0.7693914023333346,
+      0.16863657084825762
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.1.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.1.balance",
+    "text": "78,510.86",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w54"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9216625252037963,
+      0.15786508333404622,
+      0.9709789659484087,
+      0.16863657084825762
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.2.txn_date",
+    "text": "02/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w56"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.1839967703680032,
+      0.09354862275639432,
+      0.19476825788221455
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.2.value_date",
+    "text": "02/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w61"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.1839967703680032,
+      0.6479135896204191,
+      0.19476825788221455
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.2.narration",
+    "text": "CREDIT INTEREST TILL 02-JUN-2026",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w57",
+     "w58",
+     "w59",
+     "w60"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.1839967703680032,
+      0.31104378706233315,
+      0.19476825788221455
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.2.ref_col",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.2.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.2.credit",
+    "text": "658.71",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w62"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.8329204516151193,
+      0.1839967703680032,
+      0.8668254213192973,
+      0.19476825788221455
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.2.balance",
+    "text": "79,169.57",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w63"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9216625252037963,
+      0.1839967703680032,
+      0.9709789659484087,
+      0.19476825788221455
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.3.txn_date",
+    "text": "02/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w64"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.19943822179715956,
+      0.09354862275639432,
+      0.21020970931137095
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.3.value_date",
+    "text": "02/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w70"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.19943822179715956,
+      0.6479135896204191,
+      0.21020970931137095
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.3.narration",
+    "text": "NEFT CR-ZZBK0004196-ANVAY LOGISTICS ENTE- ZZBKN26060234211",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w65",
+     "w66",
+     "w67",
+     "w68",
+     "w73"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.19943822179715956,
+      0.3806720909833338,
+      0.22089994491617151
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.3.ref_col",
+    "text": "ZZBKN26060234211",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w69"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.44685186447855246,
+      0.19943822179715956,
+      0.5510056654391805,
+      0.21020970931137095
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.3.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.3.credit",
+    "text": "6,98,357.44",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w71"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.8082622825091165,
+      0.19943822179715956,
+      0.8668253187866907,
+      0.21020970931137095
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.3.balance",
+    "text": "7,77,527.01",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w72"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9124157246056211,
+      0.19943822179715956,
+      0.9709789659484087,
+      0.21020970931137095
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.4.txn_date",
+    "text": "03/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w74"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.22556990883111652,
+      0.09354862275639432,
+      0.23634139634532791
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.4.value_date",
+    "text": "03/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w80"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.22556990883111652,
+      0.6479135896204191,
+      0.23634139634532791
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.4.narration",
+    "text": "NEFT DR-ZZBK0001708-SHAKTI FABRICATION L- ZZBKN26060359196-VENDOR",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w75",
+     "w76",
+     "w77",
+     "w78",
+     "w83"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.22556990883111652,
+      0.37511731011858407,
+      0.24703163195012848
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.4.ref_col",
+    "text": "ZZBKN26060359196",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w79"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.44685186447855246,
+      0.22556990883111652,
+      0.5510056654391805,
+      0.23634139634532791
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.4.debit",
+    "text": "3,728.36",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w81"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7262397858298912,
+      0.22556990883111652,
+      0.7693914535996379,
+      0.23634139634532791
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.4.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.4.balance",
+    "text": "7,73,798.65",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w82"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9124157246056211,
+      0.22556990883111652,
+      0.9709789659484087,
+      0.23634139634532791
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.5.txn_date",
+    "text": "03/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w84"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.25170159586507346,
+      0.09354862275639432,
+      0.2624730833792849
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.5.value_date",
+    "text": "03/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w90"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.25170159586507346,
+      0.6479135896204191,
+      0.2624730833792849
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.5.narration",
+    "text": "NEFT CR-ZZBK0006592-UDAAN FABRICATION IN- ZZBKN26060310992",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w85",
+     "w86",
+     "w87",
+     "w88",
+     "w93"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.25170159586507346,
+      0.37879828196364296,
+      0.2731633189840854
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.5.ref_col",
+    "text": "ZZBKN26060310992",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w89"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.44685186447855246,
+      0.25170159586507346,
+      0.5510056654391805,
+      0.2624730833792849
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.5.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.5.credit",
+    "text": "85,127.90",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w91"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.8175090831072916,
+      0.25170159586507346,
+      0.8668253187866907,
+      0.2624730833792849
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.5.balance",
+    "text": "8,58,926.55",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w92"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9124157246056211,
+      0.25170159586507346,
+      0.9709789659484087,
+      0.2624730833792849
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.6.txn_date",
+    "text": "04/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w94"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.2778332828990304,
+      0.09354862275639432,
+      0.2886047704132418
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.6.value_date",
+    "text": "04/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w99"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.2778332828990304,
+      0.6479135896204191,
+      0.2886047704132418
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.6.narration",
+    "text": "IMPS-670886090907-SHAKTI TEXTILES PV-ZENITH- XXXXXX5058-ADVANCE",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w95",
+     "w96",
+     "w97",
+     "w102"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.2778332828990304,
+      0.38685880593602273,
+      0.2992950060180424
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.6.ref_col",
+    "text": "670886090907",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w98"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.44685186447855246,
+      0.2778332828990304,
+      0.520826064198741,
+      0.2886047704132418
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.6.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.6.credit",
+    "text": "8,67,147.66",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w100"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.8082622825091165,
+      0.2778332828990304,
+      0.8668253187866907,
+      0.2886047704132418
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.6.balance",
+    "text": "17,26,074.21",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w101"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9062511566959688,
+      0.2778332828990304,
+      0.9709789659484087,
+      0.2886047704132418
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.7.txn_date",
+    "text": "05/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w103"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.3039649699329874,
+      0.09354862275639432,
+      0.31473643932274875
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.7.value_date",
+    "text": "05/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w108"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.3039649699329874,
+      0.6479135896204191,
+      0.31473643932274875
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.7.narration",
+    "text": "UPI-MEGHDOOT IT SERVIC-meghdoot@okzz-ZZBK0003226- 643028672980-PURCHASE",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w104",
+     "w105",
+     "w106",
+     "w111"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.3039649699329874,
+      0.4282810305962425,
+      0.32542667492754934
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.7.ref_col",
+    "text": "643028672980",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w107"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.44685186447855246,
+      0.3039649699329874,
+      0.520826064198741,
+      0.31473643932274875
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.7.debit",
+    "text": "39,067.72",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w109"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7200752179202389,
+      0.3039649699329874,
+      0.7693914023333346,
+      0.31473643932274875
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.7.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.7.balance",
+    "text": "16,87,006.49",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w110"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9062511566959688,
+      0.3039649699329874,
+      0.9709789659484087,
+      0.31473643932274875
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.8.txn_date",
+    "text": "06/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w112"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.33009665696694435,
+      0.09354862275639432,
+      0.3408681263567057
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.8.value_date",
+    "text": "06/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w116"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.33009665696694435,
+      0.6479135896204191,
+      0.3408681263567057
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.8.narration",
+    "text": "UPI-SHAKTI ELECTRICALS-shakti@okzz-ZZBK0008185- 669744479282-PURCHASE",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w113",
+     "w114",
+     "w119"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.33009665696694435,
+      0.4042547955781788,
+      0.3515583619615063
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.8.ref_col",
+    "text": "669744479282",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w115"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.44685186447855246,
+      0.33009665696694435,
+      0.520826064198741,
+      0.3408681263567057
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.8.debit",
+    "text": "1,234.48",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w117"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7262397858298912,
+      0.33009665696694435,
+      0.7693914535996379,
+      0.3408681263567057
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.8.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.8.balance",
+    "text": "16,85,772.01",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w118"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9062511566959688,
+      0.33009665696694435,
+      0.9709789659484087,
+      0.3408681263567057
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.9.txn_date",
+    "text": "08/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w120"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.3562283440009013,
+      0.09354862275639432,
+      0.3669998133906627
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.9.value_date",
+    "text": "08/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w124"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.3562283440009013,
+      0.6479135896204191,
+      0.3669998133906627
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.9.narration",
+    "text": "UPI-KAVERI FABRICATION-kaveri@okzz-ZZBK0007449- 632163944027-PURCHASE",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w121",
+     "w122",
+     "w127"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.3562283440009013,
+      0.4042436964235089,
+      0.3776900489954632
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.9.ref_col",
+    "text": "632163944027",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w123"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.44685186447855246,
+      0.3562283440009013,
+      0.520826064198741,
+      0.3669998133906627
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.9.debit",
+    "text": "2,983.52",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w125"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7262397858298912,
+      0.3562283440009013,
+      0.7693914535996379,
+      0.3669998133906627
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.9.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.9.balance",
+    "text": "16,82,788.49",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w126"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9062511566959688,
+      0.3562283440009013,
+      0.9709789659484087,
+      0.3669998133906627
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.10.txn_date",
+    "text": "09/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w128"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.38236003103485827,
+      0.09354862275639432,
+      0.39313150042461964
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.10.value_date",
+    "text": "09/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w135"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.38236003103485827,
+      0.6479135896204191,
+      0.39313150042461964
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.10.narration",
+    "text": "CHQ PAID-MICR CTS-SHAKTI TEXTILES INDUST",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w129",
+     "w130",
+     "w131",
+     "w132",
+     "w133"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.38236003103485827,
+      0.3720128791207214,
+      0.39313150042461964
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.10.ref_col",
+    "text": "980323",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w134"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.44685186447855246,
+      0.38236003103485827,
+      0.48383896433864676,
+      0.39313150042461964
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.10.debit",
+    "text": "70,288.18",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w136"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7200752179202389,
+      0.38236003103485827,
+      0.7693914023333346,
+      0.39313150042461964
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.10.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.10.balance",
+    "text": "16,12,500.31",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w137"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9062511566959688,
+      0.38236003103485827,
+      0.9709789659484087,
+      0.39313150042461964
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.11.txn_date",
+    "text": "10/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w138"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.3978014462151146,
+      0.09354862275639432,
+      0.40857291560487596
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.11.value_date",
+    "text": "10/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w143"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.3978014462151146,
+      0.6479135896204191,
+      0.40857291560487596
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.11.narration",
+    "text": "CREDIT INTEREST TILL 10-JUN-2026",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w139",
+     "w140",
+     "w141",
+     "w142"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.3978014462151146,
+      0.31104378706233315,
+      0.40857291560487596
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.11.ref_col",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.11.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.11.credit",
+    "text": "704.76",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w144"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.8329204516151193,
+      0.3978014462151146,
+      0.8668254213192973,
+      0.40857291560487596
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.11.balance",
+    "text": "16,13,205.07",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w145"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9062511566959688,
+      0.3978014462151146,
+      0.9709789659484087,
+      0.40857291560487596
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.12.txn_date",
+    "text": "11/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w146"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.41324289764427097,
+      0.09354862275639432,
+      0.42401436703403234
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.12.value_date",
+    "text": "11/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w151"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.41324289764427097,
+      0.6479135896204191,
+      0.42401436703403234
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.12.narration",
+    "text": "UPI-SAHYADRI IT SERVIC-sahyadri@okzz-ZZBK0009750- 636312244442-PAYMENT",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w147",
+     "w148",
+     "w149",
+     "w154"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.41324289764427097,
+      0.4122598494103606,
+      0.4347046026388329
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.12.ref_col",
+    "text": "636312244442",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w150"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.44685186447855246,
+      0.41324289764427097,
+      0.520826064198741,
+      0.42401436703403234
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.12.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.12.credit",
+    "text": "7,30,414.02",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w152"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.8082622825091165,
+      0.41324289764427097,
+      0.8668253187866907,
+      0.42401436703403234
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.12.balance",
+    "text": "23,43,619.09",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w153"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9062511566959688,
+      0.41324289764427097,
+      0.9709789659484087,
+      0.42401436703403234
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.13.txn_date",
+    "text": "12/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w155"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.43937458467822793,
+      0.09354862275639432,
+      0.4501460540679893
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.13.value_date",
+    "text": "12/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w160"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.43937458467822793,
+      0.6479135896204191,
+      0.4501460540679893
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.13.narration",
+    "text": "UPI-TRIKON HARDWARE TR-trikon@okzz-ZZBK0009327- 652557640047-PURCHASE",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w156",
+     "w157",
+     "w158",
+     "w163"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.43937458467822793,
+      0.4109958787018757,
+      0.4608362896727899
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.13.ref_col",
+    "text": "652557640047",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w159"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.44685186447855246,
+      0.43937458467822793,
+      0.520826064198741,
+      0.4501460540679893
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.13.debit",
+    "text": "76,277.49",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w161"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7200752179202389,
+      0.43937458467822793,
+      0.7693914023333346,
+      0.4501460540679893
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.13.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.13.balance",
+    "text": "22,67,341.60",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w162"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9062511566959688,
+      0.43937458467822793,
+      0.9709789659484087,
+      0.4501460540679893
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.14.txn_date",
+    "text": "12/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w164"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.4655062717121849,
+      0.09354862275639432,
+      0.47627774110194626
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.14.value_date",
+    "text": "12/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w170"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.4655062717121849,
+      0.6479135896204191,
+      0.47627774110194626
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.14.narration",
+    "text": "NEFT DR-ZZBK0003105-AARAV FABRICATION TR- ZZBKN26061261565-VENDOR",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w165",
+     "w166",
+     "w167",
+     "w168",
+     "w173"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.4655062717121849,
+      0.38127077887356653,
+      0.48696797670674685
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.14.ref_col",
+    "text": "ZZBKN26061261565",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w169"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.44685186447855246,
+      0.4655062717121849,
+      0.5510056654391805,
+      0.47627774110194626
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.14.debit",
+    "text": "2,455.29",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w171"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7262397858298912,
+      0.4655062717121849,
+      0.7693914535996379,
+      0.47627774110194626
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.14.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.14.balance",
+    "text": "22,64,886.31",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w172"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9062511566959688,
+      0.4655062717121849,
+      0.9709789659484087,
+      0.47627774110194626
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.15.txn_date",
+    "text": "12/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w174"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.49163795874614186,
+      0.09354862275639432,
+      0.5024094281359032
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.15.value_date",
+    "text": "12/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w178"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.49163795874614186,
+      0.6479135896204191,
+      0.5024094281359032
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.15.narration",
+    "text": "UPI-SARTHI FABRICATION-sarthi@okzz-ZZBK0002588- 621030780816-PURCHASE",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w175",
+     "w176",
+     "w181"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.49163795874614186,
+      0.4017711995135853,
+      0.5130996637407038
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.15.ref_col",
+    "text": "621030780816",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w177"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.44685186447855246,
+      0.49163795874614186,
+      0.520826064198741,
+      0.5024094281359032
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.15.debit",
+    "text": "6,22,927.22",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w179"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7108284173220636,
+      0.49163795874614186,
+      0.7693914023333346,
+      0.5024094281359032
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.15.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.15.balance",
+    "text": "16,41,959.09",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w180"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9062511566959688,
+      0.49163795874614186,
+      0.9709789659484087,
+      0.5024094281359032
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.16.txn_date",
+    "text": "13/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w182"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.5177696457800988,
+      0.09354862275639432,
+      0.5285411151698601
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.16.value_date",
+    "text": "13/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w187"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.5177696457800988,
+      0.6479135896204191,
+      0.5285411151698601
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.16.narration",
+    "text": "UPI-UDAAN LOGISTICS EN-udaan@okzz-ZZBK0001996- 698990836619-PURCHASE",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w183",
+     "w184",
+     "w185",
+     "w190"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.5177696457800988,
+      0.40672729248810235,
+      0.5392313507746608
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.16.ref_col",
+    "text": "698990836619",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w186"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.44685186447855246,
+      0.5177696457800988,
+      0.520826064198741,
+      0.5285411151698601
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.16.debit",
+    "text": "83,462.84",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w188"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7200752179202389,
+      0.5177696457800988,
+      0.7693914023333346,
+      0.5285411151698601
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.16.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.16.balance",
+    "text": "15,58,496.25",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w189"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9062511566959688,
+      0.5177696457800988,
+      0.9709789659484087,
+      0.5285411151698601
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.17.txn_date",
+    "text": "13/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w191"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.5439013328140557,
+      0.09354862275639432,
+      0.5546728022038171
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.17.value_date",
+    "text": "13/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w195"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.5439013328140557,
+      0.6479135896204191,
+      0.5546728022038171
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.17.narration",
+    "text": "SMS CHGS QTR",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w192",
+     "w193",
+     "w194"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.5439013328140557,
+      0.20321983144664793,
+      0.5546728022038171
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.17.ref_col",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.17.debit",
+    "text": "17.70",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w196"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7416511030714155,
+      0.5439013328140557,
+      0.7693914535996379,
+      0.5546728022038171
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.17.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.17.balance",
+    "text": "15,58,478.55",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w197"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9062511566959688,
+      0.5439013328140557,
+      0.9709789659484087,
+      0.5546728022038171
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.18.txn_date",
+    "text": "13/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w198"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.5593427842432122,
+      0.09354862275639432,
+      0.5701142536329735
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.18.value_date",
+    "text": "13/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w202"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.5593427842432122,
+      0.6479135896204191,
+      0.5701142536329735
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.18.narration",
+    "text": "SMS CHGS QTR",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w199",
+     "w200",
+     "w201"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.5593427842432122,
+      0.20321983144664793,
+      0.5701142536329735
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.18.ref_col",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.18.debit",
+    "text": "17.70",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w203"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7416511030714155,
+      0.5593427842432122,
+      0.7693914535996379,
+      0.5701142536329735
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.18.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.18.balance",
+    "text": "15,58,460.85",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w204"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9062511566959688,
+      0.5593427842432122,
+      0.9709789659484087,
+      0.5701142536329735
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.19.txn_date",
+    "text": "14/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w205"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.5747842356723685,
+      0.09354862275639432,
+      0.5855557050621298
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.19.value_date",
+    "text": "14/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w212"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.5747842356723685,
+      0.6479135896204191,
+      0.5855557050621298
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.19.narration",
+    "text": "NEFT DR-ZZBK0001805-SHAKTI IT SERVICES E- ZZBKN26061498858-VENDOR",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w206",
+     "w207",
+     "w208",
+     "w209",
+     "w210",
+     "w215"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.5747842356723685,
+      0.3708154777071043,
+      0.5962459406669305
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.19.ref_col",
+    "text": "ZZBKN26061498858",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w211"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.44685186447855246,
+      0.5747842356723685,
+      0.5510056654391805,
+      0.5855557050621298
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.19.debit",
+    "text": "7,771.36",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w213"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7262397858298912,
+      0.5747842356723685,
+      0.7693914535996379,
+      0.5855557050621298
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.19.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.19.balance",
+    "text": "15,50,689.49",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w214"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9062511566959688,
+      0.5747842356723685,
+      0.9709789659484087,
+      0.5855557050621298
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.20.txn_date",
+    "text": "14/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w216"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.6009159589552255,
+      0.09354862275639432,
+      0.6116874283449869
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.20.value_date",
+    "text": "14/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w222"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.6009159589552255,
+      0.6479135896204191,
+      0.6116874283449869
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.20.narration",
+    "text": "NEFT CR-ZZBK0004328-MEGHDOOT PACKAGING I- ZZBKN26061473094",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w217",
+     "w218",
+     "w219",
+     "w220",
+     "w225"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.6009159589552255,
+      0.3886659943945424,
+      0.6223776639497874
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.20.ref_col",
+    "text": "ZZBKN26061473094",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w221"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.44685186447855246,
+      0.6009159589552255,
+      0.5510056654391805,
+      0.6116874283449869
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.20.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.20.credit",
+    "text": "8,41,895.66",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w223"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.8082622825091165,
+      0.6009159589552255,
+      0.8668253187866907,
+      0.6116874283449869
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.20.balance",
+    "text": "23,92,585.15",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w224"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9062511566959688,
+      0.6009159589552255,
+      0.9709789659484087,
+      0.6116874283449869
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.21.txn_date",
+    "text": "15/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w226"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.050396826820889376,
+      0.6270476822380825,
+      0.09354862275639432,
+      0.6378191153789439
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.21.value_date",
+    "text": "15/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w230"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6047619218506726,
+      0.6270476822380825,
+      0.6479135896204191,
+      0.6378191153789439
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.21.narration",
+    "text": "SMS CHGS QTR",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w227",
+     "w228",
+     "w229"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.11759259591540855,
+      0.6270476822380825,
+      0.20321983144664793,
+      0.6378191153789439
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.21.ref_col",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.21.debit",
+    "text": "17.70",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w231"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7416511030714155,
+      0.6270476822380825,
+      0.7693914535996379,
+      0.6378191153789439
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.21.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.21.balance",
+    "text": "23,92,567.45",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w232"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9062511566959688,
+      0.6270476822380825,
+      0.9709789659484087,
+      0.6378191153789439
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.22.txn_date",
+    "text": "15/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w285"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.14717484772924566,
+      0.09354862275639432,
+      0.15794633524345703
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.22.value_date",
+    "text": "15/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w290"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.14717484772924566,
+      0.6479135896204191,
+      0.15794633524345703
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.22.narration",
+    "text": "UPI-SHAKTI OFFICE SUPP-shakti@okzz-ZZBK0002917- 670922920907-PAYMENT",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w286",
+     "w287",
+     "w288",
+     "w293"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.14717484772924566,
+      0.40240326176728275,
+      0.16863657084825762
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.22.ref_col",
+    "text": "670922920907",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w289"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.14717484772924566,
+      0.520826064198741,
+      0.15794633524345703
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.22.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.22.credit",
+    "text": "2,049.10",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w291"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.823673651016944,
+      0.14717484772924566,
+      0.8668254213192973,
+      0.15794633524345703
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.22.balance",
+    "text": "23,94,616.55",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w292"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9062511566959688,
+      0.14717484772924566,
+      0.9709789659484087,
+      0.15794633524345703
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.23.txn_date",
+    "text": "15/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w294"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.17330653476320262,
+      0.09354862275639432,
+      0.184078022277414
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.23.value_date",
+    "text": "15/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w299"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.17330653476320262,
+      0.6479135896204191,
+      0.184078022277414
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.23.narration",
+    "text": "CREDIT INTEREST TILL 15-JUN-2026",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w295",
+     "w296",
+     "w297",
+     "w298"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.17330653476320262,
+      0.31104378706233315,
+      0.184078022277414
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.23.ref_col",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.23.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.23.credit",
+    "text": "528.57",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w300"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.8329204516151193,
+      0.17330653476320262,
+      0.8668254213192973,
+      0.184078022277414
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.23.balance",
+    "text": "23,95,145.12",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w301"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9062511566959688,
+      0.17330653476320262,
+      0.9709789659484087,
+      0.184078022277414
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.24.txn_date",
+    "text": "17/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w302"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.188747986192359,
+      0.09354862275639432,
+      0.19951947370657036
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.24.value_date",
+    "text": "17/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w307"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.188747986192359,
+      0.6479135896204191,
+      0.19951947370657036
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.24.narration",
+    "text": "UPI-KAVERI LOGISTICS P-kaveri@okzz-ZZBK0002945- 623464967003-PAYMENT",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w303",
+     "w304",
+     "w305",
+     "w310"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.188747986192359,
+      0.39933205133397487,
+      0.21020970931137095
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.24.ref_col",
+    "text": "623464967003",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w306"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.188747986192359,
+      0.520826064198741,
+      0.19951947370657036
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.24.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.24.credit",
+    "text": "31,512.17",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w308"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.8175090831072916,
+      0.188747986192359,
+      0.8668253187866907,
+      0.19951947370657036
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.24.balance",
+    "text": "24,26,657.29",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w309"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9062511566959688,
+      0.188747986192359,
+      0.9709789659484087,
+      0.19951947370657036
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.25.txn_date",
+    "text": "18/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w311"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.21487967322631596,
+      0.09354862275639432,
+      0.22565116074052732
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.25.value_date",
+    "text": "18/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w315"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.21487967322631596,
+      0.6479135896204191,
+      0.22565116074052732
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.25.narration",
+    "text": "UPI-UDAAN FABRICATION-udaan@okzz-ZZBK0008353- 686961144316-PURCHASE",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w312",
+     "w313",
+     "w318"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.21487967322631596,
+      0.40363390937860627,
+      0.23634139634532791
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.25.ref_col",
+    "text": "686961144316",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w314"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.21487967322631596,
+      0.520826064198741,
+      0.22565116074052732
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.25.debit",
+    "text": "35,697.58",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w316"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.7200752179202389,
+      0.21487967322631596,
+      0.7693914023333346,
+      0.22565116074052732
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.25.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.25.balance",
+    "text": "23,90,959.71",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w317"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9062511566959688,
+      0.21487967322631596,
+      0.9709789659484087,
+      0.22565116074052732
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.26.txn_date",
+    "text": "18/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w319"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.2410113602602729,
+      0.09354862275639432,
+      0.2517828477744843
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.26.value_date",
+    "text": "18/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w324"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.2410113602602729,
+      0.6479135896204191,
+      0.2517828477744843
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.26.narration",
+    "text": "UPI-ANVAY POLYMERS IND-anvay@okzz-ZZBK0009487- 641832776762-PAYMENT",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w320",
+     "w321",
+     "w322",
+     "w327"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.2410113602602729,
+      0.4104193634878312,
+      0.2624730833792849
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.26.ref_col",
+    "text": "641832776762",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w323"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.2410113602602729,
+      0.520826064198741,
+      0.2517828477744843
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.26.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.26.credit",
+    "text": "3,592.58",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w325"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.823673651016944,
+      0.2410113602602729,
+      0.8668254213192973,
+      0.2517828477744843
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.26.balance",
+    "text": "23,94,552.29",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w326"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9062511566959688,
+      0.2410113602602729,
+      0.9709789659484087,
+      0.2517828477744843
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.27.txn_date",
+    "text": "18/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w328"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.26714304729422983,
+      0.09354862275639432,
+      0.27791453480844125
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.27.value_date",
+    "text": "18/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w335"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.26714304729422983,
+      0.6479135896204191,
+      0.27791453480844125
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.27.narration",
+    "text": "CHQ PAID-MICR CTS-SAHYADRI LOGISTICS ENT",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w329",
+     "w330",
+     "w331",
+     "w332",
+     "w333"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.26714304729422983,
+      0.3763258363200227,
+      0.27791453480844125
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.27.ref_col",
+    "text": "307934",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w334"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.26714304729422983,
+      0.48383896433864676,
+      0.27791453480844125
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.27.debit",
+    "text": "8,37,867.44",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w336"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.7108284173220636,
+      0.26714304729422983,
+      0.7693914023333346,
+      0.27791453480844125
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.27.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.27.balance",
+    "text": "15,56,684.85",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w337"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9062511566959688,
+      0.26714304729422983,
+      0.9709789659484087,
+      0.27791453480844125
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.28.txn_date",
+    "text": "18/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w338"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.28258449872338626,
+      0.09354862275639432,
+      0.2933559862375976
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.28.value_date",
+    "text": "18/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w343"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.28258449872338626,
+      0.6479135896204191,
+      0.2933559862375976
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.28.narration",
+    "text": "UPI-VISTAR HARDWARE LL-vistar@okzz-ZZBK0006788- 686638958168-PURCHASE",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w339",
+     "w340",
+     "w341",
+     "w346"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.28258449872338626,
+      0.40608420797919,
+      0.3040462218423982
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.28.ref_col",
+    "text": "686638958168",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w342"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.28258449872338626,
+      0.520826064198741,
+      0.2933559862375976
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.28.debit",
+    "text": "1,56,711.99",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w344"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.7108284173220636,
+      0.28258449872338626,
+      0.7693914023333346,
+      0.2933559862375976
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.28.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.28.balance",
+    "text": "13,99,972.86",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w345"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9062511566959688,
+      0.28258449872338626,
+      0.9709789659484087,
+      0.2933559862375976
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.29.txn_date",
+    "text": "21/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w347"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.3087161857573432,
+      0.09354862275639432,
+      0.3194876551471046
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.29.value_date",
+    "text": "21/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w353"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.3087161857573432,
+      0.6479135896204191,
+      0.3194876551471046
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.29.narration",
+    "text": "NEFT DR-ZZBK0003454-AARAV PACKAGING INDU- ZZBKN26062183652-VENDOR",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w348",
+     "w349",
+     "w350",
+     "w351",
+     "w356"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.3087161857573432,
+      0.38497397466111694,
+      0.3301778907519051
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.29.ref_col",
+    "text": "ZZBKN26062183652",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w352"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.3087161857573432,
+      0.5510056654391805,
+      0.3194876551471046
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.29.debit",
+    "text": "18,481.27",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w354"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.7200752179202389,
+      0.3087161857573432,
+      0.7693914023333346,
+      0.3194876551471046
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.29.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.29.balance",
+    "text": "13,81,491.59",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w355"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9062511566959688,
+      0.3087161857573432,
+      0.9709789659484087,
+      0.3194876551471046
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.30.txn_date",
+    "text": "22/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w357"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.3348478727913001,
+      0.09354862275639432,
+      0.3456193421810615
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.30.value_date",
+    "text": "22/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w363"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.3348478727913001,
+      0.6479135896204191,
+      0.3456193421810615
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.30.narration",
+    "text": "NEFT CR-ZZBK0009568-TRIKON PACKAGING LLP- ZZBKN26062282931",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w358",
+     "w359",
+     "w360",
+     "w361",
+     "w366"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.3348478727913001,
+      0.381902764227809,
+      0.3563095777858621
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.30.ref_col",
+    "text": "ZZBKN26062282931",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w362"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.3348478727913001,
+      0.5510056654391805,
+      0.3456193421810615
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.30.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.30.credit",
+    "text": "3,809.70",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w364"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.823673651016944,
+      0.3348478727913001,
+      0.8668254213192973,
+      0.3456193421810615
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.30.balance",
+    "text": "13,86,301.29",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w365"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9062511566959688,
+      0.3348478727913001,
+      0.9709789659484087,
+      0.3456193421810615
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.31.txn_date",
+    "text": "22/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w367"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.3609795598252571,
+      0.09354862275639432,
+      0.37175102921501846
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.31.value_date",
+    "text": "22/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w374"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.3609795598252571,
+      0.6479135896204191,
+      0.37175102921501846
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.31.narration",
+    "text": "CHQ PAID-MICR CTS-SARTHI STATIONERS LLP",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w368",
+     "w369",
+     "w370",
+     "w371",
+     "w372"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.3609795598252571,
+      0.3695515069986194,
+      0.37175102921501846
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.31.ref_col",
+    "text": "259254",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w373"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.3609795598252571,
+      0.48383896433864676,
+      0.37175102921501846
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.31.debit",
+    "text": "7,76,004.27",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w375"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.7108284173220636,
+      0.3609795598252571,
+      0.7693914023333346,
+      0.37175102921501846
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.31.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.31.balance",
+    "text": "6,09,297.02",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w376"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9124157246056211,
+      0.3609795598252571,
+      0.9709789659484087,
+      0.37175102921501846
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.32.txn_date",
+    "text": "23/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w377"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.37642101125441346,
+      0.09354862275639432,
+      0.38719248064417483
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.32.value_date",
+    "text": "23/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w383"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.37642101125441346,
+      0.6479135896204191,
+      0.38719248064417483
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.32.narration",
+    "text": "NEFT CR-ZZBK0001400-NIMBUS OFFICE SUPPLI- ZZBKN26062323458",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w378",
+     "w379",
+     "w380",
+     "w381",
+     "w386"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.37642101125441346,
+      0.37757870787383774,
+      0.3978826800000754
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.32.ref_col",
+    "text": "ZZBKN26062323458",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w382"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.37642101125441346,
+      0.5510056654391805,
+      0.38719248064417483
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.32.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.32.credit",
+    "text": "5,01,567.44",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w384"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.8082622825091165,
+      0.37642101125441346,
+      0.8668253187866907,
+      0.38719248064417483
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.32.balance",
+    "text": "11,10,864.46",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w385"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9062511566959688,
+      0.37642101125441346,
+      0.9709789659484087,
+      0.38719248064417483
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.33.txn_date",
+    "text": "23/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w387"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.40255266203947043,
+      0.09354862275639432,
+      0.4133241314292318
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.33.value_date",
+    "text": "23/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w392"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.40255266203947043,
+      0.6479135896204191,
+      0.4133241314292318
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.33.narration",
+    "text": "UPI-SHAKTI LOGISTICS P-shakti@okzz-ZZBK0003860- 697162324232-PURCHASE",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w388",
+     "w389",
+     "w390",
+     "w395"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.40255266203947043,
+      0.39810135245634803,
+      0.42401436703403234
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.33.ref_col",
+    "text": "697162324232",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w391"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.40255266203947043,
+      0.520826064198741,
+      0.4133241314292318
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.33.debit",
+    "text": "993.35",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w393"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.7354865864280664,
+      0.40255266203947043,
+      0.7693914535996379,
+      0.4133241314292318
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.33.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.33.balance",
+    "text": "11,09,871.11",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w394"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9062511566959688,
+      0.40255266203947043,
+      0.9709789659484087,
+      0.4133241314292318
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.34.txn_date",
+    "text": "23/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w396"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.42868434907342734,
+      0.09354862275639432,
+      0.4394558184631887
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.34.value_date",
+    "text": "23/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w402"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.42868434907342734,
+      0.6479135896204191,
+      0.4394558184631887
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.34.narration",
+    "text": "NEFT DR-ZZBK0003056-SAHYADRI LOGISTICS I- ZZBKN26062346809-VENDOR",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w397",
+     "w398",
+     "w399",
+     "w400",
+     "w405"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.42868434907342734,
+      0.3732768241960546,
+      0.4501460540679893
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.34.ref_col",
+    "text": "ZZBKN26062346809",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w401"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.42868434907342734,
+      0.5510056654391805,
+      0.4394558184631887
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.34.debit",
+    "text": "23,181.72",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w403"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.7200752179202389,
+      0.42868434907342734,
+      0.7693914023333346,
+      0.4394558184631887
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.34.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.34.balance",
+    "text": "10,86,689.39",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w404"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9062511566959688,
+      0.42868434907342734,
+      0.9709789659484087,
+      0.4394558184631887
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.35.txn_date",
+    "text": "24/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w406"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.4548160361073843,
+      0.09354862275639432,
+      0.46558750549714567
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.35.value_date",
+    "text": "24/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w412"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.4548160361073843,
+      0.6479135896204191,
+      0.46558750549714567
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.35.narration",
+    "text": "NEFT DR-ZZBK0009192-MEGHDOOT OFFICE SUPP- ZZBKN26062434138-VENDOR",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w407",
+     "w408",
+     "w409",
+     "w410",
+     "w415"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.4548160361073843,
+      0.39050648031707186,
+      0.47627774110194626
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.35.ref_col",
+    "text": "ZZBKN26062434138",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w411"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.4548160361073843,
+      0.5510056654391805,
+      0.46558750549714567
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.35.debit",
+    "text": "4,81,890.43",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w413"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.7108284173220636,
+      0.4548160361073843,
+      0.7693914023333346,
+      0.46558750549714567
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.35.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.35.balance",
+    "text": "6,04,798.96",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w414"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9124157246056211,
+      0.4548160361073843,
+      0.9709789659484087,
+      0.46558750549714567
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.36.txn_date",
+    "text": "24/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w416"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.48094772314134127,
+      0.09354862275639432,
+      0.49171919253110263
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.36.value_date",
+    "text": "24/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w422"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.48094772314134127,
+      0.6479135896204191,
+      0.49171919253110263
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.36.narration",
+    "text": "NEFT DR-ZZBK0003795-PRAGATI IT SERVICES- ZZBKN26062417554-VENDOR",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w417",
+     "w418",
+     "w419",
+     "w420",
+     "w425"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.48094772314134127,
+      0.368963892629905,
+      0.5024094281359032
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.36.ref_col",
+    "text": "ZZBKN26062417554",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w421"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.48094772314134127,
+      0.5510056654391805,
+      0.49171919253110263
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.36.debit",
+    "text": "13,081.61",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w423"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.7200752179202389,
+      0.48094772314134127,
+      0.7693914023333346,
+      0.49171919253110263
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.36.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.36.balance",
+    "text": "5,91,717.35",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w424"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9124157246056211,
+      0.48094772314134127,
+      0.9709789659484087,
+      0.49171919253110263
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.37.txn_date",
+    "text": "24/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w426"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.5070794101752982,
+      0.09354862275639432,
+      0.5178508795650596
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.37.value_date",
+    "text": "24/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w431"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.5070794101752982,
+      0.6479135896204191,
+      0.5178508795650596
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.37.narration",
+    "text": "IMPS-688440120115-NIMBUS IT SERVICES-ZENITH- XXXXXX5162-ADVANCE",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w427",
+     "w428",
+     "w429",
+     "w434"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.5070794101752982,
+      0.3886881927038822,
+      0.5285411151698601
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.37.ref_col",
+    "text": "688440120115",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w430"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.5070794101752982,
+      0.520826064198741,
+      0.5178508795650596
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.37.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.37.credit",
+    "text": "6,174.57",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w432"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.823673651016944,
+      0.5070794101752982,
+      0.8668254213192973,
+      0.5178508795650596
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.37.balance",
+    "text": "5,97,891.92",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w433"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9124157246056211,
+      0.5070794101752982,
+      0.9709789659484087,
+      0.5178508795650596
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.38.txn_date",
+    "text": "24/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w435"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.5332110972092552,
+      0.09354862275639432,
+      0.5439825665990166
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.38.value_date",
+    "text": "24/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w440"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.5332110972092552,
+      0.6479135896204191,
+      0.5439825665990166
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.38.narration",
+    "text": "UPI-TRIKON LOGISTICS L-trikon@okzz-ZZBK0003575- 675110008073-PURCHASE",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w436",
+     "w437",
+     "w438",
+     "w443"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.5332110972092552,
+      0.39685958005720295,
+      0.5546728022038171
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.38.ref_col",
+    "text": "675110008073",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w439"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.5332110972092552,
+      0.520826064198741,
+      0.5439825665990166
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.38.debit",
+    "text": "3,799.64",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w441"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.7262397858298912,
+      0.5332110972092552,
+      0.7693914535996379,
+      0.5439825665990166
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.38.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.38.balance",
+    "text": "5,94,092.28",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w442"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9124157246056211,
+      0.5332110972092552,
+      0.9709789659484087,
+      0.5439825665990166
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.39.txn_date",
+    "text": "25/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w444"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.5593427842432122,
+      0.09354862275639432,
+      0.5701142536329735
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.39.value_date",
+    "text": "25/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w449"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.5593427842432122,
+      0.6479135896204191,
+      0.5701142536329735
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.39.narration",
+    "text": "UPI-ANVAY OFFICE SUPPL-anvay@okzz-ZZBK0003930- 660755546604-PURCHASE",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w445",
+     "w446",
+     "w447",
+     "w452"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.5593427842432122,
+      0.406727318121254,
+      0.5808044892377741
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.39.ref_col",
+    "text": "660755546604",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w448"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.5593427842432122,
+      0.520826064198741,
+      0.5701142536329735
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.39.debit",
+    "text": "36,343.07",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w450"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.7200752179202389,
+      0.5593427842432122,
+      0.7693914023333346,
+      0.5701142536329735
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.39.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.39.balance",
+    "text": "5,57,749.21",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w451"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9124157246056211,
+      0.5593427842432122,
+      0.9709789659484087,
+      0.5701142536329735
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.40.txn_date",
+    "text": "25/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w453"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.5854744712771691,
+      0.09354862275639432,
+      0.5962459406669305
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.40.value_date",
+    "text": "25/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w459"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.5854744712771691,
+      0.6479135896204191,
+      0.5962459406669305
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.40.narration",
+    "text": "NEFT DR-ZZBK0009368-PRAGATI LOGISTICS EN- ZZBKN26062531064-VENDOR",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w454",
+     "w455",
+     "w456",
+     "w457",
+     "w462"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.5854744712771691,
+      0.377589781395356,
+      0.606936176271731
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.40.ref_col",
+    "text": "ZZBKN26062531064",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w458"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.5854744712771691,
+      0.5510056654391805,
+      0.5962459406669305
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.40.debit",
+    "text": "3,906.70",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w460"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.7262397858298912,
+      0.5854744712771691,
+      0.7693914535996379,
+      0.5962459406669305
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.40.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.40.balance",
+    "text": "5,53,842.51",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w461"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9124157246056211,
+      0.5854744712771691,
+      0.9709789659484087,
+      0.5962459406669305
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.41.txn_date",
+    "text": "26/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w463"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.6116062308089261,
+      0.09354862275639432,
+      0.6223776639497874
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.41.value_date",
+    "text": "26/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w468"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.6116062308089261,
+      0.6479135896204191,
+      0.6223776639497874
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.41.narration",
+    "text": "UPI-AARAV LOGISTICS LL-aarav@okzz-ZZBK0005213- 642868179374-PAYMENT",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w464",
+     "w465",
+     "w466",
+     "w471"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.6116062308089261,
+      0.39934315048864477,
+      0.633067899554588
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.41.ref_col",
+    "text": "642868179374",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w467"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.6116062308089261,
+      0.520826064198741,
+      0.6223776639497874
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.41.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.41.credit",
+    "text": "4,379.82",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w469"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.823673651016944,
+      0.6116062308089261,
+      0.8668254213192973,
+      0.6223776639497874
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.41.balance",
+    "text": "5,58,222.33",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w470"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9124157246056211,
+      0.6116062308089261,
+      0.9709789659484087,
+      0.6223776639497874
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.42.txn_date",
+    "text": "26/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w472"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.637737917842883,
+      0.09354862275639432,
+      0.6485093509837444
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.42.value_date",
+    "text": "26/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w476"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.637737917842883,
+      0.6479135896204191,
+      0.6485093509837444
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.42.narration",
+    "text": "IMPS-650780503958-PRAGATI FABRICATIO-ZENITH- XXXXXX5524-ADVANCE",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w473",
+     "w474",
+     "w479"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.637737917842883,
+      0.3917704253924051,
+      0.6591995865885449
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.42.ref_col",
+    "text": "650780503958",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w475"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.637737917842883,
+      0.520826064198741,
+      0.6485093509837444
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.42.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.42.credit",
+    "text": "5,078.95",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w477"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.823673651016944,
+      0.637737917842883,
+      0.8668254213192973,
+      0.6485093509837444
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.42.balance",
+    "text": "5,63,301.28",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w478"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9124157246056211,
+      0.637737917842883,
+      0.9709789659484087,
+      0.6485093509837444
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.43.txn_date",
+    "text": "26/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w480"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.050396826820889376,
+      0.66386960487684,
+      0.09354862275639432,
+      0.6746410380177014
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.43.value_date",
+    "text": "26/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w485"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.6047619218506726,
+      0.66386960487684,
+      0.6479135896204191,
+      0.6746410380177014
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.43.narration",
+    "text": "IMPS-642211754936-AARAV TEXTILES LLP-ZENITH- XXXXXX7983-ADVANCE",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w481",
+     "w482",
+     "w483",
+     "w488"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.11759259591540855,
+      0.66386960487684,
+      0.3893313028459463,
+      0.6853312736225019
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.43.ref_col",
+    "text": "642211754936",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w484"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.44685186447855246,
+      0.66386960487684,
+      0.520826064198741,
+      0.6746410380177014
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.43.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.43.credit",
+    "text": "2,735.23",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w486"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.823673651016944,
+      0.66386960487684,
+      0.8668254213192973,
+      0.6746410380177014
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.43.balance",
+    "text": "5,66,036.51",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w487"
+    ],
+    "evidence": {
+     "page": 1,
+     "bbox": [
+      0.9124157246056211,
+      0.66386960487684,
+      0.9709789659484087,
+      0.6746410380177014
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.44.txn_date",
+    "text": "27/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w541"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.050396826820889376,
+      0.14717484772924566,
+      0.09354862275639432,
+      0.15794633524345703
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.44.value_date",
+    "text": "27/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w545"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.6047619218506726,
+      0.14717484772924566,
+      0.6479135896204191,
+      0.15794633524345703
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.44.narration",
+    "text": "SMS CHGS QTR",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w542",
+     "w543",
+     "w544"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.11759259591540855,
+      0.14717484772924566,
+      0.20321983144664793,
+      0.15794633524345703
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.44.ref_col",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.44.debit",
+    "text": "17.70",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w546"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.7416511030714155,
+      0.14717484772924566,
+      0.7693914535996379,
+      0.15794633524345703
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.44.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.44.balance",
+    "text": "5,66,018.81",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w547"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.9124157246056211,
+      0.14717484772924566,
+      0.9709789659484087,
+      0.15794633524345703
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.45.txn_date",
+    "text": "27/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w548"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.050396826820889376,
+      0.16261629915840203,
+      0.09354862275639432,
+      0.17338778667261343
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.45.value_date",
+    "text": "27/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w555"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.6047619218506726,
+      0.16261629915840203,
+      0.6479135896204191,
+      0.17338778667261343
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.45.narration",
+    "text": "CHQ PAID-MICR CTS-SHAKTI PACKAGING ENTER",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w549",
+     "w550",
+     "w551",
+     "w552",
+     "w553"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.11759259591540855,
+      0.16261629915840203,
+      0.38186951803010255,
+      0.17338778667261343
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.45.ref_col",
+    "text": "027035",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w554"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.44685186447855246,
+      0.16261629915840203,
+      0.48383896433864676,
+      0.17338778667261343
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.45.debit",
+    "text": "46,023.91",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w556"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.7200752179202389,
+      0.16261629915840203,
+      0.7693914023333346,
+      0.17338778667261343
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.45.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.45.balance",
+    "text": "5,19,994.90",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w557"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.9124157246056211,
+      0.16261629915840203,
+      0.9709789659484087,
+      0.17338778667261343
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.46.txn_date",
+    "text": "28/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w558"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.050396826820889376,
+      0.17805775058755843,
+      0.09354862275639432,
+      0.1888292381017698
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.46.value_date",
+    "text": "28/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w563"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.6047619218506726,
+      0.17805775058755843,
+      0.6479135896204191,
+      0.1888292381017698
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.46.narration",
+    "text": "UPI-UDAAN OFFICE SUPPL-udaan@okzz-ZZBK0004453- 651140680448-PAYMENT",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w559",
+     "w560",
+     "w561",
+     "w566"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.11759259591540855,
+      0.17805775058755843,
+      0.409188690243356,
+      0.19951947370657036
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.46.ref_col",
+    "text": "651140680448",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w562"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.44685186447855246,
+      0.17805775058755843,
+      0.520826064198741,
+      0.1888292381017698
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.46.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.46.credit",
+    "text": "2,685.34",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w564"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.823673651016944,
+      0.17805775058755843,
+      0.8668254213192973,
+      0.1888292381017698
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.46.balance",
+    "text": "5,22,680.24",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w565"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.9124157246056211,
+      0.17805775058755843,
+      0.9709789659484087,
+      0.1888292381017698
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.47.txn_date",
+    "text": "28/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w567"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.050396826820889376,
+      0.20418943762151537,
+      0.09354862275639432,
+      0.21496092513572676
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.47.value_date",
+    "text": "28/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w573"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.6047619218506726,
+      0.20418943762151537,
+      0.6479135896204191,
+      0.21496092513572676
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.47.narration",
+    "text": "RTGS CR-ZZBK0006326-ANVAY OFFICE SUPPL- ZZBKRC2026062833584755",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w568",
+     "w569",
+     "w570",
+     "w571",
+     "w576"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.11759259591540855,
+      0.20418943762151537,
+      0.370815503340256,
+      0.22565116074052732
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.47.ref_col",
+    "text": "ZZBKRC2026062833584755",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w572"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.44685186447855246,
+      0.20418943762151537,
+      0.5898332768549558,
+      0.21496092513572676
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.47.debit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.47.credit",
+    "text": "27,091.80",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w574"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.8175090831072916,
+      0.20418943762151537,
+      0.8668253187866907,
+      0.21496092513572676
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.47.balance",
+    "text": "5,49,772.04",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w575"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.9124157246056211,
+      0.20418943762151537,
+      0.9709789659484087,
+      0.21496092513572676
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "txn_date": {
+    "name": "lines.48.txn_date",
+    "text": "28/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w577"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.050396826820889376,
+      0.23032112465547233,
+      0.09354862275639432,
+      0.24109261216968372
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "value_date": {
+    "name": "lines.48.value_date",
+    "text": "28/06/26",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w584"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.6047619218506726,
+      0.23032112465547233,
+      0.6479135896204191,
+      0.24109261216968372
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "narration": {
+    "name": "lines.48.narration",
+    "text": "NEFT DR-ZZBK0006186-AARAV TEXTILES PVT L- ZZBKN26062875726-VENDOR",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w578",
+     "w579",
+     "w580",
+     "w581",
+     "w582",
+     "w587"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.11759259591540855,
+      0.23032112465547233,
+      0.37513955969422724,
+      0.2517828477744843
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "ref_col": {
+    "name": "lines.48.ref_col",
+    "text": "ZZBKN26062875726",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w583"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.44685186447855246,
+      0.23032112465547233,
+      0.5510056654391805,
+      0.24109261216968372
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "debit": {
+    "name": "lines.48.debit",
+    "text": "18,757.33",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w585"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.7200752179202389,
+      0.23032112465547233,
+      0.7693914023333346,
+      0.24109261216968372
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "credit": {
+    "name": "lines.48.credit",
+    "text": null,
+    "status": "MISSING",
+    "word_ids": [],
+    "evidence": null,
+    "match_score": 0.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   },
+   "balance": {
+    "name": "lines.48.balance",
+    "text": "5,31,014.71",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w586"
+    ],
+    "evidence": {
+     "page": 2,
+     "bbox": [
+      0.9124157246056211,
+      0.23032112465547233,
+      0.9709789659484087,
+      0.24109261216968372
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "table"
+    ],
+    "conflicts": {}
+   }
+  }
+ ],
+ "flags": [
+  {
+   "check_id": "S6",
+   "severity": "WARNING",
+   "message": "Row 19: same date, amount and reference as an earlier row; possible duplicate entry.",
+   "fields": [
+    "lines.18.narration"
+   ]
+  },
+  {
+   "check_id": "S1",
+   "severity": "BLOCKING",
+   "message": "Row 31: previous balance 13,81,491.59 - debit 0.00 + credit 3,809.70 = 13,85,301.29, but the statement prints 13,86,301.29.",
+   "fields": [
+    "lines.30.balance"
+   ]
+  },
+  {
+   "check_id": "S1",
+   "severity": "BLOCKING",
+   "message": "Row 32: previous balance 13,86,301.29 - debit 7,76,004.27 + credit 0.00 = 6,10,297.02, but the statement prints 6,09,297.02.",
+   "fields": [
+    "lines.31.balance"
+   ]
+  }
+ ],
+ "page_sources": [
+  "pdf_text",
+  "pdf_text",
+  "pdf_text"
+ ],
+ "llm": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "pages": 3,
+  "llm_calls": 2,
+  "table_pages": 3,
+  "fallback_pages": [],
+  "cache_hit": true,
+  "prompt_tokens": 5256,
+  "completion_tokens": 459
+ },
+ "qr": null,
+ "seconds": 0.28,
+ "statement_lines": [
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 1,
+   "txn_date": "2026-06-01",
+   "value_date": "2026-06-01",
+   "narration_raw": "UPI-MEGHDOOT IT SERVIC-meghdoot@okzz-ZZBK0006827- 692319053382-PURCHASE",
+   "channel": "UPI",
+   "ref_no": "692319053382",
+   "bank_ref": "692319053382",
+   "cheque_no": null,
+   "counterparty_hint": "MEGHDOOT IT SERVIC",
+   "amount": "600516.21",
+   "direction": "DR",
+   "balance": "123481.97",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.13173339630008926,
+    0.9709789659484087,
+    0.15319511941910122
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 2,
+   "txn_date": "2026-06-01",
+   "value_date": "2026-06-01",
+   "narration_raw": "UPI-VISTAR TEXTILES TR-vistar@okzz-ZZBK0001576- 633530393216-PURCHASE",
+   "channel": "UPI",
+   "ref_no": "633530393216",
+   "bank_ref": "633530393216",
+   "cheque_no": null,
+   "counterparty_hint": "VISTAR TEXTILES TR",
+   "amount": "44971.11",
+   "direction": "DR",
+   "balance": "78510.86",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.15786508333404622,
+    0.9709789659484087,
+    0.17932680645305818
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 3,
+   "txn_date": "2026-06-02",
+   "value_date": "2026-06-02",
+   "narration_raw": "CREDIT INTEREST TILL 02-JUN-2026",
+   "channel": "INTEREST",
+   "ref_no": null,
+   "bank_ref": null,
+   "cheque_no": null,
+   "counterparty_hint": null,
+   "amount": "658.71",
+   "direction": "CR",
+   "balance": "79169.57",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.1839967703680032,
+    0.9709789659484087,
+    0.19476825788221455
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 4,
+   "txn_date": "2026-06-02",
+   "value_date": "2026-06-02",
+   "narration_raw": "NEFT CR-ZZBK0004196-ANVAY LOGISTICS ENTE- ZZBKN26060234211",
+   "channel": "NEFT",
+   "ref_no": "ZZBKN26060234211",
+   "bank_ref": "ZZBKN26060234211",
+   "cheque_no": null,
+   "counterparty_hint": "ANVAY LOGISTICS ENTE",
+   "amount": "698357.44",
+   "direction": "CR",
+   "balance": "777527.01",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.19943822179715956,
+    0.9709789659484087,
+    0.22089994491617151
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 5,
+   "txn_date": "2026-06-03",
+   "value_date": "2026-06-03",
+   "narration_raw": "NEFT DR-ZZBK0001708-SHAKTI FABRICATION L- ZZBKN26060359196-VENDOR",
+   "channel": "NEFT",
+   "ref_no": "ZZBKN26060359196",
+   "bank_ref": "ZZBKN26060359196",
+   "cheque_no": null,
+   "counterparty_hint": "SHAKTI FABRICATION L",
+   "amount": "3728.36",
+   "direction": "DR",
+   "balance": "773798.65",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.22556990883111652,
+    0.9709789659484087,
+    0.24703163195012848
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 6,
+   "txn_date": "2026-06-03",
+   "value_date": "2026-06-03",
+   "narration_raw": "NEFT CR-ZZBK0006592-UDAAN FABRICATION IN- ZZBKN26060310992",
+   "channel": "NEFT",
+   "ref_no": "ZZBKN26060310992",
+   "bank_ref": "ZZBKN26060310992",
+   "cheque_no": null,
+   "counterparty_hint": "UDAAN FABRICATION IN",
+   "amount": "85127.90",
+   "direction": "CR",
+   "balance": "858926.55",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.25170159586507346,
+    0.9709789659484087,
+    0.2731633189840854
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 7,
+   "txn_date": "2026-06-04",
+   "value_date": "2026-06-04",
+   "narration_raw": "IMPS-670886090907-SHAKTI TEXTILES PV-ZENITH- XXXXXX5058-ADVANCE",
+   "channel": "IMPS",
+   "ref_no": "670886090907",
+   "bank_ref": "670886090907",
+   "cheque_no": null,
+   "counterparty_hint": "SHAKTI TEXTILES PV",
+   "amount": "867147.66",
+   "direction": "CR",
+   "balance": "1726074.21",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.2778332828990304,
+    0.9709789659484087,
+    0.2992950060180424
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 8,
+   "txn_date": "2026-06-05",
+   "value_date": "2026-06-05",
+   "narration_raw": "UPI-MEGHDOOT IT SERVIC-meghdoot@okzz-ZZBK0003226- 643028672980-PURCHASE",
+   "channel": "UPI",
+   "ref_no": "643028672980",
+   "bank_ref": "643028672980",
+   "cheque_no": null,
+   "counterparty_hint": "MEGHDOOT IT SERVIC",
+   "amount": "39067.72",
+   "direction": "DR",
+   "balance": "1687006.49",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.3039649699329874,
+    0.9709789659484087,
+    0.32542667492754934
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 9,
+   "txn_date": "2026-06-06",
+   "value_date": "2026-06-06",
+   "narration_raw": "UPI-SHAKTI ELECTRICALS-shakti@okzz-ZZBK0008185- 669744479282-PURCHASE",
+   "channel": "UPI",
+   "ref_no": "669744479282",
+   "bank_ref": "669744479282",
+   "cheque_no": null,
+   "counterparty_hint": "SHAKTI ELECTRICALS",
+   "amount": "1234.48",
+   "direction": "DR",
+   "balance": "1685772.01",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.33009665696694435,
+    0.9709789659484087,
+    0.3515583619615063
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 10,
+   "txn_date": "2026-06-08",
+   "value_date": "2026-06-08",
+   "narration_raw": "UPI-KAVERI FABRICATION-kaveri@okzz-ZZBK0007449- 632163944027-PURCHASE",
+   "channel": "UPI",
+   "ref_no": "632163944027",
+   "bank_ref": "632163944027",
+   "cheque_no": null,
+   "counterparty_hint": "KAVERI FABRICATION",
+   "amount": "2983.52",
+   "direction": "DR",
+   "balance": "1682788.49",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.3562283440009013,
+    0.9709789659484087,
+    0.3776900489954632
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 11,
+   "txn_date": "2026-06-09",
+   "value_date": "2026-06-09",
+   "narration_raw": "CHQ PAID-MICR CTS-SHAKTI TEXTILES INDUST",
+   "channel": "CHEQUE",
+   "ref_no": null,
+   "bank_ref": "980323",
+   "cheque_no": "980323",
+   "counterparty_hint": "SHAKTI TEXTILES INDUST",
+   "amount": "70288.18",
+   "direction": "DR",
+   "balance": "1612500.31",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.38236003103485827,
+    0.9709789659484087,
+    0.39313150042461964
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 12,
+   "txn_date": "2026-06-10",
+   "value_date": "2026-06-10",
+   "narration_raw": "CREDIT INTEREST TILL 10-JUN-2026",
+   "channel": "INTEREST",
+   "ref_no": null,
+   "bank_ref": null,
+   "cheque_no": null,
+   "counterparty_hint": null,
+   "amount": "704.76",
+   "direction": "CR",
+   "balance": "1613205.07",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.3978014462151146,
+    0.9709789659484087,
+    0.40857291560487596
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 13,
+   "txn_date": "2026-06-11",
+   "value_date": "2026-06-11",
+   "narration_raw": "UPI-SAHYADRI IT SERVIC-sahyadri@okzz-ZZBK0009750- 636312244442-PAYMENT",
+   "channel": "UPI",
+   "ref_no": "636312244442",
+   "bank_ref": "636312244442",
+   "cheque_no": null,
+   "counterparty_hint": "SAHYADRI IT SERVIC",
+   "amount": "730414.02",
+   "direction": "CR",
+   "balance": "2343619.09",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.41324289764427097,
+    0.9709789659484087,
+    0.4347046026388329
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 14,
+   "txn_date": "2026-06-12",
+   "value_date": "2026-06-12",
+   "narration_raw": "UPI-TRIKON HARDWARE TR-trikon@okzz-ZZBK0009327- 652557640047-PURCHASE",
+   "channel": "UPI",
+   "ref_no": "652557640047",
+   "bank_ref": "652557640047",
+   "cheque_no": null,
+   "counterparty_hint": "TRIKON HARDWARE TR",
+   "amount": "76277.49",
+   "direction": "DR",
+   "balance": "2267341.60",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.43937458467822793,
+    0.9709789659484087,
+    0.4608362896727899
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 15,
+   "txn_date": "2026-06-12",
+   "value_date": "2026-06-12",
+   "narration_raw": "NEFT DR-ZZBK0003105-AARAV FABRICATION TR- ZZBKN26061261565-VENDOR",
+   "channel": "NEFT",
+   "ref_no": "ZZBKN26061261565",
+   "bank_ref": "ZZBKN26061261565",
+   "cheque_no": null,
+   "counterparty_hint": "AARAV FABRICATION TR",
+   "amount": "2455.29",
+   "direction": "DR",
+   "balance": "2264886.31",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.4655062717121849,
+    0.9709789659484087,
+    0.48696797670674685
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 16,
+   "txn_date": "2026-06-12",
+   "value_date": "2026-06-12",
+   "narration_raw": "UPI-SARTHI FABRICATION-sarthi@okzz-ZZBK0002588- 621030780816-PURCHASE",
+   "channel": "UPI",
+   "ref_no": "621030780816",
+   "bank_ref": "621030780816",
+   "cheque_no": null,
+   "counterparty_hint": "SARTHI FABRICATION",
+   "amount": "622927.22",
+   "direction": "DR",
+   "balance": "1641959.09",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.49163795874614186,
+    0.9709789659484087,
+    0.5130996637407038
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 17,
+   "txn_date": "2026-06-13",
+   "value_date": "2026-06-13",
+   "narration_raw": "UPI-UDAAN LOGISTICS EN-udaan@okzz-ZZBK0001996- 698990836619-PURCHASE",
+   "channel": "UPI",
+   "ref_no": "698990836619",
+   "bank_ref": "698990836619",
+   "cheque_no": null,
+   "counterparty_hint": "UDAAN LOGISTICS EN",
+   "amount": "83462.84",
+   "direction": "DR",
+   "balance": "1558496.25",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.5177696457800988,
+    0.9709789659484087,
+    0.5392313507746608
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 18,
+   "txn_date": "2026-06-13",
+   "value_date": "2026-06-13",
+   "narration_raw": "SMS CHGS QTR",
+   "channel": "CHARGE",
+   "ref_no": null,
+   "bank_ref": null,
+   "cheque_no": null,
+   "counterparty_hint": null,
+   "amount": "17.70",
+   "direction": "DR",
+   "balance": "1558478.55",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.5439013328140557,
+    0.9709789659484087,
+    0.5546728022038171
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 19,
+   "txn_date": "2026-06-13",
+   "value_date": "2026-06-13",
+   "narration_raw": "SMS CHGS QTR",
+   "channel": "CHARGE",
+   "ref_no": null,
+   "bank_ref": null,
+   "cheque_no": null,
+   "counterparty_hint": null,
+   "amount": "17.70",
+   "direction": "DR",
+   "balance": "1558460.85",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.5593427842432122,
+    0.9709789659484087,
+    0.5701142536329735
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": [
+    "S6"
+   ]
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 20,
+   "txn_date": "2026-06-14",
+   "value_date": "2026-06-14",
+   "narration_raw": "NEFT DR-ZZBK0001805-SHAKTI IT SERVICES E- ZZBKN26061498858-VENDOR",
+   "channel": "NEFT",
+   "ref_no": "ZZBKN26061498858",
+   "bank_ref": "ZZBKN26061498858",
+   "cheque_no": null,
+   "counterparty_hint": "SHAKTI IT SERVICES E",
+   "amount": "7771.36",
+   "direction": "DR",
+   "balance": "1550689.49",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.5747842356723685,
+    0.9709789659484087,
+    0.5962459406669305
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 21,
+   "txn_date": "2026-06-14",
+   "value_date": "2026-06-14",
+   "narration_raw": "NEFT CR-ZZBK0004328-MEGHDOOT PACKAGING I- ZZBKN26061473094",
+   "channel": "NEFT",
+   "ref_no": "ZZBKN26061473094",
+   "bank_ref": "ZZBKN26061473094",
+   "cheque_no": null,
+   "counterparty_hint": "MEGHDOOT PACKAGING I",
+   "amount": "841895.66",
+   "direction": "CR",
+   "balance": "2392585.15",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.6009159589552255,
+    0.9709789659484087,
+    0.6223776639497874
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 22,
+   "txn_date": "2026-06-15",
+   "value_date": "2026-06-15",
+   "narration_raw": "SMS CHGS QTR",
+   "channel": "CHARGE",
+   "ref_no": null,
+   "bank_ref": null,
+   "cheque_no": null,
+   "counterparty_hint": null,
+   "amount": "17.70",
+   "direction": "DR",
+   "balance": "2392567.45",
+   "page": 0,
+   "bbox": [
+    0.050396826820889376,
+    0.6270476822380825,
+    0.9709789659484087,
+    0.6378191153789439
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 23,
+   "txn_date": "2026-06-15",
+   "value_date": "2026-06-15",
+   "narration_raw": "UPI-SHAKTI OFFICE SUPP-shakti@okzz-ZZBK0002917- 670922920907-PAYMENT",
+   "channel": "UPI",
+   "ref_no": "670922920907",
+   "bank_ref": "670922920907",
+   "cheque_no": null,
+   "counterparty_hint": "SHAKTI OFFICE SUPP",
+   "amount": "2049.10",
+   "direction": "CR",
+   "balance": "2394616.55",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.14717484772924566,
+    0.9709789659484087,
+    0.16863657084825762
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 24,
+   "txn_date": "2026-06-15",
+   "value_date": "2026-06-15",
+   "narration_raw": "CREDIT INTEREST TILL 15-JUN-2026",
+   "channel": "INTEREST",
+   "ref_no": null,
+   "bank_ref": null,
+   "cheque_no": null,
+   "counterparty_hint": null,
+   "amount": "528.57",
+   "direction": "CR",
+   "balance": "2395145.12",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.17330653476320262,
+    0.9709789659484087,
+    0.184078022277414
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 25,
+   "txn_date": "2026-06-17",
+   "value_date": "2026-06-17",
+   "narration_raw": "UPI-KAVERI LOGISTICS P-kaveri@okzz-ZZBK0002945- 623464967003-PAYMENT",
+   "channel": "UPI",
+   "ref_no": "623464967003",
+   "bank_ref": "623464967003",
+   "cheque_no": null,
+   "counterparty_hint": "KAVERI LOGISTICS P",
+   "amount": "31512.17",
+   "direction": "CR",
+   "balance": "2426657.29",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.188747986192359,
+    0.9709789659484087,
+    0.21020970931137095
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 26,
+   "txn_date": "2026-06-18",
+   "value_date": "2026-06-18",
+   "narration_raw": "UPI-UDAAN FABRICATION-udaan@okzz-ZZBK0008353- 686961144316-PURCHASE",
+   "channel": "UPI",
+   "ref_no": "686961144316",
+   "bank_ref": "686961144316",
+   "cheque_no": null,
+   "counterparty_hint": "UDAAN FABRICATION",
+   "amount": "35697.58",
+   "direction": "DR",
+   "balance": "2390959.71",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.21487967322631596,
+    0.9709789659484087,
+    0.23634139634532791
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 27,
+   "txn_date": "2026-06-18",
+   "value_date": "2026-06-18",
+   "narration_raw": "UPI-ANVAY POLYMERS IND-anvay@okzz-ZZBK0009487- 641832776762-PAYMENT",
+   "channel": "UPI",
+   "ref_no": "641832776762",
+   "bank_ref": "641832776762",
+   "cheque_no": null,
+   "counterparty_hint": "ANVAY POLYMERS IND",
+   "amount": "3592.58",
+   "direction": "CR",
+   "balance": "2394552.29",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.2410113602602729,
+    0.9709789659484087,
+    0.2624730833792849
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 28,
+   "txn_date": "2026-06-18",
+   "value_date": "2026-06-18",
+   "narration_raw": "CHQ PAID-MICR CTS-SAHYADRI LOGISTICS ENT",
+   "channel": "CHEQUE",
+   "ref_no": null,
+   "bank_ref": "307934",
+   "cheque_no": "307934",
+   "counterparty_hint": "SAHYADRI LOGISTICS ENT",
+   "amount": "837867.44",
+   "direction": "DR",
+   "balance": "1556684.85",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.26714304729422983,
+    0.9709789659484087,
+    0.27791453480844125
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 29,
+   "txn_date": "2026-06-18",
+   "value_date": "2026-06-18",
+   "narration_raw": "UPI-VISTAR HARDWARE LL-vistar@okzz-ZZBK0006788- 686638958168-PURCHASE",
+   "channel": "UPI",
+   "ref_no": "686638958168",
+   "bank_ref": "686638958168",
+   "cheque_no": null,
+   "counterparty_hint": "VISTAR HARDWARE LL",
+   "amount": "156711.99",
+   "direction": "DR",
+   "balance": "1399972.86",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.28258449872338626,
+    0.9709789659484087,
+    0.3040462218423982
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 30,
+   "txn_date": "2026-06-21",
+   "value_date": "2026-06-21",
+   "narration_raw": "NEFT DR-ZZBK0003454-AARAV PACKAGING INDU- ZZBKN26062183652-VENDOR",
+   "channel": "NEFT",
+   "ref_no": "ZZBKN26062183652",
+   "bank_ref": "ZZBKN26062183652",
+   "cheque_no": null,
+   "counterparty_hint": "AARAV PACKAGING INDU",
+   "amount": "18481.27",
+   "direction": "DR",
+   "balance": "1381491.59",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.3087161857573432,
+    0.9709789659484087,
+    0.3301778907519051
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 31,
+   "txn_date": "2026-06-22",
+   "value_date": "2026-06-22",
+   "narration_raw": "NEFT CR-ZZBK0009568-TRIKON PACKAGING LLP- ZZBKN26062282931",
+   "channel": "NEFT",
+   "ref_no": "ZZBKN26062282931",
+   "bank_ref": "ZZBKN26062282931",
+   "cheque_no": null,
+   "counterparty_hint": "TRIKON PACKAGING LLP",
+   "amount": "3809.70",
+   "direction": "CR",
+   "balance": "1386301.29",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.3348478727913001,
+    0.9709789659484087,
+    0.3563095777858621
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": [
+    "S1"
+   ]
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 32,
+   "txn_date": "2026-06-22",
+   "value_date": "2026-06-22",
+   "narration_raw": "CHQ PAID-MICR CTS-SARTHI STATIONERS LLP",
+   "channel": "CHEQUE",
+   "ref_no": null,
+   "bank_ref": "259254",
+   "cheque_no": "259254",
+   "counterparty_hint": "SARTHI STATIONERS LLP",
+   "amount": "776004.27",
+   "direction": "DR",
+   "balance": "609297.02",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.3609795598252571,
+    0.9709789659484087,
+    0.37175102921501846
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": [
+    "S1"
+   ]
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 33,
+   "txn_date": "2026-06-23",
+   "value_date": "2026-06-23",
+   "narration_raw": "NEFT CR-ZZBK0001400-NIMBUS OFFICE SUPPLI- ZZBKN26062323458",
+   "channel": "NEFT",
+   "ref_no": "ZZBKN26062323458",
+   "bank_ref": "ZZBKN26062323458",
+   "cheque_no": null,
+   "counterparty_hint": "NIMBUS OFFICE SUPPLI",
+   "amount": "501567.44",
+   "direction": "CR",
+   "balance": "1110864.46",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.37642101125441346,
+    0.9709789659484087,
+    0.3978826800000754
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 34,
+   "txn_date": "2026-06-23",
+   "value_date": "2026-06-23",
+   "narration_raw": "UPI-SHAKTI LOGISTICS P-shakti@okzz-ZZBK0003860- 697162324232-PURCHASE",
+   "channel": "UPI",
+   "ref_no": "697162324232",
+   "bank_ref": "697162324232",
+   "cheque_no": null,
+   "counterparty_hint": "SHAKTI LOGISTICS P",
+   "amount": "993.35",
+   "direction": "DR",
+   "balance": "1109871.11",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.40255266203947043,
+    0.9709789659484087,
+    0.42401436703403234
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 35,
+   "txn_date": "2026-06-23",
+   "value_date": "2026-06-23",
+   "narration_raw": "NEFT DR-ZZBK0003056-SAHYADRI LOGISTICS I- ZZBKN26062346809-VENDOR",
+   "channel": "NEFT",
+   "ref_no": "ZZBKN26062346809",
+   "bank_ref": "ZZBKN26062346809",
+   "cheque_no": null,
+   "counterparty_hint": "SAHYADRI LOGISTICS I",
+   "amount": "23181.72",
+   "direction": "DR",
+   "balance": "1086689.39",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.42868434907342734,
+    0.9709789659484087,
+    0.4501460540679893
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 36,
+   "txn_date": "2026-06-24",
+   "value_date": "2026-06-24",
+   "narration_raw": "NEFT DR-ZZBK0009192-MEGHDOOT OFFICE SUPP- ZZBKN26062434138-VENDOR",
+   "channel": "NEFT",
+   "ref_no": "ZZBKN26062434138",
+   "bank_ref": "ZZBKN26062434138",
+   "cheque_no": null,
+   "counterparty_hint": "MEGHDOOT OFFICE SUPP",
+   "amount": "481890.43",
+   "direction": "DR",
+   "balance": "604798.96",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.4548160361073843,
+    0.9709789659484087,
+    0.47627774110194626
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 37,
+   "txn_date": "2026-06-24",
+   "value_date": "2026-06-24",
+   "narration_raw": "NEFT DR-ZZBK0003795-PRAGATI IT SERVICES- ZZBKN26062417554-VENDOR",
+   "channel": "NEFT",
+   "ref_no": "ZZBKN26062417554",
+   "bank_ref": "ZZBKN26062417554",
+   "cheque_no": null,
+   "counterparty_hint": "PRAGATI IT SERVICES",
+   "amount": "13081.61",
+   "direction": "DR",
+   "balance": "591717.35",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.48094772314134127,
+    0.9709789659484087,
+    0.5024094281359032
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 38,
+   "txn_date": "2026-06-24",
+   "value_date": "2026-06-24",
+   "narration_raw": "IMPS-688440120115-NIMBUS IT SERVICES-ZENITH- XXXXXX5162-ADVANCE",
+   "channel": "IMPS",
+   "ref_no": "688440120115",
+   "bank_ref": "688440120115",
+   "cheque_no": null,
+   "counterparty_hint": "NIMBUS IT SERVICES",
+   "amount": "6174.57",
+   "direction": "CR",
+   "balance": "597891.92",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.5070794101752982,
+    0.9709789659484087,
+    0.5285411151698601
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 39,
+   "txn_date": "2026-06-24",
+   "value_date": "2026-06-24",
+   "narration_raw": "UPI-TRIKON LOGISTICS L-trikon@okzz-ZZBK0003575- 675110008073-PURCHASE",
+   "channel": "UPI",
+   "ref_no": "675110008073",
+   "bank_ref": "675110008073",
+   "cheque_no": null,
+   "counterparty_hint": "TRIKON LOGISTICS L",
+   "amount": "3799.64",
+   "direction": "DR",
+   "balance": "594092.28",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.5332110972092552,
+    0.9709789659484087,
+    0.5546728022038171
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 40,
+   "txn_date": "2026-06-25",
+   "value_date": "2026-06-25",
+   "narration_raw": "UPI-ANVAY OFFICE SUPPL-anvay@okzz-ZZBK0003930- 660755546604-PURCHASE",
+   "channel": "UPI",
+   "ref_no": "660755546604",
+   "bank_ref": "660755546604",
+   "cheque_no": null,
+   "counterparty_hint": "ANVAY OFFICE SUPPL",
+   "amount": "36343.07",
+   "direction": "DR",
+   "balance": "557749.21",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.5593427842432122,
+    0.9709789659484087,
+    0.5808044892377741
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 41,
+   "txn_date": "2026-06-25",
+   "value_date": "2026-06-25",
+   "narration_raw": "NEFT DR-ZZBK0009368-PRAGATI LOGISTICS EN- ZZBKN26062531064-VENDOR",
+   "channel": "NEFT",
+   "ref_no": "ZZBKN26062531064",
+   "bank_ref": "ZZBKN26062531064",
+   "cheque_no": null,
+   "counterparty_hint": "PRAGATI LOGISTICS EN",
+   "amount": "3906.70",
+   "direction": "DR",
+   "balance": "553842.51",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.5854744712771691,
+    0.9709789659484087,
+    0.606936176271731
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 42,
+   "txn_date": "2026-06-26",
+   "value_date": "2026-06-26",
+   "narration_raw": "UPI-AARAV LOGISTICS LL-aarav@okzz-ZZBK0005213- 642868179374-PAYMENT",
+   "channel": "UPI",
+   "ref_no": "642868179374",
+   "bank_ref": "642868179374",
+   "cheque_no": null,
+   "counterparty_hint": "AARAV LOGISTICS LL",
+   "amount": "4379.82",
+   "direction": "CR",
+   "balance": "558222.33",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.6116062308089261,
+    0.9709789659484087,
+    0.633067899554588
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 43,
+   "txn_date": "2026-06-26",
+   "value_date": "2026-06-26",
+   "narration_raw": "IMPS-650780503958-PRAGATI FABRICATIO-ZENITH- XXXXXX5524-ADVANCE",
+   "channel": "IMPS",
+   "ref_no": "650780503958",
+   "bank_ref": "650780503958",
+   "cheque_no": null,
+   "counterparty_hint": "PRAGATI FABRICATIO",
+   "amount": "5078.95",
+   "direction": "CR",
+   "balance": "563301.28",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.637737917842883,
+    0.9709789659484087,
+    0.6591995865885449
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 44,
+   "txn_date": "2026-06-26",
+   "value_date": "2026-06-26",
+   "narration_raw": "IMPS-642211754936-AARAV TEXTILES LLP-ZENITH- XXXXXX7983-ADVANCE",
+   "channel": "IMPS",
+   "ref_no": "642211754936",
+   "bank_ref": "642211754936",
+   "cheque_no": null,
+   "counterparty_hint": "AARAV TEXTILES LLP",
+   "amount": "2735.23",
+   "direction": "CR",
+   "balance": "566036.51",
+   "page": 1,
+   "bbox": [
+    0.050396826820889376,
+    0.66386960487684,
+    0.9709789659484087,
+    0.6853312736225019
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 45,
+   "txn_date": "2026-06-27",
+   "value_date": "2026-06-27",
+   "narration_raw": "SMS CHGS QTR",
+   "channel": "CHARGE",
+   "ref_no": null,
+   "bank_ref": null,
+   "cheque_no": null,
+   "counterparty_hint": null,
+   "amount": "17.70",
+   "direction": "DR",
+   "balance": "566018.81",
+   "page": 2,
+   "bbox": [
+    0.050396826820889376,
+    0.14717484772924566,
+    0.9709789659484087,
+    0.15794633524345703
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 46,
+   "txn_date": "2026-06-27",
+   "value_date": "2026-06-27",
+   "narration_raw": "CHQ PAID-MICR CTS-SHAKTI PACKAGING ENTER",
+   "channel": "CHEQUE",
+   "ref_no": null,
+   "bank_ref": "027035",
+   "cheque_no": "027035",
+   "counterparty_hint": "SHAKTI PACKAGING ENTER",
+   "amount": "46023.91",
+   "direction": "DR",
+   "balance": "519994.90",
+   "page": 2,
+   "bbox": [
+    0.050396826820889376,
+    0.16261629915840203,
+    0.9709789659484087,
+    0.17338778667261343
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 47,
+   "txn_date": "2026-06-28",
+   "value_date": "2026-06-28",
+   "narration_raw": "UPI-UDAAN OFFICE SUPPL-udaan@okzz-ZZBK0004453- 651140680448-PAYMENT",
+   "channel": "UPI",
+   "ref_no": "651140680448",
+   "bank_ref": "651140680448",
+   "cheque_no": null,
+   "counterparty_hint": "UDAAN OFFICE SUPPL",
+   "amount": "2685.34",
+   "direction": "CR",
+   "balance": "522680.24",
+   "page": 2,
+   "bbox": [
+    0.050396826820889376,
+    0.17805775058755843,
+    0.9709789659484087,
+    0.19951947370657036
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 48,
+   "txn_date": "2026-06-28",
+   "value_date": "2026-06-28",
+   "narration_raw": "RTGS CR-ZZBK0006326-ANVAY OFFICE SUPPL- ZZBKRC2026062833584755",
+   "channel": "RTGS",
+   "ref_no": "ZZBKRC2026062833584755",
+   "bank_ref": "ZZBKRC2026062833584755",
+   "cheque_no": null,
+   "counterparty_hint": "ANVAY OFFICE SUPPL",
+   "amount": "27091.80",
+   "direction": "CR",
+   "balance": "549772.04",
+   "page": 2,
+   "bbox": [
+    0.050396826820889376,
+    0.20418943762151537,
+    0.9709789659484087,
+    0.22565116074052732
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  },
+  {
+   "statement_id": "bb2e17f5525a96f3",
+   "bank_hint": "Zenith Co-operative Bank Ltd",
+   "account_last4": "8384",
+   "line_no": 49,
+   "txn_date": "2026-06-28",
+   "value_date": "2026-06-28",
+   "narration_raw": "NEFT DR-ZZBK0006186-AARAV TEXTILES PVT L- ZZBKN26062875726-VENDOR",
+   "channel": "NEFT",
+   "ref_no": "ZZBKN26062875726",
+   "bank_ref": "ZZBKN26062875726",
+   "cheque_no": null,
+   "counterparty_hint": "AARAV TEXTILES PVT L",
+   "amount": "18757.33",
+   "direction": "DR",
+   "balance": "531014.71",
+   "page": 2,
+   "bbox": [
+    0.050396826820889376,
+    0.23032112465547233,
+    0.9709789659484087,
+    0.2517828477744843
+   ],
+   "field_status": "GROUNDED",
+   "flag_ids": []
+  }
+ ],
+ "demo": {
+  "id": "stmt-0002",
+  "title": "Bank statement with a broken balance chain",
+  "note": "One row's printed balance does not equal previous balance - debit + credit. Check S1 flags that row (and the next, whose arithmetic it breaks).",
+  "pages": [
+   "stmt-0002-p0.png",
+   "stmt-0002-p1.png",
+   "stmt-0002-p2.png"
+  ],
+  "trust_note": null
+ }
+}

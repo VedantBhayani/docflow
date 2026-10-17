@@ -1,0 +1,1584 @@
+{
+ "path": "inv-0095.pdf",
+ "sha256": "a5501d040016fa28368b32b11a4860a52c54fc75211378bb4438570ace4decfa",
+ "kind": "invoice",
+ "status": "CLEAN",
+ "fields": {
+  "supplier_name": {
+   "name": "supplier_name",
+   "text": "Meghdoot Polymers Enterprises",
+   "status": "GROUNDED",
+   "word_ids": [
+    "w50",
+    "w51",
+    "w52"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.06047619218506725,
+     0.28436025983791524,
+     0.25167502392854707,
+     0.29741660614308657
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm"
+   ],
+   "conflicts": {}
+  },
+  "supplier_address": {
+   "name": "supplier_address",
+   "text": "Unit 140, Trade Centre, Hyderabad, Telangana",
+   "status": "GROUNDED",
+   "word_ids": [
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62",
+    "w63"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.06047619218506725,
+     0.29861390731098264,
+     0.3413410188357525,
+     0.311670253616154
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm"
+   ],
+   "conflicts": {}
+  },
+  "supplier_gstin": {
+   "name": "supplier_gstin",
+   "text": "36KPCCM1145U3ZT",
+   "status": "VERIFIED",
+   "word_ids": [
+    "w72"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.10901840921686108,
+     0.3128675547840501,
+     0.23597807647804597,
+     0.3259239010892214
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm",
+    "rules",
+    "qr"
+   ],
+   "conflicts": {}
+  },
+  "recipient_name": {
+   "name": "recipient_name",
+   "text": "Sarthi Stationers Industries Pvt Ltd",
+   "status": "GROUNDED",
+   "word_ids": [
+    "w53",
+    "w54",
+    "w55",
+    "w56",
+    "w57"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.5207672104825236,
+     0.28436025983791524,
+     0.7276763701816724,
+     0.29741660614308657
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm"
+   ],
+   "conflicts": {}
+  },
+  "recipient_address": {
+   "name": "recipient_address",
+   "text": "Unit 45, MIDC Road, Chennai, Tamil Nadu",
+   "status": "GROUNDED",
+   "word_ids": [
+    "w64",
+    "w65",
+    "w66",
+    "w67",
+    "w68",
+    "w69",
+    "w70"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.5207672104825236,
+     0.29861390731098264,
+     0.7746999767763646,
+     0.311670253616154
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm"
+   ],
+   "conflicts": {}
+  },
+  "recipient_gstin": {
+   "name": "recipient_gstin",
+   "text": "33WOMCS4463T1Z2",
+   "status": "VERIFIED",
+   "word_ids": [
+    "w74"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.5693094275143173,
+     0.3128675547840501,
+     0.6985134310024766,
+     0.3259239010892214
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm",
+    "rules",
+    "qr"
+   ],
+   "conflicts": {}
+  },
+  "invoice_no": {
+   "name": "invoice_no",
+   "text": "DFTEST-2627-0095",
+   "status": "VERIFIED",
+   "word_ids": [
+    "w32"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.15010190459443484,
+     0.2071530026921333,
+     0.27109459709555883,
+     0.22020934899730468
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm",
+    "rules",
+    "qr"
+   ],
+   "conflicts": {}
+  },
+  "invoice_date": {
+   "name": "invoice_date",
+   "text": "03/07/2026",
+   "status": "VERIFIED",
+   "word_ids": [
+    "w35"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.4704106789760479,
+     0.2071530026921333,
+     0.5376601751564519,
+     0.22020934899730468
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm",
+    "rules",
+    "qr"
+   ],
+   "conflicts": {}
+  },
+  "place_of_supply": {
+   "name": "place_of_supply",
+   "text": "Tamil Nadu (33)",
+   "status": "GROUNDED",
+   "word_ids": [
+    "w39",
+    "w40",
+    "w41"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.16132359854588257,
+     0.22140665016520072,
+     0.257655443276655,
+     0.2344629964703721
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm"
+   ],
+   "conflicts": {}
+  },
+  "reverse_charge": {
+   "name": "reverse_charge",
+   "text": "No",
+   "status": "GROUNDED",
+   "word_ids": [
+    "w44"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.4748859196585254,
+     0.22140665016520072,
+     0.4920611565985628,
+     0.2344629964703721
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm"
+   ],
+   "conflicts": {}
+  },
+  "irn": {
+   "name": "irn",
+   "text": "49949f5ae968fe0dd1c3f3925efdcc0359ca447ef25342322c7dab92d64157b3",
+   "status": "GROUNDED",
+   "word_ids": [
+    "w2"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.085350384676707,
+     0.034330232155355245,
+     0.4556679255961887,
+     0.04493850899719448
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm"
+   ],
+   "conflicts": {}
+  },
+  "taxable_total": {
+   "name": "taxable_total",
+   "text": "74,831.25",
+   "status": "VERIFIED",
+   "word_ids": [
+    "w180"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.06047619218506725,
+     0.5249350745951614,
+     0.11651747745179813,
+     0.5371753856629221
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm",
+    "rules"
+   ],
+   "conflicts": {}
+  },
+  "cgst_total": {
+   "name": "cgst_total",
+   "text": "0.00",
+   "status": "GROUNDED",
+   "word_ids": [
+    "w181"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.2015873072835575,
+     0.5249350745951614,
+     0.22610536558257233,
+     0.5371753856629221
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm"
+   ],
+   "conflicts": {}
+  },
+  "sgst_total": {
+   "name": "sgst_total",
+   "text": "0.00",
+   "status": "GROUNDED",
+   "word_ids": [
+    "w182"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.3359788454725959,
+     0.5249350745951614,
+     0.36049690377161064,
+     0.5371753856629221
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm"
+   ],
+   "conflicts": {}
+  },
+  "igst_total": {
+   "name": "igst_total",
+   "text": "6,299.51",
+   "status": "GROUNDED",
+   "word_ids": [
+    "w183"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.4703703836616342,
+     0.5249350745951614,
+     0.5194066027922705,
+     0.5371753856629221
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm"
+   ],
+   "conflicts": {}
+  },
+  "round_off": {
+   "name": "round_off",
+   "text": "0.24",
+   "status": "GROUNDED",
+   "word_ids": [
+    "w184"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.6047619218506726,
+     0.5249350745951614,
+     0.6292800314159906,
+     0.5371753856629221
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm"
+   ],
+   "conflicts": {}
+  },
+  "grand_total": {
+   "name": "grand_total",
+   "text": "81,131.00",
+   "status": "VERIFIED",
+   "word_ids": [
+    "w185"
+   ],
+   "evidence": {
+    "page": 0,
+    "bbox": [
+     0.7391534600397108,
+     0.5249350745951614,
+     0.7951948606556243,
+     0.5371753856629221
+    ]
+   },
+   "match_score": 100.0,
+   "sources": [
+    "llm",
+    "rules",
+    "qr"
+   ],
+   "conflicts": {}
+  }
+ },
+ "lines": [
+  {
+   "description": {
+    "name": "lines.0.description",
+    "text": "LED panel light 18W",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w92",
+     "w93",
+     "w94",
+     "w95"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.08735449982287492,
+      0.38714981568884294,
+      0.20219624843445527,
+      0.39939012675660357
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "hsn": {
+    "name": "lines.0.hsn",
+    "text": "94051900",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w96"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.3359788454725959,
+      0.38714981568884294,
+      0.3920200922895992,
+      0.39939012675660357
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "qty": {
+    "name": "lines.0.qty",
+    "text": "1.00",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w97"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.4166137683860189,
+      0.38714981568884294,
+      0.441131877951337,
+      0.39939012675660357
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "uqc": {
+    "name": "lines.0.uqc",
+    "text": "NOS",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w98"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.4636508067521823,
+      0.38714981568884294,
+      0.49095329178370334,
+      0.39939012675660357
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "unit_price": {
+    "name": "lines.0.unit_price",
+    "text": "668.85",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w99"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.5106878451183458,
+      0.38714981568884294,
+      0.549216317654218,
+      0.39939012675660357
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "taxable_value": {
+    "name": "lines.0.taxable_value",
+    "text": "668.85",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w100"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.5913227680317688,
+      0.38714981568884294,
+      0.629851240567641,
+      0.39939012675660357
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "gst_rate": {
+    "name": "lines.0.gst_rate",
+    "text": "18%",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w101"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6988359985829994,
+      0.38714981568884294,
+      0.7240470747703655,
+      0.39939012675660357
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "cgst": {
+    "name": "lines.0.cgst",
+    "text": "0.00",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w102"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7525926138586148,
+      0.38714981568884294,
+      0.7771107234239328,
+      0.39939012675660357
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "sgst": {
+    "name": "lines.0.sgst",
+    "text": "0.00",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w103"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.8298677483173118,
+      0.38714981568884294,
+      0.8543858578826299,
+      0.39939012675660357
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "igst": {
+    "name": "lines.0.igst",
+    "text": "120.39",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w104"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9071428827760089,
+      0.38714981568884294,
+      0.9456711502466678,
+      0.39939012675660357
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "description": {
+    "name": "lines.1.description",
+    "text": "Annual IT support services",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w106",
+     "w107",
+     "w108",
+     "w109"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.08735449982287492,
+      0.40615467898626617,
+      0.2365038636849501,
+      0.4183949900540268
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "hsn": {
+    "name": "lines.1.hsn",
+    "text": "998713",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w110"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.3359788454725959,
+      0.40615467898626617,
+      0.3780097805853484,
+      0.4183949900540268
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "qty": {
+    "name": "lines.1.qty",
+    "text": "1.00",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w111"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.4166137683860189,
+      0.40615467898626617,
+      0.441131877951337,
+      0.4183949900540268
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "uqc": {
+    "name": "lines.1.uqc",
+    "text": "OTH",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w112"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.4636508067521823,
+      0.40615467898626617,
+      0.4902477136510375,
+      0.4183949900540268
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "unit_price": {
+    "name": "lines.1.unit_price",
+    "text": "19,007.63",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w113"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.5106878451183458,
+      0.40615467898626617,
+      0.5667292457342591,
+      0.4183949900540268
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "taxable_value": {
+    "name": "lines.1.taxable_value",
+    "text": "19,007.63",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w114"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.5913227680317688,
+      0.40615467898626617,
+      0.6473641686476821,
+      0.4183949900540268
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "gst_rate": {
+    "name": "lines.1.gst_rate",
+    "text": "18%",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w115"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6988359985829994,
+      0.40615467898626617,
+      0.7240470747703655,
+      0.4183949900540268
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "cgst": {
+    "name": "lines.1.cgst",
+    "text": "0.00",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w116"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7525926138586148,
+      0.40615467898626617,
+      0.7771107234239328,
+      0.4183949900540268
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "sgst": {
+    "name": "lines.1.sgst",
+    "text": "0.00",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w117"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.8298677483173118,
+      0.40615467898626617,
+      0.8543858578826299,
+      0.4183949900540268
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "igst": {
+    "name": "lines.1.igst",
+    "text": "3,421.37",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w118"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9071428827760089,
+      0.40615467898626617,
+      0.9561788968414318,
+      0.4183949900540268
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "description": {
+    "name": "lines.2.description",
+    "text": "Copper cable 2.5 sq mm (90 m)",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w120",
+     "w121",
+     "w122",
+     "w123",
+     "w124",
+     "w125",
+     "w126"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.08735449982287492,
+      0.4251595422836894,
+      0.2644993153385191,
+      0.43739985335145004
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "hsn": {
+    "name": "lines.2.hsn",
+    "text": "85444999",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w127"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.3359788454725959,
+      0.4251595422836894,
+      0.3920200922895992,
+      0.43739985335145004
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "qty": {
+    "name": "lines.2.qty",
+    "text": "2.00",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w128"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.4166137683860189,
+      0.4251595422836894,
+      0.441131877951337,
+      0.43739985335145004
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "uqc": {
+    "name": "lines.2.uqc",
+    "text": "ROL",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w129"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.4636508067521823,
+      0.4251595422836894,
+      0.48955479829529286,
+      0.43739985335145004
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "unit_price": {
+    "name": "lines.2.unit_price",
+    "text": "2,782.66",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w130"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.5106878451183458,
+      0.4251595422836894,
+      0.559724064248982,
+      0.43739985335145004
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "taxable_value": {
+    "name": "lines.2.taxable_value",
+    "text": "5,565.32",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w131"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.5913227680317688,
+      0.4251595422836894,
+      0.640358987162405,
+      0.43739985335145004
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "gst_rate": {
+    "name": "lines.2.gst_rate",
+    "text": "5%",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w132"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6988359985829994,
+      0.4251595422836894,
+      0.7170418932850883,
+      0.43739985335145004
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "cgst": {
+    "name": "lines.2.cgst",
+    "text": "0.00",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w133"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7525926138586148,
+      0.4251595422836894,
+      0.7771107234239328,
+      0.43739985335145004
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "sgst": {
+    "name": "lines.2.sgst",
+    "text": "0.00",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w134"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.8298677483173118,
+      0.4251595422836894,
+      0.8543858578826299,
+      0.43739985335145004
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "igst": {
+    "name": "lines.2.igst",
+    "text": "278.27",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w135"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9071428827760089,
+      0.4251595422836894,
+      0.9456711502466678,
+      0.43739985335145004
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "description": {
+    "name": "lines.3.description",
+    "text": "Steel shelving unit",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w137",
+     "w138",
+     "w139"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.08735449982287492,
+      0.44416440558111264,
+      0.18959705454580875,
+      0.4564047166488733
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "hsn": {
+    "name": "lines.3.hsn",
+    "text": "94032090",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w140"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.3359788454725959,
+      0.44416440558111264,
+      0.3920200922895992,
+      0.4564047166488733
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "qty": {
+    "name": "lines.3.qty",
+    "text": "10.00",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w141"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.4166137683860189,
+      0.44416440558111264,
+      0.44813700817031077,
+      0.4564047166488733
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "uqc": {
+    "name": "lines.3.uqc",
+    "text": "NOS",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w142"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.4636508067521823,
+      0.44416440558111264,
+      0.49095329178370334,
+      0.4564047166488733
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "unit_price": {
+    "name": "lines.3.unit_price",
+    "text": "4,865.75",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w143"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.5106878451183458,
+      0.44416440558111264,
+      0.559724064248982,
+      0.4564047166488733
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "taxable_value": {
+    "name": "lines.3.taxable_value",
+    "text": "48,657.50",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w144"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.5913227680317688,
+      0.44416440558111264,
+      0.6473641686476821,
+      0.4564047166488733
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "gst_rate": {
+    "name": "lines.3.gst_rate",
+    "text": "5%",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w145"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6988359985829994,
+      0.44416440558111264,
+      0.7170418932850883,
+      0.4564047166488733
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "cgst": {
+    "name": "lines.3.cgst",
+    "text": "0.00",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w146"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7525926138586148,
+      0.44416440558111264,
+      0.7771107234239328,
+      0.4564047166488733
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "sgst": {
+    "name": "lines.3.sgst",
+    "text": "0.00",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w147"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.8298677483173118,
+      0.44416440558111264,
+      0.8543858578826299,
+      0.4564047166488733
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "igst": {
+    "name": "lines.3.igst",
+    "text": "2,432.88",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w148"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9071428827760089,
+      0.44416440558111264,
+      0.9561788968414318,
+      0.4564047166488733
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   }
+  },
+  {
+   "description": {
+    "name": "lines.4.description",
+    "text": "Stretch wrap film 23 micron",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w150",
+     "w151",
+     "w152",
+     "w153",
+     "w154"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.08735449982287492,
+      0.4631692688785359,
+      0.23998125703950426,
+      0.4754095799462965
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "hsn": {
+    "name": "lines.4.hsn",
+    "text": "39201012",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w155"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.3359788454725959,
+      0.4631692688785359,
+      0.3920200922895992,
+      0.4754095799462965
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "qty": {
+    "name": "lines.4.qty",
+    "text": "5.00",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w156"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.4166137683860189,
+      0.4631692688785359,
+      0.441131877951337,
+      0.4754095799462965
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "uqc": {
+    "name": "lines.4.uqc",
+    "text": "KGS",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w157"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.4636508067521823,
+      0.4631692688785359,
+      0.49026032516165546,
+      0.4754095799462965
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "unit_price": {
+    "name": "lines.4.unit_price",
+    "text": "186.39",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w158"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.5106878451183458,
+      0.4631692688785359,
+      0.549216317654218,
+      0.4754095799462965
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "taxable_value": {
+    "name": "lines.4.taxable_value",
+    "text": "931.95",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w159"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.5913227680317688,
+      0.4631692688785359,
+      0.629851240567641,
+      0.4754095799462965
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "gst_rate": {
+    "name": "lines.4.gst_rate",
+    "text": "5%",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w160"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.6988359985829994,
+      0.4631692688785359,
+      0.7170418932850883,
+      0.4754095799462965
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "cgst": {
+    "name": "lines.4.cgst",
+    "text": "0.00",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w161"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.7525926138586148,
+      0.4631692688785359,
+      0.7771107234239328,
+      0.4754095799462965
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "sgst": {
+    "name": "lines.4.sgst",
+    "text": "0.00",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w162"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.8298677483173118,
+      0.4631692688785359,
+      0.8543858578826299,
+      0.4754095799462965
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   },
+   "igst": {
+    "name": "lines.4.igst",
+    "text": "46.60",
+    "status": "GROUNDED",
+    "word_ids": [
+     "w163"
+    ],
+    "evidence": {
+     "page": 0,
+     "bbox": [
+      0.9071428827760089,
+      0.4631692688785359,
+      0.9386660200276941,
+      0.4754095799462965
+     ]
+    },
+    "match_score": 100.0,
+    "sources": [
+     "llm"
+    ],
+    "conflicts": {}
+   }
+  }
+ ],
+ "flags": [],
+ "page_sources": [
+  "pdf_text"
+ ],
+ "llm": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 8.21,
+  "prompt_tokens": 2388,
+  "completion_tokens": 2002,
+  "cache_key": "17a9e0d44af15ddc8987968ec8aa59f882443212e3d420dd20f8653e6d04be51",
+  "cache_hit": true
+ },
+ "qr": {
+  "status": "VERIFIED",
+  "trust": "test",
+  "kid": "F00EFE0210008DFA6930E74A30A1C90886AE3FA8",
+  "detail": "",
+  "payload": {
+   "issuer": "DOCFLOW-TEST-NOT-NIC",
+   "seller_gstin": "36KPCCM1145U3ZT",
+   "buyer_gstin": "33WOMCS4463T1Z2",
+   "doc_no": "DFTEST-2627-0095",
+   "doc_type": "INV",
+   "doc_date": "03/07/2026",
+   "total_value": 81131.0,
+   "item_count": 5,
+   "main_hsn": "94032090",
+   "irn": "49949f5ae968fe0dd1c3f3925efdcc0359ca447ef25342322c7dab92d64157b3",
+   "irn_date": "2026-07-04 14:03:00"
+  }
+ },
+ "seconds": 1.91,
+ "demo": {
+  "id": "inv-0095",
+  "title": "Clean e-invoice, QR signature verified",
+  "note": "Every value is traced to the words it was read from. The signed QR confirms the GSTINs, number, date and total, so those Fields are VERIFIED.",
+  "pages": [
+   "inv-0095-p0.png"
+  ],
+  "trust_note": "Synthetic QR codes are signed with DocFlow's TEST key. Real e-invoices are verified against NIC's published certificates."
+ }
+}

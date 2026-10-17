@@ -1,0 +1,36 @@
+[project]
+name = "docflow"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Vedant Bhayani", email = "vedantbhayani29@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "cryptography>=50.0.2",
+    "mistralai>=3.2.0",
+    "onnxruntime>=1.31.0",
+    "opencv-python-headless>=5.0.0.93",
+    "pillow>=13.0.0",
+    "pydantic>=2.14.1",
+    "pyjwt[crypto]>=2.15.1",
+    "pymupdf>=1.28.2",
+    "pypdfium2>=5.14.0",
+    "python-dotenv>=1.2.4",
+    "qrcode>=8.2",
+    "rapidfuzz>=3.14.6",
+    "rapidocr>=3.10.0",
+    "zxing-cpp>=3.1.1",
+]
+
+[project.scripts]
+docflow = "docflow:main"
+
+[build-system]
+requires = ["uv_build>=0.11.7,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

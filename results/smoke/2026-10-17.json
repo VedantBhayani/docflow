@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-17",
+  "python": "3.12.11",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "cpu": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+  "versions": {
+    "mistralai": "3.2.0",
+    "rapidocr": "3.10.0",
+    "onnxruntime": "1.31.0",
+    "pymupdf": "1.28.2",
+    "pypdfium2": "5.14.0",
+    "zxing-cpp": "3.1.1",
+    "pyjwt": "2.15.1"
+  },
+  "mistral": {
+    "ok": true,
+    "chosen_model": "mistral-small-2603",
+    "small_or_ministral_ids": [
+      "magistral-small-latest",
+      "ministral-14b-2512",
+      "ministral-14b-latest",
+      "ministral-3b-2512",
+      "ministral-3b-latest",
+      "ministral-8b-2512",
+      "ministral-8b-latest",
+      "mistral-small-2603",
+      "mistral-small-latest",
+      "voxtral-small-2507",
+      "voxtral-small-latest"
+    ],
+    "attempts": [
+      {
+        "model": "mistral-small-2603",
+        "ok": true,
+        "parsed": {
+          "supplier_gstin": "27AAACU2414K1ZF",
+          "invoice_no": "DFTEST-0042",
+          "grand_total": "11800.00"
+        },
+        "seconds": 0.69,
+        "usage": {
+          "prompt_tokens": 91,
+          "completion_tokens": 49,
+          "total_tokens": 140,
+          "service_tier": "standard",
+          "prompt_tokens_details": {
+            "cached_tokens": 70
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        }
+      }
+    ],
+    "detail": "chat.parse returned the exact expected fields"
+  },
+  "rapidocr": {
+    "ok": true,
+    "pages": 3,
+    "median_seconds_per_page_300dpi": 6.08,
+    "max_seconds_per_page_300dpi": 7.55,
+    "word_boxes": 436,
+    "found_known_phrase": true,
+    "detail": "median <= 10.0 s/page at 300 dpi; word boxes; reads 'Signed QR Code'"
+  }
+}

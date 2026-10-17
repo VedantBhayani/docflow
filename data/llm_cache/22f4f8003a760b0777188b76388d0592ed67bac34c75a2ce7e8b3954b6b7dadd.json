@@ -1,0 +1,60 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w1068",
+    "w1069",
+    "w1070",
+    "w1071"
+   ]
+  },
+  "account_number": {
+   "text": "35603695657552",
+   "word_ids": [
+    "w1075"
+   ]
+  },
+  "account_holder": {
+   "text": "Udaan Polymers Pvt Ltd",
+   "word_ids": [
+    "w1082",
+    "w1083",
+    "w1084",
+    "w1085"
+   ]
+  },
+  "period_from": {
+   "text": "01/09/2026",
+   "word_ids": [
+    "w1089"
+   ]
+  },
+  "period_to": {
+   "text": "30/09/2026",
+   "word_ids": [
+    "w1092"
+   ]
+  },
+  "opening_balance": {
+   "text": "10.39.254.03",
+   "word_ids": [
+    "w1234"
+   ]
+  },
+  "closing_balance": {
+   "text": "71.77.281.48",
+   "word_ids": [
+    "w1237"
+   ]
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 1.66,
+  "prompt_tokens": 2828,
+  "completion_tokens": 263,
+  "cache_key": "22f4f8003a760b0777188b76388d0592ed67bac34c75a2ce7e8b3954b6b7dadd"
+ }
+}

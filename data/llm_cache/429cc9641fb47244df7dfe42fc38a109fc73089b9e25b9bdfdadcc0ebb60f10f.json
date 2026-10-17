@@ -1,0 +1,391 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Aarav Electricals Traders",
+   "word_ids": [
+    "w49",
+    "w50",
+    "w51"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 17, Business Park, Mysuru, Karnataka",
+   "word_ids": [
+    "w55",
+    "w56",
+    "w57",
+    "w58",
+    "w59",
+    "w60"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "29BBGCA2575C1ZP",
+   "word_ids": [
+    "w68"
+   ]
+  },
+  "recipient_name": {
+   "text": "Anvay Textiles LLP",
+   "word_ids": [
+    "w52",
+    "w53",
+    "w54"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 124, Business Park, Bengaluru, Karnataka",
+   "word_ids": [
+    "w61",
+    "w62",
+    "w63",
+    "w64",
+    "w65",
+    "w66"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "29OQZCA4713C2Z5",
+   "word_ids": [
+    "w70"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0114",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "03/08/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Kamataka (29)",
+   "word_ids": [
+    "w39",
+    "w40"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "irn": {
+   "text": "24956123e987c60c33b401036b84b93b1d391487e3ad6372b18bda4634febb",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "42.544.56",
+   "word_ids": [
+    "w158"
+   ]
+  },
+  "cgst_total": {
+   "text": "1.077.36",
+   "word_ids": [
+    "w159"
+   ]
+  },
+  "sgst_total": {
+   "text": "1.077.36",
+   "word_ids": [
+    "w160"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w161"
+   ]
+  },
+  "round_off": {
+   "text": "-0.28",
+   "word_ids": [
+    "w162"
+   ]
+  },
+  "grand_total": {
+   "text": "44.699.00",
+   "word_ids": [
+    "w163"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w88",
+      "w89",
+      "w90",
+      "w91",
+      "w92",
+      "w93"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "qty": {
+     "text": "2.00",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "unit_price": {
+     "text": "315.58",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "taxable_value": {
+     "text": "631.16",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "cgst": {
+     "text": "15.78",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "sgst": {
+     "text": "15.78",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w102"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w104",
+      "w105",
+      "w106"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "qty": {
+     "text": "5.00",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "unit_price": {
+     "text": "8.323.94",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "taxable_value": {
+     "text": "41.619.70",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "cgst": {
+     "text": "1.040.49",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "sgst": {
+     "text": "1.040.49",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w115"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w117",
+      "w118",
+      "w119",
+      "w120"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w121"
+     ]
+    },
+    "qty": {
+     "text": "2.00",
+     "word_ids": [
+      "w122"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w123"
+     ]
+    },
+    "unit_price": {
+     "text": "105.70",
+     "word_ids": [
+      "w124"
+     ]
+    },
+    "taxable_value": {
+     "text": "211.40",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "cgst": {
+     "text": "19.03",
+     "word_ids": [
+      "w127"
+     ]
+    },
+    "sgst": {
+     "text": "19.03",
+     "word_ids": [
+      "w128"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w129"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Corugated cartons 5-ply",
+     "word_ids": [
+      "w130",
+      "w131",
+      "w132"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w133"
+     ]
+    },
+    "qty": {
+     "text": "2.00",
+     "word_ids": [
+      "w134"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w135"
+     ]
+    },
+    "unit_price": {
+     "text": "41.15",
+     "word_ids": [
+      "w136"
+     ]
+    },
+    "taxable_value": {
+     "text": "82.30",
+     "word_ids": [
+      "w137"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w138"
+     ]
+    },
+    "cgst": {
+     "text": "2.06",
+     "word_ids": [
+      "w139"
+     ]
+    },
+    "sgst": {
+     "text": "2.06",
+     "word_ids": [
+      "w140"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w141"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 7.11,
+  "prompt_tokens": 2186,
+  "completion_tokens": 1689,
+  "cache_key": "429cc9641fb47244df7dfe42fc38a109fc73089b9e25b9bdfdadcc0ebb60f10f"
+ }
+}

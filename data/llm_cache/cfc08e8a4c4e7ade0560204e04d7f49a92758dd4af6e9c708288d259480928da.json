@@ -1,0 +1,61 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w226",
+    "w227",
+    "w228",
+    "w229"
+   ]
+  },
+  "account_number": {
+   "text": "78083068038077",
+   "word_ids": [
+    "w233"
+   ]
+  },
+  "account_holder": {
+   "text": "Anvay IT Services Pvt Ltd",
+   "word_ids": [
+    "w240",
+    "w241",
+    "w242",
+    "w243",
+    "w244"
+   ]
+  },
+  "period_from": {
+   "text": "01/04/2026",
+   "word_ids": [
+    "w248"
+   ]
+  },
+  "period_to": {
+   "text": "30/04/2026",
+   "word_ids": [
+    "w251"
+   ]
+  },
+  "opening_balance": {
+   "text": "1,76,670.11",
+   "word_ids": [
+    "w330"
+   ]
+  },
+  "closing_balance": {
+   "text": "5,50,407.46",
+   "word_ids": [
+    "w333"
+   ]
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 1.67,
+  "prompt_tokens": 1771,
+  "completion_tokens": 254,
+  "cache_key": "cfc08e8a4c4e7ade0560204e04d7f49a92758dd4af6e9c708288d259480928da"
+ }
+}

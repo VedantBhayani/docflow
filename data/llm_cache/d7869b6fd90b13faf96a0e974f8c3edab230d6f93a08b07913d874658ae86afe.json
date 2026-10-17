@@ -1,0 +1,202 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Shakti Electricals LLP",
+   "word_ids": [
+    "w50",
+    "w51",
+    "w52"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 61, Trade Centre, Kolkata, West Bengal",
+   "word_ids": [
+    "w56",
+    "w57",
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "19UBOCS8910N2ZU",
+   "word_ids": [
+    "w71"
+   ]
+  },
+  "recipient_name": {
+   "text": "Nimbus Fabrication LLP",
+   "word_ids": [
+    "w53",
+    "w54",
+    "w55"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 163, Industrial Estate, Kolkata, West Bengal",
+   "word_ids": [
+    "w63",
+    "w64",
+    "w65",
+    "w66",
+    "w67",
+    "w68",
+    "w69"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "19FRYCN8947N2ZU",
+   "word_ids": [
+    "w73"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0101",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "23/08/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "West Bengal (19)",
+   "word_ids": [
+    "w39",
+    "w40",
+    "w41"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w44"
+   ]
+  },
+  "irn": {
+   "text": "f7fe53ab7074cc0f4c7a86eccd0c5c34e62b62e3f64fd87b57451019540a8dc9",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "90,090.75",
+   "word_ids": [
+    "w123"
+   ]
+  },
+  "cgst_total": {
+   "text": "8,108.17",
+   "word_ids": [
+    "w124"
+   ]
+  },
+  "sgst_total": {
+   "text": "8,108.17",
+   "word_ids": [
+    "w125"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w126"
+   ]
+  },
+  "round_off": {
+   "text": "-0.09",
+   "word_ids": [
+    "w127"
+   ]
+  },
+  "grand_total": {
+   "text": "1,06,307.00",
+   "word_ids": [
+    "w128"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w91",
+      "w92",
+      "w93",
+      "w94",
+      "w95",
+      "w96",
+      "w97"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "unit_price": {
+     "text": "3,603.63",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "taxable_value": {
+     "text": "90,090.75",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "cgst": {
+     "text": "8,108.17",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "sgst": {
+     "text": "8,108.17",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w106"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 4.22,
+  "prompt_tokens": 1808,
+  "completion_tokens": 964,
+  "cache_key": "d7869b6fd90b13faf96a0e974f8c3edab230d6f93a08b07913d874658ae86afe"
+ }
+}

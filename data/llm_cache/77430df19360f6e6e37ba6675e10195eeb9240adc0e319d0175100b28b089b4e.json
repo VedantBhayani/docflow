@@ -1,0 +1,268 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Meghdoot Polymers Industries Pvt Ltd",
+   "word_ids": [
+    "w49",
+    "w50",
+    "w51",
+    "w52",
+    "w53"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 129, MIDC Road, Lucknow, Uttar Pradesh",
+   "word_ids": [
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62",
+    "w63",
+    "w64"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "09IRHCM8901N3ZN",
+   "word_ids": [
+    "w72"
+   ]
+  },
+  "recipient_name": {
+   "text": "Meghdoot Fabrication Pvt Ltd",
+   "word_ids": [
+    "w54",
+    "w55",
+    "w56",
+    "w57"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 95, MIDC Road, Hyderabad, Telangana",
+   "word_ids": [
+    "w65",
+    "w66",
+    "w67",
+    "w68",
+    "w69",
+    "w70"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "36LNFCM0167U3ZP",
+   "word_ids": [
+    "w74"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0105",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "21/09/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Telangana (36)",
+   "word_ids": [
+    "w39",
+    "w40"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "irn": {
+   "text": "22246f6567347ab0ae3d3a9b446b5a2b9169f38139d5855df20360a2571905ef",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "27,763.20",
+   "word_ids": [
+    "w138"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w139"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w140"
+   ]
+  },
+  "igst_total": {
+   "text": "3,920.19",
+   "word_ids": [
+    "w141"
+   ]
+  },
+  "round_off": {
+   "text": "-0.39",
+   "word_ids": [
+    "w142"
+   ]
+  },
+  "grand_total": {
+   "text": "31,683.00",
+   "word_ids": [
+    "w143"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w92",
+      "w93",
+      "w94",
+      "w95"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "unit_price": {
+     "text": "19,477.14",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "taxable_value": {
+     "text": "19,477.14",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "igst": {
+     "text": "3,505.89",
+     "word_ids": [
+      "w104"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w106",
+      "w107",
+      "w108",
+      "w109",
+      "w110",
+      "w111",
+      "w112"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "qty": {
+     "text": "3.00",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "unit_price": {
+     "text": "2,762.02",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "taxable_value": {
+     "text": "8,286.06",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w118"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w119"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w120"
+     ]
+    },
+    "igst": {
+     "text": "414.30",
+     "word_ids": [
+      "w121"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 5.08,
+  "prompt_tokens": 1958,
+  "completion_tokens": 1205,
+  "cache_key": "77430df19360f6e6e37ba6675e10195eeb9240adc0e319d0175100b28b089b4e"
+ }
+}

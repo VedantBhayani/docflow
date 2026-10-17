@@ -1,0 +1,332 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Aarav Logistics Pvt Ltd",
+   "word_ids": [
+    "w50",
+    "w51",
+    "w52",
+    "w53"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 182, Business Park, Coimbatore, Tamil Nadu",
+   "word_ids": [
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62",
+    "w63",
+    "w64"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "33KGGCA9608M2ZR",
+   "word_ids": [
+    "w73"
+   ]
+  },
+  "recipient_name": {
+   "text": "Pragati Office Supplies Enterprises",
+   "word_ids": [
+    "w54",
+    "w55",
+    "w56",
+    "w57"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 200, Trade Centre, Coimbatore, Tamil Nadu",
+   "word_ids": [
+    "w65",
+    "w66",
+    "w67",
+    "w68",
+    "w69",
+    "w70",
+    "w71"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "33VHUCP2304D1ZQ",
+   "word_ids": [
+    "w75"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0099",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "27/06/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Tamil Nadu (33)",
+   "word_ids": [
+    "w39",
+    "w40",
+    "w41"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w44"
+   ]
+  },
+  "irn": {
+   "text": "5428189dca476ad792939caa7a7d2b46f9ad6a9362961ca4887a3a4a7ff0202b",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "2,09,042.40",
+   "word_ids": [
+    "w151"
+   ]
+  },
+  "cgst_total": {
+   "text": "18,326.07",
+   "word_ids": [
+    "w152"
+   ]
+  },
+  "sgst_total": {
+   "text": "18,326.07",
+   "word_ids": [
+    "w153"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w154"
+   ]
+  },
+  "round_off": {
+   "text": "0.46",
+   "word_ids": [
+    "w155"
+   ]
+  },
+  "grand_total": {
+   "text": "2,45,695.00",
+   "word_ids": [
+    "w156"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w93",
+      "w94",
+      "w95"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "unit_price": {
+     "text": "7,192.08",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,79,802.00",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "cgst": {
+     "text": "16,182.18",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "sgst": {
+     "text": "16,182.18",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w104"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w106",
+      "w107",
+      "w108",
+      "w109",
+      "w110",
+      "w111"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "unit_price": {
+     "text": "300.15",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "taxable_value": {
+     "text": "7,503.75",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "cgst": {
+     "text": "187.59",
+     "word_ids": [
+      "w118"
+     ]
+    },
+    "sgst": {
+     "text": "187.59",
+     "word_ids": [
+      "w119"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w120"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w122",
+      "w123",
+      "w124",
+      "w125"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w127"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w128"
+     ]
+    },
+    "unit_price": {
+     "text": "21,736.65",
+     "word_ids": [
+      "w129"
+     ]
+    },
+    "taxable_value": {
+     "text": "21,736.65",
+     "word_ids": [
+      "w130"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w131"
+     ]
+    },
+    "cgst": {
+     "text": "1,956.30",
+     "word_ids": [
+      "w132"
+     ]
+    },
+    "sgst": {
+     "text": "1,956.30",
+     "word_ids": [
+      "w133"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w134"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 5.73,
+  "prompt_tokens": 2118,
+  "completion_tokens": 1488,
+  "cache_key": "4d773ff5c670165f700de5e90ca3bd89a1357ed348010743732a3c84b61b2e5b"
+ }
+}

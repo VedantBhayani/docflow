@@ -1,0 +1,57 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4"
+   ]
+  },
+  "account_number": {
+   "text": "86042072789792",
+   "word_ids": [
+    "w8"
+   ]
+  },
+  "account_holder": {
+   "text": "Kaveri Stationers Traders",
+   "word_ids": [
+    "w15",
+    "w16",
+    "w17"
+   ]
+  },
+  "period_from": {
+   "text": "01/09/2026",
+   "word_ids": [
+    "w24"
+   ]
+  },
+  "period_to": {
+   "text": "30/09/2026",
+   "word_ids": [
+    "w26"
+   ]
+  },
+  "opening_balance": {
+   "text": "3,42,201.04",
+   "word_ids": [
+    "w21"
+   ]
+  },
+  "closing_balance": {
+   "text": null,
+   "word_ids": []
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 2.02,
+  "prompt_tokens": 3332,
+  "completion_tokens": 209,
+  "cache_key": "af3d9174c4ddca8e89c960ac98ff932a6fe67018809a9ad58aee49e847543cc0"
+ }
+}

@@ -1,0 +1,201 @@
+{
+  "documents": 20,
+  "field_accuracy": [
+    8895,
+    9486
+  ],
+  "key_field_accuracy": [
+    0,
+    0
+  ],
+  "field_accuracy_by_scan": {
+    "digital": [
+      6534,
+      6549
+    ],
+    "heavy": [
+      1431,
+      2003
+    ],
+    "light": [
+      930,
+      934
+    ]
+  },
+  "field_accuracy_by_template": {
+    "dash": [
+      1594,
+      1645
+    ],
+    "initbr": [
+      2403,
+      2482
+    ],
+    "kotak": [
+      730,
+      1178
+    ],
+    "mmt": [
+      649,
+      653
+    ],
+    "signed": [
+      1830,
+      1834
+    ],
+    "slash": [
+      1689,
+      1694
+    ]
+  },
+  "field_accuracy_by_field": {
+    "account_holder": [
+      20,
+      20
+    ],
+    "account_number": [
+      20,
+      20
+    ],
+    "bank_name": [
+      0,
+      20
+    ],
+    "closing_balance": [
+      20,
+      20
+    ],
+    "lines.balance": [
+      1390,
+      1500
+    ],
+    "lines.credit": [
+      1452,
+      1500
+    ],
+    "lines.debit": [
+      1450,
+      1500
+    ],
+    "lines.narration": [
+      1319,
+      1500
+    ],
+    "lines.ref_col": [
+      1289,
+      1375
+    ],
+    "lines.txn_date": [
+      1406,
+      1500
+    ],
+    "lines.value_date": [
+      469,
+      471
+    ],
+    "opening_balance": [
+      20,
+      20
+    ],
+    "period_from": [
+      20,
+      20
+    ],
+    "period_to": [
+      20,
+      20
+    ]
+  },
+  "grounding_rate": [
+    7140,
+    7141
+  ],
+  "verified_key_fields": [
+    0,
+    0
+  ],
+  "defect_recall": [
+    8,
+    8
+  ],
+  "defect_recall_by_type": {
+    "both_dr_cr": [
+      2,
+      2
+    ],
+    "broken_chain": [
+      2,
+      2
+    ],
+    "closing_mismatch": [
+      2,
+      2
+    ],
+    "date_outside_period": [
+      2,
+      2
+    ]
+  },
+  "false_flag_rate": [
+    3,
+    12
+  ],
+  "straight_through_rate": [
+    9,
+    12
+  ],
+  "flags_exactly_as_labelled": [
+    17,
+    20
+  ],
+  "prompt_injection_unaffected": [
+    0,
+    0
+  ],
+  "qr_read_rate_by_scan": {},
+  "llm_usd_per_doc_mean": 0.001125,
+  "llm_tokens_per_doc_mean": [
+    5690,
+    453
+  ],
+  "latency_uncached_seconds": {
+    "n": 20,
+    "p50": 3.54,
+    "p95": 87.67
+  },
+  "statement_lines_fully_correct": [
+    1354,
+    1500
+  ],
+  "references_correct": [
+    1043,
+    1163
+  ],
+  "statement_lines_by_layout": {
+    "dash": [
+      224,
+      232
+    ],
+    "initbr": [
+      362,
+      409
+    ],
+    "kotak": [
+      104,
+      194
+    ],
+    "mmt": [
+      125,
+      125
+    ],
+    "signed": [
+      301,
+      301
+    ],
+    "slash": [
+      238,
+      239
+    ]
+  },
+  "wall_seconds": 385.4
+}

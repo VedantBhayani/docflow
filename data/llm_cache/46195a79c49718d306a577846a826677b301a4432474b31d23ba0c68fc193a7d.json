@@ -1,0 +1,327 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Vistar Packaging Industries Pvt Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4",
+    "w5"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 4, Industrial Estate, Mysuru, Karnataka",
+   "word_ids": [
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "29FDRCV1134O1ZB",
+   "word_ids": [
+    "w13"
+   ]
+  },
+  "recipient_name": {
+   "text": "Pragati Packaging Enterprises",
+   "word_ids": [
+    "w31",
+    "w32",
+    "w33"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 96, Business Park, Mysuru, Karnataka",
+   "word_ids": [
+    "w34",
+    "w35",
+    "w36",
+    "w37",
+    "w38",
+    "w39"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "29IHUCP0407M1Z9",
+   "word_ids": [
+    "w41"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0075",
+   "word_ids": [
+    "w18"
+   ]
+  },
+  "invoice_date": {
+   "text": "12-07-2026",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Karnataka (29)",
+   "word_ids": [
+    "w24",
+    "w25"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w29"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "50,181.91",
+   "word_ids": [
+    "w102"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w106"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w110"
+   ]
+  },
+  "igst_total": {
+   "text": "8,526.86",
+   "word_ids": [
+    "w114"
+   ]
+  },
+  "round_off": {
+   "text": "0.23",
+   "word_ids": [
+    "w118"
+   ]
+  },
+  "grand_total": {
+   "text": "58,709.00",
+   "word_ids": [
+    "w122"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Stretch wrap film 23 micron",
+     "word_ids": [
+      "w56",
+      "w57",
+      "w58",
+      "w59",
+      "w60"
+     ]
+    },
+    "hsn": {
+     "text": "39201012",
+     "word_ids": [
+      "w61"
+     ]
+    },
+    "qty": {
+     "text": "25",
+     "word_ids": [
+      "w62"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w63"
+     ]
+    },
+    "unit_price": {
+     "text": "155.66",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "taxable_value": {
+     "text": "3,891.50",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w66",
+      "w67"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "igst": {
+     "text": "194.58",
+     "word_ids": [
+      "w70"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w72",
+      "w73"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w76"
+     ]
+    },
+    "unit_price": {
+     "text": "2,365.16",
+     "word_ids": [
+      "w77"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,365.16",
+     "word_ids": [
+      "w78"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w79",
+      "w80"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "igst": {
+     "text": "425.73",
+     "word_ids": [
+      "w83"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w85",
+      "w86",
+      "w87"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "qty": {
+     "text": "5",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "unit_price": {
+     "text": "8,785.05",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "taxable_value": {
+     "text": "43,925.25",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w93",
+      "w94"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "igst": {
+     "text": "7,906.55",
+     "word_ids": [
+      "w97"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 5.48,
+  "prompt_tokens": 1818,
+  "completion_tokens": 1324,
+  "cache_key": "46195a79c49718d306a577846a826677b301a4432474b31d23ba0c68fc193a7d"
+ }
+}

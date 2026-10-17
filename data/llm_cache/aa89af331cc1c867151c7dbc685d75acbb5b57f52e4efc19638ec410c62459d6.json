@@ -1,0 +1,199 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Vistar Logistics LLP",
+   "word_ids": [
+    "w49",
+    "w50",
+    "w51"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 228, Business Park, Ahmedabad, Gujarat",
+   "word_ids": [
+    "w55",
+    "w56",
+    "w57",
+    "w58",
+    "w59",
+    "w60"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "24SAYCV9531A1ZJ",
+   "word_ids": [
+    "w68"
+   ]
+  },
+  "recipient_name": {
+   "text": "Meghdoot Polymers Traders",
+   "word_ids": [
+    "w52",
+    "w53",
+    "w54"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 95, MIDC Road, Ahmedabad, Gujarat",
+   "word_ids": [
+    "w61",
+    "w62",
+    "w63",
+    "w64",
+    "w65",
+    "w66"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "24CNZCM9473P3ZA",
+   "word_ids": [
+    "w70"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0104",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "22/08/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Gujarat (24)",
+   "word_ids": [
+    "w39",
+    "w40"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "irn": {
+   "text": "64188952f2f92a73f22ae3e25ae33c04fd82f0531c15b6adc352f9663f7f8f6f",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "32,377.80",
+   "word_ids": [
+    "w120"
+   ]
+  },
+  "cgst_total": {
+   "text": "3,001.42",
+   "word_ids": [
+    "w121"
+   ]
+  },
+  "sgst_total": {
+   "text": "3,001.42",
+   "word_ids": [
+    "w122"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w123"
+   ]
+  },
+  "round_off": {
+   "text": "0.36",
+   "word_ids": [
+    "w124"
+   ]
+  },
+  "grand_total": {
+   "text": "38,381.00",
+   "word_ids": [
+    "w125"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w88",
+      "w89",
+      "w90",
+      "w91",
+      "w92",
+      "w93",
+      "w94"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "qty": {
+     "text": "10.00",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "unit_price": {
+     "text": "3,237.78",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "taxable_value": {
+     "text": "32,377.80",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "cgst": {
+     "text": "3,001.42",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "sgst": {
+     "text": "3,001.42",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w103"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 4.31,
+  "prompt_tokens": 1784,
+  "completion_tokens": 912,
+  "cache_key": "aa89af331cc1c867151c7dbc685d75acbb5b57f52e4efc19638ec410c62459d6"
+ }
+}

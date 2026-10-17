@@ -1,0 +1,392 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Udaan Hardware Pvt Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 19, Industrial Estate, Kolkata, West Bengal",
+   "word_ids": [
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "19JOHCU8689X2ZF",
+   "word_ids": [
+    "w13"
+   ]
+  },
+  "recipient_name": {
+   "text": "Meghdoot Textiles Traders",
+   "word_ids": [
+    "w31",
+    "w32",
+    "w33"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 40, MIDC Road, Mumbai, Maharashtra",
+   "word_ids": [
+    "w34",
+    "w35",
+    "w36",
+    "w37",
+    "w38",
+    "w39"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "27YVTCM6519V3Z7",
+   "word_ids": [
+    "w41"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0090",
+   "word_ids": [
+    "w18"
+   ]
+  },
+  "invoice_date": {
+   "text": "27-05-2026",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Maharashtra (27)",
+   "word_ids": [
+    "w24",
+    "w25"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w29"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "8.07,655.43",
+   "word_ids": [
+    "w111"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w115"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w119"
+   ]
+  },
+  "igst_total": {
+   "text": "40.388.16",
+   "word_ids": [
+    "w123"
+   ]
+  },
+  "round_off": {
+   "text": "0.41",
+   "word_ids": [
+    "w127"
+   ]
+  },
+  "grand_total": {
+   "text": "8.48,044.00",
+   "word_ids": [
+    "w131"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w54",
+      "w55",
+      "w56"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w57"
+     ]
+    },
+    "qty": {
+     "text": "100",
+     "word_ids": [
+      "w58"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w59"
+     ]
+    },
+    "unit_price": {
+     "text": "7.809.94",
+     "word_ids": [
+      "w60"
+     ]
+    },
+    "taxable_value": {
+     "text": "7.80.994.00",
+     "word_ids": [
+      "w61"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w62"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w63"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "igst": {
+     "text": "39.049.70",
+     "word_ids": [
+      "w65"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w66",
+      "w67",
+      "w68",
+      "w69"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "qty": {
+     "text": "10",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "unit_price": {
+     "text": "594.42",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "taxable_value": {
+     "text": "5.944.20",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w76"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w77"
+     ]
+    },
+    "igst": {
+     "text": "297.21",
+     "word_ids": [
+      "w78"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "3 Corrugated cartons 5-ply",
+     "word_ids": [
+      "w79",
+      "w80",
+      "w81",
+      "w82"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "unit_price": {
+     "text": "41.45",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "taxable_value": {
+     "text": "41.45",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w88",
+      "w89"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "igst": {
+     "text": "7.46",
+     "word_ids": [
+      "w92"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w93",
+      "w94",
+      "w95",
+      "w96"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "unit_price": {
+     "text": "20.675.78",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "taxable_value": {
+     "text": "20.675.78",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w102",
+      "w103"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "igst": {
+     "text": "1.033.79",
+     "word_ids": [
+      "w106"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 7.41,
+  "prompt_tokens": 1929,
+  "completion_tokens": 1591,
+  "cache_key": "f18ebec819cadffc64a77d8006ab1d89b52d27e20039960922574ea4c6fe55a2"
+ }
+}

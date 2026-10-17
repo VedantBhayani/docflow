@@ -178,3 +178,58 @@ Downloaded with the user's approval from https://einvoice1.gst.gov.in. Index fil
 - NIC's own printed QR in `Qrcode_procedure.pdf` (Sept 2020, kid `115F4426…`) now **VERIFIES** against NIC's production certificate `prodpubkey1`. That makes it a real IRP-signed token verified offline.
 - Kid `4DE1544A…`, which the text sample is signed under and which I had labelled "probably sandbox", is actually the **production** IRP-1 certificate for 06/09/2024 – 03/06/2026. The old note was wrong; the superseded loose sample key was removed.
 - The sandbox issuer string (`NIC Sandbox`) is my best reading of the docs. If it is wrong, the result shows as WRONG_ISSUER, never VERIFIED.
+
+## 2026-10-17: FINAL held-out evaluation (ticket 10)
+
+Run once at commit `f8a4c40`, after the statement feature freeze. An earlier attempt at ~17:10 was killed externally (it took the background shell with it) before writing any report or score. Its partial LLM calls were cached and reused, and no result was seen before this run.
+
+**Invoices** (83 held-out, 42 scanned; `results/2026-10-17/heldout/`):
+
+| Metric | Held-out | Dev |
+|---|---|---|
+| Field accuracy | 99.1% (3973/4011) | 99.3% |
+| Key-field accuracy | 99.8% (497/498) | 100% |
+| Grounding rate | 99.4% | 99.8% |
+| Defect recall | 16/16 | 9/9 |
+| False-flag rate | **5/65 (7.7%)** | 0/27 |
+| Flagged exactly as labelled | 77/83 (92.8%) | 37/37 |
+| QR read (digital / light / heavy) | 16/16 · 10/10 · 6/7 | |
+
+Mislabelled outcomes (6), diagnosed afterwards and **not tuned**:
+- **inv-0027, inv-0055** (heavy): OCR shifted line-item columns, raising C4/C6 or A11/C6.
+- **inv-0088** (heavy): OCR read the GSTIN `…M1Z1` as `…MIZ1`. G5 caught it, **but the field was marked VERIFIED**, because the rule extractor read the same OCR text. On scans the LLM and the rule extractor share one OCR source, so their agreement is not independent evidence.
+- **inv-0118** (heavy): OCR changed 2 of the 64 IRN characters, so Q3 claimed an IRN mismatch. This is a false accusation on a scan.
+- **inv-0120** (heavy): E1 fired on one ungrounded value.
+- **inv-0042** (digital, duplicate defect): A3 was caught correctly, plus an extra E1.
+
+**Statements** (20 held-out, 7 scanned; `results/2026-10-17/statements-heldout/`):
+
+| Metric | Held-out | Dev |
+|---|---|---|
+| Statement Lines fully correct | **90.3% (1354/1500)** | 97.1% |
+| References correct | 89.7% | 96.1% |
+| Fields by value | 93.8% (digital 99.8%, light 99.6%, **heavy 71.4%**) | 98.7% |
+| Grounding rate | 100% | 100% |
+| Defect recall | 8/8 | 4/4 |
+| False-flag rate | **3/12 (25%)**, all heavy scans | 1/6 |
+| Latency per document, uncached | p50 3.5 s, p95 88 s (multi-page heavy scans) | |
+
+**Worst case: stmt-0019** (kotak, heavy, 0/90 lines). The narrow `#` column sits next to Date. On a 2°-skewed heavy scan, OCR merged them (`45 14 Jul 2026`) and misread the month (`Ju|`), so most rows had no parseable date and only 15 of 90 were recognised. The S-checks then flagged the statement, which is the safe direction, but its lines are unusable.
+
+**Honest summary:** digital and lightly scanned documents are close to perfect, and every injected defect was caught. Heavily degraded scans are where DocFlow is weak. They usually end up flagged for review rather than passed silently, but not always for the right reason.
+
+## 2026-10-17: HTTP API, review demo, n8n intake (tickets 11, 12, 14)
+
+- **API:** `POST /extract`, `GET /health`, 10 MB limit, 415 for a non-PDF, 422 for an unreadable PDF without exposing internals. 7 tests.
+- **Demo:** `demo/app.py`, standalone. Modern Streamlit pins pillow<13, which conflicts with the OCR stack, so the demo has its own requirements and reads exported results. Checked in the browser: evidence highlight on digital and deskewed scans, flagged statement rows clickable, Excel export with Fields, Lines and Flags sheets.
+- **n8n 2.43.7** (npm global, Node 24.11.1). The first install was killed mid-download along with the other background jobs, not by an n8n error. The clean retry took 10 minutes and installed 2,297 packages. The workflow was imported and published by CLI. End-to-end test with the API in test trust mode (the synthetic QR codes are test-signed):
+
+| Dropped in | Routed to | Register row |
+|---|---|---|
+| clean e-invoice (inv-0095) | `processed/` | CLEAN, QR VERIFIED |
+| tampered-QR invoice (inv-0031) | `review/` | NEEDS REVIEW, Q2 "grand_total printed 40,699.00 vs QR 41699.0" |
+| `notes.txt` | `failed/` | FAILED, 415 "Only PDF files are accepted." |
+| broken-chain statement (stmt-0002) | `review/` | NEEDS REVIEW, S1 rows 31 and 32 |
+| invoice with the API stopped | `failed/` | FAILED, `connect ECONNREFUSED 127.0.0.1:8000` |
+
+Each document took about 3 s (LLM cache warm). `n8n/sample-register.xlsx` is the register from this run (synthetic data only).

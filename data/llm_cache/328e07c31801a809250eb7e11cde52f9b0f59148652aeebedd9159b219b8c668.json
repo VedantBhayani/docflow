@@ -1,0 +1,211 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Pragati Textiles Industries Pvt Ltd",
+   "word_ids": [
+    "w49",
+    "w50",
+    "w51",
+    "w52",
+    "w53"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 42, MIDC Road, Lucknow, Uttar Pradesh",
+   "word_ids": [
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62",
+    "w63",
+    "w64"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "09SPJCP3428J1ZQ",
+   "word_ids": [
+    "w71"
+   ]
+  },
+  "recipient_name": {
+   "text": "Meghdoot Packaging Pvt Ltd",
+   "word_ids": [
+    "w54",
+    "w55",
+    "w56",
+    "w57"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit137, Industrial Estate, Mysuru, Karnataka",
+   "word_ids": [
+    "w65",
+    "w66",
+    "w67",
+    "w68",
+    "w69"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "29BEDCM6550L2ZR",
+   "word_ids": [
+    "w73"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0107",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "25/05/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Karnataka (29)",
+   "word_ids": [
+    "w39",
+    "w40"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "irn": {
+   "text": "e161923942c5b7d9cdf6ed8b76664aebc734a18183056ae04f0002fb62b8cf4a",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "1,047.50",
+   "word_ids": [
+    "w105",
+    "w106",
+    "w118"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w107",
+    "w108",
+    "w119"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w109",
+    "w110",
+    "w120"
+   ]
+  },
+  "igst_total": {
+   "text": "188.55",
+   "word_ids": [
+    "w111",
+    "w112",
+    "w121"
+   ]
+  },
+  "round_off": {
+   "text": "-0.05",
+   "word_ids": [
+    "w113",
+    "w114",
+    "w122"
+   ]
+  },
+  "grand_total": {
+   "text": "1,236.00",
+   "word_ids": [
+    "w115",
+    "w116",
+    "w117",
+    "w123"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w90",
+      "w91",
+      "w92"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "unit_price": {
+     "text": "41.90",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,047.50",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "igst": {
+     "text": "188.55",
+     "word_ids": [
+      "w101"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 4.34,
+  "prompt_tokens": 1757,
+  "completion_tokens": 967,
+  "cache_key": "328e07c31801a809250eb7e11cde52f9b0f59148652aeebedd9159b219b8c668"
+ }
+}

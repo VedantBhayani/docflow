@@ -1,0 +1,61 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w504",
+    "w505",
+    "w506",
+    "w507"
+   ]
+  },
+  "account_number": {
+   "text": "17176650204806",
+   "word_ids": [
+    "w511"
+   ]
+  },
+  "account_holder": {
+   "text": "Shakti Polymers Enterprises",
+   "word_ids": [
+    "w518",
+    "w519",
+    "w520"
+   ]
+  },
+  "period_from": {
+   "text": "01/06/2026",
+   "word_ids": [
+    "w524"
+   ]
+  },
+  "period_to": {
+   "text": "30/06/2026",
+   "word_ids": [
+    "w526"
+   ]
+  },
+  "opening_balance": {
+   "text": "24,28,303.98 Dr",
+   "word_ids": [
+    "w603",
+    "w604"
+   ]
+  },
+  "closing_balance": {
+   "text": "29,28,038.04 Dr",
+   "word_ids": [
+    "w607",
+    "w608"
+   ]
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 2.01,
+  "prompt_tokens": 1620,
+  "completion_tokens": 256,
+  "cache_key": "c893dfad44cc448f6274ce54e477a7ce4c5d4bebbb7a5b63283ddf2075ad7a57"
+ }
+}

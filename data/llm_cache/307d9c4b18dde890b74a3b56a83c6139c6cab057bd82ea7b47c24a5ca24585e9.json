@@ -1,0 +1,198 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Trikon IT Services Pvt Ltd",
+   "word_ids": [
+    "w50",
+    "w51",
+    "w52",
+    "w53"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 167, Industrial Estate, Hyderabad, Telangana",
+   "word_ids": [
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62",
+    "w63"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "36BDNCT0975F1ZU",
+   "word_ids": [
+    "w72"
+   ]
+  },
+  "recipient_name": {
+   "text": "Sarthi Polymers LLP",
+   "word_ids": [
+    "w55",
+    "w56",
+    "w57"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 9, Trade Centre, Chennai, Tamil Nadu",
+   "word_ids": [
+    "w64",
+    "w65",
+    "w66",
+    "w67",
+    "w68",
+    "w69",
+    "w70"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "33JTJCS4856V3ZX",
+   "word_ids": [
+    "w74"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0097",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "03/09/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Tamil Nadu (33)",
+   "word_ids": [
+    "w39",
+    "w40",
+    "w41"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w44"
+   ]
+  },
+  "irn": {
+   "text": "22130e231fd4b5f1d18c86f2c9469a018580e0f04e527c824516f288db5fd93f",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "1,179.50",
+   "word_ids": [
+    "w120"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w121"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w122"
+   ]
+  },
+  "igst_total": {
+   "text": "58.98",
+   "word_ids": [
+    "w123"
+   ]
+  },
+  "round_off": {
+   "text": "-0.48",
+   "word_ids": [
+    "w124"
+   ]
+  },
+  "grand_total": {
+   "text": "1,238.00",
+   "word_ids": [
+    "w125"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w92",
+      "w93",
+      "w94"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "unit_price": {
+     "text": "47.18",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,179.50",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "igst": {
+     "text": "58.98",
+     "word_ids": [
+      "w103"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 3.78,
+  "prompt_tokens": 1762,
+  "completion_tokens": 886,
+  "cache_key": "307d9c4b18dde890b74a3b56a83c6139c6cab057bd82ea7b47c24a5ca24585e9"
+ }
+}

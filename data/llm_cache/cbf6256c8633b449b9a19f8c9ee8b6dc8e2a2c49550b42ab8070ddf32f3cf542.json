@@ -1,0 +1,325 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Sahyadri Hardware Pvt Ltd",
+   "word_ids": [
+    "w49",
+    "w50",
+    "w51",
+    "w52"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 68, Industrial Estate, Hyderabad, Telangana",
+   "word_ids": [
+    "w57",
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "36QSCCS5977E2ZL",
+   "word_ids": [
+    "w70"
+   ]
+  },
+  "recipient_name": {
+   "text": "Pragati Office Supplies LLP",
+   "word_ids": [
+    "w53",
+    "w54",
+    "w55",
+    "w56"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 214, Trade Centre, Nagpur, Maharashtra",
+   "word_ids": [
+    "w63",
+    "w64",
+    "w65",
+    "w66",
+    "w67",
+    "w68"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "27CNYCP8924Y3ZQ",
+   "word_ids": [
+    "w72"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0102",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "23/05/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Maharashtra (27)",
+   "word_ids": [
+    "w39",
+    "w40"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "irn": {
+   "text": "c501bb76bb87136c1824811118772e3f30c6ebaaf1d88e618d2d9cfd965af63e",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "2,44,608.86",
+   "word_ids": [
+    "w145"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w146"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w147"
+   ]
+  },
+  "igst_total": {
+   "text": "44,008.16",
+   "word_ids": [
+    "w148"
+   ]
+  },
+  "round_off": {
+   "text": "-0.02",
+   "word_ids": [
+    "w149"
+   ]
+  },
+  "grand_total": {
+   "text": "2,88,617.00",
+   "word_ids": [
+    "w150"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w90",
+      "w91",
+      "w92"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "qty": {
+     "text": "2.00",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "unit_price": {
+     "text": "82.45",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "taxable_value": {
+     "text": "164.90",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "igst": {
+     "text": "8.25",
+     "word_ids": [
+      "w102"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w104",
+      "w105",
+      "w106"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "qty": {
+     "text": "40.00",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "unit_price": {
+     "text": "6,108.84",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,44,353.60",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "igst": {
+     "text": "43,983.65",
+     "word_ids": [
+      "w115"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w117",
+      "w118",
+      "w119"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w120"
+     ]
+    },
+    "qty": {
+     "text": "2.00",
+     "word_ids": [
+      "w121"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w122"
+     ]
+    },
+    "unit_price": {
+     "text": "45.18",
+     "word_ids": [
+      "w123"
+     ]
+    },
+    "taxable_value": {
+     "text": "90.36",
+     "word_ids": [
+      "w124"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w127"
+     ]
+    },
+    "igst": {
+     "text": "16.26",
+     "word_ids": [
+      "w128"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 6.0,
+  "prompt_tokens": 2044,
+  "completion_tokens": 1411,
+  "cache_key": "cbf6256c8633b449b9a19f8c9ee8b6dc8e2a2c49550b42ab8070ddf32f3cf542"
+ }
+}

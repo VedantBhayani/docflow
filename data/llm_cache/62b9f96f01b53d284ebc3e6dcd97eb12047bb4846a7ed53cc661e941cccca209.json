@@ -1,0 +1,60 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4"
+   ]
+  },
+  "account_number": {
+   "text": "52689645483990",
+   "word_ids": [
+    "w8"
+   ]
+  },
+  "account_holder": {
+   "text": "Anvay Textiles Pvt Ltd",
+   "word_ids": [
+    "w15",
+    "w16",
+    "w17",
+    "w18"
+   ]
+  },
+  "period_from": {
+   "text": "01/04/2026",
+   "word_ids": [
+    "w25"
+   ]
+  },
+  "period_to": {
+   "text": "30/04/2026",
+   "word_ids": [
+    "w27"
+   ]
+  },
+  "opening_balance": {
+   "text": "16,29,234.56",
+   "word_ids": [
+    "w22"
+   ]
+  },
+  "closing_balance": {
+   "text": "96,83,727.79",
+   "word_ids": [
+    "w202"
+   ]
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 1.68,
+  "prompt_tokens": 3285,
+  "completion_tokens": 233,
+  "cache_key": "62b9f96f01b53d284ebc3e6dcd97eb12047bb4846a7ed53cc661e941cccca209"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4"
+   ]
+  },
+  "account_number": {
+   "text": "89509083505969",
+   "word_ids": [
+    "w8"
+   ]
+  },
+  "account_holder": {
+   "text": "Pragati IT Services Industries Pvt Ltd",
+   "word_ids": [
+    "w15",
+    "w16",
+    "w17",
+    "w18",
+    "w19",
+    "w20"
+   ]
+  },
+  "period_from": {
+   "text": "01/07/2026",
+   "word_ids": [
+    "w24"
+   ]
+  },
+  "period_to": {
+   "text": "30/07/2026",
+   "word_ids": [
+    "w26"
+   ]
+  },
+  "opening_balance": {
+   "text": null,
+   "word_ids": []
+  },
+  "closing_balance": {
+   "text": null,
+   "word_ids": []
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 2.2,
+  "prompt_tokens": 3586,
+  "completion_tokens": 211,
+  "cache_key": "a7739540bda05f99f8f6fbe8b28fe3602de01dc93a054d6e08203230b6ca00c9"
+ }
+}

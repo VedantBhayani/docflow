@@ -1,0 +1,396 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Meghdoot IT Services Pvt Ltd",
+   "word_ids": [
+    "w50",
+    "w51",
+    "w52",
+    "w53",
+    "w54"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 200; MIDC Road. Pune, Maharashtra",
+   "word_ids": [
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62",
+    "w63"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "27MROCM6681W3ZN",
+   "word_ids": [
+    "w72"
+   ]
+  },
+  "recipient_name": {
+   "text": "Shakti Logistics LLP",
+   "word_ids": [
+    "w55",
+    "w56",
+    "w57"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 183, MIDC Road, Kolkata, West Bengal",
+   "word_ids": [
+    "w64",
+    "w65",
+    "w66",
+    "w67",
+    "w68",
+    "w69"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "19FYRCS2824O1Z1",
+   "word_ids": [
+    "w74"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0117",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "29/05/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "West Bengal (19)",
+   "word_ids": [
+    "w39",
+    "w40",
+    "w41"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w44"
+   ]
+  },
+  "irn": {
+   "text": "de9efaf1d1767973b040d375ca353d67af93c23745e8462d639c871dd8bdcb08",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "337154.09",
+   "word_ids": [
+    "w161"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w162"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w163"
+   ]
+  },
+  "igst_total": {
+   "text": "59557.89",
+   "word_ids": [
+    "w164"
+   ]
+  },
+  "round_off": {
+   "text": "0.02",
+   "word_ids": [
+    "w165"
+   ]
+  },
+  "grand_total": {
+   "text": "396712.00",
+   "word_ids": [
+    "w166"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w91",
+      "w92",
+      "w93",
+      "w94",
+      "w95",
+      "w96",
+      "w97"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "qty": {
+     "text": "100.00",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "unit_price": {
+     "text": "3.106.39",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "taxable_value": {
+     "text": "3.10,639.00",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "igst": {
+     "text": "55.915.02",
+     "word_ids": [
+      "w106"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w108",
+      "w109",
+      "w110"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "unit_price": {
+     "text": "40.86",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "taxable_value": {
+     "text": "1.021.50",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w118"
+     ]
+    },
+    "igst": {
+     "text": "183.87",
+     "word_ids": [
+      "w119"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w120",
+      "w121",
+      "w122",
+      "w123"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w124"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "unit_price": {
+     "text": "16.802.47",
+     "word_ids": [
+      "w127"
+     ]
+    },
+    "taxable_value": {
+     "text": "16.802.47",
+     "word_ids": [
+      "w128"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w129"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w130"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w131"
+     ]
+    },
+    "igst": {
+     "text": "3.024.44",
+     "word_ids": [
+      "w132"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w133",
+      "w134",
+      "w135",
+      "w136"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w137"
+     ]
+    },
+    "qty": {
+     "text": "12.00",
+     "word_ids": [
+      "w138"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w139"
+     ]
+    },
+    "unit_price": {
+     "text": "724.26",
+     "word_ids": [
+      "w140"
+     ]
+    },
+    "taxable_value": {
+     "text": "8.691.12",
+     "word_ids": [
+      "w141"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w142"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w143"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w144"
+     ]
+    },
+    "igst": {
+     "text": "434.56",
+     "word_ids": [
+      "w145"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 6.88,
+  "prompt_tokens": 2218,
+  "completion_tokens": 1733,
+  "cache_key": "5004e8f686e2a5de6eda72633549ce1e6ec355c6d8e989407e659d385c498753"
+ }
+}

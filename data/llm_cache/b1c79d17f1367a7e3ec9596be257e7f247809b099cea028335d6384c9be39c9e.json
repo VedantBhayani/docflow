@@ -1,0 +1,395 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Nimbus Logistics Pvt Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4",
+    "w5"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 40, Business Park, Kolkata, West Bengal",
+   "word_ids": [
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11",
+    "w12"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "19IVDCN4043N1ZQ",
+   "word_ids": [
+    "w14"
+   ]
+  },
+  "recipient_name": {
+   "text": "Kaveri Logistics LLP",
+   "word_ids": [
+    "w33",
+    "w34",
+    "w35"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 160, Trade Centre, Kolkata, West Bengal",
+   "word_ids": [
+    "w36",
+    "w37",
+    "w38",
+    "w39",
+    "w40",
+    "w41",
+    "w42"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "19JPOCK5862I3ZO",
+   "word_ids": [
+    "w44"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0042",
+   "word_ids": [
+    "w19"
+   ]
+  },
+  "invoice_date": {
+   "text": "26-07-2026",
+   "word_ids": [
+    "w21"
+   ]
+  },
+  "place_of_supply": {
+   "text": "West Bengal (19)",
+   "word_ids": [
+    "w25",
+    "w26",
+    "w27"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w31"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "10,692.60",
+   "word_ids": [
+    "w121"
+   ]
+  },
+  "cgst_total": {
+   "text": "433.35",
+   "word_ids": [
+    "w125"
+   ]
+  },
+  "sgst_total": {
+   "text": "433.35",
+   "word_ids": [
+    "w129"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w133"
+   ]
+  },
+  "round_off": {
+   "text": "-0.30",
+   "word_ids": [
+    "w137"
+   ]
+  },
+  "grand_total": {
+   "text": "11,559.00",
+   "word_ids": [
+    "w141"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w59",
+      "w60",
+      "w61"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w62"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w63"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "unit_price": {
+     "text": "7,640.66",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "taxable_value": {
+     "text": "7,640.66",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "cgst": {
+     "text": "191.02",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "sgst": {
+     "text": "191.02",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w71"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w73",
+      "w74",
+      "w75",
+      "w76",
+      "w77",
+      "w78"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w79"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "unit_price": {
+     "text": "325.12",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "taxable_value": {
+     "text": "325.12",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w84",
+      "w85"
+     ]
+    },
+    "cgst": {
+     "text": "29.26",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "sgst": {
+     "text": "29.26",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w88"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w90",
+      "w91",
+      "w92",
+      "w93"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "qty": {
+     "text": "5",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "unit_price": {
+     "text": "99.51",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "taxable_value": {
+     "text": "497.55",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "cgst": {
+     "text": "12.44",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "sgst": {
+     "text": "12.44",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w103"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w105",
+      "w106"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "unit_price": {
+     "text": "2,229.27",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,229.27",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w112",
+      "w113"
+     ]
+    },
+    "cgst": {
+     "text": "200.63",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "sgst": {
+     "text": "200.63",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w116"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 6.52,
+  "prompt_tokens": 1994,
+  "completion_tokens": 1606,
+  "cache_key": "b1c79d17f1367a7e3ec9596be257e7f247809b099cea028335d6384c9be39c9e"
+ }
+}

@@ -1,0 +1,397 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Udaan Polymers Enterprises",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 103, MIDC Road, Kolkata, West Bengal",
+   "word_ids": [
+    "w4",
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "19UHDCU2519MIZ1",
+   "word_ids": [
+    "w12"
+   ]
+  },
+  "recipient_name": {
+   "text": "Sarthi Stationers LL.P",
+   "word_ids": [
+    "w31",
+    "w32",
+    "w33"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 131, Industrial Estate, Kolkata, West Bengal",
+   "word_ids": [
+    "w34",
+    "w35",
+    "w36",
+    "w37",
+    "w38",
+    "w39",
+    "w40"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "19FFOCS6251U2ZP",
+   "word_ids": [
+    "w42"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0088",
+   "word_ids": [
+    "w17"
+   ]
+  },
+  "invoice_date": {
+   "text": "20-05-2026",
+   "word_ids": [
+    "w19"
+   ]
+  },
+  "place_of_supply": {
+   "text": "West Bengal (19)",
+   "word_ids": [
+    "w23",
+    "w24",
+    "w25"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w29"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "77,946.66",
+   "word_ids": [
+    "w117"
+   ]
+  },
+  "cgst_total": {
+   "text": "2,052.39",
+   "word_ids": [
+    "w121"
+   ]
+  },
+  "sgst_total": {
+   "text": "2,052.39",
+   "word_ids": [
+    "w125"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w129"
+   ]
+  },
+  "round_off": {
+   "text": "-0.44",
+   "word_ids": [
+    "w133"
+   ]
+  },
+  "grand_total": {
+   "text": "82,051.00",
+   "word_ids": [
+    "w137"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w56",
+      "w57",
+      "w58"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w59"
+     ]
+    },
+    "qty": {
+     "text": "10",
+     "word_ids": [
+      "w60"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w61"
+     ]
+    },
+    "unit_price": {
+     "text": "40.98",
+     "word_ids": [
+      "w62"
+     ]
+    },
+    "taxable_value": {
+     "text": "409.80",
+     "word_ids": [
+      "w63"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "cgst": {
+     "text": "10.25",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "sgst": {
+     "text": "10.25",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w67"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w68",
+      "w69",
+      "w70",
+      "w71",
+      "w72",
+      "w73",
+      "w74"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "qty": {
+     "text": "3",
+     "word_ids": [
+      "w76"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w77"
+     ]
+    },
+    "unit_price": {
+     "text": "2,910.72",
+     "word_ids": [
+      "w78"
+     ]
+    },
+    "taxable_value": {
+     "text": "8.732.16",
+     "word_ids": [
+      "w79"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "cgst": {
+     "text": "218.30",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "sgst": {
+     "text": "218.30",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w83"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Stretch wrap film 23 micron",
+     "word_ids": [
+      "w84",
+      "w85",
+      "w86",
+      "w87",
+      "w88"
+     ]
+    },
+    "hsn": {
+     "text": "39201012",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "qty": {
+     "text": "10",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "unit_price": {
+     "text": "159.57",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "taxable_value": {
+     "text": "1.595.70",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w94",
+      "w95"
+     ]
+    },
+    "cgst": {
+     "text": "143.61",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "sgst": {
+     "text": "143.61",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w98"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w99",
+      "w100",
+      "w101",
+      "w102"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "qty": {
+     "text": "100",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "unit_price": {
+     "text": "672.09",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "taxable_value": {
+     "text": "67,209.00",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w108",
+      "w109"
+     ]
+    },
+    "cgst": {
+     "text": "1.680.23",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "sgst": {
+     "text": "1.680.23",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w112"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 6.73,
+  "prompt_tokens": 1985,
+  "completion_tokens": 1637,
+  "cache_key": "6cbff49d823013e2368c3b86feae38cadd56f74624803709543be60c07d8323a"
+ }
+}

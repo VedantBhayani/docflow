@@ -1,0 +1,396 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Aarav Textiles LLP",
+   "word_ids": [
+    "w49",
+    "w50",
+    "w51"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 149, MIDC Road, Hyderabad, Telangana",
+   "word_ids": [
+    "w55",
+    "w56",
+    "w57",
+    "w58",
+    "w59",
+    "w60"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "36IQVCA6554K3ZR",
+   "word_ids": [
+    "w68"
+   ]
+  },
+  "recipient_name": {
+   "text": "Vistar Electricals Traders",
+   "word_ids": [
+    "w52",
+    "w53",
+    "w54"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 39, Trade Centre, Pune, Maharashtra",
+   "word_ids": [
+    "w61",
+    "w62",
+    "w63",
+    "w64",
+    "w65",
+    "w66"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "27WVRCV2076P1ZK",
+   "word_ids": [
+    "w70"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0109",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "07/05/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Maharashtra (27)",
+   "word_ids": [
+    "w39",
+    "w40"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "irn": {
+   "text": "ef5a075b80b06525ffe1b4f8c142a7083938f9094070ca65f27ed1dc840dba65",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "74,056.40",
+   "word_ids": [
+    "w163"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w164"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w165"
+   ]
+  },
+  "igst_total": {
+   "text": "8,101.95",
+   "word_ids": [
+    "w166"
+   ]
+  },
+  "round_off": {
+   "text": "-0.35",
+   "word_ids": [
+    "w167"
+   ]
+  },
+  "grand_total": {
+   "text": "82,158.00",
+   "word_ids": [
+    "w168"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w88",
+      "w89",
+      "w90",
+      "w91",
+      "w92",
+      "w93"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "qty": {
+     "text": "5.00",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "unit_price": {
+     "text": "283.96",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,419.80",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "igst": {
+     "text": "255.56",
+     "word_ids": [
+      "w102"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w104",
+      "w105",
+      "w106",
+      "w107",
+      "w108",
+      "w109",
+      "w110"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "qty": {
+     "text": "12.00",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "unit_price": {
+     "text": "3,351.41",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "taxable_value": {
+     "text": "40,216.92",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w118"
+     ]
+    },
+    "igst": {
+     "text": "2,010.85",
+     "word_ids": [
+      "w119"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w121",
+      "w122",
+      "w123"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w124"
+     ]
+    },
+    "qty": {
+     "text": "3.00",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "unit_price": {
+     "text": "7,808.56",
+     "word_ids": [
+      "w127"
+     ]
+    },
+    "taxable_value": {
+     "text": "23,425.68",
+     "word_ids": [
+      "w128"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w129"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w130"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w131"
+     ]
+    },
+    "igst": {
+     "text": "4,216.62",
+     "word_ids": [
+      "w132"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w134",
+      "w135",
+      "w136",
+      "w137"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w138"
+     ]
+    },
+    "qty": {
+     "text": "100.00 BTL",
+     "word_ids": [
+      "w139",
+      "w140"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w140"
+     ]
+    },
+    "unit_price": {
+     "text": "89.94",
+     "word_ids": [
+      "w141"
+     ]
+    },
+    "taxable_value": {
+     "text": "8,994.00",
+     "word_ids": [
+      "w142"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w143"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w144"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w145"
+     ]
+    },
+    "igst": {
+     "text": "1,618.92",
+     "word_ids": [
+      "w146"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 6.91,
+  "prompt_tokens": 2231,
+  "completion_tokens": 1736,
+  "cache_key": "1789e1c0f496a74e42a8edf244c4f10d320e94737d9dc6aaebd6915612329ae3"
+ }
+}

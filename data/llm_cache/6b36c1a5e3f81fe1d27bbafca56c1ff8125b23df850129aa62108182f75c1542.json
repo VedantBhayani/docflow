@@ -1,0 +1,268 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Trikon IT Services Industries Pvt Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4",
+    "w5",
+    "w6"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 232, Business Park, Chennai, Tamil Nadu",
+   "word_ids": [
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11",
+    "w12",
+    "w13"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "33KQKCT6180B3Z8",
+   "word_ids": [
+    "w15"
+   ]
+  },
+  "recipient_name": {
+   "text": "Udaan Fabrication LLP",
+   "word_ids": [
+    "w34",
+    "w35",
+    "w36"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 189, MIDC Road, Coimbatore, Tamil Nadu",
+   "word_ids": [
+    "w37",
+    "w38",
+    "w39",
+    "w40",
+    "w41",
+    "w42",
+    "w43"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "33FQVCU0498C2ZZ",
+   "word_ids": [
+    "w45"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0067",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "invoice_date": {
+   "text": "07-06-2026",
+   "word_ids": [
+    "w22"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Tamil Nadu (33)",
+   "word_ids": [
+    "w26",
+    "w27",
+    "w28"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "2,39,458.40",
+   "word_ids": [
+    "w94"
+   ]
+  },
+  "cgst_total": {
+   "text": "6,757.78",
+   "word_ids": [
+    "w98"
+   ]
+  },
+  "sgst_total": {
+   "text": "6,757.78",
+   "word_ids": [
+    "w102"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w106"
+   ]
+  },
+  "round_off": {
+   "text": "0.04",
+   "word_ids": [
+    "w110"
+   ]
+  },
+  "grand_total": {
+   "text": "2,52,974.00",
+   "word_ids": [
+    "w114"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w60",
+      "w61",
+      "w62",
+      "w63",
+      "w64",
+      "w65"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "qty": {
+     "text": "40",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "unit_price": {
+     "text": "296.66",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "taxable_value": {
+     "text": "11,866.40",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w71",
+      "w72"
+     ]
+    },
+    "cgst": {
+     "text": "1,067.98",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "sgst": {
+     "text": "1,067.98",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w75"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w77",
+      "w78",
+      "w79"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "qty": {
+     "text": "40",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "unit_price": {
+     "text": "5,689.80",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,27,592.00",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w85",
+      "w86"
+     ]
+    },
+    "cgst": {
+     "text": "5,689.80",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "sgst": {
+     "text": "5,689.80",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w89"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 16.31,
+  "prompt_tokens": 1912,
+  "completion_tokens": 1133,
+  "cache_key": "6b36c1a5e3f81fe1d27bbafca56c1ff8125b23df850129aa62108182f75c1542"
+ }
+}

@@ -1,0 +1,335 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Kaveri Office Supplies Enterprises",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 225, MIDC Road, New Delhi, Delhi",
+   "word_ids": [
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "07GZKCK9035I3ZJ",
+   "word_ids": [
+    "w13"
+   ]
+  },
+  "recipient_name": {
+   "text": "Trikon Stationers Enterprises",
+   "word_ids": [
+    "w32",
+    "w33",
+    "w34"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 36, Trade Centre, Kolkata, West Bengal",
+   "word_ids": [
+    "w35",
+    "w36",
+    "w37",
+    "w38",
+    "w39",
+    "w40",
+    "w41"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "19ELDCT5676Q1ZL",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0069",
+   "word_ids": [
+    "w18"
+   ]
+  },
+  "invoice_date": {
+   "text": "01-09-2026",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "place_of_supply": {
+   "text": "West Bengal (19)",
+   "word_ids": [
+    "w24",
+    "w25",
+    "w26"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w30"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "10,478.91",
+   "word_ids": [
+    "w110"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w114"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w118"
+   ]
+  },
+  "igst_total": {
+   "text": "996.36",
+   "word_ids": [
+    "w122"
+   ]
+  },
+  "round_off": {
+   "text": "-0.27",
+   "word_ids": [
+    "w126"
+   ]
+  },
+  "grand_total": {
+   "text": "11,475.00",
+   "word_ids": [
+    "w130"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w58",
+      "w59",
+      "w60"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w61"
+     ]
+    },
+    "qty": {
+     "text": "100",
+     "word_ids": [
+      "w62"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w63"
+     ]
+    },
+    "unit_price": {
+     "text": "36.34",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "taxable_value": {
+     "text": "3,634.00",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w66",
+      "w67"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "igst": {
+     "text": "654.12",
+     "word_ids": [
+      "w70"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w72",
+      "w73",
+      "w74",
+      "w75",
+      "w76",
+      "w77"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w78"
+     ]
+    },
+    "qty": {
+     "text": "12",
+     "word_ids": [
+      "w79"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "unit_price": {
+     "text": "316.89",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "taxable_value": {
+     "text": "3,802.68",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w83",
+      "w84"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "igst": {
+     "text": "190.13",
+     "word_ids": [
+      "w87"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w89",
+      "w90",
+      "w91",
+      "w92",
+      "w93",
+      "w94",
+      "w95"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "unit_price": {
+     "text": "3,042.23",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "taxable_value": {
+     "text": "3,042.23",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w101",
+      "w102"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "igst": {
+     "text": "152.11",
+     "word_ids": [
+      "w105"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 5.71,
+  "prompt_tokens": 1875,
+  "completion_tokens": 1380,
+  "cache_key": "941cd5ddd0dcfe3efe66a5b9d17087adbe6129be730a1272f3559c9ea027cdc8"
+ }
+}

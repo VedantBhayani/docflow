@@ -1,0 +1,55 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4"
+   ]
+  },
+  "account_number": {
+   "text": "50441041632833",
+   "word_ids": [
+    "w8"
+   ]
+  },
+  "account_holder": {
+   "text": "Kaveri Fabrication LLP",
+   "word_ids": [
+    "w15",
+    "w16",
+    "w17"
+   ]
+  },
+  "period_from": {
+   "text": "01/07/2026",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "period_to": {
+   "text": "30/07/2026",
+   "word_ids": [
+    "w22"
+   ]
+  },
+  "opening_balance": {
+   "text": null,
+   "word_ids": []
+  },
+  "closing_balance": {
+   "text": null,
+   "word_ids": []
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 2.23,
+  "prompt_tokens": 3670,
+  "completion_tokens": 194,
+  "cache_key": "96dee30ae57a27645a2a5a5897dd0ddebfed0be3e44c92cb33b23347048f77c3"
+ }
+}

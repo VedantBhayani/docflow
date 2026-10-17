@@ -1,0 +1,268 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Pragati Office Supplies Industries Pvt Ltd",
+   "word_ids": [
+    "w49",
+    "w50",
+    "w51",
+    "w52",
+    "w53",
+    "w54"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 78. Trade Centre, Gandhinagar, Gujarat",
+   "word_ids": [
+    "w59",
+    "w60",
+    "w61",
+    "w62",
+    "w63",
+    "w64"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "24MNECP0596Z1ZA",
+   "word_ids": [
+    "w72"
+   ]
+  },
+  "recipient_name": {
+   "text": "Aarav IT Services LLP",
+   "word_ids": [
+    "w55",
+    "w56",
+    "w57",
+    "w58"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 109, MIDC Road, Ahmedabad, Gujarat",
+   "word_ids": [
+    "w65",
+    "w66",
+    "w67",
+    "w68",
+    "w69",
+    "w70"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "24FMWCA9178Y3Z4",
+   "word_ids": [
+    "w74"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0116",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "22/04/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Gujarat (24)",
+   "word_ids": [
+    "w39",
+    "w40"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "irn": {
+   "text": "c79cc8156dcede3bd409bbcc39199bf3",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "10.918.35",
+   "word_ids": [
+    "w136"
+   ]
+  },
+  "cgst_total": {
+   "text": "977.00",
+   "word_ids": [
+    "w137"
+   ]
+  },
+  "sgst_total": {
+   "text": "977.00",
+   "word_ids": [
+    "w138"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w139"
+   ]
+  },
+  "round_off": {
+   "text": "-0.35",
+   "word_ids": [
+    "w140"
+   ]
+  },
+  "grand_total": {
+   "text": "12,872.00",
+   "word_ids": [
+    "w141"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Corugated cartons 5-ply",
+     "word_ids": [
+      "w91",
+      "w92",
+      "w93"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "qty": {
+     "text": "2.00",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "unit_price": {
+     "text": "43.44",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "taxable_value": {
+     "text": "86.88",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "cgst": {
+     "text": "2.17",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "sgst": {
+     "text": "2.17",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w102"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w103",
+      "w104",
+      "w105",
+      "w106",
+      "w107",
+      "w108",
+      "w109",
+      "w110"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "qty": {
+     "text": "3.00",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "unit_price": {
+     "text": "3.610.49",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "taxable_value": {
+     "text": "10.831.47",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "cgst": {
+     "text": "974.83",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "sgst": {
+     "text": "974.83",
+     "word_ids": [
+      "w118"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w119"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 5.72,
+  "prompt_tokens": 1896,
+  "completion_tokens": 1159,
+  "cache_key": "bbca0ace78de8e13c26b9ed1d4ffe693a023714c1a17dfcaa8b766dcd0eb7346"
+ }
+}

@@ -1,0 +1,392 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Vistar Logistics LLP",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 25, Trade Centre, Nagpur, Maharashtra",
+   "word_ids": [
+    "w4",
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "27GNMCV3080H2Z3",
+   "word_ids": [
+    "w11"
+   ]
+  },
+  "recipient_name": {
+   "text": "Sarthi Office Supplies Industries Pvt Ltd",
+   "word_ids": [
+    "w29",
+    "w30",
+    "w31",
+    "w32",
+    "w33",
+    "w34"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 55, Industrial Estate, Mumbai, Maharashtra",
+   "word_ids": [
+    "w35",
+    "w36",
+    "w37",
+    "w38",
+    "w39",
+    "w40"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "27RISCS2081S2ZD",
+   "word_ids": [
+    "w42"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0079",
+   "word_ids": [
+    "w16"
+   ]
+  },
+  "invoice_date": {
+   "text": "01-08-2026",
+   "word_ids": [
+    "w18"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Maharashtra (27)",
+   "word_ids": [
+    "w22",
+    "w23"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w27"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "8,13,732.46",
+   "word_ids": [
+    "w116"
+   ]
+  },
+  "cgst_total": {
+   "text": "73,235.93",
+   "word_ids": [
+    "w120"
+   ]
+  },
+  "sgst_total": {
+   "text": "73,235.93",
+   "word_ids": [
+    "w124"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w128"
+   ]
+  },
+  "round_off": {
+   "text": "-0.32",
+   "word_ids": [
+    "w132"
+   ]
+  },
+  "grand_total": {
+   "text": "9,60,204.00",
+   "word_ids": [
+    "w136"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w57",
+      "w58",
+      "w59"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w60"
+     ]
+    },
+    "qty": {
+     "text": "100",
+     "word_ids": [
+      "w61"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w62"
+     ]
+    },
+    "unit_price": {
+     "text": "4,797.80",
+     "word_ids": [
+      "w63"
+     ]
+    },
+    "taxable_value": {
+     "text": "4,79,780.00",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w65",
+      "w66"
+     ]
+    },
+    "cgst": {
+     "text": "43,180.20",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "sgst": {
+     "text": "43,180.20",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w69"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w71",
+      "w72"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "unit_price": {
+     "text": "2,658.97",
+     "word_ids": [
+      "w76"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,658.97",
+     "word_ids": [
+      "w77"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w78",
+      "w79"
+     ]
+    },
+    "cgst": {
+     "text": "239.31",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "sgst": {
+     "text": "239.31",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w82"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w84",
+      "w85",
+      "w86",
+      "w87"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "qty": {
+     "text": "3",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "unit_price": {
+     "text": "105.43",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "taxable_value": {
+     "text": "316.29",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w93",
+      "w94"
+     ]
+    },
+    "cgst": {
+     "text": "28.47",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "sgst": {
+     "text": "28.47",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w97"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w99",
+      "w100",
+      "w101"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "qty": {
+     "text": "40",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "unit_price": {
+     "text": "8,274.43",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "taxable_value": {
+     "text": "3,30,977.20",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w107",
+      "w108"
+     ]
+    },
+    "cgst": {
+     "text": "29,787.95",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "sgst": {
+     "text": "29,787.95",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w111"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 6.93,
+  "prompt_tokens": 1992,
+  "completion_tokens": 1620,
+  "cache_key": "e7612b16c22ca6b66583af2cd47757794ba8b5edd9330ae61a9b4b6ec7ff5df2"
+ }
+}

@@ -1,0 +1,331 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Sahyadri Hardware Pvt Ltd",
+   "word_ids": [
+    "w49",
+    "w50",
+    "w51",
+    "w52"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 84, Business Park, Lucknow, Uttar Pradesh",
+   "word_ids": [
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62",
+    "w63",
+    "w64"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "09YIQCS4303A3ZD",
+   "word_ids": [
+    "w72"
+   ]
+  },
+  "recipient_name": {
+   "text": "Anvay Electricals Industries Pvt Ltd",
+   "word_ids": [
+    "w53",
+    "w54",
+    "w55",
+    "w56",
+    "w57"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 128, MIDC Road, Bengaluru, Karnataka",
+   "word_ids": [
+    "w65",
+    "w66",
+    "w67",
+    "w68",
+    "w69",
+    "w70"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "29DAICA9421P3ZV",
+   "word_ids": [
+    "w74"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0092",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "03/08/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Karnataka (29)",
+   "word_ids": [
+    "w39",
+    "w40"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "irn": {
+   "text": "4a9416ffb6ee7ff20f2f918211b88473297518655ba3477dbb7344cc097dd9a1",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "21,581.91",
+   "word_ids": [
+    "w150"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w151"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w152"
+   ]
+  },
+  "igst_total": {
+   "text": "1,079.10",
+   "word_ids": [
+    "w153"
+   ]
+  },
+  "round_off": {
+   "text": "-0.01",
+   "word_ids": [
+    "w154"
+   ]
+  },
+  "grand_total": {
+   "text": "22,661.00",
+   "word_ids": [
+    "w155"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w92",
+      "w93",
+      "w94",
+      "w95"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "qty": {
+     "text": "3.00",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "unit_price": {
+     "text": "650.87",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,952.61",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "igst": {
+     "text": "97.63",
+     "word_ids": [
+      "w104"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w106",
+      "w107",
+      "w108",
+      "w109"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "unit_price": {
+     "text": "17,596.98",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "taxable_value": {
+     "text": "17,596.98",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "igst": {
+     "text": "879.85",
+     "word_ids": [
+      "w118"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Stretch wrap film 23 micron",
+     "word_ids": [
+      "w120",
+      "w121",
+      "w122",
+      "w123",
+      "w124"
+     ]
+    },
+    "hsn": {
+     "text": "39201012",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "qty": {
+     "text": "12.00",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w127"
+     ]
+    },
+    "unit_price": {
+     "text": "169.36",
+     "word_ids": [
+      "w128"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,032.32",
+     "word_ids": [
+      "w129"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w130"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w131"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w132"
+     ]
+    },
+    "igst": {
+     "text": "101.62",
+     "word_ids": [
+      "w133"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 5.92,
+  "prompt_tokens": 2078,
+  "completion_tokens": 1446,
+  "cache_key": "ecaa0eab7b6ba9959dbeb3b3315450f3ebe6e9d761f4d54935017f58431e666d"
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w1067",
+    "w1068",
+    "w1069",
+    "w1070"
+   ]
+  },
+  "account_number": {
+   "text": "98133044137168",
+   "word_ids": [
+    "w1074"
+   ]
+  },
+  "account_holder": {
+   "text": "Sarthi Logistics LLP",
+   "word_ids": [
+    "w1081",
+    "w1082",
+    "w1083"
+   ]
+  },
+  "period_from": {
+   "text": "01/06/2026",
+   "word_ids": [
+    "w1087"
+   ]
+  },
+  "period_to": {
+   "text": "30/06/2026",
+   "word_ids": [
+    "w1089"
+   ]
+  },
+  "opening_balance": {
+   "text": "12,05,415.50",
+   "word_ids": [
+    "w1189"
+   ]
+  },
+  "closing_balance": {
+   "text": "1,95,05,736.00",
+   "word_ids": [
+    "w1192"
+   ]
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 2.03,
+  "prompt_tokens": 2101,
+  "completion_tokens": 257,
+  "cache_key": "c8a0ab289cbd87484ad926b36f4365fa622da17d7501a473a47c075c5088b043"
+ }
+}

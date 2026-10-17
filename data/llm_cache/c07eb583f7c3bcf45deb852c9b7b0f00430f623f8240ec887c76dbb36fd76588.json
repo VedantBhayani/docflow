@@ -1,0 +1,266 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Pragati IT Services LLP",
+   "word_ids": [
+    "w23",
+    "w24",
+    "w25",
+    "w26"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 206, MIDC Road, Coimbatore, Tamil Nadu",
+   "word_ids": [
+    "w27",
+    "w28",
+    "w29",
+    "w30",
+    "w31",
+    "w32",
+    "w33"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "33BFLCP7116W3Z6",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "recipient_name": {
+   "text": "Shakti Office Supplies LLP",
+   "word_ids": [
+    "w54",
+    "w55",
+    "w56",
+    "w57"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 202, Business Park, Chennai, Tamil Nadu",
+   "word_ids": [
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62",
+    "w63",
+    "w64"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "33VKJCS5666D3Z2",
+   "word_ids": [
+    "w66"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0086",
+   "word_ids": [
+    "w40"
+   ]
+  },
+  "invoice_date": {
+   "text": "07-05-2026",
+   "word_ids": [
+    "w42"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Tamil Nadu (33)",
+   "word_ids": [
+    "w46",
+    "w47",
+    "w48"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w52"
+   ]
+  },
+  "irn": {
+   "text": "2cfc62de83163e2cc935da0831be73826d6662ed971201528751837dda8113b",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "20,329.22",
+   "word_ids": [
+    "w112"
+   ]
+  },
+  "cgst_total": {
+   "text": "513.03",
+   "word_ids": [
+    "w116"
+   ]
+  },
+  "sgst_total": {
+   "text": "513.03",
+   "word_ids": [
+    "w120"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w124"
+   ]
+  },
+  "round_off": {
+   "text": "-0.28",
+   "word_ids": [
+    "w128"
+   ]
+  },
+  "grand_total": {
+   "text": "21,355.00",
+   "word_ids": [
+    "w132"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w80",
+      "w81",
+      "w82"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "unit_price": {
+     "text": "20.255.34",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "taxable_value": {
+     "text": "20.255.34",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w89",
+      "w90"
+     ]
+    },
+    "cgst": {
+     "text": "506.38",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "sgst": {
+     "text": "506.38",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w93"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w95",
+      "w96",
+      "w97"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "qty": {
+     "text": "2",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "unit_price": {
+     "text": "36.94",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "taxable_value": {
+     "text": "73.88",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w103",
+      "w104"
+     ]
+    },
+    "cgst": {
+     "text": "6.65",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "sgst": {
+     "text": "6.65",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w107"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 7.74,
+  "prompt_tokens": 1930,
+  "completion_tokens": 1156,
+  "cache_key": "c07eb583f7c3bcf45deb852c9b7b0f00430f623f8240ec887c76dbb36fd76588"
+ }
+}

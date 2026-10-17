@@ -1,0 +1,457 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Vistar Textiles Pvt Ltd",
+   "word_ids": [
+    "w50",
+    "w51",
+    "w52",
+    "w53"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 108, Trade Centre, Hyderabad, Telangana",
+   "word_ids": [
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62",
+    "w63"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "36DCACV6734B3ZA",
+   "word_ids": [
+    "w72"
+   ]
+  },
+  "recipient_name": {
+   "text": "Meghdoot Fabrication Pvt Ltd",
+   "word_ids": [
+    "w54",
+    "w55",
+    "w56",
+    "w57"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 28, MIDC Road, Coimbatore, Tamil Nadu",
+   "word_ids": [
+    "w64",
+    "w65",
+    "w66",
+    "w67",
+    "w68",
+    "w69",
+    "w70"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "33VWTCM4133T2ZU",
+   "word_ids": [
+    "w74"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0093",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "24/06/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Tamil Nadu (33)",
+   "word_ids": [
+    "w39",
+    "w40",
+    "w41"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w44"
+   ]
+  },
+  "irn": {
+   "text": "675d435a5f8b6c6e3d1380ec18115f9a6a31a2262ba4859c38620a753cd3d372",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "36,714.80",
+   "word_ids": [
+    "w175"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w176"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w177"
+   ]
+  },
+  "igst_total": {
+   "text": "6,159.16",
+   "word_ids": [
+    "w178"
+   ]
+  },
+  "round_off": {
+   "text": "0.04",
+   "word_ids": [
+    "w179"
+   ]
+  },
+  "grand_total": {
+   "text": "42,874.00",
+   "word_ids": [
+    "w180"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w92",
+      "w93",
+      "w94"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "qty": {
+     "text": "12.00",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "unit_price": {
+     "text": "107.60",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,291.20",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "igst": {
+     "text": "232.42",
+     "word_ids": [
+      "w104"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w106",
+      "w107",
+      "w108"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "qty": {
+     "text": "2.00",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "unit_price": {
+     "text": "8,133.08",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "taxable_value": {
+     "text": "16,266.16",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "igst": {
+     "text": "2,927.91",
+     "word_ids": [
+      "w117"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w119",
+      "w120",
+      "w121",
+      "w122",
+      "w123",
+      "w124"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "qty": {
+     "text": "2.00",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w127"
+     ]
+    },
+    "unit_price": {
+     "text": "296.29",
+     "word_ids": [
+      "w128"
+     ]
+    },
+    "taxable_value": {
+     "text": "592.58",
+     "word_ids": [
+      "w129"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w130"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w131"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w132"
+     ]
+    },
+    "igst": {
+     "text": "29.63",
+     "word_ids": [
+      "w133"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w135",
+      "w136",
+      "w137"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w138"
+     ]
+    },
+    "qty": {
+     "text": "3.00",
+     "word_ids": [
+      "w139"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w140"
+     ]
+    },
+    "unit_price": {
+     "text": "5,233.23",
+     "word_ids": [
+      "w141"
+     ]
+    },
+    "taxable_value": {
+     "text": "15,699.69",
+     "word_ids": [
+      "w142"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w143"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w144"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w145"
+     ]
+    },
+    "igst": {
+     "text": "2,825.94",
+     "word_ids": [
+      "w146"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w148",
+      "w149"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w150"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w151"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w152"
+     ]
+    },
+    "unit_price": {
+     "text": "2,865.17",
+     "word_ids": [
+      "w153"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,865.17",
+     "word_ids": [
+      "w154"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w155"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w156"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w157"
+     ]
+    },
+    "igst": {
+     "text": "143.26",
+     "word_ids": [
+      "w158"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 7.97,
+  "prompt_tokens": 2362,
+  "completion_tokens": 1969,
+  "cache_key": "ffca4dd86763743fc8a3e7a590bbae62fa81cf6c07330468e98dad85240a56a1"
+ }
+}

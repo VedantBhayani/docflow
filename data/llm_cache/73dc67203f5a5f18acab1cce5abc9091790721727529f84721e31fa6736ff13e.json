@@ -1,0 +1,57 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4"
+   ]
+  },
+  "account_number": {
+   "text": "70161233945938",
+   "word_ids": [
+    "w8"
+   ]
+  },
+  "account_holder": {
+   "text": "Pragati Stationers Traders",
+   "word_ids": [
+    "w15",
+    "w16",
+    "w17"
+   ]
+  },
+  "period_from": {
+   "text": "01/06/2026",
+   "word_ids": [
+    "w27"
+   ]
+  },
+  "period_to": {
+   "text": "30/06/2026",
+   "word_ids": [
+    "w29"
+   ]
+  },
+  "opening_balance": {
+   "text": "20,58,778.81",
+   "word_ids": [
+    "w23"
+   ]
+  },
+  "closing_balance": {
+   "text": null,
+   "word_ids": []
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 1.28,
+  "prompt_tokens": 3915,
+  "completion_tokens": 210,
+  "cache_key": "73dc67203f5a5f18acab1cce5abc9091790721727529f84721e31fa6736ff13e"
+ }
+}

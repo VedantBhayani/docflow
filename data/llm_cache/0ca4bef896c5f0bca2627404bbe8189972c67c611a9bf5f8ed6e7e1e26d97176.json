@@ -1,0 +1,401 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Nimbus IT Services Traders",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 157, Trade Centre, Lucknow, Uttar Pradesh",
+   "word_ids": [
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "09LOUCN9481C1ZO",
+   "word_ids": [
+    "w13"
+   ]
+  },
+  "recipient_name": {
+   "text": "Kaveri Electricals Enterprises",
+   "word_ids": [
+    "w31",
+    "w32",
+    "w33"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 118, MIDC Road, New Delhi, Delhi",
+   "word_ids": [
+    "w34",
+    "w35",
+    "w36",
+    "w37",
+    "w38",
+    "w39",
+    "w40"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "07WZICK3673J1Z5",
+   "word_ids": [
+    "w42"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0074",
+   "word_ids": [
+    "w18"
+   ]
+  },
+  "invoice_date": {
+   "text": "17-08-2026",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Delhi (07)",
+   "word_ids": [
+    "w24",
+    "w25"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w29"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "26,512.77",
+   "word_ids": [
+    "w125"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w129"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w133"
+   ]
+  },
+  "igst_total": {
+   "text": "1,325.64",
+   "word_ids": [
+    "w137"
+   ]
+  },
+  "round_off": {
+   "text": "-0.41",
+   "word_ids": [
+    "w141"
+   ]
+  },
+  "grand_total": {
+   "text": "27,838.00",
+   "word_ids": [
+    "w145"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w57",
+      "w58",
+      "w59"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w60"
+     ]
+    },
+    "qty": {
+     "text": "2",
+     "word_ids": [
+      "w61"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w62"
+     ]
+    },
+    "unit_price": {
+     "text": "5,974.78",
+     "word_ids": [
+      "w63"
+     ]
+    },
+    "taxable_value": {
+     "text": "11,949.56",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w65",
+      "w66"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "igst": {
+     "text": "597.48",
+     "word_ids": [
+      "w69"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w71",
+      "w72",
+      "w73",
+      "w74",
+      "w75",
+      "w76"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w77"
+     ]
+    },
+    "qty": {
+     "text": "10",
+     "word_ids": [
+      "w78"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w79"
+     ]
+    },
+    "unit_price": {
+     "text": "281.80",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,818.00",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w82",
+      "w83"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "igst": {
+     "text": "140.90",
+     "word_ids": [
+      "w86"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w88",
+      "w89",
+      "w90",
+      "w91",
+      "w92",
+      "w93",
+      "w94"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "qty": {
+     "text": "3",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "unit_price": {
+     "text": "3,296.67",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "taxable_value": {
+     "text": "9,890.01",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w100",
+      "w101"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "igst": {
+     "text": "494.50",
+     "word_ids": [
+      "w104"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Stretch wrap film 23 micron",
+     "word_ids": [
+      "w106",
+      "w107",
+      "w108",
+      "w109",
+      "w110"
+     ]
+    },
+    "hsn": {
+     "text": "39201012",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "qty": {
+     "text": "12",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "unit_price": {
+     "text": "154.60",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,855.20",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w116",
+      "w117"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w118"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w119"
+     ]
+    },
+    "igst": {
+     "text": "92.76",
+     "word_ids": [
+      "w120"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 7.23,
+  "prompt_tokens": 2025,
+  "completion_tokens": 1655,
+  "cache_key": "0ca4bef896c5f0bca2627404bbe8189972c67c611a9bf5f8ed6e7e1e26d97176"
+ }
+}

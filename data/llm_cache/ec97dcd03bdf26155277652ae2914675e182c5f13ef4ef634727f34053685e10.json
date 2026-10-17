@@ -1,0 +1,395 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Kaveri Packaging Enterprises",
+   "word_ids": [
+    "w49",
+    "w50",
+    "w51"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 93, Business Park, Kolkata, West Bengal",
+   "word_ids": [
+    "w56",
+    "w57",
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "19KFTCK4906K2Z9",
+   "word_ids": [
+    "w70"
+   ]
+  },
+  "recipient_name": {
+   "text": "Anvay IT Services LLP",
+   "word_ids": [
+    "w52",
+    "w53",
+    "w54",
+    "w55"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 62, Trade Centre, Mysuru, Karnataka",
+   "word_ids": [
+    "w63",
+    "w64",
+    "w65",
+    "w66",
+    "w67",
+    "w68"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "29WDDCA7212K2ZT",
+   "word_ids": [
+    "w72"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0110",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "05/07/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Karnataka (29)",
+   "word_ids": [
+    "w39",
+    "w40"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "irn": {
+   "text": "b21b34754837c46fd4c65354e61c293d95ea5080856572927defcd6866e02797",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "1,60,980.38",
+   "word_ids": [
+    "w162"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w163"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w164"
+   ]
+  },
+  "igst_total": {
+   "text": "17,131.43",
+   "word_ids": [
+    "w165"
+   ]
+  },
+  "round_off": {
+   "text": "0.19",
+   "word_ids": [
+    "w166"
+   ]
+  },
+  "grand_total": {
+   "text": "1,78,112.00",
+   "word_ids": [
+    "w167"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w90",
+      "w91",
+      "w92",
+      "w93",
+      "w94",
+      "w95",
+      "w96"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "unit_price": {
+     "text": "2,961.19",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "taxable_value": {
+     "text": "74,029.75",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "igst": {
+     "text": "3,701.49",
+     "word_ids": [
+      "w105"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w107",
+      "w108",
+      "w109"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "qty": {
+     "text": "5.00",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "unit_price": {
+     "text": "40.73",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "taxable_value": {
+     "text": "203.65",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "igst": {
+     "text": "36.66",
+     "word_ids": [
+      "w118"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w120",
+      "w121",
+      "w122"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w123"
+     ]
+    },
+    "qty": {
+     "text": "2.00",
+     "word_ids": [
+      "w124"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "unit_price": {
+     "text": "8,542.99",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "taxable_value": {
+     "text": "17,085.98",
+     "word_ids": [
+      "w127"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w128"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w129"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w130"
+     ]
+    },
+    "igst": {
+     "text": "854.30",
+     "word_ids": [
+      "w131"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w133",
+      "w134",
+      "w135",
+      "w136"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w137"
+     ]
+    },
+    "qty": {
+     "text": "100.00 NOS",
+     "word_ids": [
+      "w138",
+      "w139"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w139"
+     ]
+    },
+    "unit_price": {
+     "text": "696.61",
+     "word_ids": [
+      "w140"
+     ]
+    },
+    "taxable_value": {
+     "text": "69,661.00",
+     "word_ids": [
+      "w141"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w142"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w143"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w144"
+     ]
+    },
+    "igst": {
+     "text": "12,538.98",
+     "word_ids": [
+      "w145"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 7.28,
+  "prompt_tokens": 2221,
+  "completion_tokens": 1725,
+  "cache_key": "ec97dcd03bdf26155277652ae2914675e182c5f13ef4ef634727f34053685e10"
+ }
+}

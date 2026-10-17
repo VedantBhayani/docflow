@@ -1,0 +1,266 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Vistar Hardware Traders",
+   "word_ids": [
+    "w50",
+    "w51",
+    "w52"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 77, Industrial Estate, Noida, Uttar Pradesh",
+   "word_ids": [
+    "w56",
+    "w57",
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "09CMQCV6622M3ZP",
+   "word_ids": [
+    "w71"
+   ]
+  },
+  "recipient_name": {
+   "text": "Pragati Electricals Traders",
+   "word_ids": [
+    "w53",
+    "w54",
+    "w55"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 95, Industrial Estate, Lucknow, Uttar Pradesh",
+   "word_ids": [
+    "w63",
+    "w64",
+    "w65",
+    "w66",
+    "w67",
+    "w68",
+    "w69"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "09KDBCP9186G1ZJ",
+   "word_ids": [
+    "w73"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0091",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "27/04/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Uttar Pradesh (09)",
+   "word_ids": [
+    "w39",
+    "w40",
+    "w41"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w44"
+   ]
+  },
+  "irn": {
+   "text": "fa5de507c13bc468d9a70b62cb28a11ecd3768db8512b82eaea14c6af98a5b52",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "3,264.80",
+   "word_ids": [
+    "w136"
+   ]
+  },
+  "cgst_total": {
+   "text": "279.58",
+   "word_ids": [
+    "w137"
+   ]
+  },
+  "sgst_total": {
+   "text": "279.58",
+   "word_ids": [
+    "w138"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w139"
+   ]
+  },
+  "round_off": {
+   "text": "0.04",
+   "word_ids": [
+    "w140"
+   ]
+  },
+  "grand_total": {
+   "text": "3,824.00",
+   "word_ids": [
+    "w141"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w91",
+      "w92",
+      "w93",
+      "w94"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "qty": {
+     "text": "5.00",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "unit_price": {
+     "text": "95.00",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "taxable_value": {
+     "text": "475.00",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "gst_rate": {
+     "text": "12%",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "cgst": {
+     "text": "28.50",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "sgst": {
+     "text": "28.50",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w103"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w105",
+      "w106",
+      "w107",
+      "w108",
+      "w109",
+      "w110"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "qty": {
+     "text": "10.00",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "unit_price": {
+     "text": "278.98",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,789.80",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "cgst": {
+     "text": "251.08",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "sgst": {
+     "text": "251.08",
+     "word_ids": [
+      "w118"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w119"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 5.06,
+  "prompt_tokens": 1928,
+  "completion_tokens": 1175,
+  "cache_key": "3d490ad775720aa8c1d234d2ba55978cf6ff93a8459861b0f72a991ca82376aa"
+ }
+}

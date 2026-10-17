@@ -1,0 +1,460 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Aarav Packaging Pvt Ltd",
+   "word_ids": [
+    "w50",
+    "w51",
+    "w52",
+    "w53"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 67, MIDC Road, Coimbatore, Tamil Nadu",
+   "word_ids": [
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62",
+    "w63",
+    "w64"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "33YPSCA3475C3Z5",
+   "word_ids": [
+    "w73"
+   ]
+  },
+  "recipient_name": {
+   "text": "Shakti Office Supplies LLP",
+   "word_ids": [
+    "w54",
+    "w55",
+    "w56",
+    "w57"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 240, Industrial Estate, Coimbatore, Tamil Nadu",
+   "word_ids": [
+    "w65",
+    "w66",
+    "w67",
+    "w68",
+    "w69",
+    "w70",
+    "w71"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "33ETBCS4044Z2ZF",
+   "word_ids": [
+    "w75"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0108",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "03/10/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Tamil Nadu (33)",
+   "word_ids": [
+    "w39",
+    "w40",
+    "w41"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w44"
+   ]
+  },
+  "irn": {
+   "text": "9ab6387e6c2545f379c422af70093af41883267fca10140cfc619c0a166130b4",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "4,20,414.22",
+   "word_ids": [
+    "w177"
+   ]
+  },
+  "cgst_total": {
+   "text": "10,510.35",
+   "word_ids": [
+    "w178"
+   ]
+  },
+  "sgst_total": {
+   "text": "10,510.35",
+   "word_ids": [
+    "w179"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w180"
+   ]
+  },
+  "round_off": {
+   "text": "0.08",
+   "word_ids": [
+    "w181"
+   ]
+  },
+  "grand_total": {
+   "text": "4,41,435.00",
+   "word_ids": [
+    "w182"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w93",
+      "w94",
+      "w95"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "qty": {
+     "text": "12.00",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "unit_price": {
+     "text": "4,783.21",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "taxable_value": {
+     "text": "57,398.52",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "cgst": {
+     "text": "1,434.96",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "sgst": {
+     "text": "1,434.96",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w104"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w106",
+      "w107",
+      "w108",
+      "w109"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "unit_price": {
+     "text": "16,135.02",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "taxable_value": {
+     "text": "16,135.02",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "cgst": {
+     "text": "403.38",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "sgst": {
+     "text": "403.38",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w118"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w120",
+      "w121",
+      "w122"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w123"
+     ]
+    },
+    "qty": {
+     "text": "40.00",
+     "word_ids": [
+      "w124"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "unit_price": {
+     "text": "8,646.70",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "taxable_value": {
+     "text": "3,45,868.00",
+     "word_ids": [
+      "w127"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w128"
+     ]
+    },
+    "cgst": {
+     "text": "8,646.70",
+     "word_ids": [
+      "w129"
+     ]
+    },
+    "sgst": {
+     "text": "8,646.70",
+     "word_ids": [
+      "w130"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w131"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w133",
+      "w134",
+      "w135",
+      "w136"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w137"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w138"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w139"
+     ]
+    },
+    "unit_price": {
+     "text": "709.34",
+     "word_ids": [
+      "w140"
+     ]
+    },
+    "taxable_value": {
+     "text": "709.34",
+     "word_ids": [
+      "w141"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w142"
+     ]
+    },
+    "cgst": {
+     "text": "17.73",
+     "word_ids": [
+      "w143"
+     ]
+    },
+    "sgst": {
+     "text": "17.73",
+     "word_ids": [
+      "w144"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w145"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Stretch wrap film 23 micron",
+     "word_ids": [
+      "w147",
+      "w148",
+      "w149",
+      "w150",
+      "w151"
+     ]
+    },
+    "hsn": {
+     "text": "39201012",
+     "word_ids": [
+      "w152"
+     ]
+    },
+    "qty": {
+     "text": "2.00",
+     "word_ids": [
+      "w153"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w154"
+     ]
+    },
+    "unit_price": {
+     "text": "151.67",
+     "word_ids": [
+      "w155"
+     ]
+    },
+    "taxable_value": {
+     "text": "303.34",
+     "word_ids": [
+      "w156"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w157"
+     ]
+    },
+    "cgst": {
+     "text": "7.58",
+     "word_ids": [
+      "w158"
+     ]
+    },
+    "sgst": {
+     "text": "7.58",
+     "word_ids": [
+      "w159"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w160"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 8.12,
+  "prompt_tokens": 2389,
+  "completion_tokens": 2001,
+  "cache_key": "c69931aba8ec1ededd986e812f4b44e678e4fad8746efc71365ba71302d1fdc2"
+ }
+}

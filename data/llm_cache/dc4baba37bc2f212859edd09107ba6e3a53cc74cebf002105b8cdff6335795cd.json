@@ -1,0 +1,395 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Sarthi IT Services Enterprises",
+   "word_ids": [
+    "w50",
+    "w51",
+    "w52",
+    "w53"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 41, Business Park, Kolkata, West Bengal",
+   "word_ids": [
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62",
+    "w63",
+    "w64"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "19NTECS4527A2Z4",
+   "word_ids": [
+    "w73"
+   ]
+  },
+  "recipient_name": {
+   "text": "Anvay IT Services Enterprises",
+   "word_ids": [
+    "w54",
+    "w55",
+    "w56",
+    "w57"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 147, Business Park, New Delhi, Delhi",
+   "word_ids": [
+    "w65",
+    "w66",
+    "w67",
+    "w68",
+    "w69",
+    "w70",
+    "w71"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "07GNKCA9174K1Z7",
+   "word_ids": [
+    "w75"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0120",
+   "word_ids": [
+    "w33"
+   ]
+  },
+  "invoice_date": {
+   "text": "01/04/2026",
+   "word_ids": [
+    "w36"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Delhi (07)",
+   "word_ids": [
+    "w40",
+    "w41"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w44"
+   ]
+  },
+  "irn": {
+   "text": "68c6600c407b6fca09bbd597bacf29692e44a219c716741eac063982a1bb",
+   "word_ids": [
+    "w2",
+    "w3"
+   ]
+  },
+  "taxable_total": {
+   "text": "2,60,407.04",
+   "word_ids": [
+    "w160"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w161"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w162"
+   ]
+  },
+  "igst_total": {
+   "text": "44,026.41",
+   "word_ids": [
+    "w163"
+   ]
+  },
+  "round_off": {
+   "text": "-0.45",
+   "word_ids": [
+    "w164"
+   ]
+  },
+  "grand_total": {
+   "text": "3,04,433.00",
+   "word_ids": [
+    "w165"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w92",
+      "w93",
+      "w94"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "qty": {
+     "text": "3.00",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "unit_price": {
+     "text": "7.203.64",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "taxable_value": {
+     "text": "21,610.92",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "igst": {
+     "text": "1.080.55",
+     "word_ids": [
+      "w103"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "2.. Corrugated cartons 5-ply",
+     "word_ids": [
+      "w104",
+      "w105",
+      "w106",
+      "w107"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "qty": {
+     "text": "10.00",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "unit_price": {
+     "text": "40.65",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "taxable_value": {
+     "text": "406.50",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "igst": {
+     "text": "73.17",
+     "word_ids": [
+      "w116"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Stretch wrap film 23 micron",
+     "word_ids": [
+      "w118",
+      "w119",
+      "w120",
+      "w121",
+      "w122"
+     ]
+    },
+    "hsn": {
+     "text": "39201012",
+     "word_ids": [
+      "w123"
+     ]
+    },
+    "qty": {
+     "text": "2.00",
+     "word_ids": [
+      "w124"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "unit_price": {
+     "text": "144.01",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "taxable_value": {
+     "text": "288.02",
+     "word_ids": [
+      "w127"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w128"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w129"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w130"
+     ]
+    },
+    "igst": {
+     "text": "14.40",
+     "word_ids": [
+      "w131"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w132",
+      "w133",
+      "w134"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w135"
+     ]
+    },
+    "qty": {
+     "text": "40.00",
+     "word_ids": [
+      "w136"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w137"
+     ]
+    },
+    "unit_price": {
+     "text": "5.952.54",
+     "word_ids": [
+      "w138"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,38,101.60",
+     "word_ids": [
+      "w139"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w140"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w141"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w142"
+     ]
+    },
+    "igst": {
+     "text": "42.858.29",
+     "word_ids": [
+      "w143"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 6.9,
+  "prompt_tokens": 2194,
+  "completion_tokens": 1708,
+  "cache_key": "dc4baba37bc2f212859edd09107ba6e3a53cc74cebf002105b8cdff6335795cd"
+ }
+}

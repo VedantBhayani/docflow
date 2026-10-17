@@ -1,0 +1,195 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Shakti Stationers Enterprises",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 81, Trade Centre, Kolkata, West Bengal",
+   "word_ids": [
+    "w4",
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "19FDACS3733U1ZB",
+   "word_ids": [
+    "w12"
+   ]
+  },
+  "recipient_name": {
+   "text": "Trikon Fabrication Enterprises",
+   "word_ids": [
+    "w30",
+    "w31",
+    "w32"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 57, Industrial Estate, Vadodara, Gujarat",
+   "word_ids": [
+    "w33",
+    "w34",
+    "w35",
+    "w36",
+    "w37",
+    "w38"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "24PVNCT2199E3ZG",
+   "word_ids": [
+    "w40"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0087",
+   "word_ids": [
+    "w17"
+   ]
+  },
+  "invoice_date": {
+   "text": "15-06-2026",
+   "word_ids": [
+    "w19"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Gujarat (24)",
+   "word_ids": [
+    "w23",
+    "w24"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w28"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "43,483.45",
+   "word_ids": [
+    "w70"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w74"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w79"
+   ]
+  },
+  "igst_total": {
+   "text": "7.827.02",
+   "word_ids": [
+    "w84"
+   ]
+  },
+  "round_off": {
+   "text": "-0.47",
+   "word_ids": [
+    "w88"
+   ]
+  },
+  "grand_total": {
+   "text": "51.310.00",
+   "word_ids": [
+    "w92"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w53",
+      "w54",
+      "w55"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w56"
+     ]
+    },
+    "qty": {
+     "text": "5",
+     "word_ids": [
+      "w57"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w58"
+     ]
+    },
+    "unit_price": {
+     "text": "8.696.69",
+     "word_ids": [
+      "w59"
+     ]
+    },
+    "taxable_value": {
+     "text": "43.483.45",
+     "word_ids": [
+      "w60"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w61",
+      "w62"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w63"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "igst": {
+     "text": "7.827.02",
+     "word_ids": [
+      "w65"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 3.66,
+  "prompt_tokens": 1515,
+  "completion_tokens": 798,
+  "cache_key": "daf836f9daefbc84459a8d5ae38f7501d806311155bdce142242515b8220f11f"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4"
+   ]
+  },
+  "account_number": {
+   "text": "48201459484016",
+   "word_ids": [
+    "w8"
+   ]
+  },
+  "account_holder": {
+   "text": "Pragati Hardware Traders",
+   "word_ids": [
+    "w15",
+    "w16",
+    "w17"
+   ]
+  },
+  "period_from": {
+   "text": "01/05/2026",
+   "word_ids": [
+    "w21"
+   ]
+  },
+  "period_to": {
+   "text": "30/05/2026",
+   "word_ids": [
+    "w24"
+   ]
+  },
+  "opening_balance": {
+   "text": "24,81,366.92",
+   "word_ids": [
+    "w37"
+   ]
+  },
+  "closing_balance": {
+   "text": null,
+   "word_ids": []
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 1.38,
+  "prompt_tokens": 3828,
+  "completion_tokens": 209,
+  "cache_key": "70af363219c83746c53b7f34a430b227e63777276cfd876c709a1c4fd16143c8"
+ }
+}

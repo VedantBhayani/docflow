@@ -1,0 +1,240 @@
+{
+  "documents": 83,
+  "field_accuracy": [
+    3973,
+    4011
+  ],
+  "key_field_accuracy": [
+    497,
+    498
+  ],
+  "field_accuracy_by_scan": {
+    "digital": [
+      1875,
+      1877
+    ],
+    "heavy": [
+      1063,
+      1097
+    ],
+    "light": [
+      1035,
+      1037
+    ]
+  },
+  "field_accuracy_by_template": {
+    "einvoice": [
+      1061,
+      1074
+    ],
+    "tally": [
+      971,
+      980
+    ],
+    "word": [
+      1030,
+      1037
+    ],
+    "zoho": [
+      911,
+      920
+    ]
+  },
+  "field_accuracy_by_field": {
+    "cgst_total": [
+      83,
+      83
+    ],
+    "grand_total": [
+      83,
+      83
+    ],
+    "igst_total": [
+      83,
+      83
+    ],
+    "invoice_date": [
+      83,
+      83
+    ],
+    "invoice_no": [
+      83,
+      83
+    ],
+    "irn": [
+      77,
+      83
+    ],
+    "lines.cgst": [
+      259,
+      260
+    ],
+    "lines.description": [
+      252,
+      260
+    ],
+    "lines.gst_rate": [
+      260,
+      260
+    ],
+    "lines.hsn": [
+      260,
+      260
+    ],
+    "lines.igst": [
+      260,
+      260
+    ],
+    "lines.qty": [
+      256,
+      260
+    ],
+    "lines.sgst": [
+      259,
+      260
+    ],
+    "lines.taxable_value": [
+      258,
+      260
+    ],
+    "lines.unit_price": [
+      259,
+      260
+    ],
+    "lines.uqc": [
+      258,
+      260
+    ],
+    "place_of_supply": [
+      81,
+      83
+    ],
+    "recipient_address": [
+      82,
+      83
+    ],
+    "recipient_gstin": [
+      83,
+      83
+    ],
+    "recipient_name": [
+      82,
+      83
+    ],
+    "reverse_charge": [
+      83,
+      83
+    ],
+    "round_off": [
+      83,
+      83
+    ],
+    "sgst_total": [
+      83,
+      83
+    ],
+    "supplier_address": [
+      78,
+      83
+    ],
+    "supplier_gstin": [
+      82,
+      83
+    ],
+    "supplier_name": [
+      80,
+      83
+    ],
+    "taxable_total": [
+      83,
+      83
+    ]
+  },
+  "grounding_rate": [
+    3936,
+    3959
+  ],
+  "verified_key_fields": [
+    474,
+    498
+  ],
+  "defect_recall": [
+    16,
+    16
+  ],
+  "defect_recall_by_type": {
+    "bad_gstin_checksum": [
+      2,
+      2
+    ],
+    "duplicate_invoice_no": [
+      2,
+      2
+    ],
+    "invalid_slab": [
+      2,
+      2
+    ],
+    "line_math": [
+      2,
+      2
+    ],
+    "missing_recipient_gstin": [
+      2,
+      2
+    ],
+    "qr_bad_signature": [
+      2,
+      2
+    ],
+    "qr_total_mismatch": [
+      2,
+      2
+    ],
+    "wrong_tax_type": [
+      2,
+      2
+    ]
+  },
+  "false_flag_rate": [
+    5,
+    65
+  ],
+  "straight_through_rate": [
+    60,
+    65
+  ],
+  "flags_exactly_as_labelled": [
+    77,
+    83
+  ],
+  "prompt_injection_unaffected": [
+    2,
+    2
+  ],
+  "qr_read_rate_by_scan": {
+    "digital": [
+      16,
+      16
+    ],
+    "heavy": [
+      6,
+      7
+    ],
+    "light": [
+      10,
+      10
+    ]
+  },
+  "llm_usd_per_doc_mean": 0.001145,
+  "llm_tokens_per_doc_mean": [
+    1913,
+    1430
+  ],
+  "latency_uncached_seconds": {
+    "n": 26,
+    "p50": 10.5,
+    "p95": 14.6
+  },
+  "wall_seconds": 277.0
+}

@@ -18,8 +18,9 @@ from cryptography.hazmat.primitives.asymmetric import rsa
 from cryptography.x509.oid import NameOID
 
 ROOT = Path(__file__).resolve().parents[3]
-TEST_DIR = ROOT / "trust" / "test"
-ROGUE_DIR = ROOT / "tests" / "fixtures" / "keys"  # outside every trust store
+TEST_DIR = ROOT / "trust" / "test"  # public certificate only: this is the trust store
+KEY_DIR = ROOT / "tests" / "fixtures" / "keys"  # private keys (test + rogue), outside every trust store
+ROGUE_DIR = KEY_DIR
 TEST_ISSUER = "DOCFLOW-TEST-NOT-NIC"
 
 
@@ -38,14 +39,15 @@ def _make_keypair(cn: str) -> tuple[bytes, bytes]:
 
 def ensure_keys() -> None:
     """Create the test and rogue key pairs once; they are then committed and reused."""
-    for folder, stem, cn in [(TEST_DIR, "DOCFLOW-TEST-ONLY", "DocFlow TEST signer - NOT NIC/IRP"),
-                             (ROGUE_DIR, "ROGUE-NOT-TRUSTED", "DocFlow ROGUE signer - for bad-signature tests")]:
-        if (folder / f"{stem}.cert.pem").exists():
+    for cert_dir, stem, cn in [(TEST_DIR, "DOCFLOW-TEST-ONLY", "DocFlow TEST signer - NOT NIC/IRP"),
+                               (ROGUE_DIR, "ROGUE-NOT-TRUSTED", "DocFlow ROGUE signer - for bad-signature tests")]:
+        if (cert_dir / f"{stem}.cert.pem").exists():
             continue
-        folder.mkdir(parents=True, exist_ok=True)
+        cert_dir.mkdir(parents=True, exist_ok=True)
+        KEY_DIR.mkdir(parents=True, exist_ok=True)
         key_pem, cert_pem = _make_keypair(cn)
-        (folder / f"{stem}.key.pem").write_bytes(key_pem)
-        (folder / f"{stem}.cert.pem").write_bytes(cert_pem)
+        (KEY_DIR / f"{stem}.key.pem").write_bytes(key_pem)
+        (cert_dir / f"{stem}.cert.pem").write_bytes(cert_pem)
 
 
 def thumbprint(cert_pem: bytes) -> tuple[str, str]:
@@ -64,8 +66,8 @@ def sign_payload(data: dict, rogue: bool = False) -> str:
     """Signed QR token with the test key's kid/x5t. rogue=True signs with an untrusted key under the same kid."""
     ensure_keys()
     cert_pem = (TEST_DIR / "DOCFLOW-TEST-ONLY.cert.pem").read_bytes()
-    key_dir, stem = (ROGUE_DIR, "ROGUE-NOT-TRUSTED") if rogue else (TEST_DIR, "DOCFLOW-TEST-ONLY")
-    key_pem = (key_dir / f"{stem}.key.pem").read_bytes()
+    stem = "ROGUE-NOT-TRUSTED" if rogue else "DOCFLOW-TEST-ONLY"
+    key_pem = (KEY_DIR / f"{stem}.key.pem").read_bytes()
     kid, x5t = thumbprint(cert_pem)
     claims = {"iss": TEST_ISSUER, "data": json.dumps(data, separators=(",", ":"))}
     return jwt.encode(claims, key_pem, algorithm="RS256", headers={"kid": kid, "x5t": x5t, "typ": "JWT"})

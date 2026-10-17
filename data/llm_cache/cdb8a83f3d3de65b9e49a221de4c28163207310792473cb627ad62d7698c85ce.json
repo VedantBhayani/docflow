@@ -1,0 +1,331 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Shakti Electricals Industries Pvt Ltd",
+   "word_ids": [
+    "w49",
+    "w50",
+    "w51",
+    "w52",
+    "w53"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 10, Business Park, Hyderabad, Telangana",
+   "word_ids": [
+    "w57",
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "36XEHCS3689P3ZH",
+   "word_ids": [
+    "w70"
+   ]
+  },
+  "recipient_name": {
+   "text": "Pragati Stationers Traders",
+   "word_ids": [
+    "w54",
+    "w55",
+    "w56"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 215, MIDC Road, Hyderabad, Telangana",
+   "word_ids": [
+    "w63",
+    "w64",
+    "w65",
+    "w66",
+    "w67",
+    "w68"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "36KQWCP8918W2ZI",
+   "word_ids": [
+    "w72"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0106",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "18/09/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Telangana (36)",
+   "word_ids": [
+    "w39",
+    "w40"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "irn": {
+   "text": "d4997405ab561b0b7383b3d2fcd1259b10ddb8f9579b13c2a2725db9bdaaaeaa",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "6,44,888.20",
+   "word_ids": [
+    "w151"
+   ]
+  },
+  "cgst_total": {
+   "text": "58,039.94",
+   "word_ids": [
+    "w152"
+   ]
+  },
+  "sgst_total": {
+   "text": "58,039.94",
+   "word_ids": [
+    "w153"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w154"
+   ]
+  },
+  "round_off": {
+   "text": "-0.08",
+   "word_ids": [
+    "w155"
+   ]
+  },
+  "grand_total": {
+   "text": "7,60,968.00",
+   "word_ids": [
+    "w156"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w90",
+      "w91",
+      "w92",
+      "w93",
+      "w94",
+      "w95",
+      "w96"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "qty": {
+     "text": "5.00",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "unit_price": {
+     "text": "2,969.34",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "taxable_value": {
+     "text": "14,846.70",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "cgst": {
+     "text": "1,336.20",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "sgst": {
+     "text": "1,336.20",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w105"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w107",
+      "w108",
+      "w109",
+      "w110",
+      "w111",
+      "w112"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "unit_price": {
+     "text": "336.06",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "taxable_value": {
+     "text": "8,401.50",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w118"
+     ]
+    },
+    "cgst": {
+     "text": "756.14",
+     "word_ids": [
+      "w119"
+     ]
+    },
+    "sgst": {
+     "text": "756.14",
+     "word_ids": [
+      "w120"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w121"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w123",
+      "w124",
+      "w125"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "qty": {
+     "text": "100.00 NOS",
+     "word_ids": [
+      "w127",
+      "w128"
+     ]
+    },
+    "uqc": {
+     "text": null,
+     "word_ids": []
+    },
+    "unit_price": {
+     "text": "6,216.40",
+     "word_ids": [
+      "w129"
+     ]
+    },
+    "taxable_value": {
+     "text": "6,21,640.00",
+     "word_ids": [
+      "w130"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w131"
+     ]
+    },
+    "cgst": {
+     "text": "55,947.60",
+     "word_ids": [
+      "w132"
+     ]
+    },
+    "sgst": {
+     "text": "55,947.60",
+     "word_ids": [
+      "w133"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w134"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 6.02,
+  "prompt_tokens": 2126,
+  "completion_tokens": 1499,
+  "cache_key": "cdb8a83f3d3de65b9e49a221de4c28163207310792473cb627ad62d7698c85ce"
+ }
+}

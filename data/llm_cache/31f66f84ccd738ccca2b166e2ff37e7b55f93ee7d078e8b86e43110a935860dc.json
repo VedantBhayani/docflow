@@ -1,0 +1,265 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Pragati Stationers Pvt Ltd",
+   "word_ids": [
+    "w24",
+    "w25",
+    "w26",
+    "w27"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 123, Business Park, Hyderabad, Telangana",
+   "word_ids": [
+    "w28",
+    "w29",
+    "w30",
+    "w31",
+    "w32",
+    "w33"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "36MDMCP5485Z3ZA",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "recipient_name": {
+   "text": "Meghdoot Fabrication Enterprises",
+   "word_ids": [
+    "w42",
+    "w43",
+    "w44"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 153, Trade Centre, Chennai, Tamil Nadu",
+   "word_ids": [
+    "w51",
+    "w52",
+    "w53",
+    "w54",
+    "w55",
+    "w56",
+    "w57"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "33AGRCM8860T3ZV",
+   "word_ids": [
+    "w65"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0056",
+   "word_ids": [
+    "w41"
+   ]
+  },
+  "invoice_date": {
+   "text": "23 Jun 2026",
+   "word_ids": [
+    "w48",
+    "w49",
+    "w50"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Tamil Nadu (33)",
+   "word_ids": [
+    "w61",
+    "w62",
+    "w63"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w68"
+   ]
+  },
+  "irn": {
+   "text": "0b8159c2ce71et2d4e68b2984e9d3",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "15,821.52",
+   "word_ids": [
+    "w111"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w113"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w115"
+   ]
+  },
+  "igst_total": {
+   "text": "2,847.88",
+   "word_ids": [
+    "w117"
+   ]
+  },
+  "round_off": {
+   "text": "-0.40",
+   "word_ids": [
+    "w119"
+   ]
+  },
+  "grand_total": {
+   "text": "18,669.00",
+   "word_ids": [
+    "w121"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w83",
+      "w84",
+      "w85"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "unit_price": {
+     "text": "100.27",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "taxable_value": {
+     "text": "100.27",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "igst": {
+     "text": "18.05",
+     "word_ids": [
+      "w95"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w96",
+      "w97",
+      "w98",
+      "w99"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "unit_price": {
+     "text": "628.85",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "taxable_value": {
+     "text": "15,721.25",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "igst": {
+     "text": "2,829.83",
+     "word_ids": [
+      "w108"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 5.11,
+  "prompt_tokens": 1780,
+  "completion_tokens": 1128,
+  "cache_key": "31f66f84ccd738ccca2b166e2ff37e7b55f93ee7d078e8b86e43110a935860dc"
+ }
+}

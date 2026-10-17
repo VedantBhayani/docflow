@@ -386,7 +386,8 @@
       "defect": "bad_gstin_checksum",
       "split": "heldout",
       "expected_flags": [
-        "G5"
+        "G5",
+        "Q2"
       ],
       "acceptable_flags": [],
       "qr": true
@@ -438,7 +439,8 @@
       "defect": "bad_gstin_checksum",
       "split": "dev",
       "expected_flags": [
-        "G5"
+        "G5",
+        "Q2"
       ],
       "acceptable_flags": [],
       "qr": true

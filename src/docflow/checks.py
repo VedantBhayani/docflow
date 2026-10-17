@@ -57,6 +57,12 @@ CATALOGUE = [
     CheckInfo("C6", B, "Line tax = taxable x rate; totals = sum of lines; grand total reconciles; round-off < Rs 1.", "CGST Act s.170; tolerances are a design choice"),
     CheckInfo("C6Q", W, "Line quantity x unit price equals the taxable value (a mismatch may be a discount).", "Arithmetic consistency"),
     CheckInfo("C7", B, "Each rate is a valid slab on the invoice date (blocking for goods after 22.09.2025, warning otherwise).", N9_2025),
+    CheckInfo("Q1", B, "E-invoice QR signature verifies against the selected trust store (blocking if a held key fails or the issuer is wrong; warning if the signing key is not held).", "NIC QR Code procedure; RFC 7515/7518 (RS256)"),
+    CheckInfo("Q2", B, "Signed QR matches the printed supplier/recipient GSTIN, document no., date, total value (Rs 1), line count and main HSN.", "NIC QR Code procedure (research note 02)"),
+    CheckInfo("Q3", B, "Printed IRN equals the IRN in the signed QR.", "Rule 46(r); research note 02"),
+    CheckInfo("Q3R", W, "QR IRN equals SHA-256(GSTIN + FY + doc type + doc no.); NIC's canonicalisation is unverified, so warning only.", "einv-apisandbox.nic.in/irn.html"),
+    CheckInfo("B3", W, "IRN generated within 30 days of the invoice date.", "GSTN advisory 05.11.2024 (AATO >= Rs 10 Cr)"),
+    CheckInfo("P1", B, "Scanned page is readable (mean OCR confidence >= 0.80).", "DocFlow scan rule"),
     CheckInfo("C8", W, "Reverse charge is Yes but the supplier charged GST.", R46 + " (p), CGST Act s.9(3)/(4)"),
 ]
 _INFO = {c.id: c for c in CATALOGUE}

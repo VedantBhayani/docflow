@@ -102,7 +102,8 @@
     "ack_date": "2026-05-14"
   },
   "expected_flags": [
-    "G5"
+    "G5",
+    "Q2"
   ],
   "acceptable_flags": [],
   "id": "inv-0036",

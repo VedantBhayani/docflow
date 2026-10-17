@@ -1,0 +1,389 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Pragati Packaging Traders.",
+   "word_ids": [
+    "w49",
+    "w50",
+    "w51"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 52, Trade Centre, Hyderabad, Telangana",
+   "word_ids": [
+    "w55",
+    "w56",
+    "w57",
+    "w58",
+    "w59",
+    "w60"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "36ERSCP8622A1Z7",
+   "word_ids": [
+    "w68"
+   ]
+  },
+  "recipient_name": {
+   "text": "Aarav Logistics Enterprises",
+   "word_ids": [
+    "w52",
+    "w53",
+    "w54"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 158, Trade Centre, Hyderabad, Telangana",
+   "word_ids": [
+    "w61",
+    "w62",
+    "w63",
+    "w64",
+    "w65",
+    "w66"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "36KFWCA6388L3Z1",
+   "word_ids": [
+    "w70"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0119",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "09/05/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Telangana (36)",
+   "word_ids": [
+    "w39",
+    "w40"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "irn": {
+   "text": "743e316a11de23984732dc44e20100b",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "45.813.33",
+   "word_ids": [
+    "w156"
+   ]
+  },
+  "cgst_total": {
+   "text": "3.478.83",
+   "word_ids": [
+    "w157"
+   ]
+  },
+  "sgst_total": {
+   "text": "3.478.83",
+   "word_ids": [
+    "w158"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w159"
+   ]
+  },
+  "round_off": {
+   "text": "0.01",
+   "word_ids": [
+    "w160"
+   ]
+  },
+  "grand_total": {
+   "text": "52.771.00",
+   "word_ids": [
+    "w161"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w87",
+      "w88",
+      "w89"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "unit_price": {
+     "text": "6.592.78",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "taxable_value": {
+     "text": "6.592.78",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "cgst": {
+     "text": "164.82",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "sgst": {
+     "text": "164.82",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w98"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w100",
+      "w101",
+      "w102",
+      "w103",
+      "w104",
+      "w105",
+      "w106"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "qty": {
+     "text": "12.00",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "unit_price": {
+     "text": "2.991.67",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "taxable_value": {
+     "text": "35.900.04",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "cgst": {
+     "text": "3,231.00",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "sgst": {
+     "text": "3.231.00",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w115"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w119"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w120"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w121"
+     ]
+    },
+    "unit_price": {
+     "text": "2.237.15",
+     "word_ids": [
+      "w122"
+     ]
+    },
+    "taxable_value": {
+     "text": "2.237.15",
+     "word_ids": [
+      "w123"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w124"
+     ]
+    },
+    "cgst": {
+     "text": "55.93",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "sgst": {
+     "text": "55.93",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w127"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w128",
+      "w129",
+      "w130"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w132"
+     ]
+    },
+    "qty": {
+     "text": "12.00",
+     "word_ids": [
+      "w133"
+     ]
+    },
+    "uqc": {
+     "text": "90.28",
+     "word_ids": [
+      "w134"
+     ]
+    },
+    "unit_price": {
+     "text": "1.083.36",
+     "word_ids": [
+      "w135"
+     ]
+    },
+    "taxable_value": {
+     "text": "1.083.36",
+     "word_ids": [
+      "w135"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w136"
+     ]
+    },
+    "cgst": {
+     "text": "27.08",
+     "word_ids": [
+      "w137"
+     ]
+    },
+    "sgst": {
+     "text": "27.08",
+     "word_ids": [
+      "w138"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w139"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 7.56,
+  "prompt_tokens": 2151,
+  "completion_tokens": 1662,
+  "cache_key": "90b578d094fd4277f54900da14ae58e608cf21aea36379687fe129a98ccf0e78"
+ }
+}

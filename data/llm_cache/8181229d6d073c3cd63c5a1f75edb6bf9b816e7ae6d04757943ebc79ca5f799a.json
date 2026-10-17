@@ -1,0 +1,325 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Vistar IT Services LLP",
+   "word_ids": [
+    "w23",
+    "w24",
+    "w25"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 165, MIDC Road, Mysuru, Karnataka",
+   "word_ids": [
+    "w27",
+    "w28",
+    "w29",
+    "w30",
+    "w31",
+    "w32"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "29XHACV3941I2Z2",
+   "word_ids": [
+    "w34"
+   ]
+  },
+  "recipient_name": {
+   "text": "Pragati Stationers LLP",
+   "word_ids": [
+    "w52",
+    "w53",
+    "w54"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 61, Industrial Estate, Bengaluru, Karnataka",
+   "word_ids": [
+    "w55",
+    "w56",
+    "w57",
+    "w58",
+    "w59",
+    "w60"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "29LGXCP3094A1ZD",
+   "word_ids": [
+    "w62"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0076",
+   "word_ids": [
+    "w39"
+   ]
+  },
+  "invoice_date": {
+   "text": "20-04-2026",
+   "word_ids": [
+    "w41"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Karnataka (29)",
+   "word_ids": [
+    "w45",
+    "w46"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w50"
+   ]
+  },
+  "irn": {
+   "text": "229bad6e3b826672b07867df79aeb0709f7d043e6324e2e9024673a8efc7f32d",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "25,194.66",
+   "word_ids": [
+    "w122"
+   ]
+  },
+  "cgst_total": {
+   "text": "886.93",
+   "word_ids": [
+    "w126"
+   ]
+  },
+  "sgst_total": {
+   "text": "886.93",
+   "word_ids": [
+    "w130"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w134"
+   ]
+  },
+  "round_off": {
+   "text": "0.48",
+   "word_ids": [
+    "w138"
+   ]
+  },
+  "grand_total": {
+   "text": "26,969.00",
+   "word_ids": [
+    "w142"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w76"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w78"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w79"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "unit_price": {
+     "text": "2,543.62",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,543.62",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w83",
+      "w84"
+     ]
+    },
+    "cgst": {
+     "text": "63.59",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "sgst": {
+     "text": "63.59",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w87"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w89",
+      "w90",
+      "w91"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "qty": {
+     "text": "40",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "unit_price": {
+     "text": "98.87",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "taxable_value": {
+     "text": "3,954.80",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w98",
+      "w99"
+     ]
+    },
+    "cgst": {
+     "text": "355.93",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "sgst": {
+     "text": "355.93",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w102"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w104",
+      "w105",
+      "w106",
+      "w107"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "unit_price": {
+     "text": "18,696.24",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "taxable_value": {
+     "text": "18,696.24",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w113",
+      "w114"
+     ]
+    },
+    "cgst": {
+     "text": "467.41",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "sgst": {
+     "text": "467.41",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w117"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 7.02,
+  "prompt_tokens": 2058,
+  "completion_tokens": 1393,
+  "cache_key": "8181229d6d073c3cd63c5a1f75edb6bf9b816e7ae6d04757943ebc79ca5f799a"
+ }
+}

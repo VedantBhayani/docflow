@@ -31,9 +31,17 @@ def test_missing_key_field_is_e2_but_missing_optional_field_is_not():
     assert ids(evidence_flags(fields, [], INVOICE_KEY_FIELDS)) == ["E2"]
 
 
-def test_conflict_is_e3():
-    fields = {"supplier_gstin": F("supplier_gstin", FieldStatus.CONFLICT)}
-    assert ids(evidence_flags(fields, [], INVOICE_KEY_FIELDS)) == ["E3"]
+def test_conflict_with_the_rule_extractor_is_e3():
+    f = F("supplier_gstin", FieldStatus.CONFLICT)
+    f.conflicts["rules"] = "27AAACU2414K1ZF"
+    flags = evidence_flags({"supplier_gstin": f}, [], INVOICE_KEY_FIELDS)
+    assert ids(flags) == ["E3"] and "27AAACU2414K1ZF" in flags[0].message
+
+
+def test_conflict_only_with_the_qr_is_left_to_q2():
+    f = F("grand_total", FieldStatus.CONFLICT)
+    f.conflicts["qr"] = "2705.0"
+    assert evidence_flags({"grand_total": f}, [], INVOICE_KEY_FIELDS) == []
 
 
 def test_ungrounded_non_checked_field_is_only_a_warning():

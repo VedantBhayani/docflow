@@ -87,3 +87,32 @@ What was run, on what, and what came out. This includes the things that failed o
 - The digital dev split is unchanged at 931/932.
 - **These dev numbers are optimistic by construction:** I changed code after looking at these 18 scans. The held-out run is the real test.
 - **Known residual:** the IRN, printed at 6.5 pt, is often garbled by OCR on scans. It raises an E1 warning, not a block, and the QR carries the IRN anyway.
+
+## 2026-10-17: E-invoice QR in the pipeline (ticket 06) and the evaluation harness (ticket 10)
+
+**QR verification:**
+- **Separate trust stores:** `trust/test/` (DocFlow test certificate) and `trust/nic/` (currently only the key printed in NIC's QR procedure PDF). The private test key moved out of the trust store into `tests/fixtures/keys/`.
+- **Statuses:**
+  - VERIFIED
+  - INVALID_SIGNATURE: Q1, blocking
+  - UNKNOWN_KEY: Q1, warning, never an accusation
+  - WRONG_ISSUER: Q1, blocking
+  - UNREADABLE: Q1, warning
+- **Q2:** a verified QR is compared with the printed GSTINs, doc no, date, total (±₹1), line count and main HSN.
+- **Q3:** printed IRN vs the QR's IRN, but only when the printed IRN is well-formed (64 hex characters). A garbled print is a warning.
+- **Q3R:** the IRN recipe check, a warning (canonicalisation unverified).
+- **B3:** IRN more than 30 days after the invoice date, a warning.
+
+**Dataset corrections made while building this (labels and realism, not pipeline tuning):**
+1. **Label fix:** bad-GSTIN defect documents that carry a QR now expect Q2 as well, because the signed QR holds the true GSTIN and does contradict the print.
+2. **QR print size:** raised from 1.5 in to 2 × 2 in, the minimum print size recommended for e-invoice QR codes. At 1.5 in no heavy-scan QR could be decoded (0/10, even with binarisation); at 2 in, 8/10 decode. Digital 24/24, light 14/14. Header layouts shifted to fit.
+
+**Evaluation harness** (`python -m docflow.evaluate --split dev`): scores fields by value and checks every flag outcome against its label, running A3 as a batch per split. Held-out requires `--final` and each run is logged in `results/heldout_runs.log`. Latency is only reported from uncached runs.
+
+**Dev result (37 documents, digital + scans), after the Q3-readability fix:**
+- Field accuracy 99.3% (1796/1809); key fields 100% (222/222); grounding rate 99.8%.
+- Defect recall 9/9; false flags 0/27; flagged exactly as labelled 37/37.
+- QR read on dev scans: light 4/4, heavy 2/3.
+- **Change made after looking at dev:** Q3 was falsely accusing a genuine heavy scan whose 6.5 pt IRN OCR had garbled; it now requires a well-formed IRN first.
+
+**Not done:** downloading NIC's production public keys from einvoice1.gst.gov.in. That is a file download and needs the user's approval. Until then, real e-invoices verify as UNKNOWN_KEY (warning), never as tampered.

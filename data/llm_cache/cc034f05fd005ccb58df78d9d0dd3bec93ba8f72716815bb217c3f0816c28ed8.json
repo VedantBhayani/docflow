@@ -1,0 +1,333 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Nimbus Packaging Industries Pvt Ltd",
+   "word_ids": [
+    "w50",
+    "w51",
+    "w52",
+    "w53",
+    "w54"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 108, Trade Centre, Surat, Gujarat",
+   "word_ids": [
+    "w59",
+    "w60",
+    "w61",
+    "w62",
+    "w63",
+    "w64"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "24JFTCN7609P1Z1",
+   "word_ids": [
+    "w72"
+   ]
+  },
+  "recipient_name": {
+   "text": "Nimbus IT Services LLP",
+   "word_ids": [
+    "w55",
+    "w56",
+    "w57",
+    "w58"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 221, Trade Centre, Gandhinagar, Gujarat",
+   "word_ids": [
+    "w65",
+    "w66",
+    "w67",
+    "w68",
+    "w69",
+    "w70"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "24XSNCN8714G2ZK",
+   "word_ids": [
+    "w74"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0115",
+   "word_ids": [
+    "w33"
+   ]
+  },
+  "invoice_date": {
+   "text": "19/08/2026",
+   "word_ids": [
+    "w36"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Gujarat (24)",
+   "word_ids": [
+    "w40",
+    "w41"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w44"
+   ]
+  },
+  "irn": {
+   "text": "d523b9d1c5dbf79843563e4db88131097d8e8e04620487425c229039",
+   "word_ids": [
+    "w2",
+    "w3"
+   ]
+  },
+  "taxable_total": {
+   "text": "13.946.22",
+   "word_ids": [
+    "w150"
+   ]
+  },
+  "cgst_total": {
+   "text": "778.87",
+   "word_ids": [
+    "w151"
+   ]
+  },
+  "sgst_total": {
+   "text": "778.87",
+   "word_ids": [
+    "w152"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w153"
+   ]
+  },
+  "round_off": {
+   "text": "0.04",
+   "word_ids": [
+    "w154"
+   ]
+  },
+  "grand_total": {
+   "text": "15,504.00",
+   "word_ids": [
+    "w155"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w91",
+      "w92",
+      "w93",
+      "w94"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "qty": {
+     "text": "12.00",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "unit_price": {
+     "text": "594.52",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "taxable_value": {
+     "text": "7.134.24",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "cgst": {
+     "text": "178.36",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "sgst": {
+     "text": "178.36",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w103"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w105",
+      "w106",
+      "w107",
+      "w108"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "qty": {
+     "text": "2.00",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "unit_price": {
+     "text": "96.67",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "taxable_value": {
+     "text": "193.34",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "cgst": {
+     "text": "4.83",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "sgst": {
+     "text": "4.83",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w117"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w118",
+      "w119",
+      "w120",
+      "w121",
+      "w122",
+      "w123",
+      "w124"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "qty": {
+     "text": "2.00",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w127"
+     ]
+    },
+    "unit_price": {
+     "text": "3.309.32",
+     "word_ids": [
+      "w128"
+     ]
+    },
+    "taxable_value": {
+     "text": "6.618.64",
+     "word_ids": [
+      "w129"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w130"
+     ]
+    },
+    "cgst": {
+     "text": "595.68",
+     "word_ids": [
+      "w131"
+     ]
+    },
+    "sgst": {
+     "text": "595.68",
+     "word_ids": [
+      "w132"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w133"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 6.13,
+  "prompt_tokens": 2076,
+  "completion_tokens": 1460,
+  "cache_key": "cc034f05fd005ccb58df78d9d0dd3bec93ba8f72716815bb217c3f0816c28ed8"
+ }
+}

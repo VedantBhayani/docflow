@@ -173,6 +173,7 @@ def qr_payload(spec: InvoiceSpec, rng: random.Random) -> dict:
 # ---------------------------------------------------------------- renderers
 
 W, H = A4
+QR_SIZE = 144  # 2 x 2 inches, the minimum print size recommended for e-invoice QR codes
 COLS = [("Sl", 36), ("Description", 52), ("HSN/SAC", 200), ("Qty", 248), ("Unit", 276), ("Rate", 304),
         ("Taxable Value", 352), ("GST %", 416), ("CGST", 448), ("SGST", 494), ("IGST", 540)]
 LINE_KEYS = ["description", "hsn", "qty", "uqc", "unit_price", "taxable_value", "gst_rate", "cgst", "sgst", "igst"]
@@ -186,7 +187,7 @@ def _qr_image(token: str) -> ImageReader:
     return ImageReader(buf)
 
 
-def _qr_block(c: canvas.Canvas, rec: dict, x: float, y: float, size: float = 110) -> None:
+def _qr_block(c: canvas.Canvas, rec: dict, x: float, y: float, size: float = QR_SIZE) -> None:
     if not rec["qr"]:
         return
     c.drawImage(_qr_image(rec["qr"]["token"]), x, y, size, size)
@@ -224,7 +225,7 @@ def render_tally(c, rec, spec):
     f = rec["fields"]
     c.setFont("Helvetica-Bold", 15)
     c.drawCentredString(W / 2, H - 70 if rec["qr"] else H - 40, "TAX INVOICE")
-    y = H - 160 if rec["qr"] else H - 70
+    y = H - 205 if rec["qr"] else H - 70
     c.setFont("Helvetica-Bold", 11)
     c.drawString(36, y, f["supplier_name"])
     c.setFont("Helvetica", 8.5)
@@ -254,13 +255,13 @@ def render_tally(c, rec, spec):
     c.setFont("Helvetica", 8)
     c.drawString(380, y - 20, f"For {f['supplier_name']}")
     c.drawString(380, y - 45, "Authorised Signatory")
-    _qr_block(c, rec, W - 150, H - 150)
+    _qr_block(c, rec, W - 36 - QR_SIZE, H - 40 - QR_SIZE)
     _footer(c, rec, y - 70)
 
 
 def render_zoho(c, rec, spec):
     f = rec["fields"]
-    top = H - 160 if rec["qr"] else H - 50
+    top = H - 205 if rec["qr"] else H - 50
     c.setFont("Helvetica-Bold", 13)
     c.drawString(36, top, f["supplier_name"])
     c.setFont("Helvetica", 8)
@@ -297,13 +298,13 @@ def render_zoho(c, rec, spec):
         y -= 14
     c.setFont("Helvetica", 8)
     c.drawString(36, y - 10, "Thank you for the business.")
-    _qr_block(c, rec, W - 150, H - 150)
+    _qr_block(c, rec, W - 36 - QR_SIZE, H - 40 - QR_SIZE)
     _footer(c, rec, y - 40)
 
 
 def render_word(c, rec, spec):
     f = rec["fields"]
-    top = H - 160 if rec["qr"] else H - 50
+    top = H - 205 if rec["qr"] else H - 50
     c.setFont("Times-Bold", 14)
     c.drawCentredString(W / 2, top, f["supplier_name"])
     c.setFont("Times-Roman", 9)
@@ -333,7 +334,7 @@ def render_word(c, rec, spec):
         c.drawRightString(W - 36, y, f[key])
         y -= 14
     c.drawString(36, y - 20, "Certified that the particulars given above are true and correct.")
-    _qr_block(c, rec, W - 150, H - 150)
+    _qr_block(c, rec, W - 36 - QR_SIZE, H - 40 - QR_SIZE)
     _footer(c, rec, y - 45)
 
 
@@ -377,7 +378,7 @@ def render_einvoice(c, rec, spec):
     for label, key, x in labels:
         c.drawString(x, y, label)
         c.drawString(x, y - 12, f[key])
-    _qr_block(c, rec, W - 150, H - 150)
+    _qr_block(c, rec, W - 36 - QR_SIZE, H - 40 - QR_SIZE)
     _footer(c, rec, y - 40)
 
 
@@ -537,6 +538,8 @@ def generate_invoice_set(out_dir: Path, seed: int = 7) -> list[dict]:
             rec["qr"] = {"token": token, "payload": payload, "irn_printed": payload["Irn"],
                          "ack_no": f"11{drng.randint(10**12, 10**13 - 1)}", "ack_date": payload["IrnDt"][:10]}
             rec["fields"]["irn"] = payload["Irn"]
+            if defect == "bad_gstin_checksum":
+                expected.append("Q2")  # the signed QR still carries the true GSTIN, so it contradicts the print
         rec.update({"id": doc_id, "scan": slot["scan"], "defect": defect, "split": slot["split"],
                     "expected_flags": sorted(set(expected)), "acceptable_flags": ["P1"] if defect == "rotated_page" else []})
 

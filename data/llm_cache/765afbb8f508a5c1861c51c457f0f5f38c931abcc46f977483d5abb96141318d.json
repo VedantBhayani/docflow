@@ -1,0 +1,332 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Nimbus Stationers Industries Pvt Ltd",
+   "word_ids": [
+    "w23",
+    "w24",
+    "w25",
+    "w26",
+    "w27"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 52, MIDC Road, Coimbatore, Tamil Nadu",
+   "word_ids": [
+    "w28",
+    "w29",
+    "w30",
+    "w31",
+    "w32",
+    "w33",
+    "w34"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "33SGTCN6196R2ZE",
+   "word_ids": [
+    "w36"
+   ]
+  },
+  "recipient_name": {
+   "text": "Sarthi Electricals Traders",
+   "word_ids": [
+    "w55",
+    "w56",
+    "w57"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 211, MIDC Road, Kolkata, West Bengal",
+   "word_ids": [
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62",
+    "w63",
+    "w64"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "19GVYCS3036V2ZM",
+   "word_ids": [
+    "w66"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0081",
+   "word_ids": [
+    "w41"
+   ]
+  },
+  "invoice_date": {
+   "text": "13-04-2026",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "place_of_supply": {
+   "text": "West Bengal (19)",
+   "word_ids": [
+    "w47",
+    "w48",
+    "w49"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w53"
+   ]
+  },
+  "irn": {
+   "text": "82f8ee923fd884761273a17f7d077acef686e1c4bc9050777a8c5a5babc56e6b",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "26,517.45",
+   "word_ids": [
+    "w130"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w134"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w138"
+   ]
+  },
+  "igst_total": {
+   "text": "2,182.83",
+   "word_ids": [
+    "w142"
+   ]
+  },
+  "round_off": {
+   "text": "-0.28",
+   "word_ids": [
+    "w146"
+   ]
+  },
+  "grand_total": {
+   "text": "28,700.00",
+   "word_ids": [
+    "w150"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w81",
+      "w82",
+      "w83"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "qty": {
+     "text": "3",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "unit_price": {
+     "text": "46.51",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "taxable_value": {
+     "text": "139.53",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "igst": {
+     "text": "25.12",
+     "word_ids": [
+      "w93"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w95",
+      "w96",
+      "w97",
+      "w98",
+      "w99",
+      "w100",
+      "w101"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "qty": {
+     "text": "2",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "unit_price": {
+     "text": "3,226.20",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "taxable_value": {
+     "text": "6,452.40",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "igst": {
+     "text": "1,161.43",
+     "word_ids": [
+      "w111"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w113",
+      "w114",
+      "w115"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "qty": {
+     "text": "3",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w118"
+     ]
+    },
+    "unit_price": {
+     "text": "6,641.84",
+     "word_ids": [
+      "w119"
+     ]
+    },
+    "taxable_value": {
+     "text": "19,925.52",
+     "word_ids": [
+      "w120"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w121"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w123"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w124"
+     ]
+    },
+    "igst": {
+     "text": "996.28",
+     "word_ids": [
+      "w125"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 5.84,
+  "prompt_tokens": 2117,
+  "completion_tokens": 1441,
+  "cache_key": "765afbb8f508a5c1861c51c457f0f5f38c931abcc46f977483d5abb96141318d"
+ }
+}

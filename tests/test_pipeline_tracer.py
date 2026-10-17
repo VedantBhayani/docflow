@@ -27,9 +27,11 @@ def tracer(tmp_path_factory):
 
 def test_every_header_field_matches_truth_and_is_grounded(tracer):
     result, truth, _ = tracer
+    verified_by_rules = {"supplier_gstin", "recipient_gstin", "invoice_no", "invoice_date", "taxable_total", "grand_total"}
     for name, printed in truth["fields"].items():
         f = result.fields[name]
-        assert (f.text, f.status) == (printed, "GROUNDED"), name
+        want = "VERIFIED" if name in verified_by_rules else "GROUNDED"
+        assert (f.text, f.status) == (printed, want), name
         assert f.evidence is not None and 0 <= f.evidence.bbox[0] < f.evidence.bbox[2] <= 1
 
 

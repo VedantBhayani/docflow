@@ -1,0 +1,460 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Anvay Textiles Enterprises",
+   "word_ids": [
+    "w23",
+    "w24",
+    "w25"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 45, Industrial Estate, Nagpur, Maharashtra",
+   "word_ids": [
+    "w26",
+    "w27",
+    "w28",
+    "w29",
+    "w30",
+    "w31"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "27RJYCA4601O3Z0",
+   "word_ids": [
+    "w33"
+   ]
+  },
+  "recipient_name": {
+   "text": "Nimbus Fabrication Industries Pvt Ltd",
+   "word_ids": [
+    "w41",
+    "w42",
+    "w43",
+    "w44",
+    "w45",
+    "w46"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 15, Business Park, Bengaluru, Karnataka",
+   "word_ids": [
+    "w52",
+    "w53",
+    "w54",
+    "w55",
+    "w56",
+    "w57"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "29HDICN7287D2ZM",
+   "word_ids": [
+    "w65"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0031",
+   "word_ids": [
+    "w40"
+   ]
+  },
+  "invoice_date": {
+   "text": "03 Jun 2026",
+   "word_ids": [
+    "w49",
+    "w50",
+    "w51"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Karnataka (29)",
+   "word_ids": [
+    "w62",
+    "w63"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w69"
+   ]
+  },
+  "taxable_total": {
+   "text": "34,954.94",
+   "word_ids": [
+    "w155"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w157"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w159"
+   ]
+  },
+  "igst_total": {
+   "text": "5,743.70",
+   "word_ids": [
+    "w161"
+   ]
+  },
+  "round_off": {
+   "text": "0.36",
+   "word_ids": [
+    "w163"
+   ]
+  },
+  "grand_total": {
+   "text": "40,699.00",
+   "word_ids": [
+    "w165"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Hand sanitiser",
+     "word_ids": [
+      "w86",
+      "w87"
+     ]
+    },
+    "hsn": {
+     "text": "500 ml 38089400",
+     "word_ids": [
+      "w88",
+      "w90"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "unit_price": {
+     "text": "92.65",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "taxable_value": {
+     "text": "92.65",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "igst": {
+     "text": "4.63",
+     "word_ids": [
+      "w98"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Stretch wrap film",
+     "word_ids": [
+      "w100",
+      "w101",
+      "w102"
+     ]
+    },
+    "hsn": {
+     "text": "23 micron 39201012",
+     "word_ids": [
+      "w103",
+      "w104",
+      "w105"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "unit_price": {
+     "text": "157.58",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "taxable_value": {
+     "text": "157.58",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "igst": {
+     "text": "28.36",
+     "word_ids": [
+      "w113"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w115",
+      "w116",
+      "w117",
+      "w118"
+     ]
+    },
+    "hsn": {
+     "text": "2.00 NOS 94051900",
+     "word_ids": [
+      "w119",
+      "w120",
+      "w121",
+      "w122"
+     ]
+    },
+    "qty": {
+     "text": "2.00",
+     "word_ids": [
+      "w120"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w121"
+     ]
+    },
+    "unit_price": {
+     "text": "723.38",
+     "word_ids": [
+      "w122"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,446.76",
+     "word_ids": [
+      "w123"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w124"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "igst": {
+     "text": "72.34",
+     "word_ids": [
+      "w127"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w129",
+      "w130",
+      "w131"
+     ]
+    },
+    "hsn": {
+     "text": "5.00 NOS 94032090",
+     "word_ids": [
+      "w132",
+      "w133",
+      "w134",
+      "w135"
+     ]
+    },
+    "qty": {
+     "text": "5.00",
+     "word_ids": [
+      "w133"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w134"
+     ]
+    },
+    "unit_price": {
+     "text": "6,116.11",
+     "word_ids": [
+      "w135"
+     ]
+    },
+    "taxable_value": {
+     "text": "30,580.55",
+     "word_ids": [
+      "w136"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w137"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w138"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w139"
+     ]
+    },
+    "igst": {
+     "text": "5,504.50",
+     "word_ids": [
+      "w140"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w142",
+      "w143"
+     ]
+    },
+    "hsn": {
+     "text": "996511 1.00 OTH",
+     "word_ids": [
+      "w144",
+      "w145",
+      "w146"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w145"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w146"
+     ]
+    },
+    "unit_price": {
+     "text": "2,677.40",
+     "word_ids": [
+      "w147"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,677.40",
+     "word_ids": [
+      "w148"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w149"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w150"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w151"
+     ]
+    },
+    "igst": {
+     "text": "133.87",
+     "word_ids": [
+      "w152"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v2",
+  "seconds": 7.93,
+  "prompt_tokens": 2045,
+  "completion_tokens": 1936,
+  "cache_key": "3ec748ead1e9809b94b02c6be94aad8dc543634730f330172916f25489a9fa75"
+ }
+}

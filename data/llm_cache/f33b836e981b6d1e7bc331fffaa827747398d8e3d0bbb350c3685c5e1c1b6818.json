@@ -1,0 +1,194 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Pragati IT Services Enterprises",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 138, Trade Centre, New Delhi, Delhi",
+   "word_ids": [
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "07ZVXCP2247U3ZA",
+   "word_ids": [
+    "w13"
+   ]
+  },
+  "recipient_name": {
+   "text": "Vistar Logistics Traders",
+   "word_ids": [
+    "w21",
+    "w22",
+    "w23"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 8, MIDC Road, New Delhi, Delhi",
+   "word_ids": [
+    "w30",
+    "w31",
+    "w32",
+    "w33",
+    "w34",
+    "w35",
+    "w36"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "07VBGCV9388J1ZU",
+   "word_ids": [
+    "w44"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0035",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "invoice_date": {
+   "text": "14 May 2026",
+   "word_ids": [
+    "w27",
+    "w28",
+    "w29"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Delhi (07)",
+   "word_ids": [
+    "w41",
+    "w42"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w48"
+   ]
+  },
+  "taxable_total": {
+   "text": "45.64",
+   "word_ids": [
+    "w79"
+   ]
+  },
+  "cgst_total": {
+   "text": "1.14",
+   "word_ids": [
+    "w81"
+   ]
+  },
+  "sgst_total": {
+   "text": "1.14",
+   "word_ids": [
+    "w83"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w85"
+   ]
+  },
+  "round_off": {
+   "text": "0.08",
+   "word_ids": [
+    "w87"
+   ]
+  },
+  "grand_total": {
+   "text": "48.00",
+   "word_ids": [
+    "w89"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w65",
+      "w66",
+      "w67"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "unit_price": {
+     "text": "45.64",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "taxable_value": {
+     "text": "45.64",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "cgst": {
+     "text": "1.14",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "sgst": {
+     "text": "1.14",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w76"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v2",
+  "seconds": 3.43,
+  "prompt_tokens": 1241,
+  "completion_tokens": 812,
+  "cache_key": "f33b836e981b6d1e7bc331fffaa827747398d8e3d0bbb350c3685c5e1c1b6818"
+ }
+}

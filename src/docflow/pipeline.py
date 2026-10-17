@@ -10,7 +10,10 @@ from docflow.checks import check_duplicates, run_invoice_checks
 from docflow.extract import extract
 from docflow.ground import ground_ref
 from docflow.ingest import load, serialise
+from docflow.gstin import normalise as norm_gstin
 from docflow.models import Field, FieldStatus, Flag, Severity
+from docflow.parse import parse_amount, parse_date
+from docflow.rules import RuleValue, rule_extract
 
 INVOICE_KEY_FIELDS = ("supplier_gstin", "recipient_gstin", "invoice_no", "invoice_date", "taxable_total", "grand_total")
 
@@ -37,6 +40,29 @@ class DocResult:
         return dataclasses.asdict(self)
 
 
+_COMPARE = {
+    "supplier_gstin": norm_gstin, "recipient_gstin": norm_gstin,
+    "invoice_no": lambda v: v.strip().upper(), "invoice_date": parse_date,
+    "taxable_total": parse_amount, "grand_total": parse_amount,
+}
+
+
+def corroborate(fields: dict[str, Field], second: dict[str, RuleValue], source: str = "rules") -> None:
+    """Compare an independent source with the grounded extraction, by meaning (dates, amounts, IDs)."""
+    for name, rv in second.items():
+        f = fields.get(name)
+        if f is None or f.status == FieldStatus.UNGROUNDED:
+            continue
+        key = _COMPARE.get(name, lambda v: v.strip())
+        if f.status == FieldStatus.MISSING or key(f.text) != key(rv.value):
+            f.status = FieldStatus.CONFLICT
+            f.conflicts[source] = rv.value
+        elif f.status in (FieldStatus.GROUNDED, FieldStatus.VERIFIED):
+            f.status = FieldStatus.VERIFIED
+            if source not in f.sources:
+                f.sources.append(source)
+
+
 def evidence_flags(fields: dict[str, Field], lines: list[dict[str, Field]], key_fields: tuple[str, ...]) -> list[Flag]:
     flags = []
     for name, f in fields.items():
@@ -45,7 +71,8 @@ def evidence_flags(fields: dict[str, Field], lines: list[dict[str, Field]], key_
         elif f.status == FieldStatus.MISSING and name in key_fields:
             flags.append(Flag("E2", Severity.BLOCKING, f"Key field '{name}' was not found on the document.", (name,)))
         elif f.status == FieldStatus.CONFLICT:
-            flags.append(Flag("E3", Severity.BLOCKING, f"Independent sources disagree on '{name}'.", (name,)))
+            others = "; ".join(f"{src} read '{v}'" for src, v in f.conflicts.items())
+            flags.append(Flag("E3", Severity.BLOCKING, f"Independent sources disagree on '{name}': extractor read '{f.text}', {others}.", (name,)))
     for i, ln in enumerate(lines):
         for name, f in ln.items():
             if f.status == FieldStatus.UNGROUNDED:
@@ -68,6 +95,7 @@ def process(path: str | Path, kind: str = "invoice") -> DocResult:
         {name: ground_ref(f"lines.{i}.{name}", ref.text, ref.word_ids, index) for name, ref in line}
         for i, line in enumerate(parsed.lines)
     ]
+    corroborate(fields, rule_extract(doc))
     flags = evidence_flags(fields, lines, INVOICE_KEY_FIELDS) + run_invoice_checks(fields, lines)
     status = _status(flags)
     return DocResult(

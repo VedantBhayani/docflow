@@ -51,6 +51,7 @@ class InvoiceExtraction(BaseModel):
     invoice_date: Ref
     place_of_supply: Ref
     reverse_charge: Ref
+    irn: Ref
     taxable_total: Ref
     cgst_total: Ref
     sgst_total: Ref
@@ -60,7 +61,7 @@ class InvoiceExtraction(BaseModel):
     lines: list[LineRef]
 
 
-SCHEMAS = {"invoice": (InvoiceExtraction, "invoice.v2")}
+SCHEMAS = {"invoice": (InvoiceExtraction, "invoice.v3")}
 
 
 def _client():

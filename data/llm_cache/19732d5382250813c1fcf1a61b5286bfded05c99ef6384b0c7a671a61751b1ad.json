@@ -1,0 +1,397 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Meghdoot Fabrication Enterprises",
+   "word_ids": [
+    "w23",
+    "w24",
+    "w25"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 112, Industrial Estate, New Delhi, Delhi",
+   "word_ids": [
+    "w26",
+    "w27",
+    "w28",
+    "w29",
+    "w30",
+    "w31",
+    "w32"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "07EQMCM9487U2Z7",
+   "word_ids": [
+    "w34"
+   ]
+  },
+  "recipient_name": {
+   "text": "Shakti Packaging Pvt Ltd",
+   "word_ids": [
+    "w42",
+    "w43",
+    "w44",
+    "w45"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 209, MIDC Road, Pune, Maharashtra",
+   "word_ids": [
+    "w52",
+    "w53",
+    "w54",
+    "w55",
+    "w56",
+    "w57"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "27ETUCS4532U1ZZ",
+   "word_ids": [
+    "w65"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0041",
+   "word_ids": [
+    "w41"
+   ]
+  },
+  "invoice_date": {
+   "text": "21 Aug 2026",
+   "word_ids": [
+    "w49",
+    "w50",
+    "w51"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Maharashtra (27)",
+   "word_ids": [
+    "w62",
+    "w63"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w69"
+   ]
+  },
+  "irn": {
+   "text": "0690cf4557da69696773df909d36b948136663455d77587a6d2fd473a6379436",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "54,899.96",
+   "word_ids": [
+    "w145"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w147"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w149"
+   ]
+  },
+  "igst_total": {
+   "text": "9,741.64",
+   "word_ids": [
+    "w151"
+   ]
+  },
+  "round_off": {
+   "text": "0.40",
+   "word_ids": [
+    "w153"
+   ]
+  },
+  "grand_total": {
+   "text": "64,642.00",
+   "word_ids": [
+    "w155"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w86",
+      "w87",
+      "w88",
+      "w89",
+      "w90",
+      "w91",
+      "w92"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "qty": {
+     "text": "12.00",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "unit_price": {
+     "text": "3,106.93",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "taxable_value": {
+     "text": "37,283.16",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "igst": {
+     "text": "6,710.97",
+     "word_ids": [
+      "w101"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w103",
+      "w104",
+      "w105"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "unit_price": {
+     "text": "39.24",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "taxable_value": {
+     "text": "981.00",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "igst": {
+     "text": "49.05",
+     "word_ids": [
+      "w114"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w116",
+      "w117",
+      "w118",
+      "w119"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w120"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w121"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w122"
+     ]
+    },
+    "unit_price": {
+     "text": "16,537.14",
+     "word_ids": [
+      "w123"
+     ]
+    },
+    "taxable_value": {
+     "text": "16,537.14",
+     "word_ids": [
+      "w124"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w127"
+     ]
+    },
+    "igst": {
+     "text": "2,976.69",
+     "word_ids": [
+      "w128"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w130",
+      "w131",
+      "w132",
+      "w133"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w134"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w135"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w136"
+     ]
+    },
+    "unit_price": {
+     "text": "98.66",
+     "word_ids": [
+      "w137"
+     ]
+    },
+    "taxable_value": {
+     "text": "98.66",
+     "word_ids": [
+      "w138"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w139"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w140"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w141"
+     ]
+    },
+    "igst": {
+     "text": "4.93",
+     "word_ids": [
+      "w142"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 6.71,
+  "prompt_tokens": 2142,
+  "completion_tokens": 1717,
+  "cache_key": "19732d5382250813c1fcf1a61b5286bfded05c99ef6384b0c7a671a61751b1ad"
+ }
+}

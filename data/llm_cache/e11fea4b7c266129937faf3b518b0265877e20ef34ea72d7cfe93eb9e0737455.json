@@ -1,0 +1,203 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Pragati Fabrication Industries Pvt Ltd",
+   "word_ids": [
+    "w50",
+    "w51",
+    "w52",
+    "w53",
+    "w54"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 26, Business Park, Coimbatore, Tamil Nadu",
+   "word_ids": [
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62",
+    "w63",
+    "w64"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "33ZLDCP0351E3ZN",
+   "word_ids": [
+    "w73"
+   ]
+  },
+  "recipient_name": {
+   "text": "Aarav Electricals Enterprises",
+   "word_ids": [
+    "w55",
+    "w56",
+    "w57"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 72, Business Park, Chennai, Tamil Nadu",
+   "word_ids": [
+    "w65",
+    "w66",
+    "w67",
+    "w68",
+    "w69",
+    "w70",
+    "w71"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "33EFOCA5577S3ZA",
+   "word_ids": [
+    "w75"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0100",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "31/05/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Tamil Nadu (33)",
+   "word_ids": [
+    "w39",
+    "w40",
+    "w41"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w44"
+   ]
+  },
+  "irn": {
+   "text": "691abe9894bfdc7f2389affd1935a4f1e1e2d1313f6e454d69182409a61f26ce",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "1,638.65",
+   "word_ids": [
+    "w124"
+   ]
+  },
+  "cgst_total": {
+   "text": "147.48",
+   "word_ids": [
+    "w125"
+   ]
+  },
+  "sgst_total": {
+   "text": "147.48",
+   "word_ids": [
+    "w126"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w127"
+   ]
+  },
+  "round_off": {
+   "text": "0.39",
+   "word_ids": [
+    "w128"
+   ]
+  },
+  "grand_total": {
+   "text": "1,934.00",
+   "word_ids": [
+    "w129"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w93",
+      "w94",
+      "w95",
+      "w96",
+      "w97",
+      "w98"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "qty": {
+     "text": "5.00",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "unit_price": {
+     "text": "327.73",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,638.65",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "cgst": {
+     "text": "147.48",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "sgst": {
+     "text": "147.48",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w107"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 3.81,
+  "prompt_tokens": 1797,
+  "completion_tokens": 920,
+  "cache_key": "e11fea4b7c266129937faf3b518b0265877e20ef34ea72d7cfe93eb9e0737455"
+ }
+}

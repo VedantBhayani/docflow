@@ -1,0 +1,254 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Meghdoot Packaging Industries Pvt Ltd",
+   "word_ids": [
+    "w49",
+    "w50",
+    "w51",
+    "w52",
+    "w53"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 11, MIDC Road, Hyderabad, Telangana",
+   "word_ids": [
+    "w57",
+    "w58",
+    "w59",
+    "w60",
+    "w61",
+    "w62"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "36WPDCM9082U2ZX",
+   "word_ids": [
+    "w70"
+   ]
+  },
+  "recipient_name": {
+   "text": "Anvay Hardware Traders",
+   "word_ids": [
+    "w54",
+    "w55",
+    "w56"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 30, Business Park, Hyderabad, Telangana",
+   "word_ids": [
+    "w64",
+    "w65",
+    "w66",
+    "w67",
+    "w68"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "36EMPCA1482R1Z4",
+   "word_ids": [
+    "w72"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0098",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "01/09/2026",
+   "word_ids": [
+    "w35"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Telangana (36)",
+   "word_ids": [
+    "w39",
+    "w40"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "taxable_total": {
+   "text": "2,640.12",
+   "word_ids": [
+    "w131"
+   ]
+  },
+  "cgst_total": {
+   "text": "232.02",
+   "word_ids": [
+    "w132"
+   ]
+  },
+  "sgst_total": {
+   "text": "232.02",
+   "word_ids": [
+    "w133"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w134"
+   ]
+  },
+  "round_off": {
+   "text": "-0.16",
+   "word_ids": [
+    "w135"
+   ]
+  },
+  "grand_total": {
+   "text": "3,104.00",
+   "word_ids": [
+    "w136"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Hand sanitiser",
+     "word_ids": [
+      "w90",
+      "w91"
+     ]
+    },
+    "hsn": {
+     "text": "500 ml 38089400",
+     "word_ids": [
+      "w92",
+      "w93",
+      "w94"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "unit_price": {
+     "text": "85.96",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "taxable_value": {
+     "text": "85.96",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "cgst": {
+     "text": "2.15",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "sgst": {
+     "text": "2.15",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w102"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w104",
+      "w105"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "unit_price": {
+     "text": "2,554.16",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,554.16",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "cgst": {
+     "text": "229.87",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "sgst": {
+     "text": "229.87",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w114"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v2",
+  "seconds": 4.46,
+  "prompt_tokens": 1712,
+  "completion_tokens": 1055,
+  "cache_key": "eca6ea816334d1df1194f019bd9edffe4d985830a4874ca4ffb9867c7b1daf10"
+ }
+}

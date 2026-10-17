@@ -1,0 +1,198 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Anvay Stationers Industries Pvt Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4",
+    "w5"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 160, MIDC Road, Vadodara, Gujarat",
+   "word_ids": [
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "24XYOCA8511E1ZU",
+   "word_ids": [
+    "w13"
+   ]
+  },
+  "recipient_name": {
+   "text": "Pragati Fabrication Industries Pvt Ltd",
+   "word_ids": [
+    "w31",
+    "w32",
+    "w33",
+    "w34",
+    "w35"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 175, Industrial Estate, Hyderabad, Telangana",
+   "word_ids": [
+    "w36",
+    "w37",
+    "w38",
+    "w39",
+    "w40",
+    "w41"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "36YVXCP2162O1ZQ",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0068",
+   "word_ids": [
+    "w18"
+   ]
+  },
+  "invoice_date": {
+   "text": "27-07-2026",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Telangana (36)",
+   "word_ids": [
+    "w24",
+    "w25"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w29"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "2,11,270.80",
+   "word_ids": [
+    "w75"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w79"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w83"
+   ]
+  },
+  "igst_total": {
+   "text": "10,563.54",
+   "word_ids": [
+    "w87"
+   ]
+  },
+  "round_off": {
+   "text": "-0.34",
+   "word_ids": [
+    "w91"
+   ]
+  },
+  "grand_total": {
+   "text": "2,21,834.00",
+   "word_ids": [
+    "w95"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w58",
+      "w59",
+      "w60"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w61"
+     ]
+    },
+    "qty": {
+     "text": "40",
+     "word_ids": [
+      "w62"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w63"
+     ]
+    },
+    "unit_price": {
+     "text": "5,281.77",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,11,270.80",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w66",
+      "w67"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "igst": {
+     "text": "10,563.54",
+     "word_ids": [
+      "w70"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 3.76,
+  "prompt_tokens": 1723,
+  "completion_tokens": 833,
+  "cache_key": "05fdc68d9f72f72325a21952f6f28275f6e8a1a6b7d9866f2021652390b0a1f1"
+ }
+}

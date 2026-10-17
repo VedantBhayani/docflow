@@ -25,7 +25,7 @@ What was run, on what, and what came out. This includes the things that failed o
 ### Not yet verified
 
 - INR/USD rate for ₹-per-document reporting (it's set when cost is first computed, with the date and source).
-- The C7 rate-slab list against Notification 9/2025-CTR (build ticket 03).
+- ~~The C7 rate-slab list~~: verified 2026-10-17 from Notification 9/2025-IT(R) (build ticket 03; see research note 01 addendum).
 - The NIC production key files (build ticket 06).
 
 ## 2026-10-17: Synthetic invoice set (build ticket 04)
@@ -47,3 +47,22 @@ What was run, on what, and what came out. This includes the things that failed o
 - The same seed reproduces byte-identical PDFs and truth files.
 
 **Deviation from spec:** scan degradation is DocFlow's own seeded OpenCV code, not augraphy. This avoided a heavy dependency on Windows and keeps every effect explicit. Light = ±1° skew, blur 0.6, noise 6, JPEG 75. Heavy = ±3° skew, 0.7× resample, blur 1.1, noise 14, contrast 0.75, speckle, JPEG 45. I checked page renders by eye: the heavy scans are degraded but still legible to a human.
+
+## 2026-10-17: Rule extractor and the first dev-split diagnosis (build ticket 07)
+
+**Rule extractor** (`docflow.rules`): regexes and label anchors for both GSTINs, invoice no, date, taxable total and grand total. It abstains whenever a field is ambiguous.
+- Dev, digital documents: 0 wrong out of 112 values produced; it abstained on 2 of 114.
+- **Held-out peek, disclosed:** I measured rule precision on the held-out digital documents once, without changing any rule afterwards. Result: 0 wrong out of 240 values produced, abstained on 6 of 246 (the missing-GSTIN defects and the injected "grand total as 0.00" note). The pipeline's LLM path has not been run on held-out.
+- Agreement upgrades a field to VERIFIED; disagreement makes it CONFLICT (flag E3, showing both values).
+
+**Dev diagnosis, digital only** (scans need ticket 05). Changes made **after looking at dev errors**:
+
+| Step | Field errors (dev, digital) | Change |
+|---|---|---|
+| prompt v2, plain serialisation | 27 / 924 (97.1%) | none yet |
+| prompt v3 + column-gap markers | 1 / 932 (99.9%) | Serialisation inserts ` \| ` at gaps > 1.2% of page width. Prompt v3 explains it, asks for every word of multi-word values, and adds `irn`. |
+| + evidence completion | 1 / 932 | Grounding extends an incomplete word pointer to adjacent words on the same row, but only if that spells the value **exactly**. This removed false E1 flags on correct values such as "5 %". |
+
+- Root cause of the 27 errors: plain serialisation hid column boundaries. Numbers inside descriptions ("23 micron", "500 ml") were read as HSN codes, and side-by-side Supplier/Recipient blocks merged.
+- Remaining error: the recipient address on the missing-GSTIN defect document picked up the table header word "Sl". It is a real error and counts against accuracy. Grounding cannot catch it because the LLM pointed at the word it copied.
+- Blocking flags matched labels on every dev digital document except the 2 duplicates, which only `process_batch` checks (the diagnosis script calls `process`).

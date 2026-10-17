@@ -67,3 +67,27 @@ def test_value_must_be_whole_words_not_a_substring_of_a_word():
 def test_evidence_for_a_labelled_span_covers_only_the_value_words():
     f = ground_ref("supplier_gstin", "27AAACU2414K1ZF", ["w1", "w2"], INDEX)
     assert f.evidence.bbox == INDEX["w2"].bbox
+
+
+def _row(*texts):
+    words = [Word(id=f"w{i}", text=t, page=0, bbox=(0.05 * i, 0.5, 0.05 * i + 0.03, 0.52)) for i, t in enumerate(texts, 1)]
+    return {w.id: w for w in words}
+
+
+def test_incomplete_pointer_is_completed_when_the_exact_value_is_printed_next_to_it():
+    idx = _row("Rate", "18", "%", "450.00")
+    f = ground_ref("lines.0.gst_rate", "18 %", ["w2"], idx)
+    assert f.status == FieldStatus.GROUNDED
+    assert f.word_ids == ["w2", "w3"]
+    assert f.match_score == 90.0
+
+
+def test_completion_never_accepts_a_value_that_is_not_printed():
+    idx = _row("Rate", "18", "GST", "450.00")
+    assert ground_ref("lines.0.gst_rate", "18 %", ["w2"], idx).status == FieldStatus.UNGROUNDED
+
+
+def test_completion_stays_on_the_same_visual_row():
+    a = Word(id="w1", text="18", page=0, bbox=(0.1, 0.50, 0.13, 0.52))
+    b = Word(id="w2", text="%", page=0, bbox=(0.1, 0.60, 0.13, 0.62))  # next line down
+    assert ground_ref("lines.0.gst_rate", "18 %", ["w1"], {"w1": a, "w2": b}).status == FieldStatus.UNGROUNDED

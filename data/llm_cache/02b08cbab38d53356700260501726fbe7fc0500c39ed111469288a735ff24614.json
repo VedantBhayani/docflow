@@ -1,0 +1,321 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Meghdoot Stationers Enterprises",
+   "word_ids": [
+    "w23",
+    "w24",
+    "w25"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 228, MIDC Road, Pune, Maharashtra",
+   "word_ids": [
+    "w26",
+    "w27",
+    "w28",
+    "w29",
+    "w30",
+    "w31"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "27ZHGCM1831J3ZB",
+   "word_ids": [
+    "w33"
+   ]
+  },
+  "recipient_name": {
+   "text": "Vistar Logistics LLP",
+   "word_ids": [
+    "w51",
+    "w52",
+    "w53"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 205, Business Park, New Delhi, Delhi",
+   "word_ids": [
+    "w54",
+    "w55",
+    "w56",
+    "w57",
+    "w58",
+    "w59",
+    "w60"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "07JKPCV1186J1ZY",
+   "word_ids": [
+    "w62"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0071",
+   "word_ids": [
+    "w38"
+   ]
+  },
+  "invoice_date": {
+   "text": "03-05-2026",
+   "word_ids": [
+    "w40"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Delhi (07)",
+   "word_ids": [
+    "w44",
+    "w45"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w49"
+   ]
+  },
+  "taxable_total": {
+   "text": "2,39,795.22",
+   "word_ids": [
+    "w126"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w130"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w134"
+   ]
+  },
+  "igst_total": {
+   "text": "37,878.07",
+   "word_ids": [
+    "w138"
+   ]
+  },
+  "round_off": {
+   "text": "-0.29",
+   "word_ids": [
+    "w142"
+   ]
+  },
+  "grand_total": {
+   "text": "2,77,673.00",
+   "word_ids": [
+    "w146"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w77",
+      "w78",
+      "w79",
+      "w80",
+      "w81",
+      "w82"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "qty": {
+     "text": "12",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "unit_price": {
+     "text": "3,286.16",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "taxable_value": {
+     "text": "39,433.92",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "gst_rate": {
+     "text": "5",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "igst": {
+     "text": "1,971.70",
+     "word_ids": [
+      "w93"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w95",
+      "w96",
+      "w97"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "qty": {
+     "text": "40",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "unit_price": {
+     "text": "4,978.52",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,99,140.80",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "gst_rate": {
+     "text": "18",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "igst": {
+     "text": "35,845.34",
+     "word_ids": [
+      "w107"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w109",
+      "w110",
+      "w111"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "qty": {
+     "text": "25",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "unit_price": {
+     "text": "48.82",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,220.50",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "gst_rate": {
+     "text": "5",
+     "word_ids": [
+      "w118"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w119"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w120"
+     ]
+    },
+    "igst": {
+     "text": "61.03",
+     "word_ids": [
+      "w121"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v2",
+  "seconds": 5.29,
+  "prompt_tokens": 1910,
+  "completion_tokens": 1346,
+  "cache_key": "02b08cbab38d53356700260501726fbe7fc0500c39ed111469288a735ff24614"
+ }
+}

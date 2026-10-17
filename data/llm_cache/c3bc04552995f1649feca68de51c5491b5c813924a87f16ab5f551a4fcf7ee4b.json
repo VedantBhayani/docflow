@@ -1,0 +1,263 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Kaveri Textiles Industries Pvt Ltd",
+   "word_ids": [
+    "w25",
+    "w26",
+    "w27",
+    "w28",
+    "w29"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 204, MIDC Road, Hyderabad, Telangana",
+   "word_ids": [
+    "w33",
+    "w34",
+    "w35",
+    "w36",
+    "w37",
+    "w38"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "36NCTCK4883D1ZK",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "recipient_name": {
+   "text": "Vistar Fabrication Pvt Ltd",
+   "word_ids": [
+    "w57",
+    "w58",
+    "w59",
+    "w60"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 19, MIDC Road, Hyderabad, Telangana",
+   "word_ids": [
+    "w61",
+    "w62",
+    "w63",
+    "w64",
+    "w65",
+    "w66"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "36RWICV8862H1Z0",
+   "word_ids": [
+    "w68"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0008",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "invoice_date": {
+   "text": "20/07/2026",
+   "word_ids": [
+    "w41"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Telangana (36)",
+   "word_ids": [
+    "w47",
+    "w48"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w54"
+   ]
+  },
+  "irn": {
+   "text": "ecea441653e04d95f7f4033f9a42b65b4ba5d433f4c156a05368ccd76c00ea3b",
+   "word_ids": [
+    "w2"
+   ]
+  },
+  "taxable_total": {
+   "text": "8,427.15",
+   "word_ids": [
+    "w112"
+   ]
+  },
+  "cgst_total": {
+   "text": "210.68",
+   "word_ids": [
+    "w114"
+   ]
+  },
+  "sgst_total": {
+   "text": "210.68",
+   "word_ids": [
+    "w116"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w118"
+   ]
+  },
+  "round_off": {
+   "text": "0.49",
+   "word_ids": [
+    "w121"
+   ]
+  },
+  "grand_total": {
+   "text": "8,849.00",
+   "word_ids": [
+    "w124"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Hand sanitiser 500 ml",
+     "word_ids": [
+      "w83",
+      "w84",
+      "w85"
+     ]
+    },
+    "hsn": {
+     "text": "38089400",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "qty": {
+     "text": "25",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "uqc": {
+     "text": "BTL",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "unit_price": {
+     "text": "107.19",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,679.75",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "cgst": {
+     "text": "66.99",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "sgst": {
+     "text": "66.99",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w95"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w97",
+      "w98",
+      "w99",
+      "w100"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "qty": {
+     "text": "10",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "unit_price": {
+     "text": "574.74",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "taxable_value": {
+     "text": "5,747.40",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "cgst": {
+     "text": "143.69",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "sgst": {
+     "text": "143.69",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w109"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 11.45,
+  "prompt_tokens": 1876,
+  "completion_tokens": 1151,
+  "cache_key": "c3bc04552995f1649feca68de51c5491b5c813924a87f16ab5f551a4fcf7ee4b"
+ }
+}

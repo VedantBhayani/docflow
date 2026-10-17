@@ -1,0 +1,391 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Kaveri Office Supplies Industries Pvt Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4",
+    "w5",
+    "w6"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 170, Industrial Estate, Mysuru, Karnataka",
+   "word_ids": [
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11",
+    "w12"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "29QEFCK2202J3ZY",
+   "word_ids": [
+    "w14"
+   ]
+  },
+  "recipient_name": {
+   "text": "Anvay Stationers Traders",
+   "word_ids": [
+    "w22",
+    "w23",
+    "w24"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 15, MIDC Road, Hyderabad, Telangana",
+   "word_ids": [
+    "w31",
+    "w32",
+    "w33",
+    "w34",
+    "w35",
+    "w36"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "36GGRCA8605E3ZZ",
+   "word_ids": [
+    "w44"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0033",
+   "word_ids": [
+    "w21"
+   ]
+  },
+  "invoice_date": {
+   "text": "28 Aug 2026",
+   "word_ids": [
+    "w28",
+    "w29",
+    "w30"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Telangana (36)",
+   "word_ids": [
+    "w41",
+    "w42"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w48"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "57,419.61",
+   "word_ids": [
+    "w119"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w121"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w123"
+   ]
+  },
+  "igst_total": {
+   "text": "4,930.54",
+   "word_ids": [
+    "w125"
+   ]
+  },
+  "round_off": {
+   "text": "-0.15",
+   "word_ids": [
+    "w127"
+   ]
+  },
+  "grand_total": {
+   "text": "62,350.00",
+   "word_ids": [
+    "w129"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w65",
+      "w66"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "unit_price": {
+     "text": "2,872.87",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,872.87",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "igst": {
+     "text": "143.64",
+     "word_ids": [
+      "w75"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Annual IT support services",
+     "word_ids": [
+      "w77",
+      "w78",
+      "w79",
+      "w80"
+     ]
+    },
+    "hsn": {
+     "text": "998713",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "unit_price": {
+     "text": "21,349.71",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "taxable_value": {
+     "text": "21,349.71",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "igst": {
+     "text": "1,067.49",
+     "word_ids": [
+      "w89"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w91",
+      "w92",
+      "w93"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "qty": {
+     "text": "3.00",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "unit_price": {
+     "text": "5,784.76",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "taxable_value": {
+     "text": "17,354.28",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "igst": {
+     "text": "867.71",
+     "word_ids": [
+      "w102"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w104",
+      "w105",
+      "w106",
+      "w107"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "unit_price": {
+     "text": "633.71",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "taxable_value": {
+     "text": "15,842.75",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "igst": {
+     "text": "2,851.70",
+     "word_ids": [
+      "w116"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 6.36,
+  "prompt_tokens": 1864,
+  "completion_tokens": 1599,
+  "cache_key": "77fc26d66aed859144124c5dc09619bc29de29b501abde9a957f2862e9bdafae"
+ }
+}

@@ -55,6 +55,7 @@ class Field:
     evidence: Evidence | None = None
     match_score: float = 0.0
     sources: list[str] = field(default_factory=list)
+    conflicts: dict[str, str] = field(default_factory=dict)  # source -> the value that source read instead
 
 
 class Severity(StrEnum):

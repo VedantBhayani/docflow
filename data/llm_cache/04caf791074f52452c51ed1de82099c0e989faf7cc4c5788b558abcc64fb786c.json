@@ -1,0 +1,196 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Sarthi Fabrication Enterprises",
+   "word_ids": [
+    "w3",
+    "w4",
+    "w5"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 161, Business Park, Chennai, Tamil Nadu",
+   "word_ids": [
+    "w9",
+    "w10",
+    "w11",
+    "w12",
+    "w13",
+    "w14",
+    "w15"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "33NSOCS5197A3ZT",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "recipient_name": {
+   "text": "Kaveri Packaging Pvt Ltd",
+   "word_ids": [
+    "w36",
+    "w37",
+    "w38",
+    "w39"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 101, Trade Centre, Noida, Uttar Pradesh",
+   "word_ids": [
+    "w40",
+    "w41",
+    "w42",
+    "w43",
+    "w44",
+    "w45",
+    "w46"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "09JUQCK7109K2ZI",
+   "word_ids": [
+    "w48"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0004",
+   "word_ids": [
+    "w8"
+   ]
+  },
+  "invoice_date": {
+   "text": "19/04/2026",
+   "word_ids": [
+    "w18"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Uttar Pradesh (09)",
+   "word_ids": [
+    "w24",
+    "w25",
+    "w26"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w33"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "2,338.10",
+   "word_ids": [
+    "w76"
+   ]
+  },
+  "cgst_total": {
+   "text": "58.45",
+   "word_ids": [
+    "w78"
+   ]
+  },
+  "sgst_total": {
+   "text": "58.45",
+   "word_ids": [
+    "w80"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w82"
+   ]
+  },
+  "round_off": {
+   "text": "0.00",
+   "word_ids": [
+    "w85"
+   ]
+  },
+  "grand_total": {
+   "text": "2,455.00",
+   "word_ids": [
+    "w88"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w63",
+      "w64"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "unit_price": {
+     "text": "2,338.10",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,338.10",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "cgst": {
+     "text": "58.45",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "sgst": {
+     "text": "58.45",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w73"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 3.44,
+  "prompt_tokens": 1451,
+  "completion_tokens": 801,
+  "cache_key": "04caf791074f52452c51ed1de82099c0e989faf7cc4c5788b558abcc64fb786c"
+ }
+}

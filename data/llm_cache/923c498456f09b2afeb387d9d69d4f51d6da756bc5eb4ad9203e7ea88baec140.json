@@ -1,0 +1,193 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Udaan Logistics Traders",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 47, Business Park, Pune, Maharashtra",
+   "word_ids": [
+    "w4",
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "27NFACU7878B3ZF",
+   "word_ids": [
+    "w11"
+   ]
+  },
+  "recipient_name": {
+   "text": "Anvay IT Services LLP",
+   "word_ids": [
+    "w19",
+    "w20",
+    "w21",
+    "w22",
+    "w23"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 205, Trade Centre, Bengaluru, Karnataka",
+   "word_ids": [
+    "w29",
+    "w30",
+    "w31",
+    "w32",
+    "w33",
+    "w34"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "29RJKCA8873S1ZE",
+   "word_ids": [
+    "w42"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0045",
+   "word_ids": [
+    "w18"
+   ]
+  },
+  "invoice_date": {
+   "text": "01 Jul 2026",
+   "word_ids": [
+    "w26",
+    "w27",
+    "w28"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Karnataka (29)",
+   "word_ids": [
+    "w39",
+    "w40"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w46"
+   ]
+  },
+  "taxable_total": {
+   "text": "2,117.64",
+   "word_ids": [
+    "w79"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w81"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w83"
+   ]
+  },
+  "igst_total": {
+   "text": "254.12",
+   "word_ids": [
+    "w85"
+   ]
+  },
+  "round_off": {
+   "text": "0.24",
+   "word_ids": [
+    "w87"
+   ]
+  },
+  "grand_total": {
+   "text": "2,372.00",
+   "word_ids": [
+    "w89"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Stretch wrap film",
+     "word_ids": [
+      "w63",
+      "w64",
+      "w65"
+     ]
+    },
+    "hsn": {
+     "text": "23",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "qty": {
+     "text": "12.00",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "unit_price": {
+     "text": "176.47",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,117.64",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "gst_rate": {
+     "text": "12%",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "igst": {
+     "text": "254.12",
+     "word_ids": [
+      "w76"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v2",
+  "seconds": 3.36,
+  "prompt_tokens": 1259,
+  "completion_tokens": 782,
+  "cache_key": "923c498456f09b2afeb387d9d69d4f51d6da756bc5eb4ad9203e7ea88baec140"
+ }
+}

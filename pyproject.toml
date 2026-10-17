@@ -1,7 +1,7 @@
 [project]
 name = "docflow"
 version = "0.1.0"
-description = "Add your description here"
+description = "Grounded extraction and audit checks for GST invoices and bank statements"
 authors = [
     { name = "Vedant Bhayani", email = "vedantbhayani29@gmail.com" }
 ]

@@ -22,7 +22,7 @@ NO_LABELS = [("invoice", "no"), ("invoice#",), ("document", "no"), ("tax", "invo
 DATE_LABELS = [("invoice", "date"), ("document", "date"), ("dated",), ("date",)]
 GRAND_LABELS = [("grand", "total"), ("invoice", "total"), ("total", "inv", "amt"), ("total",)]
 TAXABLE_LABELS = [("total", "taxable", "value"), ("taxable", "value"), ("sub", "total"), ("taxble", "amt")]
-TABLE_HEADER_WORDS = {"hsn/sac", "hsn", "qty", "rate", "description"}
+TABLE_HEADER_WORDS = {"hsn/sac", "hsn", "qty", "rate", "description", "narration", "particulars", "withdrawal", "deposit", "withdrawals", "deposits"}
 
 
 @dataclass(frozen=True)
@@ -176,4 +176,30 @@ def rule_extract(doc: Document) -> dict[str, RuleValue]:
         out["grand_total"] = grand
     if taxable:
         out["taxable_total"] = taxable
+    return out
+
+
+OPENING_LABELS = [("opening", "balance"), ("balance", "as", "on")]
+CLOSING_LABELS = [("closing", "balance"), ("closing", "bal")]
+CARRY_WORDS = {"b/f", "c/f", "brought", "carried"}
+
+
+def rule_extract_statement(doc: Document) -> dict[str, RuleValue]:
+    """Opening and closing balance from labelled summary values, never from carry-forward rows."""
+    out = {}
+    for name, labels in [("opening_balance", OPENING_LABELS), ("closing_balance", CLOSING_LABELS)]:
+        cands = []
+        for page in doc.pages:
+            page_rows = rows(page)
+            for r_i, row in enumerate(page_rows):
+                if CARRY_WORDS & {_tok(w) for w in row}:
+                    continue
+                for end, label in _find_labels(row, labels):
+                    start = end - len(label)
+                    w = _amount_for_label(page_rows, r_i, end, row[start:end])
+                    if w is not None:
+                        cands.append(RuleValue(w.text, (w.id,)))
+        v = _unique(cands, parse_amount)
+        if v:
+            out[name] = v
     return out

@@ -81,6 +81,78 @@ def rows(page: Page) -> list[list[Word]]:
 
 
 COLUMN_GAP = 0.012  # fraction of page width; word spaces are ~0.004, table/column gaps >= ~0.017
+HEADER_VOCAB = {"date", "txn", "tran", "narration", "description", "particulars", "remarks", "chq", "chq./ref.no.", "ref", "ref.no.",
+                "cheque", "value", "dt", "withdrawal", "withdrawals", "deposit", "deposits", "debit", "credit", "balance", "amt.", "amount",
+                "mode", "init.", "br", "#", "(dr.)", "(cr.)", "closing", "no."}
+EMPTY_CELL = "<empty>"
+
+
+def _cells(row: list[Word]) -> list[list[Word]]:
+    """Split a row into cells at wide gaps."""
+    cells: list[list[Word]] = []
+    for i, w in enumerate(row):
+        if i and w.bbox[0] - row[i - 1].bbox[2] > COLUMN_GAP:
+            cells.append([w])
+        elif cells:
+            cells[-1].append(w)
+        else:
+            cells.append([w])
+    return cells
+
+
+def _table_header(page_rows: list[list[Word]]) -> int | None:
+    for i, row in enumerate(page_rows):
+        toks = [w.text.lower().strip(":") for w in row]
+        if sum(t in HEADER_VOCAB for t in toks) >= 5 and len(_cells(row)) >= 5:
+            return i
+    return None
+
+
+def _assign(word: Word, columns: list[tuple[float, float]]) -> int:
+    """Column whose header overlaps the word; otherwise the right-most column starting at or before it."""
+    overlaps = [max(0.0, min(word.bbox[2], x1) - max(word.bbox[0], x0)) for x0, x1 in columns]
+    if max(overlaps) > 0:
+        return overlaps.index(max(overlaps))
+    starts = [i for i, (x0, _) in enumerate(columns) if x0 <= word.bbox[0] + 1e-6]
+    return starts[-1] if starts else 0
+
+
+def serialise_table_page(page: Page) -> str:
+    """Statement pages: rows below the detected table header are emitted cell by cell under the
+    header's columns, with an explicit empty-cell marker, so an amount's column is never lost."""
+    page_rows = rows(page)
+    h = _table_header(page_rows)
+    out = [f"=== page {page.index + 1} ==="]
+    if h is None:
+        out.extend(" ".join(f"[{w.id}]{w.text}" for w in row) for row in page_rows)
+        return "\n".join(out)
+    header_cells = _cells(page_rows[h])
+    columns = [(c[0].bbox[0], c[-1].bbox[2]) for c in header_cells]
+    out.extend(" ".join(f"[{w.id}]{w.text}" for w in row) for row in page_rows[:h])
+    out.append(" | ".join(" ".join(f"[{w.id}]{w.text}" for w in c) for c in header_cells))
+    from docflow.parse import parse_date
+
+    in_table = True
+    for row in page_rows[h + 1 :]:
+        slots: list[list[Word]] = [[] for _ in columns]
+        for w in row:
+            slots[_assign(w, columns)].append(w)
+        filled = [i for i, s in enumerate(slots) if s]
+        first = " ".join(w.text for w in slots[0])
+        is_txn = bool(slots[0]) and parse_date(first) is not None
+        is_continuation = len(filled) == 1 and filled[0] != 0  # wrapped description on its own line
+        is_carry = not slots[0] and len(filled) == 2 and filled[-1] == len(columns) - 1  # "BALANCE B/F" + balance
+        if in_table and (is_txn or is_continuation or is_carry):
+            out.append(" | ".join(" ".join(f"[{w.id}]{w.text}" for w in s) if s else EMPTY_CELL for s in slots))
+            continue
+        in_table = False  # summary boxes, totals and footers below the table: plain rows with gap markers
+        parts = []
+        for i, w in enumerate(row):
+            if i and w.bbox[0] - row[i - 1].bbox[2] > COLUMN_GAP:
+                parts.append("|")
+            parts.append(f"[{w.id}]{w.text}")
+        out.append(" ".join(parts))
+    return "\n".join(out)
 
 
 def serialise(doc: Document) -> str:

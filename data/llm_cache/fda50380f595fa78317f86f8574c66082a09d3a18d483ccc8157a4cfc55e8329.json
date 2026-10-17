@@ -1,0 +1,421 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd (SYNTHETIC)",
+   "word_ids": [
+    "w249",
+    "w250",
+    "w251",
+    "w252",
+    "w253"
+   ]
+  },
+  "account_number": {
+   "text": "79106547482104",
+   "word_ids": [
+    "w259"
+   ]
+  },
+  "account_holder": {
+   "text": "Anvay Polymers Enterprises",
+   "word_ids": [
+    "w266",
+    "w267",
+    "w268"
+   ]
+  },
+  "period_from": {
+   "text": "01/09/2026",
+   "word_ids": [
+    "w272"
+   ]
+  },
+  "period_to": {
+   "text": "30/09/2026",
+   "word_ids": [
+    "w275"
+   ]
+  },
+  "opening_balance": {
+   "text": "22,74,285.68",
+   "word_ids": [
+    "w289"
+   ]
+  },
+  "closing_balance": {
+   "text": "9,42,217.49",
+   "word_ids": [
+    "w374"
+   ]
+  },
+  "lines": [
+   {
+    "txn_date": {
+     "text": "21/09/26",
+     "word_ids": [
+      "w290"
+     ]
+    },
+    "value_date": {
+     "text": "21/09/26",
+     "word_ids": [
+      "w297"
+     ]
+    },
+    "narration": {
+     "text": "NEFT DR-ZZBK0001176-UDAAN TEXTILES PVT L- ZZBKN26092123420-VENDOR",
+     "word_ids": [
+      "w291",
+      "w292",
+      "w293",
+      "w294",
+      "w295",
+      "w300"
+     ]
+    },
+    "ref_col": {
+     "text": "ZZBKN26092123420",
+     "word_ids": [
+      "w296"
+     ]
+    },
+    "debit": {
+     "text": "3,70,049.02",
+     "word_ids": [
+      "w298"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "19,04,236.66",
+     "word_ids": [
+      "w299"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "21/09/26",
+     "word_ids": [
+      "w301"
+     ]
+    },
+    "value_date": {
+     "text": "21/09/26",
+     "word_ids": [
+      "w305"
+     ]
+    },
+    "narration": {
+     "text": "SMS CHGS QTR",
+     "word_ids": [
+      "w302",
+      "w303",
+      "w304"
+     ]
+    },
+    "ref_col": {
+     "text": null,
+     "word_ids": []
+    },
+    "debit": {
+     "text": "17.70",
+     "word_ids": [
+      "w306"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "19,04,218.96",
+     "word_ids": [
+      "w307"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "21/09/26",
+     "word_ids": [
+      "w308"
+     ]
+    },
+    "value_date": {
+     "text": "21/09/26",
+     "word_ids": [
+      "w313"
+     ]
+    },
+    "narration": {
+     "text": "IMPS-613908271486-PRAGATI POLYMERS T-ZENITH- XXXXXX3023-ADVANCE",
+     "word_ids": [
+      "w309",
+      "w310",
+      "w311",
+      "w316"
+     ]
+    },
+    "ref_col": {
+     "text": "613908271486",
+     "word_ids": [
+      "w312"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "6,74,767.88",
+     "word_ids": [
+      "w314"
+     ]
+    },
+    "balance": {
+     "text": "25,78,986.84",
+     "word_ids": [
+      "w315"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "23/09/26",
+     "word_ids": [
+      "w317"
+     ]
+    },
+    "value_date": {
+     "text": "23/09/26",
+     "word_ids": [
+      "w321"
+     ]
+    },
+    "narration": {
+     "text": "UPI-PRAGATI FABRICATIO-pragati@okzz-ZZBK0009797- 665405008283-PURCHASE",
+     "word_ids": [
+      "w318",
+      "w319",
+      "w320",
+      "w324"
+     ]
+    },
+    "ref_col": {
+     "text": "665405008283",
+     "word_ids": [
+      "w320"
+     ]
+    },
+    "debit": {
+     "text": "4,47,129.97",
+     "word_ids": [
+      "w322"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "21,31,856.87",
+     "word_ids": [
+      "w323"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "24/09/26",
+     "word_ids": [
+      "w325"
+     ]
+    },
+    "value_date": {
+     "text": "24/09/26",
+     "word_ids": [
+      "w330"
+     ]
+    },
+    "narration": {
+     "text": "IMPS-675606728365-SHAKTI PACKAGING L-ZENITH- XXXXXX3435-ADVANCE",
+     "word_ids": [
+      "w326",
+      "w327",
+      "w328",
+      "w333"
+     ]
+    },
+    "ref_col": {
+     "text": "675606728365",
+     "word_ids": [
+      "w329"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "63,359.59",
+     "word_ids": [
+      "w331"
+     ]
+    },
+    "balance": {
+     "text": "21,95,216.46",
+     "word_ids": [
+      "w332"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "25/09/26",
+     "word_ids": [
+      "w334"
+     ]
+    },
+    "value_date": {
+     "text": "25/09/26",
+     "word_ids": [
+      "w339"
+     ]
+    },
+    "narration": {
+     "text": "CREDIT INTEREST TILL 25-SEP-2026",
+     "word_ids": [
+      "w335",
+      "w336",
+      "w337",
+      "w338"
+     ]
+    },
+    "ref_col": {
+     "text": null,
+     "word_ids": []
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "489.59",
+     "word_ids": [
+      "w340"
+     ]
+    },
+    "balance": {
+     "text": "21,95,706.05",
+     "word_ids": [
+      "w341"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "26/09/26",
+     "word_ids": [
+      "w342"
+     ]
+    },
+    "value_date": {
+     "text": "26/09/26",
+     "word_ids": [
+      "w349"
+     ]
+    },
+    "narration": {
+     "text": "CHQ PAID-MICR CTS-TRIKON LOGISTICS TRADE",
+     "word_ids": [
+      "w343",
+      "w344",
+      "w345",
+      "w346",
+      "w347"
+     ]
+    },
+    "ref_col": {
+     "text": "521822",
+     "word_ids": [
+      "w348"
+     ]
+    },
+    "debit": {
+     "text": "5,14,623.02",
+     "word_ids": [
+      "w350"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "16,81,083.03",
+     "word_ids": [
+      "w351"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "27/09/26",
+     "word_ids": [
+      "w352"
+     ]
+    },
+    "value_date": {
+     "text": "27/09/26",
+     "word_ids": [
+      "w357"
+     ]
+    },
+    "narration": {
+     "text": "UPI-AARAV TEXTILES PVT-aarav@okzz-ZZBK0007177- 625186590669-PURCHASE",
+     "word_ids": [
+      "w353",
+      "w354",
+      "w355",
+      "w356",
+      "w360"
+     ]
+    },
+    "ref_col": {
+     "text": "625186590669",
+     "word_ids": [
+      "w356"
+     ]
+    },
+    "debit": {
+     "text": "7,38,865.54",
+     "word_ids": [
+      "w358"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "9,42,217.49",
+     "word_ids": [
+      "w359"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement.v2",
+  "seconds": 8.53,
+  "prompt_tokens": 2425,
+  "completion_tokens": 2103,
+  "cache_key": "fda50380f595fa78317f86f8574c66082a09d3a18d483ccc8157a4cfc55e8329"
+ }
+}

@@ -13,7 +13,7 @@ from docflow.models import Evidence, Field, FieldStatus, Word
 
 FREE_TEXT_FIELDS = {"supplier_name", "recipient_name", "description", "place_of_supply", "supplier_address", "recipient_address", "narration"}
 FUZZY_MIN = 90.0
-AMOUNT_FIELDS = {"taxable_total", "cgst_total", "sgst_total", "igst_total", "round_off", "grand_total",
+AMOUNT_FIELDS = {"taxable_total", "cgst_total", "sgst_total", "igst_total", "round_off", "grand_total", "debit", "credit",
                  "unit_price", "taxable_value", "cgst", "sgst", "igst", "amount", "balance", "opening_balance", "closing_balance"}
 
 

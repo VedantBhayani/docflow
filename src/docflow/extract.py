@@ -61,7 +61,28 @@ class InvoiceExtraction(BaseModel):
     lines: list[LineRef]
 
 
-SCHEMAS = {"invoice": (InvoiceExtraction, "invoice.v3")}
+class StatementLineRef(BaseModel):
+    txn_date: Ref
+    value_date: Ref
+    narration: Ref
+    ref_col: Ref
+    debit: Ref
+    credit: Ref
+    balance: Ref
+
+
+class StatementPageExtraction(BaseModel):
+    bank_name: Ref
+    account_number: Ref
+    account_holder: Ref
+    period_from: Ref
+    period_to: Ref
+    opening_balance: Ref
+    closing_balance: Ref
+    lines: list[StatementLineRef]
+
+
+SCHEMAS = {"invoice": (InvoiceExtraction, "invoice.v3"), "statement_page": (StatementPageExtraction, "statement.v2")}
 
 
 def _client():

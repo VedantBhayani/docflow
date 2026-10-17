@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 from docflow.checks import catalogue_markdown
-from docflow.pipeline import process, process_batch
+from docflow.pipeline import process, process_batch, write_statement_lines
 
 NL = "\n"
 
@@ -14,7 +14,9 @@ def main(argv: list[str] | None = None) -> int:
     sub = parser.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("process", help="Extract, ground and check one Source Document; print the DocResult as JSON")
     p.add_argument("pdf")
-    p.add_argument("--kind", default="invoice", choices=["invoice"])
+    p.add_argument("--kind", default="invoice", choices=["invoice", "statement"])
+    p.add_argument("--trust", choices=["nic", "test"], help="e-invoice QR trust store (default: DOCFLOW_TRUST or nic)")
+    p.add_argument("--lines-out", help="statements: write Statement Lines to this .jsonl or .csv file")
     b = sub.add_parser("batch", help="Process every PDF in a folder (adds batch Checks such as A3 duplicates); print a summary")
     b.add_argument("folder")
     b.add_argument("--kind", default="invoice", choices=["invoice"])
@@ -24,7 +26,9 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     if args.cmd == "process":
-        result = process(args.pdf, kind=args.kind)
+        result = process(args.pdf, kind=args.kind, trust=args.trust) if args.kind == "invoice" else process(args.pdf, kind=args.kind)
+        if args.lines_out:
+            write_statement_lines(result, args.lines_out)
         sys.stdout.write(json.dumps(result.to_dict(), indent=2, default=str) + NL)
         return 0 if result.status == "CLEAN" else 1
     if args.cmd == "batch":

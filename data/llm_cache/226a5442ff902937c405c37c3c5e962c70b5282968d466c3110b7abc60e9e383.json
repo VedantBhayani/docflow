@@ -1,0 +1,1041 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd (SYNTHETIC)",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4",
+    "w5"
+   ]
+  },
+  "account_number": {
+   "text": "79106547482104",
+   "word_ids": [
+    "w11"
+   ]
+  },
+  "account_holder": {
+   "text": "Anvay Polymers Enterprises",
+   "word_ids": [
+    "w18",
+    "w19",
+    "w20"
+   ]
+  },
+  "period_from": {
+   "text": "01/09/2026",
+   "word_ids": [
+    "w24"
+   ]
+  },
+  "period_to": {
+   "text": "30/09/2026",
+   "word_ids": [
+    "w27"
+   ]
+  },
+  "opening_balance": {
+   "text": null,
+   "word_ids": []
+  },
+  "closing_balance": {
+   "text": null,
+   "word_ids": []
+  },
+  "lines": [
+   {
+    "txn_date": {
+     "text": "01/09/26",
+     "word_ids": [
+      "w39"
+     ]
+    },
+    "value_date": {
+     "text": "01/09/26",
+     "word_ids": [
+      "w46"
+     ]
+    },
+    "narration": {
+     "text": "CHQ PAID-MICR CTS-AARAV OFFICE SUPPLIES",
+     "word_ids": [
+      "w40",
+      "w41",
+      "w42",
+      "w43",
+      "w44"
+     ]
+    },
+    "ref_col": {
+     "text": "742193",
+     "word_ids": [
+      "w45"
+     ]
+    },
+    "debit": {
+     "text": "3,325.79",
+     "word_ids": [
+      "w47"
+     ]
+    },
+    "credit": {
+     "text": "7,90,007.30",
+     "word_ids": [
+      "w48"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "01/09/26",
+     "word_ids": [
+      "w49"
+     ]
+    },
+    "value_date": {
+     "text": "01/09/26",
+     "word_ids": [
+      "w54"
+     ]
+    },
+    "narration": {
+     "text": "UPI-NIMBUS IT SERVICES-nimbus@okzz-ZZBK0001487-",
+     "word_ids": [
+      "w50",
+      "w51",
+      "w52"
+     ]
+    },
+    "ref_col": {
+     "text": "643320313538",
+     "word_ids": [
+      "w53"
+     ]
+    },
+    "debit": {
+     "text": "2,091.94",
+     "word_ids": [
+      "w55"
+     ]
+    },
+    "credit": {
+     "text": "7,87,915.36",
+     "word_ids": [
+      "w56"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "02/09/26",
+     "word_ids": [
+      "w58"
+     ]
+    },
+    "value_date": {
+     "text": "02/09/26",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "narration": {
+     "text": "CHQ PAID-MICR CTS-SHAKTI HARDWARE ENTERP",
+     "word_ids": [
+      "w59",
+      "w60",
+      "w61",
+      "w62",
+      "w63"
+     ]
+    },
+    "ref_col": {
+     "text": "353258",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "debit": {
+     "text": "58,503.67",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "credit": {
+     "text": "7,29,411.69",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "02/09/26",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "value_date": {
+     "text": "02/09/26",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "narration": {
+     "text": "UPI-KAVERI OFFICE SUPP-kaveri@okzz-ZZBK0003205-",
+     "word_ids": [
+      "w69",
+      "w70",
+      "w71",
+      "w72"
+     ]
+    },
+    "ref_col": {
+     "text": "611428444401",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "debit": {
+     "text": "2,33,919.28",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "credit": {
+     "text": "9,63,330.97",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "02/09/26",
+     "word_ids": [
+      "w77"
+     ]
+    },
+    "value_date": {
+     "text": "02/09/26",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "narration": {
+     "text": "UPI-MEGHDOOT HARDWARE-meghdoot@okzz-",
+     "word_ids": [
+      "w78",
+      "w79",
+      "w80"
+     ]
+    },
+    "ref_col": {
+     "text": "637955364196",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "debit": {
+     "text": "90,381.44",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "credit": {
+     "text": "10,53,712.41",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "03/09/26",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "value_date": {
+     "text": "03/09/26",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "narration": {
+     "text": "UPI-TRIKON IT SERVICES-trikon@okzz-ZZBK0007459-",
+     "word_ids": [
+      "w86",
+      "w87",
+      "w88",
+      "w89"
+     ]
+    },
+    "ref_col": {
+     "text": "613800466732",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "debit": {
+     "text": "354.22",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "credit": {
+     "text": "10,53,358.19",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "03/09/26",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "value_date": {
+     "text": "03/09/26",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "narration": {
+     "text": "RTGS CR-ZZBK0002476-KAVERI IT SERVICES-",
+     "word_ids": [
+      "w95",
+      "w96",
+      "w97",
+      "w98"
+     ]
+    },
+    "ref_col": {
+     "text": "ZZBKRC2026090309969826",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "debit": {
+     "text": "2,252.20",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "credit": {
+     "text": "10,55,610.39",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "06/09/26",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "value_date": {
+     "text": "06/09/26",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "narration": {
+     "text": "CREDIT INTEREST TILL 06-SEP-2026",
+     "word_ids": [
+      "w105",
+      "w106",
+      "w107",
+      "w108"
+     ]
+    },
+    "ref_col": {
+     "text": null,
+     "word_ids": []
+    },
+    "debit": {
+     "text": "209.07",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "credit": {
+     "text": "10,55,819.46",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "07/09/26",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "value_date": {
+     "text": "07/09/26",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "narration": {
+     "text": "SMS CHGS QTR",
+     "word_ids": [
+      "w113",
+      "w114",
+      "w115"
+     ]
+    },
+    "ref_col": {
+     "text": null,
+     "word_ids": []
+    },
+    "debit": {
+     "text": "17.70",
+     "word_ids": [
+      "w117"
+     ]
+    },
+    "credit": {
+     "text": "10,55,801.76",
+     "word_ids": [
+      "w118"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "08/09/26",
+     "word_ids": [
+      "w119"
+     ]
+    },
+    "value_date": {
+     "text": "08/09/26",
+     "word_ids": [
+      "w124"
+     ]
+    },
+    "narration": {
+     "text": "IMPS-695490568381-SAHYADRI OFFICE SU-ZENITH-",
+     "word_ids": [
+      "w120",
+      "w121",
+      "w122",
+      "w123"
+     ]
+    },
+    "ref_col": {
+     "text": "695490568381",
+     "word_ids": [
+      "w123"
+     ]
+    },
+    "debit": {
+     "text": "7,80,443.90",
+     "word_ids": [
+      "w125"
+     ]
+    },
+    "credit": {
+     "text": "18,36,245.66",
+     "word_ids": [
+      "w126"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "11/09/26",
+     "word_ids": [
+      "w128"
+     ]
+    },
+    "value_date": {
+     "text": "11/09/26",
+     "word_ids": [
+      "w133"
+     ]
+    },
+    "narration": {
+     "text": "UPI-KAVERI PACKAGING P-kaveri@okzz-ZZBK0008302-",
+     "word_ids": [
+      "w129",
+      "w130",
+      "w131",
+      "w132"
+     ]
+    },
+    "ref_col": {
+     "text": "618661122805",
+     "word_ids": [
+      "w132"
+     ]
+    },
+    "debit": {
+     "text": "1,004.83",
+     "word_ids": [
+      "w134"
+     ]
+    },
+    "credit": {
+     "text": "18,35,240.83",
+     "word_ids": [
+      "w135"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "13/09/26",
+     "word_ids": [
+      "w137"
+     ]
+    },
+    "value_date": {
+     "text": "13/09/26",
+     "word_ids": [
+      "w142"
+     ]
+    },
+    "narration": {
+     "text": "UPI-AARAV POLYMERS TRA-aarav@okzz-ZZBK0001574-",
+     "word_ids": [
+      "w138",
+      "w139",
+      "w140",
+      "w141"
+     ]
+    },
+    "ref_col": {
+     "text": "689551122120",
+     "word_ids": [
+      "w141"
+     ]
+    },
+    "debit": {
+     "text": "1,07,219.93",
+     "word_ids": [
+      "w143"
+     ]
+    },
+    "credit": {
+     "text": "19,42,460.76",
+     "word_ids": [
+      "w144"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "15/09/26",
+     "word_ids": [
+      "w145"
+     ]
+    },
+    "value_date": {
+     "text": "15/09/26",
+     "word_ids": [
+      "w151"
+     ]
+    },
+    "narration": {
+     "text": "UPI-UDAAN TEXTILES TRA-udaan@okzz-ZZBK0002233-",
+     "word_ids": [
+      "w147",
+      "w148",
+      "w149",
+      "w150"
+     ]
+    },
+    "ref_col": {
+     "text": "654285678623",
+     "word_ids": [
+      "w150"
+     ]
+    },
+    "debit": {
+     "text": "6,87,041.39",
+     "word_ids": [
+      "w152"
+     ]
+    },
+    "credit": {
+     "text": "26,29,502.15",
+     "word_ids": [
+      "w153"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "15/09/26",
+     "word_ids": [
+      "w155"
+     ]
+    },
+    "value_date": {
+     "text": "15/09/26",
+     "word_ids": [
+      "w160"
+     ]
+    },
+    "narration": {
+     "text": "UPI-NIMBUS HARDWARE PV-nimbus@okzz-ZZBK0008754-",
+     "word_ids": [
+      "w156",
+      "w157",
+      "w158",
+      "w159"
+     ]
+    },
+    "ref_col": {
+     "text": "658711861521",
+     "word_ids": [
+      "w159"
+     ]
+    },
+    "debit": {
+     "text": "53,688.64",
+     "word_ids": [
+      "w161"
+     ]
+    },
+    "credit": {
+     "text": "26,83,190.79",
+     "word_ids": [
+      "w162"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "15/09/26",
+     "word_ids": [
+      "w164"
+     ]
+    },
+    "value_date": {
+     "text": "15/09/26",
+     "word_ids": [
+      "w169"
+     ]
+    },
+    "narration": {
+     "text": "UPI-MEGHDOOT OFFICE SU-meghdoot@okzz-ZZBK0002485-",
+     "word_ids": [
+      "w165",
+      "w166",
+      "w167",
+      "w168"
+     ]
+    },
+    "ref_col": {
+     "text": "691657838819",
+     "word_ids": [
+      "w168"
+     ]
+    },
+    "debit": {
+     "text": "4,04,633.43",
+     "word_ids": [
+      "w170"
+     ]
+    },
+    "credit": {
+     "text": "22,78,557.36",
+     "word_ids": [
+      "w171"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "17/09/26",
+     "word_ids": [
+      "w173"
+     ]
+    },
+    "value_date": {
+     "text": "17/09/26",
+     "word_ids": [
+      "w180"
+     ]
+    },
+    "narration": {
+     "text": "NEFT DR-ZZBK0002372-ANVAY TEXTILES PVT L-",
+     "word_ids": [
+      "w174",
+      "w175",
+      "w176",
+      "w177",
+      "w178"
+     ]
+    },
+    "ref_col": {
+     "text": "ZZBKN26091760636",
+     "word_ids": [
+      "w179"
+     ]
+    },
+    "debit": {
+     "text": "1,08,055.44",
+     "word_ids": [
+      "w181"
+     ]
+    },
+    "credit": {
+     "text": "21,70,501.92",
+     "word_ids": [
+      "w182"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "18/09/26",
+     "word_ids": [
+      "w184"
+     ]
+    },
+    "value_date": {
+     "text": "18/09/26",
+     "word_ids": [
+      "w189"
+     ]
+    },
+    "narration": {
+     "text": "UPI-AARAV STATIONERS T-aarav@okzz-ZZBK0005191-",
+     "word_ids": [
+      "w185",
+      "w186",
+      "w187",
+      "w188"
+     ]
+    },
+    "ref_col": {
+     "text": "694954221811",
+     "word_ids": [
+      "w188"
+     ]
+    },
+    "debit": {
+     "text": "56,999.44",
+     "word_ids": [
+      "w190"
+     ]
+    },
+    "credit": {
+     "text": "22,27,501.36",
+     "word_ids": [
+      "w191"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "19/09/26",
+     "word_ids": [
+      "w193"
+     ]
+    },
+    "value_date": {
+     "text": "19/09/26",
+     "word_ids": [
+      "w198"
+     ]
+    },
+    "narration": {
+     "text": "NEFT DR-ZZBK0007631-MEGHDOOT FABRICATION-",
+     "word_ids": [
+      "w194",
+      "w195",
+      "w196",
+      "w197"
+     ]
+    },
+    "ref_col": {
+     "text": "ZZBKN26091931651",
+     "word_ids": [
+      "w197"
+     ]
+    },
+    "debit": {
+     "text": "3,225.74",
+     "word_ids": [
+      "w199"
+     ]
+    },
+    "credit": {
+     "text": "22,24,275.62",
+     "word_ids": [
+      "w200"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "20/09/26",
+     "word_ids": [
+      "w202"
+     ]
+    },
+    "value_date": {
+     "text": "20/09/26",
+     "word_ids": [
+      "w209"
+     ]
+    },
+    "narration": {
+     "text": "CHQ PAID-MICR CTS-SAHYADRI ELECTRICALS E",
+     "word_ids": [
+      "w203",
+      "w204",
+      "w205",
+      "w206",
+      "w207"
+     ]
+    },
+    "ref_col": {
+     "text": "996148",
+     "word_ids": [
+      "w208"
+     ]
+    },
+    "debit": {
+     "text": "1,851.11",
+     "word_ids": [
+      "w210"
+     ]
+    },
+    "credit": {
+     "text": "22,22,424.51",
+     "word_ids": [
+      "w211"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "20/09/26",
+     "word_ids": [
+      "w212"
+     ]
+    },
+    "value_date": {
+     "text": "20/09/26",
+     "word_ids": [
+      "w217"
+     ]
+    },
+    "narration": {
+     "text": "CREDIT INTEREST TILL 20-SEP-2026",
+     "word_ids": [
+      "w213",
+      "w214",
+      "w215",
+      "w216"
+     ]
+    },
+    "ref_col": {
+     "text": null,
+     "word_ids": []
+    },
+    "debit": {
+     "text": "761.64",
+     "word_ids": [
+      "w218"
+     ]
+    },
+    "credit": {
+     "text": "22,23,186.15",
+     "word_ids": [
+      "w219"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "20/09/26",
+     "word_ids": [
+      "w220"
+     ]
+    },
+    "value_date": {
+     "text": "20/09/26",
+     "word_ids": [
+      "w225"
+     ]
+    },
+    "narration": {
+     "text": "CREDIT INTEREST TILL 20-SEP-2026",
+     "word_ids": [
+      "w221",
+      "w222",
+      "w223",
+      "w224"
+     ]
+    },
+    "ref_col": {
+     "text": null,
+     "word_ids": []
+    },
+    "debit": {
+     "text": "591.25",
+     "word_ids": [
+      "w226"
+     ]
+    },
+    "credit": {
+     "text": "22,23,777.40",
+     "word_ids": [
+      "w227"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   },
+   {
+    "txn_date": {
+     "text": "20/09/26",
+     "word_ids": [
+      "w228"
+     ]
+    },
+    "value_date": {
+     "text": "20/09/26",
+     "word_ids": [
+      "w233"
+     ]
+    },
+    "narration": {
+     "text": "IMPS-610815693720-AARAV OFFICE SUPPL-ZENITH-",
+     "word_ids": [
+      "w229",
+      "w230",
+      "w231",
+      "w232"
+     ]
+    },
+    "ref_col": {
+     "text": "610815693720",
+     "word_ids": [
+      "w232"
+     ]
+    },
+    "debit": {
+     "text": "50,508.28",
+     "word_ids": [
+      "w234"
+     ]
+    },
+    "credit": {
+     "text": "22,74,285.68",
+     "word_ids": [
+      "w235"
+     ]
+    },
+    "balance": {
+     "text": null,
+     "word_ids": []
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement.v1",
+  "seconds": 19.97,
+  "prompt_tokens": 3848,
+  "completion_tokens": 5005,
+  "cache_key": "226a5442ff902937c405c37c3c5e962c70b5282968d466c3110b7abc60e9e383"
+ }
+}

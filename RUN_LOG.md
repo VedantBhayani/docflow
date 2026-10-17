@@ -116,3 +116,28 @@ What was run, on what, and what came out. This includes the things that failed o
 - **Change made after looking at dev:** Q3 was falsely accusing a genuine heavy scan whose 6.5 pt IRN OCR had garbled; it now requires a well-formed IRN first.
 
 **Not done:** downloading NIC's production public keys from einvoice1.gst.gov.in. That is a file download and needs the user's approval. Until then, real e-invoices verify as UNKNOWN_KEY (warning), never as tampered.
+
+## 2026-10-17: Bank statement tracer (build ticket 08)
+
+**Generator** (`docflow.synth.statement`): fictional "Zenith Co-operative Bank (SYNTHETIC)" in an HDFC-like dash-narration layout.
+- Channels: UPI, IMPS, NEFT, RTGS, cheque, charges, interest. Each line's expected channel, reference, cheque number, direction and amount are in the truth file.
+- Narrations wrap onto extra lines as on real statements; page 2 carries a "BALANCE B/F" row; the last page has a summary box.
+
+**Deterministic parts:**
+- Narration channel classification and UTR/RRN extraction (only from the channel's own segment; IFSC never taken as UTR; line-wrapped UTRs rejoined).
+- Checks S1–S6.
+- The Statement Line contract (JSONL/CSV) that Recon consumes.
+
+**What happened on the tracer** (2 statements of 30 lines each; these were used for tuning, so they are **not** part of any reported result):
+
+| Step | Statement Lines fully correct | Fix |
+|---|---|---|
+| plain serialisation, prompt v1 | 3 / 30 | — |
+| table-aware serialisation + prompt v2 | 30 / 30 | Rows under the detected table header are emitted cell by cell with `<empty>` markers, so an amount's column is never lost. Before this, rows with only a withdrawal or only a deposit came out with debit = amount and credit = balance. |
+| + statement balance rules | 30 / 30, clean statement CLEAN | The LLM kept taking page 2's "BALANCE B/F" as the opening balance. Carry-forward rows on later pages are now rejected, and a label-anchored rule reads opening and closing from the summary box. |
+
+**Bugs found and fixed while inspecting output, not just tests:**
+1. `counterparty_hint` returned "CHQ PAID": `\b` had become a literal backspace character through shell quoting. Fixed and tested; bank charges and interest now have no counterparty.
+2. Line evidence covered only the balance cell; it is now the whole row.
+
+Broken-chain twin: S1 on exactly the broken row and the row after it (whose arithmetic it also breaks), and nothing else.

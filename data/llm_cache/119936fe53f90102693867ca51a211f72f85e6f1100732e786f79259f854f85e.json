@@ -1,0 +1,241 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w502",
+    "w503",
+    "w504",
+    "w505",
+    "w506"
+   ]
+  },
+  "account_number": {
+   "text": "75917394485073",
+   "word_ids": [
+    "w509"
+   ]
+  },
+  "account_holder": {
+   "text": "Anvay Polymers Traders",
+   "word_ids": [
+    "w516",
+    "w517",
+    "w518"
+   ]
+  },
+  "period_from": {
+   "text": "01/05/2026",
+   "word_ids": [
+    "w522"
+   ]
+  },
+  "period_to": {
+   "text": "30/05/2026",
+   "word_ids": [
+    "w525"
+   ]
+  },
+  "opening_balance": {
+   "text": "20.58.778.81",
+   "word_ids": [
+    "w589"
+   ]
+  },
+  "closing_balance": {
+   "text": "72.89.870.79",
+   "word_ids": [
+    "w592"
+   ]
+  },
+  "lines": [
+   {
+    "txn_date": {
+     "text": "25/05/26",
+     "word_ids": [
+      "w541"
+     ]
+    },
+    "value_date": {
+     "text": "25/05/26",
+     "word_ids": [
+      "w547"
+     ]
+    },
+    "narration": {
+     "text": "NEFT CR-ZZBK0002021-TRIKON TEXTILES LLP.",
+     "word_ids": [
+      "w542",
+      "w543",
+      "w544"
+     ]
+    },
+    "ref_col": {
+     "text": "ZZBKN26052505792",
+     "word_ids": [
+      "w546"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "2.398.90",
+     "word_ids": [
+      "w548"
+     ]
+    },
+    "balance": {
+     "text": "62.79.166.83",
+     "word_ids": [
+      "w549"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "25/05/26",
+     "word_ids": [
+      "w551"
+     ]
+    },
+    "value_date": {
+     "text": "25/05/26",
+     "word_ids": [
+      "w556"
+     ]
+    },
+    "narration": {
+     "text": "UPI-PRAGATI HARDWARE P-pragati@okzz-ZZBK0002520- PAYMENT",
+     "word_ids": [
+      "w552",
+      "w553",
+      "w554",
+      "w559"
+     ]
+    },
+    "ref_col": {
+     "text": "616280424693",
+     "word_ids": [
+      "w555"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "4.79.204.78",
+     "word_ids": [
+      "w557"
+     ]
+    },
+    "balance": {
+     "text": "67.58.371.61",
+     "word_ids": [
+      "w558"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "27/05/26",
+     "word_ids": [
+      "w560"
+     ]
+    },
+    "value_date": {
+     "text": "27/05/26",
+     "word_ids": [
+      "w566"
+     ]
+    },
+    "narration": {
+     "text": "NEFT DR-ZZBK0004269-PRAGATI STATIONERS P. VENDOR",
+     "word_ids": [
+      "w561",
+      "w562",
+      "w563",
+      "w569"
+     ]
+    },
+    "ref_col": {
+     "text": "ZZBKN26052706404",
+     "word_ids": [
+      "w565"
+     ]
+    },
+    "debit": {
+     "text": "85.430.43",
+     "word_ids": [
+      "w567"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "66.72.941.18",
+     "word_ids": [
+      "w568"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "28/05/26",
+     "word_ids": [
+      "w570"
+     ]
+    },
+    "value_date": {
+     "text": "28/05/26",
+     "word_ids": [
+      "w575"
+     ]
+    },
+    "narration": {
+     "text": "UPI-MEGHDOOT IT SERVIC-meghdoot@okzz-ZZBK0007176- PAYMENT",
+     "word_ids": [
+      "w571",
+      "w572",
+      "w573",
+      "w578"
+     ]
+    },
+    "ref_col": {
+     "text": "687087765393",
+     "word_ids": [
+      "w574"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "6.16.929.61",
+     "word_ids": [
+      "w576"
+     ]
+    },
+    "balance": {
+     "text": "72.89.870.79",
+     "word_ids": [
+      "w577"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement.v2",
+  "seconds": 5.0,
+  "prompt_tokens": 1873,
+  "completion_tokens": 1174,
+  "cache_key": "119936fe53f90102693867ca51a211f72f85e6f1100732e786f79259f854f85e"
+ }
+}

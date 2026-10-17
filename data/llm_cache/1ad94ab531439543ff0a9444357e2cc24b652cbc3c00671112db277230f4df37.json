@@ -1,0 +1,156 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd (SYNTHETIC)",
+   "word_ids": [
+    "w264",
+    "w265",
+    "w266",
+    "w267",
+    "w268"
+   ]
+  },
+  "account_number": {
+   "text": "71789132230196",
+   "word_ids": [
+    "w271"
+   ]
+  },
+  "account_holder": {
+   "text": "Udaan Logistics LLP",
+   "word_ids": [
+    "w278",
+    "w279",
+    "w280"
+   ]
+  },
+  "period_from": {
+   "text": "01/05/2026",
+   "word_ids": [
+    "w284"
+   ]
+  },
+  "period_to": {
+   "text": "30/05/2026",
+   "word_ids": [
+    "w286"
+   ]
+  },
+  "opening_balance": {
+   "text": "12,05,415.50",
+   "word_ids": [
+    "w332"
+   ]
+  },
+  "closing_balance": {
+   "text": "1,06,63,434.72",
+   "word_ids": [
+    "w335"
+   ]
+  },
+  "lines": [
+   {
+    "txn_date": {
+     "text": "28/05/2026",
+     "word_ids": [
+      "w298"
+     ]
+    },
+    "value_date": {
+     "text": "28/05/2026",
+     "word_ids": [
+      "w299"
+     ]
+    },
+    "narration": {
+     "text": "WDL TFR UPI/DR/645153091217/SHAKTI TEXTILES PV/ ZZBK/shakti@okzz/PURCHASE",
+     "word_ids": [
+      "w300",
+      "w301",
+      "w302",
+      "w303",
+      "w304",
+      "w309"
+     ]
+    },
+    "ref_col": {
+     "text": "645153091217",
+     "word_ids": [
+      "w305"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "70,991.95",
+     "word_ids": [
+      "w307"
+     ]
+    },
+    "balance": {
+     "text": "1,05,92,161.67",
+     "word_ids": [
+      "w308"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "28/05/2026",
+     "word_ids": [
+      "w310"
+     ]
+    },
+    "value_date": {
+     "text": "28/05/2026",
+     "word_ids": [
+      "w311"
+     ]
+    },
+    "narration": {
+     "text": "DEP TFR UPI/CR/670487269493/PRAGATI IT SERVICE/ ZZBK/pragati@okzz/PAYMENT",
+     "word_ids": [
+      "w312",
+      "w313",
+      "w314",
+      "w315",
+      "w316",
+      "w321"
+     ]
+    },
+    "ref_col": {
+     "text": "670487269493",
+     "word_ids": [
+      "w317"
+     ]
+    },
+    "debit": {
+     "text": "71,273.05",
+     "word_ids": [
+      "w318"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "1,06,63,434.72",
+     "word_ids": [
+      "w320"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement.v2",
+  "seconds": 3.33,
+  "prompt_tokens": 1490,
+  "completion_tokens": 787,
+  "cache_key": "1ad94ab531439543ff0a9444357e2cc24b652cbc3c00671112db277230f4df37"
+ }
+}

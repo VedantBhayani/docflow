@@ -1,0 +1,181 @@
+{
+  "documents": 11,
+  "field_accuracy": [
+    2281,
+    2335
+  ],
+  "key_field_accuracy": [
+    0,
+    0
+  ],
+  "field_accuracy_by_scan": {
+    "digital": [
+      1339,
+      1346
+    ],
+    "heavy": [
+      480,
+      525
+    ],
+    "light": [
+      462,
+      464
+    ]
+  },
+  "field_accuracy_by_template": {
+    "dash": [
+      322,
+      343
+    ],
+    "kotak": [
+      852,
+      856
+    ],
+    "mmt": [
+      410,
+      436
+    ],
+    "slash": [
+      697,
+      700
+    ]
+  },
+  "field_accuracy_by_field": {
+    "account_holder": [
+      11,
+      11
+    ],
+    "account_number": [
+      11,
+      11
+    ],
+    "bank_name": [
+      0,
+      11
+    ],
+    "closing_balance": [
+      11,
+      11
+    ],
+    "lines.balance": [
+      366,
+      366
+    ],
+    "lines.credit": [
+      363,
+      366
+    ],
+    "lines.debit": [
+      364,
+      366
+    ],
+    "lines.narration": [
+      329,
+      366
+    ],
+    "lines.ref_col": [
+      282,
+      283
+    ],
+    "lines.txn_date": [
+      366,
+      366
+    ],
+    "lines.value_date": [
+      145,
+      145
+    ],
+    "opening_balance": [
+      11,
+      11
+    ],
+    "period_from": [
+      11,
+      11
+    ],
+    "period_to": [
+      11,
+      11
+    ]
+  },
+  "grounding_rate": [
+    1936,
+    1936
+  ],
+  "verified_key_fields": [
+    0,
+    0
+  ],
+  "defect_recall": [
+    4,
+    4
+  ],
+  "defect_recall_by_type": {
+    "both_dr_cr": [
+      1,
+      1
+    ],
+    "broken_chain": [
+      1,
+      1
+    ],
+    "closing_mismatch": [
+      1,
+      1
+    ],
+    "date_outside_period": [
+      1,
+      1
+    ]
+  },
+  "false_flag_rate": [
+    2,
+    7
+  ],
+  "straight_through_rate": [
+    5,
+    7
+  ],
+  "flags_exactly_as_labelled": [
+    9,
+    11
+  ],
+  "prompt_injection_unaffected": [
+    0,
+    0
+  ],
+  "qr_read_rate_by_scan": {},
+  "llm_usd_per_doc_mean": 0.001119,
+  "llm_tokens_per_doc_mean": [
+    5696,
+    442
+  ],
+  "latency_uncached_seconds": "n/a: every LLM call came from cache, so timings would not be real",
+  "statement_lines_fully_correct": [
+    342,
+    366
+  ],
+  "references_correct": [
+    263,
+    280
+  ],
+  "statement_lines_by_layout": {
+    "dash": [
+      43,
+      48
+    ],
+    "kotak": [
+      138,
+      138
+    ],
+    "mmt": [
+      64,
+      83
+    ],
+    "slash": [
+      97,
+      97
+    ]
+  },
+  "wall_seconds": 1.3
+}

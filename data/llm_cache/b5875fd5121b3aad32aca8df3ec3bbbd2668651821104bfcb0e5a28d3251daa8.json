@@ -1,0 +1,60 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w275",
+    "w276",
+    "w277",
+    "w278"
+   ]
+  },
+  "account_number": {
+   "text": "92326492689557",
+   "word_ids": [
+    "w282"
+   ]
+  },
+  "account_holder": {
+   "text": "Aarav Fabrication Pvt Ltd",
+   "word_ids": [
+    "w289",
+    "w290",
+    "w291",
+    "w292"
+   ]
+  },
+  "period_from": {
+   "text": "01/08/2026",
+   "word_ids": [
+    "w296"
+   ]
+  },
+  "period_to": {
+   "text": "30/08/2026",
+   "word_ids": [
+    "w298"
+   ]
+  },
+  "opening_balance": {
+   "text": "11,36,519.21",
+   "word_ids": [
+    "w475"
+   ]
+  },
+  "closing_balance": {
+   "text": "-7,54,056.36",
+   "word_ids": [
+    "w478"
+   ]
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 2.23,
+  "prompt_tokens": 2848,
+  "completion_tokens": 249,
+  "cache_key": "b5875fd5121b3aad32aca8df3ec3bbbd2668651821104bfcb0e5a28d3251daa8"
+ }
+}

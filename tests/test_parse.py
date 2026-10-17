@@ -68,3 +68,13 @@ def test_a_single_dot_is_still_the_decimal_point():
 @pytest.mark.parametrize("ocr_text, expected", [("3.25,635.05", Decimal("325635.05")), ("1.02,264.20", Decimal("102264.20"))])
 def test_mixed_ocr_separators_in_lakh_grouping(ocr_text, expected):
     assert parse_amount(ocr_text) == expected
+
+
+@pytest.mark.parametrize("ocr_text", ["19-07~2026", "19_07-2026", "19~07~2026"])
+def test_ocr_date_separator_noise(ocr_text):
+    assert parse_date(ocr_text) == date(2026, 7, 19)
+
+
+def test_trailing_ocr_dot_after_an_amount_is_ignored():
+    assert parse_amount("17.70.") == Decimal("17.70")
+    assert parse_amount("13.89.411.00.") == Decimal("1389411.00")

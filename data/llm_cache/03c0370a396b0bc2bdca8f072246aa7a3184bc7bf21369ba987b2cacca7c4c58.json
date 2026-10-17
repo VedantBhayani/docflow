@@ -1,0 +1,829 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd (SYNTHETIC)",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4",
+    "w5"
+   ]
+  },
+  "account_number": {
+   "text": "70085388330152",
+   "word_ids": [
+    "w8"
+   ]
+  },
+  "account_holder": {
+   "text": "Nimbus Fabrication Traders",
+   "word_ids": [
+    "w15",
+    "w16",
+    "w17"
+   ]
+  },
+  "period_from": {
+   "text": "01/07/2026",
+   "word_ids": [
+    "w24"
+   ]
+  },
+  "period_to": {
+   "text": "30/07/2026",
+   "word_ids": [
+    "w26"
+   ]
+  },
+  "opening_balance": {
+   "text": "3,33,965.91",
+   "word_ids": [
+    "w21"
+   ]
+  },
+  "closing_balance": {
+   "text": "60,14,140.27",
+   "word_ids": [
+    "w179"
+   ]
+  },
+  "lines": [
+   {
+    "txn_date": {
+     "text": "01-07-2026",
+     "word_ids": [
+      "w35"
+     ]
+    },
+    "value_date": {
+     "text": "01-07-2026",
+     "word_ids": [
+      "w35"
+     ]
+    },
+    "narration": {
+     "text": "UPI/AARAV HARDWARE TRA/aarav@okzz/PAYMENT/ZENITH/680795046448/",
+     "word_ids": [
+      "w37",
+      "w38",
+      "w39"
+     ]
+    },
+    "ref_col": {
+     "text": "ICI741948462",
+     "word_ids": [
+      "w42"
+     ]
+    },
+    "debit": {
+     "text": "2,521.27",
+     "word_ids": [
+      "w40"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "3,36,487.18",
+     "word_ids": [
+      "w41"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "03-07-2026",
+     "word_ids": [
+      "w43"
+     ]
+    },
+    "value_date": {
+     "text": "03-07-2026",
+     "word_ids": [
+      "w43"
+     ]
+    },
+    "narration": {
+     "text": "UPI/TRIKON PACKAGING L/trikon@okzz/PURCHASE/ZENITH/693438121716/",
+     "word_ids": [
+      "w45",
+      "w46",
+      "w47"
+     ]
+    },
+    "ref_col": {
+     "text": "ICI217137666",
+     "word_ids": [
+      "w50"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "506.35",
+     "word_ids": [
+      "w48"
+     ]
+    },
+    "balance": {
+     "text": "3,35,980.83",
+     "word_ids": [
+      "w49"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "04-07-2026",
+     "word_ids": [
+      "w51"
+     ]
+    },
+    "value_date": {
+     "text": "04-07-2026",
+     "word_ids": [
+      "w51"
+     ]
+    },
+    "narration": {
+     "text": "UPI/ANVAY LOGISTICS EN/anvay@okzz/PURCHASE/ZENITH/614715371279/",
+     "word_ids": [
+      "w53",
+      "w54",
+      "w55"
+     ]
+    },
+    "ref_col": {
+     "text": "ICI433979486",
+     "word_ids": [
+      "w58"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "5,93,861.39",
+     "word_ids": [
+      "w56"
+     ]
+    },
+    "balance": {
+     "text": "-2,57,880.56",
+     "word_ids": [
+      "w57"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "06-07-2026",
+     "word_ids": [
+      "w59"
+     ]
+    },
+    "value_date": {
+     "text": "06-07-2026",
+     "word_ids": [
+      "w59"
+     ]
+    },
+    "narration": {
+     "text": "UPI/NIMBUS POLYMERS IN/nimbus@okzz/PAYMENT/ZENITH/681926277131/",
+     "word_ids": [
+      "w61",
+      "w62",
+      "w63"
+     ]
+    },
+    "ref_col": {
+     "text": "ICI792086359",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "debit": {
+     "text": "4,32,712.95",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "1,74,832.39",
+     "word_ids": [
+      "w65"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "12-07-2026",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "value_date": {
+     "text": "12-07-2026",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "narration": {
+     "text": "CREDIT INTEREST",
+     "word_ids": [
+      "w69",
+      "w70"
+     ]
+    },
+    "ref_col": {
+     "text": null,
+     "word_ids": []
+    },
+    "debit": {
+     "text": "650.11",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "1,75,482.50",
+     "word_ids": [
+      "w72"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "14-07-2026",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "value_date": {
+     "text": "14-07-2026",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "narration": {
+     "text": "UPI/ANVAY PACKAGING LL/anvay@okzz/PURCHASE/ZENITH/650496287842/",
+     "word_ids": [
+      "w75",
+      "w76",
+      "w77"
+     ]
+    },
+    "ref_col": {
+     "text": "ICI220437462",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "3,64,443.66",
+     "word_ids": [
+      "w78"
+     ]
+    },
+    "balance": {
+     "text": "-1,88,961.16",
+     "word_ids": [
+      "w79"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "15-07-2026",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "value_date": {
+     "text": "15-07-2026",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "narration": {
+     "text": "UPI/PRAGATI STATIONERS/pragati@okzz/PAYMENT/ZENITH/668363956843/",
+     "word_ids": [
+      "w83",
+      "w84"
+     ]
+    },
+    "ref_col": {
+     "text": "ICI927965700",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "debit": {
+     "text": "1,86,716.04",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "-2,245.12",
+     "word_ids": [
+      "w86"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "17-07-2026",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "value_date": {
+     "text": "17-07-2026",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "narration": {
+     "text": "MMT/IMPS/653355705425/ADVANCE/VISTAR POLYMERS PV/ZENITH",
+     "word_ids": [
+      "w90",
+      "w91",
+      "w92"
+     ]
+    },
+    "ref_col": {
+     "text": null,
+     "word_ids": []
+    },
+    "debit": {
+     "text": "11,686.15",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "9,441.03",
+     "word_ids": [
+      "w94"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "19-07-2026",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "value_date": {
+     "text": "19-07-2026",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "narration": {
+     "text": "CLG/NIMBUS POLYMERS IN/252328/ZZBK/19.07.2026",
+     "word_ids": [
+      "w97",
+      "w98",
+      "w99"
+     ]
+    },
+    "ref_col": {
+     "text": null,
+     "word_ids": []
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "3,72,843.32",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "balance": {
+     "text": "-3,63,402.29",
+     "word_ids": [
+      "w101"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "19-07-2026",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "value_date": {
+     "text": "19-07-2026",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "narration": {
+     "text": "UPI/NIMBUS ELECTRICALS/nimbus@okzz/PAYMENT/ZENITH/644672807409/",
+     "word_ids": [
+      "w104",
+      "w105"
+     ]
+    },
+    "ref_col": {
+     "text": "ICI787253825",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "debit": {
+     "text": "3,06,073.14",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "-57,329.15",
+     "word_ids": [
+      "w107"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "19-07-2026",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "value_date": {
+     "text": "19-07-2026",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "narration": {
+     "text": "MMT/IMPS/660992816133/ADVANCE/VISTAR STATIONERS/ZENITH",
+     "word_ids": [
+      "w111",
+      "w112"
+     ]
+    },
+    "ref_col": {
+     "text": null,
+     "word_ids": []
+    },
+    "debit": {
+     "text": "18,656.49",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "-38,672.66",
+     "word_ids": [
+      "w114"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "20-07-2026",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "value_date": {
+     "text": "20-07-2026",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "narration": {
+     "text": "UPI/SARTHI STATIONERS/sarthi@okzz/PURCHASE/ZENITH/641150422473/",
+     "word_ids": [
+      "w117",
+      "w118"
+     ]
+    },
+    "ref_col": {
+     "text": "ICI629412922",
+     "word_ids": [
+      "w121"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "6,88,572.20",
+     "word_ids": [
+      "w119"
+     ]
+    },
+    "balance": {
+     "text": "-7,27,244.86",
+     "word_ids": [
+      "w120"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "22-07-2026",
+     "word_ids": [
+      "w122"
+     ]
+    },
+    "value_date": {
+     "text": "22-07-2026",
+     "word_ids": [
+      "w122"
+     ]
+    },
+    "narration": {
+     "text": "NEFT-ZZBKN26072269999-NIMBUS PACKAGING T-INVOICE-XXXX7195-",
+     "word_ids": [
+      "w124",
+      "w125",
+      "w126"
+     ]
+    },
+    "ref_col": {
+     "text": "ZZBK0006502",
+     "word_ids": [
+      "w129"
+     ]
+    },
+    "debit": {
+     "text": "965.80",
+     "word_ids": [
+      "w127"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "-7,26,279.06",
+     "word_ids": [
+      "w128"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "23-07-2026",
+     "word_ids": [
+      "w130"
+     ]
+    },
+    "value_date": {
+     "text": "23-07-2026",
+     "word_ids": [
+      "w130"
+     ]
+    },
+    "narration": {
+     "text": "CLG/ANVAY HARDWARE PVT/180758/ZZBK/23.07.2026",
+     "word_ids": [
+      "w132",
+      "w133",
+      "w134"
+     ]
+    },
+    "ref_col": {
+     "text": null,
+     "word_ids": []
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "2,77,040.91",
+     "word_ids": [
+      "w135"
+     ]
+    },
+    "balance": {
+     "text": "-10,03,319.97",
+     "word_ids": [
+      "w136"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "23-07-2026",
+     "word_ids": [
+      "w137"
+     ]
+    },
+    "value_date": {
+     "text": "23-07-2026",
+     "word_ids": [
+      "w137"
+     ]
+    },
+    "narration": {
+     "text": "RTGS/ZZBKRC2026072348493410/ZENITH/SHAKTI FABRICATION",
+     "word_ids": [
+      "w139",
+      "w140"
+     ]
+    },
+    "ref_col": {
+     "text": null,
+     "word_ids": []
+    },
+    "debit": {
+     "text": "70,41,136.90",
+     "word_ids": [
+      "w141"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "60,37,816.93",
+     "word_ids": [
+      "w142"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "24-07-2026",
+     "word_ids": [
+      "w143"
+     ]
+    },
+    "value_date": {
+     "text": "24-07-2026",
+     "word_ids": [
+      "w143"
+     ]
+    },
+    "narration": {
+     "text": "CREDIT INTEREST",
+     "word_ids": [
+      "w145",
+      "w146"
+     ]
+    },
+    "ref_col": {
+     "text": null,
+     "word_ids": []
+    },
+    "debit": {
+     "text": "417.74",
+     "word_ids": [
+      "w147"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "60,38,234.67",
+     "word_ids": [
+      "w148"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "27-07-2026",
+     "word_ids": [
+      "w149"
+     ]
+    },
+    "value_date": {
+     "text": "27-07-2026",
+     "word_ids": [
+      "w149"
+     ]
+    },
+    "narration": {
+     "text": "MMT/IMPS/640527283316/ADVANCE/TRIKON OFFICE SUPP/ZENITH",
+     "word_ids": [
+      "w151",
+      "w152",
+      "w153"
+     ]
+    },
+    "ref_col": {
+     "text": null,
+     "word_ids": []
+    },
+    "debit": {
+     "text": "43,442.26",
+     "word_ids": [
+      "w154"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "60,81,676.93",
+     "word_ids": [
+      "w155"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "28-07-2026",
+     "word_ids": [
+      "w156"
+     ]
+    },
+    "value_date": {
+     "text": "28-07-2026",
+     "word_ids": [
+      "w156"
+     ]
+    },
+    "narration": {
+     "text": "BIL/NEFT/ZZ17184932/VENDOR/ANVAY POLYMERS LLP/ZENITH",
+     "word_ids": [
+      "w158",
+      "w159",
+      "w160"
+     ]
+    },
+    "ref_col": {
+     "text": null,
+     "word_ids": []
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "67,536.66",
+     "word_ids": [
+      "w161"
+     ]
+    },
+    "balance": {
+     "text": "60,14,140.27",
+     "word_ids": [
+      "w162"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement.v2",
+  "seconds": 14.74,
+  "prompt_tokens": 3415,
+  "completion_tokens": 4100,
+  "cache_key": "03c0370a396b0bc2bdca8f072246aa7a3184bc7bf21369ba987b2cacca7c4c58"
+ }
+}

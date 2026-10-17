@@ -34,7 +34,8 @@ def classify(narration: str) -> str:
 
 
 def _segments(n: str) -> list[str]:
-    return [s.strip() for s in re.split(r"[-/*]", n)]
+    """Narrations are delimited by '-', '/', '*' or spaces depending on the bank; references never contain these."""
+    return [s.strip(",.") for s in re.split(r"[-/*\s]+", n) if s.strip(",.")]
 
 
 def _rejoin_wrapped(n: str) -> str:
@@ -60,6 +61,8 @@ def extract_reference(narration: str, channel: str) -> str | None:
                 return s
         return None
     if channel == "NEFT":
+        if re.match(r"^\s*BIL\s*/", n):
+            return None  # ICICI net-banking: the id is the bank's own transfer id, not the UTR (research note 04)
         for s in segs:
             if IFSC.match(s):
                 continue
@@ -67,3 +70,12 @@ def extract_reference(narration: str, channel: str) -> str | None:
                 return s
         return None
     return None
+
+
+CLG_CHEQUE = re.compile(r"^\s*CLG\s*/[^/]+/(\d{6})\b")
+
+
+def extract_cheque(narration: str) -> str | None:
+    """Cheque serial from a clearing narration (CLG/<payer>/<serial>/...) for layouts without a cheque column."""
+    m = CLG_CHEQUE.match(narration.upper())
+    return m.group(1) if m else None

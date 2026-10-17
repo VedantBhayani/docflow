@@ -1,0 +1,417 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd (SYNTHETIC)",
+   "word_ids": [
+    "w203",
+    "w204",
+    "w205",
+    "w206",
+    "w207"
+   ]
+  },
+  "account_number": {
+   "text": "78083068038077",
+   "word_ids": [
+    "w210"
+   ]
+  },
+  "account_holder": {
+   "text": "Anvay IT Services Pvt Ltd",
+   "word_ids": [
+    "w217",
+    "w218",
+    "w219",
+    "w220",
+    "w221"
+   ]
+  },
+  "period_from": {
+   "text": "01/04/2026",
+   "word_ids": [
+    "w224"
+   ]
+  },
+  "period_to": {
+   "text": "30/04/2026",
+   "word_ids": [
+    "w226"
+   ]
+  },
+  "opening_balance": {
+   "text": "1,76,670.11",
+   "word_ids": [
+    "w307"
+   ]
+  },
+  "closing_balance": {
+   "text": "5,48,863.80",
+   "word_ids": [
+    "w310"
+   ]
+  },
+  "lines": [
+   {
+    "txn_date": {
+     "text": "20-04-2026",
+     "word_ids": [
+      "w235"
+     ]
+    },
+    "value_date": {
+     "text": "20-04-2026",
+     "word_ids": [
+      "w235"
+     ]
+    },
+    "narration": {
+     "text": "UPI/UDAAN FABRICATION/udaan@okzz/PURCHASE/ZENITH/690780140748/ ICI111518064",
+     "word_ids": [
+      "w237",
+      "w238",
+      "w241"
+     ]
+    },
+    "ref_col": {
+     "text": "ICI111518064",
+     "word_ids": [
+      "w241"
+     ]
+    },
+    "debit": {
+     "text": "2,712.43",
+     "word_ids": [
+      "w239"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "14,93,187.95",
+     "word_ids": [
+      "w240"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "20-04-2026",
+     "word_ids": [
+      "w242"
+     ]
+    },
+    "value_date": {
+     "text": "20-04-2026",
+     "word_ids": [
+      "w242"
+     ]
+    },
+    "narration": {
+     "text": "UPI/SHAKTI STATIONERS/shakti@okzz/PURCHASE/ZENITH/641681375817/ ICI727610456",
+     "word_ids": [
+      "w244",
+      "w245",
+      "w248"
+     ]
+    },
+    "ref_col": {
+     "text": "ICI727610456",
+     "word_ids": [
+      "w248"
+     ]
+    },
+    "debit": {
+     "text": "28,045.60",
+     "word_ids": [
+      "w246"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "14,65,142.35",
+     "word_ids": [
+      "w247"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "20-04-2026",
+     "word_ids": [
+      "w249"
+     ]
+    },
+    "value_date": {
+     "text": "20-04-2026",
+     "word_ids": [
+      "w249"
+     ]
+    },
+    "narration": {
+     "text": "UPI/TRIKON TEXTILES EN/trikon@okzz/PURCHASE/ZENITH/636065381882/ ICI970127044",
+     "word_ids": [
+      "w251",
+      "w252",
+      "w253",
+      "w256"
+     ]
+    },
+    "ref_col": {
+     "text": "ICI970127044",
+     "word_ids": [
+      "w256"
+     ]
+    },
+    "debit": {
+     "text": "70,870.42",
+     "word_ids": [
+      "w254"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "13,94,271.93",
+     "word_ids": [
+      "w255"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "23-04-2026",
+     "word_ids": [
+      "w257"
+     ]
+    },
+    "value_date": {
+     "text": "23-04-2026",
+     "word_ids": [
+      "w257"
+     ]
+    },
+    "narration": {
+     "text": "UPI/ANVAY TEXTILES ENT/anvay@okzz/PAYMENT/ZENITH/667034991403/ ICI569451597",
+     "word_ids": [
+      "w259",
+      "w260",
+      "w261",
+      "w264"
+     ]
+    },
+    "ref_col": {
+     "text": "ICI569451597",
+     "word_ids": [
+      "w264"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "17,769.04",
+     "word_ids": [
+      "w262"
+     ]
+    },
+    "balance": {
+     "text": "14,12,040.97",
+     "word_ids": [
+      "w263"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "23-04-2026",
+     "word_ids": [
+      "w265"
+     ]
+    },
+    "value_date": {
+     "text": "23-04-2026",
+     "word_ids": [
+      "w265"
+     ]
+    },
+    "narration": {
+     "text": "NEFT-ZZBKN26042315395-VISTAR TEXTILES TR-INVOICE-XXXX1548- ZZBK0004661",
+     "word_ids": [
+      "w267",
+      "w268",
+      "w269",
+      "w272"
+     ]
+    },
+    "ref_col": {
+     "text": "ZZBK0004661",
+     "word_ids": [
+      "w272"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "52,105.76",
+     "word_ids": [
+      "w270"
+     ]
+    },
+    "balance": {
+     "text": "14,64,146.73",
+     "word_ids": [
+      "w271"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "24-04-2026",
+     "word_ids": [
+      "w273"
+     ]
+    },
+    "value_date": {
+     "text": "24-04-2026",
+     "word_ids": [
+      "w273"
+     ]
+    },
+    "narration": {
+     "text": "UPI/MEGHDOOT STATIONER/meghdoot@okzz/PURCHASE/ZENITH/ 685998230669/ICI661854663",
+     "word_ids": [
+      "w275",
+      "w276",
+      "w279"
+     ]
+    },
+    "ref_col": {
+     "text": "ICI661854663",
+     "word_ids": [
+      "w279"
+     ]
+    },
+    "debit": {
+     "text": "26,321.37",
+     "word_ids": [
+      "w277"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "14,37,825.36",
+     "word_ids": [
+      "w278"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "26-04-2026",
+     "word_ids": [
+      "w280"
+     ]
+    },
+    "value_date": {
+     "text": "26-04-2026",
+     "word_ids": [
+      "w280"
+     ]
+    },
+    "narration": {
+     "text": "MMT/IMPS/674194670130/ADVANCE/AARAV OFFICE SUPPL/ZENITH",
+     "word_ids": [
+      "w282",
+      "w283",
+      "w284"
+     ]
+    },
+    "ref_col": {
+     "text": null,
+     "word_ids": []
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "9,227.01",
+     "word_ids": [
+      "w285"
+     ]
+    },
+    "balance": {
+     "text": "14,47,052.37",
+     "word_ids": [
+      "w286"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "28-04-2026",
+     "word_ids": [
+      "w287"
+     ]
+    },
+    "value_date": {
+     "text": "28-04-2026",
+     "word_ids": [
+      "w287"
+     ]
+    },
+    "narration": {
+     "text": "UPI/UDAAN ELECTRICALS/udaan@okzz/PURCHASE/ZENITH/694322893881/ ICI430620599",
+     "word_ids": [
+      "w289",
+      "w290",
+      "w293"
+     ]
+    },
+    "ref_col": {
+     "text": "ICI430620599",
+     "word_ids": [
+      "w293"
+     ]
+    },
+    "debit": {
+     "text": "8,98,188.57",
+     "word_ids": [
+      "w291"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "5,48,863.80",
+     "word_ids": [
+      "w292"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement.v2",
+  "seconds": 8.71,
+  "prompt_tokens": 2335,
+  "completion_tokens": 2219,
+  "cache_key": "1be7abefd39958a51ea4264574e3a5625b14bf2a74f277d789d38d69f08ae1a4"
+ }
+}

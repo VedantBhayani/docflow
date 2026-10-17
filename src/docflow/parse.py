@@ -17,7 +17,10 @@ _DATE_FORMATS = ["%d/%m/%Y", "%d-%m-%Y", "%d.%m.%Y", "%d-%b-%Y", "%d %b %Y", "%d
 def parse_amount(text: str | None) -> Decimal | None:
     if not text:
         return None
-    s = _CURRENCY.sub("", text).strip()
+    raw = text.strip()
+    if re.search(r"[.,]\d{2}[.,]$", raw):  # stray OCR dot after a 2-decimal amount: "17.70."
+        raw = raw[:-1]
+    s = _CURRENCY.sub("", raw).strip()
     negative = s.startswith("(") and s.endswith(")")
     s = s.strip("()").replace(" ", "")
     if _OCR_DOTTED.match(s):  # OCR read thousand-separator commas as dots: only the last dot is decimal
@@ -37,6 +40,9 @@ def parse_date(text: str | None) -> date | None:
     if not text:
         return None
     s = re.sub(r"\s+", " ", text.strip())
+    s = re.sub(r"(?<=\d)[~_](?=\d)", "-", s)  # OCR noise: '~' or '_' between digits can only be a separator
+    if "-" in s and "/" in s:
+        s = s.replace("/", "-")
     for fmt in _DATE_FORMATS:
         try:
             return datetime.strptime(s, fmt).date()

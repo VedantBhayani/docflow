@@ -1,0 +1,1124 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd (SYNTHETIC)",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4",
+    "w5"
+   ]
+  },
+  "account_number": {
+   "text": "93713248401953",
+   "word_ids": [
+    "w8"
+   ]
+  },
+  "account_holder": {
+   "text": "Udaan Polymers Pvt Ltd",
+   "word_ids": [
+    "w15",
+    "w16",
+    "w17",
+    "w18"
+   ]
+  },
+  "period_from": {
+   "text": "01/09/2026",
+   "word_ids": [
+    "w22"
+   ]
+  },
+  "period_to": {
+   "text": "30/09/2026",
+   "word_ids": [
+    "w25"
+   ]
+  },
+  "opening_balance": {
+   "text": "10,39,254.03",
+   "word_ids": [
+    "w38"
+   ]
+  },
+  "closing_balance": {
+   "text": "39,90,446.99",
+   "word_ids": [
+    "w287"
+   ]
+  },
+  "lines": [
+   {
+    "txn_date": {
+     "text": "01 Sep 2026",
+     "word_ids": [
+      "w40",
+      "w41",
+      "w42"
+     ]
+    },
+    "value_date": {
+     "text": "01 Sep 2026",
+     "word_ids": [
+      "w40",
+      "w41",
+      "w42"
+     ]
+    },
+    "narration": {
+     "text": "NEFT ZZBKN26090182666 TRIKON PACKAGING E",
+     "word_ids": [
+      "w43",
+      "w44",
+      "w45",
+      "w46",
+      "w47"
+     ]
+    },
+    "ref_col": {
+     "text": "ZZBKN26090182666",
+     "word_ids": [
+      "w48"
+     ]
+    },
+    "debit": {
+     "text": "5,58,633.25",
+     "word_ids": [
+      "w49"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "4,80,620.78",
+     "word_ids": [
+      "w51"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "01 Sep 2026",
+     "word_ids": [
+      "w53",
+      "w54",
+      "w55"
+     ]
+    },
+    "value_date": {
+     "text": "01 Sep 2026",
+     "word_ids": [
+      "w53",
+      "w54",
+      "w55"
+     ]
+    },
+    "narration": {
+     "text": "UPI/KAVERI OFFICE SUPP/623680328588/PURCHASE",
+     "word_ids": [
+      "w56",
+      "w57",
+      "w58"
+     ]
+    },
+    "ref_col": {
+     "text": "UPI-694069465889",
+     "word_ids": [
+      "w59"
+     ]
+    },
+    "debit": {
+     "text": "443.43",
+     "word_ids": [
+      "w60"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "4,80,177.35",
+     "word_ids": [
+      "w62"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "02 Sep 2026",
+     "word_ids": [
+      "w64",
+      "w65",
+      "w66"
+     ]
+    },
+    "value_date": {
+     "text": "02 Sep 2026",
+     "word_ids": [
+      "w64",
+      "w65",
+      "w66"
+     ]
+    },
+    "narration": {
+     "text": "NEFT ZZBKN26090294350 PRAGATI HARDWARE E",
+     "word_ids": [
+      "w67",
+      "w68",
+      "w69",
+      "w70",
+      "w71"
+     ]
+    },
+    "ref_col": {
+     "text": "ZZBKN26090294350",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "debit": {
+     "text": "8,85,484.42",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "-4,05,307.07",
+     "word_ids": [
+      "w75"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "02 Sep 2026",
+     "word_ids": [
+      "w77",
+      "w78",
+      "w79"
+     ]
+    },
+    "value_date": {
+     "text": "02 Sep 2026",
+     "word_ids": [
+      "w77",
+      "w78",
+      "w79"
+     ]
+    },
+    "narration": {
+     "text": "UPI/KAVERI ELECTRICALS/654230111975/PAYMENT",
+     "word_ids": [
+      "w80",
+      "w81"
+     ]
+    },
+    "ref_col": {
+     "text": "UPI-987885370889",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "3,656.36",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "balance": {
+     "text": "-4,01,650.71",
+     "word_ids": [
+      "w85"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "03 Sep 2026",
+     "word_ids": [
+      "w87",
+      "w88",
+      "w89"
+     ]
+    },
+    "value_date": {
+     "text": "03 Sep 2026",
+     "word_ids": [
+      "w87",
+      "w88",
+      "w89"
+     ]
+    },
+    "narration": {
+     "text": "UPI/VISTAR STATIONERS/632143520928/PAYMENT",
+     "word_ids": [
+      "w90",
+      "w91"
+     ]
+    },
+    "ref_col": {
+     "text": "UPI-416380045697",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "2,26,019.32",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "balance": {
+     "text": "-1,75,631.39",
+     "word_ids": [
+      "w95"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "06 Sep 2026",
+     "word_ids": [
+      "w97",
+      "w98",
+      "w99"
+     ]
+    },
+    "value_date": {
+     "text": "06 Sep 2026",
+     "word_ids": [
+      "w97",
+      "w98",
+      "w99"
+     ]
+    },
+    "narration": {
+     "text": "CHQ PAID UDAAN TEXTILES LLP",
+     "word_ids": [
+      "w100",
+      "w101",
+      "w102",
+      "w103",
+      "w104"
+     ]
+    },
+    "ref_col": {
+     "text": "354137",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "debit": {
+     "text": "38,063.22",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "-2,13,694.61",
+     "word_ids": [
+      "w108"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "07 Sep 2026",
+     "word_ids": [
+      "w110",
+      "w111",
+      "w112"
+     ]
+    },
+    "value_date": {
+     "text": "07 Sep 2026",
+     "word_ids": [
+      "w110",
+      "w111",
+      "w112"
+     ]
+    },
+    "narration": {
+     "text": "CHQ PAID VISTAR TEXTILES ENTE",
+     "word_ids": [
+      "w113",
+      "w114",
+      "w115",
+      "w116",
+      "w117"
+     ]
+    },
+    "ref_col": {
+     "text": "748458",
+     "word_ids": [
+      "w118"
+     ]
+    },
+    "debit": {
+     "text": "45,627.25",
+     "word_ids": [
+      "w119"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "-2,59,321.86",
+     "word_ids": [
+      "w121"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "07 Sep 2026",
+     "word_ids": [
+      "w123",
+      "w124",
+      "w125"
+     ]
+    },
+    "value_date": {
+     "text": "07 Sep 2026",
+     "word_ids": [
+      "w123",
+      "w124",
+      "w125"
+     ]
+    },
+    "narration": {
+     "text": "UPI/TRIKON FABRICATION/670758173469/PURCHASE",
+     "word_ids": [
+      "w126",
+      "w127"
+     ]
+    },
+    "ref_col": {
+     "text": "UPI-693679836808",
+     "word_ids": [
+      "w128"
+     ]
+    },
+    "debit": {
+     "text": "75,664.51",
+     "word_ids": [
+      "w129"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "-3,34,986.37",
+     "word_ids": [
+      "w131"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "07 Sep 2026",
+     "word_ids": [
+      "w133",
+      "w134",
+      "w135"
+     ]
+    },
+    "value_date": {
+     "text": "07 Sep 2026",
+     "word_ids": [
+      "w133",
+      "w134",
+      "w135"
+     ]
+    },
+    "narration": {
+     "text": "UPI/TRIKON LOGISTICS I/628088907109/PAYMENT",
+     "word_ids": [
+      "w136",
+      "w137",
+      "w138"
+     ]
+    },
+    "ref_col": {
+     "text": "UPI-742053151694",
+     "word_ids": [
+      "w139"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "48,736.04",
+     "word_ids": [
+      "w141"
+     ]
+    },
+    "balance": {
+     "text": "-2,86,250.33",
+     "word_ids": [
+      "w142"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "09 Sep 2026",
+     "word_ids": [
+      "w144",
+      "w145",
+      "w146"
+     ]
+    },
+    "value_date": {
+     "text": "09 Sep 2026",
+     "word_ids": [
+      "w144",
+      "w145",
+      "w146"
+     ]
+    },
+    "narration": {
+     "text": "UPI/SARTHI IT SERVICES/621797134926/PAYMENT",
+     "word_ids": [
+      "w147",
+      "w148",
+      "w149"
+     ]
+    },
+    "ref_col": {
+     "text": "UPI-503445235119",
+     "word_ids": [
+      "w150"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "47,092.69",
+     "word_ids": [
+      "w152"
+     ]
+    },
+    "balance": {
+     "text": "-2,39,157.64",
+     "word_ids": [
+      "w153"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "10 Sep 2026",
+     "word_ids": [
+      "w155",
+      "w156",
+      "w157"
+     ]
+    },
+    "value_date": {
+     "text": "10 Sep 2026",
+     "word_ids": [
+      "w155",
+      "w156",
+      "w157"
+     ]
+    },
+    "narration": {
+     "text": "NEFT ZZBKN26091058001 MEGHDOOT PACKAGING",
+     "word_ids": [
+      "w158",
+      "w159",
+      "w160",
+      "w161"
+     ]
+    },
+    "ref_col": {
+     "text": "ZZBKN26091058001",
+     "word_ids": [
+      "w162"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "47,744.22",
+     "word_ids": [
+      "w164"
+     ]
+    },
+    "balance": {
+     "text": "-1,91,413.42",
+     "word_ids": [
+      "w165"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "10 Sep 2026",
+     "word_ids": [
+      "w167",
+      "w168",
+      "w169"
+     ]
+    },
+    "value_date": {
+     "text": "10 Sep 2026",
+     "word_ids": [
+      "w167",
+      "w168",
+      "w169"
+     ]
+    },
+    "narration": {
+     "text": "NEFT ZZBKN26091022994 PRAGATI ELECTRICAL",
+     "word_ids": [
+      "w170",
+      "w171",
+      "w172",
+      "w173"
+     ]
+    },
+    "ref_col": {
+     "text": "ZZBKN26091022994",
+     "word_ids": [
+      "w174"
+     ]
+    },
+    "debit": {
+     "text": "1,410.32",
+     "word_ids": [
+      "w175"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "-1,92,823.74",
+     "word_ids": [
+      "w177"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "12 Sep 2026",
+     "word_ids": [
+      "w179",
+      "w180",
+      "w181"
+     ]
+    },
+    "value_date": {
+     "text": "12 Sep 2026",
+     "word_ids": [
+      "w179",
+      "w180",
+      "w181"
+     ]
+    },
+    "narration": {
+     "text": "UPI/SARTHI POLYMERS PV/628798264651/PURCHASE",
+     "word_ids": [
+      "w182",
+      "w183",
+      "w184"
+     ]
+    },
+    "ref_col": {
+     "text": "UPI-264105788209",
+     "word_ids": [
+      "w185"
+     ]
+    },
+    "debit": {
+     "text": "3,17,408.38",
+     "word_ids": [
+      "w186"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "-5,10,232.12",
+     "word_ids": [
+      "w188"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "13 Sep 2026",
+     "word_ids": [
+      "w190",
+      "w191",
+      "w192"
+     ]
+    },
+    "value_date": {
+     "text": "13 Sep 2026",
+     "word_ids": [
+      "w190",
+      "w191",
+      "w192"
+     ]
+    },
+    "narration": {
+     "text": "NEFT ZZBKN26091345718 SHAKTI LOGISTICS I",
+     "word_ids": [
+      "w193",
+      "w194",
+      "w195",
+      "w196",
+      "w197"
+     ]
+    },
+    "ref_col": {
+     "text": "ZZBKN26091345718",
+     "word_ids": [
+      "w198"
+     ]
+    },
+    "debit": {
+     "text": "3,884.40",
+     "word_ids": [
+      "w199"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "-5,14,116.52",
+     "word_ids": [
+      "w201"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "13 Sep 2026",
+     "word_ids": [
+      "w203",
+      "w204",
+      "w205"
+     ]
+    },
+    "value_date": {
+     "text": "13 Sep 2026",
+     "word_ids": [
+      "w203",
+      "w204",
+      "w205"
+     ]
+    },
+    "narration": {
+     "text": "UPI/TRIKON TEXTILES PV/665768809804/PAYMENT",
+     "word_ids": [
+      "w206",
+      "w207",
+      "w208"
+     ]
+    },
+    "ref_col": {
+     "text": "UPI-489029393640",
+     "word_ids": [
+      "w209"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "5,99,977.89",
+     "word_ids": [
+      "w211"
+     ]
+    },
+    "balance": {
+     "text": "85,861.37",
+     "word_ids": [
+      "w212"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "16 Sep 2026",
+     "word_ids": [
+      "w167",
+      "w168",
+      "w169"
+     ]
+    },
+    "value_date": {
+     "text": "16 Sep 2026",
+     "word_ids": [
+      "w167",
+      "w168",
+      "w169"
+     ]
+    },
+    "narration": {
+     "text": "UPI/SARTHI PACKAGING T/641736055715/PAYMENT",
+     "word_ids": [
+      "w217",
+      "w218",
+      "w219"
+     ]
+    },
+    "ref_col": {
+     "text": "UPI-249488650312",
+     "word_ids": [
+      "w220"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "3,999.45",
+     "word_ids": [
+      "w222"
+     ]
+    },
+    "balance": {
+     "text": "89,860.82",
+     "word_ids": [
+      "w223"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "16 Sep 2026",
+     "word_ids": [
+      "w225",
+      "w226",
+      "w227"
+     ]
+    },
+    "value_date": {
+     "text": "16 Sep 2026",
+     "word_ids": [
+      "w225",
+      "w226",
+      "w227"
+     ]
+    },
+    "narration": {
+     "text": "UPI/MEGHDOOT POLYMERS/694569737169/PAYMENT",
+     "word_ids": [
+      "w228",
+      "w229"
+     ]
+    },
+    "ref_col": {
+     "text": "UPI-406648190057",
+     "word_ids": [
+      "w230"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "7,47,427.76",
+     "word_ids": [
+      "w232"
+     ]
+    },
+    "balance": {
+     "text": "8,37,288.58",
+     "word_ids": [
+      "w233"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "17 Sep 2026",
+     "word_ids": [
+      "w235",
+      "w236",
+      "w237"
+     ]
+    },
+    "value_date": {
+     "text": "17 Sep 2026",
+     "word_ids": [
+      "w235",
+      "w236",
+      "w237"
+     ]
+    },
+    "narration": {
+     "text": "UPI/VISTAR PACKAGING P/622540370381/PAYMENT",
+     "word_ids": [
+      "w238",
+      "w239",
+      "w240"
+     ]
+    },
+    "ref_col": {
+     "text": "UPI-454462976885",
+     "word_ids": [
+      "w241"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "31,173.53",
+     "word_ids": [
+      "w243"
+     ]
+    },
+    "balance": {
+     "text": "8,68,462.11",
+     "word_ids": [
+      "w244"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "17 Sep 2026",
+     "word_ids": [
+      "w246",
+      "w247",
+      "w248"
+     ]
+    },
+    "value_date": {
+     "text": "17 Sep 2026",
+     "word_ids": [
+      "w246",
+      "w247",
+      "w248"
+     ]
+    },
+    "narration": {
+     "text": "UPI/AARAV OFFICE SUPPL/644004601340/PAYMENT",
+     "word_ids": [
+      "w249",
+      "w250",
+      "w251"
+     ]
+    },
+    "ref_col": {
+     "text": "UPI-220570064721",
+     "word_ids": [
+      "w252"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "31,836.53",
+     "word_ids": [
+      "w254"
+     ]
+    },
+    "balance": {
+     "text": "9,00,298.64",
+     "word_ids": [
+      "w255"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "17 Sep 2026",
+     "word_ids": [
+      "w257",
+      "w258",
+      "w259"
+     ]
+    },
+    "value_date": {
+     "text": "17 Sep 2026",
+     "word_ids": [
+      "w257",
+      "w258",
+      "w259"
+     ]
+    },
+    "narration": {
+     "text": "UPI/SARTHI STATIONERS/657267972010/PURCHASE",
+     "word_ids": [
+      "w260",
+      "w261"
+     ]
+    },
+    "ref_col": {
+     "text": "UPI-674469296936",
+     "word_ids": [
+      "w262"
+     ]
+    },
+    "debit": {
+     "text": "212.48",
+     "word_ids": [
+      "w263"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "9,00,086.16",
+     "word_ids": [
+      "w265"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "17 Sep 2026",
+     "word_ids": [
+      "w267",
+      "w268",
+      "w269"
+     ]
+    },
+    "value_date": {
+     "text": "17 Sep 2026",
+     "word_ids": [
+      "w267",
+      "w268",
+      "w269"
+     ]
+    },
+    "narration": {
+     "text": "RTGS ZZBKRC2026091791664881 TRIKON IT SERVICES",
+     "word_ids": [
+      "w270",
+      "w271",
+      "w272",
+      "w273",
+      "w274"
+     ]
+    },
+    "ref_col": {
+     "text": "ZZBKRC2026091791664881",
+     "word_ids": [
+      "w275"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "30,90,235.00",
+     "word_ids": [
+      "w277"
+     ]
+    },
+    "balance": {
+     "text": "39,90,321.16",
+     "word_ids": [
+      "w278"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "18 Sep 2026",
+     "word_ids": [
+      "w280",
+      "w281",
+      "w282"
+     ]
+    },
+    "value_date": {
+     "text": "18 Sep 2026",
+     "word_ids": [
+      "w280",
+      "w281",
+      "w282"
+     ]
+    },
+    "narration": {
+     "text": "Int.Pd:6418256:18-09-2026",
+     "word_ids": [
+      "w283"
+     ]
+    },
+    "ref_col": {
+     "text": null,
+     "word_ids": []
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "125.83",
+     "word_ids": [
+      "w286"
+     ]
+    },
+    "balance": {
+     "text": "39,90,446.99",
+     "word_ids": [
+      "w287"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement.v2",
+  "seconds": 20.33,
+  "prompt_tokens": 4024,
+  "completion_tokens": 5590,
+  "cache_key": "4c5531646ed2be1030da3ed4c1c97da05ef1c9960354767e36e989838a56229e"
+ }
+}

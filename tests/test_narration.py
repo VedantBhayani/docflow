@@ -70,3 +70,19 @@ def test_counterparty_hint(narration, party):
     from docflow.pipeline import _counterparty
 
     assert _counterparty(narration, classify(narration)) == party
+
+
+def test_space_separated_neft_narration():
+    assert extract_reference("NEFT ZZBKN26091500123 ANVAY TRADERS", "NEFT") == "ZZBKN26091500123"
+
+
+def test_bank_internal_bil_id_is_not_a_utr():
+    # ICICI-style net-banking transfer: the id is the bank's own transfer id, not the UTR
+    assert extract_reference("BIL/NEFT/ZZ00012345/VENDOR/ANVAY LLP/ZENITH", "NEFT") is None
+
+
+def test_cheque_number_from_a_clearing_narration():
+    from docflow.narration import extract_cheque
+
+    assert extract_cheque("CLG/PRAGATI LLP/000123/ZZBK/15.10.2026") == "000123"
+    assert extract_cheque("CHQ PAID-MICR CTS-ANVAY") is None

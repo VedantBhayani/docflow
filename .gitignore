@@ -5,3 +5,4 @@ __pycache__/
 .cache/
 data/cache/
 data/synthetic/invoices/_digital_sources/
+data/synthetic/statements/_digital_sources/

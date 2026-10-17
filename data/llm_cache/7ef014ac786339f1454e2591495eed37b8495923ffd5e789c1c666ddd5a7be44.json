@@ -1,0 +1,59 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w255",
+    "w256",
+    "w257",
+    "w258"
+   ]
+  },
+  "account_number": {
+   "text": "97958814315027",
+   "word_ids": [
+    "w262"
+   ]
+  },
+  "account_holder": {
+   "text": "Anvay Polymers Enterprises",
+   "word_ids": [
+    "w269",
+    "w270",
+    "w271"
+   ]
+  },
+  "period_from": {
+   "text": "01/09/2026",
+   "word_ids": [
+    "w275"
+   ]
+  },
+  "period_to": {
+   "text": "30/09/2026",
+   "word_ids": [
+    "w278"
+   ]
+  },
+  "opening_balance": {
+   "text": "22,13,481.95",
+   "word_ids": [
+    "w292"
+   ]
+  },
+  "closing_balance": {
+   "text": "5,99,760.45",
+   "word_ids": [
+    "w379"
+   ]
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 1.55,
+  "prompt_tokens": 2047,
+  "completion_tokens": 241,
+  "cache_key": "7ef014ac786339f1454e2591495eed37b8495923ffd5e789c1c666ddd5a7be44"
+ }
+}

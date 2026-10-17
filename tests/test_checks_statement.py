@@ -81,3 +81,9 @@ def test_duplicate_line_is_a_warning_s6():
 def test_missing_opening_balance_skips_s2_but_chain_still_checked():
     flags = run_statement_checks(*make(fields={"opening_balance": None}))
     assert "S2" not in ids(flags)
+
+
+def test_unreadable_date_is_s4_blocking():
+    flags = run_statement_checks(*make(lines={1: {"txn_date": "O2/O9/26x"}}))
+    s4 = [f for f in flags if f.check_id == "S4"]
+    assert s4 and s4[0].severity == "BLOCKING" and "unreadable" in s4[0].message

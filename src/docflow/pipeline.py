@@ -11,7 +11,7 @@ from pathlib import Path
 from docflow.checks import check_duplicates, run_invoice_checks
 from docflow.checks_statement import run_statement_checks
 from docflow.models import Document
-from docflow.narration import classify, extract_reference
+from docflow.narration import classify, extract_cheque, extract_reference
 from docflow.extract import extract
 from docflow.ground import ground_ref
 from docflow.ingest import load, rows, serialise, serialise_table_page
@@ -164,6 +164,9 @@ def _statement_evidence_flags(fields: dict[str, Field], lines: list[dict[str, Fi
             flags.append(Flag("E1", sev, f"'{name}' value '{f.text}' could not be found where the extractor said it is printed.", (name,)))
         elif f.status == FieldStatus.MISSING and name in STATEMENT_KEY_FIELDS:
             flags.append(Flag("E2", Severity.BLOCKING, f"Key field '{name}' was not found on the statement.", (name,)))
+        elif f.status == FieldStatus.CONFLICT and any(src != "qr" for src in f.conflicts):
+            others = "; ".join(f"{src} read '{v}'" for src, v in f.conflicts.items())
+            flags.append(Flag("E3", Severity.BLOCKING, f"Independent sources disagree on '{name}': extractor read '{f.text}', {others}.", (name,)))
     for i, ln in enumerate(lines):
         for name, f in ln.items():
             if f.status == FieldStatus.UNGROUNDED:
@@ -185,36 +188,68 @@ def _is_carry_forward(f: Field, page, index) -> bool:
 
 
 def process_statement(path: str | Path) -> DocResult:
-    """Page-by-page extraction; header values from whichever page prints them; chain checked across pages."""
+    """Transaction rows from the deterministic table parser (LLM page extraction only as a fallback for
+    pages with no recognisable table); header values from a small LLM call on the first and last page;
+    opening/closing balances corroborated across the summary-box rules, the table's opening row and the LLM."""
+    from docflow.statement_table import parse_tables
+
     t0 = time.perf_counter()
     doc = load(path)
     index = {w.id: w for w in doc.words()}
     fields: dict[str, Field] = {}
-    lines: list[dict[str, Field]] = []
     metas = []
-    for page in doc.pages:
-        parsed, meta = extract("statement_page", serialise_table_page(page))
+
+    def page_doc(page):
+        return Document(path=doc.path, sha256=doc.sha256, pages=[page])
+
+    header_pages = [doc.pages[0]] + ([doc.pages[-1]] if len(doc.pages) > 1 else [])
+    for page in header_pages:
+        parsed, meta = extract("statement_header", serialise(page_doc(page)))
         metas.append(meta)
         for name in STATEMENT_HEADER:
             ref = getattr(parsed, name)
             candidate = ground_ref(name, ref.text, ref.word_ids, index)
             if name == "opening_balance" and _is_carry_forward(candidate, page, index):
-                continue  # a "BALANCE B/F" row on a later page is not the statement's opening balance
+                continue
             if name not in fields or fields[name].status == FieldStatus.MISSING:
                 fields[name] = candidate
+
+    table = parse_tables(doc)
+    lines: list[dict[str, Field]] = []
+    if table.pages_parsed:
+        lines = table.lines
+    fallback_pages = table.pages_without_table if table.pages_parsed else [p.index for p in doc.pages]
+    for page in doc.pages:
+        if page.index not in fallback_pages:
+            continue
+        parsed, meta = extract("statement_page", serialise_table_page(page))
+        metas.append(meta)
         for line in parsed.lines:
             i = len(lines)
             lines.append({name: ground_ref(f"lines.{i}.{name}", ref.text, ref.word_ids, index) for name, ref in line})
+
     second = rule_extract_statement(doc)
+    if table.opening_row is not None and table.opening_row.text and "opening_balance" not in second:
+        second["opening_balance"] = RuleValue(table.opening_row.text, tuple(table.opening_row.word_ids))
+    override_flags = []
     for name, rv in second.items():
-        if fields.get(name) is None or fields[name].status == FieldStatus.MISSING:
-            filled = ground_ref(name, rv.value, list(rv.word_ids), index)
-            filled.sources = ["rules"]
-            fields[name] = filled
-    corroborate(fields, {k: v for k, v in second.items() if "llm" in fields[k].sources})
-    flags = scan_flags(doc) + _statement_evidence_flags(fields, lines) + run_statement_checks(fields, lines)
-    llm = {"model": metas[0]["model"] if metas else None, "prompt_version": metas[0]["prompt_version"] if metas else None,
-           "pages": len(metas), "cache_hit": all(m["cache_hit"] for m in metas),
+        labelled = ground_ref(name, rv.value, list(rv.word_ids), index)
+        labelled.sources = ["rules"]
+        current = fields.get(name)
+        if current is None or current.status == FieldStatus.MISSING:
+            fields[name] = labelled
+        elif parse_amount(current.text) == parse_amount(rv.value):
+            current.status = FieldStatus.VERIFIED if current.status in (FieldStatus.GROUNDED, FieldStatus.VERIFIED) else current.status
+            current.sources = sorted(set(current.sources) | {"rules"})
+        else:
+            # A value anchored to an explicit "Opening/Closing Balance" label beats an unlabelled reading.
+            override_flags.append(Flag("E3", Severity.WARNING, f"'{name}': the extractor read '{current.text}', but the value printed under the "
+                                       f"'{name.replace('_', ' ')}' label is '{rv.value}'; the labelled value is used.", (name,)))
+            fields[name] = labelled
+    flags = scan_flags(doc) + _statement_evidence_flags(fields, lines) + override_flags + run_statement_checks(fields, lines)
+    llm = {"model": metas[0]["model"] if metas else None, "prompt_version": ",".join(sorted({m["prompt_version"] for m in metas})),
+           "pages": len(doc.pages), "llm_calls": len(metas), "table_pages": table.pages_parsed, "fallback_pages": fallback_pages,
+           "cache_hit": all(m["cache_hit"] for m in metas),
            "prompt_tokens": sum(m.get("prompt_tokens") or 0 for m in metas), "completion_tokens": sum(m.get("completion_tokens") or 0 for m in metas)}
     return DocResult(path=str(path), sha256=doc.sha256, kind="statement", status=_status(flags), fields=fields, lines=lines, flags=flags,
                      page_sources=[p.source for p in doc.pages], llm=llm, seconds=round(time.perf_counter() - t0, 2))
@@ -250,7 +285,8 @@ def statement_lines(result: DocResult) -> list[dict]:
             "account_last4": acct[-4:] if acct else None, "line_no": i + 1,
             "txn_date": txn.isoformat() if txn else None, "value_date": val.isoformat() if val else None,
             "narration_raw": narration, "channel": channel, "ref_no": extract_reference(narration, channel),
-            "bank_ref": t("ref_col"), "cheque_no": t("ref_col") if channel == "CHEQUE" else None,
+            "bank_ref": t("ref_col"),
+            "cheque_no": (t("ref_col") or extract_cheque(narration)) if channel == "CHEQUE" else None,
             "counterparty_hint": _counterparty(narration, channel),
             "amount": str(dr if dr is not None else cr) if (dr is not None) != (cr is not None) else None,
             "direction": "DR" if dr is not None and cr is None else "CR" if cr is not None and dr is None else None,

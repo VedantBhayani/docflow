@@ -56,6 +56,8 @@ def run_statement_checks(fields: dict[str, Field], lines: list[dict[str, Field]]
         if bal is not None:
             prev = bal
         d = parse_date(_t(ln.get("txn_date")))
+        if d is None and _t(ln.get("txn_date")):
+            flags.append(Flag("S4", B, f"Row {n}: date '{_t(ln.get('txn_date'))}' is unreadable, so it cannot be checked against the statement period.", (f"lines.{i}.txn_date",)))
         if d and start and end and not (start <= d <= end):
             flags.append(Flag("S4", B, f"Row {n}: date {d:%d.%m.%Y} is outside the statement period {start:%d.%m.%Y} to {end:%d.%m.%Y}.", (f"lines.{i}.txn_date",)))
         narration = _t(ln.get("narration")) or ""

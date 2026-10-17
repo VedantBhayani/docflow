@@ -1,0 +1,60 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w280",
+    "w281",
+    "w282",
+    "w283"
+   ]
+  },
+  "account_number": {
+   "text": "34192673618848",
+   "word_ids": [
+    "w287"
+   ]
+  },
+  "account_holder": {
+   "text": "Pragati Textiles Pvt Ltd",
+   "word_ids": [
+    "w294",
+    "w295",
+    "w296",
+    "w297"
+   ]
+  },
+  "period_from": {
+   "text": "01/08/2026",
+   "word_ids": [
+    "w301"
+   ]
+  },
+  "period_to": {
+   "text": "30/08/2026",
+   "word_ids": [
+    "w304"
+   ]
+  },
+  "opening_balance": {
+   "text": "23,59,695.60",
+   "word_ids": [
+    "w491"
+   ]
+  },
+  "closing_balance": {
+   "text": "65,72,169.46",
+   "word_ids": [
+    "w494"
+   ]
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 1.85,
+  "prompt_tokens": 2972,
+  "completion_tokens": 250,
+  "cache_key": "3ff95f49e98ef9190421c2c8aa135ef202f5c29e8beb3f07e26bc4b156f43968"
+ }
+}

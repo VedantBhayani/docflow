@@ -1,0 +1,359 @@
+{
+  "seed": 11,
+  "documents": [
+    {
+      "id": "stmt-0001",
+      "template": "dash",
+      "scan": "digital",
+      "defect": "date_outside_period",
+      "split": "heldout",
+      "expected_flags": [
+        "S4"
+      ],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0002",
+      "template": "dash",
+      "scan": "digital",
+      "defect": "both_dr_cr",
+      "split": "heldout",
+      "expected_flags": [
+        "S3"
+      ],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 3
+    },
+    {
+      "id": "stmt-0003",
+      "template": "dash",
+      "scan": "digital",
+      "defect": "both_dr_cr",
+      "split": "heldout",
+      "expected_flags": [
+        "S3"
+      ],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0004",
+      "template": "dash",
+      "scan": "digital",
+      "defect": "closing_mismatch",
+      "split": "heldout",
+      "expected_flags": [
+        "S2"
+      ],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 1
+    },
+    {
+      "id": "stmt-0005",
+      "template": "dash",
+      "scan": "digital",
+      "defect": "closing_mismatch",
+      "split": "heldout",
+      "expected_flags": [
+        "S2"
+      ],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0006",
+      "template": "dash",
+      "scan": "heavy",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 3
+    },
+    {
+      "id": "stmt-0007",
+      "template": "dash",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0008",
+      "template": "dash",
+      "scan": "digital",
+      "defect": "broken_chain",
+      "split": "heldout",
+      "expected_flags": [
+        "S1"
+      ],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0009",
+      "template": "slash",
+      "scan": "digital",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0010",
+      "template": "slash",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0011",
+      "template": "slash",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0012",
+      "template": "slash",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 3
+    },
+    {
+      "id": "stmt-0013",
+      "template": "slash",
+      "scan": "digital",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0014",
+      "template": "slash",
+      "scan": "digital",
+      "defect": "both_dr_cr",
+      "split": "dev",
+      "expected_flags": [
+        "S3"
+      ],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0015",
+      "template": "slash",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0016",
+      "template": "slash",
+      "scan": "digital",
+      "defect": "date_outside_period",
+      "split": "heldout",
+      "expected_flags": [
+        "S4"
+      ],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0017",
+      "template": "mmt",
+      "scan": "heavy",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0018",
+      "template": "mmt",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0019",
+      "template": "mmt",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0020",
+      "template": "mmt",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 3
+    },
+    {
+      "id": "stmt-0021",
+      "template": "mmt",
+      "scan": "digital",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 1
+    },
+    {
+      "id": "stmt-0022",
+      "template": "mmt",
+      "scan": "digital",
+      "defect": "broken_chain",
+      "split": "dev",
+      "expected_flags": [
+        "S1"
+      ],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0023",
+      "template": "mmt",
+      "scan": "digital",
+      "defect": "broken_chain",
+      "split": "heldout",
+      "expected_flags": [
+        "S1"
+      ],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0024",
+      "template": "kotak",
+      "scan": "digital",
+      "defect": "closing_mismatch",
+      "split": "dev",
+      "expected_flags": [
+        "S2"
+      ],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0025",
+      "template": "kotak",
+      "scan": "light",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0026",
+      "template": "kotak",
+      "scan": "heavy",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0027",
+      "template": "kotak",
+      "scan": "digital",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 3
+    },
+    {
+      "id": "stmt-0028",
+      "template": "kotak",
+      "scan": "light",
+      "defect": null,
+      "split": "heldout",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 1
+    },
+    {
+      "id": "stmt-0029",
+      "template": "kotak",
+      "scan": "digital",
+      "defect": "date_outside_period",
+      "split": "dev",
+      "expected_flags": [
+        "S4"
+      ],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    },
+    {
+      "id": "stmt-0030",
+      "template": "kotak",
+      "scan": "light",
+      "defect": null,
+      "split": "dev",
+      "expected_flags": [],
+      "acceptable_flags": [],
+      "qr": false,
+      "pages": 2
+    }
+  ]
+}

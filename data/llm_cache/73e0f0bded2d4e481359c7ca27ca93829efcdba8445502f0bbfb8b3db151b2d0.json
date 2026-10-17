@@ -1,0 +1,60 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w209",
+    "w210",
+    "w211",
+    "w212"
+   ]
+  },
+  "account_number": {
+   "text": "65474514222345",
+   "word_ids": [
+    "w216"
+   ]
+  },
+  "account_holder": {
+   "text": "Sahyadri IT Services Enterprises",
+   "word_ids": [
+    "w223",
+    "w224",
+    "w225",
+    "w226"
+   ]
+  },
+  "period_from": {
+   "text": "01/07/2026",
+   "word_ids": [
+    "w229"
+   ]
+  },
+  "period_to": {
+   "text": "30/07/2026",
+   "word_ids": [
+    "w231"
+   ]
+  },
+  "opening_balance": {
+   "text": "17.57.324.41",
+   "word_ids": [
+    "w345"
+   ]
+  },
+  "closing_balance": {
+   "text": "8.06.561.86",
+   "word_ids": [
+    "w348"
+   ]
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 2.52,
+  "prompt_tokens": 2414,
+  "completion_tokens": 248,
+  "cache_key": "73e0f0bded2d4e481359c7ca27ca93829efcdba8445502f0bbfb8b3db151b2d0"
+ }
+}

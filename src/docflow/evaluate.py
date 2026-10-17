@@ -18,13 +18,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from docflow.parse import parse_amount, parse_date, parse_rate
-from docflow.pipeline import process_batch
+from docflow.pipeline import process_batch, statement_lines
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data" / "synthetic" / "invoices"
+STATEMENTS = ROOT / "data" / "synthetic" / "statements"
 RESULTS = ROOT / "results"
 KEY_FIELDS = ["supplier_gstin", "recipient_gstin", "invoice_no", "invoice_date", "taxable_total", "grand_total"]
-AMOUNTS = {"taxable_total", "cgst_total", "sgst_total", "igst_total", "round_off", "grand_total", "unit_price", "taxable_value", "cgst", "sgst", "igst", "qty"}
+AMOUNTS = {"opening_balance", "closing_balance", "debit", "credit", "balance", "taxable_total", "cgst_total", "sgst_total", "igst_total", "round_off", "grand_total", "unit_price", "taxable_value", "cgst", "sgst", "igst", "qty"}
 # Mistral Small 4 list price (USD per 1M tokens), docs.mistral.ai pricing, read 2026-10-16 (research note 03).
 PRICE_IN, PRICE_OUT = 0.15, 0.60
 
@@ -36,7 +37,7 @@ def same_value(name: str, got: str | None, want: str | None) -> bool:
     if base in AMOUNTS:
         a, b = parse_amount(got), parse_amount(want)
         return a is not None and a == b
-    if base == "invoice_date":
+    if base in ("invoice_date", "txn_date", "value_date", "period_from", "period_to"):
         return parse_date(got) is not None and parse_date(got) == parse_date(want)
     if base == "gst_rate":
         return parse_rate(got) is not None and parse_rate(got) == parse_rate(want)
@@ -148,6 +149,62 @@ def report_markdown(split: str, m: dict, rows: list[dict], final: bool) -> str:
     return "\n".join(lines) + "\n"
 
 
+def score_statement(result, truth: dict) -> dict:
+    s = score_document(result, truth)
+    rows = statement_lines(result)
+    line_ok = []
+    for i, d in enumerate(truth["derived"]):
+        r = rows[i] if i < len(rows) else None
+        ok = r is not None and all(r[k] == d[k] for k in ("channel", "ref_no", "direction", "amount", "cheque_no"))
+        line_ok.append(ok)
+    s["statement_lines_ok"] = sum(line_ok)
+    s["statement_lines_total"] = len(line_ok)
+    s["ref_ok"] = sum(1 for i, d in enumerate(truth["derived"]) if d["ref_no"] and i < len(rows) and rows[i]["ref_no"] == d["ref_no"])
+    s["ref_total"] = sum(1 for d in truth["derived"] if d["ref_no"])
+    return s
+
+
+def run_statements(split: str, final: bool = False) -> dict:
+    if split == "heldout" and not final:
+        raise SystemExit("Held-out is the reported run: pass --final, and run it once.")
+    from docflow.pipeline import process
+
+    manifest = json.loads((STATEMENTS / "manifest.json").read_text(encoding="utf-8"))["documents"]
+    docs = [d for d in manifest if d["split"] == split]
+    t0 = time.time()
+    rows = []
+    for d in docs:
+        r = process(STATEMENTS / f"{d['id']}.pdf", kind="statement")
+        truth = json.loads((STATEMENTS / f"{d['id']}.truth.json").read_text(encoding="utf-8"))
+        rows.append({"doc": d, "seconds": r.seconds, "score": score_statement(r, truth)})
+    m = summarise(rows)
+    m["statement_lines_fully_correct"] = (sum(r["score"]["statement_lines_ok"] for r in rows), sum(r["score"]["statement_lines_total"] for r in rows))
+    m["references_correct"] = (sum(r["score"]["ref_ok"] for r in rows), sum(r["score"]["ref_total"] for r in rows))
+    by_layout = defaultdict(lambda: [0, 0])
+    for r in rows:
+        by_layout[r["doc"]["template"]][0] += r["score"]["statement_lines_ok"]
+        by_layout[r["doc"]["template"]][1] += r["score"]["statement_lines_total"]
+    m["statement_lines_by_layout"] = {k: tuple(v) for k, v in sorted(by_layout.items())}
+    m["wall_seconds"] = round(time.time() - t0, 1)
+    out = RESULTS / f"{datetime.now():%Y-%m-%d}" / f"statements-{split}"
+    out.mkdir(parents=True, exist_ok=True)
+    (out / "metrics.json").write_text(json.dumps(m, indent=2, default=str), encoding="utf-8")
+    nl = chr(10)
+    md = report_markdown(f"statements {split}", m, rows, final)
+    md += nl + "## Statement Lines (the contract Recon consumes)" + nl + nl + "| | Result |" + nl + "|---|---|" + nl
+    md += f"| Fully correct (channel, ref, direction, amount, cheque) | {_pct(*m['statement_lines_fully_correct'])} |" + nl
+    md += f"| UTR/RRN references correct | {_pct(*m['references_correct'])} |" + nl
+    md += "".join(f"| {k} | {_pct(*v)} |" + nl for k, v in m["statement_lines_by_layout"].items())
+    (out / "report.md").write_text(md, encoding="utf-8")
+    with (out / "per_doc.jsonl").open("w", encoding="utf-8") as fh:
+        for r in rows:
+            fh.write(json.dumps(r, default=str) + nl)
+    if split == "heldout":
+        with (RESULTS / "heldout_runs.log").open("a", encoding="utf-8") as fh:
+            fh.write(f"{datetime.now(timezone.utc).isoformat(timespec='seconds')} final statements held-out run -> {out}" + nl)
+    return m
+
+
 def run(split: str, final: bool = False) -> dict:
     if split == "heldout" and not final:
         raise SystemExit("Held-out is the reported run: pass --final, and run it once.")
@@ -178,8 +235,13 @@ def main() -> None:
     parser = argparse.ArgumentParser(prog="python -m docflow.evaluate")
     parser.add_argument("--split", choices=["dev", "heldout"], default="dev")
     parser.add_argument("--final", action="store_true", help="required for the held-out run")
+    parser.add_argument("--kind", choices=["invoice", "statement"], default="invoice")
     args = parser.parse_args()
-    m = run(args.split, args.final)
+    m = run(args.split, args.final) if args.kind == "invoice" else run_statements(args.split, args.final)
+    if args.kind == "statement":
+        print(f"{'statement_lines_fully_correct':28} {_pct(*m['statement_lines_fully_correct'])}")
+        print(f"{'references_correct':28} {_pct(*m['references_correct'])}")
+        print(f"{'by layout':28} {m['statement_lines_by_layout']}")
     for k in ("field_accuracy", "key_field_accuracy", "grounding_rate", "defect_recall", "false_flag_rate", "flags_exactly_as_labelled"):
         print(f"{k:28} {_pct(*m[k])}")
     print(f"{'qr_read_rate_by_scan':28} {m['qr_read_rate_by_scan']}")

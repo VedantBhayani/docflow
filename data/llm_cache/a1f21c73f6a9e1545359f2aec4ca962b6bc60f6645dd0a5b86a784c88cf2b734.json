@@ -1,0 +1,59 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w292",
+    "w293",
+    "w294",
+    "w295"
+   ]
+  },
+  "account_number": {
+   "text": "46079961910724",
+   "word_ids": [
+    "w299"
+   ]
+  },
+  "account_holder": {
+   "text": "Nimbus Textiles Traders",
+   "word_ids": [
+    "w306",
+    "w307",
+    "w308"
+   ]
+  },
+  "period_from": {
+   "text": "01/08/2026",
+   "word_ids": [
+    "w312"
+   ]
+  },
+  "period_to": {
+   "text": "30/08/2026",
+   "word_ids": [
+    "w315"
+   ]
+  },
+  "opening_balance": {
+   "text": "9,75,503.34",
+   "word_ids": [
+    "w441"
+   ]
+  },
+  "closing_balance": {
+   "text": "-7,71,966.77",
+   "word_ids": [
+    "w444"
+   ]
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 1.51,
+  "prompt_tokens": 2061,
+  "completion_tokens": 241,
+  "cache_key": "a1f21c73f6a9e1545359f2aec4ca962b6bc60f6645dd0a5b86a784c88cf2b734"
+ }
+}

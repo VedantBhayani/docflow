@@ -1,0 +1,59 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w264",
+    "w265",
+    "w266",
+    "w267"
+   ]
+  },
+  "account_number": {
+   "text": "71789132230196",
+   "word_ids": [
+    "w271"
+   ]
+  },
+  "account_holder": {
+   "text": "Udaan Logistics LLP",
+   "word_ids": [
+    "w278",
+    "w279",
+    "w280"
+   ]
+  },
+  "period_from": {
+   "text": "01/05/2026",
+   "word_ids": [
+    "w284"
+   ]
+  },
+  "period_to": {
+   "text": "30/05/2026",
+   "word_ids": [
+    "w286"
+   ]
+  },
+  "opening_balance": {
+   "text": "12,05,415.50",
+   "word_ids": [
+    "w332"
+   ]
+  },
+  "closing_balance": {
+   "text": "1,06,63,434.72",
+   "word_ids": [
+    "w335"
+   ]
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 1.45,
+  "prompt_tokens": 1186,
+  "completion_tokens": 245,
+  "cache_key": "94b5af0e20d19edd2d7a03e854669defc5bfac77a61101cbcd00cc4f18fe8860"
+ }
+}

@@ -1,0 +1,295 @@
+{
+  "kind": "statement",
+  "template": "mmt",
+  "fields": {
+    "bank_name": "Zenith Co-operative Bank Ltd (SYNTHETIC)",
+    "account_number": "70085388330152",
+    "account_holder": "Nimbus Fabrication Traders",
+    "period_from": "01/07/2026",
+    "period_to": "30/07/2026",
+    "opening_balance": "3,33,965.91",
+    "closing_balance": "60,14,140.27"
+  },
+  "lines": [
+    {
+      "txn_date": "01-07-2026",
+      "narration": "UPI/AARAV HARDWARE TRA/aarav@okzz/PAYMENT/ZENITH/680795046448/ICI741948462",
+      "debit": null,
+      "credit": "2,521.27",
+      "balance": "3,36,487.18"
+    },
+    {
+      "txn_date": "03-07-2026",
+      "narration": "UPI/TRIKON PACKAGING L/trikon@okzz/PURCHASE/ZENITH/693438121716/ICI217137666",
+      "debit": "506.35",
+      "credit": null,
+      "balance": "3,35,980.83"
+    },
+    {
+      "txn_date": "04-07-2026",
+      "narration": "UPI/ANVAY LOGISTICS EN/anvay@okzz/PURCHASE/ZENITH/614715371279/ICI433979486",
+      "debit": "5,93,861.39",
+      "credit": null,
+      "balance": "-2,57,880.56"
+    },
+    {
+      "txn_date": "06-07-2026",
+      "narration": "UPI/NIMBUS POLYMERS IN/nimbus@okzz/PAYMENT/ZENITH/681926277131/ICI792086359",
+      "debit": null,
+      "credit": "4,32,712.95",
+      "balance": "1,74,832.39"
+    },
+    {
+      "txn_date": "12-07-2026",
+      "narration": "CREDIT INTEREST",
+      "debit": null,
+      "credit": "650.11",
+      "balance": "1,75,482.50"
+    },
+    {
+      "txn_date": "14-07-2026",
+      "narration": "UPI/ANVAY PACKAGING LL/anvay@okzz/PURCHASE/ZENITH/650496287842/ICI220437462",
+      "debit": "3,64,443.66",
+      "credit": null,
+      "balance": "-1,88,961.16"
+    },
+    {
+      "txn_date": "15-07-2026",
+      "narration": "UPI/PRAGATI STATIONERS/pragati@okzz/PAYMENT/ZENITH/668363956843/ICI927965700",
+      "debit": null,
+      "credit": "1,86,716.04",
+      "balance": "-2,245.12"
+    },
+    {
+      "txn_date": "17-07-2026",
+      "narration": "MMT/IMPS/653355705425/ADVANCE/VISTAR POLYMERS PV/ZENITH",
+      "debit": null,
+      "credit": "11,686.15",
+      "balance": "9,441.03"
+    },
+    {
+      "txn_date": "19-07-2026",
+      "narration": "CLG/NIMBUS POLYMERS IN/252328/ZZBK/19.07.2026",
+      "debit": "3,72,843.32",
+      "credit": null,
+      "balance": "-3,63,402.29"
+    },
+    {
+      "txn_date": "19-07-2026",
+      "narration": "UPI/NIMBUS ELECTRICALS/nimbus@okzz/PAYMENT/ZENITH/644672807409/ICI787253825",
+      "debit": null,
+      "credit": "3,06,073.14",
+      "balance": "-57,329.15"
+    },
+    {
+      "txn_date": "19-07-2026",
+      "narration": "MMT/IMPS/660992816133/ADVANCE/VISTAR STATIONERS/ZENITH",
+      "debit": null,
+      "credit": "18,656.49",
+      "balance": "-38,672.66"
+    },
+    {
+      "txn_date": "20-07-2026",
+      "narration": "UPI/SARTHI STATIONERS/sarthi@okzz/PURCHASE/ZENITH/641150422473/ICI629412922",
+      "debit": "6,88,572.20",
+      "credit": null,
+      "balance": "-7,27,244.86"
+    },
+    {
+      "txn_date": "22-07-2026",
+      "narration": "NEFT-ZZBKN26072269999-NIMBUS PACKAGING T-INVOICE-XXXX7195-ZZBK0006502",
+      "debit": null,
+      "credit": "965.80",
+      "balance": "-7,26,279.06"
+    },
+    {
+      "txn_date": "23-07-2026",
+      "narration": "CLG/ANVAY HARDWARE PVT/180758/ZZBK/23.07.2026",
+      "debit": "2,77,040.91",
+      "credit": null,
+      "balance": "-10,03,319.97"
+    },
+    {
+      "txn_date": "23-07-2026",
+      "narration": "RTGS/ZZBKRC2026072348493410/ZENITH/SHAKTI FABRICATION",
+      "debit": null,
+      "credit": "70,41,136.90",
+      "balance": "60,37,816.93"
+    },
+    {
+      "txn_date": "24-07-2026",
+      "narration": "CREDIT INTEREST",
+      "debit": null,
+      "credit": "417.74",
+      "balance": "60,38,234.67"
+    },
+    {
+      "txn_date": "27-07-2026",
+      "narration": "MMT/IMPS/640527283316/ADVANCE/TRIKON OFFICE SUPP/ZENITH",
+      "debit": null,
+      "credit": "43,442.26",
+      "balance": "60,81,676.93"
+    },
+    {
+      "txn_date": "28-07-2026",
+      "narration": "BIL/NEFT/ZZ17184932/VENDOR/ANVAY POLYMERS LLP/ZENITH",
+      "debit": "67,536.66",
+      "credit": null,
+      "balance": "60,14,140.27"
+    }
+  ],
+  "modes": [
+    "UPI",
+    "UPI",
+    "UPI",
+    "UPI",
+    "INT",
+    "UPI",
+    "UPI",
+    "IMPS",
+    "CLG",
+    "UPI",
+    "IMPS",
+    "UPI",
+    "NEFT",
+    "CLG",
+    "RTGS",
+    "INT",
+    "IMPS",
+    "NEFT"
+  ],
+  "derived": [
+    {
+      "channel": "UPI",
+      "ref_no": "680795046448",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "2521.27"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "693438121716",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "506.35"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "614715371279",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "593861.39"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "681926277131",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "432712.95"
+    },
+    {
+      "channel": "INTEREST",
+      "ref_no": null,
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "650.11"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "650496287842",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "364443.66"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "668363956843",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "186716.04"
+    },
+    {
+      "channel": "IMPS",
+      "ref_no": "653355705425",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "11686.15"
+    },
+    {
+      "channel": "CHEQUE",
+      "ref_no": null,
+      "cheque_no": "252328",
+      "direction": "DR",
+      "amount": "372843.32"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "644672807409",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "306073.14"
+    },
+    {
+      "channel": "IMPS",
+      "ref_no": "660992816133",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "18656.49"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "641150422473",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "688572.20"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26072269999",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "965.80"
+    },
+    {
+      "channel": "CHEQUE",
+      "ref_no": null,
+      "cheque_no": "180758",
+      "direction": "DR",
+      "amount": "277040.91"
+    },
+    {
+      "channel": "RTGS",
+      "ref_no": "ZZBKRC2026072348493410",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "7041136.90"
+    },
+    {
+      "channel": "INTEREST",
+      "ref_no": null,
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "417.74"
+    },
+    {
+      "channel": "IMPS",
+      "ref_no": "640527283316",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "43442.26"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": null,
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "67536.66"
+    }
+  ],
+  "defect": null,
+  "expected_flags": [],
+  "acceptable_flags": [],
+  "id": "stmt-0021",
+  "scan": "digital",
+  "split": "dev"
+}

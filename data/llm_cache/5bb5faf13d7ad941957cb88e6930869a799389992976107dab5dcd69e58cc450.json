@@ -1,0 +1,601 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd (SYNTHETIC)",
+   "word_ids": [
+    "w273",
+    "w274",
+    "w275",
+    "w276",
+    "w277"
+   ]
+  },
+  "account_number": {
+   "text": "66117495846021",
+   "word_ids": [
+    "w280"
+   ]
+  },
+  "account_holder": {
+   "text": "Aarav Fabrication Industries Pvt Ltd",
+   "word_ids": [
+    "w287",
+    "w288",
+    "w289",
+    "w290",
+    "w291"
+   ]
+  },
+  "period_from": {
+   "text": "01/06/2026",
+   "word_ids": [
+    "w295"
+   ]
+  },
+  "period_to": {
+   "text": "30/06/2026",
+   "word_ids": [
+    "w297"
+   ]
+  },
+  "opening_balance": {
+   "text": "8,45,957.23",
+   "word_ids": [
+    "w439"
+   ]
+  },
+  "closing_balance": {
+   "text": "1,99,441.87",
+   "word_ids": [
+    "w442"
+   ]
+  },
+  "lines": [
+   {
+    "txn_date": {
+     "text": "18/06/2026",
+     "word_ids": [
+      "w309"
+     ]
+    },
+    "value_date": {
+     "text": "18/06/2026",
+     "word_ids": [
+      "w310"
+     ]
+    },
+    "narration": {
+     "text": "NEFT*ZZBK0008381*ZZBKN26061833506*UDAAN TEXTILES IND",
+     "word_ids": [
+      "w311",
+      "w316",
+      "w317"
+     ]
+    },
+    "ref_col": {
+     "text": "ZZBKN26061833506",
+     "word_ids": [
+      "w312"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "40,326.25",
+     "word_ids": [
+      "w314"
+     ]
+    },
+    "balance": {
+     "text": "15,90,235.90",
+     "word_ids": [
+      "w315"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "18/06/2026",
+     "word_ids": [
+      "w318"
+     ]
+    },
+    "value_date": {
+     "text": "18/06/2026",
+     "word_ids": [
+      "w319"
+     ]
+    },
+    "narration": {
+     "text": "WDL TFR UPI/DR/623074798445/TRIKON FABRICATION/ZZBK/trikon@okzz/PURCHASE",
+     "word_ids": [
+      "w320",
+      "w321",
+      "w322",
+      "w323",
+      "w328"
+     ]
+    },
+    "ref_col": {
+     "text": "623074798445",
+     "word_ids": [
+      "w324"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "3,35,338.48",
+     "word_ids": [
+      "w326"
+     ]
+    },
+    "balance": {
+     "text": "12,54,897.42",
+     "word_ids": [
+      "w327"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "19/06/2026",
+     "word_ids": [
+      "w329"
+     ]
+    },
+    "value_date": {
+     "text": "19/06/2026",
+     "word_ids": [
+      "w330"
+     ]
+    },
+    "narration": {
+     "text": "NEFT*ZZBK0007467*ZZBKN26061961478*TRIKON PACKAGING T",
+     "word_ids": [
+      "w331",
+      "w336",
+      "w337"
+     ]
+    },
+    "ref_col": {
+     "text": "ZZBKN26061961478",
+     "word_ids": [
+      "w332"
+     ]
+    },
+    "debit": {
+     "text": "24,074.75",
+     "word_ids": [
+      "w333"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "12,78,972.17",
+     "word_ids": [
+      "w335"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "19/06/2026",
+     "word_ids": [
+      "w338"
+     ]
+    },
+    "value_date": {
+     "text": "19/06/2026",
+     "word_ids": [
+      "w339"
+     ]
+    },
+    "narration": {
+     "text": "NEFT*ZZBK0005831*ZZBKN26061977081*MEGHDOOT ELECTRICA",
+     "word_ids": [
+      "w340",
+      "w345"
+     ]
+    },
+    "ref_col": {
+     "text": "ZZBKN26061977081",
+     "word_ids": [
+      "w341"
+     ]
+    },
+    "debit": {
+     "text": "1,181.03",
+     "word_ids": [
+      "w342"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "12,80,153.20",
+     "word_ids": [
+      "w344"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "19/06/2026",
+     "word_ids": [
+      "w346"
+     ]
+    },
+    "value_date": {
+     "text": "19/06/2026",
+     "word_ids": [
+      "w347"
+     ]
+    },
+    "narration": {
+     "text": "TO CHQ PAID TRIKON IT SERVICES L",
+     "word_ids": [
+      "w348",
+      "w349",
+      "w350",
+      "w351",
+      "w352",
+      "w353"
+     ]
+    },
+    "ref_col": {
+     "text": "706882",
+     "word_ids": [
+      "w355"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "5,59,287.09",
+     "word_ids": [
+      "w357"
+     ]
+    },
+    "balance": {
+     "text": "7,20,866.11",
+     "word_ids": [
+      "w358"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "21/06/2026",
+     "word_ids": [
+      "w359"
+     ]
+    },
+    "value_date": {
+     "text": "21/06/2026",
+     "word_ids": [
+      "w360"
+     ]
+    },
+    "narration": {
+     "text": "TO CHQ PAID VISTAR ELECTRICALS T",
+     "word_ids": [
+      "w361",
+      "w362",
+      "w363",
+      "w364",
+      "w365"
+     ]
+    },
+    "ref_col": {
+     "text": "116158",
+     "word_ids": [
+      "w367"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "4,16,755.06",
+     "word_ids": [
+      "w369"
+     ]
+    },
+    "balance": {
+     "text": "3,04,111.05",
+     "word_ids": [
+      "w370"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "21/06/2026",
+     "word_ids": [
+      "w371"
+     ]
+    },
+    "value_date": {
+     "text": "21/06/2026",
+     "word_ids": [
+      "w372"
+     ]
+    },
+    "narration": {
+     "text": "SMS CHARGES",
+     "word_ids": [
+      "w373",
+      "w374"
+     ]
+    },
+    "ref_col": {
+     "text": null,
+     "word_ids": []
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "17.70",
+     "word_ids": [
+      "w377"
+     ]
+    },
+    "balance": {
+     "text": "3,04,093.35",
+     "word_ids": [
+      "w378"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "22/06/2026",
+     "word_ids": [
+      "w379"
+     ]
+    },
+    "value_date": {
+     "text": "22/06/2026",
+     "word_ids": [
+      "w380"
+     ]
+    },
+    "narration": {
+     "text": "WDL TFR UPI/DR/638679718710/UDAAN ELECTRICALS/ZZBK/udaan@okzz/PURCHASE",
+     "word_ids": [
+      "w381",
+      "w382",
+      "w383",
+      "w384",
+      "w389"
+     ]
+    },
+    "ref_col": {
+     "text": "638679718710",
+     "word_ids": [
+      "w385"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "820.12",
+     "word_ids": [
+      "w387"
+     ]
+    },
+    "balance": {
+     "text": "3,03,273.23",
+     "word_ids": [
+      "w388"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "22/06/2026",
+     "word_ids": [
+      "w390"
+     ]
+    },
+    "value_date": {
+     "text": "22/06/2026",
+     "word_ids": [
+      "w391"
+     ]
+    },
+    "narration": {
+     "text": "WDL TFR UPI/DR/664729350302/SAHYADRI PACKAGING/ZZBK/sahyadri@okzz/PURCHASE",
+     "word_ids": [
+      "w392",
+      "w393",
+      "w394",
+      "w395",
+      "w399"
+     ]
+    },
+    "ref_col": {
+     "text": "664729350302",
+     "word_ids": [
+      "w396"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "24,880.24",
+     "word_ids": [
+      "w397"
+     ]
+    },
+    "balance": {
+     "text": "2,78,392.99",
+     "word_ids": [
+      "w398"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "24/06/2026",
+     "word_ids": [
+      "w400"
+     ]
+    },
+    "value_date": {
+     "text": "24/06/2026",
+     "word_ids": [
+      "w401"
+     ]
+    },
+    "narration": {
+     "text": "IMPS/623303124003/ZENITH-XXXX4822-MEGHDOOT OFFICE SU/ADVANCE",
+     "word_ids": [
+      "w402",
+      "w407",
+      "w408"
+     ]
+    },
+    "ref_col": {
+     "text": "623303124003",
+     "word_ids": [
+      "w403"
+     ]
+    },
+    "debit": {
+     "text": "5,91,771.67",
+     "word_ids": [
+      "w404"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "8,70,164.66",
+     "word_ids": [
+      "w406"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "26/06/2026",
+     "word_ids": [
+      "w409"
+     ]
+    },
+    "value_date": {
+     "text": "26/06/2026",
+     "word_ids": [
+      "w410"
+     ]
+    },
+    "narration": {
+     "text": "NEFT*ZZBK0006188*ZZBKN26062693384*KAVERI TEXTILES LL",
+     "word_ids": [
+      "w411",
+      "w416",
+      "w417"
+     ]
+    },
+    "ref_col": {
+     "text": "ZZBKN26062693384",
+     "word_ids": [
+      "w412"
+     ]
+    },
+    "debit": {
+     "text": null,
+     "word_ids": []
+    },
+    "credit": {
+     "text": "6,71,614.65",
+     "word_ids": [
+      "w414"
+     ]
+    },
+    "balance": {
+     "text": "1,98,550.01",
+     "word_ids": [
+      "w415"
+     ]
+    }
+   },
+   {
+    "txn_date": {
+     "text": "26/06/2026",
+     "word_ids": [
+      "w418"
+     ]
+    },
+    "value_date": {
+     "text": "26/06/2026",
+     "word_ids": [
+      "w419"
+     ]
+    },
+    "narration": {
+     "text": "DEP TFR UPI/CR/647331542942/AARAV POLYMERS PVT/ZZBK/aarav@okzz/PAYMENT",
+     "word_ids": [
+      "w420",
+      "w421",
+      "w422",
+      "w423",
+      "w428"
+     ]
+    },
+    "ref_col": {
+     "text": "647331542942",
+     "word_ids": [
+      "w424"
+     ]
+    },
+    "debit": {
+     "text": "891.86",
+     "word_ids": [
+      "w425"
+     ]
+    },
+    "credit": {
+     "text": null,
+     "word_ids": []
+    },
+    "balance": {
+     "text": "1,99,441.87",
+     "word_ids": [
+      "w427"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement.v2",
+  "seconds": 11.65,
+  "prompt_tokens": 3124,
+  "completion_tokens": 3086,
+  "cache_key": "5bb5faf13d7ad941957cb88e6930869a799389992976107dab5dcd69e58cc450"
+ }
+}

@@ -10,7 +10,10 @@ import pytest
 from docflow.checks_statement import run_statement_checks
 from docflow.models import Field, FieldStatus, Severity
 from docflow.narration import classify, extract_cheque, extract_reference
-from docflow.synth.statement import STATEMENT_DEFECTS, generate_statement_set
+from docflow.evaluate import same_value
+from docflow.ingest import load
+from docflow.statement_table import parse_tables
+from docflow.synth.statement import LAYOUTS, SIDED, STATEMENT_DEFECTS, generate_statement_set
 
 
 @pytest.fixture(scope="module")
@@ -30,11 +33,43 @@ def _fields(t):
 def test_composition(stmts):
     _, m, _ = stmts
     assert len(m) == 30
-    assert Counter(d["template"] for d in m) == {"dash": 8, "slash": 8, "mmt": 7, "kotak": 7}
+    assert Counter(d["template"] for d in m) == {lay: 5 for lay in LAYOUTS}
     assert Counter(d["scan"] for d in m) == {"digital": 20, "light": 5, "heavy": 5}
     assert Counter(d["defect"] for d in m if d["defect"]) == {d: 3 for d in STATEMENT_DEFECTS}
     for d in STATEMENT_DEFECTS:
         assert {x["split"] for x in m if x["defect"] == d} == {"dev", "heldout"}
+    assert max(d["pages"] for d in m) == 6
+
+
+def test_every_layout_has_defects_scans_and_a_clean_digital_statement(stmts):
+    _, m, _ = stmts
+    for lay in LAYOUTS:
+        docs = [d for d in m if d["template"] == lay]
+        assert sum(1 for d in docs if d["defect"]) == 2, lay
+        assert any(d["scan"] != "digital" for d in docs), lay
+        assert any(d["scan"] == "digital" and not d["defect"] for d in docs), lay
+    assert not any(d["template"] in SIDED and d["defect"] == "both_dr_cr" for d in m)
+
+
+def test_table_parser_reads_every_digital_dev_statement_exactly(stmts):
+    out, m, truths = stmts
+    for d in m:
+        if d["scan"] != "digital" or d["split"] != "dev":
+            continue
+        t = truths[d["id"]]
+        res = parse_tables(load(out / f"{d['id']}.pdf"))
+        assert len(res.lines) == len(t["lines"]), d["id"]
+        for i, (got, want) in enumerate(zip(res.lines, t["lines"])):
+            for k, v in want.items():
+                assert same_value(f"lines.{i}.{k}", got[k].text, v), (d["id"], i, k, got[k].text, v)
+
+
+def test_overdraft_layout_prints_sided_balances_and_stress_events(stmts):
+    _, m, truths = stmts
+    t = truths[next(d["id"] for d in m if d["template"] == "signed")]
+    assert any(ln["balance"].endswith(" Dr") for ln in t["lines"]) or t["fields"]["opening_balance"].endswith(" Dr")
+    narr = [ln["narration"] for ln in t["lines"]]
+    assert any(n.startswith("CHQ RET") for n in narr) and any(n.startswith("GST @18%") for n in narr)
 
 
 def test_checks_on_truth_give_exactly_the_expected_flags(stmts):

@@ -1,0 +1,61 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w280",
+    "w281",
+    "w282",
+    "w283"
+   ]
+  },
+  "account_number": {
+   "text": "52144862769769",
+   "word_ids": [
+    "w287"
+   ]
+  },
+  "account_holder": {
+   "text": "Meghdoot Packaging Industries Pvt Ltd",
+   "word_ids": [
+    "w294",
+    "w295",
+    "w296",
+    "w297",
+    "w298"
+   ]
+  },
+  "period_from": {
+   "text": "01/05/2026",
+   "word_ids": [
+    "w302"
+   ]
+  },
+  "period_to": {
+   "text": "30/05/2026",
+   "word_ids": [
+    "w305"
+   ]
+  },
+  "opening_balance": {
+   "text": "20,59,772.52",
+   "word_ids": [
+    "w486"
+   ]
+  },
+  "closing_balance": {
+   "text": "36,17,691.02",
+   "word_ids": [
+    "w489"
+   ]
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 1.72,
+  "prompt_tokens": 2929,
+  "completion_tokens": 258,
+  "cache_key": "06f758acc6236fbf3ebd579404c3831f2817770a9836298a408c270ad8d949f5"
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w1201",
+    "w1202",
+    "w1203",
+    "w1204"
+   ]
+  },
+  "account_number": {
+   "text": "40721306695865",
+   "word_ids": [
+    "w1208"
+   ]
+  },
+  "account_holder": {
+   "text": "Trikon Polymers LLP",
+   "word_ids": [
+    "w1215",
+    "w1216",
+    "w1217"
+   ]
+  },
+  "period_from": {
+   "text": "01/07/2026",
+   "word_ids": [
+    "w1221"
+   ]
+  },
+  "period_to": {
+   "text": "30/07/2026",
+   "word_ids": [
+    "w1224"
+   ]
+  },
+  "opening_balance": {
+   "text": "13,03,305.94",
+   "word_ids": [
+    "w1435"
+   ]
+  },
+  "closing_balance": {
+   "text": "56,68,719.25",
+   "word_ids": [
+    "w1438"
+   ]
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 1.69,
+  "prompt_tokens": 3336,
+  "completion_tokens": 255,
+  "cache_key": "2f1441ceee1ee81bce2e91f9e8292cba806cf156ebe0efc190fc015f0e588b52"
+ }
+}

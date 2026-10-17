@@ -37,9 +37,40 @@ def test_nic_published_sample_verifies_in_nic_mode():
     assert r.status == QrStatus.VERIFIED and r.payload.issuer == "NIC"
 
 
-def test_nic_pdf_image_token_signed_by_a_key_we_do_not_hold_is_unknown_not_invalid():
+def test_nic_pdf_image_token_verifies_against_nic_2020_production_certificate():
+    # A real IRP token (printed in NIC's own PDF), signed in Sept 2020 under the prodpubkey1 certificate.
     r = verify_document_qr(NIC_FIX / "Qrcode_procedure.pdf", TrustStore.load("nic"))
+    assert r.status == QrStatus.VERIFIED and r.kid == "115F4426617A7938BE1BA06DBEE91A427584EDAB"
+    assert r.payload.issuer == "NIC" and r.payload.doc_no == "QWE1-454565" and r.payload.total_value == 16655.99
+
+
+def test_trust_store_matches_its_provenance_file():
+    for mode in ("nic", "nic-sandbox"):
+        sources = json.loads((ROOT / "trust" / mode / "SOURCES.json").read_text(encoding="utf-8"))
+        store = TrustStore.load(mode)
+        assert {e["kid"] for e in sources.values() if e["kid"]} == set(store.keys), mode
+        assert len(store.unkeyed) == sum(1 for e in sources.values() if not e["kid"]), mode
+        assert all(e["source"].startswith("https://einvoice1.gst.gov.in/Documents/") for e in sources.values())
+
+
+def test_current_nic_signing_certificates_are_held():
+    keys = TrustStore.load("nic").keys
+    assert "CD01AC2B6E720CF0B9E048F1CCBC7509C766AF78" in keys  # IRP-1, 03/06/2026 - 01/05/2027
+    assert "644956C46E4E947AAD72FD15DFDB01EB9A96A66B" in keys  # IRP-2, 03/06/2026 - 01/05/2027
+
+
+def test_test_signed_qr_never_passes_in_sandbox_mode():
+    r = verify_document_qr(DATA / f"{_dev()['id']}.pdf", TrustStore.load("nic-sandbox"))
     assert r.status == QrStatus.UNKNOWN_KEY
+
+
+def test_unkeyed_fallback_never_accepts_a_token_it_cannot_verify():
+    store = TrustStore.load("nic")
+    token = (NIC_FIX / "sample_signed_qr.jwt").read_text().strip()
+    h, b, sig = token.split(".")
+    import base64
+    hdr = base64.urlsafe_b64encode(b'{"alg":"RS256","kid":"0000000000000000000000000000000000000000","typ":"JWT"}').decode().rstrip("=")
+    assert store.verify(".".join([hdr, b, sig])).status == QrStatus.UNKNOWN_KEY
 
 
 def test_document_without_qr():

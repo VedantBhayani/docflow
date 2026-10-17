@@ -15,7 +15,7 @@ def main(argv: list[str] | None = None) -> int:
     p = sub.add_parser("process", help="Extract, ground and check one Source Document; print the DocResult as JSON")
     p.add_argument("pdf")
     p.add_argument("--kind", default="invoice", choices=["invoice", "statement"])
-    p.add_argument("--trust", choices=["nic", "test"], help="e-invoice QR trust store (default: DOCFLOW_TRUST or nic)")
+    p.add_argument("--trust", choices=["nic", "nic-sandbox", "test"], help="e-invoice QR trust store (default: DOCFLOW_TRUST or nic)")
     p.add_argument("--lines-out", help="statements: write Statement Lines to this .jsonl or .csv file")
     b = sub.add_parser("batch", help="Process every PDF in a folder (adds batch Checks such as A3 duplicates); print a summary")
     b.add_argument("folder")

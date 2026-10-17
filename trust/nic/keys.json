@@ -1,8 +1,0 @@
-{
-  "_comment": "Bare NIC public keys (no certificate) mapped to the kid they sign under. Production key files from https://einvoice1.gst.gov.in/Others/Publickeys are not yet downloaded (needs the user's approval).",
-  "4DE1544AE695BDC84EC7BC12F2F57F813F44E301": {
-    "file": "nic-qr-procedure-sample.pub.pem",
-    "source": "NIC, QR Code procedure, https://einvoice1.gst.gov.in/Documents/Qrcode_procedure.pdf (fetched 2026-10-17)",
-    "note": "Verifies the PDF's own text sample; probably a sandbox key."
-  }
-}

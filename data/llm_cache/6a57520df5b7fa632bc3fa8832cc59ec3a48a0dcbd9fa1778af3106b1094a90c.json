@@ -1,0 +1,62 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w282",
+    "w283",
+    "w284",
+    "w285"
+   ]
+  },
+  "account_number": {
+   "text": "91296098374171",
+   "word_ids": [
+    "w289"
+   ]
+  },
+  "account_holder": {
+   "text": "Vistar Office Supplies Industries Pvt Ltd",
+   "word_ids": [
+    "w296",
+    "w297",
+    "w298",
+    "w299",
+    "w300",
+    "w301"
+   ]
+  },
+  "period_from": {
+   "text": "01/05/2026",
+   "word_ids": [
+    "w305"
+   ]
+  },
+  "period_to": {
+   "text": "30/05/2026",
+   "word_ids": [
+    "w307"
+   ]
+  },
+  "opening_balance": {
+   "text": "7,97,670.87",
+   "word_ids": [
+    "w395"
+   ]
+  },
+  "closing_balance": {
+   "text": "-4,55,925.06",
+   "word_ids": [
+    "w398"
+   ]
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 1.62,
+  "prompt_tokens": 1803,
+  "completion_tokens": 261,
+  "cache_key": "6a57520df5b7fa632bc3fa8832cc59ec3a48a0dcbd9fa1778af3106b1094a90c"
+ }
+}

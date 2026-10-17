@@ -9,7 +9,7 @@ import base64
 import hashlib
 import json
 import re
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from enum import StrEnum
 from pathlib import Path
 
@@ -61,7 +61,9 @@ class QrStatus(StrEnum):
     NO_QR = "NO_QR"
 
 
-ISSUERS = {"nic": "NIC", "test": "DOCFLOW-TEST-NOT-NIC"}
+# Trust stores are folders under trust/ and are never mixed. nic: production IRP-1 and IRP-2 certificates;
+# nic-sandbox: the NIC sandbox (its issuer string is our best reading of NIC's docs; a mismatch shows as WRONG_ISSUER, never VERIFIED).
+ISSUERS = {"nic": "NIC", "nic-sandbox": "NIC Sandbox", "test": "DOCFLOW-TEST-NOT-NIC"}
 TRUST_ROOT = Path(__file__).resolve().parents[2] / "trust"
 _JWT = re.compile(r"^[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+$")
 
@@ -80,7 +82,8 @@ class TrustStore:
     """One trust store per mode (never both), so a test-signed QR can never pass in nic mode."""
 
     mode: str
-    keys: dict[str, bytes]  # kid (upper-case SHA-1 hex) -> PEM public key
+    keys: dict[str, bytes]  # kid (upper-case SHA-1 hex of the signing certificate) -> PEM public key
+    unkeyed: list[bytes] = field(default_factory=list)  # bare keys published without a certificate (no derivable kid)
 
     @classmethod
     def load(cls, mode: str) -> "TrustStore":
@@ -93,12 +96,17 @@ class TrustStore:
             cert = x509.load_pem_x509_certificate(raw) if b"BEGIN" in raw else x509.load_der_x509_certificate(raw)
             kid = hashlib.sha1(cert.public_bytes(serialization.Encoding.DER)).hexdigest().upper()
             keys[kid] = cert.public_key().public_bytes(serialization.Encoding.PEM, serialization.PublicFormat.SubjectPublicKeyInfo)
-        index = folder / "keys.json"
-        if index.exists():
-            for kid, entry in json.loads(index.read_text(encoding="utf-8")).items():
-                if not kid.startswith("_"):
-                    keys[kid.upper()] = (folder / entry["file"]).read_bytes()
-        return cls(mode=mode, keys=keys)
+        unkeyed = [p.read_bytes() for p in sorted(folder.glob("*.pub.pem"))]
+        return cls(mode=mode, keys=keys, unkeyed=unkeyed)
+
+    def _unkeyed_match(self, token: str) -> bytes | None:
+        for key in self.unkeyed:
+            try:
+                verify_signed_qr(token, key)
+                return key
+            except (QrSignatureError, KeyError, ValueError):
+                continue
+        return None
 
     def verify(self, token: str) -> QrResult:
         try:
@@ -109,7 +117,7 @@ class TrustStore:
         if not kid and header.get("x5t"):
             pad = "=" * (-len(header["x5t"]) % 4)
             kid = base64.urlsafe_b64decode(header["x5t"] + pad).hex().upper()
-        key = self.keys.get(kid)
+        key = self.keys.get(kid) or self._unkeyed_match(token)
         if key is None:
             return QrResult(QrStatus.UNKNOWN_KEY, self.mode, kid=kid, detail=f"no key with kid {kid} in the '{self.mode}' trust store")
         try:

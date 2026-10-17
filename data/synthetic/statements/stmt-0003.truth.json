@@ -8,7 +8,7 @@
     "period_from": "01/07/2026",
     "period_to": "30/07/2026",
     "opening_balance": "64,303.11",
-    "closing_balance": "14,57,566.57"
+    "closing_balance": "15,44,936.52"
   },
   "lines": [
     {
@@ -133,9 +133,9 @@
       "narration": "IMPS-658088352027-SHAKTI STATIONERS-ZENITH-XXXXXX1243-ADVANCE",
       "ref_col": "658088352027",
       "value_date": "14/07/26",
-      "debit": "87,369.95",
+      "debit": null,
       "credit": "3,49,479.79",
-      "balance": "9,69,163.66"
+      "balance": "10,56,533.61"
     },
     {
       "txn_date": "17/07/26",
@@ -144,7 +144,7 @@
       "value_date": "17/07/26",
       "debit": "5,188.94",
       "credit": null,
-      "balance": "9,63,974.72"
+      "balance": "10,51,344.67"
     },
     {
       "txn_date": "18/07/26",
@@ -153,7 +153,7 @@
       "value_date": "18/07/26",
       "debit": null,
       "credit": "476.87",
-      "balance": "9,64,451.59"
+      "balance": "10,51,821.54"
     },
     {
       "txn_date": "18/07/26",
@@ -162,7 +162,7 @@
       "value_date": "18/07/26",
       "debit": null,
       "credit": "686.38",
-      "balance": "9,65,137.97"
+      "balance": "10,52,507.92"
     },
     {
       "txn_date": "18/07/26",
@@ -171,7 +171,7 @@
       "value_date": "18/07/26",
       "debit": null,
       "credit": "40,607.56",
-      "balance": "10,05,745.53"
+      "balance": "10,93,115.48"
     },
     {
       "txn_date": "21/07/26",
@@ -180,7 +180,7 @@
       "value_date": "21/07/26",
       "debit": "2,054.60",
       "credit": null,
-      "balance": "10,03,690.93"
+      "balance": "10,91,060.88"
     },
     {
       "txn_date": "21/07/26",
@@ -189,7 +189,7 @@
       "value_date": "21/07/26",
       "debit": "2,024.35",
       "credit": null,
-      "balance": "10,01,666.58"
+      "balance": "10,89,036.53"
     },
     {
       "txn_date": "21/07/26",
@@ -198,7 +198,7 @@
       "value_date": "21/07/26",
       "debit": null,
       "credit": "16,866.12",
-      "balance": "10,18,532.70"
+      "balance": "11,05,902.65"
     },
     {
       "txn_date": "22/07/26",
@@ -207,7 +207,7 @@
       "value_date": "22/07/26",
       "debit": null,
       "credit": "5,93,596.37",
-      "balance": "16,12,129.07"
+      "balance": "16,99,499.02"
     },
     {
       "txn_date": "23/07/26",
@@ -216,7 +216,7 @@
       "value_date": "23/07/26",
       "debit": null,
       "credit": "1,618.99",
-      "balance": "16,13,748.06"
+      "balance": "17,01,118.01"
     },
     {
       "txn_date": "25/07/26",
@@ -225,7 +225,7 @@
       "value_date": "25/07/26",
       "debit": "1,56,477.47",
       "credit": null,
-      "balance": "14,57,270.59"
+      "balance": "15,44,640.54"
     },
     {
       "txn_date": "26/07/26",
@@ -234,7 +234,7 @@
       "value_date": "26/07/26",
       "debit": "4,434.12",
       "credit": null,
-      "balance": "14,52,836.47"
+      "balance": "15,40,206.42"
     },
     {
       "txn_date": "28/07/26",
@@ -243,7 +243,7 @@
       "value_date": "28/07/26",
       "debit": null,
       "credit": "4,730.10",
-      "balance": "14,57,566.57"
+      "balance": "15,44,936.52"
     }
   ],
   "modes": [
@@ -273,6 +273,34 @@
     "NEFT",
     "UPI",
     "UPI"
+  ],
+  "branches": [
+    "4509",
+    "4546",
+    "4583",
+    "4620",
+    "4657",
+    "4694",
+    "4731",
+    "4768",
+    "4805",
+    "4842",
+    "4879",
+    "4916",
+    "4953",
+    "4990",
+    "5027",
+    "5064",
+    "5101",
+    "5138",
+    "5175",
+    "5212",
+    "5249",
+    "5286",
+    "5323",
+    "5360",
+    "5397",
+    "5434"
   ],
   "derived": [
     {
@@ -370,8 +398,8 @@
       "channel": "IMPS",
       "ref_no": "658088352027",
       "cheque_no": null,
-      "direction": null,
-      "amount": null
+      "direction": "CR",
+      "amount": "349479.79"
     },
     {
       "channel": "UPI",
@@ -458,13 +486,20 @@
       "amount": "4730.10"
     }
   ],
-  "defect": "both_dr_cr",
-  "expected_flags": [
-    "S3"
-  ],
+  "defect": null,
+  "expected_flags": [],
   "acceptable_flags": [],
-  "defect_line": 13,
   "id": "stmt-0003",
-  "scan": "digital",
-  "split": "heldout"
+  "scan": "heavy",
+  "split": "dev",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 1505780390,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      -2.22,
+      -1.21
+    ]
+  }
 }

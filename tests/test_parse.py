@@ -78,3 +78,11 @@ def test_ocr_date_separator_noise(ocr_text):
 def test_trailing_ocr_dot_after_an_amount_is_ignored():
     assert parse_amount("17.70.") == Decimal("17.70")
     assert parse_amount("13.89.411.00.") == Decimal("1389411.00")
+
+
+def test_sided_balances_and_colon_separators():
+    assert parse_amount("45,000.00 Dr") == Decimal("-45000.00")
+    assert parse_amount("45,000.00 Cr") == Decimal("45000.00")
+    assert parse_amount("5 Cr") is None  # five crore in prose, not a balance side
+    assert parse_amount("1.780:16") == Decimal("1780.16")
+    assert parse_amount("12:30") is None

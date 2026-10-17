@@ -1,0 +1,60 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w301",
+    "w302",
+    "w303",
+    "w304"
+   ]
+  },
+  "account_number": {
+   "text": "78259516170175",
+   "word_ids": [
+    "w308"
+   ]
+  },
+  "account_holder": {
+   "text": "Vistar Electricals Pvt Ltd",
+   "word_ids": [
+    "w315",
+    "w316",
+    "w317",
+    "w318"
+   ]
+  },
+  "period_from": {
+   "text": "01/07/2026",
+   "word_ids": [
+    "w322"
+   ]
+  },
+  "period_to": {
+   "text": "30/07/2026",
+   "word_ids": [
+    "w325"
+   ]
+  },
+  "opening_balance": {
+   "text": "12,93,131.25",
+   "word_ids": [
+    "w450"
+   ]
+  },
+  "closing_balance": {
+   "text": "13,10,318.30",
+   "word_ids": [
+    "w453"
+   ]
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 1.58,
+  "prompt_tokens": 2124,
+  "completion_tokens": 249,
+  "cache_key": "2d1e3d7db173afe40a6058e4f48e3591432ba8dbdc4c5f198f2d90034acfddec"
+ }
+}

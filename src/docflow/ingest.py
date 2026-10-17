@@ -15,6 +15,8 @@ from docflow.ocr import ocr_page
 
 MIN_TEXT_LAYER_WORDS = 20
 _GLUED_LABEL = re.compile(r"^([A-Za-z][A-Za-z .#/]{1,24}:)[-.,;]*([A-Za-z0-9].*)$")
+# A narrow column gap read as '~' or '|': "67.64.203.63~2671" is a balance and the next column's branch code.
+_GLUED_AMOUNT = re.compile(r"^(-?[\d,.]*\d[.,]\d{2})([~|_]+[A-Za-z0-9].*)$")
 
 
 def split_glued_labels(words: list[Word]) -> list[Word]:
@@ -22,11 +24,13 @@ def split_glued_labels(words: list[Word]) -> list[Word]:
     dividing the box by character count. Times ("12:30") and URLs ("https://") are left alone."""
     out = []
     for w in words:
-        m = _GLUED_LABEL.match(w.text)
+        m = _GLUED_LABEL.match(w.text) or _GLUED_AMOUNT.match(w.text)
         if not m or m.group(2).startswith("//"):
             out.append(w)
             continue
         label, value = m.group(1), m.group(2)
+        if m.re is _GLUED_AMOUNT:
+            value = value.lstrip("~|_")
         x0, y0, x1, y1 = w.bbox
         cut = x0 + (x1 - x0) * len(label) / len(w.text)
         out.append(Word(id=w.id, text=label, page=w.page, bbox=(x0, y0, cut, y1), confidence=w.confidence))
@@ -83,7 +87,7 @@ def rows(page: Page) -> list[list[Word]]:
 COLUMN_GAP = 0.012  # fraction of page width; word spaces are ~0.004, table/column gaps >= ~0.017
 HEADER_VOCAB = {"date", "txn", "tran", "narration", "description", "particulars", "remarks", "chq", "chq./ref.no.", "ref", "ref.no.",
                 "cheque", "value", "dt", "withdrawal", "withdrawals", "deposit", "deposits", "debit", "credit", "balance", "amt.", "amount",
-                "mode", "init.", "br", "#", "(dr.)", "(cr.)", "closing", "no."}
+                "mode", "init.", "br", "#", "(dr.)", "(cr.)", "closing", "no.", "dr/cr"}
 EMPTY_CELL = "<empty>"
 
 

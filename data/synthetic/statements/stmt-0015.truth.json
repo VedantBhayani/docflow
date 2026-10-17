@@ -1,258 +1,169 @@
 {
   "kind": "statement",
-  "template": "slash",
+  "template": "mmt",
   "fields": {
     "bank_name": "Zenith Co-operative Bank Ltd (SYNTHETIC)",
-    "account_number": "95941041256068",
-    "account_holder": "Aarav Logistics Industries Pvt Ltd",
-    "period_from": "01/09/2026",
-    "period_to": "30/09/2026",
-    "opening_balance": "23,11,130.56",
-    "closing_balance": "1,03,60,733.09"
+    "account_number": "52689645483990",
+    "account_holder": "Anvay Textiles Pvt Ltd",
+    "period_from": "01/04/2026",
+    "period_to": "30/04/2026",
+    "opening_balance": "16,29,234.56",
+    "closing_balance": "96,83,727.79"
   },
   "lines": [
     {
-      "txn_date": "01/09/2026",
-      "narration": "NEFT*ZZBK0006938*ZZBKN26090117525*ANVAY ELECTRICALS",
-      "ref_col": "ZZBKN26090117525",
-      "value_date": "01/09/2026",
-      "debit": "61,777.35",
-      "credit": null,
-      "balance": "22,49,353.21"
+      "txn_date": "02-04-2026",
+      "narration": "NEFT-ZZBKN26040217525-ANVAY ELECTRICALS-INVOICE-XXXX4766-ZZBK0006938",
+      "debit": null,
+      "credit": "61,777.35",
+      "balance": "16,91,011.91"
     },
     {
-      "txn_date": "02/09/2026",
-      "narration": "NEFT*ZZBK0009822*ZZBKN26090290448*MEGHDOOT FABRICATI",
-      "ref_col": "ZZBKN26090290448",
-      "value_date": "02/09/2026",
+      "txn_date": "02-04-2026",
+      "narration": "NEFT-ZZBKN26040290448-MEGHDOOT FABRICATI-INVOICE-XXXX4490-ZZBK0009822",
       "debit": null,
       "credit": "57,510.54",
-      "balance": "23,06,863.75"
+      "balance": "17,48,522.45"
     },
     {
-      "txn_date": "02/09/2026",
-      "narration": "NEFT*ZZBK0005290*ZZBKN26090271163*SARTHI TEXTILES LL",
-      "ref_col": "ZZBKN26090271163",
-      "value_date": "02/09/2026",
+      "txn_date": "03-04-2026",
+      "narration": "BIL/NEFT/ZZ93354084/VENDOR/SARTHI TEXTILES LL/ZENITH",
       "debit": "533.21",
       "credit": null,
-      "balance": "23,06,330.54"
+      "balance": "17,47,989.24"
     },
     {
-      "txn_date": "03/09/2026",
-      "narration": "NEFT*ZZBK0006757*ZZBKN26090346713*SARTHI ELECTRICALS",
-      "ref_col": "ZZBKN26090346713",
-      "value_date": "03/09/2026",
+      "txn_date": "05-04-2026",
+      "narration": "BIL/NEFT/ZZ20893710/VENDOR/SARTHI ELECTRICALS/ZENITH",
       "debit": "72,458.61",
       "credit": null,
-      "balance": "22,33,871.93"
+      "balance": "16,75,530.63"
     },
     {
-      "txn_date": "03/09/2026",
+      "txn_date": "06-04-2026",
       "narration": "CREDIT INTEREST",
-      "ref_col": null,
-      "value_date": "03/09/2026",
       "debit": null,
       "credit": "799.48",
-      "balance": "22,34,671.41"
+      "balance": "16,76,330.11"
     },
     {
-      "txn_date": "05/09/2026",
-      "narration": "WDL TFR UPI/DR/669672466160/KAVERI ELECTRICALS/ZZBK/kaveri@okzz/PURCHASE",
-      "ref_col": "669672466160",
-      "value_date": "05/09/2026",
+      "txn_date": "07-04-2026",
+      "narration": "UPI/KAVERI ELECTRICALS/kaveri@okzz/PURCHASE/ZENITH/669672466160/ICI198022901",
       "debit": "1,335.42",
       "credit": null,
-      "balance": "22,33,335.99"
+      "balance": "16,74,994.69"
     },
     {
-      "txn_date": "06/09/2026",
-      "narration": "SMS CHARGES",
-      "ref_col": null,
-      "value_date": "06/09/2026",
+      "txn_date": "08-04-2026",
+      "narration": "SMS CHGS",
       "debit": "17.70",
       "credit": null,
-      "balance": "22,33,318.29"
+      "balance": "16,74,976.99"
     },
     {
-      "txn_date": "07/09/2026",
-      "narration": "IMPS/640860503875/ZENITH-XXXX3762-SARTHI STATIONERS/ADVANCE",
-      "ref_col": "640860503875",
-      "value_date": "07/09/2026",
+      "txn_date": "09-04-2026",
+      "narration": "MMT/IMPS/640860503875/ADVANCE/SARTHI STATIONERS/ZENITH",
       "debit": null,
       "credit": "28,016.97",
-      "balance": "22,61,335.26"
+      "balance": "17,02,993.96"
     },
     {
-      "txn_date": "08/09/2026",
-      "narration": "DEP TFR UPI/CR/669933849651/AARAV POLYMERS LLP/ZZBK/aarav@okzz/PAYMENT",
-      "ref_col": "669933849651",
-      "value_date": "08/09/2026",
+      "txn_date": "11-04-2026",
+      "narration": "UPI/AARAV POLYMERS LLP/aarav@okzz/PAYMENT/ZENITH/669933849651/ICI885455245",
       "debit": null,
       "credit": "50,779.90",
-      "balance": "23,12,115.16"
+      "balance": "17,53,773.86"
     },
     {
-      "txn_date": "09/09/2026",
-      "narration": "WDL TFR UPI/DR/668406872143/TRIKON FABRICATION/ZZBK/trikon@okzz/PURCHASE",
-      "ref_col": "668406872143",
-      "value_date": "09/09/2026",
+      "txn_date": "13-04-2026",
+      "narration": "UPI/TRIKON FABRICATION/trikon@okzz/PURCHASE/ZENITH/668406872143/ICI956802319",
       "debit": "6,983.93",
       "credit": null,
-      "balance": "23,05,131.23"
+      "balance": "17,46,789.93"
     },
     {
-      "txn_date": "10/09/2026",
-      "narration": "NEFT*ZZBK0001333*ZZBKN26091029577*MEGHDOOT OFFICE SU",
-      "ref_col": "ZZBKN26091029577",
-      "value_date": "10/09/2026",
+      "txn_date": "14-04-2026",
+      "narration": "NEFT-ZZBKN26041429577-MEGHDOOT OFFICE SU-INVOICE-XXXX8593-ZZBK0001333",
       "debit": null,
       "credit": "23,913.23",
-      "balance": "23,29,044.46"
+      "balance": "17,70,703.16"
     },
     {
-      "txn_date": "11/09/2026",
-      "narration": "TO CHQ PAID VISTAR HARDWARE PVT",
-      "ref_col": "907086",
-      "value_date": "11/09/2026",
+      "txn_date": "15-04-2026",
+      "narration": "CLG/VISTAR HARDWARE PV/907086/ZZBK/15.04.2026",
       "debit": "5,84,853.65",
       "credit": null,
-      "balance": "17,44,190.81"
+      "balance": "11,85,849.51"
     },
     {
-      "txn_date": "13/09/2026",
-      "narration": "SMS CHARGES",
-      "ref_col": null,
-      "value_date": "13/09/2026",
+      "txn_date": "15-04-2026",
+      "narration": "SMS CHGS",
       "debit": "17.70",
       "credit": null,
-      "balance": "17,44,173.11"
+      "balance": "11,85,831.81"
     },
     {
-      "txn_date": "14/09/2026",
-      "narration": "RTGS/ZZBKRC2026091496068653/ZENITH/MEGHDOOT LOGISTICS",
-      "ref_col": "ZZBKRC2026091496068653",
-      "value_date": "14/09/2026",
+      "txn_date": "21-04-2026",
+      "narration": "RTGS/ZZBKRC2026042196068653/ZENITH/MEGHDOOT LOGISTICS",
       "debit": null,
       "credit": "82,77,742.90",
-      "balance": "1,00,21,916.01"
+      "balance": "94,63,574.71"
     },
     {
-      "txn_date": "15/09/2026",
-      "narration": "NEFT*ZZBK0002759*ZZBKN26091588634*VISTAR FABRICATION",
-      "ref_col": "ZZBKN26091588634",
-      "value_date": "15/09/2026",
+      "txn_date": "23-04-2026",
+      "narration": "NEFT-ZZBKN26042388634-VISTAR FABRICATION-INVOICE-XXXX8529-ZZBK0002759",
       "debit": null,
       "credit": "2,80,546.84",
-      "balance": "1,03,02,462.85"
+      "balance": "97,44,121.55"
     },
     {
-      "txn_date": "15/09/2026",
-      "narration": "NEFT*ZZBK0009419*ZZBKN26091560204*PRAGATI FABRICATIO",
-      "ref_col": "ZZBKN26091560204",
-      "value_date": "15/09/2026",
+      "txn_date": "25-04-2026",
+      "narration": "NEFT-ZZBKN26042560204-PRAGATI FABRICATIO-INVOICE-XXXX4485-ZZBK0009419",
       "debit": null,
       "credit": "2,845.83",
-      "balance": "1,03,05,308.68"
+      "balance": "97,46,967.38"
     },
     {
-      "txn_date": "19/09/2026",
-      "narration": "DEP TFR UPI/CR/677356242651/SARTHI OFFICE SUPP/ZZBK/sarthi@okzz/PAYMENT",
-      "ref_col": "677356242651",
-      "value_date": "19/09/2026",
+      "txn_date": "25-04-2026",
+      "narration": "UPI/SARTHI OFFICE SUPP/sarthi@okzz/PAYMENT/ZENITH/677356242651/ICI434667796",
       "debit": null,
       "credit": "1,493.56",
-      "balance": "1,03,06,802.24"
+      "balance": "97,48,460.94"
     },
     {
-      "txn_date": "21/09/2026",
-      "narration": "NEFT*ZZBK0005837*ZZBKN26092160116*AARAV OFFICE SUPPL",
-      "ref_col": "ZZBKN26092160116",
-      "value_date": "21/09/2026",
+      "txn_date": "26-04-2026",
+      "narration": "NEFT-ZZBKN26042660116-AARAV OFFICE SUPPL-INVOICE-XXXX2704-ZZBK0005837",
       "debit": null,
       "credit": "7,698.48",
-      "balance": "1,03,14,500.72"
+      "balance": "97,56,159.42"
     },
     {
-      "txn_date": "21/09/2026",
-      "narration": "DEP TFR UPI/CR/618114052934/SAHYADRI POLYMERS/ZZBK/sahyadri@okzz/PAYMENT",
-      "ref_col": "618114052934",
-      "value_date": "21/09/2026",
+      "txn_date": "26-04-2026",
+      "narration": "UPI/SAHYADRI POLYMERS/sahyadri@okzz/PAYMENT/ZENITH/618114052934/ICI359595607",
       "debit": null,
       "credit": "3,008.96",
-      "balance": "1,03,17,509.68"
+      "balance": "97,59,168.38"
     },
     {
-      "txn_date": "23/09/2026",
-      "narration": "IMPS/669609403441/ZENITH-XXXX4429-ANVAY TEXTILES PVT/ADVANCE",
-      "ref_col": "669609403441",
-      "value_date": "23/09/2026",
+      "txn_date": "27-04-2026",
+      "narration": "MMT/IMPS/669609403441/ADVANCE/ANVAY TEXTILES PVT/ZENITH",
       "debit": null,
       "credit": "1,041.81",
-      "balance": "1,03,18,551.49"
+      "balance": "97,60,210.19"
     },
     {
-      "txn_date": "25/09/2026",
-      "narration": "TO CHQ PAID MEGHDOOT FABRICATION",
-      "ref_col": "659151",
-      "value_date": "25/09/2026",
+      "txn_date": "27-04-2026",
+      "narration": "CLG/MEGHDOOT FABRICATI/659151/ZZBK/27.04.2026",
       "debit": "77,033.05",
       "credit": null,
-      "balance": "1,02,41,518.44"
+      "balance": "96,83,177.14"
     },
     {
-      "txn_date": "25/09/2026",
+      "txn_date": "28-04-2026",
       "narration": "CREDIT INTEREST",
-      "ref_col": null,
-      "value_date": "25/09/2026",
       "debit": null,
       "credit": "550.65",
-      "balance": "1,02,42,069.09"
-    },
-    {
-      "txn_date": "26/09/2026",
-      "narration": "IMPS/683542901562/ZENITH-XXXX6884-SARTHI TEXTILES IN/ADVANCE",
-      "ref_col": "683542901562",
-      "value_date": "26/09/2026",
-      "debit": null,
-      "credit": "3,80,191.96",
-      "balance": "1,06,22,261.05"
-    },
-    {
-      "txn_date": "26/09/2026",
-      "narration": "WDL TFR UPI/DR/632237958453/MEGHDOOT FABRICATI/ZZBK/meghdoot@okzz/PURCHASE",
-      "ref_col": "632237958453",
-      "value_date": "26/09/2026",
-      "debit": "2,466.84",
-      "credit": null,
-      "balance": "1,06,19,794.21"
-    },
-    {
-      "txn_date": "27/09/2026",
-      "narration": "NEFT*ZZBK0003805*ZZBKN26092748613*KAVERI ELECTRICALS",
-      "ref_col": "ZZBKN26092748613",
-      "value_date": "27/09/2026",
-      "debit": "3,02,956.48",
-      "credit": null,
-      "balance": "1,03,16,837.73"
-    },
-    {
-      "txn_date": "27/09/2026",
-      "narration": "WDL TFR UPI/DR/696003579175/PRAGATI TEXTILES E/ZZBK/pragati@okzz/PURCHASE",
-      "ref_col": "696003579175",
-      "value_date": "27/09/2026",
-      "debit": "91,431.84",
-      "credit": null,
-      "balance": "1,02,25,405.89"
-    },
-    {
-      "txn_date": "28/09/2026",
-      "narration": "NEFT*ZZBK0003662*ZZBKN26092817043*SHAKTI ELECTRICALS",
-      "ref_col": "ZZBKN26092817043",
-      "value_date": "28/09/2026",
-      "debit": null,
-      "credit": "1,35,327.20",
-      "balance": "1,03,60,733.09"
+      "balance": "96,83,727.79"
     }
   ],
   "modes": [
@@ -277,38 +188,57 @@
     "UPI",
     "IMPS",
     "CLG",
-    "INT",
-    "IMPS",
-    "UPI",
-    "NEFT",
-    "UPI",
-    "NEFT"
+    "INT"
+  ],
+  "branches": [
+    "4990",
+    "5027",
+    "5064",
+    "5101",
+    "5138",
+    "5175",
+    "5212",
+    "5249",
+    "5286",
+    "5323",
+    "5360",
+    "5397",
+    "5434",
+    "5471",
+    "5508",
+    "5545",
+    "5582",
+    "5619",
+    "5656",
+    "5693",
+    "5730",
+    "5767"
   ],
   "derived": [
     {
       "channel": "NEFT",
-      "ref_no": "ZZBKN26090117525",
+      "ref_no": "ZZBKN26040217525",
       "cheque_no": null,
-      "direction": "DR",
+      "direction": "CR",
       "amount": "61777.35"
     },
     {
       "channel": "NEFT",
-      "ref_no": "ZZBKN26090290448",
+      "ref_no": "ZZBKN26040290448",
       "cheque_no": null,
       "direction": "CR",
       "amount": "57510.54"
     },
     {
       "channel": "NEFT",
-      "ref_no": "ZZBKN26090271163",
+      "ref_no": null,
       "cheque_no": null,
       "direction": "DR",
       "amount": "533.21"
     },
     {
       "channel": "NEFT",
-      "ref_no": "ZZBKN26090346713",
+      "ref_no": null,
       "cheque_no": null,
       "direction": "DR",
       "amount": "72458.61"
@@ -357,7 +287,7 @@
     },
     {
       "channel": "NEFT",
-      "ref_no": "ZZBKN26091029577",
+      "ref_no": "ZZBKN26041429577",
       "cheque_no": null,
       "direction": "CR",
       "amount": "23913.23"
@@ -378,21 +308,21 @@
     },
     {
       "channel": "RTGS",
-      "ref_no": "ZZBKRC2026091496068653",
+      "ref_no": "ZZBKRC2026042196068653",
       "cheque_no": null,
       "direction": "CR",
       "amount": "8277742.90"
     },
     {
       "channel": "NEFT",
-      "ref_no": "ZZBKN26091588634",
+      "ref_no": "ZZBKN26042388634",
       "cheque_no": null,
       "direction": "CR",
       "amount": "280546.84"
     },
     {
       "channel": "NEFT",
-      "ref_no": "ZZBKN26091560204",
+      "ref_no": "ZZBKN26042560204",
       "cheque_no": null,
       "direction": "CR",
       "amount": "2845.83"
@@ -406,7 +336,7 @@
     },
     {
       "channel": "NEFT",
-      "ref_no": "ZZBKN26092160116",
+      "ref_no": "ZZBKN26042660116",
       "cheque_no": null,
       "direction": "CR",
       "amount": "7698.48"
@@ -438,57 +368,12 @@
       "cheque_no": null,
       "direction": "CR",
       "amount": "550.65"
-    },
-    {
-      "channel": "IMPS",
-      "ref_no": "683542901562",
-      "cheque_no": null,
-      "direction": "CR",
-      "amount": "380191.96"
-    },
-    {
-      "channel": "UPI",
-      "ref_no": "632237958453",
-      "cheque_no": null,
-      "direction": "DR",
-      "amount": "2466.84"
-    },
-    {
-      "channel": "NEFT",
-      "ref_no": "ZZBKN26092748613",
-      "cheque_no": null,
-      "direction": "DR",
-      "amount": "302956.48"
-    },
-    {
-      "channel": "UPI",
-      "ref_no": "696003579175",
-      "cheque_no": null,
-      "direction": "DR",
-      "amount": "91431.84"
-    },
-    {
-      "channel": "NEFT",
-      "ref_no": "ZZBKN26092817043",
-      "cheque_no": null,
-      "direction": "CR",
-      "amount": "135327.20"
     }
   ],
   "defect": null,
   "expected_flags": [],
   "acceptable_flags": [],
   "id": "stmt-0015",
-  "scan": "light",
-  "split": "heldout",
-  "scan_meta": {
-    "level": "light",
-    "seed": 1435703930,
-    "rotate90": false,
-    "dpi": 200,
-    "skew_deg": [
-      -0.52,
-      0.05
-    ]
-  }
+  "scan": "digital",
+  "split": "heldout"
 }

@@ -15,10 +15,12 @@ from docflow.models import Document, Evidence, Field, FieldStatus, Word
 from docflow.parse import parse_amount, parse_date
 
 ROLE_RULES = [  # first match wins; tested on lower-cased header cell text
+    ("drcr", re.compile(r"^(dr\s*/\s*cr|cr\s*/\s*dr|type)$")),  # side of a single signed Amount column
     ("value_date", re.compile(r"value")),
     ("debit", re.compile(r"withdraw|debit|\(dr")),
     ("credit", re.compile(r"deposit|credit|\(cr")),
     ("balance", re.compile(r"balance")),
+    ("amount", re.compile(r"^(amount|amt\.?|txn amount|transaction amount)$")),
     ("txn_date", re.compile(r"date|^dt$")),
     ("narration", re.compile(r"narration|description|particulars|remarks|details")),
     ("ref_col", re.compile(r"chq|cheque|ref")),
@@ -40,7 +42,8 @@ class TableResult:
 
 
 HEADER_STARTERS = {"date", "txn", "tran", "narration", "description", "particulars", "remarks", "chq", "chq./ref.no.", "chq/ref.no.",
-                   "cheque", "ref", "value", "withdrawal", "withdrawals", "deposit", "deposits", "debit", "credit", "closing", "balance", "mode", "#"}
+                   "cheque", "ref", "value", "withdrawal", "withdrawals", "deposit", "deposits", "debit", "credit", "closing", "balance", "mode", "#",
+                   "amount", "dr/cr", "init."}
 PHRASE_PAIRS = {("closing", "balance"), ("txn", "date"), ("tran", "date"), ("value", "date"), ("value", "dt")}
 
 
@@ -74,7 +77,7 @@ def roles_for(header_cells: list[list[Word]]) -> list[str | None]:
 
 
 AMOUNT_CELL = re.compile(r"^-?\(?[\d,.]*\d[.,]\d{2}\)?[.,]?$")
-AMOUNT_ROLES = ("debit", "credit", "balance")
+AMOUNT_ROLES = ("debit", "credit", "balance", "amount")
 
 
 def _field(name: str, words: list[Word]) -> Field:
@@ -102,7 +105,7 @@ def parse_tables(doc: Document) -> TableResult:
             continue
         hcells = header_cells(page_rows[h])
         roles = roles_for(hcells)
-        if not {"txn_date", "narration", "balance"} <= set(roles) or not ({"debit", "credit"} & set(roles)):
+        if not {"txn_date", "narration", "balance"} <= set(roles) or not ({"debit", "credit", "amount"} & set(roles)):
             res.pages_without_table.append(page.index)
             continue
         res.pages_parsed += 1
@@ -120,7 +123,7 @@ def parse_tables(doc: Document) -> TableResult:
             text = " ".join(w.text for w in row)
             date_words = slots.get("txn_date", [])
             is_txn = bool(date_words) and parse_date(" ".join(w.text for w in date_words)) is not None
-            if not is_txn and date_words and "balance" in slots and ({"debit", "credit"} & set(slots)) \
+            if not is_txn and date_words and "balance" in slots and ({"debit", "credit", "amount"} & set(slots)) \
                     and parse_amount(" ".join(w.text for w in slots["balance"])) is not None:
                 is_txn = True  # date unreadable (OCR) but the row is clearly a transaction; S4 will flag the date
             filled = [r for r in slots if r not in ("seq", "mode")]
@@ -129,7 +132,7 @@ def parse_tables(doc: Document) -> TableResult:
                     res.lines.append(_make_line(current, len(res.lines)))
                 current = {k: list(v) for k, v in slots.items()}
                 continue
-            if CARRY.search(text) and "balance" in slots:
+            if CARRY.search(re.sub(r"(?<=[A-Za-z])[._](?=[A-Za-z])", " ", text)) and "balance" in slots:  # OCR: "OPENING.BALANCE"
                 if page.index == 0 and res.opening_row is None and not res.lines and current is None:
                     res.opening_row = _field("opening_balance", slots["balance"])
                 continue  # balance brought forward: not a transaction
@@ -147,6 +150,15 @@ def parse_tables(doc: Document) -> TableResult:
 
 
 def _make_line(slots: dict[str, list[Word]], i: int) -> dict[str, Field]:
+    slots = dict(slots)
+    if "amount" in slots:
+        # One signed Amount column: its Dr/Cr cell decides the side. An unreadable side leaves both empty, so S3 flags the row.
+        side = " ".join(w.text for w in slots.pop("drcr", [])).strip(" .").lower()
+        amount = slots.pop("amount")
+        if side in ("dr", "d", "debit"):
+            slots["debit"] = amount
+        elif side in ("cr", "c", "credit"):
+            slots["credit"] = amount
     return {k: _field(f"lines.{i}.{k}", slots.get(k, [])) for k in LINE_KEYS}
 
 

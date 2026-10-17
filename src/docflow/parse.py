@@ -11,18 +11,24 @@ from decimal import Decimal, InvalidOperation
 _CURRENCY = re.compile(r"(?i)(?<![a-z])(rs\.?|inr)(?![a-z])|₹")
 _AMOUNT = re.compile(r"^-?\d+(\.\d+)?$")
 _OCR_DOTTED = re.compile(r"^-?\d{1,3}([.,]\d{2,3})*\.\d{2,3}([.,]\d{2,3})*\.\d{2}$")  # 22.014.48, 3.25,635.05
-_DATE_FORMATS = ["%d/%m/%Y", "%d-%m-%Y", "%d.%m.%Y", "%d-%b-%Y", "%d %b %Y", "%d-%B-%Y", "%d %B %Y", "%Y-%m-%d", "%d/%m/%y", "%d-%m-%y"]
+_DR_CR = re.compile(r"(?i)^(.*\d[.,]\d{2})\s*(dr|cr)\.?$")  # requires paise, so "5 Cr" (five crore) is not read as a side
+_DATE_FORMATS =["%d/%m/%Y", "%d-%m-%Y", "%d.%m.%Y", "%d-%b-%Y", "%d %b %Y", "%d-%B-%Y", "%d %B %Y", "%Y-%m-%d", "%d/%m/%y", "%d-%m-%y"]
 
 
 def parse_amount(text: str | None) -> Decimal | None:
     if not text:
         return None
     raw = text.strip()
+    side = _DR_CR.match(raw)  # balance printed with a side: "45,000.00 Dr" is an overdrawn (negative) balance
+    if side:
+        raw = side.group(1)
     if re.search(r"[.,]\d{2}[.,]$", raw):  # stray OCR dot after a 2-decimal amount: "17.70."
         raw = raw[:-1]
     s = _CURRENCY.sub("", raw).strip()
     negative = s.startswith("(") and s.endswith(")")
     s = s.strip("()").replace(" ", "")
+    if ":" in s and re.search(r"[.,]", s) and re.fullmatch(r"-?[\d.,:]+", s):
+        s = s.replace(":", ".")  # OCR read a separator as ':' ("1.780:16"); a bare "12:30" (a time) is left unparsed
     if _OCR_DOTTED.match(s):  # OCR read thousand-separator commas as dots: only the last dot is decimal
         head, _, frac = s.rpartition(".")
         s = head.replace(".", "").replace(",", "") + "." + frac
@@ -33,6 +39,10 @@ def parse_amount(text: str | None) -> Decimal | None:
         value = Decimal(s)
     except InvalidOperation:
         return None
+    if side and side.group(2).lower() == "dr":
+        if value < 0 or negative:
+            return None  # "-45,000.00 Dr" has no single meaning
+        return -value
     return -value if negative else value
 
 

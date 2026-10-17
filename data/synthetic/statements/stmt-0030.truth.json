@@ -1,643 +1,2067 @@
 {
   "kind": "statement",
-  "template": "kotak",
+  "template": "signed",
   "fields": {
     "bank_name": "Zenith Co-operative Bank Ltd (SYNTHETIC)",
-    "account_number": "34192673618848",
+    "account_number": "53346921095067",
     "account_holder": "Pragati Textiles Pvt Ltd",
     "period_from": "01/08/2026",
     "period_to": "30/08/2026",
-    "opening_balance": "23,59,695.60",
-    "closing_balance": "65,72,169.46"
+    "opening_balance": "11,66,049.03 Dr",
+    "closing_balance": "9,62,132.02 Dr"
   },
   "lines": [
     {
-      "txn_date": "02 Aug 2026",
-      "narration": "UPI/PRAGATI LOGISTICS/674808749386/PAYMENT",
-      "ref_col": "UPI-718288693396",
-      "debit": null,
-      "credit": "2,420.11",
-      "balance": "23,62,115.71"
+      "txn_date": "01/08/2026",
+      "narration": "UPI/656273295564/SHAKTI LOGISTICS P/PURCHASE",
+      "ref_col": "656273295564",
+      "debit": "51,278.67",
+      "credit": null,
+      "balance": "12,17,327.70 Dr"
     },
     {
-      "txn_date": "03 Aug 2026",
-      "narration": "IMPS-616606070947-NIMBUS STATIONERS",
-      "ref_col": "IMPS-616606070947",
+      "txn_date": "01/08/2026",
+      "narration": "RTGS/ZZBKRC2026080185898063/TRIKON POLYMERS TR",
+      "ref_col": "ZZBKRC2026080185898063",
       "debit": null,
-      "credit": "4,382.55",
-      "balance": "23,66,498.26"
+      "credit": "7,33,141.90",
+      "balance": "4,84,185.80 Dr"
     },
     {
-      "txn_date": "03 Aug 2026",
-      "narration": "SMS CHGS",
+      "txn_date": "01/08/2026",
+      "narration": "NEFT/ZZBKN26080108623/MEGHDOOT ELECTRICA",
+      "ref_col": "ZZBKN26080108623",
+      "debit": null,
+      "credit": "28,619.77",
+      "balance": "4,55,566.03 Dr"
+    },
+    {
+      "txn_date": "01/08/2026",
+      "narration": "UPI/643292494876/KAVERI TEXTILES TR/PURCHASE",
+      "ref_col": "643292494876",
+      "debit": "55,131.27",
+      "credit": null,
+      "balance": "5,10,697.30 Dr"
+    },
+    {
+      "txn_date": "02/08/2026",
+      "narration": "UPI/620930518306/UDAAN OFFICE SUPPL/PURCHASE",
+      "ref_col": "620930518306",
+      "debit": "3,203.38",
+      "credit": null,
+      "balance": "5,13,900.68 Dr"
+    },
+    {
+      "txn_date": "02/08/2026",
+      "narration": "UPI/697890953007/ANVAY ELECTRICALS/PAYMENT",
+      "ref_col": "697890953007",
+      "debit": null,
+      "credit": "3,057.54",
+      "balance": "5,10,843.14 Dr"
+    },
+    {
+      "txn_date": "02/08/2026",
+      "narration": "UPI/680403262419/SHAKTI POLYMERS LL/PAYMENT",
+      "ref_col": "680403262419",
+      "debit": null,
+      "credit": "74,340.84",
+      "balance": "4,36,502.30 Dr"
+    },
+    {
+      "txn_date": "02/08/2026",
+      "narration": "UPI/647336756423/UDAAN PACKAGING PV/PURCHASE",
+      "ref_col": "647336756423",
+      "debit": "39,313.43",
+      "credit": null,
+      "balance": "4,75,815.73 Dr"
+    },
+    {
+      "txn_date": "02/08/2026",
+      "narration": "UPI/617505409193/SARTHI POLYMERS IN/PAYMENT",
+      "ref_col": "617505409193",
+      "debit": null,
+      "credit": "2,591.97",
+      "balance": "4,73,223.76 Dr"
+    },
+    {
+      "txn_date": "03/08/2026",
+      "narration": "UPI/667248625115/AARAV OFFICE SUPPL/PURCHASE",
+      "ref_col": "667248625115",
+      "debit": "35,460.84",
+      "credit": null,
+      "balance": "5,08,684.60 Dr"
+    },
+    {
+      "txn_date": "03/08/2026",
+      "narration": "NEFT/ZZBKN26080392749/SARTHI STATIONERS",
+      "ref_col": "ZZBKN26080392749",
+      "debit": "68,192.58",
+      "credit": null,
+      "balance": "5,76,877.18 Dr"
+    },
+    {
+      "txn_date": "03/08/2026",
+      "narration": "PROCESSING FEE CC RENEWAL",
       "ref_col": null,
-      "debit": "17.70",
+      "debit": "7,500.00",
       "credit": null,
-      "balance": "23,66,480.56"
+      "balance": "5,84,377.18 Dr"
     },
     {
-      "txn_date": "03 Aug 2026",
-      "narration": "NEFT ZZBKN26080348075 PRAGATI POLYMERS T",
-      "ref_col": "ZZBKN26080348075",
-      "debit": null,
-      "credit": "6,35,285.82",
-      "balance": "30,01,766.38"
-    },
-    {
-      "txn_date": "05 Aug 2026",
-      "narration": "UPI/PRAGATI HARDWARE I/699419733813/PURCHASE",
-      "ref_col": "UPI-354791197945",
-      "debit": "8,606.74",
-      "credit": null,
-      "balance": "29,93,159.64"
-    },
-    {
-      "txn_date": "06 Aug 2026",
-      "narration": "SMS CHGS",
+      "txn_date": "03/08/2026",
+      "narration": "PROCESSING FEE CC RENEWAL",
       "ref_col": null,
-      "debit": "17.70",
+      "debit": "7,500.00",
       "credit": null,
-      "balance": "29,93,141.94"
+      "balance": "5,91,877.18 Dr"
     },
     {
-      "txn_date": "07 Aug 2026",
-      "narration": "RTGS ZZBKRC2026080784019358 KAVERI POLYMERS IN",
-      "ref_col": "ZZBKRC2026080784019358",
+      "txn_date": "03/08/2026",
+      "narration": "UPI/681272613260/KAVERI PACKAGING T/PAYMENT",
+      "ref_col": "681272613260",
       "debit": null,
-      "credit": "4,94,803.30",
-      "balance": "34,87,945.24"
+      "credit": "8,80,223.83",
+      "balance": "2,88,346.65 Cr"
     },
     {
-      "txn_date": "07 Aug 2026",
-      "narration": "SMS CHGS",
+      "txn_date": "03/08/2026",
+      "narration": "CHQ DEP 214942 TRIKON IT SERVICES P",
+      "ref_col": "214942",
+      "debit": null,
+      "credit": "2,27,915.45",
+      "balance": "5,16,262.10 Cr"
+    },
+    {
+      "txn_date": "03/08/2026",
+      "narration": "CHQ RET 214942 INSUFFICIENT FUNDS",
+      "ref_col": "214942",
+      "debit": "2,27,915.45",
+      "credit": null,
+      "balance": "2,88,346.65 Cr"
+    },
+    {
+      "txn_date": "03/08/2026",
+      "narration": "INWARD RETURN CHGS",
       "ref_col": null,
-      "debit": "17.70",
+      "debit": "300.00",
       "credit": null,
-      "balance": "34,87,927.54"
+      "balance": "2,88,046.65 Cr"
     },
     {
-      "txn_date": "07 Aug 2026",
-      "narration": "UPI/ANVAY IT SERVICES/696003197631/PAYMENT",
-      "ref_col": "UPI-520001284555",
-      "debit": null,
-      "credit": "38,323.14",
-      "balance": "35,26,250.68"
-    },
-    {
-      "txn_date": "07 Aug 2026",
-      "narration": "CHQ PAID TRIKON ELECTRICALS E",
-      "ref_col": "268023",
-      "debit": "4,41,348.99",
-      "credit": null,
-      "balance": "30,84,901.69"
-    },
-    {
-      "txn_date": "08 Aug 2026",
-      "narration": "SMS CHGS",
+      "txn_date": "03/08/2026",
+      "narration": "GST @18% ON INWARD RETURN CHGS",
       "ref_col": null,
-      "debit": "17.70",
+      "debit": "54.00",
       "credit": null,
-      "balance": "30,84,883.99"
+      "balance": "2,87,992.65 Cr"
     },
     {
-      "txn_date": "09 Aug 2026",
-      "narration": "NEFT ZZBKN26080963361 MEGHDOOT STATIONER",
-      "ref_col": "ZZBKN26080963361",
-      "debit": null,
-      "credit": "5,21,021.93",
-      "balance": "36,05,905.92"
-    },
-    {
-      "txn_date": "10 Aug 2026",
-      "narration": "NEFT ZZBKN26081081547 SAHYADRI TEXTILES",
-      "ref_col": "ZZBKN26081081547",
-      "debit": "1,81,036.41",
+      "txn_date": "03/08/2026",
+      "narration": "UPI/621650430721/UDAAN LOGISTICS EN/PURCHASE",
+      "ref_col": "621650430721",
+      "debit": "7,392.17",
       "credit": null,
-      "balance": "34,24,869.51"
+      "balance": "2,80,600.48 Cr"
     },
     {
-      "txn_date": "11 Aug 2026",
-      "narration": "UPI/SHAKTI POLYMERS PV/655928432710/PAYMENT",
-      "ref_col": "UPI-502838253963",
-      "debit": null,
-      "credit": "2,965.95",
-      "balance": "34,27,835.46"
-    },
-    {
-      "txn_date": "11 Aug 2026",
-      "narration": "UPI/UDAAN PACKAGING TR/693471702797/PAYMENT",
-      "ref_col": "UPI-442588536509",
-      "debit": null,
-      "credit": "6,84,083.85",
-      "balance": "41,11,919.31"
-    },
-    {
-      "txn_date": "12 Aug 2026",
-      "narration": "CHQ PAID UDAAN IT SERVICES PV",
-      "ref_col": "014575",
-      "debit": "19,679.42",
+      "txn_date": "03/08/2026",
+      "narration": "UPI/615591215755/KAVERI STATIONERS/PURCHASE",
+      "ref_col": "615591215755",
+      "debit": "72,589.90",
       "credit": null,
-      "balance": "40,92,239.89"
+      "balance": "2,08,010.58 Cr"
     },
     {
-      "txn_date": "13 Aug 2026",
-      "narration": "NEFT ZZBKN26081369272 VISTAR FABRICATION",
-      "ref_col": "ZZBKN26081369272",
-      "debit": null,
-      "credit": "80,942.34",
-      "balance": "41,73,182.23"
-    },
-    {
-      "txn_date": "15 Aug 2026",
-      "narration": "UPI/SARTHI POLYMERS IN/661127592085/PAYMENT",
-      "ref_col": "UPI-725351315161",
-      "debit": null,
-      "credit": "1,867.92",
-      "balance": "41,75,050.15"
-    },
-    {
-      "txn_date": "15 Aug 2026",
-      "narration": "CHQ PAID AARAV PACKAGING TRAD",
-      "ref_col": "768908",
-      "debit": "86,287.22",
+      "txn_date": "03/08/2026",
+      "narration": "CHQ PAID PRAGATI FABRICATION",
+      "ref_col": "293916",
+      "debit": "3,547.52",
       "credit": null,
-      "balance": "40,88,762.93"
+      "balance": "2,04,463.06 Cr"
     },
     {
-      "txn_date": "16 Aug 2026",
-      "narration": "NEFT ZZBKN26081640862 KAVERI ELECTRICALS",
-      "ref_col": "ZZBKN26081640862",
+      "txn_date": "03/08/2026",
+      "narration": "UPI/648916028897/SARTHI POLYMERS PV/PAYMENT",
+      "ref_col": "648916028897",
       "debit": null,
-      "credit": "7,38,359.38",
-      "balance": "48,27,122.31"
+      "credit": "4,73,417.73",
+      "balance": "6,77,880.79 Cr"
     },
     {
-      "txn_date": "16 Aug 2026",
-      "narration": "RTGS ZZBKRC2026081663975041 AARAV TEXTILES ENT",
-      "ref_col": "ZZBKRC2026081663975041",
+      "txn_date": "03/08/2026",
+      "narration": "NEFT/ZZBKN26080306809/TRIKON TEXTILES EN",
+      "ref_col": "ZZBKN26080306809",
       "debit": null,
-      "credit": "6,54,359.00",
-      "balance": "54,81,481.31"
+      "credit": "33,930.94",
+      "balance": "7,11,811.73 Cr"
     },
     {
-      "txn_date": "18 Aug 2026",
-      "narration": "NEFT ZZBKN26081820290 SHAKTI LOGISTICS I",
-      "ref_col": "ZZBKN26081820290",
-      "debit": null,
-      "credit": "4,587.38",
-      "balance": "54,86,068.69"
-    },
-    {
-      "txn_date": "18 Aug 2026",
-      "narration": "RTGS ZZBKRC2026081823041232 ANVAY OFFICE SUPPL",
-      "ref_col": "ZZBKRC2026081823041232",
-      "debit": null,
-      "credit": "18,129.80",
-      "balance": "55,04,198.49"
-    },
-    {
-      "txn_date": "19 Aug 2026",
-      "narration": "NEFT ZZBKN26081946743 KAVERI STATIONERS",
-      "ref_col": "ZZBKN26081946743",
-      "debit": null,
-      "credit": "1,516.48",
-      "balance": "55,05,714.97"
-    },
-    {
-      "txn_date": "19 Aug 2026",
-      "narration": "NEFT ZZBKN26081972021 KAVERI TEXTILES LL",
-      "ref_col": "ZZBKN26081972021",
-      "debit": null,
-      "credit": "88,158.46",
-      "balance": "55,93,873.43"
-    },
-    {
-      "txn_date": "20 Aug 2026",
-      "narration": "UPI/ANVAY OFFICE SUPPL/690088971254/PURCHASE",
-      "ref_col": "UPI-821081859893",
-      "debit": "12,944.21",
+      "txn_date": "03/08/2026",
+      "narration": "NEFT/ZZBKN26080317682/SARTHI TEXTILES IN",
+      "ref_col": "ZZBKN26080317682",
+      "debit": "6,177.87",
       "credit": null,
-      "balance": "55,80,929.22"
+      "balance": "7,05,633.86 Cr"
     },
     {
-      "txn_date": "20 Aug 2026",
-      "narration": "CHQ PAID KAVERI HARDWARE TRAD",
-      "ref_col": "962968",
-      "debit": "2,697.58",
+      "txn_date": "04/08/2026",
+      "narration": "CHQ PAID NIMBUS FABRICATION L",
+      "ref_col": "537039",
+      "debit": "1,909.58",
       "credit": null,
-      "balance": "55,78,231.64"
+      "balance": "7,03,724.28 Cr"
     },
     {
-      "txn_date": "21 Aug 2026",
-      "narration": "UPI/UDAAN IT SERVICES/639654494980/PAYMENT",
-      "ref_col": "UPI-335442096042",
+      "txn_date": "04/08/2026",
+      "narration": "UPI/645958932895/SARTHI STATIONERS/PAYMENT",
+      "ref_col": "645958932895",
       "debit": null,
-      "credit": "3,252.31",
-      "balance": "55,81,483.95"
+      "credit": "2,814.97",
+      "balance": "7,06,539.25 Cr"
     },
     {
-      "txn_date": "22 Aug 2026",
-      "narration": "NEFT ZZBKN26082266675 SAHYADRI HARDWARE",
-      "ref_col": "ZZBKN26082266675",
+      "txn_date": "05/08/2026",
+      "narration": "NEFT/ZZBKN26080533001/ANVAY PACKAGING IN",
+      "ref_col": "ZZBKN26080533001",
+      "debit": "3,52,072.24",
+      "credit": null,
+      "balance": "3,54,467.01 Cr"
+    },
+    {
+      "txn_date": "05/08/2026",
+      "narration": "NEFT/ZZBKN26080515172/UDAAN STATIONERS T",
+      "ref_col": "ZZBKN26080515172",
       "debit": null,
-      "credit": "23,225.37",
-      "balance": "56,04,709.32"
+      "credit": "80,646.05",
+      "balance": "4,35,113.06 Cr"
     },
     {
-      "txn_date": "23 Aug 2026",
-      "narration": "UPI/SARTHI PACKAGING P/629588512221/PAYMENT",
-      "ref_col": "UPI-928236618675",
+      "txn_date": "06/08/2026",
+      "narration": "NEFT/ZZBKN26080677624/SAHYADRI IT SERVIC",
+      "ref_col": "ZZBKN26080677624",
+      "debit": "2,47,148.15",
+      "credit": null,
+      "balance": "1,87,964.91 Cr"
+    },
+    {
+      "txn_date": "06/08/2026",
+      "narration": "IMPS/635299843429/NIMBUS IT SERVICES",
+      "ref_col": "635299843429",
       "debit": null,
-      "credit": "2,017.47",
-      "balance": "56,06,726.79"
+      "credit": "2,081.43",
+      "balance": "1,90,046.34 Cr"
     },
     {
-      "txn_date": "23 Aug 2026",
-      "narration": "IMPS-651798404974-ANVAY POLYMERS IND",
-      "ref_col": "IMPS-651798404974",
-      "debit": null,
-      "credit": "8,63,925.75",
-      "balance": "64,70,652.54"
+      "txn_date": "06/08/2026",
+      "narration": "CHQ PAID TRIKON LOGISTICS ENT",
+      "ref_col": "889099",
+      "debit": "1,560.35",
+      "credit": null,
+      "balance": "1,88,485.99 Cr"
     },
     {
-      "txn_date": "24 Aug 2026",
-      "narration": "UPI/PRAGATI FABRICATIO/693657043103/PAYMENT",
-      "ref_col": "UPI-272285831939",
-      "debit": null,
-      "credit": "2,881.94",
-      "balance": "64,73,534.48"
+      "txn_date": "07/08/2026",
+      "narration": "UPI/623927397395/NIMBUS HARDWARE IN/PURCHASE",
+      "ref_col": "623927397395",
+      "debit": "68,854.60",
+      "credit": null,
+      "balance": "1,19,631.39 Cr"
     },
     {
-      "txn_date": "25 Aug 2026",
-      "narration": "SMS CHGS",
+      "txn_date": "07/08/2026",
+      "narration": "INTEREST DEBITED CC ACCOUNT",
       "ref_col": null,
-      "debit": "17.70",
+      "debit": "29,630.75",
       "credit": null,
-      "balance": "64,73,516.78"
+      "balance": "90,000.64 Cr"
     },
     {
-      "txn_date": "26 Aug 2026",
-      "narration": "UPI/TRIKON OFFICE SUPP/660000819193/PAYMENT",
-      "ref_col": "UPI-840426904204",
+      "txn_date": "07/08/2026",
+      "narration": "RTGS/ZZBKRC2026080713334531/SAHYADRI STATIONER",
+      "ref_col": "ZZBKRC2026080713334531",
       "debit": null,
-      "credit": "679.03",
-      "balance": "64,74,195.81"
+      "credit": "83,703.80",
+      "balance": "1,73,704.44 Cr"
     },
     {
-      "txn_date": "26 Aug 2026",
-      "narration": "UPI/TRIKON IT SERVICES/614361385154/PAYMENT",
-      "ref_col": "UPI-689454979503",
-      "debit": null,
-      "credit": "32,793.61",
-      "balance": "65,06,989.42"
-    },
-    {
-      "txn_date": "28 Aug 2026",
-      "narration": "UPI/PRAGATI TEXTILES I/660762837379/PAYMENT",
-      "ref_col": "UPI-836655228370",
-      "debit": null,
-      "credit": "1,028.80",
-      "balance": "65,08,018.22"
-    },
-    {
-      "txn_date": "28 Aug 2026",
-      "narration": "IMPS-666950934683-PRAGATI LOGISTICS",
-      "ref_col": "IMPS-666950934683",
-      "debit": null,
-      "credit": "1,27,015.55",
-      "balance": "66,35,033.77"
-    },
-    {
-      "txn_date": "28 Aug 2026",
-      "narration": "CHQ PAID AARAV STATIONERS TRA",
-      "ref_col": "193754",
-      "debit": "62,864.31",
+      "txn_date": "07/08/2026",
+      "narration": "NEFT/ZZBKN26080779520/NIMBUS HARDWARE PV",
+      "ref_col": "ZZBKN26080779520",
+      "debit": "4,831.94",
       "credit": null,
-      "balance": "65,72,169.46"
+      "balance": "1,68,872.50 Cr"
+    },
+    {
+      "txn_date": "07/08/2026",
+      "narration": "UPI/681146862850/VISTAR ELECTRICALS/PAYMENT",
+      "ref_col": "681146862850",
+      "debit": null,
+      "credit": "3,699.57",
+      "balance": "1,72,572.07 Cr"
+    },
+    {
+      "txn_date": "07/08/2026",
+      "narration": "UPI/691595441939/SARTHI STATIONERS/PURCHASE",
+      "ref_col": "691595441939",
+      "debit": "5,24,959.24",
+      "credit": null,
+      "balance": "3,52,387.17 Dr"
+    },
+    {
+      "txn_date": "07/08/2026",
+      "narration": "REV:UPI/691595441939/REVERSAL",
+      "ref_col": "691595441939",
+      "debit": null,
+      "credit": "5,24,959.24",
+      "balance": "1,72,572.07 Cr"
+    },
+    {
+      "txn_date": "07/08/2026",
+      "narration": "NEFT/ZZBKN26080750142/AARAV OFFICE SUPPL",
+      "ref_col": "ZZBKN26080750142",
+      "debit": null,
+      "credit": "5,55,989.83",
+      "balance": "7,28,561.90 Cr"
+    },
+    {
+      "txn_date": "08/08/2026",
+      "narration": "UPI/644816062935/AARAV OFFICE SUPPL/PURCHASE",
+      "ref_col": "644816062935",
+      "debit": "7,31,527.52",
+      "credit": null,
+      "balance": "2,965.62 Dr"
+    },
+    {
+      "txn_date": "08/08/2026",
+      "narration": "NEFT/ZZBKN26080834701/NIMBUS TEXTILES IN",
+      "ref_col": "ZZBKN26080834701",
+      "debit": "6,46,882.94",
+      "credit": null,
+      "balance": "6,49,848.56 Dr"
+    },
+    {
+      "txn_date": "08/08/2026",
+      "narration": "IMPS/656188877428/SARTHI OFFICE SUPP",
+      "ref_col": "656188877428",
+      "debit": null,
+      "credit": "34,142.38",
+      "balance": "6,15,706.18 Dr"
+    },
+    {
+      "txn_date": "08/08/2026",
+      "narration": "RTGS/ZZBKRC2026080863393887/SARTHI IT SERVICES",
+      "ref_col": "ZZBKRC2026080863393887",
+      "debit": null,
+      "credit": "20,195.50",
+      "balance": "5,95,510.68 Dr"
+    },
+    {
+      "txn_date": "09/08/2026",
+      "narration": "UPI/673823861958/PRAGATI LOGISTICS/PURCHASE",
+      "ref_col": "673823861958",
+      "debit": "25,407.10",
+      "credit": null,
+      "balance": "6,20,917.78 Dr"
+    },
+    {
+      "txn_date": "09/08/2026",
+      "narration": "NEFT/ZZBKN26080946708/TRIKON TEXTILES PV",
+      "ref_col": "ZZBKN26080946708",
+      "debit": null,
+      "credit": "4,93,328.20",
+      "balance": "1,27,589.58 Dr"
+    },
+    {
+      "txn_date": "10/08/2026",
+      "narration": "UPI/695558717008/KAVERI TEXTILES PV/PAYMENT",
+      "ref_col": "695558717008",
+      "debit": null,
+      "credit": "80,111.61",
+      "balance": "47,477.97 Dr"
+    },
+    {
+      "txn_date": "10/08/2026",
+      "narration": "IMPS/663752438422/SAHYADRI IT SERVIC",
+      "ref_col": "663752438422",
+      "debit": null,
+      "credit": "33,423.36",
+      "balance": "14,054.61 Dr"
+    },
+    {
+      "txn_date": "10/08/2026",
+      "narration": "NEFT/ZZBKN26081047962/TRIKON PACKAGING T",
+      "ref_col": "ZZBKN26081047962",
+      "debit": null,
+      "credit": "32,091.53",
+      "balance": "18,036.92 Cr"
+    },
+    {
+      "txn_date": "11/08/2026",
+      "narration": "UPI/681899856685/UDAAN LOGISTICS LL/PAYMENT",
+      "ref_col": "681899856685",
+      "debit": null,
+      "credit": "7,03,171.51",
+      "balance": "7,21,208.43 Cr"
+    },
+    {
+      "txn_date": "11/08/2026",
+      "narration": "UPI/648602719372/PRAGATI HARDWARE T/PAYMENT",
+      "ref_col": "648602719372",
+      "debit": null,
+      "credit": "3,355.54",
+      "balance": "7,24,563.97 Cr"
+    },
+    {
+      "txn_date": "11/08/2026",
+      "narration": "INTEREST DEBITED CC ACCOUNT",
+      "ref_col": null,
+      "debit": "12,608.96",
+      "credit": null,
+      "balance": "7,11,955.01 Cr"
+    },
+    {
+      "txn_date": "11/08/2026",
+      "narration": "IMPS/627543745565/SARTHI TEXTILES LL",
+      "ref_col": "627543745565",
+      "debit": null,
+      "credit": "3,94,244.31",
+      "balance": "11,06,199.32 Cr"
+    },
+    {
+      "txn_date": "11/08/2026",
+      "narration": "UPI/692371590179/VISTAR POLYMERS TR/PURCHASE",
+      "ref_col": "692371590179",
+      "debit": "2,953.69",
+      "credit": null,
+      "balance": "11,03,245.63 Cr"
+    },
+    {
+      "txn_date": "12/08/2026",
+      "narration": "UPI/614714544398/AARAV LOGISTICS LL/PURCHASE",
+      "ref_col": "614714544398",
+      "debit": "7,85,137.59",
+      "credit": null,
+      "balance": "3,18,108.04 Cr"
+    },
+    {
+      "txn_date": "12/08/2026",
+      "narration": "NEFT/ZZBKN26081298137/MEGHDOOT TEXTILES",
+      "ref_col": "ZZBKN26081298137",
+      "debit": null,
+      "credit": "3,252.96",
+      "balance": "3,21,361.00 Cr"
+    },
+    {
+      "txn_date": "12/08/2026",
+      "narration": "RTGS/ZZBKRC2026081252331857/SARTHI LOGISTICS I",
+      "ref_col": "ZZBKRC2026081252331857",
+      "debit": null,
+      "credit": "14,98,664.70",
+      "balance": "18,20,025.70 Cr"
+    },
+    {
+      "txn_date": "12/08/2026",
+      "narration": "IMPS/667004577725/SARTHI IT SERVICES",
+      "ref_col": "667004577725",
+      "debit": null,
+      "credit": "2,734.37",
+      "balance": "18,22,760.07 Cr"
+    },
+    {
+      "txn_date": "13/08/2026",
+      "narration": "UPI/629052883810/SHAKTI HARDWARE PV/PAYMENT",
+      "ref_col": "629052883810",
+      "debit": null,
+      "credit": "3,573.44",
+      "balance": "18,26,333.51 Cr"
+    },
+    {
+      "txn_date": "13/08/2026",
+      "narration": "UPI/697554170289/NIMBUS LOGISTICS T/PAYMENT",
+      "ref_col": "697554170289",
+      "debit": null,
+      "credit": "5,06,983.26",
+      "balance": "23,33,316.77 Cr"
+    },
+    {
+      "txn_date": "13/08/2026",
+      "narration": "CHQ PAID SHAKTI PACKAGING TRA",
+      "ref_col": "220247",
+      "debit": "76,401.24",
+      "credit": null,
+      "balance": "22,56,915.53 Cr"
+    },
+    {
+      "txn_date": "13/08/2026",
+      "narration": "NEFT/ZZBKN26081368583/ANVAY HARDWARE ENT",
+      "ref_col": "ZZBKN26081368583",
+      "debit": "2,21,811.37",
+      "credit": null,
+      "balance": "20,35,104.16 Cr"
+    },
+    {
+      "txn_date": "13/08/2026",
+      "narration": "UPI/663571539310/MEGHDOOT IT SERVIC/PAYMENT",
+      "ref_col": "663571539310",
+      "debit": null,
+      "credit": "1,511.04",
+      "balance": "20,36,615.20 Cr"
+    },
+    {
+      "txn_date": "14/08/2026",
+      "narration": "CHQ PAID MEGHDOOT LOGISTICS L",
+      "ref_col": "412966",
+      "debit": "80,380.66",
+      "credit": null,
+      "balance": "19,56,234.54 Cr"
+    },
+    {
+      "txn_date": "14/08/2026",
+      "narration": "NEFT/ZZBKN26081461586/NIMBUS HARDWARE IN",
+      "ref_col": "ZZBKN26081461586",
+      "debit": null,
+      "credit": "22,839.88",
+      "balance": "19,79,074.42 Cr"
+    },
+    {
+      "txn_date": "14/08/2026",
+      "narration": "NEFT/ZZBKN26081459192/TRIKON POLYMERS EN",
+      "ref_col": "ZZBKN26081459192",
+      "debit": null,
+      "credit": "692.35",
+      "balance": "19,79,766.77 Cr"
+    },
+    {
+      "txn_date": "14/08/2026",
+      "narration": "UPI/657928990310/MEGHDOOT PACKAGING/PURCHASE",
+      "ref_col": "657928990310",
+      "debit": "4,43,758.89",
+      "credit": null,
+      "balance": "15,36,007.88 Cr"
+    },
+    {
+      "txn_date": "15/08/2026",
+      "narration": "NEFT/ZZBKN26081538336/MEGHDOOT TEXTILES",
+      "ref_col": "ZZBKN26081538336",
+      "debit": "7,19,886.29",
+      "credit": null,
+      "balance": "8,16,121.59 Cr"
+    },
+    {
+      "txn_date": "15/08/2026",
+      "narration": "IMPS/631459591011/NIMBUS TEXTILES LL",
+      "ref_col": "631459591011",
+      "debit": null,
+      "credit": "3,516.05",
+      "balance": "8,19,637.64 Cr"
+    },
+    {
+      "txn_date": "15/08/2026",
+      "narration": "UPI/689678002558/SHAKTI FABRICATION/PAYMENT",
+      "ref_col": "689678002558",
+      "debit": null,
+      "credit": "8,24,102.79",
+      "balance": "16,43,740.43 Cr"
+    },
+    {
+      "txn_date": "15/08/2026",
+      "narration": "RTGS/ZZBKRC2026081517908383/SHAKTI ELECTRICALS",
+      "ref_col": "ZZBKRC2026081517908383",
+      "debit": null,
+      "credit": "19,261.10",
+      "balance": "16,63,001.53 Cr"
+    },
+    {
+      "txn_date": "15/08/2026",
+      "narration": "NEFT/ZZBKN26081525303/MEGHDOOT ELECTRICA",
+      "ref_col": "ZZBKN26081525303",
+      "debit": "5,41,325.32",
+      "credit": null,
+      "balance": "11,21,676.21 Cr"
+    },
+    {
+      "txn_date": "15/08/2026",
+      "narration": "CHQ PAID VISTAR POLYMERS INDU",
+      "ref_col": "893339",
+      "debit": "1,534.72",
+      "credit": null,
+      "balance": "11,20,141.49 Cr"
+    },
+    {
+      "txn_date": "15/08/2026",
+      "narration": "UPI/663624015626/PRAGATI IT SERVICE/PAYMENT",
+      "ref_col": "663624015626",
+      "debit": null,
+      "credit": "67,547.94",
+      "balance": "11,87,689.43 Cr"
+    },
+    {
+      "txn_date": "16/08/2026",
+      "narration": "UPI/652804342494/TRIKON LOGISTICS T/PAYMENT",
+      "ref_col": "652804342494",
+      "debit": null,
+      "credit": "1,680.15",
+      "balance": "11,89,369.58 Cr"
+    },
+    {
+      "txn_date": "16/08/2026",
+      "narration": "IMPS/617103470959/TRIKON TEXTILES TR",
+      "ref_col": "617103470959",
+      "debit": null,
+      "credit": "1,65,677.40",
+      "balance": "13,55,046.98 Cr"
+    },
+    {
+      "txn_date": "16/08/2026",
+      "narration": "INTEREST DEBITED CC ACCOUNT",
+      "ref_col": null,
+      "debit": "16,330.44",
+      "credit": null,
+      "balance": "13,38,716.54 Cr"
+    },
+    {
+      "txn_date": "16/08/2026",
+      "narration": "UPI/659615022851/KAVERI HARDWARE TR/PAYMENT",
+      "ref_col": "659615022851",
+      "debit": null,
+      "credit": "2,758.95",
+      "balance": "13,41,475.49 Cr"
+    },
+    {
+      "txn_date": "17/08/2026",
+      "narration": "CHQ PAID AARAV PACKAGING INDU",
+      "ref_col": "642881",
+      "debit": "2,826.27",
+      "credit": null,
+      "balance": "13,38,649.22 Cr"
+    },
+    {
+      "txn_date": "17/08/2026",
+      "narration": "UPI/694387513322/SHAKTI LOGISTICS T/PAYMENT",
+      "ref_col": "694387513322",
+      "debit": null,
+      "credit": "3,52,051.80",
+      "balance": "16,90,701.02 Cr"
+    },
+    {
+      "txn_date": "18/08/2026",
+      "narration": "NEFT/ZZBKN26081852458/VISTAR FABRICATION",
+      "ref_col": "ZZBKN26081852458",
+      "debit": null,
+      "credit": "1,173.47",
+      "balance": "16,91,874.49 Cr"
+    },
+    {
+      "txn_date": "18/08/2026",
+      "narration": "UPI/627666705425/SAHYADRI LOGISTICS/PURCHASE",
+      "ref_col": "627666705425",
+      "debit": "14,398.15",
+      "credit": null,
+      "balance": "16,77,476.34 Cr"
+    },
+    {
+      "txn_date": "18/08/2026",
+      "narration": "UPI/622266923590/PRAGATI LOGISTICS/PAYMENT",
+      "ref_col": "622266923590",
+      "debit": null,
+      "credit": "89,358.89",
+      "balance": "17,66,835.23 Cr"
+    },
+    {
+      "txn_date": "18/08/2026",
+      "narration": "UPI/625880416433/KAVERI TEXTILES IN/PURCHASE",
+      "ref_col": "625880416433",
+      "debit": "6,34,150.43",
+      "credit": null,
+      "balance": "11,32,684.80 Cr"
+    },
+    {
+      "txn_date": "18/08/2026",
+      "narration": "NEFT/ZZBKN26081885225/SARTHI OFFICE SUPP",
+      "ref_col": "ZZBKN26081885225",
+      "debit": null,
+      "credit": "1,489.58",
+      "balance": "11,34,174.38 Cr"
+    },
+    {
+      "txn_date": "19/08/2026",
+      "narration": "UPI/622350306947/VISTAR IT SERVICES/PURCHASE",
+      "ref_col": "622350306947",
+      "debit": "3,27,862.38",
+      "credit": null,
+      "balance": "8,06,312.00 Cr"
+    },
+    {
+      "txn_date": "19/08/2026",
+      "narration": "UPI/656406257629/KAVERI LOGISTICS P/PURCHASE",
+      "ref_col": "656406257629",
+      "debit": "6,69,265.21",
+      "credit": null,
+      "balance": "1,37,046.79 Cr"
+    },
+    {
+      "txn_date": "19/08/2026",
+      "narration": "NEFT/ZZBKN26081931941/ANVAY OFFICE SUPPL",
+      "ref_col": "ZZBKN26081931941",
+      "debit": "6,47,440.60",
+      "credit": null,
+      "balance": "5,10,393.81 Dr"
+    },
+    {
+      "txn_date": "20/08/2026",
+      "narration": "CHQ PAID SARTHI LOGISTICS TRA",
+      "ref_col": "598595",
+      "debit": "4,75,841.00",
+      "credit": null,
+      "balance": "9,86,234.81 Dr"
+    },
+    {
+      "txn_date": "20/08/2026",
+      "narration": "INTEREST DEBITED CC ACCOUNT",
+      "ref_col": null,
+      "debit": "32,734.68",
+      "credit": null,
+      "balance": "10,18,969.49 Dr"
+    },
+    {
+      "txn_date": "20/08/2026",
+      "narration": "UPI/686937051963/ANVAY TEXTILES ENT/PURCHASE",
+      "ref_col": "686937051963",
+      "debit": "4,964.48",
+      "credit": null,
+      "balance": "10,23,933.97 Dr"
+    },
+    {
+      "txn_date": "20/08/2026",
+      "narration": "NEFT/ZZBKN26082059626/SAHYADRI HARDWARE",
+      "ref_col": "ZZBKN26082059626",
+      "debit": null,
+      "credit": "5,24,792.95",
+      "balance": "4,99,141.02 Dr"
+    },
+    {
+      "txn_date": "20/08/2026",
+      "narration": "UPI/661659533681/SARTHI STATIONERS/PAYMENT",
+      "ref_col": "661659533681",
+      "debit": null,
+      "credit": "4,80,623.97",
+      "balance": "18,517.05 Dr"
+    },
+    {
+      "txn_date": "21/08/2026",
+      "narration": "NEFT/ZZBKN26082122799/ANVAY IT SERVICES",
+      "ref_col": "ZZBKN26082122799",
+      "debit": "707.30",
+      "credit": null,
+      "balance": "19,224.35 Dr"
+    },
+    {
+      "txn_date": "21/08/2026",
+      "narration": "UPI/672308093318/VISTAR OFFICE SUPP/PAYMENT",
+      "ref_col": "672308093318",
+      "debit": null,
+      "credit": "17,833.69",
+      "balance": "1,390.66 Dr"
+    },
+    {
+      "txn_date": "21/08/2026",
+      "narration": "RTGS/ZZBKRC2026082160571543/MEGHDOOT OFFICE SU",
+      "ref_col": "ZZBKRC2026082160571543",
+      "debit": null,
+      "credit": "8,14,580.80",
+      "balance": "8,13,190.14 Cr"
+    },
+    {
+      "txn_date": "22/08/2026",
+      "narration": "INTEREST DEBITED CC ACCOUNT",
+      "ref_col": null,
+      "debit": "30,896.71",
+      "credit": null,
+      "balance": "7,82,293.43 Cr"
+    },
+    {
+      "txn_date": "22/08/2026",
+      "narration": "UPI/684737936362/SAHYADRI PACKAGING/PURCHASE",
+      "ref_col": "684737936362",
+      "debit": "6,82,868.99",
+      "credit": null,
+      "balance": "99,424.44 Cr"
+    },
+    {
+      "txn_date": "22/08/2026",
+      "narration": "NEFT/ZZBKN26082241412/SHAKTI PACKAGING I",
+      "ref_col": "ZZBKN26082241412",
+      "debit": "565.87",
+      "credit": null,
+      "balance": "98,858.57 Cr"
+    },
+    {
+      "txn_date": "23/08/2026",
+      "narration": "NEFT/ZZBKN26082351247/ANVAY TEXTILES TRA",
+      "ref_col": "ZZBKN26082351247",
+      "debit": "8,77,341.46",
+      "credit": null,
+      "balance": "7,78,482.89 Dr"
+    },
+    {
+      "txn_date": "23/08/2026",
+      "narration": "UPI/636486497464/UDAAN PACKAGING TR/PAYMENT",
+      "ref_col": "636486497464",
+      "debit": null,
+      "credit": "4,511.85",
+      "balance": "7,73,971.04 Dr"
+    },
+    {
+      "txn_date": "23/08/2026",
+      "narration": "NEFT/ZZBKN26082370802/TRIKON OFFICE SUPP",
+      "ref_col": "ZZBKN26082370802",
+      "debit": "72,537.17",
+      "credit": null,
+      "balance": "8,46,508.21 Dr"
+    },
+    {
+      "txn_date": "23/08/2026",
+      "narration": "UPI/654448938510/VISTAR POLYMERS PV/PURCHASE",
+      "ref_col": "654448938510",
+      "debit": "4,720.15",
+      "credit": null,
+      "balance": "8,51,228.36 Dr"
+    },
+    {
+      "txn_date": "24/08/2026",
+      "narration": "UPI/686807390835/TRIKON HARDWARE PV/PURCHASE",
+      "ref_col": "686807390835",
+      "debit": "844.32",
+      "credit": null,
+      "balance": "8,52,072.68 Dr"
+    },
+    {
+      "txn_date": "25/08/2026",
+      "narration": "NEFT/ZZBKN26082507617/SARTHI IT SERVICES",
+      "ref_col": "ZZBKN26082507617",
+      "debit": null,
+      "credit": "1,39,241.42",
+      "balance": "7,12,831.26 Dr"
+    },
+    {
+      "txn_date": "26/08/2026",
+      "narration": "NEFT/ZZBKN26082621715/SAHYADRI ELECTRICA",
+      "ref_col": "ZZBKN26082621715",
+      "debit": null,
+      "credit": "3,18,457.78",
+      "balance": "3,94,373.48 Dr"
+    },
+    {
+      "txn_date": "26/08/2026",
+      "narration": "NEFT/ZZBKN26082662507/UDAAN STATIONERS I",
+      "ref_col": "ZZBKN26082662507",
+      "debit": null,
+      "credit": "60,153.31",
+      "balance": "3,34,220.17 Dr"
+    },
+    {
+      "txn_date": "26/08/2026",
+      "narration": "NEFT/ZZBKN26082676225/TRIKON HARDWARE TR",
+      "ref_col": "ZZBKN26082676225",
+      "debit": "5,38,280.36",
+      "credit": null,
+      "balance": "8,72,500.53 Dr"
+    },
+    {
+      "txn_date": "26/08/2026",
+      "narration": "UPI/657224606174/AARAV OFFICE SUPPL/PAYMENT",
+      "ref_col": "657224606174",
+      "debit": null,
+      "credit": "4,930.16",
+      "balance": "8,67,570.37 Dr"
+    },
+    {
+      "txn_date": "26/08/2026",
+      "narration": "PROCESSING FEE CC RENEWAL",
+      "ref_col": null,
+      "debit": "2,500.00",
+      "credit": null,
+      "balance": "8,70,070.37 Dr"
+    },
+    {
+      "txn_date": "27/08/2026",
+      "narration": "IMPS/654551430897/AARAV PACKAGING EN",
+      "ref_col": "654551430897",
+      "debit": null,
+      "credit": "1,50,743.86",
+      "balance": "7,19,326.51 Dr"
+    },
+    {
+      "txn_date": "27/08/2026",
+      "narration": "UPI/690801779132/NIMBUS IT SERVICES/PAYMENT",
+      "ref_col": "690801779132",
+      "debit": null,
+      "credit": "79,606.69",
+      "balance": "6,39,719.82 Dr"
+    },
+    {
+      "txn_date": "27/08/2026",
+      "narration": "UPI/697669561969/AARAV IT SERVICES/PAYMENT",
+      "ref_col": "697669561969",
+      "debit": null,
+      "credit": "75,259.72",
+      "balance": "5,64,460.10 Dr"
+    },
+    {
+      "txn_date": "27/08/2026",
+      "narration": "CHQ PAID ANVAY STATIONERS PVT",
+      "ref_col": "583393",
+      "debit": "3,20,706.58",
+      "credit": null,
+      "balance": "8,85,166.68 Dr"
+    },
+    {
+      "txn_date": "28/08/2026",
+      "narration": "UPI/674016419071/PRAGATI POLYMERS E/PURCHASE",
+      "ref_col": "674016419071",
+      "debit": "1,84,771.49",
+      "credit": null,
+      "balance": "10,69,938.17 Dr"
+    },
+    {
+      "txn_date": "28/08/2026",
+      "narration": "UPI/633140104168/UDAAN HARDWARE PVT/PURCHASE",
+      "ref_col": "633140104168",
+      "debit": "28,194.87",
+      "credit": null,
+      "balance": "10,98,133.04 Dr"
+    },
+    {
+      "txn_date": "28/08/2026",
+      "narration": "PROCESSING FEE CC RENEWAL",
+      "ref_col": null,
+      "debit": "2,500.00",
+      "credit": null,
+      "balance": "11,00,633.04 Dr"
+    },
+    {
+      "txn_date": "28/08/2026",
+      "narration": "NEFT/ZZBKN26082899585/SAHYADRI IT SERVIC",
+      "ref_col": "ZZBKN26082899585",
+      "debit": "1,39,484.16",
+      "credit": null,
+      "balance": "12,40,117.20 Dr"
+    },
+    {
+      "txn_date": "28/08/2026",
+      "narration": "NEFT/ZZBKN26082861439/AARAV LOGISTICS EN",
+      "ref_col": "ZZBKN26082861439",
+      "debit": null,
+      "credit": "2,10,951.11",
+      "balance": "10,29,166.09 Dr"
+    },
+    {
+      "txn_date": "28/08/2026",
+      "narration": "IMPS/689219906983/SAHYADRI FABRICATI",
+      "ref_col": "689219906983",
+      "debit": null,
+      "credit": "3,568.79",
+      "balance": "10,25,597.30 Dr"
+    },
+    {
+      "txn_date": "28/08/2026",
+      "narration": "NEFT/ZZBKN26082888998/TRIKON FABRICATION",
+      "ref_col": "ZZBKN26082888998",
+      "debit": null,
+      "credit": "63,465.28",
+      "balance": "9,62,132.02 Dr"
     }
   ],
   "modes": [
     "UPI",
-    "IMPS",
-    "CHG",
-    "NEFT",
-    "UPI",
-    "CHG",
-    "RTGS",
-    "CHG",
-    "UPI",
-    "CLG",
-    "CHG",
-    "NEFT",
-    "NEFT",
-    "UPI",
-    "UPI",
-    "CLG",
-    "NEFT",
-    "UPI",
-    "CLG",
-    "NEFT",
     "RTGS",
     "NEFT",
+    "UPI",
+    "UPI",
+    "UPI",
+    "UPI",
+    "UPI",
+    "UPI",
+    "UPI",
+    "NEFT",
+    "CHG",
+    "CHG",
+    "UPI",
+    "CLG",
+    "CLG",
+    "CHG",
+    "CHG",
+    "UPI",
+    "UPI",
+    "CLG",
+    "UPI",
+    "NEFT",
+    "NEFT",
+    "CLG",
+    "UPI",
+    "NEFT",
+    "NEFT",
+    "NEFT",
+    "IMPS",
+    "CLG",
+    "UPI",
+    "INT",
     "RTGS",
     "NEFT",
+    "UPI",
+    "UPI",
+    "UPI",
     "NEFT",
+    "UPI",
+    "NEFT",
+    "IMPS",
+    "RTGS",
+    "UPI",
+    "NEFT",
+    "UPI",
+    "IMPS",
+    "NEFT",
+    "UPI",
+    "UPI",
+    "INT",
+    "IMPS",
+    "UPI",
+    "UPI",
+    "NEFT",
+    "RTGS",
+    "IMPS",
+    "UPI",
+    "UPI",
+    "CLG",
+    "NEFT",
+    "UPI",
+    "CLG",
+    "NEFT",
+    "NEFT",
+    "UPI",
+    "NEFT",
+    "IMPS",
+    "UPI",
+    "RTGS",
+    "NEFT",
+    "CLG",
+    "UPI",
+    "UPI",
+    "IMPS",
+    "INT",
     "UPI",
     "CLG",
     "UPI",
     "NEFT",
     "UPI",
-    "IMPS",
+    "UPI",
+    "UPI",
+    "NEFT",
+    "UPI",
+    "UPI",
+    "NEFT",
+    "CLG",
+    "INT",
+    "UPI",
+    "NEFT",
+    "UPI",
+    "NEFT",
+    "UPI",
+    "RTGS",
+    "INT",
+    "UPI",
+    "NEFT",
+    "NEFT",
+    "UPI",
+    "NEFT",
+    "UPI",
+    "UPI",
+    "NEFT",
+    "NEFT",
+    "NEFT",
+    "NEFT",
     "UPI",
     "CHG",
-    "UPI",
-    "UPI",
-    "UPI",
     "IMPS",
-    "CLG"
+    "UPI",
+    "UPI",
+    "CLG",
+    "UPI",
+    "UPI",
+    "CHG",
+    "NEFT",
+    "NEFT",
+    "IMPS",
+    "NEFT"
+  ],
+  "branches": [
+    "6067",
+    "6104",
+    "6141",
+    "6178",
+    "6215",
+    "6252",
+    "6289",
+    "6326",
+    "6363",
+    "6400",
+    "6437",
+    "6474",
+    "6511",
+    "6548",
+    "6585",
+    "6622",
+    "6659",
+    "6696",
+    "6733",
+    "6770",
+    "6807",
+    "6844",
+    "6881",
+    "6918",
+    "6955",
+    "6992",
+    "7029",
+    "7066",
+    "7103",
+    "7140",
+    "7177",
+    "7214",
+    "7251",
+    "7288",
+    "7325",
+    "7362",
+    "7399",
+    "7436",
+    "7473",
+    "7510",
+    "7547",
+    "7584",
+    "7621",
+    "7658",
+    "7695",
+    "7732",
+    "7769",
+    "7806",
+    "7843",
+    "7880",
+    "7917",
+    "7954",
+    "7991",
+    "8028",
+    "8065",
+    "8102",
+    "8139",
+    "8176",
+    "8213",
+    "8250",
+    "8287",
+    "8324",
+    "8361",
+    "8398",
+    "8435",
+    "8472",
+    "8509",
+    "8546",
+    "8583",
+    "8620",
+    "8657",
+    "8694",
+    "8731",
+    "8768",
+    "8805",
+    "8842",
+    "8879",
+    "8916",
+    "8953",
+    "8990",
+    "9027",
+    "9064",
+    "9101",
+    "9138",
+    "9175",
+    "9212",
+    "9249",
+    "9286",
+    "9323",
+    "9360",
+    "9397",
+    "9434",
+    "9471",
+    "9508",
+    "9545",
+    "9582",
+    "9619",
+    "9656",
+    "9693",
+    "9730",
+    "9767",
+    "9804",
+    "9841",
+    "9878",
+    "9915",
+    "9952",
+    "9989",
+    "1026",
+    "1063",
+    "1100",
+    "1137",
+    "1174",
+    "1211",
+    "1248",
+    "1285",
+    "1322",
+    "1359",
+    "1396",
+    "1433",
+    "1470"
   ],
   "derived": [
     {
       "channel": "UPI",
-      "ref_no": "674808749386",
-      "cheque_no": null,
-      "direction": "CR",
-      "amount": "2420.11"
-    },
-    {
-      "channel": "IMPS",
-      "ref_no": "616606070947",
-      "cheque_no": null,
-      "direction": "CR",
-      "amount": "4382.55"
-    },
-    {
-      "channel": "CHARGE",
-      "ref_no": null,
+      "ref_no": "656273295564",
       "cheque_no": null,
       "direction": "DR",
-      "amount": "17.70"
-    },
-    {
-      "channel": "NEFT",
-      "ref_no": "ZZBKN26080348075",
-      "cheque_no": null,
-      "direction": "CR",
-      "amount": "635285.82"
-    },
-    {
-      "channel": "UPI",
-      "ref_no": "699419733813",
-      "cheque_no": null,
-      "direction": "DR",
-      "amount": "8606.74"
-    },
-    {
-      "channel": "CHARGE",
-      "ref_no": null,
-      "cheque_no": null,
-      "direction": "DR",
-      "amount": "17.70"
+      "amount": "51278.67"
     },
     {
       "channel": "RTGS",
-      "ref_no": "ZZBKRC2026080784019358",
+      "ref_no": "ZZBKRC2026080185898063",
       "cheque_no": null,
       "direction": "CR",
-      "amount": "494803.30"
+      "amount": "733141.90"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26080108623",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "28619.77"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "643292494876",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "55131.27"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "620930518306",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "3203.38"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "697890953007",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "3057.54"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "680403262419",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "74340.84"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "647336756423",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "39313.43"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "617505409193",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "2591.97"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "667248625115",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "35460.84"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26080392749",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "68192.58"
     },
     {
       "channel": "CHARGE",
       "ref_no": null,
       "cheque_no": null,
       "direction": "DR",
-      "amount": "17.70"
-    },
-    {
-      "channel": "UPI",
-      "ref_no": "696003197631",
-      "cheque_no": null,
-      "direction": "CR",
-      "amount": "38323.14"
-    },
-    {
-      "channel": "CHEQUE",
-      "ref_no": null,
-      "cheque_no": "268023",
-      "direction": "DR",
-      "amount": "441348.99"
+      "amount": "7500.00"
     },
     {
       "channel": "CHARGE",
       "ref_no": null,
       "cheque_no": null,
       "direction": "DR",
-      "amount": "17.70"
-    },
-    {
-      "channel": "NEFT",
-      "ref_no": "ZZBKN26080963361",
-      "cheque_no": null,
-      "direction": "CR",
-      "amount": "521021.93"
-    },
-    {
-      "channel": "NEFT",
-      "ref_no": "ZZBKN26081081547",
-      "cheque_no": null,
-      "direction": "DR",
-      "amount": "181036.41"
+      "amount": "7500.00"
     },
     {
       "channel": "UPI",
-      "ref_no": "655928432710",
+      "ref_no": "681272613260",
       "cheque_no": null,
       "direction": "CR",
-      "amount": "2965.95"
-    },
-    {
-      "channel": "UPI",
-      "ref_no": "693471702797",
-      "cheque_no": null,
-      "direction": "CR",
-      "amount": "684083.85"
+      "amount": "880223.83"
     },
     {
       "channel": "CHEQUE",
       "ref_no": null,
-      "cheque_no": "014575",
-      "direction": "DR",
-      "amount": "19679.42"
-    },
-    {
-      "channel": "NEFT",
-      "ref_no": "ZZBKN26081369272",
-      "cheque_no": null,
+      "cheque_no": "214942",
       "direction": "CR",
-      "amount": "80942.34"
-    },
-    {
-      "channel": "UPI",
-      "ref_no": "661127592085",
-      "cheque_no": null,
-      "direction": "CR",
-      "amount": "1867.92"
+      "amount": "227915.45"
     },
     {
       "channel": "CHEQUE",
       "ref_no": null,
-      "cheque_no": "768908",
+      "cheque_no": "214942",
       "direction": "DR",
-      "amount": "86287.22"
+      "amount": "227915.45"
     },
     {
-      "channel": "NEFT",
-      "ref_no": "ZZBKN26081640862",
+      "channel": "CHARGE",
+      "ref_no": null,
       "cheque_no": null,
-      "direction": "CR",
-      "amount": "738359.38"
+      "direction": "DR",
+      "amount": "300.00"
     },
     {
-      "channel": "RTGS",
-      "ref_no": "ZZBKRC2026081663975041",
+      "channel": "CHARGE",
+      "ref_no": null,
       "cheque_no": null,
-      "direction": "CR",
-      "amount": "654359.00"
-    },
-    {
-      "channel": "NEFT",
-      "ref_no": "ZZBKN26081820290",
-      "cheque_no": null,
-      "direction": "CR",
-      "amount": "4587.38"
-    },
-    {
-      "channel": "RTGS",
-      "ref_no": "ZZBKRC2026081823041232",
-      "cheque_no": null,
-      "direction": "CR",
-      "amount": "18129.80"
-    },
-    {
-      "channel": "NEFT",
-      "ref_no": "ZZBKN26081946743",
-      "cheque_no": null,
-      "direction": "CR",
-      "amount": "1516.48"
-    },
-    {
-      "channel": "NEFT",
-      "ref_no": "ZZBKN26081972021",
-      "cheque_no": null,
-      "direction": "CR",
-      "amount": "88158.46"
+      "direction": "DR",
+      "amount": "54.00"
     },
     {
       "channel": "UPI",
-      "ref_no": "690088971254",
+      "ref_no": "621650430721",
       "cheque_no": null,
       "direction": "DR",
-      "amount": "12944.21"
+      "amount": "7392.17"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "615591215755",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "72589.90"
     },
     {
       "channel": "CHEQUE",
       "ref_no": null,
-      "cheque_no": "962968",
+      "cheque_no": "293916",
       "direction": "DR",
-      "amount": "2697.58"
+      "amount": "3547.52"
     },
     {
       "channel": "UPI",
-      "ref_no": "639654494980",
+      "ref_no": "648916028897",
       "cheque_no": null,
       "direction": "CR",
-      "amount": "3252.31"
+      "amount": "473417.73"
     },
     {
       "channel": "NEFT",
-      "ref_no": "ZZBKN26082266675",
+      "ref_no": "ZZBKN26080306809",
       "cheque_no": null,
       "direction": "CR",
-      "amount": "23225.37"
+      "amount": "33930.94"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26080317682",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "6177.87"
+    },
+    {
+      "channel": "CHEQUE",
+      "ref_no": null,
+      "cheque_no": "537039",
+      "direction": "DR",
+      "amount": "1909.58"
     },
     {
       "channel": "UPI",
-      "ref_no": "629588512221",
+      "ref_no": "645958932895",
       "cheque_no": null,
       "direction": "CR",
-      "amount": "2017.47"
+      "amount": "2814.97"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26080533001",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "352072.24"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26080515172",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "80646.05"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26080677624",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "247148.15"
     },
     {
       "channel": "IMPS",
-      "ref_no": "651798404974",
+      "ref_no": "635299843429",
       "cheque_no": null,
       "direction": "CR",
-      "amount": "863925.75"
+      "amount": "2081.43"
+    },
+    {
+      "channel": "CHEQUE",
+      "ref_no": null,
+      "cheque_no": "889099",
+      "direction": "DR",
+      "amount": "1560.35"
     },
     {
       "channel": "UPI",
-      "ref_no": "693657043103",
+      "ref_no": "623927397395",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "68854.60"
+    },
+    {
+      "channel": "INTEREST",
+      "ref_no": null,
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "29630.75"
+    },
+    {
+      "channel": "RTGS",
+      "ref_no": "ZZBKRC2026080713334531",
       "cheque_no": null,
       "direction": "CR",
-      "amount": "2881.94"
+      "amount": "83703.80"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26080779520",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "4831.94"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "681146862850",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "3699.57"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "691595441939",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "524959.24"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "691595441939",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "524959.24"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26080750142",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "555989.83"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "644816062935",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "731527.52"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26080834701",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "646882.94"
+    },
+    {
+      "channel": "IMPS",
+      "ref_no": "656188877428",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "34142.38"
+    },
+    {
+      "channel": "RTGS",
+      "ref_no": "ZZBKRC2026080863393887",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "20195.50"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "673823861958",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "25407.10"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26080946708",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "493328.20"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "695558717008",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "80111.61"
+    },
+    {
+      "channel": "IMPS",
+      "ref_no": "663752438422",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "33423.36"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26081047962",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "32091.53"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "681899856685",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "703171.51"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "648602719372",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "3355.54"
+    },
+    {
+      "channel": "INTEREST",
+      "ref_no": null,
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "12608.96"
+    },
+    {
+      "channel": "IMPS",
+      "ref_no": "627543745565",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "394244.31"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "692371590179",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "2953.69"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "614714544398",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "785137.59"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26081298137",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "3252.96"
+    },
+    {
+      "channel": "RTGS",
+      "ref_no": "ZZBKRC2026081252331857",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "1498664.70"
+    },
+    {
+      "channel": "IMPS",
+      "ref_no": "667004577725",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "2734.37"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "629052883810",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "3573.44"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "697554170289",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "506983.26"
+    },
+    {
+      "channel": "CHEQUE",
+      "ref_no": null,
+      "cheque_no": "220247",
+      "direction": "DR",
+      "amount": "76401.24"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26081368583",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "221811.37"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "663571539310",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "1511.04"
+    },
+    {
+      "channel": "CHEQUE",
+      "ref_no": null,
+      "cheque_no": "412966",
+      "direction": "DR",
+      "amount": "80380.66"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26081461586",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "22839.88"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26081459192",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "692.35"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "657928990310",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "443758.89"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26081538336",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "719886.29"
+    },
+    {
+      "channel": "IMPS",
+      "ref_no": "631459591011",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "3516.05"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "689678002558",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "824102.79"
+    },
+    {
+      "channel": "RTGS",
+      "ref_no": "ZZBKRC2026081517908383",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "19261.10"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26081525303",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "541325.32"
+    },
+    {
+      "channel": "CHEQUE",
+      "ref_no": null,
+      "cheque_no": "893339",
+      "direction": "DR",
+      "amount": "1534.72"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "663624015626",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "67547.94"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "652804342494",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "1680.15"
+    },
+    {
+      "channel": "IMPS",
+      "ref_no": "617103470959",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "165677.40"
+    },
+    {
+      "channel": "INTEREST",
+      "ref_no": null,
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "16330.44"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "659615022851",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "2758.95"
+    },
+    {
+      "channel": "CHEQUE",
+      "ref_no": null,
+      "cheque_no": "642881",
+      "direction": "DR",
+      "amount": "2826.27"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "694387513322",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "352051.80"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26081852458",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "1173.47"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "627666705425",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "14398.15"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "622266923590",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "89358.89"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "625880416433",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "634150.43"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26081885225",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "1489.58"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "622350306947",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "327862.38"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "656406257629",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "669265.21"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26081931941",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "647440.60"
+    },
+    {
+      "channel": "CHEQUE",
+      "ref_no": null,
+      "cheque_no": "598595",
+      "direction": "DR",
+      "amount": "475841.00"
+    },
+    {
+      "channel": "INTEREST",
+      "ref_no": null,
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "32734.68"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "686937051963",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "4964.48"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26082059626",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "524792.95"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "661659533681",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "480623.97"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26082122799",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "707.30"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "672308093318",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "17833.69"
+    },
+    {
+      "channel": "RTGS",
+      "ref_no": "ZZBKRC2026082160571543",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "814580.80"
+    },
+    {
+      "channel": "INTEREST",
+      "ref_no": null,
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "30896.71"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "684737936362",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "682868.99"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26082241412",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "565.87"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26082351247",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "877341.46"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "636486497464",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "4511.85"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26082370802",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "72537.17"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "654448938510",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "4720.15"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "686807390835",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "844.32"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26082507617",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "139241.42"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26082621715",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "318457.78"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26082662507",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "60153.31"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26082676225",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "538280.36"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "657224606174",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "4930.16"
     },
     {
       "channel": "CHARGE",
       "ref_no": null,
       "cheque_no": null,
       "direction": "DR",
-      "amount": "17.70"
-    },
-    {
-      "channel": "UPI",
-      "ref_no": "660000819193",
-      "cheque_no": null,
-      "direction": "CR",
-      "amount": "679.03"
-    },
-    {
-      "channel": "UPI",
-      "ref_no": "614361385154",
-      "cheque_no": null,
-      "direction": "CR",
-      "amount": "32793.61"
-    },
-    {
-      "channel": "UPI",
-      "ref_no": "660762837379",
-      "cheque_no": null,
-      "direction": "CR",
-      "amount": "1028.80"
+      "amount": "2500.00"
     },
     {
       "channel": "IMPS",
-      "ref_no": "666950934683",
+      "ref_no": "654551430897",
       "cheque_no": null,
       "direction": "CR",
-      "amount": "127015.55"
+      "amount": "150743.86"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "690801779132",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "79606.69"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "697669561969",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "75259.72"
     },
     {
       "channel": "CHEQUE",
       "ref_no": null,
-      "cheque_no": "193754",
+      "cheque_no": "583393",
       "direction": "DR",
-      "amount": "62864.31"
+      "amount": "320706.58"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "674016419071",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "184771.49"
+    },
+    {
+      "channel": "UPI",
+      "ref_no": "633140104168",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "28194.87"
+    },
+    {
+      "channel": "CHARGE",
+      "ref_no": null,
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "2500.00"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26082899585",
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "139484.16"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26082861439",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "210951.11"
+    },
+    {
+      "channel": "IMPS",
+      "ref_no": "689219906983",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "3568.79"
+    },
+    {
+      "channel": "NEFT",
+      "ref_no": "ZZBKN26082888998",
+      "cheque_no": null,
+      "direction": "CR",
+      "amount": "63465.28"
     }
   ],
   "defect": null,
   "expected_flags": [],
   "acceptable_flags": [],
   "id": "stmt-0030",
-  "scan": "light",
-  "split": "dev",
-  "scan_meta": {
-    "level": "light",
-    "seed": 1588111400,
-    "rotate90": false,
-    "dpi": 200,
-    "skew_deg": [
-      0.89,
-      0.28
-    ]
-  }
+  "scan": "digital",
+  "split": "heldout"
 }

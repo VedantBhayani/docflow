@@ -141,3 +141,40 @@ What was run, on what, and what came out. This includes the things that failed o
 2. Line evidence covered only the balance cell; it is now the whole row.
 
 Broken-chain twin: S1 on exactly the broken row and the row after it (whose arithmetic it also breaks), and nothing else.
+
+## 2026-10-17: Statement breadth (build ticket 09)
+
+**Set:** 30 statements, **6 layouts × 5**: dash (HDFC-like), slash (SBI-like), mmt (ICICI-like), kotak (Kotak-like), initbr (Axis-like: cheque column, OPENING BALANCE row, branch column after the balance, GST on its own row), and signed (stress: a cash-credit/overdraft account with one Amount column, a Dr/Cr indicator and balances printed "45,000.00 Dr"; plus a UPI reversal pair and a bounced cheque with a return charge and GST).
+- Stratified: every layout has 2 defects, 1–2 scans and at least one clean digital statement. Before this, a random draw left "dash" with no clean statement, so its false-flag rate could not be measured.
+- 10 scanned (5 light, 5 heavy), 12 single-defect statements (3 per type), 1–6 pages (about 30% are 90–120 transactions long). Split 10 dev / 20 held-out.
+- `both_dr_cr` is never put on the signed layout, because a single Amount column cannot print both sides.
+
+**Deterministic table parser** (`statement_table.py`) instead of the LLM for rows: header roles by keyword, words assigned to columns by position, wrapped narrations joined, B/F, opening and total rows recognised. A signed Amount column is split by its Dr/Cr cell; an unreadable side leaves both empty, so S3 flags the row.
+
+**OCR repairs found on dev scans** (general, not layout-specific):
+- `OPENING.BALANCE`, where OCR glued the words with a dot, ended page 1's table early. Carry and opening rows now match across `.` and `_`.
+- `67.64.203.63~2671`: OCR glued a balance to the next column's value. Split at ingest.
+- `:` read as a separator inside amounts (`1.780:16`) is repaired. A bare `12:30` (a time) is still not an amount.
+- `45,000.00 Dr` parses as −45,000.00. Paise are required, so `5 Cr` (five crore) is not read as a balance side.
+
+**Consistency check, disclosed:** the table parser and label rules were checked against truth on **all 20 digital statements, including held-out**. This is a generator/label-integrity check: 8,122/8,122 cells matched and nothing was tuned from it. Scan checks were run on dev only.
+
+**Dev result (new set):**
+- Statement Lines fully correct 503/518 (**97.1%**); references 96.1%; fields 98.7%; grounding 100%.
+- Defects caught 4/4; flagged exactly as labelled 9/10.
+- The one false flag is the heavy-scan initbr statement. OCR read `02-04-2026` as `2028` (S4) and misread one amount (S1); human review is the right outcome there.
+- `bank_name` misses the "(SYNTHETIC)" suffix on every statement. This is header LLM behaviour and is left as is.
+
+**Feature freeze on statements** after this (re-scope 2026-10-17: fresher internship, stop overbuilding).
+
+## 2026-10-17: NIC public keys installed (ticket 06 completed)
+
+Downloaded with the user's approval from https://einvoice1.gst.gov.in. Index files: `PubKeysEinv1.json`, `PubKeysEinv2.json`, `PubKeysSb.json`. Ten zips went into an empty scratch folder; their members were listed before extracting (only .pem and .cer files).
+- `trust/nic/`: 8 production certificates (IRP-1 2020–2027, IRP-2 2023–2027) normalised to DER, plus one bare key (`ProdPubKey3`, 2020–2022, published without a certificate, so it has no derivable kid and is tried only when no kid matches).
+- `trust/nic-sandbox/`: 2 sandbox certificates, kept as a separate trust mode that is never mixed with production.
+- `SOURCES.json` in each folder records the URL, GenPeriod, zip SHA-256, certificate validity and fetch date. A test checks that the store loads exactly what SOURCES.json lists.
+
+**Findings:**
+- NIC's own printed QR in `Qrcode_procedure.pdf` (Sept 2020, kid `115F4426…`) now **VERIFIES** against NIC's production certificate `prodpubkey1`. That makes it a real IRP-signed token verified offline.
+- Kid `4DE1544A…`, which the text sample is signed under and which I had labelled "probably sandbox", is actually the **production** IRP-1 certificate for 06/09/2024 – 03/06/2026. The old note was wrong; the superseded loose sample key was removed.
+- The sandbox issuer string (`NIC Sandbox`) is my best reading of the docs. If it is wrong, the result shows as WRONG_ISSUER, never VERIFIED.

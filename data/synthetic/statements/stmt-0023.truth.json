@@ -1,309 +1,375 @@
 {
   "kind": "statement",
-  "template": "mmt",
+  "template": "initbr",
   "fields": {
     "bank_name": "Zenith Co-operative Bank Ltd (SYNTHETIC)",
     "account_number": "72824042820043",
-    "account_holder": "Aarav Textiles Industries Pvt Ltd",
-    "period_from": "01/08/2026",
-    "period_to": "30/08/2026",
-    "opening_balance": "86,093.79",
-    "closing_balance": "50,77,101.95"
+    "account_holder": "Nimbus Textiles Enterprises",
+    "period_from": "01/04/2026",
+    "period_to": "30/04/2026",
+    "opening_balance": "17,29,315.26",
+    "closing_balance": "67,64,203.63"
   },
   "lines": [
     {
-      "txn_date": "02-08-2026",
-      "narration": "UPI/PRAGATI LOGISTICS/pragati@okzz/PURCHASE/ZENITH/615530200867/ICI974331141",
-      "debit": "15,746.60",
-      "credit": null,
-      "balance": "70,347.19"
+      "txn_date": "02-04-2026",
+      "narration": "UPI/P2M/658089713855/PRAGATI ELECTRICAL/PAYMENT/ZENITH",
+      "ref_col": null,
+      "debit": null,
+      "credit": "28,133.61",
+      "balance": "17,57,448.87"
     },
     {
-      "txn_date": "04-08-2026",
-      "narration": "MMT/IMPS/612751745053/ADVANCE/SAHYADRI ELECTRICA/ZENITH",
+      "txn_date": "02-04-2026",
+      "narration": "IMPS/P2A/612751745053/SAHYADRI ELECTRICA/ZENITH",
+      "ref_col": null,
       "debit": null,
       "credit": "3,825.78",
-      "balance": "74,172.97"
+      "balance": "17,61,274.65"
     },
     {
-      "txn_date": "04-08-2026",
-      "narration": "CLG/ANVAY OFFICE SUPPL/510158/ZZBK/04.08.2026",
+      "txn_date": "04-04-2026",
+      "narration": "CHQ PAID/510158/ANVAY OFFICE SUPPLIE",
+      "ref_col": "510158",
       "debit": "4,292.51",
       "credit": null,
-      "balance": "69,880.46"
+      "balance": "17,56,982.14"
     },
     {
-      "txn_date": "05-08-2026",
-      "narration": "UPI/VISTAR FABRICATION/vistar@okzz/PAYMENT/ZENITH/691416744268/ICI737134185",
+      "txn_date": "04-04-2026",
+      "narration": "UPI/P2M/691416744268/VISTAR FABRICATION/PAYMENT/ZENITH",
+      "ref_col": null,
       "debit": null,
       "credit": "3,698.57",
-      "balance": "73,579.03"
+      "balance": "17,60,680.71"
     },
     {
-      "txn_date": "06-08-2026",
-      "narration": "UPI/SHAKTI ELECTRICALS/shakti@okzz/PURCHASE/ZENITH/690646344618/ICI128434305",
+      "txn_date": "05-04-2026",
+      "narration": "UPI/P2A/690646344618/SHAKTI ELECTRICALS/PURCHASE/ZENITH",
+      "ref_col": null,
       "debit": "1,87,432.77",
       "credit": null,
-      "balance": "-1,13,853.74"
+      "balance": "15,73,247.94"
     },
     {
-      "txn_date": "08-08-2026",
-      "narration": "NEFT-ZZBKN26080807791-AARAV TEXTILES IND-INVOICE-XXXX1090-ZZBK0005765",
+      "txn_date": "07-04-2026",
+      "narration": "NEFT/ZZBKN26040707791/AARAV TEXTILES IND/ZENITH",
+      "ref_col": null,
       "debit": null,
       "credit": "89,047.81",
-      "balance": "-23,805.93"
+      "balance": "16,62,295.75"
     },
     {
-      "txn_date": "10-08-2026",
-      "narration": "SMS CHGS",
-      "debit": "17.70",
+      "txn_date": "08-04-2026",
+      "narration": "SMS CHARGES QTR",
+      "ref_col": null,
+      "debit": "15.00",
       "credit": null,
-      "balance": "-24,823.63"
+      "balance": "16,62,280.75"
     },
     {
-      "txn_date": "11-08-2026",
-      "narration": "UPI/SHAKTI ELECTRICALS/shakti@okzz/PAYMENT/ZENITH/683838043873/ICI875985248",
+      "txn_date": "08-04-2026",
+      "narration": "GST @18% ON SMS CHARGES QTR",
+      "ref_col": null,
+      "debit": "2.70",
+      "credit": null,
+      "balance": "16,62,278.05"
+    },
+    {
+      "txn_date": "08-04-2026",
+      "narration": "UPI/P2M/683838043873/SHAKTI ELECTRICALS/PAYMENT/ZENITH",
+      "ref_col": null,
       "debit": null,
       "credit": "89,305.66",
-      "balance": "64,482.03"
+      "balance": "17,51,583.71"
     },
     {
-      "txn_date": "11-08-2026",
+      "txn_date": "10-04-2026",
       "narration": "CREDIT INTEREST",
+      "ref_col": null,
       "debit": null,
       "credit": "424.66",
-      "balance": "64,906.69"
+      "balance": "17,52,008.37"
     },
     {
-      "txn_date": "11-08-2026",
-      "narration": "UPI/UDAAN HARDWARE PVT/udaan@okzz/PURCHASE/ZENITH/664002716264/ICI671724676",
+      "txn_date": "10-04-2026",
+      "narration": "UPI/P2A/664002716264/UDAAN HARDWARE PVT/PURCHASE/ZENITH",
+      "ref_col": null,
       "debit": "937.51",
       "credit": null,
-      "balance": "63,969.18"
+      "balance": "17,51,070.86"
     },
     {
-      "txn_date": "11-08-2026",
-      "narration": "MMT/IMPS/635626245035/ADVANCE/SAHYADRI ELECTRICA/ZENITH",
+      "txn_date": "11-04-2026",
+      "narration": "IMPS/P2A/635626245035/SAHYADRI ELECTRICA/ZENITH",
+      "ref_col": null,
       "debit": null,
       "credit": "4,104.18",
-      "balance": "68,073.36"
+      "balance": "17,55,175.04"
     },
     {
-      "txn_date": "11-08-2026",
-      "narration": "BIL/NEFT/ZZ70802165/VENDOR/KAVERI HARDWARE IN/ZENITH",
+      "txn_date": "11-04-2026",
+      "narration": "NEFT/ZZBKN26041127044/KAVERI HARDWARE IN/VENDOR PAYMENT",
+      "ref_col": null,
       "debit": "4,520.64",
       "credit": null,
-      "balance": "63,552.72"
+      "balance": "17,50,654.40"
     },
     {
-      "txn_date": "12-08-2026",
-      "narration": "UPI/KAVERI OFFICE SUPP/kaveri@okzz/PURCHASE/ZENITH/610891592095/ICI966857204",
+      "txn_date": "11-04-2026",
+      "narration": "UPI/P2A/610891592095/KAVERI OFFICE SUPP/PURCHASE/ZENITH",
+      "ref_col": null,
       "debit": "1,780.16",
       "credit": null,
-      "balance": "61,772.56"
+      "balance": "17,48,874.24"
     },
     {
-      "txn_date": "12-08-2026",
-      "narration": "UPI/SHAKTI LOGISTICS I/shakti@okzz/PAYMENT/ZENITH/610561072941/ICI848579733",
+      "txn_date": "11-04-2026",
+      "narration": "UPI/P2M/610561072941/SHAKTI LOGISTICS I/PAYMENT/ZENITH",
+      "ref_col": null,
       "debit": null,
       "credit": "4,514.46",
-      "balance": "66,287.02"
+      "balance": "17,53,388.70"
     },
     {
-      "txn_date": "13-08-2026",
-      "narration": "NEFT-ZZBKN26081377819-UDAAN OFFICE SUPPL-INVOICE-XXXX1196-ZZBK0003888",
+      "txn_date": "11-04-2026",
+      "narration": "NEFT/ZZBKN26041177819/UDAAN OFFICE SUPPL/ZENITH",
+      "ref_col": null,
       "debit": null,
       "credit": "3,350.49",
-      "balance": "69,637.51"
+      "balance": "17,56,739.19"
     },
     {
-      "txn_date": "14-08-2026",
-      "narration": "NEFT-ZZBKN26081433070-KAVERI FABRICATION-INVOICE-XXXX7506-ZZBK0003180",
+      "txn_date": "12-04-2026",
+      "narration": "NEFT/ZZBKN26041233070/KAVERI FABRICATION/ZENITH",
+      "ref_col": null,
       "debit": null,
       "credit": "851.53",
-      "balance": "70,489.04"
+      "balance": "17,57,590.72"
     },
     {
-      "txn_date": "14-08-2026",
-      "narration": "BIL/NEFT/ZZ35430527/VENDOR/TRIKON TEXTILES IN/ZENITH",
+      "txn_date": "12-04-2026",
+      "narration": "NEFT/ZZBKN26041260191/TRIKON TEXTILES IN/VENDOR PAYMENT",
+      "ref_col": null,
       "debit": "52,719.85",
       "credit": null,
-      "balance": "17,769.19"
+      "balance": "17,04,870.87"
     },
     {
-      "txn_date": "14-08-2026",
-      "narration": "UPI/MEGHDOOT OFFICE SU/meghdoot@okzz/PURCHASE/ZENITH/694988103412/ICI738546592",
+      "txn_date": "13-04-2026",
+      "narration": "UPI/P2A/694988103412/MEGHDOOT OFFICE SU/PURCHASE/ZENITH",
+      "ref_col": null,
       "debit": "76,502.86",
       "credit": null,
-      "balance": "-58,733.67"
+      "balance": "16,28,368.01"
     },
     {
-      "txn_date": "15-08-2026",
-      "narration": "UPI/TRIKON FABRICATION/trikon@okzz/PURCHASE/ZENITH/689696104124/ICI127013166",
+      "txn_date": "14-04-2026",
+      "narration": "UPI/P2A/689696104124/TRIKON FABRICATION/PURCHASE/ZENITH",
+      "ref_col": null,
       "debit": "40,629.63",
       "credit": null,
-      "balance": "-99,363.30"
+      "balance": "15,87,738.38"
     },
     {
-      "txn_date": "16-08-2026",
-      "narration": "SMS CHGS",
-      "debit": "17.70",
+      "txn_date": "14-04-2026",
+      "narration": "SMS CHARGES QTR",
+      "ref_col": null,
+      "debit": "15.00",
       "credit": null,
-      "balance": "-99,381.00"
+      "balance": "15,87,723.38"
     },
     {
-      "txn_date": "17-08-2026",
-      "narration": "BIL/NEFT/ZZ23126215/VENDOR/NIMBUS ELECTRICALS/ZENITH",
+      "txn_date": "14-04-2026",
+      "narration": "GST @18% ON SMS CHARGES QTR",
+      "ref_col": null,
+      "debit": "2.70",
+      "credit": null,
+      "balance": "15,87,720.68"
+    },
+    {
+      "txn_date": "14-04-2026",
+      "narration": "NEFT/ZZBKN26041429458/NIMBUS ELECTRICALS/VENDOR PAYMENT",
+      "ref_col": null,
       "debit": "80,921.50",
       "credit": null,
-      "balance": "-1,80,302.50"
+      "balance": "15,06,799.18"
     },
     {
-      "txn_date": "17-08-2026",
-      "narration": "UPI/ANVAY PACKAGING PV/anvay@okzz/PURCHASE/ZENITH/639825316945/ICI611334356",
+      "txn_date": "15-04-2026",
+      "narration": "UPI/P2A/639825316945/ANVAY PACKAGING PV/PURCHASE/ZENITH",
+      "ref_col": null,
       "debit": "2,373.17",
       "credit": null,
-      "balance": "-1,82,675.67"
+      "balance": "15,04,426.01"
     },
     {
-      "txn_date": "18-08-2026",
-      "narration": "BIL/NEFT/ZZ95749887/VENDOR/SAHYADRI HARDWARE/ZENITH",
+      "txn_date": "16-04-2026",
+      "narration": "NEFT/ZZBKN26041606141/SAHYADRI HARDWARE/VENDOR PAYMENT",
+      "ref_col": null,
       "debit": "3,535.69",
       "credit": null,
-      "balance": "-1,86,211.36"
+      "balance": "15,00,890.32"
     },
     {
-      "txn_date": "18-08-2026",
+      "txn_date": "17-04-2026",
       "narration": "CREDIT INTEREST",
+      "ref_col": null,
       "debit": null,
       "credit": "221.19",
-      "balance": "-1,85,990.17"
+      "balance": "15,01,111.51"
     },
     {
-      "txn_date": "18-08-2026",
-      "narration": "UPI/ANVAY OFFICE SUPPL/anvay@okzz/PURCHASE/ZENITH/629199235059/ICI322081402",
+      "txn_date": "17-04-2026",
+      "narration": "UPI/P2A/629199235059/ANVAY OFFICE SUPPL/PURCHASE/ZENITH",
+      "ref_col": null,
       "debit": "94,442.62",
       "credit": null,
-      "balance": "-2,80,432.79"
+      "balance": "14,06,668.89"
     },
     {
-      "txn_date": "19-08-2026",
-      "narration": "BIL/NEFT/ZZ10385734/VENDOR/VISTAR FABRICATION/ZENITH",
+      "txn_date": "18-04-2026",
+      "narration": "NEFT/ZZBKN26041869599/VISTAR FABRICATION/VENDOR PAYMENT",
+      "ref_col": null,
       "debit": "3,627.74",
       "credit": null,
-      "balance": "-2,84,060.53"
+      "balance": "14,03,041.15"
     },
     {
-      "txn_date": "19-08-2026",
-      "narration": "UPI/SHAKTI TEXTILES PV/shakti@okzz/PURCHASE/ZENITH/642152811142/ICI513086400",
+      "txn_date": "18-04-2026",
+      "narration": "UPI/P2A/642152811142/SHAKTI TEXTILES PV/PURCHASE/ZENITH",
+      "ref_col": null,
       "debit": "2,266.58",
       "credit": null,
-      "balance": "-2,86,327.11"
+      "balance": "14,00,774.57"
     },
     {
-      "txn_date": "19-08-2026",
-      "narration": "RTGS/ZZBKRC2026081928941427/ZENITH/VISTAR HARDWARE IN",
+      "txn_date": "18-04-2026",
+      "narration": "RTGS/ZZBKRC2026041828941427/VISTAR HARDWARE IN/ZENITH",
+      "ref_col": null,
       "debit": null,
       "credit": "4,12,343.90",
-      "balance": "1,26,016.79"
+      "balance": "18,13,118.47"
     },
     {
-      "txn_date": "19-08-2026",
-      "narration": "MMT/IMPS/631438192393/ADVANCE/ANVAY ELECTRICALS/ZENITH",
+      "txn_date": "19-04-2026",
+      "narration": "IMPS/P2A/631438192393/ANVAY ELECTRICALS/ZENITH",
+      "ref_col": null,
       "debit": null,
       "credit": "3,503.58",
-      "balance": "1,29,520.37"
+      "balance": "18,16,622.05"
     },
     {
-      "txn_date": "20-08-2026",
-      "narration": "NEFT-ZZBKN26082002958-SAHYADRI FABRICATI-INVOICE-XXXX5844-ZZBK0008177",
+      "txn_date": "19-04-2026",
+      "narration": "NEFT/ZZBKN26041902958/SAHYADRI FABRICATI/ZENITH",
+      "ref_col": null,
       "debit": null,
       "credit": "44,050.66",
-      "balance": "1,73,571.03"
+      "balance": "18,60,672.71"
     },
     {
-      "txn_date": "20-08-2026",
-      "narration": "UPI/PRAGATI OFFICE SUP/pragati@okzz/PURCHASE/ZENITH/642806916552/ICI714012716",
+      "txn_date": "19-04-2026",
+      "narration": "UPI/P2A/642806916552/PRAGATI OFFICE SUP/PURCHASE/ZENITH",
+      "ref_col": null,
       "debit": "12,154.15",
       "credit": null,
-      "balance": "1,61,416.88"
+      "balance": "18,48,518.56"
     },
     {
-      "txn_date": "21-08-2026",
-      "narration": "NEFT-ZZBKN26082126002-TRIKON FABRICATION-INVOICE-XXXX4635-ZZBK0004566",
+      "txn_date": "19-04-2026",
+      "narration": "NEFT/ZZBKN26041926002/TRIKON FABRICATION/ZENITH",
+      "ref_col": null,
       "debit": null,
       "credit": "1,601.54",
-      "balance": "1,63,018.42"
+      "balance": "18,50,120.10"
     },
     {
-      "txn_date": "21-08-2026",
-      "narration": "SMS CHGS",
-      "debit": "17.70",
+      "txn_date": "20-04-2026",
+      "narration": "SMS CHARGES QTR",
+      "ref_col": null,
+      "debit": "15.00",
       "credit": null,
-      "balance": "1,63,000.72"
+      "balance": "18,50,105.10"
     },
     {
-      "txn_date": "22-08-2026",
-      "narration": "CLG/SARTHI IT SERVICES/045760/ZZBK/22.08.2026",
+      "txn_date": "20-04-2026",
+      "narration": "GST @18% ON SMS CHARGES QTR",
+      "ref_col": null,
+      "debit": "2.70",
+      "credit": null,
+      "balance": "18,50,102.40"
+    },
+    {
+      "txn_date": "21-04-2026",
+      "narration": "CHQ PAID/045760/SARTHI IT SERVICES E",
+      "ref_col": "045760",
       "debit": "1,829.35",
       "credit": null,
-      "balance": "1,61,171.37"
+      "balance": "18,48,273.05"
     },
     {
-      "txn_date": "22-08-2026",
-      "narration": "CLG/ANVAY TEXTILES LLP/978219/ZZBK/22.08.2026",
+      "txn_date": "21-04-2026",
+      "narration": "CHQ PAID/978219/ANVAY TEXTILES LLP",
+      "ref_col": "978219",
       "debit": "4,864.92",
       "credit": null,
-      "balance": "1,56,306.45"
+      "balance": "18,43,408.13"
     },
     {
-      "txn_date": "23-08-2026",
-      "narration": "UPI/UDAAN PACKAGING PV/udaan@okzz/PAYMENT/ZENITH/644274053025/ICI266568512",
+      "txn_date": "22-04-2026",
+      "narration": "UPI/P2M/644274053025/UDAAN PACKAGING PV/PAYMENT/ZENITH",
+      "ref_col": null,
       "debit": null,
       "credit": "99,873.27",
-      "balance": "2,56,179.72"
+      "balance": "19,43,281.40"
     },
     {
-      "txn_date": "25-08-2026",
-      "narration": "NEFT-ZZBKN26082597144-SAHYADRI POLYMERS-INVOICE-XXXX8215-ZZBK0007863",
+      "txn_date": "23-04-2026",
+      "narration": "NEFT/ZZBKN26042397144/SAHYADRI POLYMERS/ZENITH",
+      "ref_col": null,
       "debit": null,
       "credit": "1,071.73",
-      "balance": "2,57,251.45"
+      "balance": "19,44,353.13"
     },
     {
-      "txn_date": "25-08-2026",
-      "narration": "NEFT-ZZBKN26082519410-TRIKON POLYMERS PV-INVOICE-XXXX9578-ZZBK0005921",
+      "txn_date": "25-04-2026",
+      "narration": "NEFT/ZZBKN26042519410/TRIKON POLYMERS PV/ZENITH",
+      "ref_col": null,
       "debit": null,
       "credit": "8,23,032.02",
-      "balance": "10,80,283.47"
+      "balance": "27,67,385.15"
     },
     {
-      "txn_date": "27-08-2026",
-      "narration": "RTGS/ZZBKRC2026082797426700/ZENITH/SARTHI TEXTILES TR",
+      "txn_date": "27-04-2026",
+      "narration": "RTGS/ZZBKRC2026042797426700/SARTHI TEXTILES TR/ZENITH",
+      "ref_col": null,
       "debit": null,
       "credit": "40,65,391.40",
-      "balance": "51,45,674.87"
+      "balance": "68,32,776.55"
     },
     {
-      "txn_date": "27-08-2026",
-      "narration": "UPI/MEGHDOOT PACKAGING/meghdoot@okzz/PURCHASE/ZENITH/670973727426/ICI124478557",
+      "txn_date": "27-04-2026",
+      "narration": "UPI/P2A/670973727426/MEGHDOOT PACKAGING/PURCHASE/ZENITH",
+      "ref_col": null,
       "debit": "67,423.41",
       "credit": null,
-      "balance": "50,78,251.46"
+      "balance": "67,65,353.14"
     },
     {
-      "txn_date": "28-08-2026",
-      "narration": "RTGS/ZZBKRC2026082850008214/ZENITH/UDAAN POLYMERS PVT",
+      "txn_date": "28-04-2026",
+      "narration": "RTGS/ZZBKRC2026042850008214/UDAAN POLYMERS PVT/ZENITH",
+      "ref_col": null,
       "debit": null,
       "credit": "3,799.80",
-      "balance": "50,82,051.26"
+      "balance": "67,69,152.94"
     },
     {
-      "txn_date": "28-08-2026",
-      "narration": "UPI/MEGHDOOT IT SERVIC/meghdoot@okzz/PURCHASE/ZENITH/649624949276/ICI535685281",
+      "txn_date": "28-04-2026",
+      "narration": "UPI/P2A/649624949276/MEGHDOOT IT SERVIC/PURCHASE/ZENITH",
+      "ref_col": null,
       "debit": "4,949.31",
       "credit": null,
-      "balance": "50,77,101.95"
+      "balance": "67,64,203.63"
     }
   ],
   "modes": [
@@ -313,6 +379,7 @@
     "UPI",
     "UPI",
     "NEFT",
+    "CHG",
     "CHG",
     "UPI",
     "INT",
@@ -326,6 +393,7 @@
     "NEFT",
     "UPI",
     "UPI",
+    "CHG",
     "CHG",
     "NEFT",
     "UPI",
@@ -339,6 +407,7 @@
     "NEFT",
     "UPI",
     "NEFT",
+    "CHG",
     "CHG",
     "CLG",
     "CLG",
@@ -350,13 +419,60 @@
     "RTGS",
     "UPI"
   ],
+  "branches": [
+    "1043",
+    "1080",
+    "1117",
+    "1154",
+    "1191",
+    "1228",
+    "1265",
+    "1302",
+    "1339",
+    "1376",
+    "1413",
+    "1450",
+    "1487",
+    "1524",
+    "1561",
+    "1598",
+    "1635",
+    "1672",
+    "1709",
+    "1746",
+    "1783",
+    "1820",
+    "1857",
+    "1894",
+    "1931",
+    "1968",
+    "2005",
+    "2042",
+    "2079",
+    "2116",
+    "2153",
+    "2190",
+    "2227",
+    "2264",
+    "2301",
+    "2338",
+    "2375",
+    "2412",
+    "2449",
+    "2486",
+    "2523",
+    "2560",
+    "2597",
+    "2634",
+    "2671"
+  ],
   "derived": [
     {
       "channel": "UPI",
-      "ref_no": "615530200867",
+      "ref_no": "658089713855",
       "cheque_no": null,
-      "direction": "DR",
-      "amount": "15746.60"
+      "direction": "CR",
+      "amount": "28133.61"
     },
     {
       "channel": "IMPS",
@@ -388,7 +504,7 @@
     },
     {
       "channel": "NEFT",
-      "ref_no": "ZZBKN26080807791",
+      "ref_no": "ZZBKN26040707791",
       "cheque_no": null,
       "direction": "CR",
       "amount": "89047.81"
@@ -398,7 +514,14 @@
       "ref_no": null,
       "cheque_no": null,
       "direction": "DR",
-      "amount": "17.70"
+      "amount": "15.00"
+    },
+    {
+      "channel": "CHARGE",
+      "ref_no": null,
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "2.70"
     },
     {
       "channel": "UPI",
@@ -430,7 +553,7 @@
     },
     {
       "channel": "NEFT",
-      "ref_no": null,
+      "ref_no": "ZZBKN26041127044",
       "cheque_no": null,
       "direction": "DR",
       "amount": "4520.64"
@@ -451,21 +574,21 @@
     },
     {
       "channel": "NEFT",
-      "ref_no": "ZZBKN26081377819",
+      "ref_no": "ZZBKN26041177819",
       "cheque_no": null,
       "direction": "CR",
       "amount": "3350.49"
     },
     {
       "channel": "NEFT",
-      "ref_no": "ZZBKN26081433070",
+      "ref_no": "ZZBKN26041233070",
       "cheque_no": null,
       "direction": "CR",
       "amount": "851.53"
     },
     {
       "channel": "NEFT",
-      "ref_no": null,
+      "ref_no": "ZZBKN26041260191",
       "cheque_no": null,
       "direction": "DR",
       "amount": "52719.85"
@@ -489,11 +612,18 @@
       "ref_no": null,
       "cheque_no": null,
       "direction": "DR",
-      "amount": "17.70"
+      "amount": "15.00"
+    },
+    {
+      "channel": "CHARGE",
+      "ref_no": null,
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "2.70"
     },
     {
       "channel": "NEFT",
-      "ref_no": null,
+      "ref_no": "ZZBKN26041429458",
       "cheque_no": null,
       "direction": "DR",
       "amount": "80921.50"
@@ -507,7 +637,7 @@
     },
     {
       "channel": "NEFT",
-      "ref_no": null,
+      "ref_no": "ZZBKN26041606141",
       "cheque_no": null,
       "direction": "DR",
       "amount": "3535.69"
@@ -528,7 +658,7 @@
     },
     {
       "channel": "NEFT",
-      "ref_no": null,
+      "ref_no": "ZZBKN26041869599",
       "cheque_no": null,
       "direction": "DR",
       "amount": "3627.74"
@@ -542,7 +672,7 @@
     },
     {
       "channel": "RTGS",
-      "ref_no": "ZZBKRC2026081928941427",
+      "ref_no": "ZZBKRC2026041828941427",
       "cheque_no": null,
       "direction": "CR",
       "amount": "412343.90"
@@ -556,7 +686,7 @@
     },
     {
       "channel": "NEFT",
-      "ref_no": "ZZBKN26082002958",
+      "ref_no": "ZZBKN26041902958",
       "cheque_no": null,
       "direction": "CR",
       "amount": "44050.66"
@@ -570,7 +700,7 @@
     },
     {
       "channel": "NEFT",
-      "ref_no": "ZZBKN26082126002",
+      "ref_no": "ZZBKN26041926002",
       "cheque_no": null,
       "direction": "CR",
       "amount": "1601.54"
@@ -580,7 +710,14 @@
       "ref_no": null,
       "cheque_no": null,
       "direction": "DR",
-      "amount": "17.70"
+      "amount": "15.00"
+    },
+    {
+      "channel": "CHARGE",
+      "ref_no": null,
+      "cheque_no": null,
+      "direction": "DR",
+      "amount": "2.70"
     },
     {
       "channel": "CHEQUE",
@@ -605,21 +742,21 @@
     },
     {
       "channel": "NEFT",
-      "ref_no": "ZZBKN26082597144",
+      "ref_no": "ZZBKN26042397144",
       "cheque_no": null,
       "direction": "CR",
       "amount": "1071.73"
     },
     {
       "channel": "NEFT",
-      "ref_no": "ZZBKN26082519410",
+      "ref_no": "ZZBKN26042519410",
       "cheque_no": null,
       "direction": "CR",
       "amount": "823032.02"
     },
     {
       "channel": "RTGS",
-      "ref_no": "ZZBKRC2026082797426700",
+      "ref_no": "ZZBKRC2026042797426700",
       "cheque_no": null,
       "direction": "CR",
       "amount": "4065391.40"
@@ -633,7 +770,7 @@
     },
     {
       "channel": "RTGS",
-      "ref_no": "ZZBKRC2026082850008214",
+      "ref_no": "ZZBKRC2026042850008214",
       "cheque_no": null,
       "direction": "CR",
       "amount": "3799.80"
@@ -646,13 +783,21 @@
       "amount": "4949.31"
     }
   ],
-  "defect": "broken_chain",
-  "expected_flags": [
-    "S1"
-  ],
+  "defect": null,
+  "expected_flags": [],
   "acceptable_flags": [],
-  "defect_line": 5,
   "id": "stmt-0023",
-  "scan": "digital",
-  "split": "heldout"
+  "scan": "heavy",
+  "split": "dev",
+  "scan_meta": {
+    "level": "heavy",
+    "seed": 250985307,
+    "rotate90": false,
+    "dpi": 200,
+    "skew_deg": [
+      1.8,
+      -1.77,
+      -1.48
+    ]
+  }
 }

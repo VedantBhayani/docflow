@@ -1,0 +1,24 @@
+{
+  "sandbox-1-2020-08-05_2020-09-18.cer": {
+    "kid": "115F4426617A7938BE1BA06DBEE91A427584EDAB",
+    "portal": "Sandbox",
+    "gen_period": "05/08/2020 - 18/09/2020",
+    "subject_cn": "SURESH C METI",
+    "cert_not_before": "2018-09-12",
+    "cert_not_after": "2020-09-12",
+    "source": "https://einvoice1.gst.gov.in/Documents/prodpubkey1.zip :: prodpubkey1/einv_prod_old_pubkey.cer",
+    "zip_sha256": "ba6493a00d9191d191abbf3be829126a8256840f50c13c630323ac13f93b9a74",
+    "fetched": "2026-10-17"
+  },
+  "sandbox-2-2020-09-18_till-date.cer": {
+    "kid": "EDC57DE1358B300BA9F79340A6696831F3C85047",
+    "portal": "Sandbox",
+    "gen_period": "18/09/2020 - Till Date",
+    "subject_cn": "RAVINDRA H L",
+    "cert_not_before": "2020-09-09",
+    "cert_not_after": "2022-09-09",
+    "source": "https://einvoice1.gst.gov.in/Documents/sandpubkey2.zip :: sandpubkey2/einv_sandbox_18092020.cer",
+    "zip_sha256": "4608540ea5f6090cbea2e46f160619cb873893ac4a0199ddeb460b4a9101c6e4",
+    "fetched": "2026-10-17"
+  }
+}

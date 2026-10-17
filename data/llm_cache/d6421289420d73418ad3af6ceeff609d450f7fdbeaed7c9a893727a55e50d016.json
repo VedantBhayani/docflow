@@ -1,0 +1,61 @@
+{
+ "parsed": {
+  "bank_name": {
+   "text": "Zenith Co-operative Bank Ltd",
+   "word_ids": [
+    "w501",
+    "w502",
+    "w503",
+    "w504"
+   ]
+  },
+  "account_number": {
+   "text": "12679932228384",
+   "word_ids": [
+    "w508"
+   ]
+  },
+  "account_holder": {
+   "text": "Kaveri IT Services Pvt Ltd",
+   "word_ids": [
+    "w515",
+    "w516",
+    "w517",
+    "w518",
+    "w519"
+   ]
+  },
+  "period_from": {
+   "text": "01/06/2026",
+   "word_ids": [
+    "w523"
+   ]
+  },
+  "period_to": {
+   "text": "30/06/2026",
+   "word_ids": [
+    "w526"
+   ]
+  },
+  "opening_balance": {
+   "text": "7,23,998.18",
+   "word_ids": [
+    "w598"
+   ]
+  },
+  "closing_balance": {
+   "text": "5,31,014.71",
+   "word_ids": [
+    "w601"
+   ]
+  }
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "statement_header.v1",
+  "seconds": 1.56,
+  "prompt_tokens": 1584,
+  "completion_tokens": 254,
+  "cache_key": "d6421289420d73418ad3af6ceeff609d450f7fdbeaed7c9a893727a55e50d016"
+ }
+}

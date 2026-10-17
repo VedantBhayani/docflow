@@ -198,8 +198,19 @@ def rule_extract_statement(doc: Document) -> dict[str, RuleValue]:
                     start = end - len(label)
                     w = _amount_for_label(page_rows, r_i, end, row[start:end])
                     if w is not None:
-                        cands.append(RuleValue(w.text, (w.id,)))
+                        cands.append(_with_side(page_rows, w))
         v = _unique(cands, parse_amount)
         if v:
             out[name] = v
     return out
+
+
+def _with_side(page_rows: list[list[Word]], w: Word) -> RuleValue:
+    """Overdraft balances print their side after the amount ("45,000.00 Dr"); dropping it would flip the sign."""
+    for row in page_rows:
+        if w in row:
+            i = row.index(w)
+            nxt = row[i + 1] if i + 1 < len(row) else None
+            if nxt is not None and nxt.text.strip(".").lower() in ("dr", "cr") and nxt.bbox[0] - w.bbox[2] < 0.02:
+                return RuleValue(f"{w.text} {nxt.text}", (w.id, nxt.id))
+    return RuleValue(w.text, (w.id,))

@@ -3,8 +3,10 @@
   "template": "tally",
   "fields": {
     "supplier_name": "Meghdoot Packaging Pvt Ltd",
+    "supplier_address": "Unit 94, Industrial Estate, Noida, Uttar Pradesh",
     "supplier_gstin": "09QGBCM1408N2ZL",
     "recipient_name": "Nimbus Logistics Pvt Ltd",
+    "recipient_address": "Unit 16, Industrial Estate, Coimbatore, Tamil Nadu",
     "recipient_gstin": "33HUUCN9551B3ZU",
     "invoice_no": "DFTEST-2627-0042",
     "invoice_date": "28/08/2026",

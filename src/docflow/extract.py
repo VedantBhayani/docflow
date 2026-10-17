@@ -42,8 +42,10 @@ class LineRef(BaseModel):
 
 class InvoiceExtraction(BaseModel):
     supplier_name: Ref
+    supplier_address: Ref
     supplier_gstin: Ref
     recipient_name: Ref
+    recipient_address: Ref
     recipient_gstin: Ref
     invoice_no: Ref
     invoice_date: Ref
@@ -58,7 +60,7 @@ class InvoiceExtraction(BaseModel):
     lines: list[LineRef]
 
 
-SCHEMAS = {"invoice": (InvoiceExtraction, "invoice.v1")}
+SCHEMAS = {"invoice": (InvoiceExtraction, "invoice.v2")}
 
 
 def _client():

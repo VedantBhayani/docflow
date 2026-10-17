@@ -116,8 +116,10 @@ def truth_tally(spec: InvoiceSpec) -> dict:
         "template": "tally",
         "fields": {
             "supplier_name": spec.supplier.name,
+            "supplier_address": spec.supplier.address,
             "supplier_gstin": spec.supplier.gstin,
             "recipient_name": spec.recipient.name,
+            "recipient_address": spec.recipient.address,
             "recipient_gstin": spec.recipient.gstin,
             "invoice_no": spec.invoice_no,
             "invoice_date": spec.invoice_date.strftime("%d/%m/%Y"),
@@ -163,7 +165,7 @@ def render_tally(spec: InvoiceSpec, path: Path) -> dict:
     c.setFont("Helvetica-Bold", 11)
     c.drawString(36, y, f["supplier_name"])
     c.setFont("Helvetica", 8.5)
-    c.drawString(36, y - 13, spec.supplier.address)
+    c.drawString(36, y - 13, f["supplier_address"])
     c.drawString(36, y - 26, f"GSTIN: {f['supplier_gstin']}")
     c.drawString(36, y - 39, f"State: {STATES[spec.supplier.state_code]} ({spec.supplier.state_code})")
 
@@ -178,7 +180,7 @@ def render_tally(spec: InvoiceSpec, path: Path) -> dict:
     c.drawString(36, y, "Bill To:")
     c.setFont("Helvetica", 8.5)
     c.drawString(36, y - 13, f["recipient_name"])
-    c.drawString(36, y - 26, spec.recipient.address)
+    c.drawString(36, y - 26, f["recipient_address"])
     c.drawString(36, y - 39, f"GSTIN: {f['recipient_gstin']}")
 
     # Line-item table

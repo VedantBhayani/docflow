@@ -1,8 +1,9 @@
 from docflow.checks import run_invoice_checks
+from docflow.gstin import check_char
 from docflow.models import Field, FieldStatus
 
 VALID_A = "27AAACU2414K1ZF"  # Axis Bank, published
-VALID_B = "27AABCI8842G1ZF"  # IDBI Bank, published
+VALID_B = "24AAACU2414K1Z" + check_char("24AAACU2414K1Z")  # valid check digit, fictional, Gujarat
 
 
 def F(name, text):
@@ -10,20 +11,22 @@ def F(name, text):
 
 
 def invoice(**over):
-    """A correct inter-state invoice, hand-computed:
+    """A correct inter-state invoice (Maharashtra -> Gujarat), hand-computed:
     line 1: 10 x 100.00 = 1,000.00 @18% -> IGST 180.00
     line 2: 2 x 250.25 = 500.50 @5%    -> IGST 25.03 (25.025 rounded half-up)
     taxable 1,500.50; IGST 205.03; pre-round 1,705.53; round-off -0.53; grand 1,705.00
     """
     fields = {
-        "supplier_gstin": VALID_A, "recipient_gstin": VALID_B,
+        "supplier_name": "Vistar Hardware Pvt Ltd", "supplier_address": "Unit 4, MIDC Road, Pune, Maharashtra", "supplier_gstin": VALID_A,
+        "recipient_name": "Kaveri Logistics LLP", "recipient_address": "Unit 9, Trade Centre, Surat, Gujarat", "recipient_gstin": VALID_B,
+        "invoice_no": "DFTEST-2627-0007", "invoice_date": "03/10/2026", "place_of_supply": "Gujarat (24)", "reverse_charge": "No",
         "taxable_total": "1,500.50", "cgst_total": "0.00", "sgst_total": "0.00", "igst_total": "205.03",
         "round_off": "-0.53", "grand_total": "1,705.00",
     }
     fields.update(over.pop("fields", {}))
     lines = [
-        {"qty": "10", "unit_price": "100.00", "taxable_value": "1,000.00", "gst_rate": "18%", "cgst": "0.00", "sgst": "0.00", "igst": "180.00"},
-        {"qty": "2", "unit_price": "250.25", "taxable_value": "500.50", "gst_rate": "5%", "cgst": "0.00", "sgst": "0.00", "igst": "25.03"},
+        {"description": "LED panel light 18W", "hsn": "94051900", "uqc": "NOS", "qty": "10", "unit_price": "100.00", "taxable_value": "1,000.00", "gst_rate": "18%", "cgst": "0.00", "sgst": "0.00", "igst": "180.00"},
+        {"description": "Hand sanitiser 500 ml", "hsn": "38089400", "uqc": "BTL", "qty": "2", "unit_price": "250.25", "taxable_value": "500.50", "gst_rate": "5%", "cgst": "0.00", "sgst": "0.00", "igst": "25.03"},
     ]
     for i, patch in over.pop("lines", {}).items():
         lines[i].update(patch)

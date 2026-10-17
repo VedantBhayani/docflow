@@ -6,7 +6,7 @@ from dataclasses import dataclass, field
 from enum import StrEnum
 from pathlib import Path
 
-from docflow.checks import run_invoice_checks
+from docflow.checks import check_duplicates, run_invoice_checks
 from docflow.extract import extract
 from docflow.ground import ground_ref
 from docflow.ingest import load, serialise
@@ -69,8 +69,24 @@ def process(path: str | Path, kind: str = "invoice") -> DocResult:
         for i, line in enumerate(parsed.lines)
     ]
     flags = evidence_flags(fields, lines, INVOICE_KEY_FIELDS) + run_invoice_checks(fields, lines)
-    status = DocStatus.FLAGGED if any(f.severity == Severity.BLOCKING for f in flags) else DocStatus.CLEAN
+    status = _status(flags)
     return DocResult(
         path=str(path), sha256=doc.sha256, kind=kind, status=status, fields=fields, lines=lines, flags=flags,
         page_sources=[p.source for p in doc.pages], llm=meta, seconds=round(time.perf_counter() - t0, 2),
     )
+
+
+def _status(flags: list[Flag]) -> DocStatus:
+    return DocStatus.FLAGGED if any(f.severity == Severity.BLOCKING for f in flags) else DocStatus.CLEAN
+
+
+def process_batch(paths: list[str | Path], kind: str = "invoice") -> list[DocResult]:
+    """Process every document, then run batch-level Checks (A3 duplicates) across them."""
+    results = [process(p, kind=kind) for p in paths]
+    if kind == "invoice":
+        dupes = check_duplicates({r.path: r.fields for r in results})
+        for r in results:
+            if r.path in dupes:
+                r.flags.extend(dupes[r.path])
+                r.status = _status(r.flags)
+    return results

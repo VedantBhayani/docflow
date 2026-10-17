@@ -9,3 +9,6 @@ data/synthetic/statements/_digital_sources/
 
 # n8n runtime folders (documents and registers never committed)
 n8n/work/
+
+# Real-world spot check: your own documents never enter git
+spot_check/

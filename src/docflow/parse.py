@@ -10,6 +10,7 @@ from decimal import Decimal, InvalidOperation
 
 _CURRENCY = re.compile(r"(?i)(?<![a-z])(rs\.?|inr)(?![a-z])|₹")
 _AMOUNT = re.compile(r"^-?\d+(\.\d+)?$")
+_OCR_DOTTED = re.compile(r"^-?\d{1,3}([.,]\d{2,3})*\.\d{2,3}([.,]\d{2,3})*\.\d{2}$")  # 22.014.48, 3.25,635.05
 _DATE_FORMATS = ["%d/%m/%Y", "%d-%m-%Y", "%d.%m.%Y", "%d-%b-%Y", "%d %b %Y", "%d-%B-%Y", "%d %B %Y", "%Y-%m-%d", "%d/%m/%y", "%d-%m-%y"]
 
 
@@ -18,7 +19,11 @@ def parse_amount(text: str | None) -> Decimal | None:
         return None
     s = _CURRENCY.sub("", text).strip()
     negative = s.startswith("(") and s.endswith(")")
-    s = s.strip("()").replace(",", "").replace(" ", "")
+    s = s.strip("()").replace(" ", "")
+    if _OCR_DOTTED.match(s):  # OCR read thousand-separator commas as dots: only the last dot is decimal
+        head, _, frac = s.rpartition(".")
+        s = head.replace(".", "").replace(",", "") + "." + frac
+    s = s.replace(",", "")
     if not _AMOUNT.match(s):
         return None
     try:

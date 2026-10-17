@@ -30,7 +30,7 @@ class CheckInfo:
 
 
 CATALOGUE = [
-    CheckInfo("E1", B, "A value's text is not printed where the extractor says it is (not grounded).", "DocFlow evidence rule"),
+    CheckInfo("E1", B, "A value's text is not printed where the extractor says it is (not grounded). Blocking for key fields, tax totals, place of supply and line amounts/rates; warning for names, addresses, IRN, descriptions and units.", "DocFlow evidence rule"),
     CheckInfo("E2", B, "A key field was not found on the document.", "DocFlow evidence rule"),
     CheckInfo("E3", B, "Independent sources (LLM, rule extractor, QR) disagree on a field.", "DocFlow evidence rule"),
     CheckInfo("G1", B, "GSTIN is in the 15-character GSTIN format.", "GSTIN structure, research note 01, section G"),

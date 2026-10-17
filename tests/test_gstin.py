@@ -48,3 +48,8 @@ def test_entity_number_zero_fails_g4():
 
 def test_spaces_and_lowercase_are_normalised():
     assert validate_gstin(" 27aaacu2414k1zf ") == []
+
+
+def test_ocr_punctuation_around_a_gstin_is_ignored():
+    assert validate_gstin(".27AAACU2414K1ZF") == []
+    assert validate_gstin("27AAACU2414K1ZF,") == []

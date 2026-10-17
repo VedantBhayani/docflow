@@ -20,6 +20,8 @@ class Page:
     height: float
     source: str  # "pdf_text" | "ocr"
     words: list[Word]
+    mean_confidence: float = 1.0
+    transform: dict | None = None  # OCR pages: {"quarter_turns", "deskew_deg", "dpi"} to reproduce the evidence image
 
 
 @dataclass

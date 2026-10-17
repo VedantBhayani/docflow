@@ -91,3 +91,25 @@ def test_completion_stays_on_the_same_visual_row():
     a = Word(id="w1", text="18", page=0, bbox=(0.1, 0.50, 0.13, 0.52))
     b = Word(id="w2", text="%", page=0, bbox=(0.1, 0.60, 0.13, 0.62))  # next line down
     assert ground_ref("lines.0.gst_rate", "18 %", ["w1"], {"w1": a, "w2": b}).status == FieldStatus.UNGROUNDED
+
+
+def test_amount_corrected_from_ocr_noise_grounds_on_exact_numeric_equality():
+    idx = _row("IGST:", "2.847.88")
+    f = ground_ref("igst_total", "2,847.88", ["w2"], idx)
+    assert f.status == FieldStatus.GROUNDED and f.match_score == 85.0
+
+
+def test_numeric_grounding_still_rejects_a_different_number():
+    idx = _row("IGST:", "2.847.88")
+    assert ground_ref("igst_total", "2,847.89", ["w2"], idx).status == FieldStatus.UNGROUNDED
+
+
+def test_numeric_grounding_only_applies_to_amount_fields():
+    idx = _row("No:", "2.847.88")
+    assert ground_ref("invoice_no", "2,847.88", ["w2"], idx).status == FieldStatus.UNGROUNDED
+
+
+def test_numeric_grounding_finds_the_amount_inside_a_span_that_includes_its_label():
+    idx = _row("Sub", "Total", "13.379.86")
+    f = ground_ref("taxable_total", "13,379.86", ["w1", "w2", "w3"], idx)
+    assert f.status == FieldStatus.GROUNDED and f.evidence.bbox == idx["w3"].bbox

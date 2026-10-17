@@ -1,0 +1,267 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Anvay Textiles Pvt Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 215, Business Park, Hyderabad, Telangana",
+   "word_ids": [
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "36JXKCA0706F3ZG",
+   "word_ids": [
+    "w12"
+   ]
+  },
+  "recipient_name": {
+   "text": "Sahyadri Stationers Pvt Ltd",
+   "word_ids": [
+    "w31",
+    "w32",
+    "w33",
+    "w34"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 155, Industrial Estate, Kolkata, West Bengal",
+   "word_ids": [
+    "w35",
+    "w36",
+    "w37",
+    "w38",
+    "w39",
+    "w40",
+    "w41"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "19XCLCS6476L3ZM",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0085",
+   "word_ids": [
+    "w17"
+   ]
+  },
+  "invoice_date": {
+   "text": "11-07-2026",
+   "word_ids": [
+    "w19"
+   ]
+  },
+  "place_of_supply": {
+   "text": "West Bengal (19)",
+   "word_ids": [
+    "w23",
+    "w24",
+    "w25"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w29"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "3.25,635.05",
+   "word_ids": [
+    "w91"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w95"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w99"
+   ]
+  },
+  "igst_total": {
+   "text": "18.146.87",
+   "word_ids": [
+    "w103"
+   ]
+  },
+  "round_off": {
+   "text": "0.08",
+   "word_ids": [
+    "w107"
+   ]
+  },
+  "grand_total": {
+   "text": "3,43,782.00",
+   "word_ids": [
+    "w111"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w57",
+      "w58",
+      "w59"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w60"
+     ]
+    },
+    "qty": {
+     "text": "40",
+     "word_ids": [
+      "w61"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w62"
+     ]
+    },
+    "unit_price": {
+     "text": "7,782.20",
+     "word_ids": [
+      "w63"
+     ]
+    },
+    "taxable_value": {
+     "text": "3.11.288.00",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w65",
+      "w66"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "igst": {
+     "text": "15.564.40",
+     "word_ids": [
+      "w69"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w70",
+      "w71",
+      "w72",
+      "w73",
+      "w74",
+      "w75",
+      "w76"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w77"
+     ]
+    },
+    "qty": {
+     "text": "5",
+     "word_ids": [
+      "w78"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w79"
+     ]
+    },
+    "unit_price": {
+     "text": "2.869.41",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "taxable_value": {
+     "text": "14.347.05",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w82",
+      "w83"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "igst": {
+     "text": "2.582.47",
+     "word_ids": [
+      "w86"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 4.8,
+  "prompt_tokens": 1712,
+  "completion_tokens": 1117,
+  "cache_key": "49827fb92d73e52961421a7d6c1d7a79ea4017a1dc2fc9ce76f37b0489ca8870"
+ }
+}

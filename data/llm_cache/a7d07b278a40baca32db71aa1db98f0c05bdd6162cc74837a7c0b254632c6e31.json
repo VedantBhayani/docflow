@@ -1,0 +1,337 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Anvay IT Services Industries Pvt Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4",
+    "w5",
+    "w6"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 121, MIDC Road, Bengaluru, Karnataka",
+   "word_ids": [
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11",
+    "w12"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "29PXQCA1630T1Z7",
+   "word_ids": [
+    "w14",
+    "w15",
+    "w16"
+   ]
+  },
+  "recipient_name": {
+   "text": "Sarthi Logistics LLP",
+   "word_ids": [
+    "w21",
+    "w22",
+    "w23"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 113, Business Park, Lucknow, Uttar Pradesh",
+   "word_ids": [
+    "w30",
+    "w31",
+    "w32",
+    "w33",
+    "w34",
+    "w35",
+    "w36"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "09FQFCS7641B3ZA",
+   "word_ids": [
+    "w44",
+    "w45"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0050",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "invoice_date": {
+   "text": "23 Jun 2026",
+   "word_ids": [
+    "w27",
+    "w28",
+    "w29"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Uttar Pradesh (09)",
+   "word_ids": [
+    "w41",
+    "w42",
+    "w43"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w49"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "1,19,798.81",
+   "word_ids": [
+    "w103",
+    "w104",
+    "w105"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w106",
+    "w107"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w108",
+    "w109"
+   ]
+  },
+  "igst_total": {
+   "text": "6,301.10",
+   "word_ids": [
+    "w110",
+    "w111"
+   ]
+  },
+  "round_off": {
+   "text": "0.09",
+   "word_ids": [
+    "w112",
+    "w113"
+   ]
+  },
+  "grand_total": {
+   "text": "1,26,100.00",
+   "word_ids": [
+    "w114",
+    "w115"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w66",
+      "w67",
+      "w68"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "unit_price": {
+     "text": "42.20",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,055.00",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w74"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w76"
+     ]
+    },
+    "igst": {
+     "text": "52.75",
+     "word_ids": [
+      "w77"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w79",
+      "w80"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "unit_price": {
+     "text": "2,393.56",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,393.56",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "igst": {
+     "text": "430.84",
+     "word_ids": [
+      "w89"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w91",
+      "w92",
+      "w93"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "unit_price": {
+     "text": "4,654.01",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,16,350.25",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "igst": {
+     "text": "5,817.51",
+     "word_ids": [
+      "w102"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 5.87,
+  "prompt_tokens": 1726,
+  "completion_tokens": 1399,
+  "cache_key": "a7d07b278a40baca32db71aa1db98f0c05bdd6162cc74837a7c0b254632c6e31"
+ }
+}

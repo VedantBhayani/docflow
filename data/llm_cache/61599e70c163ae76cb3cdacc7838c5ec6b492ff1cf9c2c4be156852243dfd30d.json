@@ -1,0 +1,396 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Udaan Textiles LLP",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 161, Business Park, Kolkata, West Bengal",
+   "word_ids": [
+    "w4",
+    "w5",
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "19MTMCU9380G2Z6",
+   "word_ids": [
+    "w11"
+   ]
+  },
+  "recipient_name": {
+   "text": "Sarthi Logistics Industries Pvt Ltd",
+   "word_ids": [
+    "w30",
+    "w31",
+    "w32",
+    "w33",
+    "w34"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 33, Business Park, Kolkata, West Bengal",
+   "word_ids": [
+    "w35",
+    "w36",
+    "w37",
+    "w38",
+    "w39",
+    "w40",
+    "w41"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "19BUOCS5832J1ZK",
+   "word_ids": [
+    "w43"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0077",
+   "word_ids": [
+    "w16"
+   ]
+  },
+  "invoice_date": {
+   "text": "27-04-2026",
+   "word_ids": [
+    "w18"
+   ]
+  },
+  "place_of_supply": {
+   "text": "West Bengal (19)",
+   "word_ids": [
+    "w22",
+    "w23",
+    "w24"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w28"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "29,471.57",
+   "word_ids": [
+    "w118"
+   ]
+  },
+  "cgst_total": {
+   "text": "806.54",
+   "word_ids": [
+    "w122"
+   ]
+  },
+  "sgst_total": {
+   "text": "806.54",
+   "word_ids": [
+    "w126"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w130"
+   ]
+  },
+  "round_off": {
+   "text": "0.35",
+   "word_ids": [
+    "w134"
+   ]
+  },
+  "grand_total": {
+   "text": "31,085.00",
+   "word_ids": [
+    "w138"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w57",
+      "w58",
+      "w59",
+      "w60"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w61"
+     ]
+    },
+    "qty": {
+     "text": "2",
+     "word_ids": [
+      "w62"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w63"
+     ]
+    },
+    "unit_price": {
+     "text": "536.55",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,073.10",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "gst_rate": {
+     "text": "18 %",
+     "word_ids": [
+      "w66",
+      "w67"
+     ]
+    },
+    "cgst": {
+     "text": "96.58",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "sgst": {
+     "text": "96.58",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w70"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w72",
+      "w73",
+      "w74"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w75"
+     ]
+    },
+    "qty": {
+     "text": "5",
+     "word_ids": [
+      "w76"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w77"
+     ]
+    },
+    "unit_price": {
+     "text": "5,148.35",
+     "word_ids": [
+      "w78"
+     ]
+    },
+    "taxable_value": {
+     "text": "25,741.75",
+     "word_ids": [
+      "w79"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w80",
+      "w81"
+     ]
+    },
+    "cgst": {
+     "text": "643.54",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "sgst": {
+     "text": "643.54",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w84"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w86",
+      "w87"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w90"
+     ]
+    },
+    "unit_price": {
+     "text": "2,499.04",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,499.04",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w93",
+      "w94"
+     ]
+    },
+    "cgst": {
+     "text": "62.48",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "sgst": {
+     "text": "62.48",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w97"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Stretch wrap film 23 micron",
+     "word_ids": [
+      "w99",
+      "w100",
+      "w101",
+      "w102",
+      "w103"
+     ]
+    },
+    "hsn": {
+     "text": "39201012",
+     "word_ids": [
+      "w104"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w105"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w106"
+     ]
+    },
+    "unit_price": {
+     "text": "157.68",
+     "word_ids": [
+      "w107"
+     ]
+    },
+    "taxable_value": {
+     "text": "157.68",
+     "word_ids": [
+      "w108"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w109",
+      "w110"
+     ]
+    },
+    "cgst": {
+     "text": "3.94",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "sgst": {
+     "text": "3.94",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w113"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 7.15,
+  "prompt_tokens": 1970,
+  "completion_tokens": 1605,
+  "cache_key": "61599e70c163ae76cb3cdacc7838c5ec6b492ff1cf9c2c4be156852243dfd30d"
+ }
+}

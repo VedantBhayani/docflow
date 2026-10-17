@@ -66,3 +66,24 @@ What was run, on what, and what came out. This includes the things that failed o
 - Root cause of the 27 errors: plain serialisation hid column boundaries. Numbers inside descriptions ("23 micron", "500 ml") were read as HSN codes, and side-by-side Supplier/Recipient blocks merged.
 - Remaining error: the recipient address on the missing-GSTIN defect document picked up the table header word "Sl". It is a real error and counts against accuracy. Grounding cannot catch it because the LLM pointed at the word it copied.
 - Blocking flags matched labels on every dev digital document except the 2 duplicates, which only `process_batch` checks (the diagnosis script calls `process`).
+
+## 2026-10-17: OCR route for scans (build ticket 05)
+
+`docflow.ocr` handles pages with no text layer:
+- Landscape pages are oriented by trying 90° and 270° and keeping the higher OCR confidence.
+- Pages are deskewed by maximising the row-profile variance over ±4°. Tests recover known rotations within 0.3°.
+- RapidOCR reads the page at 300 dpi and returns word boxes. P1 (poor scan) fires when mean confidence < 0.80.
+- OCR results are cached per (document, page, OCR version) in `data/ocr_cache/`, which is committed, and the transform is recorded so the review UI can reproduce the image the boxes refer to.
+- RapidOCR returns a fake `('', 1.0, None)` "word" with confidence 1.0 when it reads nothing. That is now guarded, and a pure-noise test page proves P1 fires.
+
+**Dev iterations on scans** (all changes general OCR rules, made **while looking at dev scans**):
+
+| Step | Light: fields / flags as labelled | Heavy: fields / flags as labelled | Change |
+|---|---|---|---|
+| first run | 99.0% / 4 of 11 | 85.2% / 0 of 7 | — |
+| + value-based scoring, E1 severity, glued-label split | 99.2% / 11 of 11 | 96.8% / 1 of 7 | `GSTIN:07…` split at ingest; E1 is a warning for fields no Check uses (IRN, names, addresses) |
+| + OCR amount repair, numeric grounding, GSTIN normalisation | 99.2% / 11 of 11 | 97.7% / 7 of 7 | `22.014.48` and `3.25,635.05` read as amounts; an amount field grounds on exact numeric equality with a printed word; non-alphanumerics stripped from GSTINs |
+
+- The digital dev split is unchanged at 931/932.
+- **These dev numbers are optimistic by construction:** I changed code after looking at these 18 scans. The held-out run is the real test.
+- **Known residual:** the IRN, printed at 6.5 pt, is often garbled by OCR on scans. It raises an E1 warning, not a block, and the QR carries the IRN anyway.

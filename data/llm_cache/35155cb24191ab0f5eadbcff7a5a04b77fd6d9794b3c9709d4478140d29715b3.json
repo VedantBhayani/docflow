@@ -1,0 +1,395 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Nimbus Fabrication Traders",
+   "word_ids": [
+    "w3",
+    "w4",
+    "w5"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 126, Business Park, Chennai, Tamil Nadu",
+   "word_ids": [
+    "w9",
+    "w10",
+    "w11",
+    "w12",
+    "w13",
+    "w14",
+    "w15"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "33LDWCN5287F1ZG",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "recipient_name": {
+   "text": "Aarav IT Services LLP",
+   "word_ids": [
+    "w36",
+    "w37",
+    "w38",
+    "w39"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 198, Trade Centre, Coimbatore, Tamil Nadu",
+   "word_ids": [
+    "w40",
+    "w41",
+    "w42",
+    "w43",
+    "w44",
+    "w45",
+    "w46"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "33IVYCA7696S3ZR",
+   "word_ids": [
+    "w48"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0024",
+   "word_ids": [
+    "w8"
+   ]
+  },
+  "invoice_date": {
+   "text": "11/07/2026",
+   "word_ids": [
+    "w18"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Tamil Nadu (33)",
+   "word_ids": [
+    "w24",
+    "w25",
+    "w26"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w33"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "57.472.23",
+   "word_ids": [
+    "w120"
+   ]
+  },
+  "cgst_total": {
+   "text": "1,477.02",
+   "word_ids": [
+    "w122"
+   ]
+  },
+  "sgst_total": {
+   "text": "1,477.02",
+   "word_ids": [
+    "w124"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w126"
+   ]
+  },
+  "round_off": {
+   "text": "-0.27",
+   "word_ids": [
+    "w129"
+   ]
+  },
+  "grand_total": {
+   "text": "60,426.00",
+   "word_ids": [
+    "w132"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w62",
+      "w63",
+      "w64"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "qty": {
+     "text": "10",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "unit_price": {
+     "text": "4.951.03",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "taxable_value": {
+     "text": "49.510.30",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "cgst": {
+     "text": "1.237.76",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "sgst": {
+     "text": "1.237.76",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w73"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w75",
+      "w76",
+      "w77",
+      "w78"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w79"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "unit_price": {
+     "text": "618.69",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "taxable_value": {
+     "text": "618.69",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "cgst": {
+     "text": "55.68",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "sgst": {
+     "text": "55.68",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w87"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Stretch wrap film 23 micron",
+     "word_ids": [
+      "w89",
+      "w90",
+      "w91",
+      "w92",
+      "w93"
+     ]
+    },
+    "hsn": {
+     "text": "39201012",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "qty": {
+     "text": "3",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "unit_price": {
+     "text": "201.33",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "taxable_value": {
+     "text": "603.99",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "cgst": {
+     "text": "15.10",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "sgst": {
+     "text": "15.10",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w102"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w103",
+      "w104",
+      "w105",
+      "w106",
+      "w107",
+      "w108"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w109"
+     ]
+    },
+    "qty": {
+     "text": "25",
+     "word_ids": [
+      "w110"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w111"
+     ]
+    },
+    "unit_price": {
+     "text": "269.57",
+     "word_ids": [
+      "w112"
+     ]
+    },
+    "taxable_value": {
+     "text": "6.739.25",
+     "word_ids": [
+      "w113"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w114"
+     ]
+    },
+    "cgst": {
+     "text": "168.48",
+     "word_ids": [
+      "w115"
+     ]
+    },
+    "sgst": {
+     "text": "168.48",
+     "word_ids": [
+      "w116"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w117"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 7.61,
+  "prompt_tokens": 1911,
+  "completion_tokens": 1627,
+  "cache_key": "35155cb24191ab0f5eadbcff7a5a04b77fd6d9794b3c9709d4478140d29715b3"
+ }
+}

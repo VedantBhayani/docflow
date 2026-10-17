@@ -1,0 +1,198 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Nimbus Logistics Pvt Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4",
+    "w5"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 169, Industrial Estate, Mysuru, Karnataka",
+   "word_ids": [
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "29THCCN7596M1ZM",
+   "word_ids": [
+    "w13"
+   ]
+  },
+  "recipient_name": {
+   "text": "Meghdoot Electricals Pvt Ltd",
+   "word_ids": [
+    "w32",
+    "w33",
+    "w34",
+    "w35"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 69, Industrial Estate, Kolkata, West Bengal",
+   "word_ids": [
+    "w36",
+    "w37",
+    "w38",
+    "w39",
+    "w40",
+    "w41",
+    "w42"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "19OSQCM3216I2ZQ",
+   "word_ids": [
+    "w44"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0078",
+   "word_ids": [
+    "w18"
+   ]
+  },
+  "invoice_date": {
+   "text": "10-06-2026",
+   "word_ids": [
+    "w20"
+   ]
+  },
+  "place_of_supply": {
+   "text": "West Bengal (19)",
+   "word_ids": [
+    "w24",
+    "w25",
+    "w26"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w30"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "2,195.98",
+   "word_ids": [
+    "w74"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w78"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w82"
+   ]
+  },
+  "igst_total": {
+   "text": "109.80",
+   "word_ids": [
+    "w86"
+   ]
+  },
+  "round_off": {
+   "text": "0.22",
+   "word_ids": [
+    "w90"
+   ]
+  },
+  "grand_total": {
+   "text": "2,306.00",
+   "word_ids": [
+    "w94"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Freight charges",
+     "word_ids": [
+      "w58",
+      "w59"
+     ]
+    },
+    "hsn": {
+     "text": "996511",
+     "word_ids": [
+      "w60"
+     ]
+    },
+    "qty": {
+     "text": "1",
+     "word_ids": [
+      "w61"
+     ]
+    },
+    "uqc": {
+     "text": "OTH",
+     "word_ids": [
+      "w62"
+     ]
+    },
+    "unit_price": {
+     "text": "2,195.98",
+     "word_ids": [
+      "w63"
+     ]
+    },
+    "taxable_value": {
+     "text": "2,195.98",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "gst_rate": {
+     "text": "5 %",
+     "word_ids": [
+      "w65",
+      "w66"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "igst": {
+     "text": "109.80",
+     "word_ids": [
+      "w69"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 3.41,
+  "prompt_tokens": 1528,
+  "completion_tokens": 807,
+  "cache_key": "88d30e09af4d22dd5f922bdac5da6116917bfbbccf1f4660e7cc9f101695ee36"
+ }
+}

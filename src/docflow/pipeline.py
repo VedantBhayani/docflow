@@ -15,6 +15,9 @@ from docflow.models import Field, FieldStatus, Flag, Severity
 from docflow.parse import parse_amount, parse_date
 from docflow.rules import RuleValue, rule_extract
 
+# E1 is blocking only where an unproven value would feed a Check; elsewhere it is a warning.
+CHECKED_HEADER_FIELDS = {"cgst_total", "sgst_total", "igst_total", "round_off", "place_of_supply"}
+CHECKED_LINE_FIELDS = {"qty", "unit_price", "taxable_value", "gst_rate", "cgst", "sgst", "igst"}
 INVOICE_KEY_FIELDS = ("supplier_gstin", "recipient_gstin", "invoice_no", "invoice_date", "taxable_total", "grand_total")
 
 
@@ -63,11 +66,21 @@ def corroborate(fields: dict[str, Field], second: dict[str, RuleValue], source: 
                 f.sources.append(source)
 
 
+def scan_flags(doc) -> list[Flag]:
+    from docflow.ocr import POOR_SCAN_CONFIDENCE
+
+    return [
+        Flag("P1", Severity.BLOCKING, f"Page {p.index + 1} is a poor scan (mean OCR confidence {p.mean_confidence:.2f} < {POOR_SCAN_CONFIDENCE}); check every value against the paper.", ())
+        for p in doc.pages if p.source == "ocr" and p.mean_confidence < POOR_SCAN_CONFIDENCE
+    ]
+
+
 def evidence_flags(fields: dict[str, Field], lines: list[dict[str, Field]], key_fields: tuple[str, ...]) -> list[Flag]:
     flags = []
     for name, f in fields.items():
         if f.status == FieldStatus.UNGROUNDED:
-            flags.append(Flag("E1", Severity.BLOCKING, f"'{name}' value '{f.text}' could not be found where the extractor said it is printed.", (name,)))
+            sev = Severity.BLOCKING if name in key_fields or name in CHECKED_HEADER_FIELDS else Severity.WARNING
+            flags.append(Flag("E1", sev, f"'{name}' value '{f.text}' could not be found where the extractor said it is printed.", (name,)))
         elif f.status == FieldStatus.MISSING and name in key_fields:
             flags.append(Flag("E2", Severity.BLOCKING, f"Key field '{name}' was not found on the document.", (name,)))
         elif f.status == FieldStatus.CONFLICT:
@@ -76,7 +89,8 @@ def evidence_flags(fields: dict[str, Field], lines: list[dict[str, Field]], key_
     for i, ln in enumerate(lines):
         for name, f in ln.items():
             if f.status == FieldStatus.UNGROUNDED:
-                flags.append(Flag("E1", Severity.BLOCKING, f"Line {i + 1} '{name}' value '{f.text}' could not be found where the extractor said it is printed.", (f.name,)))
+                sev = Severity.BLOCKING if name in CHECKED_LINE_FIELDS else Severity.WARNING
+                flags.append(Flag("E1", sev, f"Line {i + 1} '{name}' value '{f.text}' could not be found where the extractor said it is printed.", (f.name,)))
     return flags
 
 
@@ -85,8 +99,6 @@ def process(path: str | Path, kind: str = "invoice") -> DocResult:
         raise NotImplementedError(f"kind={kind} arrives in build ticket 08")
     t0 = time.perf_counter()
     doc = load(path)
-    if any(p.source == "needs_ocr" for p in doc.pages):
-        raise NotImplementedError("scanned pages need the OCR route (build ticket 05)")
     parsed, meta = extract(kind, serialise(doc))
     index = {w.id: w for w in doc.words()}
 
@@ -96,7 +108,7 @@ def process(path: str | Path, kind: str = "invoice") -> DocResult:
         for i, line in enumerate(parsed.lines)
     ]
     corroborate(fields, rule_extract(doc))
-    flags = evidence_flags(fields, lines, INVOICE_KEY_FIELDS) + run_invoice_checks(fields, lines)
+    flags = scan_flags(doc) + evidence_flags(fields, lines, INVOICE_KEY_FIELDS) + run_invoice_checks(fields, lines)
     status = _status(flags)
     return DocResult(
         path=str(path), sha256=doc.sha256, kind=kind, status=status, fields=fields, lines=lines, flags=flags,

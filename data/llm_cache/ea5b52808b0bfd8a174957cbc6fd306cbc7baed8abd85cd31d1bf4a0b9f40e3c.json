@@ -1,0 +1,330 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Anvay Stationers LLP",
+   "word_ids": [
+    "w3",
+    "w4"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 64, Industrial Estate, New Delhi, Delhi",
+   "word_ids": [
+    "w9",
+    "w10",
+    "w11",
+    "w12",
+    "w13",
+    "w14",
+    "w15"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "07WKRCA1275Q1ZS",
+   "word_ids": [
+    "w19"
+   ]
+  },
+  "recipient_name": {
+   "text": "Anvay Fabrication LLP",
+   "word_ids": [
+    "w33",
+    "w34",
+    "w35"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 4, MIDC Road, New Delhi, Delhi",
+   "word_ids": [
+    "w36",
+    "w37",
+    "w38",
+    "w39",
+    "w40",
+    "w41",
+    "w42"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "07LVTCA0626Y3Z4",
+   "word_ids": [
+    "w44"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0020",
+   "word_ids": [
+    "w8"
+   ]
+  },
+  "invoice_date": {
+   "text": "15/06/2026",
+   "word_ids": [
+    "w18"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Delhi (07)",
+   "word_ids": [
+    "w23",
+    "w24"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w30"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "19,201.38",
+   "word_ids": [
+    "w107"
+   ]
+  },
+  "cgst_total": {
+   "text": "769.97",
+   "word_ids": [
+    "w109"
+   ]
+  },
+  "sgst_total": {
+   "text": "769.97",
+   "word_ids": [
+    "w111"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w113"
+   ]
+  },
+  "round_off": {
+   "text": "-0.32",
+   "word_ids": [
+    "w116"
+   ]
+  },
+  "grand_total": {
+   "text": "20,741.00",
+   "word_ids": [
+    "w119"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Copper cable 2.5 sq mm (90 m)",
+     "word_ids": [
+      "w59",
+      "w60",
+      "w61",
+      "w62",
+      "w63",
+      "w64",
+      "w65"
+     ]
+    },
+    "hsn": {
+     "text": "85444999",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "qty": {
+     "text": "5",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "uqc": {
+     "text": "ROL",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "unit_price": {
+     "text": "2,948.18",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "taxable_value": {
+     "text": "14,740.90",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "cgst": {
+     "text": "368.52",
+     "word_ids": [
+      "w72"
+     ]
+    },
+    "sgst": {
+     "text": "368.52",
+     "word_ids": [
+      "w73"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w74"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "A4 copier paper 75 GSM (ream)",
+     "word_ids": [
+      "w76",
+      "w77",
+      "w78",
+      "w79",
+      "w80",
+      "w81"
+     ]
+    },
+    "hsn": {
+     "text": "48025690",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "qty": {
+     "text": "10",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "uqc": {
+     "text": "PAC",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "unit_price": {
+     "text": "320.45",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "taxable_value": {
+     "text": "3,204.50",
+     "word_ids": [
+      "w86"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w87"
+     ]
+    },
+    "cgst": {
+     "text": "288.41",
+     "word_ids": [
+      "w88"
+     ]
+    },
+    "sgst": {
+     "text": "288.41",
+     "word_ids": [
+      "w89"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w90"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w92",
+      "w93",
+      "w94",
+      "w95"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "qty": {
+     "text": "2",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "unit_price": {
+     "text": "627.99",
+     "word_ids": [
+      "w99"
+     ]
+    },
+    "taxable_value": {
+     "text": "1,255.98",
+     "word_ids": [
+      "w100"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w101"
+     ]
+    },
+    "cgst": {
+     "text": "113.04",
+     "word_ids": [
+      "w102"
+     ]
+    },
+    "sgst": {
+     "text": "113.04",
+     "word_ids": [
+      "w103"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w104"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 6.16,
+  "prompt_tokens": 1775,
+  "completion_tokens": 1362,
+  "cache_key": "ea5b52808b0bfd8a174957cbc6fd306cbc7baed8abd85cd31d1bf4a0b9f40e3c"
+ }
+}

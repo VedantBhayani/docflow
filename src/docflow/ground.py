@@ -13,6 +13,15 @@ from docflow.models import Evidence, Field, FieldStatus, Word
 
 FREE_TEXT_FIELDS = {"supplier_name", "recipient_name", "description", "place_of_supply", "supplier_address", "recipient_address", "narration"}
 FUZZY_MIN = 90.0
+AMOUNT_FIELDS = {"taxable_total", "cgst_total", "sgst_total", "igst_total", "round_off", "grand_total",
+                 "unit_price", "taxable_value", "cgst", "sgst", "igst", "amount", "balance", "opening_balance", "closing_balance"}
+
+
+def _same_amount(a: str, b: str) -> bool:
+    from docflow.parse import parse_amount
+
+    x, y = parse_amount(a), parse_amount(b)
+    return x is not None and x == y
 
 
 def _norm(s: str) -> str:
@@ -86,6 +95,9 @@ def ground_ref(name: str, text: str | None, word_ids: list[str], index: dict[str
     elif sub := _whole_word_subspan(words, value):
         score = 95.0  # span also covers a label such as "GSTIN:"; evidence is the value's own words
         words = sub
+    elif base in AMOUNT_FIELDS and (hit := next((w for w in words if _same_amount(text, w.text)), None)):
+        score = 85.0  # extractor cleaned OCR punctuation; the printed number is exactly the same amount
+        words, word_ids = [hit], [hit.id]
     elif full := _complete_span(words, value, index):
         score = 90.0  # pointer was incomplete; the exact value is printed in the adjacent words
         words, word_ids = full, [w.id for w in full]

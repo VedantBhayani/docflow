@@ -1,36 +1,65 @@
 """Load a Source Document into pages of Words with normalised boxes.
 
-Pages with a real text layer use PyMuPDF words. Pages without one go to OCR
-(build ticket 05); until then they are returned empty with source "needs_ocr".
+Pages with a real text layer use PyMuPDF words. Pages without one are oriented,
+deskewed and read by RapidOCR (docflow.ocr); their boxes refer to the corrected image.
 """
 
 import hashlib
+import re
 from pathlib import Path
 
 import pymupdf
 
 from docflow.models import Document, Page, Word
+from docflow.ocr import ocr_page
 
 MIN_TEXT_LAYER_WORDS = 20
+_GLUED_LABEL = re.compile(r"^([A-Za-z][A-Za-z .#/]{1,24}:)[-.,;]*([A-Za-z0-9].*)$")
+
+
+def split_glued_labels(words: list[Word]) -> list[Word]:
+    """OCR often drops the space after a label ("GSTIN:07RADCT..."). Split it into label and value,
+    dividing the box by character count. Times ("12:30") and URLs ("https://") are left alone."""
+    out = []
+    for w in words:
+        m = _GLUED_LABEL.match(w.text)
+        if not m or m.group(2).startswith("//"):
+            out.append(w)
+            continue
+        label, value = m.group(1), m.group(2)
+        x0, y0, x1, y1 = w.bbox
+        cut = x0 + (x1 - x0) * len(label) / len(w.text)
+        out.append(Word(id=w.id, text=label, page=w.page, bbox=(x0, y0, cut, y1), confidence=w.confidence))
+        out.append(Word(id=w.id, text=value, page=w.page, bbox=(cut, y0, x1, y1), confidence=w.confidence))
+    return out
 
 
 def load(path: str | Path) -> Document:
     path = Path(path)
     data = path.read_bytes()
     pdf = pymupdf.open(stream=data, filetype="pdf")
+    sha = hashlib.sha256(data).hexdigest()
     pages, n = [], 0
     for page in pdf:
         w, h = page.rect.width, page.rect.height
         raw = page.get_text("words", sort=True)  # x0, y0, x1, y1, text, block, line, word_no
         if len(raw) < MIN_TEXT_LAYER_WORDS:
-            pages.append(Page(index=page.number, width=w, height=h, source="needs_ocr", words=[]))
+            r = ocr_page(path, page.number, sha)
+            raw_words = [Word(id="", text=ow["text"], page=page.number, bbox=tuple(ow["bbox"]), confidence=ow["confidence"]) for ow in r["words"]]
+            words = []
+            for w0 in split_glued_labels(raw_words):
+                n += 1
+                words.append(Word(id=f"w{n}", text=w0.text, page=w0.page, bbox=w0.bbox, confidence=w0.confidence))
+            pages.append(Page(index=page.number, width=r["width"], height=r["height"], source="ocr", words=words,
+                              mean_confidence=r["mean_confidence"],
+                              transform={"quarter_turns": r["quarter_turns"], "deskew_deg": r["deskew_deg"], "dpi": r["dpi"]}))
             continue
         words = []
         for x0, y0, x1, y1, text, *_ in raw:
             n += 1
             words.append(Word(id=f"w{n}", text=text, page=page.number, bbox=(x0 / w, y0 / h, x1 / w, y1 / h)))
         pages.append(Page(index=page.number, width=w, height=h, source="pdf_text", words=words))
-    return Document(path=str(path), sha256=hashlib.sha256(data).hexdigest(), pages=pages)
+    return Document(path=str(path), sha256=sha, pages=pages)
 
 
 def rows(page: Page) -> list[list[Word]]:

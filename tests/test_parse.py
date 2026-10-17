@@ -50,3 +50,21 @@ def test_impossible_dates_return_none(printed):
 @pytest.mark.parametrize("printed, expected", [("18%", Decimal("18")), ("9 %", Decimal("9")), ("2.5", Decimal("2.5"))])
 def test_rates(printed, expected):
     assert parse_rate(printed) == expected
+
+
+@pytest.mark.parametrize("ocr_text, expected", [
+    ("22.014.48", Decimal("22014.48")),      # heavy-scan OCR read commas as dots
+    ("1.23.45.678.90", Decimal("12345678.90")),
+    ("3.231.00", Decimal("3231.00")),
+])
+def test_ocr_dots_as_thousand_separators_are_repaired(ocr_text, expected):
+    assert parse_amount(ocr_text) == expected
+
+
+def test_a_single_dot_is_still_the_decimal_point():
+    assert parse_amount("45.81") == Decimal("45.81")
+
+
+@pytest.mark.parametrize("ocr_text, expected", [("3.25,635.05", Decimal("325635.05")), ("1.02,264.20", Decimal("102264.20"))])
+def test_mixed_ocr_separators_in_lakh_grouping(ocr_text, expected):
+    assert parse_amount(ocr_text) == expected

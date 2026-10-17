@@ -1,0 +1,340 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Sarthi Office Supplies Pvt Ltd",
+   "word_ids": [
+    "w1",
+    "w2",
+    "w3",
+    "w4",
+    "w5"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 83, Business Park, Coimbatore, Tamil Nadu",
+   "word_ids": [
+    "w6",
+    "w7",
+    "w8",
+    "w9",
+    "w10",
+    "w11",
+    "w12"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "33YYMCS7213V2ZH",
+   "word_ids": [
+    "w13",
+    "w14"
+   ]
+  },
+  "recipient_name": {
+   "text": "Aarav Office Supplies Pvt Ltd",
+   "word_ids": [
+    "w21",
+    "w22",
+    "w23",
+    "w24",
+    "w25"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 146, MIDC Road, Hyderabad, Telangana",
+   "word_ids": [
+    "w31",
+    "w32",
+    "w33",
+    "w34",
+    "w35",
+    "w36"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "36VSJCA8165K1ZL",
+   "word_ids": [
+    "w42",
+    "w43"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0060",
+   "word_ids": [
+    "w19",
+    "w20"
+   ]
+  },
+  "invoice_date": {
+   "text": "19 Jun 2026",
+   "word_ids": [
+    "w28",
+    "w29",
+    "w30"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Telangana (36)",
+   "word_ids": [
+    "w40",
+    "w41"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w46"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "13,379.86",
+   "word_ids": [
+    "w100",
+    "w101",
+    "w102"
+   ]
+  },
+  "cgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w103",
+    "w104"
+   ]
+  },
+  "sgst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w105",
+    "w106"
+   ]
+  },
+  "igst_total": {
+   "text": "1,632.11",
+   "word_ids": [
+    "w107",
+    "w108"
+   ]
+  },
+  "round_off": {
+   "text": "0.03",
+   "word_ids": [
+    "w109",
+    "w110"
+   ]
+  },
+  "grand_total": {
+   "text": "15,012.00",
+   "word_ids": [
+    "w111",
+    "w112"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Corrugated cartons 5-ply",
+     "word_ids": [
+      "w61",
+      "w62",
+      "w63"
+     ]
+    },
+    "hsn": {
+     "text": "48191010",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "qty": {
+     "text": "40.00",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "unit_price": {
+     "text": "43.37",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "taxable_value": {
+     "text": "1.734.80",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "igst": {
+     "text": "86.74",
+     "word_ids": [
+      "w72"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w74",
+      "w75",
+      "w76"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w77"
+     ]
+    },
+    "qty": {
+     "text": "1.00",
+     "word_ids": [
+      "w78"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w79"
+     ]
+    },
+    "unit_price": {
+     "text": "7.408.56",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "taxable_value": {
+     "text": "7,408.56",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "igst": {
+     "text": "1.333.54",
+     "word_ids": [
+      "w85"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Stretch wrap film 23 micron",
+     "word_ids": [
+      "w86",
+      "w87",
+      "w88",
+      "w89",
+      "w90"
+     ]
+    },
+    "hsn": {
+     "text": "39201012",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "qty": {
+     "text": "25.00",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "uqc": {
+     "text": "KGS",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "unit_price": {
+     "text": "169.46",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "taxable_value": {
+     "text": "4.236.50",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "gst_rate": {
+     "text": "5%",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "cgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "sgst": {
+     "text": "0.00",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "igst": {
+     "text": "211.83",
+     "word_ids": [
+      "w99"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 6.17,
+  "prompt_tokens": 1699,
+  "completion_tokens": 1410,
+  "cache_key": "41dce6f2b6ca08cf32dacdb3da8542d0b22bc21c0a66c2324b6e395c0a0d9579"
+ }
+}

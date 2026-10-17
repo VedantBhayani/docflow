@@ -1,0 +1,326 @@
+{
+ "parsed": {
+  "supplier_name": {
+   "text": "Aarav Fabrication Pvt Ltd",
+   "word_ids": [
+    "w3",
+    "w4",
+    "w5",
+    "w6"
+   ]
+  },
+  "supplier_address": {
+   "text": "Unit 197, Trade Centre, New Delhi, Delhi",
+   "word_ids": [
+    "w10",
+    "w11",
+    "w12",
+    "w13",
+    "w14",
+    "w15",
+    "w16"
+   ]
+  },
+  "supplier_gstin": {
+   "text": "07BVVCA2241E2ZJ",
+   "word_ids": [
+    "w21"
+   ]
+  },
+  "recipient_name": {
+   "text": "Trikon Textiles Pvt Ltd",
+   "word_ids": [
+    "w35",
+    "w36",
+    "w37",
+    "w38"
+   ]
+  },
+  "recipient_address": {
+   "text": "Unit 213, Industrial Estate, New Delhi, Delhi",
+   "word_ids": [
+    "w39",
+    "w40",
+    "w41",
+    "w42",
+    "w43",
+    "w44",
+    "w45"
+   ]
+  },
+  "recipient_gstin": {
+   "text": "07RADCT5913R3Z8",
+   "word_ids": [
+    "w46"
+   ]
+  },
+  "invoice_no": {
+   "text": "DFTEST-2627-0017",
+   "word_ids": [
+    "w9"
+   ]
+  },
+  "invoice_date": {
+   "text": "12/06/2026",
+   "word_ids": [
+    "w19"
+   ]
+  },
+  "place_of_supply": {
+   "text": "Delhi (07)",
+   "word_ids": [
+    "w25",
+    "w26"
+   ]
+  },
+  "reverse_charge": {
+   "text": "No",
+   "word_ids": [
+    "w32"
+   ]
+  },
+  "irn": {
+   "text": null,
+   "word_ids": []
+  },
+  "taxable_total": {
+   "text": "1,32,827.94",
+   "word_ids": [
+    "w102"
+   ]
+  },
+  "cgst_total": {
+   "text": "11,954.52",
+   "word_ids": [
+    "w104"
+   ]
+  },
+  "sgst_total": {
+   "text": "11,954.52",
+   "word_ids": [
+    "w106"
+   ]
+  },
+  "igst_total": {
+   "text": "0.00",
+   "word_ids": [
+    "w108"
+   ]
+  },
+  "round_off": {
+   "text": "0.02",
+   "word_ids": [
+    "w111"
+   ]
+  },
+  "grand_total": {
+   "text": "1,56,737.00",
+   "word_ids": [
+    "w114"
+   ]
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Ergonomic office chair",
+     "word_ids": [
+      "w61",
+      "w62",
+      "w63"
+     ]
+    },
+    "hsn": {
+     "text": "94013000",
+     "word_ids": [
+      "w64"
+     ]
+    },
+    "qty": {
+     "text": "12",
+     "word_ids": [
+      "w65"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w66"
+     ]
+    },
+    "unit_price": {
+     "text": "7,893.02",
+     "word_ids": [
+      "w67"
+     ]
+    },
+    "taxable_value": {
+     "text": "94,716.24",
+     "word_ids": [
+      "w68"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w69"
+     ]
+    },
+    "cgst": {
+     "text": "8,524.46",
+     "word_ids": [
+      "w70"
+     ]
+    },
+    "sgst": {
+     "text": "8,524.46",
+     "word_ids": [
+      "w71"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w72"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "LED panel light 18W",
+     "word_ids": [
+      "w74",
+      "w75",
+      "w76",
+      "w77"
+     ]
+    },
+    "hsn": {
+     "text": "94051900",
+     "word_ids": [
+      "w78"
+     ]
+    },
+    "qty": {
+     "text": "10",
+     "word_ids": [
+      "w79"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w80"
+     ]
+    },
+    "unit_price": {
+     "text": "647.22",
+     "word_ids": [
+      "w81"
+     ]
+    },
+    "taxable_value": {
+     "text": "6,472.20",
+     "word_ids": [
+      "w82"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w83"
+     ]
+    },
+    "cgst": {
+     "text": "582.50",
+     "word_ids": [
+      "w84"
+     ]
+    },
+    "sgst": {
+     "text": "582.50",
+     "word_ids": [
+      "w85"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w86"
+     ]
+    }
+   },
+   {
+    "description": {
+     "text": "Steel shelving unit",
+     "word_ids": [
+      "w88",
+      "w89",
+      "w90"
+     ]
+    },
+    "hsn": {
+     "text": "94032090",
+     "word_ids": [
+      "w91"
+     ]
+    },
+    "qty": {
+     "text": "5",
+     "word_ids": [
+      "w92"
+     ]
+    },
+    "uqc": {
+     "text": "NOS",
+     "word_ids": [
+      "w93"
+     ]
+    },
+    "unit_price": {
+     "text": "6,327.90",
+     "word_ids": [
+      "w94"
+     ]
+    },
+    "taxable_value": {
+     "text": "31,639.50",
+     "word_ids": [
+      "w95"
+     ]
+    },
+    "gst_rate": {
+     "text": "18%",
+     "word_ids": [
+      "w96"
+     ]
+    },
+    "cgst": {
+     "text": "2,847.56",
+     "word_ids": [
+      "w97"
+     ]
+    },
+    "sgst": {
+     "text": "2,847.56",
+     "word_ids": [
+      "w98"
+     ]
+    },
+    "igst": {
+     "text": "0.00",
+     "word_ids": [
+      "w99"
+     ]
+    }
+   }
+  ]
+ },
+ "meta": {
+  "model": "mistral-small-2603",
+  "prompt_version": "invoice.v3",
+  "seconds": 8.41,
+  "prompt_tokens": 1768,
+  "completion_tokens": 1348,
+  "cache_key": "158214baf229893fc5674a79080d516687d1fef8df46734ad414c72511f7d30f"
+ }
+}

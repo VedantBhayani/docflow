@@ -67,3 +67,30 @@ def test_rule_extractor_is_never_wrong_on_digital_documents(split):
                     wrong.append((d["id"], k, got[k].value, truth[k]))
     assert wrong == []
     assert produced / possible >= 0.85, f"coverage {produced}/{possible}"
+
+
+def test_transient_errors_are_retried_and_others_are_not(monkeypatch):
+    import docflow.extract as ex
+
+    monkeypatch.setattr(ex, "RETRY_DELAYS", (0, 0))
+
+    class ConnectError(Exception):
+        pass
+
+    calls = {"n": 0}
+
+    def flaky():
+        calls["n"] += 1
+        if calls["n"] < 3:
+            raise ConnectError("dns")
+        return "ok"
+
+    assert ex._with_retries(flaky) == "ok" and calls["n"] == 3
+
+    def bad_request():
+        e = Exception("400")
+        e.status_code = 400
+        raise e
+
+    with pytest.raises(Exception, match="400"):
+        ex._with_retries(bad_request)

@@ -34,3 +34,15 @@ def test_missing_key_field_is_e2_but_missing_optional_field_is_not():
 def test_conflict_is_e3():
     fields = {"supplier_gstin": F("supplier_gstin", FieldStatus.CONFLICT)}
     assert ids(evidence_flags(fields, [], INVOICE_KEY_FIELDS)) == ["E3"]
+
+
+def test_ungrounded_non_checked_field_is_only_a_warning():
+    fields = {"irn": F("irn", FieldStatus.UNGROUNDED), "supplier_address": F("supplier_address", FieldStatus.UNGROUNDED)}
+    flags = evidence_flags(fields, [{"description": F("lines.0.description", FieldStatus.UNGROUNDED)}], INVOICE_KEY_FIELDS)
+    assert {f.severity for f in flags} == {"WARNING"} and len(flags) == 3
+
+
+def test_ungrounded_value_that_feeds_a_check_is_blocking():
+    fields = {"igst_total": F("igst_total", FieldStatus.UNGROUNDED)}
+    flags = evidence_flags(fields, [{"taxable_value": F("lines.0.taxable_value", FieldStatus.UNGROUNDED)}], INVOICE_KEY_FIELDS)
+    assert {f.severity for f in flags} == {"BLOCKING"} and len(flags) == 2

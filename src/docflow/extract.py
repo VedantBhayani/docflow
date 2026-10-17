@@ -74,6 +74,26 @@ def _client():
     return Mistral(api_key=key)
 
 
+RETRY_DELAYS = (2, 8, 30)  # seconds; transient network errors, 429 and 5xx only
+
+
+def _transient(exc: Exception) -> bool:
+    status = getattr(exc, "status_code", None) or getattr(getattr(exc, "raw_response", None), "status_code", None)
+    if status is not None:
+        return status == 429 or status >= 500
+    return type(exc).__name__ in {"ConnectError", "ConnectTimeout", "ReadTimeout", "RemoteProtocolError", "ReadError", "WriteError", "PoolTimeout"}
+
+
+def _with_retries(call):
+    for attempt, delay in enumerate((*RETRY_DELAYS, None)):
+        try:
+            return call()
+        except Exception as exc:
+            if delay is None or not _transient(exc):
+                raise
+            time.sleep(delay)
+
+
 def extract(kind: str, serialised: str, model: str = MODEL) -> tuple[BaseModel, dict]:
     """Return the parsed extraction and call metadata (cache hit, usage, seconds)."""
     schema, prompt_version = SCHEMAS[kind]
@@ -85,12 +105,12 @@ def extract(kind: str, serialised: str, model: str = MODEL) -> tuple[BaseModel, 
         return schema.model_validate(record["parsed"]), {**record["meta"], "cache_hit": True}
 
     t0 = time.perf_counter()
-    res = _client().chat.parse(
+    res = _with_retries(lambda: _client().chat.parse(
         model=model,
         temperature=0,
         response_format=schema,
         messages=[{"role": "system", "content": system}, {"role": "user", "content": serialised}],
-    )
+    ))
     parsed = res.choices[0].message.parsed
     if parsed is None:
         raise RuntimeError(f"{model} returned no parseable {kind} extraction")

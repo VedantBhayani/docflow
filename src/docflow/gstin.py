@@ -22,7 +22,8 @@ def check_char(first14: str) -> str:
 
 
 def normalise(gstin: str) -> str:
-    return re.sub(r"\s+", "", gstin).upper()
+    """A GSTIN is alphanumeric by definition; drop spaces and stray OCR punctuation."""
+    return re.sub(r"[^0-9A-Za-z]", "", gstin).upper()
 
 
 def validate_gstin(gstin: str) -> list[str]:

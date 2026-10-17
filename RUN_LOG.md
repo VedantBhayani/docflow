@@ -181,7 +181,7 @@ Downloaded with the user's approval from https://einvoice1.gst.gov.in. Index fil
 
 ## 2026-10-17: FINAL held-out evaluation (ticket 10)
 
-Run once at commit `f8a4c40`, after the statement feature freeze. An earlier attempt at ~17:10 was killed externally (it took the background shell with it) before writing any report or score. Its partial LLM calls were cached and reused, and no result was seen before this run.
+Run once at commit `b2628f0`, after the statement feature freeze. An earlier attempt at ~17:10 was killed externally (it took the background shell with it) before writing any report or score. Its partial LLM calls were cached and reused, and no result was seen before this run.
 
 **Invoices** (83 held-out, 42 scanned; `results/2026-10-17/heldout/`):
 
